@@ -1,0 +1,11 @@
+4/6/2020
+* Fabled cards (we may have to use a kicker cost)
+* Cripple cards (right now the cards work but they all show up as Spectacle, which is not ideal)
+
+* All blue cards alphabetically between 63 Pilgrim's Muse and 71 Territorial Drake
+* All black cards except Knight of the Raven and reprints
+* All red cards except Knight of the Hawk and reprints
+* All green cards except Knight of the Verdigris and reprints
+* All gold cards
+* All hybrid cards
+* Whiterun Harbor (currently all players draw a card simultaneously)
