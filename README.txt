@@ -1,2 +1,2 @@
-SYNTAX
-Ignore apostrophes [ajanis_welcome.txt] and commas [sheoldred_whispering_one.txt], and replace all spaces with underscores _.
+When you're naming your file, ignore apostrophes [ajanis_welcome.txt] and commas [sheoldred_whispering_one.txt], and replace all spaces with underscores _.
+Most cards can be generated just by cobbling together parts from cards that already exist. Scryfall is your friend!
