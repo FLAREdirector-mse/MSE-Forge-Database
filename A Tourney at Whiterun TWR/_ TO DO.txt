@@ -1,5 +1,6 @@
 4/6/2020
 * Fabled cards (we may have to use a kicker cost)
+* Infiltrate cards
 * Cripple cards (right now the cards work but they all show up as Spectacle, which is not ideal)
 
 * All blue cards alphabetically between 63 Pilgrim's Muse and 71 Territorial Drake
