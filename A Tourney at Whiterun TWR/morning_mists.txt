@@ -1,0 +1,9 @@
+Name:Morning Mists
+ManaCost:1 W
+Types:Enchantment
+T:Mode$ ChangesZone | TriggerZones$ Battlefield | ValidCard$ Creature.YouCtrl | Origin$ Any | Destination$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever a creature enters the battlefield under your control, you gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1
+A:AB$ ChangeZone | Cost$ 2 U | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature you control to its owner's hand.
+SVar:PlayMain1:TRUE
+SVar:AIPriorityModifier:9
+Oracle:Whenever a creature enters the battlefield under your control, you gain 1 life.\n{2}{U}: Return target creature you control to its owner's hand.

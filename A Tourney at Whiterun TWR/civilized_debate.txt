@@ -1,0 +1,6 @@
+Name:Civilized Debate
+ManaCost:1 U
+Types:Sorcery
+A:SP$ Draw | Cost$ 1 U | Defined$ You | NumCards$ 1 | SubAbility$ DBDraw | SpellDescription$ Draw a card, then each player draws a card.
+SVar:DBDraw:DB$ Draw | Defined$ Player | NumCards$ 1
+Oracle:{T}: Draw a card, then each player draws a card.

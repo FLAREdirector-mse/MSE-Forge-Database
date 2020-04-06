@@ -1,0 +1,6 @@
+Name:Whiterun Harbor
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Draw | Cost$ T | NumCards$ 1 | Defined$ Player | SubAbility$ DBDraw | SubAbility$ DBCount | OptionalDecider$ Opponent | StackDescription$ SpellDescription | SpellDescription$ Each opponent may draw a card. For each player who does, draws a card.
+Oracle:{T}: Add {C}.\n{T}: Each opponent may draw a card. For each player who does, draw a card.\nNOTE: Card does not currently function as written. Card currently lets each player draw a card.

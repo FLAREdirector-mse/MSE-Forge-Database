@@ -1,0 +1,6 @@
+Name:Waifish Squire
+ManaCost:W
+Types:Creature Human Soldier
+PT:0/1
+S:Mode$ ReduceCost | ValidCard$ Knight | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Knight spells you cast cost {1} less to cast.
+Oracle:Knight spells you cast cost {1} less to cast.

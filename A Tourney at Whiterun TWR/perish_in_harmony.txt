@@ -1,0 +1,7 @@
+Name:Perish in Harmony
+ManaCost:2 U
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ TrigScry | TriggerDescription$ Whenever a creature dies, scry 1.
+SVar:TrigScry:DB$ Scry | ScryNum$ 1
+A:AB$ Draw | Cost$ 2 U ExileFromGrave<1/Creature> | CostDesc$ {T}, Exile a creature card from your graveyard: | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Whenever a creature dies, scry 1.\n{2}{U}, Exile a creature card from your graveyard: Draw a card.

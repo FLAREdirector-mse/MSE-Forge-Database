@@ -1,0 +1,6 @@
+Name:Cloak of the Exiled
+ManaCost:3
+Types:Artifact Equipment
+K:Equip:0
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddKeyword$ Hexproof | Description$ Equipped creature has hexproof.
+Oracle:Equipped creature has hexproof. (It can't be the target of spells or abilities your opponents control.)\nEquip {0}

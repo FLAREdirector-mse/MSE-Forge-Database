@@ -1,0 +1,9 @@
+Name:Proposer of Peace
+ManaCost:1 W
+Types:Creature Human Advisor
+PT:0/3
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ At the beginning of your upkeep, you gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 1
+T:Mode$ AttackersDeclared | AttackedTarget$ You | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever one or more creatures attack you, you gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 1
+Oracle:At the beginning of your upkeep, you gain 1 life.\nWhenever one or more creatures attack you, you gain 1 life.

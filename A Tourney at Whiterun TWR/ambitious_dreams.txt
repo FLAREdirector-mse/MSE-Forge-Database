@@ -1,0 +1,6 @@
+Name:Ambitious Dreams
+ManaCost:2 U
+Types:Instant
+K:Spectacle:1 U
+A:SP$Draw | Cost$ 2 U | NumCards$ 2 | SpellDescription$ Draw two cards.
+Oracle:Cripple {1}{U} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nDraw two cards.

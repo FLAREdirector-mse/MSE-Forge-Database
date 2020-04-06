@@ -1,0 +1,5 @@
+Name:Price of Power
+ManaCost:2 W
+Types:Instant
+A:SP$ Destroy | Cost$ 2 W | ValidTgts$ Creature.powerGE3 | TgtPrompt$ Select target creature with power 3 or greater.
+Oracle:Destroy target creature with power 3 or greater.

@@ -1,0 +1,6 @@
+Name:Merchant's Bane
+ManaCost:4 U U
+Types:Creature Kraken
+PT:4/4
+K:Hexproof
+Oracle:Hexproof (This creature can't be the target of spells or abilities your opponents control.)

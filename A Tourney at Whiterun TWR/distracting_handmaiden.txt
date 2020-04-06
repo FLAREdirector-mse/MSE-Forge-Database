@@ -1,0 +1,6 @@
+Name:Distracting Handmaiden
+ManaCost:2 U
+Types:Creature Human Noble
+PT:1/3
+A:AB$ Pump | Cost$ T | NumAtt$ -2 | IsCurse$ True | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Target creature gets -2/-0 until end of turn.
+Oracle:{T}: Target creature gets -2/-0 until end of turn.

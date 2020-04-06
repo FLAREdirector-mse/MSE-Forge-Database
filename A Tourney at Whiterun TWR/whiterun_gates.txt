@@ -1,0 +1,6 @@
+Name:Whiterun Gates
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ AddTurn | Cost$ 9 T Exile<1/CARDNAME> | NumTurns$ 1 | SpellDescription$ Take an extra turn after this one.
+Oracle:{T}: Add {C}.\n{9}, {T}, Exile Whiterun Gates: Take an extra turn after this one.

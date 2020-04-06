@@ -1,0 +1,8 @@
+Name:Thailen's Guard
+ManaCost:W
+Types:Creature Human Soldier
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigSac | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, you gain 2 life.
+SVar:TrigSac:DB$GainLife | Defined$ TriggeredCardController | LifeAmount$ 2 | SubAbility$ DBScry
+SVar:DBScry:DB$ Scry | ScryNum$ 1
+Oracle:When Anodet Lurker dies, you gain 2 life and scry 1.

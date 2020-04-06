@@ -1,0 +1,5 @@
+Name:Moment of Tranquility
+ManaCost:U
+Types:Instant
+A:SP$ Counter | Cost$ U | PlayerTurn$ True | TargetType$ Spell | ValidTgts$ Card | SpellDescription$ Counter target spell.
+Oracle:Counter target spell.

@@ -1,0 +1,6 @@
+Name:Hypersomnia
+ManaCost:2 U U
+Types:Sorcery
+A:SP$ Tap | Cost$ 2 U U | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Choose target creature | ValidTgts$ Creature | SubAbility$ TrigPump | SpellDescription$ Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.
+SVar:TrigPump:DB$ Pump | Defined$ Targeted | KW$ HIDDEN This card doesn't untap during your next untap step. | Permanent$ True
+Oracle:Tap up to two target creatures. Those creatures don't untap during their controller's next untap step.

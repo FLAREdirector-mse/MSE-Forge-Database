@@ -1,0 +1,6 @@
+Name:Shadowed Slums
+ManaCost:no cost
+Types:Land Swamp
+K:CARDNAME enters the battlefield tapped.
+A:AB$ LoseLife | Cost$ B T Reveal<1/Card.Black> | CostDesc$ {B}, {T}, Reveal a black card from your hand: | ValidTgts$ Player | TgtPrompt$ Select a player. | LifeAmount$ 1 | SpellDescription$ Target player loses 1 life.
+Oracle:({T}: Add {B}.)\nShadowed Slums enters the battlefield tapped.\n{B}, {T}, Reveal a black card from your hand: Target player loses 1 life.

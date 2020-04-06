@@ -1,0 +1,5 @@
+Name:Cauldish Informant
+ManaCost:3 U
+Types:Creature Human Noble
+PT:2/5
+Oracle:

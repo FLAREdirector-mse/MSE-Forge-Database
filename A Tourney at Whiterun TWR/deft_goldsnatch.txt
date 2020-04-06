@@ -1,0 +1,6 @@
+Name:Deft Goldsnatch
+ManaCost:U U
+Types:Creature Human Rogue
+PT:2/1
+K:Unblockable
+Oracle:Deft Goldsnatch can't be blocked.

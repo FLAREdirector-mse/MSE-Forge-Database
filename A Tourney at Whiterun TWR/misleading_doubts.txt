@@ -1,0 +1,6 @@
+Name:Misleading Doubts
+ManaCost:4 U
+Types:Instant
+A:SP$ ChangeZone | Cost$ 4 U | Origin$ Battlefield | Destination$ Library | ValidTgts$ Creature | LibraryPosition$ 2 | SpellDescription$ Put target creature into its owner's library third from the top.
+# Library Position is zero indexed. So 2 is third from the top
+Oracle:Put target creature into its owner's library third from the top.

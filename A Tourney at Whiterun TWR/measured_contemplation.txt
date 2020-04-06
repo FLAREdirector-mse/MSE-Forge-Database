@@ -1,0 +1,9 @@
+Name:Measured Contemplation
+ManaCost:2 U
+Types:Sorcery
+A:SP$ ChangeZoneAll | Cost$ 2 U | Defined$ You | Origin$ Hand | Destination$ Library | LibraryPosition$ -1 | RememberChanged$ True | Shuffle$ True | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ X | Defined$ You | SubAbility$ DBDrawAgain
+SVar:DBDrawAgain:DB$ Draw | NumCards$ 1 | Defined$ You | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+Oracle:Shuffle the cards from your hand into your library, then draw that many cards.\nDraw a card.

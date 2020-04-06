@@ -1,0 +1,8 @@
+Name:Grizzled Captain
+ManaCost:2 W W
+Types:Creature Human Soldier
+PT:3/3
+K:Renown:1
+T:Mode$ BecomeRenowned | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME becomes renowned, create two 1/1 white Soldier creature tokens.
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_soldier | TokenOwner$ You
+Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhen Grizzled Captain becomes renowned, create two 1/1 white Soldier creature tokens.

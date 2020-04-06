@@ -1,0 +1,6 @@
+Name:Interlocked Waterways
+ManaCost:no cost
+Types:Land Island
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Untap | Cost$ U T Reveal<1/Card.Blue> | CostDesc$ {U}, {T}, Reveal a blue card from your hand: | ValidTgts$ Creature | TgtPrompt$ Select target creature. | SpellDescription$ Untap target creature.
+Oracle:({T}: Add {U}.)\Interlocked Waterways enters the battlefield tapped.\n{U}, {T}, Reveal a blue card from your hand: Untap target creature.

@@ -1,0 +1,11 @@
+Name:Captain of the Militia
+ManaCost:1 W W
+Types:Creature Human Soldier
+PT:*/*
+S:Mode$ Continuous | EffectZone$ All | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to the number of creatures you control.
+SVar:X:Count$Valid Creature.YouCtrl
+SVar:BuffedBy:Creature
+SVar:NoZeroToughnessAI:True
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Vigilance | CheckSVar$ Y | SVarCompare$ EQ1 | Description$ Creatures you control have vigilance as long as CARDNAME is enchanted or equipped.
+SVar:Y:Count$Valid Card.Self+enchanted,Card.Self+equipped
+Oracle:Captain of the Militia’s power and toughness are each equal to the number of creatures you control.\nAdorned — Creatures you control have vigilance as long as Captain of the Militia is enchanted or equipped.

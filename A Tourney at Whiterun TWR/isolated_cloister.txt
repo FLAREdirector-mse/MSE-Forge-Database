@@ -1,0 +1,6 @@
+Name:Isolated Cloister
+ManaCost:no cost
+Types:Land Forest
+K:CARDNAME enters the battlefield tapped.
+A:AB$ GainLife | Cost$ G T Reveal<1/Card.Green> | CostDesc$ {G}, {T}, Reveal a green card from your hand: | LifeAmount$ 1 | SpellDescription$ You gain 1 life.
+Oracle:({T}: Add {G}.)\nIsolated Cloister enters the battlefield tapped.\n{G}, {T}, Reveal a green card from your hand: You gain 1 life.

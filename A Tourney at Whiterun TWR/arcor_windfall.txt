@@ -1,0 +1,8 @@
+Name:Arcor Windfall
+ManaCost:1 W
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 W | ValidTgts$ Creature.YouCtrl | TargetMin$ 0 | TargetMax$ 3 | Origin$ Battlefield | Destination$ Exile | TgtPrompt$ Select up to three target creatures you control. | RememberTargets$ True | SubAbility$ DBReturn | SpellDescription$ Exile up to three target creatures you control, then return those cards to the battlefield under your control tapped.
+SVar:DBReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ All | Tapped$ True | Destination$ Battlefield | GainControl$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+AI:RemoveDeck:All
+Oracle:Exile up to three target creatures you control, then return those cards to the battlefield under your control tapped.

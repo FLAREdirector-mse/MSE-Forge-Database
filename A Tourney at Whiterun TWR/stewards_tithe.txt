@@ -1,0 +1,6 @@
+Name:Steward's Tithe
+ManaCost:1 W
+Types:Instant
+A:SP$ Effect | Cost$ 1 W | Name$ Ethereal Haze Effect | ReplacementEffects$ RPrevent | AILogic$ Fog | SpellDescription$ Prevent all damage that would be dealt by creatures this turn.
+SVar:RPrevent:Event$ DamageDone | Prevent$ True | ActiveZones$ Command | ValidSource$ Creature | Description$ Prevent all damage that would be dealt by creatures this turn.
+Oracle:Prevent all damage that would be dealt by creatures this turn.

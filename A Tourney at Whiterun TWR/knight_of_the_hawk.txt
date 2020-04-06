@@ -1,0 +1,7 @@
+Name:Knight of the Hawk
+ManaCost:2 R
+Types:Creature Human Knight
+PT:2/2
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigChange | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, you may sacrifice it. If you do, destroy target creature that player controls.
+SVar:TrigChange:AB$ChangeZone | Cost$ Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Creature.Legendary+Red | ChangeNum$ 1
+Oracle:Whenever Knight of the Hawk deals combat damage to a player, you may sacrifice it. If you do, search your library for a red legendary creature card, reveal it, put it into your hand, then shuffle your library.
