@@ -1,0 +1,10 @@
+Name:Weary Steward
+ManaCost:2 W
+Types:Creature Human Advisor
+PT:0/4
+K:Flash
+K:Defender
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, prevent all combat damage target creature would deal this turn.
+SVar:TrigPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature whose combat damage will be prevented. | KW$ Prevent all combat damage that would be dealt by CARDNAME.
+SVar:AmbushAI:True
+Oracle:Flash\nDefender\nWhen Weary Steward enters the battlefield, prevent all combat damage target creature would deal this turn.
