@@ -2,5 +2,8 @@ Name:Pilgrim's Muse
 ManaCost:4 U U
 Types:Creature Serpent
 PT:5/3
-
+A:AB$ Pump | Cost$ U | ValidCard$ Card.Self | KW$ Unblockable | SpellDescription$ CARDNAME can't be blocked this turn.
+A:AB$ ChangeZone | Cost$ 1 U | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return CARDNAME to its owner's hand.
+A:AB$ Scry | Cost$ 2 U | ScryNum$ 2 | SpellDescription$ Scry 2.
+A:AB$ Draw | Cost$ 3 U | NumCards$ 1 | SpellDescription$ Draw a card.
 Oracle:{U}: Pilgrim's Muse can't be blocked this turn.\n{1}{U}: Return Pilgrim's Muse to its owner's hand.\n{2}{U}: Scry 2.\n{3}{U}: Draw a card.
