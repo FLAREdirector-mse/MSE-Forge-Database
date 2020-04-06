@@ -1,0 +1,6 @@
+Name:Pilgrim's Muse
+ManaCost:4 U U
+Types:Creature Serpent
+PT:5/3
+
+Oracle:{U}: Pilgrim's Muse can't be blocked this turn.\n{1}{U}: Return Pilgrim's Muse to its owner's hand.\n{2}{U}: Scry 2.\n{3}{U}: Draw a card.
