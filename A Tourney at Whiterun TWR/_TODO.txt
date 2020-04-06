@@ -3,9 +3,9 @@
 
 4/6/2020 11:48 PM GMT
 TODO:
-* Fabled cards (we may have to use a kicker cost)
-* Infiltrate cards
-* Cripple cards (right now the cards work but they all show up as Spectacle, which is not ideal)
+* Fabled mechanic (we may have to use a kicker cost)
+* Infiltrate mechanic
+* Cripple mechanic (right now the cards work but they all show up as Spectacle, which is not ideal)
 
 * All blue cards alphabetically between 64 Pilgrim's Muse and 71 Territorial Drake
 * All black cards except Knight of the Raven and reprints
