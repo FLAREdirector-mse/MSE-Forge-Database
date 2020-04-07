@@ -1,3 +1,24 @@
 Multicolored Cards: All except Untested Initiates
 Artifacts: All except Arcor Diamond
 Lands: Plagueduals
+
+
+Priorities:
+- Flush With Arcor (Heroic Intervention, Druid's Deliverance, Aegis of the Gods)
+- Invalidate (Ref Force Spike)
+- Inkwell Daggers (Ref Primeval Titan, Atraxa)
+- Unjust Sentence (Ref Soverign Bite)
+- Inciting Bard (Ref Goblin Bushwacker)
+- Steadfast Heart (Ref Safehold Elite)
+- Delusional Noble (Ref Bloodied Ghost)
+- Unquenched Greed (Ref Careful Study)
+- Blade of Long Night (Ref Horseshoe Crab)
+- Forgotten Consequences (Ref Righteous Blow)
+- Hollow Survivor (Ref Maro, Ref Broodbirth Viper)
+- Inspired Blade (Ref Lamplighter of Selhoff)
+- Wisdom In Reflection (Ref Loaming Shaman, Ref Ember Shot)
+- Artisan's Masterpiece (Ref Sissay's Ring, Ref Crystal Ball)
+- Battered Steel (Ref Heavy Mattock, Ref Bladed Bracers)
+- Discordant Bell (Ref Aminatou, Ref Sensei's Divining Top)
+- Plague Mask (Ref Melira, Ref Prowler's Helm:   CantPutCounter | ValidCard$ Creature.EquippedBy)
+- Rallying Horn (Ref Copperhorn Scout, Ref Argentum Armor)
