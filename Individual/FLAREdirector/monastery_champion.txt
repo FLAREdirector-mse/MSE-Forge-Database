@@ -1,0 +1,11 @@
+Name:Monastery Champion
+ManaCost:4 W W
+K:Flying
+K:Double Strike
+K:Prowess
+PT:1/4
+T:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ You | Execute$ TrigToken1 | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever you cast an instant or sorcery spell, you may pay {2/W}. If you do, create a 1/1 colorless Servo artifact creature token.
+SVar:TrigToken1:AB$ Token | Cost$ 2/W | TokenAmount$ 1 | TokenScript$ c_1_1_a_servo | TokenOwner$ You
+T:Mode$ SpellCast | ValidCard$ Artifact,Enchantment | ValidActivatingPlayer$ You | Execute$ TrigToken2 | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever you cast an artifact or enchantment spell, you may pay {1}{W}. If you do, create a 1/1 colorless Myr artifact creature token.
+SVar:TrigToken2:AB$ Token | Cost$ 1W | TokenAmount$ 1 | TokenScript$ c_1_1_a_thopter_flying | TokenOwner$ You
+Oracle:Flying, double strike, prowess\n
