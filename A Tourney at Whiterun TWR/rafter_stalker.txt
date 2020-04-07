@@ -4,4 +4,4 @@ Types:Creature Human Rogue
 K:Renown:1
 K:Creatures with power greater than CARDNAME's power can't block it.
 PT:1/3
-Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn’t renowned, put a +1/+1 counter on it and it becomes renowned.)\nRafter Stalker can't be blocked by creatures with greater power.
+Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn’t renowned, put a +1/+1 counter on it and it becomes renowned.)\nCreatures with power greater than Rafter Stalker's power can't block it.

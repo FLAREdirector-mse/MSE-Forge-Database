@@ -2,4 +2,4 @@ Name:Moment of Tranquility
 ManaCost:U
 Types:Instant
 A:SP$ Counter | Cost$ U | PlayerTurn$ True | TargetType$ Spell | ValidTgts$ Card | SpellDescription$ Counter target spell.
-Oracle:Counter target spell.
+Oracle:Cast this spell only during your turn.\nCounter target spell.
