@@ -1,0 +1,9 @@
+Name:Comfort the Fallen 
+ManaCost:W
+Types:Enchantment
+T:Mode$ CounterAdded | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | CounterType$ M1M1 | Execute$ TrigGainLife | TriggerDescription$ Whenever a -1/-1 counter is put on a creature you control, you gain 1 life.
+SVar:TrigGainLife:DB$GainLife | LifeAmount$ 1
+A:AB$ Untap | Cost$ 1 B | ValidTgts$ Permanent.Cleric | TgtPrompt$ Select target Cleric | SubAbility$ DBRemCounter | SpellDescription$ Untap target Cleric. You may remove a -1/-1 counter from that creature.
+SVar:DBRemCounter:DB$ RemoveCounter | Defined$ Targeted | CounterType$ M1M1 | CounterNum$ 1
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/PFP/4.jpg
+Oracle:Whenever a -1/-1 counter is put on a creature you control, you gain 1 life.\n{1}{B}, Pay 1 life: Untap target Cleric. You may remove a -1/-1 counter from that creature.

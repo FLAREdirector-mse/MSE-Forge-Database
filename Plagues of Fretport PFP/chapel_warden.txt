@@ -1,0 +1,10 @@
+Name:Chapel Warden
+ManaCost:1 W
+Types:Creature Human Soldier
+PT:1/2
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Vigilance | AddPower$ 1 | AddToughness$ 1 | CheckSVar$ X | SVarCompare$ GE 1 | References$ X | Description$ CARDNAME gets +1/+1 and has vigilance as long as you control another Soldier.
+SVar:X:Count$Valid Creature.YouCtrl+Soldier+Other
+A:AB$ DealDamage | Cost$ R T | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 1 | SubAbility$ DBTap | SpellDescription$ CARDNAME deals 1 damage to target creature. Tap that creature.
+SVar:DBTap:DB$Tap | Defined$ Targeted
+SVAR:Picture:https://msem-instigator.herokuapp.com/cards/PFP/3.jpg
+Oracle: Chapel Warden gets +1/+1 and has vigilance as long as you control another Soldier.  \n{R}, {T}: Chapel Warden deals 1 damage to target creature. Tap that creature.

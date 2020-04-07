@@ -1,0 +1,9 @@
+Name:Bearer of the Lantern
+ManaCost:1 W W
+Types:Creature Human Soldier
+PT:2/3
+K:Persist
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, you gain 3 life.
+SVar:TrigGainLife:DB$GainLife | LifeAmount$ 3
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/PFP/2.jpg
+Oracle:When Bearer of the Lantern enters the battlefield, you gain 3 life.\nPersist
