@@ -1,0 +1,14 @@
+[metadata]
+Code=MSE
+Date=2020-04-06 # creation of the MSE Forge Database
+Name=Individual MSE Cards
+Code2=MSE
+MciCode=mse
+Type=Other
+# BoosterCovers=5 # uhhhhh probably shouldn't draft this "set" of cards
+# Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+# The order of cards doesn't matter, just make sure that all the cards you downloaded .txt and .full.jpg files for are on this list somewhere.
+[cards]
+
+[tokens]
