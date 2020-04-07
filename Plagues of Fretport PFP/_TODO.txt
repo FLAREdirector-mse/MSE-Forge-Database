@@ -4,6 +4,25 @@ Lands: Plagueduals
 
 
 Priorities:
+- 
+- Untested Recruit (Angelic Page)
+- Valeriya's Militant (Safehold Elite)
+- Awash in Despair (Castaway's Despair)
+- Dispossessed Noble (Wall of Omens)
+- Empty the Streets (Coastal Breach)
+- Fretport Bounty Hunter (Faerie Seer)
+- Merchant's Guile (Brainstorm)
+- Postulate (Glimmer of Genius)
+- Scatter Riches (Cancel, Mana Short, Power Sink)
+- Wary Watchkeeper (Hedron Crab)
+- Whisper Collector (Aven Fisher)
+- Baneblade Stalker (Bloom Hulk)
+- Feverish Noble (Youthful Scholar, Sign In Blood)
+- Forgotten Sins (Raise Dead)
+- Withering Begger (Festering Mummy)
+- Chained Wildborn (Bonded Horncrest)
+- Ill Fated Travels (Through the Breach)
+- Revelry Reverie (Magmatic Insight)
 - Fretport Froppers (Flourishing Defenses)
 - Indominable Mercenary (Vanilla)
 - Influential Wildborn (Bloom Hulk, Safehold Elite)
