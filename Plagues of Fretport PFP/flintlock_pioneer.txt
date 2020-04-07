@@ -1,0 +1,10 @@
+Name:Flintlock Pioneer
+ManaCost:W
+Types:Creature Human Pirate
+PT:2/1
+K:First strike
+T:Mode$ DamageDealtOnce | ValidSource$ Card.Self | Execute$ DBTap | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals damage, tap it. It doesn't untap during its controller's next untap step.
+SVar:DBTap:DB$ Tap | Defined$ Self | SubAbility$ StayTapped
+SVar:StayTapped:DB$Pump | KW$ HIDDEN This card doesn't untap during your next untap step. | Defined$ Self | Permanent$ True
+SVar:Picture:http://msem-instigator.herokuapp.com/cards/PFP/10.jpg
+Oracle:First strike\nWhenever Flintlock Pioneer deals damage, tap it. It doesn't untap during its controller's next untap step.
