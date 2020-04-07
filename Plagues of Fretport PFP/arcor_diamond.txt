@@ -1,0 +1,7 @@
+Name:Arcor Diamond
+ManaCost:2
+Types:Artifact
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Draw | Cost$ 1 T Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:Picture:http://mse-modern.com/msem2/images/PFP/184.jpg
+Oracle:{T}: Add {C}.\n{1}, {T}, Sacrifice Arcor Diamond: Draw a card.
