@@ -1,13 +1,11 @@
 269 cards - 14 reprints - 5 basic lands = 250 cards to Forge
-69 / 250 nice
+71 / 250
 
-4/6/2020 11:48 PM GMT
 TODO:
 * Fabled mechanic (we may have to use a kicker cost)
 * Infiltrate mechanic
 * Cripple mechanic (right now the cards work but they all show up as Spectacle, which is not ideal)
 
-* All blue cards alphabetically between 65 Rapscallion Duo and 71 Territorial Drake
 * All black cards except Knight of the Raven and reprints
 * All red cards except Knight of the Hawk and reprints
 * All green cards except Knight of the Verdigris and reprints

@@ -1,0 +1,9 @@
+Name:Sails of Commerce
+ManaCost:2 U U
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Player | Execute$ TrigExile | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of each player's upkeep, exile target creature that player controls. Return that card to the battlefield under its owner's control at the beginning of the next upkeep.
+SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Creature.ActivePlayerCtrl | RememberChanged$ True | TgtPrompt$ Select target creature | SubAbility$ DelTrig | SpellDescription$ Exile target creature. Return that card to the battlefield under its owner's control at end of turn.
+SVar:DelTrig:DB$ DelayedTrigger | Mode$ Phase | Phase$ Upkeep | Execute$ TrigReturn | RememberObjects$ Remembered | TriggerDescription$ Return exiled card to the battlefield. | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:TrigReturn:DB$ ChangeZone | Defined$ DelayTriggerRemembered | Origin$ Exile | Destination$ Battlefield
+Oracle:At the beginning of each player’s upkeep, exile target creature that player controls. Return that card to the battlefield under its owner’s control at the beginning of the next upkeep.
