@@ -1,0 +1,6 @@
+Name:Postulate
+ManaCost:1 U U
+Types:Sorcery
+A:SP$ Scry | Cost$ 1 U U | ScryNum$ 2 | SubAbility$ DBDraw | AILogic$ BestOpportunity | SpellDescription$ Scry 2, then draw two cards.
+SVar:DBDraw:DB$Draw | NumCards$ 2 
+Oracle:Scry 2, then draw two cards.

@@ -1,0 +1,9 @@
+Name:Baneblade Stalker
+ManaCost:2 B B
+Types:Creature Human Rogue
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigProliferate | TriggerDescription$ When CARDNAME enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+SVar:TrigProliferate:DB$ Proliferate
+DeckHas:Ability$Proliferate
+DeckNeeds:Ability$Counters
+Oracle:When Baneblade Stalker enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
