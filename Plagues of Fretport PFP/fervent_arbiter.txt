@@ -1,7 +1,7 @@
 Name:Fervent Arbiter
 ManaCost:W W
 Types:Creature Human Cleric
-PT:2/2
+PT:3/3
 A:AB$ ChangeZone | Cost$ 1 T AddCounter<1/M1M1> SubCounter<1/M1M1/Creature.Other/another creature> | Mandatory$ True | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | ConditionPresent$ Card.Self | SubAbility$ DBEffect | SpellDescription$ Exile another target creature until CARDNAME leaves the battlefield.
 SVar:DBEffect:DB$ Effect | Triggers$ ComeBack | RememberObjects$ Targeted | ImprintCards$ Self | SVars$ TrigReturn,ExileSelf | ConditionPresent$ Card.Self | Duration$ Permanent | ForgetOnMoved$ Exile
 SVar:ComeBack:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.IsImprinted | Execute$ TrigReturn | TriggerZones$ Command | TriggerController$ TriggeredCardController | Static$ True | TriggerDescription$ That creature is exiled until EFFECTSOURCE leaves the battlefield.
