@@ -1,0 +1,8 @@
+Name:Untested Initiates
+ManaCost:1 BG
+Types:Creature Human Citizen
+PT:2/1
+K:Flash
+K:Deathtouch
+SVar:Picture:http://mse-modern.com/msem2/images/PFP/176.jpg
+Oracle:Flash (You may cast this spell any time you could cast an instant.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)

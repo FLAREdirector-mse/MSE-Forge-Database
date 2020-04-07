@@ -1,0 +1,6 @@
+Name:Decrepit Crags
+ManaCost:no cost
+Types:Land
+A:AB$ ChangeZone | Cost$ T Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Swamp,Mountain | ChangeNum$ 1 | SpellDescription$ Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.
+SVar:Picture:http://mse-modern.com/msem2/images/PFP/198.jpg
+Oracle:{T}, Sacrifice Decrepit Crags: Search your library for a Swamp or Mountain card and put it onto the battlefield tapped. Then shuffle your library. 
