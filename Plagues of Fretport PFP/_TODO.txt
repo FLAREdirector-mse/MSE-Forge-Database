@@ -4,6 +4,17 @@ Lands: Plagueduals
 
 
 Priorities:
+- Fretport Froppers (Flourishing Defenses)
+- Indominable Mercenary (Vanilla)
+- Influential Wildborn (Bloom Hulk, Safehold Elite)
+- Let Loose (Rabid Bite)
+- Ready For Battle (Commune With Gods, Ancient Stirrings)
+- Sewer Pack (Relentless Rats, Narcomeba)
+- Shared Reminiscence (Restock, Seasons Past)
+- Stalwart Physicker (Chainbreaker, Medicine Runner)
+- Track Prey (Aim High)
+- Valor of the Desperate (Adamant Will, Ember Shot)
+- Wayward Afflicted (Safehold Elite)
 - Flush With Arcor (Heroic Intervention, Druid's Deliverance, Aegis of the Gods)
 - Invalidate (Ref Force Spike)
 - Inkwell Daggers (Ref Primeval Titan, Atraxa)
