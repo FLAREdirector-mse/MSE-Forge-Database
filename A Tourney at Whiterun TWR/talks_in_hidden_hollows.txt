@@ -1,0 +1,9 @@
+Name:Talks in Hidden Hollows
+ManaCost:2 U
+Types:Instant
+K:Spectacle:B PayLife<2>
+A:SP$ Draw | Cost$ 2 U | NumCards$ 2 | SpellDescription$ Draw two cards, then discard a card. | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$Discard | Defined$ You | NumCards$ 1 | Mode$ TgtChoose
+DeckHas:Ability$Discard
+DeckHints:Keyword$Madness & Ability$Delirium
+Oracle:Cripple—{B}, Pay 2 life. (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nDraw two cards, then discard a card.
