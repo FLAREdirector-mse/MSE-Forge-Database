@@ -1,0 +1,8 @@
+Name:Arcor-Staff Adherent
+ManaCost:2 W
+Types:Creature Human Cleric
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ CreatureDBRemoveCounter | TriggerDescription$ When CARDNAME enters the battlefield, you may remove all -1/-1 counters from target creature.
+SVar:CreatureDBRemoveCounter:DB$ RemoveCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ M1M1 | CounterNum$ All | SpellDescription$ Remove all -1/-1 counters from target creature.
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/PFP/1.jpg
+Oracle:When Arcor-Staff Adherent enters the battlefield, you may remove all -1/-1 counters from target creature.
+PT:1/4

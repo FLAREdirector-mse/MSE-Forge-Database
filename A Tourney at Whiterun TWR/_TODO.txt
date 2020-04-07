@@ -7,7 +7,7 @@ TODO:
 * Infiltrate mechanic
 * Cripple mechanic (right now the cards work but they all show up as Spectacle, which is not ideal)
 
-* All blue cards alphabetically between 64 Pilgrim's Muse and 71 Territorial Drake
+* All blue cards alphabetically between 65 Rapscallion Duo and 71 Territorial Drake
 * All black cards except Knight of the Raven and reprints
 * All red cards except Knight of the Hawk and reprints
 * All green cards except Knight of the Verdigris and reprints

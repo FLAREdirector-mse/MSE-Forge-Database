@@ -1,0 +1,9 @@
+Name:Gabryel's Devout
+ManaCost:1 W W
+Types:Creature Human Knight
+PT:3/2
+K:First strike
+K:Persist
+S:Mode$ Continuous | Affected$ Creature.YouCtrl+counters_GE1_M1M1 | AddHiddenKeyword$ Double strike | Description$ Creatures you control with -1/-1 counters on them have double strike.
+SVar:Picture:http://msem-instigator.herokuapp.com/cards/PFP/12.jpg
+Oracle:First strike\nPersist\nCreatures you control with -1/-1 counters on them have double strike.

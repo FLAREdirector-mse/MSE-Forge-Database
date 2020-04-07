@@ -1,0 +1,8 @@
+Name:Dockyard Swindling
+ManaCost:1 W
+Types:Sorcery
+A:SP$ Exile | Cost$ 1 W | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | SubAbility$ NaturalLife | SpellDescription$ Exile target artifact or enchantment. You gain 1 life.
+SVar:NaturalLife:DB$GainLife | Defined$ You | LifeAmount$ 1
+DeckHas:Ability$LifeGain
+SVAR:Picture:https://msem-instigator.herokuapp.com/cards/PFP/6.jpg
+Oracle:Exile target artifact or enchantment. You gain 1 life.
