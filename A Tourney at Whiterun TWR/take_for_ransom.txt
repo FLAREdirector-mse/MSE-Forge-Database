@@ -1,0 +1,12 @@
+Name:Take for Ransom
+ManaCost:2 U
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 2 U | ValidTgts$ Creature | AILogic$ GainControl
+S:Mode$ Continuous | Affected$ Card.EnchantedBy | GainControl$ You | Description$ You control enchanted creature.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Chooser$ CardOwner | Execute$ TrigDraw | TriggerDescription$ At the beginning of your upkeep, enchanted creature’s owner may have you draw three cards. If they do, sacrifice CARDNAME.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 3 | SubAbility$ DBSac | ConditionCheckSVar$ X | ConditionSVarCompare$ LE0 | References$ X | SpellDescription$ CARDNAME's controller draws three cards and sacrifices CARDNAME.
+SVar:X:Remembered$Amount
+SVar:DBSac:DB$Sacrifice | Defined$ Self
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Enchant creature\nYou control enchanted creature.\nAt the beginning of your upkeep, enchanted creature’s owner may have you draw three cards. If they do, sacrifice Take for Ransom.
