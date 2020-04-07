@@ -1,0 +1,11 @@
+Name:Exile's Vanguard
+ManaCost:1 U
+Types:Creature Human Scout
+PT:2/1
+T:Mode$ AttackerUnblockedOnce | ValidAttackingPlayer$ You | ValidDefenders$ Player.Opponent | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Infiltrate (Whenever one or more creatures you control attack and aren’t blocked, CARDNAME gets +1/+1 until end of turn.)
+SVar:TrigPump:DB$Pump | Defined$ Self | NumAtt$ +1 | NumDef$ +1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigTap | TriggerDescription$ When CARDNAME enters the battlefield, tap target creature. That creature doesn't untap during its controller's next untap step.
+SVar:TrigTap:DB$ Tap | ValidTgts$ Creature | TgtPrompt$ Choose target creature. | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Targeted | KW$ HIDDEN This card doesn't untap during your next untap step. | Permanent$ True
+SVar:PlayMain1:TRUE
+Oracle:Infiltrate (Whenever one or more creatures you control attack and aren’t blocked, this creature gets +1/+1 until end of turn.)\nWhen Exile’s Vanguard enters the battlefield, tap target creature. That creature doesn’t untap during its controller’s next untap step.

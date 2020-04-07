@@ -1,7 +1,0 @@
-Multicolored Cards: All
-Hybrid cards: All
-Lands: Whiterun Harbor (currently all players draw a card simulaneously)
-
-Priorities:
-* Fabled (Startled Awake)
-* Infiltrate (Stinkdrinker Bandit)
