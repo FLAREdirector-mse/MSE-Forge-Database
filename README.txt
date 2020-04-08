@@ -1,3 +1,5 @@
+Every card you can use in Forge has three things: a .txt file that explains what it does that's located in Forge/res/cardsfolder/[a folder you create yourself, for ease of access, that's just for custom cards], a .full.jpg file that shows what it looks like that's located in Forge/cache/pics/[set code], and a .txt file for the set it belongs to that's located in Forge/res/editions/[set name]. If you're trying to use a card in Forge and it's not working properly, you're probably missing one of these three things.
+
 HOW TO USE
 To import custom cards into Forge, download the .txt files located here in Database/[origin*]/[set]/cards and put them into a separate folder in Forge/res/cardsfolder, next to cardsfolder.zip. ALSO download the .txt file whose name is the set written in full (ex. A Tourney at Whiterun.txt) and put it in Forge/res/editions. Without that set.txt file, Forge will display custom cards' sets as ???. Download art from Database/[set]/art and put it in Forge/cache/pics/cards/[set code].
 
