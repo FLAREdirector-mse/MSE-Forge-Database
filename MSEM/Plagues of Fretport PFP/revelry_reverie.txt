@@ -1,0 +1,6 @@
+Name:Revelry Reverie
+ManaCost:1 R
+Types:Instant
+A:SP$ Draw | Cost$ 1 R Discard<1/Land> | CostDesc$ As an additional cost to cast CARDNAME, discard a land card. | NumCards$ 2 | Defined$ You | SpellDescription$ Draw two cards.
+AI:RemoveDeck:All
+Oracle:As an additional cost to cast Revelry Reverie, discard a land card.\nDraw two cards. 
