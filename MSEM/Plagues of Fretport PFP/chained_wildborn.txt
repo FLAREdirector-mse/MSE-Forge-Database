@@ -1,0 +1,6 @@
+Name:Chained Wildborn
+ManaCost:1 R R
+Types:Creature Human Mutant
+PT:4/4
+K:CARDNAME can't attack or block alone.
+Oracle:Chained Wildborn can't attack or block alone.

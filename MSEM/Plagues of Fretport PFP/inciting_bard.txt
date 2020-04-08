@@ -1,0 +1,9 @@
+Name:Inciting Bard
+ManaCost:1 RG RG
+Types:Creature Human Citizen
+PT:3/2
+K:Haste
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | Execute$ TrigPumpAll | TriggerDescription$ When CARDNAME enters the battlefield, other creatures you control get +1/+0 and gain haste until end of turn.
+SVar:TrigPumpAll:DB$PumpAll | ValidCards$ Creature.Other+YouCtrl | NumAtt$ 1 | KW$ Haste
+SVar:PlayMain1:TRUE
+Oracle:When Inciting Bard enters the battlefield, other creatures you control get +1/+0 and gain haste until end of turn.

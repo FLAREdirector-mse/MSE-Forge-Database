@@ -1,0 +1,8 @@
+Name:Inspired Blade
+ManaCost:1 GU
+Types:Creature Human Warrior
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | IsPresent$ Permanent.Warrior+Other+YouCtrl | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, if you control another Warrior, draw a card.
+SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 1
+DeckHints:Type$Warrior
+Oracle:When Inspired Blade enters the battlefield, if you control another Warrior, draw a card.
