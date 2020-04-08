@@ -1,8 +1,0 @@
-Name:Dispossessed Noble
-ManaCost:2 U
-Types:Creature Human Noble
-PT:2/3
-K:Defender
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card.
-SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 1
-Oracle:Defender\nWhen Dispossessed Noble enters the battlefield, draw a card.
