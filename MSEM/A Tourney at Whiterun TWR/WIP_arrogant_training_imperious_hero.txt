@@ -1,0 +1,21 @@
+Name:Arrogant Training
+ManaCost:W
+Types:Instant
+A:SP$ Pump | Cost$ W | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | SubAbility$ DBUntap | SpellDescription$ Target creature gets +1/+1 until end of turn. Untap that creature.
+SVar:DBUntap:DB$ Untap | Defined$ Targeted
+A:SP$ Pump | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | SubAbility$ DBUntap | SpellDescription$ Target creature gets +1/+1 until end of turn. Untap that creature and attach Imperious Hero to it. | PrecostDesc$ Fabled | CostDesc$ {2}{W} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Target creature gets +1/+1 until end of turn. Untap that creature and attach CARDNAME to it.
+SVar:DBUntap:DB$ Untap | Defined$ Targeted | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform | AttachedTo$ Targeted
+AlternateMode:DoubleFaced
+Oracle:Target creature gets +1/+1 until end of turn. Untap that creature.\nFabled {2}{W} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
+
+ALTERNATE
+
+Name:Imperious Hero
+ManaCost:no cost
+Colors:white
+Types:Enchantment Aura
+K:Enchant creature you control
+A:SP$ Attach | Cost$ | ValidTgts$ Targeted | AILogic$ Pump
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | CanBlockAny$ True | Description$ Enchanted creature can block any number of creatures.
+Oracle:Enchant creature\nEnchanted creature can block any number of creatures each combat.

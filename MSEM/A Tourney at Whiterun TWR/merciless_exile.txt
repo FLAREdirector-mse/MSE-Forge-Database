@@ -1,0 +1,10 @@
+Name:Merciless Exile
+ManaCost:1 U/B
+Types:Creature Human Rogue
+K:Menace
+PT:3/3
+T:Mode$ AttackerUnblockedOnce | ValidAttackingPlayer$ You | ValidDefenders$ Player.Opponent | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Infiltrate (Whenever one or more creatures you control attack and aren’t blocked, CARDNAME gets +1/+1 until end of turn.)
+SVar:TrigPump:DB$Pump | Defined$ Self | NumAtt$ +1 | NumDef$ +1
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigScry | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, scry 2.
+SVar:TrigScry:DB$ Scry | ScryNum$ 2
+Oracle:Infiltrate (Whenever one or more creatures you control attack and aren’t blocked, this creature gets +1/+1 until end of turn.)\nWhenever Merciless Exile deals combat damage to a player, scry 2.

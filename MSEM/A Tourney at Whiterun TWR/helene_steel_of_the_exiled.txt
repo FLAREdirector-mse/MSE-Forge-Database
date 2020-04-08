@@ -1,0 +1,9 @@
+Name:Helene, Steel of the Exiled
+ManaCost:1 U
+Types:Legendary Creature Human Pirate
+PT:2/1
+T:Mode$ AttackerUnblockedOnce | ValidAttackingPlayer$ You | ValidDefenders$ Player.Opponent | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever one or more attacking creatures you control attack and aren't blocked, CARDNAME gets +1/+1 until end of turn.
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | AddTrigger$ AttackerUnblockedOnce | Description$ Other creatures you control have infiltrate. (Whenever one or more creatures you contro attack and aren’t blocked, this creature gets +1/+1 until end of turn.)
+SVar:AttackerUnblockedOnce:Mode$ AttackerUnblockedOnce | ValidAttackingPlayer$ You | ValidDefenders$ Player.Opponent | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever one or more attacking creatures you control attack and aren't blocked, this creature gets +1/+1 until end of turn.
+SVar:TrigPump:DB$Pump | Defined$ Self | NumAtt$ +1 | NumDef$ +1
+Oracle:Infiltrate (Whenever one or more attacking creatures you control aren’t blocked, this creature gets +1/+1 until end of turn.)\nOther creatures you control have infiltrate.

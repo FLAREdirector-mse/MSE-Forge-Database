@@ -1,0 +1,6 @@
+Name:Cauldish Schemes
+ManaCost:3 B B
+Types:Sorcery
+K:Spectacle:1 B B
+A:SP$ PumpAll | Cost$ 3 B B | ValidCards$ Creature | NumAtt$ -4 | NumDef$ -4 | IsCurse$ True | SpellDescription$ All creatures get -4/-4 until end of turn.
+Oracle:Cripple {1}{B}{B} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nAll creatures get -4/-4 until end of turn.

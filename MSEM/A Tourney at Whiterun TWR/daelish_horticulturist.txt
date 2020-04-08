@@ -1,0 +1,8 @@
+Name:Daelish Horticulturist
+ManaCost:1 G
+Types:Creature Human Druid
+PT:1/3
+S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | CheckSVar$ X | SVarCompare$ EQ1 | Description$ You may play an additional land on each of your turns as long as CARDNAME is enchanted or equipped.
+SVar:X:Count$Valid Card.Self+enchanted,Card.Self+equipped
+SVar:EnchantMe:Once
+Oracle:Adorned — You may play an additional land on each of your turns as long as Daelish Horticulturist is enchanted or equipped.

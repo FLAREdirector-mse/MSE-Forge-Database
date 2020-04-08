@@ -1,0 +1,8 @@
+Name:Rapscallion Duo
+ManaCost:U U
+Types:Creature Human Rogue
+K:Prowess
+PT:1/2
+T:Mode$ AttackerUnblockedOnce | ValidAttackingPlayer$ You | ValidDefenders$ Player.Opponent | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Infiltrate (Whenever one or more creatures you control attack and aren’t blocked, CARDNAME gets +1/+1 until end of turn.)
+SVar:TrigPump:DB$Pump | Defined$ Self | NumAtt$ +1 | NumDef$ +1
+Oracle:Infiltrate (Whenever one or more creatures you control attack and aren’t blocked, this creature gets +1/+1 until end of turn.)\nWhenever Captain of the Exiled deals combat damage to a player, draw a card.

@@ -1,0 +1,8 @@
+Name:Hand of the Exiled
+ManaCost:1 B
+Types:Creature Human Rogue
+K:Menace
+PT:1/2
+T:Mode$ AttackerUnblockedOnce | ValidAttackingPlayer$ You | ValidDefenders$ Player.Opponent | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Infiltrate (Whenever one or more creatures you control attack and aren’t blocked, CARDNAME gets +1/+1 until end of turn.)
+SVar:TrigPump:DB$Pump | Defined$ Self | NumAtt$ +1 | NumDef$ +1
+Oracle:Menace\nInfiltrate (Whenever one or more creatures you control attack and aren’t blocked, this creature gets +1/+1 until end of turn.)
