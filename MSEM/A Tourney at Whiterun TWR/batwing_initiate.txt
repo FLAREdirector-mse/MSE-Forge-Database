@@ -1,0 +1,10 @@
+Name:Batwing Initiate
+ManaCost:B B
+Types:Creature Human Knight
+K:Deathtouch
+K:Lifelink
+PT:1/1
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, put a +1/+1 counter on it.
+SVar:TrigPutCounter:DB$PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+A:AB$ Pump | Cost$ PayLife<4> | Defined$ Self | KW$ Flying | SpellDescription$ CARDNAME gains flying until end of turn.
+Oracle:Deathtouch, lifelink\nWhenever Batwing Initiate deals combat damage to a player, put a +1/+1 counter on it.\nPay 4 life: Batwing Initiate gains flying until end of turn.
