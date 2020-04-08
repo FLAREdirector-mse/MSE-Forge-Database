@@ -1,0 +1,7 @@
+Name:Fretport Bounty Hunter
+ManaCost:1 U
+Types:Creature Human Rogue
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigScry | TriggerDescription$ When CARDNAME enters the battlefield, scry 1.
+SVar:TrigScry:DB$ Scry | ScryNum$ 1
+Oracle:Flying\nWhen Fretport Bounty Hunter enters the battlefield, scry 1.
