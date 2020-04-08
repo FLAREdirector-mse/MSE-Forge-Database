@@ -1,0 +1,8 @@
+Name:Youthful Savior
+ManaCost:1 WU WU
+Types:Creature Human Noble
+PT:2/2
+S:Mode$ Continuous | Affected$ You | AddKeyword$ Hexproof | Description$ You have hexproof.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddKeyword$ Hexproof | Description$ Youthful Savior has hexproof as long as it’s enchanted or equipped.
+SVar:EquipMe:Once
+Oracle:You have hexproof.\nAdorned — Youthful Savior has hexproof as long as it’s enchanted or equipped.
