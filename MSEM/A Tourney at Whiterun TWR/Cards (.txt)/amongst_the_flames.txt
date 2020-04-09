@@ -1,0 +1,6 @@
+Name:Pyroclasm
+ManaCost:2 R
+Types:Sorcery
+K:Spectacle:R
+A:SP$ DamageAll | Cost$ 2 R | NumDmg$ 2 | ValidCards$ Creature | ValidDescription$ each creature. | SpellDescription$ CARDNAME deals 2 damage to each creature.
+Oracle:Cripple {R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nAmongst the Flames deals 2 damage to each creature.

@@ -1,0 +1,7 @@
+Name:Arrogant Fencer
+ManaCost:2 R
+Types:Creature Human Noble Soldier
+K:Double Strike
+K:Renown:2
+PT:1/2
+Oracle:Double strike\nRenown 2 (When this creature deals combat damage to a player, if it isn’t renowned, put two +1/+1 counters on it and it becomes renowned.)
