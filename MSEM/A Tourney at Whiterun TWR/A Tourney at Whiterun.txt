@@ -1,0 +1,271 @@
+[metadata]
+Code=TWR
+Date=2017-04-10
+Name=MSEM: A Tourney at Whiterun
+Code2=TWR
+MciCode=twr
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 C Arcor Windfall
+2 C Arrogant Training
+3 C Attended Knight
+4 U Captain of the Militia
+5 U Cauldish Banneret
+6 U Confident Cavalier
+7 C Daelish Archer
+8 C Dance of Grace
+9 R Deflecting Strike
+10 U Gilded Champion
+11 C Grizzled Captain
+12 U Grouchy Warden
+13 R Hasty Intervention
+14 C Ill-Advised Tactics
+15 U Knight of the Stag
+16 R Lord Jared, the Griffin Knight
+17 C Lord's Griffin
+18 C Mercenary Lancer
+19 U Morning Mists
+20 C Pacifism
+21 M Portent of the Long Winter
+22 U Price of Power
+23 R Proposer of Peace
+24 R Publicly Disgraced
+25 U Sage's Foresight
+26 U Seek Glory
+27 C Steward's Tithe
+28 M Tearful Reunion
+29 C Thailen's Guard
+30 C Tightrope Acrobat
+31 R Towering Prison
+32 U Venerated Knight
+33 C Visserine's Royal Guard
+34 C Waifish Squire
+35 C Weary Steward
+36 C Whiterun Ordainer
+37 U Across the Bay
+38 C Ambitious Dreams
+39 C Arrive Unseen
+40 C Captain of the Exiled
+41 C Cauldish Informant
+42 C Civilized Debate
+43 C Curiosity
+44 C Daelish Messenger
+45 U Deft Goldsnatch
+46 C Dissolve
+47 C Distracting Handmaiden
+48 C Drake Youngling
+49 C Drunken Night
+50 C Exile's Vanguard
+51 C Fall of Whiterun Harbor
+52 M Flash of Inspiration
+53 R Helene, Steel of the Exiled
+54 C Hoff's Scout
+55 U Hypersomnia
+56 U Knight of the Staff
+57 U Measured Contemplation
+58 C Merchant's Bane
+59 U Messenger's Haste
+60 R Misleading Doubts
+61 R Moment of Tranquility
+62 R Perish in Harmony
+63 M Pilgrim's Muse
+64 C Rafter Stalker
+65 U Rapscallion Duo
+66 U Sails of Commerce
+67 U Social Graces
+68 U Sunken Ambitions
+69 R Take for Ransom
+70 U Talks in Hidden Hollows
+71 R Territorial Drake
+72 C Voyage's End
+73 C Battlement Prowler
+74 R Batwing Initiate
+75 U Bearer of Fables
+76 C Cauldish Cavalier
+77 C Cauldish Hookblade
+78 R Cauldish Schemes
+79 C Change of Fortunes
+80 C Commoners' Justice
+81 U Coven Adherent
+82 M Death's Door
+83 C Decorated Duelist
+84 C Duress
+85 C Ferris's Crewmate
+86 C Forbidden Knowledge
+87 U Forgo the Past
+88 U Hand of the Exiled
+89 C Harrowing Knight
+90 C Inexperienced Martyr
+91 U Knight of the Raven
+92 C Mercenary Coercer
+93 R Mismatched Bandit
+94 M Mutual Destruction
+95 U Old Grudges
+96 C Punish the Bold
+97 U Reverence Seeker
+98 R Seal the Tomb
+99 C Secluded Wildborn
+100 R Ser Joffrey, Plague of Nines
+101 U Shrouded Cackler
+102 C Three-Blade Boon
+103 C Trystasp Coating
+104 U Twilight Raid
+105 U Under Cover of Dark
+106 U Weaken Defenses
+107 C Weaver of Tales
+108 R Wildborn Lancer
+109 C Amongst the Flames
+110 C Ardent Charge
+111 R Arrogant Fencer
+112 C Bloodied Twinblade
+113 C Caravan Merchant
+114 R Cauldish Arrogant
+115 U Coward's Compulsion
+116 C Daelish Hopeful
+117 U Desperate Reconnoiterer
+118 U Earnest Laborer
+119 C Empty the Barracks
+120 U Fall of the Axe
+121 C Feathered Dancer
+122 C Hound of Glory
+123 M Inspirational Copse
+124 U Knight of the Hawk
+125 U Maddened Elk
+126 C Melting Point
+127 R Noble's Hedonism
+128 U Painful Reminiscence
+129 U Pursued Paranoia
+130 C Rally the Volunteers
+131 M Red-Pelt Hart
+132 R Restless Hedonist
+133 C Shatter
+134 C Spur to Action
+135 C Steel-Art Exemplar 
+136 U Surge of Duty
+137 U Tactical Deployment
+138 C Tectonic Wound
+139 R Thailen, Heir to Daeland
+140 R Thailen's Reprisal
+141 U Trusted Comprade
+142 C Untested Commander
+143 C Visiting Dignitary
+144 C Wandering Goliath
+145 R Batterbrow Brigand
+146 C Beneath the Lilies
+147 U Catch Unawares
+148 C Commoners' Favored
+149 C Conniving Brigand
+150 R Crossroad Bard
+151 U Crossways Inn
+152 U Daelish Arbalest
+153 U Daelish Horticulturist
+154 R Declan, Wayward Squire
+155 U Escort Recruiter
+156 C Fen Guide
+157 R Grand Tourney
+158 M Green-Pelt Hart
+159 C Hedge Knight
+160 R Hermit's Travels
+161 C Horizon Militant
+162 C Host of Nature
+163 C Inner Dogmatism
+164 U Knight of the Verdigris
+165 U Lone Heroics
+166 C Minor Melee
+167 U Peace of the Glade
+168 C Ranger's Guile
+169 C Roads Twice Traveled
+170 C Satisfied Gleaner
+171 C Scarred Brawler
+172 U Silverwork Champion
+173 U Splitshaft Deadeye
+174 C Stoneskin Brawler
+175 C Sturdy Belligerent
+176 C Till the Fields
+177 U Tranquil Endeavors
+178 R Unburied Relics
+179 C Voyaging Devout
+180 R Weald Sentry
+181 R Declare, the Mother Bear
+182 R Duke Gerard Hoff
+183 R Ellis, Caravan Captain
+184 M Femourri Archer
+185 R Ferris, the Sapphire Storm
+186 M Frayed Nerves
+187 M Harmonized Intellect
+188 M Insurgent Ballads
+189 R King Visserine of Daeland
+190 R Lady Genvieve of Caulder
+191 R Lord Dalehorn, the Iron-Handed
+192 M Ready the Jousts
+193 R Ser Malcomn
+194 R Sera of Coppercove
+195 M Slayer of the Famed
+196 M Wildborn Swindler
+197 R Yvette, the Golden Gull
+198 R Absence of the Unmaker
+199 R Bend the Knee
+200 U Cauldish Warmonger
+201 C Exiled Warband
+202 U Fables of the Bold
+203 C Farmer's Repost
+204 R Generous Offer
+205 U Gild-Cloak Strider
+206 U Highborn Meditant
+207 C Hooded Inquirers
+208 C Imperious Falconer
+209 C Left for Carrion
+210 R Merciless Exile
+211 C Moment of Glory
+212 R Opportunistic Raiders
+213 C Plated Valiant
+214 U Plunge Through the Heart
+215 U Reckless Cultivator
+216 C Reflect Upon the Past
+217 R Requiem of the Fallen
+218 C Royal Summons
+219 U Scraps of Memory
+220 U Sway the Naive
+221 R Swift Deployment
+222 R Tenacious Guide
+223 U Travel Companions
+224 R Wayfaring Ordealist
+225 U Withering Agony
+226 C Youthful Dreams
+227 R Youthful Savior
+228 R Ambition's Crown
+229 C Ancestral Zweihander
+230 R Cloak of the Exiled
+231 U Dead Man's Armor
+232 C Iron Signet
+233 C Jailer's Manacles
+234 C A Lady's Favor
+235 R Sun-Piercing Bow
+236 C Thief's Harness
+237 C Vial of Arcor
+238 U Bustling Docks
+239 R Choked Estuary
+240 C Derelict Amphitheater
+241 R Foreboding Ruins
+242 R Fortified Village
+243 R Game Trail
+244 U Interlocked Waterways
+245 U Isolated Cloister
+246 R Port Town
+247 U Shadowed Slums
+248 M Whiterun Gates
+249 R Whiterun Harbor
+250 L Plains
+251 L Island
+252 L Swamp
+253 L Mountain
+254 L Forest
+
+[tokens]
+r_1_1_soldier_haste
+rg_2_2_elk
+w_1_1_soldier
+w_2_2_knight
