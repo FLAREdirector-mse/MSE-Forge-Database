@@ -1,0 +1,29 @@
+Name:Hermit's Travels
+ManaCost:3 G G
+Types:Sorcery
+A:SP$ Sacrifice | Cost$ 3 G G | ValidTgts$ Player | Amount$ SacX | References$ SacX | SacValid$ Land | RememberSacrificed$ True | Optional$ True | SubAbility$ DBShift | SpellDescription$ Target player sacrifices any number of lands. That player searches their library for up to that many land cards, puts them onto the battlefield tapped, then shuffles their library.
+A:SP$ Sacrifice | Cost$ 5 G G | ValidTgts$ Player | Amount$ SacX | References$ SacX | SacValid$ Land | RememberSacrificed$ True | Optional$ True | SubAbility$ DBShift2 | PrecostDesc$ Fabled | CostDesc$ {5}{G}{G} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the player it's targeting.) | StackDescription$ Target player sacrifices any number of lands. That player searches their library for up to that many land cards, puts them onto the battlefield tapped, then shuffles their library. Attach CARDNAME to that player.
+SVar:DBShift:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Land | DefinedPlayer$ TargetedPlayer | ChangeNum$ ShiftX | References$ ShiftX | Tapped$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:DBShift2:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Land | DefinedPlayer$ TargetedPlayer | ChangeNum$ ShiftX | References$ ShiftX | Tapped$ True | SubAbility$ DBCleanup2
+SVar:DBCleanup2:DB$ Cleanup | ClearRemembered$ True | SubAbility$ AnimateHack
+SVar:SacX:Count$Valid Land.TargetedPlayerCtrl
+SVar:ShiftX:Remembered$Amount
+SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
+SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
+SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+Oracle:Target player sacrifices any number of lands. That player searches their library for up to that many land cards, puts them onto the battlefield tapped, then shuffles their library.\nFabled {5}{G}{G} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that player.)
+
+ALTERNATE
+
+Name:Ascetic's Journey
+ManaCost:no cost
+Colors:green
+Types:Enchantment Aura
+K:Enchant player
+A:SP$ Attach | Cost$ | ValidTgts$ Player
+S:Mode$ Continuous | Affected$ Player.EnchantedBy | AdjustLandPlays$ 1 | Description$ You may play an additional land on each of your turns.
+S:Mode$ Continuous | Affected$ Land.EnchantedPlayerOwn | MayPlay$ True | AffectedZone$ Graveyard | Description$ You may play land cards from your graveyard.
+Oracle:Enchant player\nEnchanted player may play an additional land on each of their turns.\nEnchanted player may play land cards from their graveyard.

@@ -1,0 +1,8 @@
+# put this in Forge/res/tokenscripts
+
+Name:Elk
+ManaCost:no cost
+Types:Creature Elk
+Colors:red,green
+PT:2/2
+Oracle:

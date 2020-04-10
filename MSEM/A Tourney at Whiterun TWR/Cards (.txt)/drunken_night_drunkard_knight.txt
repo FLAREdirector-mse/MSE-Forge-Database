@@ -1,0 +1,22 @@
+Name:Drunken Night
+ManaCost:U
+Types:Sorcery
+A:SP$ Tap | Cost$ U | ValidTgts$ Creature | SpellDescription$ Tap target creature. | StackDescription$ Tap target creature.
+A:SP$ Tap | Cost$ 3 U | ValidTgts$ Creature | SubAbility$ AnimateHack | SpellDescription$ Tap target creature. Attach Drunkard Knight to it. | PrecostDesc$ Fabled | CostDesc$ {3}{U} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Tap target creature. Attach CARDNAME to that creature.
+SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
+SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
+SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+Oracle:Choose target creature card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield tapped.\nFabled {3}{B}{B} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
+
+ALTERNATE
+
+Name:Drunkard Knight
+ManaCost:no cost
+Colors:blue
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ | ValidTgts$ Creature | AILogic$ KeepTapped
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddHiddenKeyword$ CARDNAME doesn't untap during your untap step. | Description$ Enchanted creature doesn't untap during its controller's untap step.
+Oracle:Enchant creature\nEnchanted creature doesn't untap during its controller's untap step. 
