@@ -1,0 +1,6 @@
+Name:Empty the Barracks
+ManaCost:X R R
+Types:Sorcery
+A:SP$ Token | Cost$ X R R | TokenAmount$ X | TokenScript$ r_1_1_soldier_haste | TokenOwner$ You | LegacyImage$ r 1 1 soldier haste twr | References$ X | SpellDescription$ Create X 1/1 red Soldier creature tokens with haste.
+SVar:X:Count$xPaid
+Oracle:Create X 1/1 red Soldier creature tokens with haste. (They can attack and {T} as soon as they come under your control.)

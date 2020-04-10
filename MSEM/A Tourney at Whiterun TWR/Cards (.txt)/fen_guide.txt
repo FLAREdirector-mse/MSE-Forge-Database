@@ -1,0 +1,6 @@
+Name:Fen Guide
+ManaCost:1 G
+Types:Creature Human Druid Warrior
+PT:2/1
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+Oracle:{T}: Add {G}.

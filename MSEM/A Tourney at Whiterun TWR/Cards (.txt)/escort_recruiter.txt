@@ -1,0 +1,9 @@
+Name:Escort Recruiter
+ManaCost:2 G
+Types:Creature Human Warrior
+PT:2/3
+K:Renown:1
+T:Mode$ BecomeRenowned | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigDig | OptionalDecider$ You | TriggerDescription$ When CARDNAME becomes renowned, you may search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle your library.
+SVar:TrigDig:DB$Dig | DigNum$ 3 | ChangeNum$ 1 | Optional$ True | ChangeValid$ Creature
+Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn’t renowned, put a +1/+1 counter on it and it becomes renowned.)\n
+When Escort Recruiter becomes renowned, look at the top three cards of your library. You may reveal a creature card from among them and put it into your hand. Put the rest on the bottom of your library in any order.

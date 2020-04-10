@@ -1,0 +1,8 @@
+Name:Peace of the Glade
+ManaCost:G
+Types:Enchantment
+T:Mode$ Drawn | ValidCard$ Card.YouOwn | TriggerZones$ Battlefield | PlayerTurn$ True | Phase$ Upkeep,Main1,BeginCombat,EndCombat,Main2,End of Turn | Execute$ TrigGainLife | TriggerDescription$ Whenever you draw a card, you gain 1 life.
+T:Mode$ Drawn | ValidCard$ Card.YouOwn | TriggerZones$ Battlefield | OpponentTurn$ True | Execute$ TrigGainLife | TriggerDescription$ Whenever you draw a card, you gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1
+A:AB$ Draw | Cost$ 5 U | NumCards$ 1 | Defined$ You | SpellDescription$ Draw a card.
+Oracle:Whenever you draw a card except during your draw step, you gain 1 life.\n{5}{U}: Draw a card.

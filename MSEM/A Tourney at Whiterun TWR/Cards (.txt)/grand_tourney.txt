@@ -1,0 +1,6 @@
+Name:Grand Tourney
+ManaCost:3 G G
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ DBFight | TriggerDescription$ Whenever a creature enters the battlefield, it fights another target creature of its controller’s choice.
+SVar:DBFight:DB$ Fight | TargetingPlayer$ TriggeredCardController | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature.Other | TgtPrompt$ Choose target creature
+Oracle:Whenever a creature enters the battlefield, it fights another target creature of its controller’s choice.

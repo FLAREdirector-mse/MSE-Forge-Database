@@ -1,6 +1,6 @@
 [metadata]
 Code=TWR
-Date=2017-04-10
+Date=2017-04-10 # TODO: Find official release date
 Name=MSEM: A Tourney at Whiterun
 Code2=TWR
 MciCode=twr

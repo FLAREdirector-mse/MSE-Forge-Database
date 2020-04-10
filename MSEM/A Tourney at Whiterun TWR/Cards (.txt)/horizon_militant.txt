@@ -1,0 +1,6 @@
+Name:Horizon Militant
+ManaCost:3 G
+Types:Creature Human Warrior
+K:Trample
+PT:3/2
+Oracle:Trample (This creature can deal excess combat damage to the player or planeswalker it’s attacking.)

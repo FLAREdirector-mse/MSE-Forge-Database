@@ -1,0 +1,8 @@
+Name:Thailen, Heir to Daeland
+ManaCost:R
+Types:Legendary Creature Human Noble
+K:First Strike
+PT:*/2
+S:Mode$ Continuous | EffectZone$ All | CharacteristicDefining$ True | SetPower$ X | Description$ CARDNAME's power is equal to the number of other attacking or blocking creatures you control.
+SVar:X:Count$Valid Creature.YouCtrl+attacking,Creature.YouCtrl+blocking
+Oracle:First strike\nThailen, Heir to Daeland’s power is equal to the number of other attacking or blocking creatures you control.

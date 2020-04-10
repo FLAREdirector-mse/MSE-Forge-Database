@@ -1,0 +1,6 @@
+Name:Spur to Action
+ManaCost:R
+Types:Instant
+A:SP$ Pump | Cost$ R | ValidTgts$ Creature | TgtPrompt$ Select target creature. | KW$ Haste | KW$ HIDDEN CARDNAME attacks each combat if able. | KW$ HIDDEN CARDNAME blocks each combat if able. | SpellDescription$ Target creature gains haste until end of turn. That creature attacks or blocks this turn if able.
+SVar:PlayMain1:TRUE
+Oracle:Target creature gains haste until end of turn. That creature attacks or blocks this turn if able.

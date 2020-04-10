@@ -1,0 +1,14 @@
+Name:Red-Pelt Hart
+ManaCost:2 R
+Types:Creature Elk
+PT:4/3
+K:Trample
+K:Haste
+T:Mode$ DamageDealtOnce | CombatDamage$ True | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigBounce | TriggerDescription$ Whenever CARDNAME deals combat damaget, return it to its owner's hand.
+SVar:TrigBounce:DB$ ChangeZone | Defined$ Self | Origin$ Battlefield | Destination$ Hand
+T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ At the beginning of the end step, sacrifice CARDNAME.
+SVar:TrigSac:DB$ Sacrifice | SacValid$ Self
+SVar:EndOfTurnLeavePlay:True
+SVar:PlayMain1:TRUE
+
+Oracle:Trample, haste\nWhen Red-Pelt Hart deals combat damage to a player, return it to its owner’s hand.\nAt the beginning of your end step, sacrifice Red-Pelt Hart.
