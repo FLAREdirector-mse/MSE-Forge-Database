@@ -1,0 +1,10 @@
+Name:Influential Wildborn
+ManaCost:4 G
+Types:Creature Human Mutant Citizen
+PT:3/6
+K:Persist
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigProliferate | TriggerDescription$ When CARDNAME enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+SVar:TrigProliferate:DB$ Proliferate
+DeckHas:Ability$Proliferate
+DeckNeeds:Ability$Counters
+Oracle:When Influential Wildborn enters the battlefield, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)
