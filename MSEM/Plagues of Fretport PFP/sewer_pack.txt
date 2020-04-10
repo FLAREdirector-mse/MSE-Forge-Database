@@ -1,0 +1,12 @@
+Name:Sewer Pack
+ManaCost:1 G
+Types:Creature Beast
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Library | Destination$ Graveyard | ValidCard$ Card.Self | OptionalDecider$ You | Execute$ TrigChange | TriggerDescription$ When CARDNAME is put into your graveyard from your library, you may put it onto the battlefield.
+SVar:TrigChange:DB$ChangeZone | Origin$ Graveyard | Destination$ Battlefield | Defined$ Self
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | AddToughness$ X | References$ X | Description$ CARDNAME gets +1/+1 for each other creature on the battlefield named Sewer Pack.
+SVar:X:Count$Valid Creature.namedSewer Pack+Other
+SVar:BuffedBy:Creature.namedSewer Pack
+SVar:PlayMain1:TRUE
+DeckNeeds:Name$Sewer Pack
+Oracle:When Sewer Pack is put into your graveyard from your library, you may put it onto the battlefield.\nSewer Pack gets +1/+1 for each other creature on the battlefield named Sewer Pack.
