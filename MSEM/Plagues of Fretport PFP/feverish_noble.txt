@@ -1,0 +1,8 @@
+Name:Feverish Noble
+ManaCost:2 B 
+Types:Creature Human Noble
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME dies, you draw two cards and you lose 2 life.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 2 | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 2
+Oracle:When Feverish Noble dies, you draw two cards and you lose 2 life.
