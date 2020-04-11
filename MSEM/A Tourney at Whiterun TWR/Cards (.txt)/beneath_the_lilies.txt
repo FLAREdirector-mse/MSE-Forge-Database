@@ -1,0 +1,6 @@
+Name:Beneath the Lilies
+ManaCost:2 G
+Types:Sorcery
+A:SP$ Destroy | Cost$ 2 G | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment SubAbility$ DBDraw | SpellDescription$ Destroy target artifact or enchantment.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Destroy target artifact or enchantment.\nDraw a card.

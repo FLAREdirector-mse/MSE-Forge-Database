@@ -1,0 +1,9 @@
+Name:Belligerent's Augur
+ManaCost:1 G G
+Types:Creature Human Warrior Druid
+PT:3/3
+K:Trample
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | OptionalDecider$ You | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME or another Warrior you control deals combat damage to a player, you may pay {1}{U}. If you do, draw a card.
+T:Mode$ DamageDone | ValidSource$ Warrior.Other+YouCtrl | ValidTarget$ Player | CombatDamage$ True | OptionalDecider$ You | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME or another Warrior you control deals combat damage to a player, you may pay {1}{U}. If you do, draw a card.
+SVar:TrigDraw:AB$Draw | Cost$ 1 U | Defined$ You | NumCards$ 1
+Oracle:Trample\nWhenever Belligerent's Augur or another Warrior you control deals combat damage to a player, you may pay {1}{U}. If you do, draw a card.

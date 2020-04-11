@@ -1,0 +1,5 @@
+Name:Roads Twice Traveled
+ManaCost:1 G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 1 G | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target creature or land card in your graveyard | ValidTgts$ Card.Creature+YouCtrl,Card.Land+YouCtrl | SpellDescription$ Return target creature or land card from your graveyard to your hand.
+Oracle:Return target creature or land card from your graveyard to your hand.

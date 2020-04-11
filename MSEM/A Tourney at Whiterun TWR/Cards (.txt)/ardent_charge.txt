@@ -1,0 +1,6 @@
+Name:Ardent Charge
+ManaCost:1 R
+Types:Instant
+A:SP$ PumpAll | Cost$ 1 R | ValidCards$ Creature.YouCtrl+attacking | NumAtt$ +1 | SubAbility$ DBDraw | SpellDescription$ Attacking creatures you control get +1/+0 until end of turn. Draw a card.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:Creatures you control get +1/+0 until end of turn.\nDraw a card.

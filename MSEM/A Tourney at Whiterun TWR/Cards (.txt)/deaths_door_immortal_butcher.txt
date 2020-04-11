@@ -1,0 +1,22 @@
+Name:Death's Door
+ManaCost:1 B
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 B | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | ValidTgts$ Card.Creature+ThisTurnEntered_Graveyard_from_Battlefield | Tapped$ True| TgtPrompt$ Select target creature card in a graveyard that was put there from the battlefield this turn | SpellDescription$ Choose target creature card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield tapped.
+A:SP$ ChangeZone | Cost$ 3 B B | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | ValidTgts$ Card.Creature+ThisTurnEntered_Graveyard_from_Battlefield | Tapped$ True| TgtPrompt$ Select target creature card in a graveyard that was put there from the battlefield this turn | SubAbility$ AnimateHack | SpellDescription$ Choose target creature card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield tapped. Attach Immortal Butcher to it. | PrecostDesc$ Fabled | CostDesc$ {3}{B}{B} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Choose target creature card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield tapped. Attach CARDNAME to that creature.
+SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
+SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
+SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+Oracle:Choose target creature card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield tapped.\nFabled {3}{B}{B} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
+
+ALTERNATE
+
+Name:Immortal Butcher
+ManaCost:no cost
+Colors:black
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ | ValidTgts$ Creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ Trample,Indestructible | Description$ Enchanted creature gets +2/+2 and has trample and indestructible.
+Oracle:Enchant creature\nEnchanted creature gets +2/+2 and has trample and indestructible.

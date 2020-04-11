@@ -1,0 +1,6 @@
+Name:Scarred Brawler
+ManaCost:3 G
+Types:Creature Human Warrior
+PT:3/3
+A:AB$ Pump | Cost$ 2 G | NumAtt$ +2 | NumDef$ +2 | SpellDescription$ CARDNAME gets +2/+2 until end of turn.
+Oracle:{2}{G}: Scarred Brawler gets +2/+2 until end of turn.

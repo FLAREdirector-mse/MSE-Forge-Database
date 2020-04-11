@@ -1,0 +1,6 @@
+Name:Catch Unawares
+ManaCost:X G G G
+Types:Sorcery
+A:SP$ PumpAll | Cost$ X G G G | ValidCards$ Creature.YouCtrl | NumAtt$ +X | NumDef$ +X | References$ X | KW$ Trample | SpellDescription$ Creatures you control get +X/+X and gain trample until end of turn.
+SVar:X:Count$xPaid
+Oracle:Creatures you control get +X/+X and gain trample until end of turn. (They can deal excess combat damage to the player or planeswalker they’re attacking.)

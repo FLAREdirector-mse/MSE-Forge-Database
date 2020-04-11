@@ -1,0 +1,8 @@
+Name:Trusted Comrade
+ManaCost:2 R
+Types:Creature Human Soldier
+PT:2/3
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | CheckSVar$ AttackerTest | SVarCompare$ GE1 | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME and at least one other creature attack, create a 1/1 white Soldier creature token that’s tapped and attacking.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_soldier | TokenOwner$ You | TokenTapped$ True | TokenAttacking$ True | LegacyImage$ w 1 1 soldier twr
+SVar:AttackerTest:Count$Valid Creature.attacking+Other
+Oracle:Whenever Trusted Comrade and at least one other creature attack, create a 1/1 white Soldier creature token that’s tapped and attacking.

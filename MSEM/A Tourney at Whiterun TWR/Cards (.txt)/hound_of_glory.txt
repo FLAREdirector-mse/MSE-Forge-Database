@@ -1,0 +1,8 @@
+Name:Hound of Glory
+ManaCost:2 R
+Types:Creature Human Warrior
+K:Renown:1
+PT:2/2
+T:Mode$ BecomeRenowned | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigScry | TriggerDescription$ Whenever a creature you control becomes renowned, scry 1.
+SVar:TrigScry:DB$ Scry | Defined$ You | ScryNum$ 1
+Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn’t renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhenever a creature you control becomes renowned, scry 1.

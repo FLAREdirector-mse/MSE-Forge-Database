@@ -1,0 +1,8 @@
+Name:Mercenary Coercer
+ManaCost:3 B
+Types:Creature Human Knight
+PT:2/2
+K:Menace
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigDiscard | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals damage to a player, that player discards a card.
+SVar:TrigDiscard:DB$Discard | Defined$ TriggeredTarget | NumCards$ 1 | Mode$ TgtChoose
+Oracle:Menace (This creature can’t be blocked except by two or more creatures.)\nWhenever Mercenary Coercer deals combat damage to a player, that player discards a card.

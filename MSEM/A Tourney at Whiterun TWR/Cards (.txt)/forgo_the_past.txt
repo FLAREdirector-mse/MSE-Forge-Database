@@ -1,0 +1,6 @@
+Name:Forgo the Past
+ManaCost:1 B
+Types:Enchantment
+A:AB$ ChangeZone | Cost$ 1 | Origin$ Graveyard | Destination$ Exile | TgtPrompt$ Choose target card in a graveyard | ValidTgts$ Card | SubAbility$ DBScry | SpellDescription$ Exile target card from a graveyard. Its owner may scry 1.
+SVar:DBScry:DB$ Scry | ScryNum$ 1 | Defined$ TargetedController | Optional$ True
+Oracle:{1}: Exile target card from a graveyard. That card’s owner may scry 1.

@@ -1,0 +1,7 @@
+Name:Weaken Defenses
+ManaCost:1 B
+Types:Sorcery
+K:Spectacle:2 R
+A:SP$ LoseLife | Cost$ 1 B | ValidTgts$ Player | TgtPrompt$ Select a player | LifeAmount$ 2 | SpellDescription$ Target player loses 2 life. | RememberObjects$ Targeted | SubAbility$ DBDamage
+SVar:DBDamage:DB$ DamageAll | NumDmg$ 1 | ValidCards$ Creature.TargetedPlayerCtrl | ValidDescription$ each creature that player controls. | Condition$ Card.spectacle | SpellDescription$ If CARDNAME's cripple cost was paid, it also deals 1 damage to each creature that player controls.
+Oracle:Cripple {2}{R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nTarget player loses 2 life. If this spell’s cripple cost was paid, it deals 1 damage to each creature that player controls.

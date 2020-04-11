@@ -1,0 +1,11 @@
+Name:Mismatched Bandit
+ManaCost:1 B
+Types:Creature Human Mutant Rogue
+K:Menace
+PT:2/1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ At the beginning of your upkeep, if an opponent has more cards in hand than you, you draw a card and you lose 1 life.
+SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife | ConditionCheckSVar$ X | ConditionSVarCompare$ GTY | References$ X,Y
+SVar:DBLoseLife:DB$LoseLife | Defined$ You | LifeAmount$ 1
+SVar:Y:Count$CardsInYourHand
+SVar:X:PlayerCountOpponents$HighestCardsInHand
+Oracle:Menace\nAt the beginning of your upkeep, if an opponent has more cards in hand than you, you draw a card and you lose 1 life.

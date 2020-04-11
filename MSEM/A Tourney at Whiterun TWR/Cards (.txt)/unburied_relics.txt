@@ -1,0 +1,6 @@
+Name:Unburied Relics
+ManaCost:X G G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ X G G | Origin$ Library | Destination$ Hand | ChangeType$ Permanent.cmcLEX | References$ X | ChangeNum$ 1 | SpellDescription$ Search your library for a permanent card with converted mana cost X or less, reveal it, put it into your hand, then shuffle your library.
+SVar:X:Count$xPaid
+Oracle:Search your library for a permanent card with converted mana cost X or less, reveal it, put it into your hand, then shuffle your library.

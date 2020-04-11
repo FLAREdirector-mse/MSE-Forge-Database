@@ -1,0 +1,7 @@
+Name:Daelish Arbalest
+ManaCost:1 G
+Types:Creature Human Archer
+K:Reach
+K:Deathtouch
+PT:2/1
+Oracle:Reach (This creature can block creatures with flying.)\nDeathtouch (Any amount of damage this deals to a creature is enough to destroy it.)

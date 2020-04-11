@@ -1,0 +1,5 @@
+Name:Rally the Volunteers
+ManaCost:2 R
+Types:Sorcery
+A:SP$ Token | Cost$ 2 R | TokenAmount$ 2 | TokenScript$ r_1_1_soldier_haste | TokenOwner$ You | LegacyImage$ r 1 1 soldier haste twr | SpellDescription$ Create two 1/1 red Soldier creature tokens with haste.
+Oracle:Create two 1/1 red Soldier creature tokens with haste. (They can attack and {T} as soon as they come under your control.)

@@ -1,0 +1,7 @@
+Name:Under Cover of Dark
+ManaCost:B
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ B | ValidTgts$ Creature | AILogic$ Pump
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 1 | AddKeyword$ Menace | Description$ Enchanted creature gets +1/+0 and has menace.
+Oracle:Enchant creature\nEnchanted creature gets +1/+0 and has deathtouch. (That creature can’t be blocked except by two or more creatures.)

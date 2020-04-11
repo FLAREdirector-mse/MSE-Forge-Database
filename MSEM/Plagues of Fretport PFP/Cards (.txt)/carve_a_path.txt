@@ -1,0 +1,7 @@
+Name:Carve a Path
+ManaCost:R R
+Types:Enchantment
+K:Vanishing:3
+T:Mode$ CounterRemoved | ValidCard$ Permanent.YouCtrl | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigDmg | TriggerDescription$ Whenever a time counter is removed from a permanent you control, CARDNAME deals 1 damage to any target.
+SVar:TrigDmg:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 1
+Oracle:Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhenever a time counter is removed from a permanent you control, Carve a Path deals 1 damage to any target.
