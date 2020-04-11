@@ -1,0 +1,6 @@
+Name:Tectonic Wound
+ManaCost:4 R R
+Types:Sorcery
+K:Spectacle:2 R
+A:SP$ Destroy | Cost$ 4 R R | ValidTgts$ Land | TgtPrompt$ Select target land to destroy. | SpellDescription$ Destroy target land.
+Oracle:Cripple {2}{R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nDestroy target land.

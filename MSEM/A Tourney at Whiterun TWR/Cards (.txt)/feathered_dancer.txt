@@ -1,0 +1,8 @@
+Name:Feathered Dancer
+ManaCost:3 R
+Types:Creature Human Mutant
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, up to three target creatures can't block this turn.
+SVar:TrigPump:DB$ Pump | TargetMin$ 0 | TargetMax$ 3 | KW$ HIDDEN CARDNAME can't block. | IsCurse$ True | ValidTgts$ Creature | TgtPrompt$ Select up to three target creatures. They can't block this turn.
+SVar:PlayMain1:TRUE
+Oracle:When Feathered Dancer enters the battlefield, up to three target creatures can’t block this turn.

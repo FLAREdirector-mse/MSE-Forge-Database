@@ -1,0 +1,9 @@
+Name:Restless Hedonist
+ManaCost:4 R R
+Types:Creature Human Noble
+PT:2/3
+K:Spectacle:2 R R
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ When Restless Hedonist enters the battlefield, discard your hand, then draw three cards.
+SVar:TrigDiscard:DB$ Discard | Mode$ Hand | Defined$ You | SubAbility$ DBDrawThree
+SVar:DBDrawThree:DB$ Draw | Defined$ You | NumCards$ 3
+Oracle:Cripple {2}{R}{R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nWhen Restless Hedonist enters the battlefield, discard your hand, then draw three cards.

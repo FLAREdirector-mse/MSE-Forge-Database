@@ -1,0 +1,8 @@
+Name:Desperate Reconnoiterer
+ManaCost:1 R
+Types:Creature Human Scout
+K:Haste
+PT:2/1
+T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigScry | TriggerDescription$ Whenever CARDNAME becomes untapped, scry 1.
+SVar:TrigScry:DB$ Scry | Defined$ You | ScryNum$ 1
+Oracle:Haste (This creature can attack and {T} as soon as it comes under your control.)\nWhenever Desperate Reconnoiterer becomes untapped, scry 1.

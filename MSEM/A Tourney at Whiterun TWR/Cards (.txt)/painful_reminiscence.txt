@@ -1,0 +1,6 @@
+Name:Painful Reminscence
+ManaCost:2 R
+Types:Instant
+K:Spectacle:R
+A:SP$ Mana | Cost$ 2 R | Produced$ R | Amount$ 3 | AILogic$ ManaRitual | AINoRecursiveCheck$ True | SpellDescription$ Add {R}{R}{R}.
+Oracle:Cripple {R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nAdd {R}{R}{R}.

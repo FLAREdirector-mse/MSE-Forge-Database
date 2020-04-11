@@ -1,0 +1,10 @@
+Name:Noble's Hedonism
+ManaCost:1 R
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Player | Execute$ TrigDamage | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, CARDNAME deals 1 damage to that player, then that player exiles the top card of their library. Until end of turn, they may play that card.
+SVar:TrigDamage:DB$ DealDamage | Defined$ TriggeredPlayer | NumDmg$ 1 | SubAbility$ PseudoDraw
+SVar:PseudoDraw:DB$ Mill | Defined$ TriggeredPlayer | NumCards$ 1 | Destination$ Exile | RememberMilled$ True | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | EffectOwner$ RememberedCardController | RememberObjects$ RememberedCard | StaticAbilities$ Play | SubAbility$ DBCleanup | ExileOnMoved$ Exile
+SVar:Play:Mode$ Continuous | MayPlay$ True | EffectZone$ Command | Affected$ Card.IsRemembered | AffectedZone$ Exile | Description$ Until end of turn, that player may play the exiled card.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:At the beginning of each player’s upkeep, Noble’s Hedonism deals 1 damage to that player, then that player exiles the top card of their library. Until end of turn, they may play that card.

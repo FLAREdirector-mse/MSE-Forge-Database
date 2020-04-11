@@ -1,0 +1,7 @@
+Name:Wildborn Lancer
+ManaCost:B B
+Types:Creature Human Mutant Warrior
+PT:1/1
+A:AB$ Destroy | Cost$ B T | ValidTgts$ Creature.tapped | TgtPrompt$ Select target tapped creature to destroy. | SpellDescription$ Destroy target tapped creature.
+SVar:NonCombatPriority:1
+Oracle:{B}, {T}: Destroy target tapped creature.

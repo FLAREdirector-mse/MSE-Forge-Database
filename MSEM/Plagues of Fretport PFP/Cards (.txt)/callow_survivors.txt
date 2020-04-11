@@ -1,0 +1,7 @@
+Name:Callow Survivors
+ManaCost:2 GW GW
+Types:Creature Human Citizen
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, you may return target artifact or enchantment card with converted mana cost 3 or less from your graveyard to the battlefield.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Artifact.cmcLE3+YouCtrl,Enchantment.cmcLE3+YouCtrl
+Oracle:When Callow Survivors enters the battlefield, you may return target artifact or enchantment card with converted mana cost 3 or less from your graveyard to the battlefield.

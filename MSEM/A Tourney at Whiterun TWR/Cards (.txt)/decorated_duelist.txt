@@ -1,0 +1,6 @@
+Name:Decorated Duelist
+ManaCost:B
+Types:Creature Human Warrior
+K:Menace
+PT:1/1
+Oracle:Menace (This creature can’t be blocked except by two or more creatures.)

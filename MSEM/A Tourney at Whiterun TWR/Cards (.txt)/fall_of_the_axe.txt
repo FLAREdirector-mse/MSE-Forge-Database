@@ -1,0 +1,5 @@
+Name:Fall of the Axe
+ManaCost:1 R
+Types:Instant
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
+Oracle:Fall of the Axe deals 3 damage to any target.

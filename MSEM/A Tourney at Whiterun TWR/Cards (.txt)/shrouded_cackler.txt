@@ -1,0 +1,7 @@
+Name:Shrouded Cackler
+ManaCost:B
+Types:Creature Human Rogue
+K:Deathtouch
+K:CARDNAME can't block.
+PT:1/2
+Oracle:Deathtouch\nShrouded Cackler can't block.

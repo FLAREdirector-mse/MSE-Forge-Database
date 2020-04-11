@@ -1,0 +1,9 @@
+Name:Weald Sentry
+ManaCost:2 G
+Types:Creature Human Scout
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | TriggerDescription$ When CARDNAME enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeNum$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME dies, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:When Weald Sentry enters the battlefield, search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nWhen Weald Sentry dies, draw a card.

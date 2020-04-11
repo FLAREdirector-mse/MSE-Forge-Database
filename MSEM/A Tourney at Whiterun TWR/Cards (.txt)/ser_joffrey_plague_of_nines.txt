@@ -1,0 +1,11 @@
+Name:Ser Joffrey, Plague of Nines
+ManaCost:1 B B
+Types:Legendary Creature Human Knight
+K:Deathtouch
+K:Menace
+PT:2/2
+S:Mode$ Continuous | Affected$ Creature.Knight+Other+YouCtrl,Card.Self | AddKeyword$ First Strike | CheckSVar$ X | SVarCompare$ GE1 | Description$ As long as you control another Knight, CARDNAME and other Knights you control have first strike.
+SVar:X:Count$Valid Creature.Knight+Other+YouCtrl
+SVar:PlayMain1:TRUE
+DeckHints:Type$Knight
+Oracle:Deathtouch, menace\nAs long as you control another Knight, Ser Joffrey, Plague of Nines and other Knights you control have first strike.

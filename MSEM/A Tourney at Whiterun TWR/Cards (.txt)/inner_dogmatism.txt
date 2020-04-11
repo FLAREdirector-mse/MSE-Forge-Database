@@ -1,0 +1,7 @@
+Name:Inner Dogmatism
+ManaCost:1 G
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 1 G | ValidTgts$ Creature | TgtPrompt$ Select target creature | AILogic$ Pump
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 2 | AddKeyword$ Trample | Description$ Enchanted creature gets +2/+0 and has trample.
+Oracle:Enchant creature\nEnchanted creature gets +2/+0 and has trample. (It can deal excess combat damage to the player or planeswalker it’s attacking.)

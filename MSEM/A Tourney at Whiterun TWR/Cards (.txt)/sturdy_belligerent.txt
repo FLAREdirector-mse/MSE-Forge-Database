@@ -1,0 +1,8 @@
+Name:Sturdy Belligerent
+ManaCost:3 G G
+Types:Creature Human Knight
+PT:4/3
+K:Renown:1
+T:Mode$ BecomeRenowned | ValidCard$ Creature.YouCtrl | OptionalDecider$ You | TriggerZones$ Battlefield | Execute$ TrigFight | TriggerDescription$ Whenever a creature you control becomes renowned, you may have it fight target creature you don’t control. (Each deals damage equal to its power to the other.)
+SVar:TrigFight:DB$ Fight | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Choose target creature you don't control
+Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhenever a creature you control becomes renowned, you may have it fight target creature you don’t control. (Each deals damage equal to its power to the other.)

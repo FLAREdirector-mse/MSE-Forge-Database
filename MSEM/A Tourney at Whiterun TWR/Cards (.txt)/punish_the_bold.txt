@@ -1,0 +1,6 @@
+Name:Punish the Bold
+ManaCost:1 B
+Types:Sorcery
+A:SP$ Destroy | Cost$ 1 B | ValidTgts$ Creature.tapped | TgtPrompt$ Select target tapped creature. Destroy it. | SubAbility$ DBScry | SpellDescription$ Destroy target tapped creature. Scry 1.
+SVar:DBScry:DB$ Scry | ScryNum$ 1
+Oracle:Destroy target tapped creature. Scry 1.
