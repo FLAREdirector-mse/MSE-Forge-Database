@@ -9,6 +9,15 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
+1 C Arcor-Staff Adherent
+2 U Bearer of the Lantern
 9 R Fervent Arbiter
-
+29 C Awash in Despair
+57 C Baneblade Stalker
+114 U Belligerent's Augur
+156 C Assassin's Warning
+177 U Blade of the Long Night
+184 U Arcor Diamond
+185 C Artisan's Masterpiece
+186 C Battered Steel
 [tokens]
