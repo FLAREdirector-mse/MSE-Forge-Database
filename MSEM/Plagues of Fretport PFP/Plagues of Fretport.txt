@@ -9,6 +9,80 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
+1 C Arcor-Staff Adherent
+2 U Bearer of the Lantern
+3 U Chapel Warden
+4 U Comfort the Fallen
+5 U Disassociate
+6 C Dockside Healer
+7 C Dockyard Swindling
+8 R Dregs of Order
 9 R Fervent Arbiter
-
+10 R Flintlock Pioneer
+11 C Fretport Warden
+12 R Gabryel's Devout
+13 C Glimpse of Innocence
+26 C Untested Recruit
+27 C Valeriya's Militant
+29 C Awash in Despair
+31 R Compelling Pariah
+33 C Dispossessed Noble
+35 R Empty the Streets
+39 C Fretport Bounty Hunter 
+43 C Merchant's Guile
+46 U Postulate
+55 C Wary Watchkeeper
+56 C Whisper Collector
+57 C Baneblade Stalker
+58 U Conspiracy of Ravens
+62 C Drown in Nightmares
+65 C Feverish Noble
+67 C Forgotten Sins
+83 C Withering Beggar
+88 U Burning Heels
+89 R Carve a Path
+90 C Chained Wildborn
+95 R Ill Fated Travels
+100 C Revelry Reverie
+114 U Belligerent's Augur
+115 R Canal Lurker
+116 C Chapel Defendant
+123 C Indomitable Mercenary
+124 C Influential Wildborn
+125 C Let Loose
+129 U Ready for Battle
+131 R Sewer Pack
+132 R Shared Reminiscence
+134 C Track Prey
+135 C Valor of the Desperate
+138 C Wayward Afflicted
+154 U Invalidate
+156 C Assassin's Warning
+158 R Inkwell Daggers
+161 C Unjust Sentence
+164 R Inciting Bard
+165 U Callow Survivors
+167 C Steadfast Heart
+168 U Delusional Noble
+173 U Unquenched Greed
+176 C Untested Initiates
+177 U Blade of the Long Night
+178 R Cleric of Fervor
+179 C Forgotten Consequences
+180 R Hollow Survivor
+181 C Inspired Blade
+184 U Arcor Diamond
+185 C Artisan's Masterpiece
+186 C Battered Steel
+197 U Daunting Skyline
+198 U Decrepit Crags
+199 C Failing Port
+201 U Grim Courtyard
+202 U Hazy Lagoon
+203 U Merchant's District
+206 U Phosphorescent Ravine
+209 U Rickety Guildhall
+210 U Ruined Citadel
+212 U Serene Trail
+214 U Vibrant Rainforest
 [tokens]
