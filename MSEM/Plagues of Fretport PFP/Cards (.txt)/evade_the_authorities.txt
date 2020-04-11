@@ -1,0 +1,7 @@
+Name:Evade the Authorities
+ManaCost:1 U
+Types:Enchantment
+K:Vanishing:2
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ Execute$ TrigChangeZone | OptionalDecider$ You | TriggerDescription$ Whenever a time counter is removed from CARDNAME, exile the top card of your library. Until end of turn, you may play that card.
+SVar:TrigChangeZone:DB$ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand
+Oracle:Vanishing 2 (This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhenever a time counter is removed from Evade the Authorities, you may return target creature to its owner's hand.

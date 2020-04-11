@@ -1,0 +1,8 @@
+Name:Cleric of Fervor
+ManaCost:3 RW RW
+Types:Creature Human Cleric
+PT:2/4
+S:Mode$ Continuous | Affected$ Creature.Soldier+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Soldiers you control get +1/+1.
+T:Mode$ AttackersDeclared | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ Whenever one or more creatures attack, create a 1/1 red Soldier creature token with haste.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | LegacyImage$ r 1 1 soldier pfp | TokenScript$ r_1_1_soldier | TokenOwner$ You
+Oracle:Soldiers you control get +1/+1.\nWhenever one or more creatures attack, create a 1/1 red Soldier creature token with haste.
