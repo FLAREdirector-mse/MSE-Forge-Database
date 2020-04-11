@@ -1,0 +1,7 @@
+Name:Canal Lurker
+Manacost:3 G G G
+Types:Creature Beast Horror
+PT:7/6
+K:Trample
+A:AB$ ChangeZone | Cost$ 2 G G | Origin$ Graveyard | Destination$ Library | LibraryPosition$ 0 | SpellDescription$ Put CARDNAME from its owner's graveyard on top of its owner's library.
+Oracle:Trample\n{2}{G}{G}: Put Canal Lurker from its owner's graveyard on top of its owner's library.

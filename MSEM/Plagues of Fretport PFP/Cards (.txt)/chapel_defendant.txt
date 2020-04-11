@@ -1,0 +1,8 @@
+Name:Chapel Defendant
+ManaCost:2 G
+Types:Creature Human Citizen
+PT:2/4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, you gain 1 life for each Citizen you control.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | References$ X | LifeAmount$ X
+SVar:X:Count$Valid Citizen.YouCtrl
+Oracle:When Chapel Defendant enters the battlefield, you gain 1 life for each Citizen you control.
