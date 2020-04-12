@@ -14,6 +14,8 @@ Booster=15 Common
 30 C Lost In The Light
 52 C Stand Against Evil
 67 C Astrolabic Wisdom
+80 C Destabilize
+96 C One of the Crowd
 392 C The Academy of Innovation
 
 [tokens]

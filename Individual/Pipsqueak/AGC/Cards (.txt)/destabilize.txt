@@ -1,0 +1,6 @@
+Name:Destabilize
+ManaCost:1 U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U | TargetType$ Spell | ValidTgts$ Card | UnlessCost$ X | UnlessPayer$ TargetedController | References$ X | SpellDescription$ Counter target spell unless its controller pays {X}, where X is its converted mana cost.
+SVar:X:Targeted$CardManaCost
+Oracle:Counter target spell unless its controller pays {X}, where X is its converted mana cost.
