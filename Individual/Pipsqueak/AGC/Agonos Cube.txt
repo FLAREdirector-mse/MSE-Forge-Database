@@ -9,5 +9,7 @@ BoosterCovers=0
 Booster=15 Common
 
 [cards]
+7 C Avenge
+392 C The Academy of Innovation
 
 [tokens]

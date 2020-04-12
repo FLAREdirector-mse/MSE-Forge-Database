@@ -1,0 +1,5 @@
+Name:Avenge
+ManaCost:1 W W
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 1 W W | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target permanent.
+Oracle:Exile target permanent.
