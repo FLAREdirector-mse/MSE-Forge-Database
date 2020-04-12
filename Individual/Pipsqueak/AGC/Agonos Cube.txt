@@ -11,7 +11,8 @@ Booster=15 Common
 [cards]
 5 C Archon of Hope's Defiance
 7 C Avenge
-30 C Lost In The Light
+30 C Lost in the Light
+42 C Push Back the Siege
 52 C Stand Against Evil
 67 C Astrolabic Wisdom
 80 C Destabilize

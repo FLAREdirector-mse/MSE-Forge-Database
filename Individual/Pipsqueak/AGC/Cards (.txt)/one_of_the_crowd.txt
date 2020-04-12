@@ -1,4 +1,4 @@
-Name:Counterspell
+Name:One of the Crowd
 ManaCost:U U
 Types:Instant
 K:Convoke
