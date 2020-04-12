@@ -1,0 +1,14 @@
+# i'm pretty sure this card works perfectly
+# but it's late and i'm tired
+# r i p
+# --FLAREdirector
+Name:Lady Genvieve of Caulder
+ManaCost:4 B R
+Types:Legendary Creature Human Noble Warrior
+K:Spectacle:1 B R
+PT:4/4
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ Player | CheckSVar$ X | References$ X | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of each end step, if an opponent lost life this turn, draw two cards, then discard a card at random.
+SVar:TrigDraw:DB$ Draw | NumCards$ 2 | Defined$ You | SpellDescription$ Draw two cards, then discard three cards. | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 1 | Mode$ Random
+SVar:X:Count$LifeOppsLostThisTurn
+Oracle:Cripple {1}{B}{R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nAt the beginning of each end step, if an opponent lost life this turn, draw two cards, then discard a card at random.

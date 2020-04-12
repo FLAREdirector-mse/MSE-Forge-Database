@@ -1,0 +1,7 @@
+Name:Left for Carrion
+ManaCost:2 BR
+Types:Instant
+K:Spectacle:BR
+A:SP$ DealDamage | Cost$ 2 BR | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature.
+Oracle:Cripple {B/R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)
+Left for Carrion deals 4 damage to target creature.

@@ -1,0 +1,8 @@
+Name:Declare, the Mother Bear
+ManaCost:1 G W
+Types:Legendary Creature Human Knight
+K:Indestructible
+PT:3/3
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, put a +1/+1 counter on it.
+SVar:TrigPutCounter:DB$PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+Oracle:Indestructible (Damage and effects that say “destroy” don’t destroy this creature.)\nWhenever Declare, the Mother Bear deals combat damage to a player, put a +1/+1 counter on it.

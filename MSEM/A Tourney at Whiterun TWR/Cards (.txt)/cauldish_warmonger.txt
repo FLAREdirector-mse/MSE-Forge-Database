@@ -1,0 +1,8 @@
+Name:Cauldish Warmonger
+ManaCost:1 RW
+Types:Creature Human Noble Warrior
+K:First Strike
+PT:1/1
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME attacks, create a 1/1 white Soldier creature token that's tapped and attacking.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_soldier | TokenOwner$ You | LegacyImage$ w 1 1 soldier twr | TokenTapped$ True | TokenAttacking$ True
+Oracle:First strike\nWhenever Cauldish Warmonger attacks, create a 1/1 white Soldier creature token that’s tapped and attacking.

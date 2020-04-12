@@ -1,0 +1,22 @@
+Name:Youthful Dreams
+ManaCost:RG
+Types:Sorcery
+A:SP$ Pump | Cost$ RG | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Haste & Trample | SpellDescription$ Target creature gains haste and trample until end of turn.
+A:SP$ Pump | Cost$ 3 RG RG | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Haste & Trample | SubAbility$ AnimateHack | SpellDescription$ Target creature gains haste and trample until end of turn. Attach Touch of Destiny to it. | PrecostDesc$ Fabled | CostDesc$ {3}{R/G}{R/G} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Target creature gains haste and trample until end of turn. Attach CARDNAME to it.
+SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
+SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
+SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+Oracle:Target creature gains haste and trample until end of turn.\nFabled {3}{R/G}{R/G} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
+
+ALTERNATE
+
+Name:Touch of Destiny
+ManaCost:no cost
+Colors:red,green
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ | ValidTgts$ Creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 3 | AddToughness$ 3 | AddKeyword$ Trample | Description$ Enchanted creature gets +3/+3 and has trample.
+Oracle:Enchant creature\nEnchanted creature gets +3/+3 and has trample.

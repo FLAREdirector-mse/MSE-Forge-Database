@@ -1,0 +1,6 @@
+Name:Farmer's Repose
+ManaCost:GW GW
+Types:Instant
+A:SP$ Destroy | Cost$ GW GW | ValidTgts$ Artifact,Enchantment | SubAbility$ LifeGain | TgtPrompt$ Select target artifact or enchantment | SpellDescription$ Destroy target artifact or enchantment.
+SVar:LifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 1 | SpellDescription$ You gain 1 life.
+Oracle:Destroy target artifact or enchantment. You gain 1 life.

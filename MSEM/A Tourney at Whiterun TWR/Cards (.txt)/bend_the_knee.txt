@@ -1,0 +1,7 @@
+Name:Bend the Knee
+ManaCost:3 WB WB
+Types:Sorcery
+A:SP$ ChooseCard | Cost$ 3 WB WB | Defined$ You | Amount$ 1 | Choices$ Creature.greatestPower | ChoiceTitle$ Choose target creature with the greatest power or tied with the greatest power | AILogic$ Duneblast | SubAbility$ DBDestroyAll | RememberChosen$ True | SpellDescription$ Choose up to one creature. Destroy the rest.
+SVar:DBDestroyAll:DB$ DestroyAll | ValidCards$ Creature.IsNotRemembered | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Choose target creature with the greatest power or tied for the greatest power, then destroy all other creatures.
