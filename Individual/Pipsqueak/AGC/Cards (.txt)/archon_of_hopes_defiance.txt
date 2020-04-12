@@ -1,0 +1,8 @@
+Name:Archon of Hope's Defiance
+ManaCost:3 W W
+Types:Creature Pegasus
+PT:2/1
+K:Flying
+K:First Strike
+S:Mode$ RaiseCost | ValidCard$ Card.nonCreature | Type$ Spell | Amount$ 2 | Description$ Noncreature spells cost {2} more to cast.
+Oracle:Flying, first strike\nNoncreature spells cost {2} more to cast. 
