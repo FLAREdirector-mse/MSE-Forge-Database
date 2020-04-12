@@ -1,0 +1,6 @@
+Name:Alignment Array
+ManaCost:4
+Types:Artifact
+A:AB$ Draw | Cost$ tapXType<2/Artifact>  | NumCards$ 1 | SpellDescription$ Draw a card.
+AI:RemoveDeck:All
+Oracle:Tap two untapped artifacts you control: Draw a card.

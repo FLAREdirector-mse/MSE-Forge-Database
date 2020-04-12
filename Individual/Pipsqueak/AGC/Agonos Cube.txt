@@ -18,6 +18,11 @@ Booster=15 Common
 96 C One of the Crowd
 126 C Assault Rhino
 150 C Infernal Recall
+215 C Gloryhunter Dragon
+228 C Pigstrider Cavalier
+346 C Alignment Array
+380 C The Sphere
+385 C Unaltered Fragment
 392 C The Academy of Innovation
 
 [tokens]

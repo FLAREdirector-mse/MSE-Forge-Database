@@ -1,0 +1,10 @@
+Name:Gloryhunter Angel
+ManaCost:3 R R
+Types:Creature Dragon
+PT:5/5
+K:Flying
+K:Trample
+K:haste
+K:Protection from Angels
+K:Protection from Sphinxes
+Oracle:Flying, trample, haste, protection from Angels and Sphinxes
