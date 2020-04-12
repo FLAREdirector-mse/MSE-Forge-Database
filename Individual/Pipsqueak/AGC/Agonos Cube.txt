@@ -16,6 +16,8 @@ Booster=15 Common
 67 C Astrolabic Wisdom
 80 C Destabilize
 96 C One of the Crowd
+126 C Assault Rhino
+150 C Infernal Recall
 392 C The Academy of Innovation
 
 [tokens]

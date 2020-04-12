@@ -1,0 +1,9 @@
+Name:Assault Rhino
+ManaCost:1 B B B
+Types:Creature Zombie Rhino
+PT:4/5
+K:Trample
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME enters the battlefield, each opponent loses 3 life and you gain 3 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 3 | SubAbility$ GainLife
+SVar:GainLife:DB$ GainLife | Defined$ You | LifeAmount$ 3
+Oracle:Trample\nWhen Assault Rhino enters the battlefield, each opponent loses 3 life and you gain 3 life.
