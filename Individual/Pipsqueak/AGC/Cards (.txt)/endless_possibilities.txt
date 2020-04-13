@@ -1,0 +1,7 @@
+Name:Endless Possibilities
+ManaCost:3 U U
+Types:Instant
+A:SP$ Scry | Cost$ 3 U U | ScryNum$ 2 | SubAbility$ DBDraw | SpellDescription$ Scry 2, then draw two cards. You may cast a card with converted mana cost 4 or less from your hand without paying its mana cost.
+SVar:DBDraw:DB$ Draw | NumCards$ 2 | SubAbility$ DBPlay
+SVar:DBPlay:DB$Play | Valid$ Card.nonLand+YouOwn+cmcLE4 | ValidZone$ Hand | WithoutManaCost$ True | Amount$ 1 | Controller$ You | Optional$ True
+Oracle:Scry 2, then draw two cards. You may cast a card with converted mana cost 4 or less from your hand without paying its mana cost.

@@ -1,0 +1,6 @@
+Name:Scrapworks
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Destroy | ValidTgts$ Artifact,Land | TgtPrompt$ Select target artifact or land. | Cost$ 1 T Sac<1/CARDNAME> | AILogic$ LandForLand | SpellDescription$ Destroy target artifact or land.
+Oracle:{T}: Add {C}.\n{1}, {T}, Sacrifice Scrapworks: Destroy target artifact or land.
