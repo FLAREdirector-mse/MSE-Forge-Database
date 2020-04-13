@@ -1,0 +1,5 @@
+Name:Whimsical Musings
+ManaCost:2 U
+Types:Instant
+A:SP$ ChangeZone | Cost$ 2 U | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Instant,sorcery | ChangeNum$ 3 | SpellDescription$ Search your library for three instant or sorcery cards and reveal them. Shuffle you library, then put those cards on top of it in any order.
+Oracle:Search your library for three instant or sorcery cards and reveal them. Shuffle you library, then put those cards on top of it in any order.
