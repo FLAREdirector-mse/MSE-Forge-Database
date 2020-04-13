@@ -1,0 +1,7 @@
+Name:Scraps of Memory
+ManaCost:UR
+Types:Instant
+A:SP$ Dig | Cost$ UR | DigNum$ X | References$ X | ChangeNum$ 1 | ChangeValid$ Instant,Sorcery | DestinationZone$ Library | LibraryPosition$ 0 | RestRandomOrder$ True | SpellDescription$ Look at the top X cards of your library, where X is the number of instant and sorcery cards in your graveyard. You may reveal an instant or sorcery card from among them and put it on top of your library. Then put the rest on the bottom of your library in a random order.
+SVar:X:Count$ValidGraveyard Instant.YouOwn,Sorcery.YouOwn
+SVar:NeedsToPlayVar:X GE1
+Oracle:Look at the top X cards of your library, where X is the number of instant and sorcery cards in your graveyard. You may reveal an instant or sorcery card from among them and put it on top of your library. Then put the rest on the bottom of your library in a random order.

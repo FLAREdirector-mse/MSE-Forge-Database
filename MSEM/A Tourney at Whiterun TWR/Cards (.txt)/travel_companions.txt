@@ -1,0 +1,6 @@
+Name:Travel Companions
+ManaCost:1 GW
+Types:Sorcery
+A:SP$ ChangeZone | Optional$ True | Cost$ 1 GW | Origin$ Library | Destination$ Hand | DefinedPlayer$ Player | ChangeType$ Card.Creature | Reveal$ True | Shuffle$ True | ChangeNum$ 1 | SpellDescription$ Each player may search their library for a creature card, reveal it, and put it into their hand. Then each player who searched their library this way shuffles it.
+AI:RemoveDeck:All
+Oracle:Each player may search their library for a creature card, reveal it, and put it into their hand. Then each player who searched their library this way shuffles it.

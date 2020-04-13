@@ -1,0 +1,11 @@
+Name:Duke Gerard Hoff
+ManaCost:W B
+Types:Legendary Creature Human Noble
+PT:2/4
+R:Event$ Moved | ValidCard$ Card.Self | Destination$ Battlefield | ReplaceWith$ DBChooseOpp | Layer$ Control | Description$ CARDNAME enters the battlefield under the control of an opponent of your choice.
+SVar:DBChooseOpp:DB$ ChoosePlayer | Defined$ You | Choices$ Player.Opponent | ChoiceTitle$ Choose an opponent to give control to: | AILogic$ Curse | SubAbility$ MoveToPlay
+SVar:MoveToPlay:DB$ ChangeZone | Hidden$ True | Origin$ All | Destination$ Battlefield | Defined$ ReplacedCard | GainControl$ True | NewController$ ChosenPlayer | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearChosenPlayer$ True
+S:Mode$ CantAttack | ValidCard$ Card.Self | Target$ Player.CardOwner,Planeswalker.ControlledBy Player.CardOwner | Description$ CARDNAME can't attack its owner or planeswalkers that player controls.
+S:Mode$ Continuous | Affected$ Creature.OppCtrl | AddPower$ +2 | AddToughness$ +1 | Description$ Creatures your opponents control get +2/+1.
+Oracle:Duke Gerard Hoff enters the battlefield under the control of an opponent of your choice.\nDuke Gerard Hoff can’t attack its owner or planeswalkers that player controls.\nCreatures your opponents control get +2/+1.

@@ -1,0 +1,11 @@
+# only triggers flash if an opponent lost life
+# the same problem is true of Knight of the Ebon Legion tho so
+# here we are
+# --FLAREdirector
+Name:Plunge Through the Heart
+ManaCost:1 WB
+Types:Sorcery
+A:SP$ Destroy | Cost$ 1 WB | ValidTgts$ Creature.tapped | TgtPrompt$ Select target tapped creature | SpellDescription$ Destroy target tapped creature.
+S:Mode$ Continuous | EffectZone$ All | Affected$ Card.Self | AffectedZone$ Hand,Graveyard,Exile,Command,Library | WithFlash$ You | CheckSVar$ X | References$ X | Description$ If a player has lost life this turn, you may cast this spell as though it had flash.
+SVar:X:Count$LifeOppsLostThisTurn
+Oracle:If a player has lost life this turn, you may cast this spell as though it had flash.\nDestroy target tapped creature.

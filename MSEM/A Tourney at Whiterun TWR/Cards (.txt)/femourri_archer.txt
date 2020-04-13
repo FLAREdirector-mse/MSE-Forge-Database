@@ -1,0 +1,8 @@
+Name:Femourri Archer
+ManaCost:2 R W
+Types:Creature Human Archer
+PT:3/1
+A:AB$ DealDamage | Cost$ R W T | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ X | References$ X | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals damage equal to its power to any target.
+SVar:DBGainLife:DB$GainLife | Defined$ You | LifeAmount$ X | References$ X | StackDescription$ You gain that much life.
+SVar:X:Count$CardPower
+Oracle:{R}{W}, {T}: Femourri Archer deals damage equal to its power to any target. You gain that much life.

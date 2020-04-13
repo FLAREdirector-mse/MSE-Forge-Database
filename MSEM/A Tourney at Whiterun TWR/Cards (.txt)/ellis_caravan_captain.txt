@@ -1,0 +1,7 @@
+Name:Ellis, Caravan Captain
+ManaCost:3 G U
+Types:Legendary Creature Human Mutant
+PT:3/4
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigChange | TriggerDescription$ At the beginning of your upkeep, you may search your library for a permanent card with converted mana cost 1 or less, put it onto the battlefield, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Card.Permanent+cmcLE1 | ChangeNum$ 1 | ShuffleNonMandatory$ True
+Oracle:At the beginning of your upkeep, you may search your library for a permanent card with converted mana cost 1 or less, put it onto the battlefield, then shuffle your library.

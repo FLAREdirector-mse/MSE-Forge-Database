@@ -1,0 +1,7 @@
+Name:Gild-Cloak Strider
+ManaCost:2 WU
+Types:Creature Human Knight
+K:Creatures with power greater than CARDNAME's power can't block it.
+PT:2/2
+A:AB$ ChangeZone | Cost$ 1 WU | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return CARDNAME to its owner's hand.
+Oracle:Gild-Cloak Strider can’t be blocked by creatures with greater power.\n{1}{W/U}: Return Gild-Cloak Strider to its owner’s hand.
