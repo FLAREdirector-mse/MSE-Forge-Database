@@ -39,6 +39,8 @@ Booster=15 Common
 256 C Giant of Greatwoods
 262 C Impulsive Adventurer
 270 C Old God's Presence
+272 C Overbearing Sentinel
+277 C Revengevine
 346 C Alignment Array
 359 C Forbidden Scroll
 380 C The Sphere
