@@ -33,6 +33,8 @@ Booster=15 Common
 228 C Pigstrider Cavalier
 243 C Ambush Raider
 252 C Evergrowth
+262 C Impulsive Adventurer
+270 C Old God's Presence
 346 C Alignment Array
 359 C Forbidden Scroll
 380 C The Sphere

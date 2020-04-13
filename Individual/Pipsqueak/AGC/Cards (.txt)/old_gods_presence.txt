@@ -1,0 +1,7 @@
+Name:Old God's Presence
+ManaCost:1 G
+Types:Sorcery
+K:Kicker:1 G
+A:SP$ ChangeZone | Cost$ 1 G | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ X | References$ X | SpellDescription$ Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield tapped, then shuffle your library.
+SVar:X:Count$Kicked.2.1
+Oracle:Kicker {1}{G} (You may pay an additional {1}{G} as you cast this spell.)\nSearch your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. If this spell was kicked, instead search your library for two basic land cards, put them onto the battlefield tapped, then shuffle your library.
