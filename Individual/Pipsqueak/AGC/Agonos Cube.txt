@@ -12,10 +12,12 @@ Booster=15 Common
 5 C Archon of Hope's Defiance
 7 C Avenge
 10 C Blade of Banishing
+20 C Duchess of Steel
 30 C Lost in the Light
 42 C Push Back the Siege
 52 C Stand Against Evil
 67 C Astrolabic Wisdom
+69 C Break Reality
 80 C Destabilize
 87 C Find Answers
 96 C One of the Crowd
@@ -31,8 +33,10 @@ Booster=15 Common
 207 C Everspark
 215 C Gloryhunter Dragon
 228 C Pigstrider Cavalier
+236 C Vengeant Champion
 243 C Ambush Raider
 252 C Evergrowth
+256 C Giant of Greatwoods
 262 C Impulsive Adventurer
 270 C Old God's Presence
 346 C Alignment Array
