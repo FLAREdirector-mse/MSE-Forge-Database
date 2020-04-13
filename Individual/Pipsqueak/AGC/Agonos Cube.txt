@@ -37,6 +37,7 @@ Booster=15 Common
 243 C Ambush Raider
 252 C Evergrowth
 256 C Giant of Greatwoods
+259 C Hesperian of Spring
 262 C Impulsive Adventurer
 263 C Into the Woods
 270 C Old God's Presence
