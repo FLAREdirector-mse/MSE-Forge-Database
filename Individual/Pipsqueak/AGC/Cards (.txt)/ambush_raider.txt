@@ -1,0 +1,10 @@
+Name:Ambush Raider
+ManaCost:2 G
+Types:Creature Elf Warrior
+PT:1/3
+K:Flash
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may destroy target artifact or enchantment.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment.
+SVar:PlayMain1:TRUE
+SVar:Picture:http://www.wizards.com/global/images/magic/general/reclamation_sage.jpg
+Oracle:Flash\nWhen Ambush Raider enters the battlefield, you may destroy target artifact or enchantment.

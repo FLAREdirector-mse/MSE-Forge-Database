@@ -1,0 +1,8 @@
+Name:Everspark
+ManaCost:1 R
+Types:Creature Elemental
+PT:1/1
+K:Haste
+K:Prowess
+K:Retrace
+Oracle:Haste, prowess\n Retrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)

@@ -11,6 +11,7 @@ Booster=15 Common
 [cards]
 5 C Archon of Hope's Defiance
 7 C Avenge
+10 C Blade of Banishing
 30 C Lost in the Light
 42 C Push Back the Siege
 52 C Stand Against Evil
@@ -18,6 +19,7 @@ Booster=15 Common
 80 C Destabilize
 87 C Find Answers
 96 C One of the Crowd
+109 C Runic Reflections
 110 C Send Back
 113 C Spellslinger Adept
 116 C Whimsical Musings
@@ -26,11 +28,16 @@ Booster=15 Common
 148 C Increasing Dedication
 150 C Infernal Recall
 199 C Conquering Commander
+207 C Everspark
 215 C Gloryhunter Dragon
 228 C Pigstrider Cavalier
+243 C Ambush Raider
+252 C Evergrowth
 346 C Alignment Array
+359 C Forbidden Scroll
 380 C The Sphere
 385 C Unaltered Fragment
 392 C The Academy of Innovation
+393 C Aetherite Mine
 
 [tokens]
