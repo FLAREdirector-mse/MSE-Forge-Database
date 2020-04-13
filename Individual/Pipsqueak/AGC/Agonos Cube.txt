@@ -16,8 +16,11 @@ Booster=15 Common
 52 C Stand Against Evil
 67 C Astrolabic Wisdom
 80 C Destabilize
+87 C Find Answers
 96 C One of the Crowd
 126 C Assault Rhino
+136 C Corrupted Teachings
+148 C Increasing Dedication
 150 C Infernal Recall
 215 C Gloryhunter Dragon
 228 C Pigstrider Cavalier
