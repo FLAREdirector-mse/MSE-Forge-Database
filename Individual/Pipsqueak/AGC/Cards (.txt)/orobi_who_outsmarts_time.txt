@@ -1,0 +1,10 @@
+Name:Orobi, Who Outsmarts Time
+ManaCost:6 U U
+Types:Legendary Creature Dragon
+PT:6/7
+K:Flash
+K:Flying
+K:Hexproof
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigAdd | TriggerDescription$ When CARDNAME enters the battlefield, take an extra turn after this one.
+SVar:TrigAdd:DB$AddTurn | NumTurns$ 1 | Defined$ You
+Oracle:Flash\nFlying, hexproof\nWhen Orobi, Who Outsmarts Time enters the battlefield, take an extra turn after this one.

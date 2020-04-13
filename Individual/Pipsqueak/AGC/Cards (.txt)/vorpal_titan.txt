@@ -1,0 +1,7 @@
+Name:Vorpal Titan
+ManaCost:8
+Types:Artifact Creature Golem
+PT:10/10
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroyNonbasics | TriggerDescription$ When CARDNAME enters the battlefield, destroy all nonbasic lands.
+SVar:TrigDestroyNonbasics:DB$DestroyAll | ValidCards$ Land.nonBasic | SpellDescription$ CARDNAME destroys all nonbasic lands.
+Oracle:When Vorpal Titan enters the battlefield, destroy all nonbasic lands.

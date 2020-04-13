@@ -21,6 +21,7 @@ Booster=15 Common
 80 C Destabilize
 87 C Find Answers
 96 C One of the Crowd
+99 C Orobi, Who Outsmarts Time
 109 C Runic Reflections
 110 C Send Back
 113 C Spellslinger Adept
@@ -52,7 +53,10 @@ Booster=15 Common
 365 C Fragment of Rage
 380 C The Sphere
 385 C Unaltered Fragment
+386 C Unidentified Relic
 392 C The Academy of Innovation
 393 C Aetherite Mine
+404 C Coiling Caves
+405 C Cracking Caldera
 
 [tokens]
