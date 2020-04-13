@@ -1,0 +1,9 @@
+Name:Spellslinger Adept
+ManaCost:1 U
+Types:Creature Human Wizard
+PT:1/1
+K:Prowess
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPlay | TriggerDescription$ Whenever CARDNAME attacks, you may cast target instant or sorcery card with converted mana cost less than or equal to CARDNAME's power from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.
+SVar:TrigPlay:DB$ Play | TgtZone$ Graveyard | ValidTgts$ Instant.YouCtrl+cmcLEX,Sorcery.YouCtrl+cmcLEX | TgtPrompt$ Choose target instant or sorcery card with converted mana cost X or less from your graveyard | WithoutManaCost$ True | Optional$ True | ReplaceGraveyard$ Exile | AILogic$ ReplaySpell | References$ X
+SVar:X:Count$CardPower
+Oracle:Prowess\nWhenever Spellslinger Adept attacks, you may cast target instant or sorcery card with converted mana cost less than or equal to Spellslinger Adept's power from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.

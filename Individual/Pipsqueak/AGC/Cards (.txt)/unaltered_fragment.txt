@@ -1,0 +1,5 @@
+Name:Unaltered Fragment
+ManaCost:0
+Types:Artifact
+A:AB$ Mana | Cost$ T | Produced$ C | Amount$ 1 | SpellDescription$ Add {C}.
+Oracle:{T}: Add {C}.

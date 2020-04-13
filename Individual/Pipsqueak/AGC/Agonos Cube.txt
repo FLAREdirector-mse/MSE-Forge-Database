@@ -1,0 +1,36 @@
+[metadata]
+Code=AGC
+Date=2021-01-01 # TODO: Find official release date
+Name=Agonos Cube
+Code2=AGC
+MciCode=agc
+Type=Other
+BoosterCovers=0
+Booster=15 Common
+
+[cards]
+5 C Archon of Hope's Defiance
+7 C Avenge
+30 C Lost in the Light
+42 C Push Back the Siege
+52 C Stand Against Evil
+67 C Astrolabic Wisdom
+80 C Destabilize
+87 C Find Answers
+96 C One of the Crowd
+110 C Send Back
+113 C Spellslinger Adept
+116 C Whimsical Musings
+126 C Assault Rhino
+136 C Corrupted Teachings
+148 C Increasing Dedication
+150 C Infernal Recall
+199 C Conquering Commander
+215 C Gloryhunter Dragon
+228 C Pigstrider Cavalier
+346 C Alignment Array
+380 C The Sphere
+385 C Unaltered Fragment
+392 C The Academy of Innovation
+
+[tokens]

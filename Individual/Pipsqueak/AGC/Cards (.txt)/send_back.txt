@@ -1,0 +1,6 @@
+Name:Send Back
+ManaCost:2 U
+Types:Instant
+K:Delve
+A:SP$ ChangeZone | Cost$ 2 U | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target nonland permanent to its owner's hand.
+Oracle:Delve\nReturn target nonland permanent to its owner's hand.
