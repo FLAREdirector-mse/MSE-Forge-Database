@@ -54,6 +54,7 @@ Booster=15 Common
 380 C The Sphere
 385 C Unaltered Fragment
 386 C Unidentified Relic
+389 C Vorpal Titan
 392 C The Academy of Innovation
 393 C Aetherite Mine
 404 C Coiling Caves
