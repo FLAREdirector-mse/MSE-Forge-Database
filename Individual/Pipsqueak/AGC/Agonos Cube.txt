@@ -1,6 +1,6 @@
 [metadata]
 Code=AGC
-Date=2021-01-01 # TODO: Find official release date
+Date=2020-04-03
 Name=Agonos Cube
 Code2=AGC
 MciCode=agc
@@ -16,10 +16,13 @@ Booster=15 Common
 17 C Desolate
 20 C Duchess of Steel
 30 C Lost in the Light
+31 C Meletis Phalanx
 42 C Push Back the Siege
+48 C Serenity Beckons
 50 C Spindle Dancer
 51 C Spirit of Secrets
 52 C Stand Against Evil
+58 C Vylinia, Curator of Wonders
 67 C Astrolabic Wisdom
 69 C Break Reality
 80 C Destabilize
@@ -57,6 +60,7 @@ Booster=15 Common
 309 C Explore Paradise
 310 C Fallen to the Ages
 328 C Ryukami's Wake
+332 C Temporal Jaunter
 344 C Aeonic Conduit
 346 C Alignment Array
 359 C Forbidden Scroll
@@ -65,7 +69,8 @@ Booster=15 Common
 363 C Fragment of Growth
 364 C Fragment of Hope
 365 C Fragment of Rage
-377 C Rishidan Amulet
+369 C Neuropath Psiweaver
+377 C Rishadan Amulet
 380 C The Sphere
 385 C Unaltered Fragment
 386 C Unidentified Relic
