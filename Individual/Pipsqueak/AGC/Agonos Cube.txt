@@ -53,6 +53,11 @@ Booster=15 Common
 270 C Old God's Presence
 272 C Overbearing Sentinel
 277 C Revengevine
+289 C Unending Evolution
+309 C Explore Paradise
+310 C Fallen to the Ages
+328 C Ryukami's Wake
+344 C Aeonic Conduit
 346 C Alignment Array
 359 C Forbidden Scroll
 361 C Fragment of Curiosity
@@ -60,6 +65,7 @@ Booster=15 Common
 363 C Fragment of Growth
 364 C Fragment of Hope
 365 C Fragment of Rage
+377 C Rishidan Amulet
 380 C The Sphere
 385 C Unaltered Fragment
 386 C Unidentified Relic

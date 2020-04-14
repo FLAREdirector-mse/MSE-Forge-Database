@@ -1,0 +1,8 @@
+Name:Aeonic Conduit
+ManaCost:2
+Types:Artifact
+A:AB$ PutCounter | Cost$ T | CounterType$ CHARGE | CounterNum$ 1 | SpellDescription$ Put a charge counter on CARDNAME.
+A:AB$ Mana | Cost$ T | Produced$ C | Amount$ X | References$ X | SpellDescription$ Add {C} for each charge counter on CARDNAME.
+SVar:X:Count$CardCounters.CHARGE
+DeckHas:Ability$Counters
+Oracle:{T}: Put a charge counter on Aeonic Conduit.\n{T}: Add {C} for each charge counter on Aeonic Conduit.
