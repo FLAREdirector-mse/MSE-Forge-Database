@@ -1,0 +1,6 @@
+Name:Giant of Greatwoods
+ManaCost:2 G G
+Types:Creature Giant
+PT:5/4
+K:Protection:Card.cmcLE2:Protection from converted mana cost 2 or less
+Oracle:Protection from converted mana cost 2 or less

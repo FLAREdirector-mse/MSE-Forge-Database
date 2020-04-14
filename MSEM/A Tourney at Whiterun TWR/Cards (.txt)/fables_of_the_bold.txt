@@ -1,0 +1,7 @@
+Name:Fables of the Bold
+ManaCost:1 BG
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card.
+SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 1
+S:Mode$ Continuous | Affected$ Creature.enchanted+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Enchanted creatures you control get +1/+1.
+Oracle:When Fables of the Bold enters the battlefield, draw a card.\nEnchanted creatures you control get +1/+1.

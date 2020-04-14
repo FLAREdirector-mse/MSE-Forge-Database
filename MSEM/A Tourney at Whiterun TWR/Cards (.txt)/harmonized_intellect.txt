@@ -1,0 +1,12 @@
+# eff it
+# HI deals the damage instead of the spells (easy to test with pro-red)
+# --FLAREdirector
+Name:Harmonized Intellect
+ManaCost:2 U R
+Types:Instant
+A:SP$ Effect | Cost$ 2 U R | Name$ Harmonized Intellect Effect | Triggers$ InstantOrSorcerySpell | SVars$ TrigDraw,DBDamage | SpellDescription$ As you cast instant and sorcery spells this turn, they gain “Draw a card” and “This spell deals 1 damage to any target.”
+SVar:InstantOrSorcerySpell:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Command | TriggerDescription$ As you cast instant and sorcery spells this turn, they gain “Draw a card” and “This spell deals 1 damage to any target.”
+SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBDamage | TriggerDescription$ As you cast instant and sorcery spells this turn, they gain “Draw a card.”
+SVar:DBDamage:DB$DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 1 | TriggerDescription$ As you cast instant and sorcery spells this turn, they gain “This spell deals 1 damage to any target.”
+SVar:PlayMain1:TRUE
+Oracle:As you cast instant and sorcery spells this turn, they gain “Draw a card” and “This spell deals 1 damage to any target.”

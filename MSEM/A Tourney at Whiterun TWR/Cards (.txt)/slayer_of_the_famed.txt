@@ -1,0 +1,8 @@
+Name:Slayer of the Famed
+ManaCost:1 B G
+Types:Creature Human Warrior
+PT:3/2
+K:Deathtouch
+K:Menace
+K:CARDNAME must be blocked if able.
+Oracle:Deathtouch, menace\nSlayer of the Famed must be blocked if able.

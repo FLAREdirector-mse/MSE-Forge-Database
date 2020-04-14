@@ -1,0 +1,79 @@
+[metadata]
+Code=AGC
+Date=2021-01-01 # TODO: Find official release date
+Name=Agonos Cube
+Code2=AGC
+MciCode=agc
+Type=Other
+BoosterCovers=0
+Booster=15 Common
+
+[cards]
+5 C Archon of Hope's Defiance
+7 C Avenge
+10 C Blade of Banishing
+11 C Capture the Glow
+17 C Desolate
+20 C Duchess of Steel
+30 C Lost in the Light
+42 C Push Back the Siege
+50 C Spindle Dancer
+51 C Spirit of Secrets
+52 C Stand Against Evil
+67 C Astrolabic Wisdom
+69 C Break Reality
+80 C Destabilize
+83 C Endless Possibilities
+87 C Find Answers
+96 C One of the Crowd
+99 C Orobi, Who Outsmarts Time
+109 C Runic Reflections
+110 C Send Back
+113 C Spellslinger Adept
+116 C Whimsical Musings
+126 C Assault Rhino
+136 C Corrupted Teachings
+148 C Increasing Dedication
+150 C Infernal Recall
+164 C Scavenger Queen
+199 C Conquering Commander
+207 C Everspark
+215 C Gloryhunter Dragon
+219 C Leader of the Redguard
+226 C One With Flames
+228 C Pigstrider Cavalier
+236 C Vengeant Champion
+243 C Ambush Raider
+252 C Evergrowth
+256 C Giant of Greatwoods
+259 C Hesperian of Spring
+262 C Impulsive Adventurer
+263 C Into the Woods
+265 C Lotus Dryad
+270 C Old God's Presence
+272 C Overbearing Sentinel
+277 C Revengevine
+289 C Unending Evolution
+309 C Explore Paradise
+310 C Fallen to the Ages
+328 C Ryukami's Wake
+344 C Aeonic Conduit
+346 C Alignment Array
+359 C Forbidden Scroll
+361 C Fragment of Curiosity
+362 C Fragment of Emptiness
+363 C Fragment of Growth
+364 C Fragment of Hope
+365 C Fragment of Rage
+377 C Rishidan Amulet
+380 C The Sphere
+385 C Unaltered Fragment
+386 C Unidentified Relic
+389 C Vorpal Titan
+392 C The Academy of Innovation
+393 C Aetherite Mine
+404 C Coiling Caves
+405 C Cracking Caldera
+433 C Scrapworks
+
+[tokens]

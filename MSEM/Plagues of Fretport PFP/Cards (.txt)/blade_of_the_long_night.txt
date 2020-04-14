@@ -1,6 +1,6 @@
-Name:Blade of Long Night
+Name:Blade of the Long Night
 ManaCost:RW
 Types:Creature Human Soldier
 PT:2/1
 A:AB$ Untap | Cost$ 1 RW | SpellDescription$ Untap CARDNAME.
-Oracle:{1}{RW}: Untap Blade of Long Night.
+Oracle:{1}{RW}: Untap Blade of the Long Night.

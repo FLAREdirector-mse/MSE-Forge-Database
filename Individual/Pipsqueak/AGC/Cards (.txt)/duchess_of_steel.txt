@@ -1,0 +1,9 @@
+Name:Duchess of Steel
+ManaCost:2 W
+Types:Creature Human Soldier
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Equipment | ChangeNum$ 1 | ShuffleNonMandatory$ True
+S:Mode$ Continuous | Affected$ Card.Equipment+YouCtrl | AffectedZone$ Stack | AddKeyword$ Convoke | Description$ Equipment spells you cast have convoke.
+AI:RemoveDeck:Random
+Oracle:When Duchess of Steel enters the battlefield, you may search your library for an Equipment card, reveal it, put it into your hand, then shuffle your library.\nEquipment spells you cast have convoke. 

@@ -1,0 +1,7 @@
+Name:Lotus Dryad
+ManaCost:1 G
+Types:Creature Dryad Druid
+PT:1/2
+A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ X | References$ X | SpellDescription$ Add X mana of any one color, where X is your devotion to green. (Each {G} in the mana costs of permanents you control counts towards your devotion to green.)
+SVar:X:Count$Devotion.Green
+Oracle:{T}: Add X mana of any one color, where X is your devotion to green. (Each {G} in the mana costs of permanents you control counts towards your devotion to green.)

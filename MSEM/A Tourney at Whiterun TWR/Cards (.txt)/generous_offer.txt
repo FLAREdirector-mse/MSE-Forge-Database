@@ -1,0 +1,8 @@
+Name:Generous Offer
+ManaCost:1 GW
+Types:Instant
+A:SP$ Charm | Cost$ 1 GW | Choices$ DBIndes,DBLifeGain,DBDraw | CharmNum$ 2
+SVar:DBIndes:DB$ Pump | ValidTgts$ Creature | KW$ Indestructible  | SpellDescription$ Target creature gains indestructible until end of turn.
+SVar:DBLifeGain:DB$ GainLife | Defined$ You | LifeAmount$ 3 | SpellDescription$ You gain 3 life.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Choose two —\n• Target creature gains indestructible until end of turn.\n• You gain 3 life.\n• Draw a card.

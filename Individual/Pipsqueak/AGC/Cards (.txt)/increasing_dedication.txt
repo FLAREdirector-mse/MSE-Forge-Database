@@ -1,0 +1,8 @@
+Name:Increasing Ambition
+ManaCost:B
+Types:Sorcery
+K:Flashback:1 B
+A:SP$ Draw | Cost$ B | ChangeNum$ X | References$ X | SubAbility$ DBLoseLife | SpellDescription$ You draw two cards and you lose 2 life.
+SVar:DBLoseLife:DB$LoseLife | LifeAmount$ X | References$ X
+SVar:X:Count$wasCastFromGraveyard.2.1
+Oracle:You draw a card and lose 1 life. If this spell was cast from a graveyard, instead you draw two cards and lose 2 life.\nFlashback {1}{B} (You may cast this card from your graveyard for its flashback cost. Then exile it.)

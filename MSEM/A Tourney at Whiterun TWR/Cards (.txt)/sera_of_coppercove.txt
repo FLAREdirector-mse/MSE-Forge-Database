@@ -1,0 +1,9 @@
+Name:Sera of Coppercove
+ManaCost:R G
+Types:Legendary Creature Human Warrior
+K:CARDNAME attacks each combat if able.
+PT:2/2
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigFight | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME attacks, it fights target creature you don’t control.
+SVar:TrigFight:DB$ Fight | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Choose target creature you don't control
+A:AB$ Pump | Cost$ 1 R G | Defined$ Self | NumAtt$ +3 | NumDef$ +3 | SpellDescription$ CARDNAME gets +3/+3 until end of turn.
+Oracle:Sera of Coppercove attacks each combat if able.\nWhenever Sera of Coppercove attacks, it fights target creature you don’t control.\n{1}{R}{G}: Sera of Coppercove gets +3/+3 until end of turn.

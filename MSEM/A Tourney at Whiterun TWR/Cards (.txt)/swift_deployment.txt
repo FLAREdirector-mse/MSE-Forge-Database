@@ -1,0 +1,8 @@
+Name:Swift Deployment
+ManaCost:1 RW RW RW
+Types:Instant
+A:SP$ Token | Cost$ 1 RW RW RW | TokenAmount$ 2 | TokenScript$ r_1_1_soldier_haste | TokenOwner$ You | LegacyImage$ r 1 1 soldier haste twr | SubAbility$ TrigPump | SpellDescription$ Create two 1/1 red Soldier creature tokens with haste. Until end of turn, creatures you control get +1/+1.
+SVar:TrigPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ +1
+DeckHas:Ability$Token
+SVar:PlayMain1:TRUE
+Oracle:Create two 1/1 red Soldier creature tokens with haste. Until end of turn, creatures you control get +1/+1.

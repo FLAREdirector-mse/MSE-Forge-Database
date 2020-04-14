@@ -1,0 +1,6 @@
+Name:Absence of the Unmaker
+ManaCost:1 UR UR
+Types:Instant
+K:Spectacle:1 UR
+A:SP$ CopySpellAbility | Cost$ 1 UR UR | ValidTgts$ Instant,Sorcery | TargetType$ Spell | SpellDescription$ Copy target instant or sorcery spell. You may choose new targets for the copy.
+Oracle:Cripple {1}{U/R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nCopy target instant or sorcery spell. You may choose new targets for the copy.

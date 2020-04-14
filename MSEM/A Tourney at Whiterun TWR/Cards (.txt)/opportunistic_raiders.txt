@@ -1,0 +1,12 @@
+# pretty sure this softlocks the game if it enters during NOT your main phase
+# rip
+# --FLAREdirector
+Name:Opportunistic Raiders
+ManaCost:2 BR BR
+Types:Creature Human Rogue
+K:Haste
+K:Spectacle:1 BR
+PT:3/3
+T:Mode$ ChangesZone | ValidTgts$ Self | Origin$ Any | Destination$ Battlefield | ConditionPhases$ Main1,Main2 | Execute$ DBAddCombat | SpellDescription$ When Opportunistic Raiders enters the battlefield, if it’s your main phase, after this phase, there is an additional combat phase followed by an additional main phase.
+SVar:DBAddCombat:DB$ AddPhase | ExtraPhase$ BeginCombat | FollowedBy$ ThisPhase
+Oracle:Cripple {1}{B/R} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nHaste\nWhen Opportunistic Raiders enters the battlefield, if it’s your main phase, after this phase, there is an additional combat phase followed by an additional main phase.

@@ -1,0 +1,7 @@
+Name:Push Back the Siege
+ManaCost:X W W
+Types:Instant
+A:SP$ Token | Cost$ X W W | TokenAmount$ X | References$ X | TokenScript$ w_1_1_warrior | TokenOwner$ You | LegacyImage$ w 1 1 soldier adc | SubAbility$ DBGainLife | SpellDescription$ Create X 1/1 white Soldier creature tokens.
+SVar:DBGainLife:DB$GainLife | LifeAmount$ X | References$ X
+SVar:X:Count$xPaid
+Oracle:Create X 1/1 white Warrior creature tokens. You gain X life.

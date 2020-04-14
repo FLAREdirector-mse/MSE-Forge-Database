@@ -1,0 +1,20 @@
+Name:Surge of Duty
+ManaCost:X R
+Types:Instant
+A:SP$ Pump | Cost$ X R | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +X | NumDef$ +X | References$ X | SpellDescription$ Target creature gets +X/+X until end of turn.
+A:SP$ Pump | Cost$ X R R | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +X | NumDef$ +X | References$ X | SpellDescription$ Target creature gets +X/+X until end of turn. Attach Undeterred Valiance to it. | SubAbility$ Fabled | PrecostDesc$ Fabled | CostDesc$ {X}{R}{R} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Target creature gets +X/+X until end of turn. Attach CARDNAME to that creature.
+SVar:X:Count$xPaid
+SVar:Fabled:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | AttachedTo$ ParentTarget
+AlternateMode:DoubleFaced
+Oracle:Target creature gets +X/+X until end of turn.\nFabled {X}{R}{R} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
+
+ALTERNATE
+
+Name:Undeterred Valiance
+ManaCost:no cost
+Colors:red
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ | ValidTgts$ Creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyword$ First Strike | Description$ Enchanted creature has first strike.
+Oracle:Enchant creature\nEnchanted creature has first strike.

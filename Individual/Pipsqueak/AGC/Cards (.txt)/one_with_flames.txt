@@ -1,0 +1,7 @@
+Name:One With Flames
+ManaCost:1 R
+Types:Instant
+K:Kicker:PayLife<2>
+A:SP$ DealDamage | Cost$ R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ WasKicked | References$ WasKicked | SpellDescription$ CARDNAME deals 3 damage to any target. If CARDNAME was kicked, it deals 4 damage to that permanent or player instead.
+SVar:WasKicked:Count$Kicked.4.3
+Oracle:Kicker—Pay 2 life. (You may pay 2 life in addition to any other costs as you cast this spell.)\nOne with Flames deals 3 damage to any target. If this spell was kicked, it deals 4 damage to that target instead.

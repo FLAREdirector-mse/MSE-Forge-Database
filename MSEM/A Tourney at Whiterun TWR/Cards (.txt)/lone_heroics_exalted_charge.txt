@@ -1,0 +1,21 @@
+Name:Lone Heroics
+ManaCost:G
+Types:Sorcery
+A:SP$ Pump | Cost$ G | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | NumDef$ +2 | SpellDescription$ Target creature gets +2/+2 until end of turn.
+A:SP$ Pump | Cost$ 3 G G | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +2 | NumDef$ +2 | SubAbility$ Fabled | PrecostDesc$ Fabled | CostDesc$ {3}{G}{G} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Target creature gets +2/+2 until end of turn. Attach Exalted Charge to it.
+SVar:Fabled:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | AttachedTo$ ParentTarget
+AlternateMode:DoubleFaced
+Oracle:Target creature gets +2/+2 until end of turn.\nFabled {3}{G}{G} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
+
+ALTERNATE
+
+Name:Exalted Charge
+ManaCost:no cost
+Colors:green
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ | ValidTgts$ Creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 2 | AddToughness$ 2 | Description$ Enchanted creature gets +2/+2.
+T:Mode$ Attacks | ValidCard$ Card.EnchantedBy | Execute$ TrigToken | TriggerDescription$ Whenever enchanted creature attacks, create a 2/2 white Knight creature token that's tapped and attacking.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_2_2_knight | TokenOwner$ You | TokenTapped$ True | TokenAttacking$ True | LegacyImage$ w 2 2 knight twr
+Oracle:Enchant creature\nEnchanted creature gets +2/+2.\nWhenever enchanted creature attacks, create a 2/2 white Knight creature token that’s tapped and attacking.

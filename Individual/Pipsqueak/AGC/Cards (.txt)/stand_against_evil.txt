@@ -1,0 +1,7 @@
+Name:Stand Against Evil
+ManaCost:2 W W
+Types:Enchantment
+A:AB$ Tap | Cost$ tapXType<1/Creature> | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | SpellDescription$ Tap target permanent.
+AI:RemoveDeck:All
+SVar:NonStackingEffect:True
+Oracle:Tap an untapped creature you control: Tap target permanent.

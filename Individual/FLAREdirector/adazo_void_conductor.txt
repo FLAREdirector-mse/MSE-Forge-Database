@@ -1,0 +1,7 @@
+Name:Adazo, Void Conductor
+ManaCost:5
+Types:Legendary Creature Shapeshifter
+K:Changeling
+PT:4/4
+S:Mode$ Continuous | EffectZone$ Battlefield,Hand,Command,Graveyard,Exile,Stack,Library | PresentZone$ Battlefield,Hand,Command,Graveyard,Exile,Stack,Library | Affected$ Card.IsCommander+nonLegendary+YouOwn+YouCtrl | AffectedZone$ Battlefield,Hand,Command,Graveyard,Exile,Stack,Library | AddType$ Legendary | Description$ Legendary partner (You can have two commanders if this is one of them. The other one is promoted to legendary.)
+Oracle:Changeling\nLegendary partner (You can have two commanders if this is one of them. The other one is promoted to legendary.)

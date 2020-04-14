@@ -1,0 +1,7 @@
+Name:The Academy of Innovation
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ R | Amount$ X | References$ X | SpellDescription$ Add {R} for each artifact you control.
+SVar:X:Count$Valid Artifact.YouCtrl
+AI:RemoveDeck:Random
+Oracle:{T}: Add {R} for each artifact you control.

@@ -1,0 +1,18 @@
+# you have to manually put the card on the bottom of your library
+# for *some* reason
+# but i'm 99% certain that it works
+# --FLAREdirector
+Name:Insurgent Ballads
+ManaCost:U R
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPeek | TriggerDescription$ At the beginning of your upkeep, reveal the top card of your library. Any opponent may have CARDNAME deal damage to them equal to that card’s converted mana cost. If a player does, put that card on the bottom of your library. Otherwise, put it into your hand.
+SVar:TrigPeek:DB$ PeekAndReveal | PeekAmount$ 1 | RevealValid$ Card | ImprintRevealed$ True | SubAbility$ DBRepeat
+SVar:DBRepeat:DB$ RepeatEach | RepeatPlayers$ Opponent | RepeatSubAbility$ DBProd | SubAbility$ DBPutIntoHand
+SVar:DBProd:DB$ GenericChoice | Defined$ Remembered | Choices$ DBDamage,DoNothing | ConditionDefined$ Imprinted | ConditionPresent$ Card | ConditionCompare$ EQ1 | AILogic$ SinProdder
+SVar:DBDamage:DB$ DealDamage | Defined$ Remembered | NumDmg$ X | References$ X | SubAbility$ DBMoveToBottom | SpellDescription$ Take damage; bottom card
+SVar:DBMoveToBottom:DB$ Dig | DigNum$ 1 | DestinationZone$ Library | LibraryPosition$ -1 | ConditionPresent$ Card | ConditionDefined$ Remembered | ConditionCompare$ EQ0 | SubAbility$ DBCleanup
+SVar:DBPutIntoHand:DB$ Dig | DigNum$ 1 | ChangeNum$ All | ChangeValid$ Card | DestinationZone$ Hand | SubAbility$ DBCleanup | ConditionDefined$ Imprinted | ConditionPresent$ Card | ConditionCompare$ EQ1
+SVar:DoNothing:DB$ Cleanup | SpellDescription$ Do nothing
+SVar:DBCleanup:DB$Cleanup | ClearRemembered$ True | ClearImprinted$ True
+SVar:X:Imprinted$CardManaCost
+Oracle:Any opponent may have Insurgent Ballads deal damage to them equal to that card’s converted mana cost. If a player does, put that card on the bottom of your library. Otherwise, put it into your hand.

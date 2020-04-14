@@ -1,0 +1,6 @@
+Name:Into the Woods
+ManaCost:2 G
+Types:Enchantment
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigChange | TriggerDescription$ At the beginning of your end step, search your library for a land card and put it onto the battlefield tapped, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land | ChangeNum$ 1
+Oracle:At the beginning of your end step, search your library for a land card and put it onto the battlefield tapped, then shuffle your library.

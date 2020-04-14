@@ -1,0 +1,6 @@
+Name:Reckless Cultivator
+ManaCost:3 RG RG
+Types:Creature Human Noble
+PT:3/5
+A:AB$ Untap | Cost$ T Sac<1/Land> | TargetMin$ 0 | TargetMax$ 3 | ValidTgts$ Land | TgtPrompt$ Select up to three target lands | SpellDescription$ Untap up to three target lands.
+Oracle:{T}, Sacrifice a land: Untap up to three target lands.

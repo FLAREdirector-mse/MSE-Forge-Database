@@ -1,0 +1,9 @@
+Name:Overbearing Sentinel
+ManaCost:2 G G
+Types:Creature Elemental
+PT:4/4
+K:CARDNAME can't be countered.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, you gain 4 life and scry 2.
+SVar:TrigGainLife:DB$GainLife | LifeAmount$ 4 | SubAbility$ TrigScry
+SVar:TrigScry:DB$Scry | ScryNum$ 2
+Oracle:This spell can't be countered.\nWhen Overbearing Sentinel enters the battlefield, you gain 4 life and scry 2.
