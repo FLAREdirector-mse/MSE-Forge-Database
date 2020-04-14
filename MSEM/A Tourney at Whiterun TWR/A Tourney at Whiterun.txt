@@ -110,7 +110,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 99 C Secluded Wildborn
 100 R Ser Joffrey, Plague of Nines
 101 U Shrouded Cackler
-102 C Three-Blade Boon
+102 C Three Blade Boon
 103 C Trystasp Coating
 104 U Twilight Raid
 105 U Under Cover of Dark
