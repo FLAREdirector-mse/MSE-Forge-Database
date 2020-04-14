@@ -1,0 +1,10 @@
+Name:Scavenger Queen
+ManaCost:B
+Types:Creature Elf Wizard
+PT:1/1
+K:Deathtouch
+K:Escape:1 B ExileFromGrave<3/Card.Other/other>
+K:etbCounter:P1P1:1:ValidCard$ Card.Self+escaped:CARDNAME escapes with a +1/+1 counter on it.
+SVar:AIPreference:ExileFromGraveCost$Card.YouOwn+Other+inZoneGraveyard
+DeckHas:Ability$Counters
+Oracle:Escape-{1}{B}, exile three other cards from your graveyard. (You may cast this card from your graveyard for its escape cost.)\Scavenger Queen escapes with a +1/+1 counter on it.

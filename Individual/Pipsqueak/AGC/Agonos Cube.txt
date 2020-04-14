@@ -13,6 +13,7 @@ Booster=15 Common
 7 C Avenge
 10 C Blade of Banishing
 11 C Capture the Glow
+17 C Desolate
 20 C Duchess of Steel
 30 C Lost in the Light
 42 C Push Back the Siege
@@ -34,6 +35,7 @@ Booster=15 Common
 136 C Corrupted Teachings
 148 C Increasing Dedication
 150 C Infernal Recall
+164 C Scavenger Queen
 199 C Conquering Commander
 207 C Everspark
 215 C Gloryhunter Dragon
@@ -47,6 +49,7 @@ Booster=15 Common
 259 C Hesperian of Spring
 262 C Impulsive Adventurer
 263 C Into the Woods
+265 C Lotus Dryad
 270 C Old God's Presence
 272 C Overbearing Sentinel
 277 C Revengevine
