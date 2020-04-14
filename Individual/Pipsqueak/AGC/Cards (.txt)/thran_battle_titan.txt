@@ -1,0 +1,10 @@
+Name:Thran Battle Titan
+ManaCost:7
+Types:Artifact Creature Giant
+PT:7/8
+K:Trample
+K:Vigilance
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFight | TriggerDescription$ When CARDNAME enters the battlefield, it fights up to one target creature you don't control.
+SVar:TrigFight:DB$ Fight | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Choose target creature you don't control | TargetMin$ 0 | TargetMax$ 1
+SVar:PlayMain1:TRUE
+Oracle:Trample, vigilance\nWhen Thran Battle Titan enters the battlefield, it fights up to one target creature you don't control.

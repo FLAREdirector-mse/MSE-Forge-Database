@@ -1,0 +1,7 @@
+Name:Fragment of Rage
+ManaCost:0
+Types:Artifact
+A:AB$ Mana | Cost$ T PayLife<1>| Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Draw | Cost$ 2 T Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:PlayMain1:TRUE
+Oracle:{T}, Pay 1 life: {R}.\n{2}, {T}, Sacrifice Fragment of Rage: Draw a card.

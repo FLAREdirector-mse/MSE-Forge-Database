@@ -1,0 +1,7 @@
+Name:Spindle Dancer
+ManaCost:W
+Types:Creature Human Advisor
+PT:1/1
+A:AB$ ChangeZone | Cost$ W T| TargetMin$ 1 | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | RememberTargets$ True | ForgetOtherTargets$ True | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBReturn | SpellDescription$ Exile another target creature, then return it to the battlefield under its owner's control.
+SVar:DBReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ Exile | Destination$ Battlefield
+Oracle:{W}, {T}: Exile another target creature, then return it to the battlefield under its owner's control.

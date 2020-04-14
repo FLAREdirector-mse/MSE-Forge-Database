@@ -1,0 +1,6 @@
+Name:Coiling Caves
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ RemoveCounter | Cost$ 3 T Sac<1/CARDNAME> | ValidTgts$ Permanent | CounterType$ All | CounterNum$ All | SpellDescription$ Remove all counters from target permanent.
+Oracle:{T}: Add {C}.\n{3}, {T}, Sacrifice Coiling Caves: Remove all counters from target permanent.

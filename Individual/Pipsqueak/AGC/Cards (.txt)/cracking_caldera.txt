@@ -1,0 +1,10 @@
+Name:Cracking Caldera
+ManaCost:no cost
+Types:Land
+K:etbCounter:ICE:10
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}
+A:AB$ RemoveCounter | Cost$ 3 | CounterType$ ICE | CounterNum$ 1 | SpellDescription$ Remove an ice counter from CARDNAME.
+T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_EQ0_ICE | Execute$ TrigSac | TriggerDescription$ When Cracking Caldera has no ice counters on it, sacrifice it. If you do, it deals 20 damage to any target.
+SVar:TrigSac:DB$ Sacrifice | RememberSacrificed$ True | SubAbility$ TrigDamage
+SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 20 | SpellDescription$ CARDNAME deals 20 damage to any target.
+Oracle:Cracking Caldera enters the battlefield with ten ice counters on it.\n{T}: Add {C}.\n{3}: Remove an ice counter from Dark Depths.\nWhen Dark Depths has no ice counters on it, sacrifice it.  If you do, it deals 20 damage to any target.

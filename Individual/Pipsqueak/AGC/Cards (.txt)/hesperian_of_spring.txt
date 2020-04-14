@@ -1,0 +1,7 @@
+Name:Hesperian of Spring
+ManaCost:1 G
+Types:Creature Dryad
+PT:1/2
+S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | Description$ You may play an additional land on each of your turns.
+A:AB$ Pump | Cost$ Sac<1/Land> | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Hexproof | SpellDescription$ Target creature gains hexproof until end of turn.
+Oracle:You may play an additional land on each of your turns.\nSacrifice a land: Target creature gains hexproof until end of turn.

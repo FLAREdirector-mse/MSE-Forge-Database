@@ -1,0 +1,7 @@
+Name:Explore Paradise
+ManaCost:2 G U
+Types:Enchantment
+S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | Description$ You may play an additional land on each of your turns.
+T:Mode$ Phase | Phase$ Draw | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ At the beginning of your draw step, draw an additional card.
+SVar:TrigDraw:DB$Draw | NumCards$ 1 | Defined$ TriggeredPlayer
+Oracle:You may play an additional land on each of your turns.\nAt the beginning of your draw step, draw an additional card.

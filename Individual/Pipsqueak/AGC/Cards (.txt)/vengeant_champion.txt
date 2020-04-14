@@ -1,0 +1,6 @@
+Name:Vengeant Champion
+ManaCost:R
+Types:Creature Human Berserker
+PT:2/2
+K:CARDNAME attacks each combat if able.
+Oracle:Vengeant Champion attacks each combat if able.

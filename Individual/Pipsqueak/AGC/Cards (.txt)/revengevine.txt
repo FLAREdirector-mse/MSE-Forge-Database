@@ -1,0 +1,9 @@
+Name:Revengevine
+ManaCost:3 G G
+Types:Creature Plant
+PT:5/4
+K:Retrace
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFight | TriggerDescription$ When CARDNAME enters the battlefield, it fights up to one target creature you don't control. (Each deals damage equal to its power to the other.)
+SVar:TrigFight:DB$ Fight | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Choose target creature you don't control | TargetMin$ 0 | TargetMax$ 1
+SVar:PlayMain1:TRUE
+Oracle:When Revengevine enters the battlefield, you may have it fight up to one target creature.\nRetrace

@@ -1,0 +1,6 @@
+Name:Runic Reflections
+ManaCost:1 U
+Types:Instant
+K:Escape:2 U ExileFromGrave<4/Card.Other/other>
+A:SP$ Dig | Cost$ 1 U | DigNum$ 4 | ChangeNum$ 1 | SpellDescription$ Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.
+Oracle:Look at the top four cards of your library. Put one of them into your hand and the rest on the bottom of your library in any order.\nEscape—{2}{U}, exile four other cards from your graveyard.
