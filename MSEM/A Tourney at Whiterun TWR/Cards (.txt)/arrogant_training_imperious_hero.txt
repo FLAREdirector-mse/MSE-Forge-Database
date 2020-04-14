@@ -4,11 +4,8 @@ Types:Instant
 A:SP$ Pump | Cost$ W | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | SubAbility$ DBUntap | SpellDescription$ Target creature gets +1/+1 until end of turn. Untap that creature.
 SVar:DBUntap:DB$ Untap | Defined$ Targeted
 A:SP$ Pump | Cost$ 2 W | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +1 | NumDef$ +1 | SubAbility$ DBUntap2 | SpellDescription$ Target creature gets +1/+1 until end of turn. Untap that creature and attach Imperious Hero to it. | PrecostDesc$ Fabled | CostDesc$ {2}{W} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Target creature gets +1/+1 until end of turn. Untap that creature and attach CARDNAME to it.
-SVar:DBUntap2:DB$ Untap | Defined$ Targeted | SubAbility$ AnimateHack
-SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
-SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
-SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
-SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+SVar:DBUntap2:DB$ Untap | Defined$ Targeted | SubAbility$ Fabled
+SVar:Fabled:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | AttachedTo$ ParentTarget
 AlternateMode:DoubleFaced
 Oracle:Target creature gets +1/+1 until end of turn. Untap that creature.\nFabled {2}{W} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
 

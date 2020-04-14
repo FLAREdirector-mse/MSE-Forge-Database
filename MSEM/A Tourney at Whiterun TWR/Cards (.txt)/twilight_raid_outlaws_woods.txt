@@ -1,0 +1,26 @@
+Name:Twilight Raid
+ManaCost:B
+Types:Instant
+A:SP$ LoseLife | Cost$ B | LifeAmount$ 1 | ValidTgts$ Player | SubAbility$ DBScry1 | SpellDescription$ Target player loses 1 life. Scry 1.
+SVar:DBScry:DB$ Scry | ScryNum$ 1
+A:SP$ LoseLife | Cost$ 2 B | LifeAmount$ 1 | ValidTgts$ Player | SubAbility$ DBScry2 | PrecostDesc$ Fabled | CostDesc$ {2}{B} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the player it's targeting.) | StackDescription$ Target player loses 1 life. Scry 1. Attach Outlaw's Woods to that player.
+SVar:DBScry1:DB$ Scry | ScryNum$ 1
+SVar:DBScry2:DB$ Scry | ScryNum$ 1 | SubAbility$ AnimateHack
+SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
+SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
+SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+Oracle:Target player loses 1 life. Scry 1.\nFabled {2}{B} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that player.)
+
+ALTERNATE
+
+Name:Outlaw's Woods
+ManaCost:no cost
+Colors:black
+Types:Enchantment Aura
+K:Enchant player
+A:SP$ Attach | Cost$ | ValidTgts$ Player
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigLoseLife | TriggerDescription$ At the beginning of your upkeep, enchanted player loses 1 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player.EnchantedBy | LifeAmount$ 1 | SpellDescription$ Enchanted player loses 1 life
+Oracle:Enchant player\nAt the beginning of your upkeep, enchanted player loses 1 life.
