@@ -5,7 +5,7 @@ PT:3/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 1/1 white Soldier creature tokens.
 SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_soldier | TokenOwner$ You | LegacyImage$ w 1 1 soldier m10
 T:Mode$ Attacks | ValidCard$ Soldier.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigTokenAttacking | TriggerController$ You | TriggerDescription$ Whenever Leader of the Redguard or another Soldier you control attacks, create a 1/1 white Soldier creature token that's tapped and attacking.
-SVar:TrigTokenAttacking:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_warrior | TokenOwner$ TriggeredAttackerController | TokenTapped$ True | TokenAttacking$ True | LegacyImage$ w 1 1 soldier m10 
+SVar:TrigTokenAttacking:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_soldier | TokenOwner$ TriggeredAttackerController | TokenTapped$ True | TokenAttacking$ True | LegacyImage$ w 1 1 soldier m10 
 SVar:PlayMain1:TRUE
 DeckHints:Type$Soldier
 Oracle:When Leader of the Redguard enters the battlefield, create two 1/1 white Soldier creature tokens.\nWhenever Leader of the Redguard or another Soldier you control attacks, create a 1/1 white Soldier creature token that's tapped and attacking.

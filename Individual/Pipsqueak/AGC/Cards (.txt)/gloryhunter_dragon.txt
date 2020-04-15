@@ -1,4 +1,4 @@
-Name:Gloryhunter Angel
+Name:Gloryhunter Dragon
 ManaCost:3 R R
 Types:Creature Dragon
 PT:5/5
