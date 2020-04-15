@@ -2,6 +2,6 @@ Name:Serenity Beckons
 ManaCost:W
 Types:Instant
 A:SP$ ChangeZone | Cost$ W | Origin$ Battlefield,Graveyard | Destination$ Exile | AILogic$ SameName | ValidTgts$ Creature | TgtPrompt$ Select target creature or creature card in a graveyard | RememberLKI$ True | SubAbility$ DBInvestigate | SpellDescription$ Exile creature or creature card in a graveyard. Its owner investigates. | StackDescription$ SpellDescription
-SVar:DBInvestigate:DB$ Token | TokenAmount$ 1 | TokenScript$ Clue_AGC | LegacyImage$ Clue_AGC | TokenOwner$ RememberedController | SubAbility$ DBCleanup
+SVar:DBInvestigate:DB$ Token | TokenAmount$ 1 | TokenScript$ Clue_AGC | TokenImage$ Clue AGC | TokenOwner$ RememberedController | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 Oracle:Exile target creature or creature card in a graveyard. Its owner investigates.
