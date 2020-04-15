@@ -1,0 +1,9 @@
+Name:Agent of Nyx
+ManaCost:1 W
+Types:Enchantment Creature Soldier
+PT:2/1
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | AddType$ Enchantment | Description$ Other creatures you control are enchantments in addition to their other types.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME or another enchantment enters the battlefield under your control, target creature you control gets +1/+1 and gains first strike until end of turn.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Enchantment.Other+YouCtrl | TriggerZones$ Battlefield | Secondary$ True | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME or another enchantment enters the battlefield under your control, target creature you control gets +1/+1 and gains first strike until end of turn.
+SVar:TrigPump:DB$ Pump | ValidTgts$ Creature | NumAtt$ +1 | NumDef$ +1 KW$ First Strike
+Oracle:Other creatures you control are enchantments in addition to their other types.\nWhenever Agent of Nyx or another enchantment enters the battlefield under your control, target creature you control gets +1/+1 and gains first strike until end of turn.
