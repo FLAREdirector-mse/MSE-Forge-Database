@@ -1,0 +1,9 @@
+Name:Neuropath Psiweaver
+ManaCost:4
+Types:Artifact Creature Vedalken
+PT:2/5
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw three cards, then put two cards from your hand on top of your library in any order.
+SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 3 | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ChangeZone | Origin$ Hand | Destination$ Library | ChangeNum$ 2 | Mandatory$ True 
+A:AB$ Pump | Cost$ Discard<1/Card> | Defined$ Self | KW$ Prevent all damage that would be dealt to CARDNAME. | SpellDescription$ Prevent all damage that would be dealt to CARDNAME this turn.
+Oracle:When Neuropath Psiweaver enters the battlefield, draw three cards, then put two cards from your hand on top of your library in any order.\nDiscard a card: Prevent all damage that would be dealt to Neuropath Psiweaver this turn.
