@@ -1,0 +1,8 @@
+Name:Marble Bazaar
+ManaCost:no cost
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ ChangeZone | Cost$ 1 W B T | TgtPrompt$ Choose target creature or enchantment card in your graveyard | ValidTgts$ Enchantment.YouCtrl,Creature.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target creature or enchantment card from your graveyard on top of your library.
+Oracle:Marble Bazaar enters the battlefield tapped.\n{T}: Add {W} or {B}.\n{1}{W}{B},{T}: Put target creature or enchantment card from your graveyard on top of your library.
