@@ -1,6 +1,6 @@
 Name:Valiant Vanguard
 ManaCost:W
-Type:Creature Human Soldier
+Types:Creature Human Soldier
 PT:0/2
 S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | References$ X | Description$ CARDNAME gets +X/+0, where X is your devotion to white.
 SVar:X:Count$Devotion.White
