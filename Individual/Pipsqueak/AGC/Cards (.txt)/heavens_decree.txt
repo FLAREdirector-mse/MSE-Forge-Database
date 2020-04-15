@@ -1,0 +1,6 @@
+Name:Heaven's Decree
+ManaCost:2 W W
+Types:Sorcery
+A:SP$ DestroyAll | Cost$ 2 W W | ValidCards$ Creature | SpellDescription$ Destroy all creatures. 
+A:AB$ Token | Cost$ 4 W W ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | TokenAmount$ 1 | TokenScript$ w_4_4_angel_flying_vigilance_agc | TokenOwner$ You | LegacyImage$ w 4 4 angel flying vigilance agc | SpellDescription$ Create a 4/4 white Angel creature token with flying and vigilance.
+Oracle:Destroy all creatures.\n{4}{W}{W}, Exile Heaven's Decree from your graveyard: Create a 4/4 white Angel creature token with flying and vigilance.
