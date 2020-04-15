@@ -1,6 +1,6 @@
 Name:Break Reality
 ManaCost:5 U U
 Types:Sorcery
-A:SP$ ChangeZone | Cost$ 5 U U | ValidTgts$ Permanent | TgtPrompt$ Select up to three permanents to return to hand | TargetMin$ 0 | TargetMax$ 3 | Origin$ Battlefield | Destination$ Hand |  SubAbility$ AddTurn | SpellDescription$ Return up to three target permanents to their owners' hands. Target player takes an extra turn after this one. 
+A:SP$ ChangeZone | Cost$ 5 U U | ValidTgts$ Permanent | TgtPrompt$ Select up to three permanents to return to hand | TargetMin$ 0 | TargetMax$ 3 | Origin$ Battlefield | Destination$ Hand |  SubAbility$ DBWalk | SpellDescription$ Return up to three target permanents to their owners' hands. Target player takes an extra turn after this one. 
 SVar:DBWalk:DB$ AddTurn | ValidTgts$ Player | TgtPrompt$ Select target player to take an extra turn | NumTurns$ 1 
-Oracle:Return up to three target permanents to their owners' hands.\nTarget player takes an extra turn after this one.f
+Oracle:Return up to three target permanents to their owners' hands.\nTarget player takes an extra turn after this one.
