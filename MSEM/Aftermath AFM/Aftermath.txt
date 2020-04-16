@@ -1,0 +1,281 @@
+[metadata]
+Code=AFM
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: Aftermath
+Code2=AFM
+MciCode=afm
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 U Abolishers of Sin
+2 U Accursed Phantasm
+3 U Assault on Prosania
+4 U Barbaric Dexterity
+5 R Bolstered Stockpiles
+6 U Builder's Blessing
+7 C Cease Conflict
+8 R Danuri Banisher
+9 R Danuri Custodian
+10 C Devout Wallkeepers
+11 C Diligent Protector
+12 R Doomed Fate
+13 U Fadefeather Griffin
+14 C Faithtorn Danuri
+15 U Fellor Armorsmith
+16 C Fellor Elite
+17 C Gallord's Intervention
+18 U Haunter of the Deadlands
+19 C Imposing Bastion
+20 U Majestic Garrison
+21 R Master of Steel
+22 U Pandora's Eviction
+23 C Prepare for Confrontation
+24 M Priest of Forbiddance
+25 U Prosanian Warden
+26 R Punishing Catastrophe
+27 C Purifying Light
+28 C Rallios' Demise
+29 U Ready for the Odyssey
+30 M Sanctuary
+31 R Soulstone Commander
+32 R Soulstone Redeemer
+33 C Soulstone Servant
+34 C Stay on Edge
+35 C Steelborn Apprentice
+36 C Strength of the Phalanx
+37 C Tharanos' Sentinel
+38 C Wailing Spirit
+39 U Watcher of the Wall
+40 C Winterborn Savage
+41 M Allagras, Tidal Master
+42 U Allagras' Vanguard
+43 C Arcane Dexterity
+44 R Arcane Rebound
+45 U Arcanist's Dispersal
+46 C Barge Engulfer
+47 C Beragnian Blizzard
+48 C Bloodchill Risen
+49 U Budding Echomage
+50 U Chillwhisper Witch
+51 R Chronomancer Adept
+52 C Clashborn Stormling
+53 C Close Escape
+54 U Curse of the Deadlands
+55 R Deadland Summoner
+56 C Distort Reality
+57 C Echoing Knowledge
+58 C Erratic Arcanomancer
+59 M Ethereal Spellmaster
+60 U Ficklewing Elemental
+61 C Final Revelation
+62 C Griptide
+63 C Hapless Chronomancer
+64 C Lafterii Augur
+65 R Master Echomage
+66 U Memories of the Past
+67 R Mental Supremacist
+68 C Merfolk Looter
+69 U Merfolk Visionary
+70 R Merkurio's Insight
+71 U Merkurio's Rebuttal
+72 U Reality Check
+73 C Risen Looter
+74 U Shape the Tides
+75 R Temporary Treason
+76 R The Tideshift
+77 U Tideshift Elemental
+78 C Time to Depart
+79 C Tizzanier Tidehunter
+80 U Weathering the Storm
+81 C Abhorrent Exhumer
+82 R Accursed Existence
+83 U Bane of Sanity
+84 C Blade of Reolem
+85 C Blood Servant
+86 C Bloodrite Fiend
+87 R Corpse Exploiter
+88 C Curse of the Drow
+89 C Deadland Mongrel
+90 U Deadland Scavenger
+91 U Drow Bloodmage
+92 C Drow Ritualist
+93 U Dulling Necromancer
+94 C Endrison Harvester
+95 C Guilty Execution
+96 R Ill-Fated Profit
+97 C Last of the Poisonblades
+98 C Legion of Wights
+99 U Mawdryk's Accusation
+100 R Mawdryk's Elite
+101 C Necrobite
+102 U Purging Reolem
+103 R Rallios Reincarnated
+104 U Scourge of the Deadlands
+105 C Sinful Past
+106 C Subturgian Bloodhunter
+107 U Subturgian Legionnaire
+108 R Subturgian Proliferator
+109 C Survive the Wreckage
+110 U Temporal Resuscitation
+111 M Tharyen, Lord of Subturgia
+112 R Tharyen's Machinations
+113 R Tharyen's Sadism
+114 U Tharyen's Vanguard
+115 U Undying Terror
+116 C Undying Welcome
+117 U Unhallowed Legion
+118 C Vampiring Appetite
+119 U Winds of Toxicity
+120 C Beragnian Intimidator
+121 C Beragnian Savage
+122 C Burn with Rage
+123 U Cannon Fodder
+124 R Chronowing Phoenix
+125 U Clanleader of Beragnos
+126 C Continental Collapse
+127 U Crazed Wildlings
+128 R Dashing Rager
+129 C Ebbing Savage
+130 U Expand Your Options
+131 U Fervent Arcanomancer
+132 C Fickleflame Summon
+133 R Forgeborn Barbarian
+134 C Forgemaster's Gift
+135 C Furious Betrayal
+136 C Goblin Twinblades
+137 U Hordedriver Enthusiast
+138 C Imminent Collision
+139 C Instinctual Savagery
+140 M Khalizors' Last Stand
+141 M Koth, One True Hero
+142 U Koth's Retaliation
+143 U Lavacore Elemental
+144 C Merciless Brute
+145 R Meteor Volley
+146 R Pyromancer's fury
+147 R Roggar's Grenzy
+148 U Roggar's Gambit
+149 U Savrios' Cohort
+150 U Shrapnelcrafter
+151 C Surge of Depravity
+152 C Swallowed by the Earth
+153 C Swiftstep Cliffdweller
+154 U Threats from the Outskirts
+155 C Timecrafter Lafterii
+156 R Unstable Magmaling
+157 C Until the Last Breath
+158 U Vaporizng Blast
+159 R Weaponize
+160 U Bloodthirsty Berserkers
+161 C Counteroffense
+162 C Duskwood Marshal
+163 C Duskwood Vanguard
+164 U Duskwood Wildcaller
+165 C Elusive Sniper
+166 M Embodiment of Abundance
+167 U Endrison Familiar
+168 C Explore
+169 R Feralborn Druid
+170 C Fogborn Mauler
+171 R Formidable Bulkvine
+172 C Fortress Sentinel
+173 C Gendran Hostess
+174 U Grace of Gendra
+175 C Groundswell
+176 U Infuse Vitality
+177 R Into Strange Territories
+178 C Irisglow Dryad
+179 R Khaliz-Dorahn Restored
+180 R Landbound Connoisseur
+181 U Landbound Sage
+182 U Mawdryk's Haven
+183 C Offer to Nature
+184 U One with Nature
+185 C Pandora's Antagonism
+186 U Road to Endris-Dorahn
+187 U Soothevine Elemental
+188 C Stronghold Recruit
+189 R Summon to the Cause
+190 R Tharanos' Legion
+191 U Tharanos' Stratagem
+192 R Traversing Bulkvine
+193 C Treetop Defense
+194 U Voice of the Sisterhood
+195 C Voice of the Wild
+196 U Waning Behemoth
+197 C Withering Bulkvine
+198 C Wolfbriar Sapling
+199 M Wurmscape
+200 C Barbarian Hoarders
+201 M Batrest, Fellor Leader
+202 R Batrest's Forgemaster
+203 M Beragnian Brawlmaster
+204 M Elemental Clash
+205 R Endrison Nourisher
+206 U Fellon Ironborn
+207 C Fleshgraft Aberration
+208 R Gallord's Ascension
+209 U Garrison Mobilizer
+210 R Graveborn Usurper
+211 M Humanity's Hope
+212 R Lafterii Ingenuity
+213 C Landbound Ritualist
+214 U Magus of Memories
+215 R Mawdryk, Endrison Warden
+216 M Mulchborn Behemoth
+217 R Prosanian Shieldmaster
+218 C Purgeward Adept
+219 R Rallios' Return
+220 M Rise from Death
+221 U Savrios' Timeshifter
+222 U Vestige of Evil
+223 C Voice of Khaliz
+224 C Whimsical Elemental
+225 C Atemporal Blade
+226 C Bone Saw
+227 U Chronomancer's Bauble
+228 U Cranial Archive
+229 U Feral Cleaver
+230 C Flamewaker's Staff
+231 C Lodestone Colossus
+232 U Massive Waraxe
+233 R Rallying banner
+234 U Ruin Salvager
+235 M Savrios' Masterpiece
+236 C Sentinel's Longbow
+237 C Sigil of Destruction
+238 C Sigil of Duty
+239 C Sigil of Savagery
+240 U Soulstone Shard
+241 C Stonework Vigilante
+242 R Tinkerer's Tools
+243 C Wanderer's Talisman
+244 U Warmonger Contraption
+245 U Wings of the Arcanomancer
+246 U Collapsing Ground
+247 R The High Prairies
+248 U Ripping Wilds
+249 C Unstable Footing
+250 L Plains
+251 L Island
+252 L Swamp
+253 L Mountain
+254 L Forest
+
+[tokens]
+w_1_1_soldier
+w_1_1_spirit_flying
+u_1_1_merfolk_loot
+b_1_1_vampire_lifelink
+b_0_0_zombie
+b_2_2_zombie
+r_3_1_elemental_trample_haste
+r_1_1_elemental
+r_1_1_goblin
+g_1_1_dryad_mana
+g_1_1_elf_druid
+g_2_2_wolf
+g_5_5_wurm_trample
+astrina_forged_for_glory
