@@ -1,0 +1,8 @@
+# put this in Forge/res/tokenscripts
+
+Name:Beast
+ManaCost:no cost
+Types:Creature Beast
+Colors:green
+PT:3/3
+Oracle:

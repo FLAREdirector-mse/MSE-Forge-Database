@@ -1,0 +1,11 @@
+# put this in Forge/res/tokenscripts
+
+Name:Rogue
+ManaCost:no cost
+Types:Creature Rogue
+Colors:black
+PT:1/1
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, draw a card. 
+SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife
+SVar:DB:DB$DBLoseLife | LifeAmount$ 1
+Oracle:Whenever this creature deals combat damage to a player, you draw a card and lose 1 life.
