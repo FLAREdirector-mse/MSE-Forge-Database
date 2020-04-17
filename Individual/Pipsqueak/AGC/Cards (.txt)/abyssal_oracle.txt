@@ -1,0 +1,7 @@
+Name:Abyssal Oracle
+ManaCost:1 B
+Types:Creature Merfolk Spellshaper
+PT:2/1
+A:AB$ ChangeZone | Cost$ B T Discard<1/Card> | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Card | ChangeNum$ 1 | Mandatory$ True | SubAbility$ DBLoseLife | SpellDescription$ Search your library for a card, then shuffle your library and put that card on top of it. You lose 2 life.
+SVar:DBLoseLife:DB$LoseLife | LifeAmount$ 2
+Oracle:{B}, {T}, Discard a card: Search your library for a card, then shuffle your library and put that card on top of it. You lose 2 life.

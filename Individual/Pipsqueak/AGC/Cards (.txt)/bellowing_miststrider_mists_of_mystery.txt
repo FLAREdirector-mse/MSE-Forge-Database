@@ -1,0 +1,18 @@
+Name:Bellowing Miststrider
+ManaCost:5 G G
+Types:Creature Yeti
+PT:7/7
+K:CARDNAME can't be countered.
+K:Trample
+K:Haste
+Oracle:Haste, trample\nBellowing Mistrider can't be countered.
+AlternateMode:Adventure
+
+ALTERNATE
+
+Name:Mists of Mystery
+ManaCost:1 G
+Types:Instant Adventure
+A:SP$ Effect | Cost$ 1 G | Name$ Mists of Mystery Effect | ReplacementEffects$ RPrevent | AILogic$ Fog | SpellDescription$ Prevent all damage that would be dealt by creatures with power 4 or less this turn.
+SVar:RPrevent:Event$ DamageDone | Prevent$ True | ActiveZones$ Command | ValidSource$ Creature.powerLE4 | Description$ Prevent all damage that would be dealt by creatures with power 4 or less this turn.
+Oracle:Prevent all damage that would be dealt by creatures with power 4 or less this turn.

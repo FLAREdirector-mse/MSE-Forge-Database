@@ -1,0 +1,17 @@
+Name:Bleak-Hole Ancient
+ManaCost:4 B B
+Types:Creature Avatar
+PT:5/5
+K:Deathtouch
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ DBChangeZone | TriggerDescription$ Whenever CARDNAME attacks, return target creature card from an opponent’s graveyard to the battlefield under your control.
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | TgtPrompt$ Choose target creature card in an opponent's graveyard | ValidTgts$ Creature.OppCtrl
+Oracle:Deathtouch\nWhenever Bleak-Hole Ancient attacks, return target creature card from an opponent’s graveyard to the battlefield under your control.
+AlternateMode:Adventure
+
+ALTERNATE
+
+Name:Ghastly Void
+ManaCost:1 B B
+Types:Sorcery Adventure
+A:SP$ PumpAll | Cost$ 1 B B | ValidCards$ Creature | NumAtt$ -3 | NumDef$ -3 | IsCurse$ True | SpellDescription$ All creatures get -3/-3 until end of turn.
+Oracle:All creatures get -3/-3 until end of turn.

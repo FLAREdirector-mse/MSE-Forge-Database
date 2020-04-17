@@ -1,0 +1,7 @@
+Name:Champion of Redgrove
+ManaCost:R
+Types:Creature Human Warrior
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Self+attackingLKI | Execute$ TrigDealDamage | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, if it was attacking, it deals 2 damage to target player or planeswalker.
+SVar:TrigDealDamage:DB$ DealDamage | ValidTgts$ Player,Planeswalker | TgtPrompt$ Select target player or planeswalker | NumDmg$ 2
+Oracle:When Champion of Redgrove dies, if it was attacking, it deals 2 damage to target player or planeswalker.
