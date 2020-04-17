@@ -4,7 +4,7 @@ Types:Creature Angel
 PT:3/4
 K:Flying
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFlicker | OptionalDecider$ You | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, you may exile another target creature, then return it to the battlefield under its owner's control. If you don't control that creature, tap it.
-T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigFlicker | TriggerZones$ Battlefield | OptionalDecider$ You | Secondary$ True | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, you may search your library for up to two land cards, put them onto the battlefield tapped, then shuffle your library.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigFlicker | TriggerZones$ Battlefield | OptionalDecider$ You | Secondary$ True | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, you may exile another target creature, then return it to the battlefield under its owner's control. If you don't control that creature, tap it.
 SVar:TrigFlicker:DB$ ChangeZone |  TargetMin$ 1 | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | RememberTargets$ True | ForgetOtherTargets$ True | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBReturn | SpellDescription$ Exile another target creature, then return it to the battlefield tapped under its owner's control.
 SVar:DBReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ Exile | Tapped$ True | Destination$ Battlefield
 
