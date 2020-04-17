@@ -1,0 +1,10 @@
+Name:Artisan of Blades
+ManaCost:1 W
+Types:Creature Human Artificer
+PT:1/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigSearch | TriggerDescription$ When CARDNAME enters the battlefield, search your library for an Equipment card and reveal it. Create a token that’s a copy of it, then shuffle your library.
+SVar:TrigSearch:DB$ ChangeZone | Origin$ Library | Destination$ Library | ChangeType$ Equipment | ChangeNum$ 1 | Reveal$ True | RememberChanged$ True | Shuffle$ False | SubAbility$ DBCopy
+SVar:DBCopy:DB$ CopyPermanent | Defined$ Remembered | NumCopies$ 1 | SubAbility$ DBShuffle
+SVar:DBShuffle:DB$ Shuffle | Defined$ You | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:When Artisan of Blades enters the battlefield, search your library for an Equipment card and reveal it. Create a token that’s a copy of it, then shuffle your library.

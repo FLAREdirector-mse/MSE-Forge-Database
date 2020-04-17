@@ -1,0 +1,8 @@
+Name:Aetherium Gears
+ManaCost:5
+Types:Artifact
+T:Mode$ SpellCast | ValidControllingPlayer$ You | ValidCard$ Card.nonCreature | Execute$ DBChooseType | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a spell, choose a permanent type. Untap all permanents you control of the chosen type.
+SVar:DBChooseType:DB$ ChooseType | Defined$ You | Type$ Card | InvalidTypes$ Instant,Sorcery,Tribal | SubAbility$ DBUntapAll
+SVar:DBUntapAll:DB$ UntapAll | ValidCards$ Card.ChosenType+YouCtrl
+A:AB$ Draw | Cost$ T | CardNum$ 1 | SpellDescription$ Draw a card.
+Oracle:Whenever you cast a spell, choose a permanent type. Untap all permanents you control of the chosen type.\n{T}: Draw a card.

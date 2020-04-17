@@ -1,0 +1,8 @@
+Name:Artificial Recruiter
+ManaCost:6
+Types:Artifact Creature Soldier
+PT:3/3
+T:Mode$ ChangesZone | ValidCard$ Card.wasCast+Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigCopy | TriggerDescription$ When CARDNAME enters the battlefield, if you cast it, create two tokens that are copies of it.
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ Self | NumCopies$ 2
+A:AB$ ChangeZone | Cost$ 3 | Origin$ Graveyard | Destination$ Hand | ActivationZone$ Graveyard | SpellDescription$ Return CARDNAME from your graveyard to your hand.
+Oracle:When Artificial Recruiter enters the battlefield, if you cast it, create two tokens that are copies of it.\n{3}:Return Artificial Recruiter from your graveyard to your hand.
