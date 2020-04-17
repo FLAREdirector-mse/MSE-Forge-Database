@@ -1,0 +1,7 @@
+Name:All In Bloom
+ManaCost:2 G G
+Types:Enchantment
+T:Mode$ Phase | Phase$ Main2 | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigUntapAll | TriggerDescription$ At the beginning of your postcombat main phase, untap each land you control and lose all unspent mana.
+SVar:TrigUntapAll:DB$ UntapAll | ValidCards$ Land.YouCtrl | SubAbility$ DBDrainMana
+SVar:DBDrainMana:DB$ DrainMana | Defined$ You
+Oracle:At the beginning of your postcombat main phase, untap each land you control and lose all unspent mana.
