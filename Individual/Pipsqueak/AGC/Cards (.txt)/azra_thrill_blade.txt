@@ -1,0 +1,14 @@
+Name:Azra Thrill-Blade
+ManaCost:3 R
+Types:Creature Azra Assassin
+PT:4/2
+K:Haste
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a spell or draw a card, CARDNAME gets +1/+1 until end of turn.
+T:Mode$ Drawn | ValidCard$ Card.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigPump | TriggerDescription$ Whenever you cast a spell or draw a card, CARDNAME gets +1/+1 until end of turn.
+SVar:TrigPump:DB$Pump | Defined$ Self | NumAtt$ 1 | NumDef$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigExile | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, exile the top two cards of your library. You may play them until the end of your next turn.
+SVar:TrigExile:DB$Mill | Defined$ You | NumCards$ 2 | Destination$ Exile | RememberMilled$ True | SubAbility$ DBMayBePlay | SpellDescription$ Exile the top two cards of your library. Until the end of your next turn, you may play those cards.
+SVar:DBMayBePlay:DB$ Effect | StaticAbilities$ STCommuned | Duration$ UntilTheEndOfYourNextTurn | RememberObjects$ Remembered | ForgetOnMoved$ Exile
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:STCommuned:Mode$ Continuous | Affected$ Card.IsRemembered | EffectZone$ Command | AffectedZone$ Exile | MayPlay$ True | Description$ Until the end of your next turn, you may play those cards.
+Oracle:Haste\nWhenever you cast a spell or draw a card, Azra Thrill-Blade gets +1/+1 until end of turn.\nWhen Azra Thrill-Blade dies, exile the top two cards of your library. You may play them until the end of your next turn.

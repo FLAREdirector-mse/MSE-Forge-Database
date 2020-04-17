@@ -1,0 +1,15 @@
+Name:Noble Unicorn
+ManaCost:W W
+Types:Creature Unicorn
+K:Vigilance
+K:Lifelink
+Oracle:Vigilance, lifelink
+
+ALTERNATE
+
+Name:Inspire Glory
+ManaCost:2 W
+Types:Instant Adventure
+A:SP$ PutCounterAll | ValidCards$ Creature.YouCtrl | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBIndestructible 
+SVar:DBIndestructible:DB$ PumpAll | Cost$ 2 W | ValidCards$ Creature.YouCtrl | KW$ Indestructible |  SpellDescription$ Creatures you control gain indestructible until end of turn.
+Oracle:Put a +1/+1 counter on each creature you control. They gain indestructible until end of turn.
