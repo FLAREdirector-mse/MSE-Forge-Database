@@ -1,0 +1,7 @@
+Name:Tennen General
+ManaCost:R
+Types:Creature Human Soldier
+PT:1/1
+K:Haste
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | AddPower$ 1 | Description$ Other creatures you control get +1/+0.
+Oracle:Haste\nOther creatures you control get +1/+0.

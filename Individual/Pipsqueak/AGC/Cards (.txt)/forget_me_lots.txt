@@ -1,0 +1,6 @@
+Name:Forget Me Lots
+ManaCost:1 U U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | Destination$ Exile | SpellDescription$ Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
+SVar:AltCost:Cost$ Return<1/Permanent.Blue> | Description$ You may return a blue permanent you control to its owner's hand rather than pay this spell's mana cost.
+Oracle:You may return a blue permanent you control to its owner's hand rather than pay this spell's mana cost.\nCounter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard.
