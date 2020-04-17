@@ -1,0 +1,7 @@
+Name:Turning of the Clock
+ManaCost:6 W W
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | References$ X | EffectZone$ All | Description$ This spell costs {1} less to cast for each nonland permanent you control.
+SVar:X:Count$Valid Permanent.nonLand+YouCtrl
+A:SP$ DestroyAll | Cost$ 6 W W | ValidCards$ Land | SpellDescription$ Destroy all lands.
+Oracle:This spell costs {1} less to cast for each nonland permanent you control.\nDestroy all lands.
