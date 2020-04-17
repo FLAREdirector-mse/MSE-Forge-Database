@@ -1,0 +1,8 @@
+Name:Order the Seas
+ManaCost:1 U U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SubAbility$ DBDraw | SpellDescription$ Counter target spell. If you control three or more Islands, draw a card. If you control five or more Islands, return up to one target permanent to its owner’s hand. If you control seven or more Islands, take an extra turn after this one.
+SVar:DBDraw:DB$ Draw | ConditionPresent$ Island.YouCtrl | ConditionCompare$ GE3 | NumCards$ 1 | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | ConditionPresent$ Island.YouCtrl | ConditionCompare$ GE5 | ValidTgts$ Permanent | TgtPrompt$ Select target permanent to return to hand | TargetMin$ 0 | TargetMax$ 1 | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBAddTurn
+SVar:DBAddTurn:DB$ AddTurn | ConditionPresent$ Island.YouCtrl | ConditionCompare$ GE7 | NumTurns$ 1
+Oracle:Counter target spell. If you control three or more Islands, draw a card. If you control five or more Islands, return up to one target permanent to its owner’s hand. If you control seven or more Islands, take an extra turn after this one.

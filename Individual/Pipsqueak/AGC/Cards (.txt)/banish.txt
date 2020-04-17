@@ -1,0 +1,7 @@
+Name:Banish
+ManaCost:W
+Types:Instant
+A:SP$ ChangeZone | Cost$ W | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1 | ValidTgts$ Creature | SubAbility$ DBScry | RememberLKI$ True | SpellDescription$ Put target creature on the bottom of its owner's library. Its controller may scry 2.
+SVar:DBScry:DB$ Scry | ScryNum$ 2 | Defined$ RememberedController | Optional$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Put target creature on the bottom of its owner's library. Its controller may scry 2.

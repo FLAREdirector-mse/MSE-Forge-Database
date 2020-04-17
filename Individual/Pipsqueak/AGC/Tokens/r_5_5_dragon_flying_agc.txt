@@ -1,9 +1,0 @@
-# put this in Forge/res/tokenscripts
-
-Name:Dragon
-ManaCost:no cost
-Types:Creature Dragon
-Colors:red
-PT:5/5
-K:Flying
-Oracle:Flying

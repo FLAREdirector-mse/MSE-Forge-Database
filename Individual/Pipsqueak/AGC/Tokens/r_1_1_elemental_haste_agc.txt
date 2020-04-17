@@ -1,9 +1,0 @@
-# put this in Forge/res/tokenscripts
-
-Name:Elemental
-ManaCost:no cost
-Types:Creature Elemental
-Colors:red
-PT:1/1
-K:Haste
-Oracle:Haste

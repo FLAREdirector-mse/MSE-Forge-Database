@@ -1,0 +1,6 @@
+Name:Acclaimed Duelist
+ManaCost:R
+Types:Creature Human Warrior
+PT:2/1
+S:Mode$ Continuous | Affected$ Card.Self+attacking | AddKeyword$ First Strike | Description$ CARDNAME has first strike as long as it's attacking.
+Oracle:Acclaimed Duelist has first strike as long as it's attacking.
