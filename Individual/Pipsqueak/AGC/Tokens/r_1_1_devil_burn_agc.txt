@@ -1,7 +1,0 @@
-Name:Devil
-ManaCost:no cost
-Types:Creature Devil
-Colors:red
-PT:1/1
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDealDamage | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, it deals 1 damage to any target.
-Oracle:When this creature dies, it deals 1 damage to any target.
