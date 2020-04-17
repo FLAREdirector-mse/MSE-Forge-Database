@@ -1,0 +1,8 @@
+Name:Sunpiercing Bow
+ManaCost:2
+Types:Artifact Equipment
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddAbility$ SunPiercingBowDmg | AddSVar$ SunPiercingBowX | Description$ Equipped creature has "{T}: This creature deals damage equal to its power to any target."
+SVar:SunPiercingBowDmg:AB$ DealDamage | Cost$ T | NumDmg$ SunPiercingBowX | References$ SunPiercingBowX | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target. | SpellDescription$ CARDNAME deals damage equal to its power to any target.
+SVar:SunPiercingBowX:Count$CardPower
+K:Equip:4
+Oracle:Equipped creature has "{T}: This creature deals damage equal to its power to any target.\nEquip {4} ({4}: Attach to target creature you control. Equip only as a sorcery. This card enters the battlefield unattached and stays on the battlefield if the creature leaves.)

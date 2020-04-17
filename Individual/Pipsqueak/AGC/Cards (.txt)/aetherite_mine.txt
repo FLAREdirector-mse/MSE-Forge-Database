@@ -6,5 +6,4 @@ K:CARDNAME enters the battlefield tapped.
 A:AB$ Mana | Cost$ T SubCounter<1/MINING> | Produced$ C | Amount$ 2 | SubAbility$ DBSac | SpellDescription$ Add {C}{C}. If there are no mining counters on Aetherite Mine, sacrifice it.
 SVar:DBSac:DB$ Sacrifice | SacValid$ Self | ConditionPresent$ Card.Self+counters_EQ0_MINING
 AI:RemoveDeck:Random
-SVar:Picture:http://www.wizards.com/global/images/magic/general/gemstone_mine.jpg
 Oracle:Aetherite Mine enters the battlefield tapped with three mining counters on it.\n{T}, Remove a mining counter from Aetherite Mine: Add {C}{C}. If there are no mining counters on Aetherite Mine, sacrifice it.

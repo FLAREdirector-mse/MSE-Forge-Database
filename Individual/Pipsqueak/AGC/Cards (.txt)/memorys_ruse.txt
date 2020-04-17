@@ -1,0 +1,8 @@
+Name:Memory's Ruse
+ManaCost:U U
+Types:Instant
+A:SP$ Charm | Cost$ U U | Choices$ DBCounter,DBRecur
+SVar:DBCounter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell with CMC 3 or less | ValidTgts$ Card.cmcLE3 | SubAbility$ DBExile | SpellDescription$ Counter target spell with converted mana cost 3 or less.
+SVar:DBRecur:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target instant or sorcery card in your graveyard | ValidTgts$ Instant.YouCtrl+cmcLE3,Sorcery.YouCtrl+cmcLE3 | SubAbility$ DBExile | SpellDescription$ Return target instant or sorcery card with converted mana cost 3 or less from your graveyard to your hand.
+SVar:DBExile:DB$ ChangeZone | Origin$ Stack | Destination$ Exile
+Oracle:Choose one —\n• Counter target spell with converted mana cost 3 or less.\n• Return instant or sorcery card with converted mana cost 3 or less from your graveyard to your hand. \nExile Memory's Ruse.

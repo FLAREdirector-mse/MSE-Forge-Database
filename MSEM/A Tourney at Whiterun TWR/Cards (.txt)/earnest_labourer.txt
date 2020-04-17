@@ -1,0 +1,7 @@
+Name:Earnest Labourer
+ManaCost:R
+Types:Creature Human Warrior
+PT:0/2
+A:AB$ Pump | Cost$ 1 R | NumAtt$ +2 | SpellDescription$ CARDNAME gets +2/+0 until end of turn.
+A:AB$ ChangeZone | Cost$ 4 G | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+Oracle:{1}{R}: Earnest Labourer gets +2/+0 until end of turn.\n{4}{G}: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.

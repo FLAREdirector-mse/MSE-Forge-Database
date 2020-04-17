@@ -1,0 +1,8 @@
+Name:Peace In Our Time
+ManaCost:1 W
+Types:Legendary Enchantment
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | Execute$ TrigFlicker | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a spell, exile target nontoken permanent, then return it to the battlefield under its owner's control.
+SVar:TrigFlicker:DB$ ChangeZone | ValidTgts$ Permanent.nonToken | Origin$ Battlefield | Destination$ Exile | TgtPrompt$ Select target nontoken permanent | RememberTargets$ True | SubAbility$ DBReturn | SpellDescription$ Exile target nontoken permanent, then return it to the battlefield under its owner's control.
+SVar:DBReturn:DB$ChangeZone | Defined$ Remembered | Origin$ All | Destination$ Battlefield | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Whenever you cast a spell, exile target nontoken permanent, then return it to the battlefield under its owner's control.

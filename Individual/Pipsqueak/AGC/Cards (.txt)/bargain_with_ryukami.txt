@@ -1,0 +1,9 @@
+Name:Bargain with Ryukami
+ManaCost:1 U
+Types:Sorcery
+A:SP$ Dig | Cost$ 1 U | DigNum$ 3 | Reveal$ True | RememberRevealed$ True | NoMove$ True | SubAbility$ DBTwoPiles | SpellDescription$ Reveal the top three cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.
+SVar:DBTwoPiles:DB$ TwoPiles | Defined$ You | DefinedCards$ Remembered | Separator$ Opponent | ChosenPile$ DBHand | UnchosenPile$ DBGrave
+SVar:DBHand:DB$ ChangeZone | Defined$ Remembered | Origin$ Library | Destination$ Hand | SubAbility$ DBCleanup
+SVar:DBGrave:DB$ ChangeZone | Defined$ Remembered | Origin$ Library | Destination$ Graveyard | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Reveal the top three cards of your library. An opponent separates those cards into two piles. Put one pile into your hand and the other into your graveyard.

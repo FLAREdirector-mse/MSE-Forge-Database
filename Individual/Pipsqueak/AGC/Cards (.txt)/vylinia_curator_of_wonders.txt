@@ -1,0 +1,9 @@
+Name:Vylinia, Curator of Wonders
+ManaCost:3 W W
+Types:Legendary Creature Angel
+PT:4/4
+K:Flying
+K:TypeCycling:Enchantment:W W
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ CopyEnchantment | TriggerDescription$ When CARDNAME enters the battlefield, create a token that's a copy of target enchantment you control. | SpellDescription$ Create a token that's a copy of target enchantment you control.
+SVar:CopyEnchantment:DB$CopyPermanent | ValidTgts$ Enchantment.YouCtrl | TgtPrompt$ Select target enchantment you control.
+Oracle:Flying\nWhen Vylinia, Curator of Wonders enters the battlefield, create a token that's a copy of target enchantment you control.\nEnchantmentcycling {W}{W} ({W}{W}, Discard this card: Search your library for an enchantment card, reveal it, and put it into your hand. Then shuffle your library.)

@@ -6,9 +6,9 @@ Types:Legendary Creature Human Noble Soldier
 PT:3/5
 T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Opponent | Execute$ TrigCharm | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of each opponent’s upkeep, ABILITY
 SVar:TrigCharm:DB$ Charm | Choices$ CombatDamage,CreatureSpell
-SVar:CombatDamage:Mode$ Phase | Phase$ End of Turn | CheckSVar$ X | SVarCompare$ EQ0 | References$ X | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ At the beginning of the next end step, if you haven’t been dealt combat damage this turn, Lord Dalehorn deals 3 damage to that player.
-SVar:CreatureSpell:Mode$ Phase | Phase$ End of Turn | CheckSVar$ Y | SVarCompare$ EQ0 | References$ Y | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ At the beginning of the next end step, if that player hasn’t cast a creature spell this turn, Lord Dalehorn deals 3 damage to that player.
+SVar:CombatDamage:Mode$ Phase | Phase$ End of Turn | CheckSVar$ X | SVarCompare$ EQ0 | References$ X | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ At the beginning of the next end step, if you haven’t been dealt combat damage this turn, Lord Dalehorn the Iron-Handed deals 3 damage to that player.
+SVar:CreatureSpell:Mode$ Phase | Phase$ End of Turn | CheckSVar$ Y | SVarCompare$ EQ0 | References$ Y | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ At the beginning of the next end step, if that player hasn’t cast a creature spell this turn, Lord Dalehorn the Iron-Handed deals 3 damage to that player.
 SVar:TrigDamage:DB$ DealDamage | Defined$ ActivePlayer | NumDmg$ 3
 SVar:X:Count$YourDamageThisTurn
 SVar:Y:Count$ThisTurnCast_Creature.ActivePlayerCtrl
-Oracle:At the beginning of each opponent’s upkeep, choose one —\n• At the beginning of the next end step, if you haven’t been dealt combat damage this turn, Lord Dalehorn deals 3 damage to that player.\n• At the beginning of the next end step, if that player hasn’t cast a creature spell this turn, Lord Dalehorn deals 3 damage to that player.
+Oracle:At the beginning of each opponent’s upkeep, choose one —\n• At the beginning of the next end step, if you haven’t been dealt combat damage this turn, Lord Dalehorn the Iron-Handed deals 3 damage to that player.\n• At the beginning of the next end step, if that player hasn’t cast a creature spell this turn, Lord Dalehorn the Iron-Handed deals 3 damage to that player.

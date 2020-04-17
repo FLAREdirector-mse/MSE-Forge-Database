@@ -1,0 +1,9 @@
+# put this in Forge/res/tokenscripts
+
+Name:Wurm
+ManaCost:no cost
+Types:Creature Wurm
+Colors:green
+PT:6/6
+K:Trample
+Oracle:Trample

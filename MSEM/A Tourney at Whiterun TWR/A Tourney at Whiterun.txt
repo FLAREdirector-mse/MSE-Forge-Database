@@ -110,7 +110,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 99 C Secluded Wildborn
 100 R Ser Joffrey, Plague of Nines
 101 U Shrouded Cackler
-102 C Three-Blade Boon
+102 C Three Blade Boon
 103 C Trystasp Coating
 104 U Twilight Raid
 105 U Under Cover of Dark
@@ -126,7 +126,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 115 U Coward's Compulsion
 116 C Daelish Hopeful
 117 U Desperate Reconnoiterer
-118 U Earnest Laborer
+118 U Earnest Labourer
 119 C Empty the Barracks
 120 U Fall of the Axe
 121 C Feathered Dancer
@@ -199,7 +199,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 188 M Insurgent Ballads
 189 R King Visserine of Daeland
 190 R Lady Genvieve of Caulder
-191 R Lord Dalehorn, the Iron-Handed
+191 R Lord Dalehorn the Iron-Handed
 192 M Ready the Jousts
 193 R Ser Malcomn
 194 R Sera of Coppercove
@@ -218,7 +218,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 207 C Hooded Inquirers
 208 C Imperious Falconer
 209 C Left for Carrion
-210 R Merciless Exile
+210 R Merciless Exiled
 211 C Moment of Glory
 212 R Opportunistic Raiders
 213 C Plated Valiant
@@ -243,12 +243,12 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 232 C Iron Signet
 233 C Jailer's Manacles
 234 C A Lady's Favor
-235 R Sun-Piercing Bow
+235 R Sunpiercing Bow
 236 C Thief's Harness
 237 C Vial of Arcor
 238 U Bustling Docks
 239 R Choked Estuary
-240 C Derelict Amphitheater
+240 C Derelict Amphitheatre
 241 R Foreboding Ruins
 242 R Fortified Village
 243 R Game Trail

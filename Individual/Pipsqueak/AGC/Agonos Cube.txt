@@ -1,6 +1,6 @@
 [metadata]
 Code=AGC
-Date=2021-01-01 # TODO: Find official release date
+Date=2020-04-03
 Name=Agonos Cube
 Code2=AGC
 MciCode=agc
@@ -9,71 +9,458 @@ BoosterCovers=0
 Booster=15 Common
 
 [cards]
+1 C Azamir, Pantheon Usurper
+2 C Ival, Bottler of Creation
+3 C Tyrant of the Blind Eternities
+4 C Agent of Nyx
 5 C Archon of Hope's Defiance
+6 C Artisan of Blades
 7 C Avenge
+8 C Banish
+9 C Behold Divinity
 10 C Blade of Banishing
 11 C Capture the Glow
+12 C Champion's Blade
+13 C Curious Happenings
+14 C Deification
+15 C Delara, Heir to Wisdom
+16 C Demand Unity
 17 C Desolate
+18 C Disrupting Songstress
+19 C Divine Wisdom
 20 C Duchess of Steel
+21 C Duneblade Ronin
+22 C Geist of Unbecoming
+23 C Heaven’s Decree
+24 C Hundred Years of Glory
+25 C Inspiring Prince
+26 C Isabelle, Crowned in Glory
+27 C Keeper of Tranquility
+28 C Koi Pond Meditations
+29 C Linden’s Valiant
 30 C Lost in the Light
+31 C Meletis Phalanx
+32 C Mother of Light
+33 C Nishael, Faceless Advocate
+34 C No More
+35 C Octavia, Golden Heir
+36 C Order the Troops
+37 C Painter of Reality
+38 C Paladin of Light's Grace
+39 C Peace In Our Time
+40 C Preeminent Recruiter
+41 C Pureheart Mystic
 42 C Push Back the Siege
+43 C Redeem in Death
+44 C Resolute Bodyguard
+45 C Rhystic Haunting
+46 C Seal Beyond the Veil
+47 C Seraph of Astronomy
+48 C Serenity Beckons
+49 C Shieldmage's Charm
 50 C Spindle Dancer
 51 C Spirit of Secrets
 52 C Stand Against Evil
+53 C Tabula Rasa
+54 C Tender of Souls
+55 C Turning of the Clock
+56 C Valiant Vanguard
+57 C Veteran Combatant
+58 C Vylinia, Curator of Wonders
+59 C Welcome to Gildyn
+60 C Yaruna, High Priestess
+61 C Bright-Hollow Ancient
+62 C Noble Unicorn
+63 C Selfless Healer
+64 C Aetherflash Expert
+65 C Airship Engineer
+66 C Archvillain's Ploy
 67 C Astrolabic Wisdom
+68 C Bargain with Ryukami
 69 C Break Reality
+70 C By the Sea
+71 C Clocktower Mastery
+72 C Command Whimsical Dreams
+73 C Commanding Princess
+74 C Conjuration
+75 C Consult the Dragonsages
+76 C Cosmic Alignment
+77 C Creative Construction
+78 C Cyclone Archmage
+79 C Daydreaming
 80 C Destabilize
+81 C Elanor, Our Lady of Mist
+82 C Elthen Forcemage
 83 C Endless Possibilities
+84 C Examine the Archives
+85 C Farrealm Explorer
+86 C Fated Seer
 87 C Find Answers
+88 C Forget Me Lots
+89 C Galaxy's Will
+90 C Hexwing Meditant
+91 C Ley Tracer
+92 C Masterful Manipulation
+93 C Memory's Ruse
+94 C Morphic Mindscape
+95 C Nexus Gate
 96 C One of the Crowd
+97 C Oracle of Winter
+98 C Order the Seas
 99 C Orobi, Who Outsmarts Time
+100 C Otterslide
+101 C Paramnesia
+102 C Phantasmal Stalker
+103 C Plot
+104 C Quell the Storm
+105 C Reclaimed by Dreams
+106 C Remake In My Image
+107 C Ri-Ga, Praenn Health Dealer
+108 C Rob Blind
 109 C Runic Reflections
 110 C Send Back
+111 C Sheltering Sphinx
+112 C Snapback Arcanist
 113 C Spellslinger Adept
+114 C Tolarian Renegade
+115 C Unbound Creativity
 116 C Whimsical Musings
+117 C Wrath of the Tides
+118 C Brewing-Hurricane Ancient
+119 C Censor of Possibilities
+120 C Fulbert, Rogue Spymaster
+121 C Paliano Spellweaver
+122 C Refracting Pattern
+123 C Abomination of Howling Peak
+124 C Abyssal Oracle
+125 C Anathema
 126 C Assault Rhino
+127 C Avela, Rebellious Thief
+128 C Blighted Survivor
+129 C Blot from the Sky
+130 C Caller of Crypts
+131 C Caller of Souls
+132 C Ceaseless Lich
+133 C Champion of the Fens
+134 C Chosen by Death
+135 C Chosen of the Lost God
 136 C Corrupted Teachings
+137 C Crumble to Ashes
+138 C Crypt Terror
+139 C Custodians of Dead Planes
+140 C Death's Judgement
+141 C Enchroaching Darkness
+142 C Fiendish Advocate
+143 C Fifth Layer Prince
+144 C Forbidden Tutor
+145 C Forgotten Insanity
+146 C Grafcaster Mage
+147 C Haunted Screechwing
 148 C Increasing Dedication
+149 C The Inexorable Vengeant
 150 C Infernal Recall
+151 C Journey to Oblivion
+152 C Knight of Subversion
+153 C Leaking Memories
+154 C Manifold Machinations
+155 C Mental Predators
+156 C Murderous Reflection
+157 C Only Bones Remain
+158 C Order the Dead
+159 C Out of Order
+160 C Pale-Court Provocateur
+161 C Profane Bargain
+162 C Reaper of the Old Roads
+163 C Reaper's Visit
 164 C Scavenger Queen
+165 C Sesilius, Hand of Atrocity
+166 C Shadow Dancing
+167 C Spellwrithe
+168 C Thus The Heroes Fall
+169 C Tigan, Diabolic Broker
+170 C Tutor of the Dead
+171 C Undeath's Crown
+172 C Unlife Vial
+173 C Unstoppable Butcher
+174 C Vengeful Reaper
+175 C Venomtooth Blightscale
+176 C Vikalden, Rogue Agent
+177 C Violent Offering
+178 C Voldaren Oathkeeper
+179 C Wrap in Darkness
+180 C Bleak-Hole Ancient
+181 C Golgari Rotmage
+182 C Poisoner of Dreams
+183 C Acclaimed Duelist
+184 C All In
+185 C Anya, Caller of Flames
+186 C Apex Hexhunter
+187 C Ardent Bloodcaster
+188 C Azra Thrill-Blade
+189 C Back in the Fourth Ring
+190 C Basel, Bloody Baron
+191 C Beckon Monsters
+192 C Blazewolf
+193 C Brand New Day
+194 C Burn the World
+195 C Burning Breath
+196 C Burninghoof Raider
+197 C Champion of Redgrove
+198 C Chandra’s Retribution
 199 C Conquering Commander
+200 C Cosmic Collision
+201 C Craterwing Hellkite
+202 C Dedicated Forgemaster
+203 C Draconic Mastery
+204 C Dragon Hoardkeeper
+205 C Dragon's Rage
+206 C Dream Big
 207 C Everspark
+208 C Farrealm Huntsman
+209 C Feel the Beat
+210 C Flamecloak Armor
+211 C Flayer of the Living
+212 C Forsake the Past
+213 C Fourth Layer General
+214 C Fracture
 215 C Gloryhunter Dragon
+216 C Hellkite Rider
+217 C Hellraiser
+218 C Lava Contract
 219 C Leader of the Redguard
-226 C One With Flames
+220 C Lyria, Spin Devil
+221 C Magmatic Entity
+222 C Mayhem's Will
+223 C Molten Stampede Leader
+224 C Okalae, Blood Blossom
+225 C The Omnivorous Engine
+226 C One with Flames
+227 C Order the Earth
 228 C Pigstrider Cavalier
+229 C Playing with Fire
+230 C Raze Reality
+231 C Running with Dragons
+232 C Temporal Gamble
+233 C Tennen General
+234 C Unstable Entity
+235 C Uyen of the Burning Way
 236 C Vengeant Champion
+237 C Xepa, Artisan of Fury
+238 C Blood-Harvest Ancient
+239 C Draconic Crusader
+240 C Heretic Hunter
+241 C Valkyrie Groundbreaker
+242 C All In Bloom
 243 C Ambush Raider
+244 C Call the Apex
+245 C Chartivore
+246 C Contemplate the Woods
+247 C Curious Axolotl
+248 C Deepwoods Prowler
+249 C Deepwoods Whisperer
+250 C Embodiment of Resilience
+251 C Emissary of Undoing
 252 C Evergrowth
+253 C Evolving Grove
+254 C Farrealm Cultivator
+255 C Gardener of Growth
 256 C Giant of Greatwoods
+257 C The Great Migration
+258 C Greenwielder Druid
 259 C Hesperian of Spring
+260 C Hunting Alpha
+261 C Iekia, Longbow Hunter
 262 C Impulsive Adventurer
 263 C Into the Woods
+264 C Kheru Proudborn
 265 C Lotus Dryad
+266 C Lys Alana Patrol
+267 C Massive Impact
+268 C Musician of the Glade
+269 C Nylea’s Favored
 270 C Old God's Presence
+271 C Order the Wilds
 272 C Overbearing Sentinel
+273 C Ravenous Greatwurm
+274 C Realm of the Old God
+275 C Reclaimed by Nature
+276 C Redfang Tracker
 277 C Revengevine
+278 C Ruinclaw Alpha
+279 C Rumbleroot Colossus
+280 C Rütslag, World’s Vengeance
+281 C Speaker of the Trees
+282 C Springbow Vanguard
+283 C Surfacewalker Lookout
+284 C Thicket Keeper
+285 C Titan’s Passing
+286 C Tranquil Mystic
+287 C Tree of Life
+288 C Tyrant Wurm
 289 C Unending Evolution
+290 C Way of the Ancients
+291 C Wielder of New Growth
+292 C Wildsland Packleader
+293 C Wurm Caller
+294 C Backwoods-Heart Ancient
+295 C Bellowing Miststrider
+296 C Frond Guardian
+297 C Grand Conservator
+298 C Leyline Sculptor
+299 C Preacher of Spring
+300 C Aeterna, Venerated Vigilante
+301 C Bishop of Blasphemy
+302 C The Changing Queen
+303 C Chronovault
+304 C Dazheri, Aether Corsair
+305 C Devour Reality
+306 C Dragon Breeder
+307 C Dreambubble Witch
+308 C Evolutionary Admiration
 309 C Explore Paradise
 310 C Fallen to the Ages
+311 C Geometric Musings
+312 C The Gilded King
+313 C Iko, the Lost
+314 C Iterate
+315 C Jack, Emissary of The Court
+316 C Judgement of Fates
+317 C King Florence of Caulder
+318 C The Lord Below
+319 C Lost in Dream
+320 C Lost Task Mage
+321 C Mishae the Blossoming
+322 C Morphic Maelstrom
+323 C Nurture with Ashes
+324 C The Planar Wanderer
+325 C Reap Fetid Remains
+326 C Repentant Conqueror
+327 C Ryukami's Rage
 328 C Ryukami's Wake
+329 C Sacrament of Carnage
+330 C Sea Gate Hedronsmith
+331 C Secrets of the Deep
+332 C Temporal Jaunter
+333 C Unleash the Monstrosity
+334 C Var Khadesh
+335 C Wrenn and Ten
+336 C Underdark Matriarch
+337 C Beyond Death
+338 C Elsewhere
+339 C Mage’s Ghast
+340 C Mother of Swarms
+341 C Corrupter of Forms
+342 C The Lone Soldier
+343 C Adept’s Spellblade
 344 C Aeonic Conduit
+345 C Aetherium Gears
 346 C Alignment Array
+347 C Artificial Recruiter
+348 C Astrarium
+349 C Ceaseless Soldier
+350 C Chromatic Torch
+351 C Clickbug Hunter
+352 C Clockwork Plaguebearer
+353 C Collector of Cogs
+354 C Consulate Censor
+355 C Cosmic Curator
+356 C Cosmic Edge
+357 C Dormant Guardian
+358 C Faraway Cube
 359 C Forbidden Scroll
+360 C Forgotten Cube
 361 C Fragment of Curiosity
 362 C Fragment of Emptiness
 363 C Fragment of Growth
 364 C Fragment of Hope
 365 C Fragment of Rage
-377 C Rishidan Amulet
+366 C Harvest Aligner
+367 C Itirin’s Archive
+368 C The Knowledge Hub
+369 C Neuropath Psiweaver
+370 C Orb of Insight
+371 C Prismatic Beacon
+372 C Prophetic Sculpture
+373 C Regalia of Might and Lore
+374 C Regalia of Speed and Focus
+375 C Regalia of Sword and Sorcery
+376 C Replicant Formsculptor
+377 C Rishadan Amulet
+378 C Rumor Engine
+379 C Spark Servant
 380 C The Sphere
+381 C Spiteful Wargear
+382 C Starfield Lotuses
+383 C Thran Battle Titan
+384 C Titanic Crasher
 385 C Unaltered Fragment
 386 C Unidentified Relic
+387 C Unstable Powercell
+388 C Veteran’s Gear
 389 C Vorpal Titan
+390 C Worldclock
+391 C Worldfire Sphere
 392 C The Academy of Innovation
 393 C Aetherite Mine
+394 C Ancestral Mountain
+395 C Arid Mesa
+396 C Badlands
+397 C Bayou
+398 C Blighted Hallow
+399 C Bloodstained Mire
+400 C Broken Temple
+401 C Brutal Wastes
+402 C Changing Grove
+403 C Chapel of the Wylds
 404 C Coiling Caves
 405 C Cracking Caldera
+406 C Crumbling Capital
+407 C Cursed Woods
+408 C Decay Reclaimed Swale
+409 C Desolate Altar
+410 C Dragonbone Valley
+411 C Elsewhere Gate
+412 C Eroded Sculpture
+413 C Field of Training
+414 C Flooded Strand
+415 C Forbidden Shrine
+416 C The Frost Gate
+417 C Golden Meadows
+418 C Hazy Bog
+419 C Idyllia
+420 C The Lost City
+421 C Magmatic Coral
+422 C Marble Bazaar
+423 C Marsh Flats
+424 C Meadows of Moag
+425 C Misty Rainforest
+426 C Plateau
+427 C Polluted Delta
+428 C Prismatic Vista
+429 C Riddling Maze
+430 C Savannah
+431 C Scalding Tarn
+432 C Scorched Upland
 433 C Scrapworks
+434 C Scrubland
+435 C Serene Grove
+436 C Storm’s Conduit
+437 C Taiga
+438 C Tiger Shadow Dojo
+439 C Titanic Terrain
+440 C Tranquil Spring
+441 C Tropical Island
+442 C Tundra
+443 C Underground Sea
+444 C Verdant Catacombs
+445 C Verdant Stream
+446 C Volcanic Island
+447 C Walking Wasteland
+448 C Wandering River
+449 C Windswept Heath
+450 C Wooded Foothills
+
+
+
 
 [tokens]

@@ -1,0 +1,15 @@
+Name:Selfless Healer
+ManaCost:1 W
+Types:Creature Human Cleric
+PT:2/2
+A:AB$ Pump | Cost$ Sac<1/CARDNAME> | Defined$ Permanent.YouCtrl | KW$ Indestructible | SpellDescription$ Target permanent you control gains indestructible until end of turn.
+Oracle:Sacrifice Selfless Healer: Target permanent you control gains indestructible until end of turn.
+AlternateMode:Adventure
+
+ALTERNATE
+
+Name:Cure Wounds
+ManaCost:W
+Types:Sorcery Adventure
+A:SP$ ChangeZone | Cost$ W | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card with converted mana cost 3 or less in your graveyard | ValidTgts$ Creature.cmcLE3+YouCtrl | SpellDescription$ Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
+Oracle:Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.

@@ -1,0 +1,6 @@
+Name:Derelict Amphitheatre
+ManaCost:no cost
+Types:Land Mountain
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Scry | Cost$ R T Reveal<1/Card.Red> | CostDesc$ {R}, {T}, Reveal a red card from your hand: | ScryNum$ 1 | SpellDescription$ Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+Oracle:({T}: Add {R}.)\nDerelict Amphitheatre enters the battlefield tapped.\n{R}, {T}, Reveal a red card from your hand: Scry 1.
