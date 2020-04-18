@@ -5,4 +5,4 @@ PT:8/6
 K:CARDNAME can't be countered.
 K:Hexproof
 S:Mode$ Continuous | Affected$ You | AddKeyword$ Spells and abilities your opponents control can't cause you to sacrifice permanents. | Description$ Spells and abilities your opponents control can't cause you to sacrifice permanents.
-Oracle:This spell can't be countered\nHexproof\nSpells and abilities your opponents control can't cause you to sacrifice permanents.
+Oracle:This spell can't be countered.\nHexproof\nSpells and abilities your opponents control can't cause you to sacrifice permanents.
