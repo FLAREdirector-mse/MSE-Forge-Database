@@ -1,0 +1,10 @@
+Name:Mage's Ghast
+ManaCost:UB UB UB
+Types:Creature Spirit
+PT:3/3
+K:Flash
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPumpCurse | TriggerDescription$ When CARDNAME enters the battlefield, target creature gets -3/-1 until end of turn.
+SVar:TrigPumpCurse:DB$Pump| ValidTgts$ Creature | TgtPrompt$ Select target creature | IsCurse$ True | NumAtt$ -3 | NumDef$ -1
+K:Flying
+Oracle:Flash\nFlying\nWhen Mage's Ghast enters the battlefield, target creature gets -3/-1 until end of turn.

@@ -1,0 +1,12 @@
+Name:Rob Blind
+Cost:X U U
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ X U U | Origin$ Library | Destination$ Exile | ValidTgts$ Opponent | ChangeType$ Card | ChangeNum$ X | References$ X | SubAbility$ DBEffect | SpellDescription$ Search target opponent's library for X cards and exile them face down. You may cast those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast them.
+SVar:DBEffect:DB$ Effect | RememberObjects$ Remembered | StaticAbilities$ STPlay | Duration$ Permanent | Triggers$ TrigCleanup | SVars$ DBExileSelf | SubAbility$ DBCleanup
+SVar:STPlay:Mode$ Continuous | MayLookAt$ You | MayPlay$ True | MayPlayIgnoreColor$ True | EffectZone$ Command | Affected$ Card.IsRemembered | AffectedZone$ Exile | Description$ You may look at and play a card as long as it remains exiled.
+SVar:TrigCleanup:Mode$ ChangesZone | ValidCard$ Card.IsRemembered | Origin$ Exile | Destination$ Any | TriggerZones$ Command | Execute$ DBExileSelf | Static$ True
+SVar:DBExileSelf:DB$ ChangeZone | Defined$ Self | Origin$ Command | Destination$ Exile
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$xPaid
+AI:RemoveDeck:All
+Oracle:Search target opponent's library for X cards and exile them face down. You may cast those cards for as long as they remain exiled, and you may spend mana as though it were mana of any color to cast them.

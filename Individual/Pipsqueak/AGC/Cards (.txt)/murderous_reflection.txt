@@ -1,0 +1,6 @@
+Name:Murderous Reflection
+ManaCost:1 B
+Types:Instant
+A:SP$ Pump | Cost$ 1 B | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -0 | NumDef$ -X | IsCurse$ True | References$ X | SpellDescription$ Target creature gets -0/-X until end of turn, where X is its power.
+SVar:X:Targeted$CardPower
+Oracle:Target creature gets -0/-X until end of turn, where X is its power.
