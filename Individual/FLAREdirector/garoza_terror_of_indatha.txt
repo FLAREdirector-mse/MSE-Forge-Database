@@ -1,0 +1,12 @@
+Name:Garoza, Terror of Indatha
+ManaCost:2 B B
+Types:Legendary Creature Nightmare Insect
+K:Flying
+K:Haste
+K:Menace
+PT:1/3
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigMill | TriggerDescription$ Whenever CARDNAME attacks, each player mills a number of cards equal to its power. (To mill, put the top card of that library into its owner’s graveyard.)
+SVar:TrigMill:DB$ Mill | NumCards$ X | Defined$ Player | References$ X
+SVar:X:Count$CardPower 
+SVar:HasAttackEffect:TRUE 
+Oracle:Whenever Garoza, Terror of Indatha attacks, each player mills a number of cards equal to Garoza’s power. (To mill, put the top card of that library into its owner’s graveyard.)

@@ -1,0 +1,15 @@
+# ERROR: Currently, you can produce any amount of Zombies in one turn with Sazir's activated ability
+# --FLAREdirector
+Name:Sazir, Pharaoh of Naktamun
+ManaCost:3 W B
+Types:Legendary Creature Zombie Horror Noble
+K:Vigilance
+K:Lifelink
+PT:3/2
+S:Mode$ Continuous | Affected$ Creature.Zombie+Other+YouCtrl,Creature.Horror+Other+YouCtrl,Creature.Skeleton+YouCtrl | AddPower$ 1 | AddKeyword$ Vigilance,Lifelink | Description$ Skeletons, other Zombies, and other Horrors you control get +1/+0 and have vigilance and lifelink.
+A:AB$ Token | Cost$ X 3 W B T PayLife<X> | TokenAmount$ X | Min$ 1 | Max$ Y | References$ X,Y | ListTitle$ Pay X | TokenScript$ b_2_2_zombie | TokenOwner$ You | LegacyImage$ b 2 2 zombie akh | SpellDescription$ Create X 2/2 black Zombie creature tokens. X can't be greater than Sazir's power.
+SVar:X:Count$xPaid
+SVar:Y:Count$CardPower
+SVar:PlayMain1:TRUE
+DeckHints:Type$Skeleton|Zombie|Horror
+Oracle:Vigilance, lifelink\nSkeletons, other Zombies, and other Horrors you control get +1/+0 and have vigilance and lifelink.\n{X}{3}{W}{B}, {T}, Pay X life: Create X 2/2 black Zombie creature tokens. X can’t be greater than Sazir’s power.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

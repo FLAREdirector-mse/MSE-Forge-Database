@@ -1,0 +1,14 @@
+Name:Lanternkeeper
+ManaCost:4
+Types:Artifact Creature Scarecrow
+PT:1/4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ LanternChoice | Static$ True | TriggerDescription$ As CARDNAME enters the battlefield, choose a creature type, artifact, or enchantment. All creatures are the chosen type in addition to their other types. The same is true for creature spells and creature cards that aren't on the battlefield.
+SVar:LanternChoice:DB$ GenericChoice | Choices$ Creature,Artifact,Enchantment | Defined$ You | SetChosenMode$ True | AILogic$ MostProminentInComputerDeck | ShowChoice$ ExceptSelf
+SVar:Creature:DB$ ChooseType | Type$ Creature | AILogic$ MostProminentInComputerDeck | SpellDescription$ Creature
+S:Mode$ Continuous | Affected$ Creature | AffectedZone$ Battlefield,Hand,Graveyard,Exile,Stack,Library | AddType$ ChosenType | Description$ All creatures are the chosen type in addition to their other types. The same is true for creature spells and creature cards that aren't on the battlefield.
+SVar:Artifact:DB$ Animate | Defined$ Self | staticAbilities$ ArtifactST | Permanent$ True | SpellDescription$ Artifact
+SVar:ArtifactST:Mode$ Continuous | Affected$ Creature | AffectedZone$ Battlefield,Hand,Graveyard,Exile,Stack,Library | AddType$ Artifact | Description$ All creatures are artifacts in addition to their other types. The same is true for creature spells and creature cards that aren't on the battlefield.
+SVar:Enchantment:DB$ Animate | Defined$ Self | staticAbilities$ EnchantmentST | Permanent$ True | SpellDescription$ Enchantment
+SVar:EnchantmentST:Mode$ Continuous | Affected$ Creature | AffectedZone$ Battlefield,Hand,Graveyard,Exile,Stack,Library | AddType$ Enchantment | Description$ All creatures are enchantments in addition to their other types. The same is true for creature spells and creature cards that aren't on the battlefield.
+
+Oracle:As Lanternkeeper enters the battlefield, choose a creature type, artifact, or enchantment.\nAll creatures are the chosen type in addition to their other types. The same is true for creature spells and creature cards that aren't on the battlefield.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

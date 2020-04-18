@@ -1,0 +1,5 @@
+Name:Arcane Sentinel
+ManaCost:5
+Types:Artifact Enchantment Creature Golem
+PT:4/4
+Oracle:Designed by FLAREdirector\nForged by FLAREdirector

@@ -1,0 +1,12 @@
+Name:Paladin of the Eclipse
+ManaCost:4 W B
+Types:Creature Human Knight
+K:Vigilance
+K:Lifelink
+PT:4/4
+S:Mode$ Continuous | Affected$ Creature.Knight+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other Knights you control get +1/+1.
+S:Mode$ Continuous | Affected$ Creature.withVigilance+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other creatures you control with vigilance get +1/+1.
+S:Mode$ Continuous | Affected$ Creature.withLifelink+Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Other creatures you control with lifelink get +1/+1.
+SVar:PlayMain1:TRUE
+DeckHints:Type$Knight
+Oracle:Vigilance, lifelink\nOther Knights you control get +1/+1.\nOther creatures you control with vigilance get +1/+1.\nOther creatures you control with lifelink get +1/+1.\n\nDesigned by FLAREdirector\nForged by FLAREdirector
