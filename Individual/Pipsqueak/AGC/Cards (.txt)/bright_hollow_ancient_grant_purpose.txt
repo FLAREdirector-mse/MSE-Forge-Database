@@ -7,6 +7,8 @@ T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigTokens | TriggerZones$ Bat
 SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_spirit_flying_agc | TokenOwner$ You | TokenTapped$ True | TokenAttacking$ True
 SVar:HasAttackEffect:TRUE
 Oracle:Lifelink\nWhenever Bright-Hollow Ancient attacks, create two 1/1 white SPirit creature tokens with flying tapped and attacking.
+AlternateMode:Adventure
+
 
 ALTERNATE
 
