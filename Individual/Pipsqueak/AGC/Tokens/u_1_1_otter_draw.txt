@@ -1,0 +1,10 @@
+# put this in Forge/res/tokenscripts
+
+Name:Otter
+ManaCost:no cost
+Types:Creature Otter
+Colors:blue
+PT:1/1
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:Whenever this creature deals combat damage to a player, draw a card.
