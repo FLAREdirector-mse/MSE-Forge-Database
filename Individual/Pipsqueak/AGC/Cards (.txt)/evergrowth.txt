@@ -1,4 +1,4 @@
-Name:Ever Growth
+Name:Evergrowth
 ManaCost:1 G
 Types:Sorcery
 K:Retrace

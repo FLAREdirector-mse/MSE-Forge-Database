@@ -1,0 +1,9 @@
+Name:Mayhem's Will
+ManaCost:2 R
+Types:Sorcery
+A:SP$ ChangeZoneAll | Cost$ 2 R | Origin$ Graveyard | Destination$ Exile | ChangeType$ Card | RememberChanged$ True | SubAbility$ DBEffect | SubAbility$ ExileSelf | SpellDescription$ Exile your graveyard. Until end of turn, you may play cards exiled this way. Exile CARDNAME.
+SVar:DBEffect:DB$Effect | RememberObjects$ RememberedCard | StaticAbilities$ Play | SubAbility$ DBCleanup | ForgetOnMoved$ Exile
+SVar:Play:Mode$ Continuous | MayPlay$ True | EffectZone$ Command | Affected$ Card.IsRemembered | AffectedZone$ Exile | Description$ You may play remembered card.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:ExileSelf:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Exile
+Oracle:Exile your graveyard. Until end of turn, you may play cards exiled this way.\nExile Mayhem's Will.

@@ -4,6 +4,7 @@ Types:Creature Unicorn
 K:Vigilance
 K:Lifelink
 Oracle:Vigilance, lifelink
+AlternateMode:Adventure
 
 ALTERNATE
 

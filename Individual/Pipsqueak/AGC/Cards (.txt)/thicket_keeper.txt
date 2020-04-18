@@ -1,0 +1,8 @@
+Name:Thicket Keeper
+ManaCost:G
+Types:Creature Elemental Wolf
+PT:0/1
+A:AB$ Untap | Cost$ T | ValidTgts$ Land | TgtPrompt$ Select target land | AILogic$ PoolExtraMana | SpellDescription$ Untap target land.
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 3 | AddToughness$ 3 | AddKeyword$ Trample | CheckSVar$ X | SVarCompare$ GE6 | Description$ As long as you control six or more lands, Thicket Keeper gets +3/+3 and has trample.
+SVar:X:Count$Valid Land.YouCtrl
+Oracle:{T}: Untap target land.\nAs long as you control six or more lands, Thicket Keeper gets +3/+3 and has trample.
