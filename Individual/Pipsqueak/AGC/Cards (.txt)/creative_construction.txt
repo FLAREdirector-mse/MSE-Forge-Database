@@ -1,10 +1,7 @@
 Name:Creative Construction
 ManaCost:2 U
 Types:Sorcery
-A:SP$ ChangeZone | Cost$ 2 U | Origin$ Library | Destination$ Hand | ChangeType$ Artifact | ChangeNum$ 1 | SubAbility$ DBSac | SpellDescription$ Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library. Then you may sacrifice two artifacts. If you do, you may put an artifact card from your hand onto the battlefield.
-SVar:DBSac:DB$ Sacrifice | Valid$ Artifact | Defined$ You | Amount$ 2 | Optional$ True | StrictAmount$ True | RememberSacrificed$ True | SubAbility$ DBCheatOut | SpellDescription$ You may sacrifice two artifacts. If you do, you may put an artifact card from your hand onto the battlefield.
-SVar:DBCheatOut$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Artifact | ChangeNum$ 1 | ConditionDefined$ Remembered | ConditionPresent$ Artifact | ConditionCompare$ EQ2 | SubAbility$ DBCleanup | SpellDescription$ You may put an artifact card from your hand onto the battlefield.
-SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+A:SP$ ChangeZone | Cost$ 2 U | Origin$ Library | Destination$ Hand | ChangeType$ Artifact | ChangeNum$ 1 | SubAbility$ DBCheatOut | SpellDescription$ Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library. Then you may sacrifice two artifacts. If you do, you may put an artifact card from your hand onto the battlefield.
+SVar:DBCheatOut:DB$ ChangeZone | UnlessPayer$ You | UnlessCost$ Sac<2/Artifact> | UnlessSwitched$ True | Origin$ Hand | Destination$ Battlefield | ChangeType$ Artifact | ChangeNum$ 1
 AI:RemoveDeck:Random
-SVar:Picture:http://www.wizards.com/global/images/magic/general/fabricate.jpg
 Oracle:Search your library for an artifact card, reveal it, put it into your hand, then shuffle your library. Then you may sacrifice two artifacts. If you do, you may put an artifact card from your hand onto the battlefield.

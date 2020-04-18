@@ -1,7 +1,7 @@
 Name:Otterslide
-ManaCost:2 R
+ManaCost:2 U
 Types:Enchantment
-T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ Whenever you cast an noncreature spell, create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card."
-SVar:TrigToken:AB$ Token | TokenAmount$ 1 | TokenScript$ u_1_1_otter_draw_agc | TokenOwner$ You
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ Whenever you cast a noncreature spell, create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card."
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ u_1_1_otter_draw | LegacyImage$ u 1 1 otter draw agc | TokenOwner$ You
 SVar:BuffedBy:Card.nonCreature+nonLand
-Oracle:Whenever you cast an noncreature spell, create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card."
+Oracle:Whenever you cast a noncreature spell, create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card."
