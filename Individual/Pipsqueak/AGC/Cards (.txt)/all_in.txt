@@ -1,7 +1,7 @@
 Name:All In
 ManaCost:2 R
 Types:Sorcery
-S:SP$ Draw | Cost$ 2 R Discard<0/Hand> | CostDesc$ As an additional cost to cast this spell, discard your hand. | NumCards$ 7 | Defined$ You | SpellDescription$ Draw seven cards.
+A:SP$ Draw | Cost$ 2 R Discard<0/Hand> | CostDesc$ As an additional cost to cast this spell, discard your hand. | NumCards$ 7 | Defined$ You | SpellDescription$ Draw seven cards.
 DeckHas:Ability$Discard
 DeckHints:Keyword$Madness & Ability$Delirium
 Oracle:As an additional cost to cast this spell, discard your hand.\nDraw seven cards.
