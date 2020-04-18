@@ -31,13 +31,13 @@ Booster=15 Common
 20 C Duchess of Steel
 21 C Duneblade Ronin
 22 C Geist of Unbecoming
-23 C Heaven’s Decree
+23 C Heaven's Decree
 24 C Hundred Years of Glory
 25 C Inspiring Prince
 26 C Isabelle, Crowned in Glory
 27 C Keeper of Tranquility
 28 C Koi Pond Meditations
-29 C Linden’s Valiant
+29 C Linden's Valiant
 30 C Lost in the Light
 31 C Meletis Phalanx
 32 C Mother of Light
@@ -206,7 +206,7 @@ Booster=15 Common
 195 C Burning Breath
 196 C Burninghoof Raider
 197 C Champion of Redgrove
-198 C Chandra’s Retribution
+198 C Chandra's Retribution
 199 C Conquering Commander
 200 C Cosmic Collision
 201 C Craterwing Hellkite
@@ -277,7 +277,7 @@ Booster=15 Common
 266 C Lys Alana Patrol
 267 C Massive Impact
 268 C Musician of the Glade
-269 C Nylea’s Favored
+269 C Nylea's Favored
 270 C Old God's Presence
 271 C Order the Wilds
 272 C Overbearing Sentinel
@@ -288,12 +288,12 @@ Booster=15 Common
 277 C Revengevine
 278 C Ruinclaw Alpha
 279 C Rumbleroot Colossus
-280 C Rütslag, World’s Vengeance
+280 C Rütslag, World's Vengeance
 281 C Speaker of the Trees
 282 C Springbow Vanguard
 283 C Surfacewalker Lookout
 284 C Thicket Keeper
-285 C Titan’s Passing
+285 C Titan's Passing
 286 C Tranquil Mystic
 287 C Tree of Life
 288 C Tyrant Wurm
@@ -347,11 +347,11 @@ Booster=15 Common
 336 C Underdark Matriarch
 337 C Beyond Death
 338 C Elsewhere
-339 C Mage’s Ghast
+339 C Mage's Ghast
 340 C Mother of Swarms
 341 C Corrupter of Forms
 342 C The Lone Soldier
-343 C Adept’s Spellblade
+343 C Adept's Spellblade
 344 C Aeonic Conduit
 345 C Aetherium Gears
 346 C Alignment Array
@@ -375,7 +375,7 @@ Booster=15 Common
 364 C Fragment of Hope
 365 C Fragment of Rage
 366 C Harvest Aligner
-367 C Itirin’s Archive
+367 C Itirin's Archive
 368 C The Knowledge Hub
 369 C Neuropath Psiweaver
 370 C Orb of Insight
@@ -396,7 +396,7 @@ Booster=15 Common
 385 C Unaltered Fragment
 386 C Unidentified Relic
 387 C Unstable Powercell
-388 C Veteran’s Gear
+388 C Veteran's Gear
 389 C Vorpal Titan
 390 C Worldclock
 391 C Worldfire Sphere
@@ -444,7 +444,7 @@ Booster=15 Common
 433 C Scrapworks
 434 C Scrubland
 435 C Serene Grove
-436 C Storm’s Conduit
+436 C Storm's Conduit
 437 C Taiga
 438 C Tiger Shadow Dojo
 439 C Titanic Terrain
