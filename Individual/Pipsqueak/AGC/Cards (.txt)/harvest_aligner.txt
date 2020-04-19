@@ -1,0 +1,7 @@
+Name:Harvest Aligner
+ManaCost:3
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield,  search your library for a land card, reveal it, and put it into your hand, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Land | ChangeNum$ 1 | ShuffleNonMandatory$ True
+A:AB$ Untap | Cost$ T | ValidTgts$ Land.YouCtrl | TgtPrompt$ Select target land | AILogic$ PoolExtraMana | SpellDescription$ Untap target land you control.
+Oracle:When Harvest Aligner enters the battlefield, search your library for a land card, reveal it, and put it into your hand, then shuffle your library.\n{T}: Untap target land you control.
