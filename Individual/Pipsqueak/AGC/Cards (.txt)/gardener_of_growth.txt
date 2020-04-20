@@ -1,0 +1,6 @@
+Name:Gardener of Growth
+ManaCost:G
+Types:Creature Human Shaman
+PT:0/1
+A:AB$ Mana | Cost$ T | Produced$ G | AddsNoCounter$ Creature | SpellDescription$ Add {G}.
+Oracle:{T}: Add {G}. If this mana is spent to cast a creature spell, that spell can't be countered.
