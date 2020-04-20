@@ -1,0 +1,11 @@
+Name:Order the Dead
+ManaCost:1 B B
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 1 B B | Origin$ Graveyard | Destination$ Battlefield | RememberChanged$ True | ForgetOtherRemembered$ True | TgtPrompt$ Choose target creature card in your graveyard |  ValidTgts$ Creature.YouCtrl | SubAbility$ DBDraw | SpellDescription$ Return target creature card from your graveyard to the battlefield. If you control three or more Swamps, draw a card. If you control five or more Swamps, other creatures get -4/-4 until end of turn. If you control seven or more Swamps, each opponent loses half their life, rounded up.
+SVar:DBDraw:DB$ Draw | ConditionPresent$ Swamps.YouCtrl | ConditionCompare$ GE3 | NumCards$ 1 | SubAbility$ DBPumpAll
+SVar:DBPumpAll:DB$ PumpAll | ConditionPresent$ Swamps.YouCtrl | ConditionCompare$ GE5 | ValidCards$ Creature.IsNotRemembered | NumAtt$ -4 | NumDef$ -4 | IsCurse$ True | SubAbility$ DBRevenge
+SVar:DBRevenge:DB$ RepeatEach | ConditionPresent$ Swamps.YouCtrl | ConditionCompare$ GE7 | RepeatPlayers$ Player.Opponent |  RepeatSubAbility$ DBLoseLife | SubAbility$ DBCleanup
+SVar:DBLoseLife:DB$ LoseLife | Defined$ Player.IsRemembered | LifeAmount$ Y
+SVar:Y:PlayerCountRemembered$LifeTotal/HalfUp
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Return target creature card from your graveyard to the battlefield. If you control three or more Swamps, draw a card. If you control five or more Swamps, other creatures get -4/-4 until end of turn. If you control seven or more Swamps, each opponent loses half their life, rounded up.

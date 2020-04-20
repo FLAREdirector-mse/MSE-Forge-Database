@@ -1,0 +1,5 @@
+Name:Fracture
+ManaCost:1 R
+Types:Sorcery
+A:SP$ Destroy | Cost$$ 1 R | ValidTgts$ Permanent.nonBasic+Colorless | TgtPrompt$ Select target colorless, nonbasic permanent. | SpellDescription$ Destroy target colorless, nonbasic permanent.
+Oracle:Destroy target colorless, nonbasic permanent.

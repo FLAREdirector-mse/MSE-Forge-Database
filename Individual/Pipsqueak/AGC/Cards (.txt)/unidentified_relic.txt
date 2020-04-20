@@ -2,6 +2,6 @@ Name:Unidentified Relic
 ManaCost:4
 Types:Artifact
 A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 2 |  SpellDescription$ Add two mana of any one color.
-A:AB$ Token | Cost$ 2 T | TokenAmount$ 1 | TokenScript$ c_a_clue_draw_agc | TokenOwner$ You | SpellDescription$ Investigate (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+A:AB$ Token | Cost$ 2 T | TokenAmount$ 1 | TokenScript$ c_a_clue_draw | TokenOwner$ You | SpellDescription$ Investigate (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
 DeckHas:Ability$Investigate & Ability$Token
 Oracle:{T}: Add Add two mana of any one color.\n{2}, {T}: Investigate (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")

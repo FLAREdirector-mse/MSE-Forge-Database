@@ -1,0 +1,8 @@
+Name:Rhystic Haunting
+ManaCost:2 W
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TokenETB | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 white Spirit creature tokens with flying.
+SVar:TokenETB:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_spirit_flying | TokenOwner$ You
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ Opponent | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ Whenever an opponent casts a spell, you may draw a card unless that player pays {1}.
+SVar:TrigToken:DB$ Token |  UnlessCost$ 1 | UnlessPayer$ TriggeredPlayer | TokenAmount$ 1 | TokenScript$ w_1_1_spirit_flying | TokenOwner$ You
+Oracle:When Rhystic Haunting enters the battlefield, create a 1/1 white Spirit creature token with flying.\nWhenever an opponent casts a spell, you create a 1/1 white Spirit creature token with flying unless that player pays {1}.

@@ -1,0 +1,6 @@
+Name:Playing with Fire
+ManaCost:1 R
+Types:Instant
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SubAbility$ DBAddendum | AILogic$ Main1IfAble | SpellDescription$ CARDNAME deals 3 damage to any target.
+SVar:DBAddendum:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Haste & Trample | ConditionPlayerTurn$ True | ConditionPhases$ Main1,Main2 | ConditionDefined$ Self | ConditionPresent$ Card.wasCast |  SpellDescription$ Addendum - If you cast this spell during your main phase, creatures you control gain haste and trample until end of turn.
+Oracle:Playing with Fire deals 3 damage to any target.\nAddendum - If you cast this spell during your main phase, creatures you control gain haste and trample until end of turn.

@@ -1,0 +1,8 @@
+Name:Hellraiser
+ManaCost:2 R
+Types:Creature Devil
+PT:3/2
+K:Haste
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ When CARDNAME  attacks, a 1/1 red Devil creature token with "When this creature dies, it deals 1 damage to any target" that's tapped and attacking
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ r_1_1_devil_burn | TokenOwner$ You | TokenTapped$ True | TokenAttacking$ True
+Oracle:Haste\nWhenever Hellraiser attacks, create a 1/1 red Devil creature token with "When this creature dies, it deals 1 damage to any target" that's tapped and attacking.

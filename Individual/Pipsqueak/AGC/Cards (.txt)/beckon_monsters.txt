@@ -1,0 +1,12 @@
+Name:Beckon Monsters
+ManaCost:3 R R
+Types:Instant
+K:Kicker:1 R
+T:Mode$ SpellCast | ValidCard$ Card.Self | Execute$ TrigCopy | Condition$ Kicked | ConditionDescription$ When you cast this spell, copy it if it was kicked.
+SVar:TrigCopy:DB$ CopySpellAbility | Defined$ TriggeredSpellAbility 
+A:SP$ ChangeZone | Cost$ 3 R R | Origin$ Hand | Destination$ Battlefield | ChangeType$ Creature.YouCtrl | SubAbility$ DBPump | RememberChanged$ True | ForgetOtherRemembered$ True | AILogic$ BeforeCombat | SpellDescription$ You may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.
+SVar:DBPump:DB$ Animate | Keywords$ Haste | Defined$ Remembered | Permanent$ True | AtEOT$ Sacrifice | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+AI:RemoveDeck:All
+SVar:PlayMain1:TRUE
+Oracle:Kicker {1}{R}\nWhen you cast this spell, copy it if it was kicked.\nYou may put a creature card from your hand onto the battlefield. That creature gains haste. Sacrifice that creature at the beginning of the next end step.

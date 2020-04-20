@@ -1,0 +1,5 @@
+Name:Reclaimed by Nature
+ManaCost:1 G
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 G | Origin$ Battlefield,Graveyard | Destination$ Library | LibraryPosition$ -1 | ValidTgts$ Permanent.Artifact,Permanent.Enchantment,Card | TgtPrompt$ Select target creature or creature card in a graveyard | RememberLKI$ True | SpellDescription$ Put target artifact, enchantment, or card in a graveyard on the bottom of its owner's library.
+Oracle:Put target artifact, enchantment, or card in a graveyard on the bottom of its owner's library.

@@ -1,0 +1,10 @@
+Name:Archvillain's Ploy
+ManaCost:1 U U
+Types:Instant
+A:SP$ Charm | Cost$ 1 U U | MinCharmNum$ 1 | CharmNum$ 2 | Choices$ Counter,Bounce,Flicker
+SVar:Counter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SpellDescription$ Counter target spell.
+SVar:Bounce:DB$ ChangeZone | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
+SVar:Flicker:DB$ ChangeZone | ValidTgts$ Permanent.YouCtrl | Origin$ Battlefield | Destination$ Exile | TgtPrompt$ Select target permanent you control | RememberTargets$ True | SubAbility$ DBReturn | SpellDescription$ Exile target permanent you control, then return it to the battlefield under your control.
+SVar:DBReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ All | Destination$ Battlefield | GainControl$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Choose up to two —\n• Counter target spell.\n• Return target creature to its owner's hand.\n• Exile target permanent you control, then return it to the battlefield under your control.

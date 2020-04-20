@@ -1,0 +1,7 @@
+Name:Examine the Archives
+ManaCost:U
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ U | Origin$ Graveyard | Destination$ Library | TargetMin$ 0 | TargetMax$ X | References$ X | Shuffle$ True | TgtPrompt$ Choose target card in your graveyard | ValidTgts$ Card.YouCtrl | SubAbility$ DBScry | SpellDescription$ Shuffle any number of target cards from your graveyard into your library.
+SVar:DBScry:DB$ Scry | ScryNum$ 1 | SubAbility$ DBDraw | SpellDescription$ Scry 1. (Look at the top card of your library. You may put that card on the bottom of your library.)
+SVar:DBDraw:DB$Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Shuffle any number of target cards from your graveyard into your library.\nScry 1, then draw a card.
