@@ -1,0 +1,8 @@
+Name:Repentant Conqueror
+ManaCost:W B
+Types:Creature Human Knight
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Other+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigScry | TriggerDescription$ Whenever another creature you control dies, scry 1.
+SVar:TrigScry:DB$ Scry | ScryNum$ 1
+A:AB$ Draw | Cost$ 1 PayLife<1> Sac<1/Creature> | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Whenever another creature dies, scry 1.\n{1}, Pay 1 life, Sacrifice a creature: Draw a card.
