@@ -1,0 +1,13 @@
+[metadata]
+Code=L2
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: The Mana Pool
+Code2=L2
+MciCode=l2
+Type=Other
+
+[cards]
+1
+126
+
+[tokens]

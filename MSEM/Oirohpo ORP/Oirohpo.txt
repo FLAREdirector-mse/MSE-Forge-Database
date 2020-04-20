@@ -1,0 +1,15 @@
+[metadata]
+Code=ORP
+Date=2021-01-01 # TODO Find official release date
+Name=MSEM: Oirohpo
+Code2=ORP
+MciCode=orp
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1
+236
+
+[tokens]
