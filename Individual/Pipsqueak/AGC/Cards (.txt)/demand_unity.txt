@@ -8,7 +8,7 @@ SVar:ComeBack:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | Valid
 SVar:TrigReturn:DB$ ChangeZoneAll | Origin$ Exile | Destination$ Battlefield | ChangeType$ Card.IsRemembered | SubAbility$ ExileSelf
 SVar:ExileSelf:DB$ ChangeZone | Origin$ Command | Destination$ Exile | Defined$ Self
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a white enchantment token named Anthem with “Creatures you control get +1/+1.”
-SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ anthem_agc | TokenOwner$ You
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ anthem | TokenOwner$ You
 SVar:PlayMain1:TRUE
 SVar:OblivionRing:TRUE
 Oracle:When Demand Unity enters the battlefield, exile target nonland permanent an opponent controls until Demand Unity leaves the battlefield.\nWhen Demand Unity enters the battlefield, create a white enchantment token named Anthem with "Creatures you control get +1/+1."

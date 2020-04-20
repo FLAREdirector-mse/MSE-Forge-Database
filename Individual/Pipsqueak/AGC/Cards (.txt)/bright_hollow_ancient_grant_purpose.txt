@@ -4,7 +4,7 @@ Types:Creature Avatar
 PT:5/5
 K:Lifelink
 T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigTokens | TriggerZones$ Battlefield | TriggerDescription$ When CARDNAME  attacks, create two 1/1 white Spirit creature tokens with flying tapped and attacking.
-SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_spirit_flying_agc | TokenOwner$ You | TokenTapped$ True | TokenAttacking$ True
+SVar:TrigTokens:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_spirit_flying | TokenOwner$ You | TokenTapped$ True | TokenAttacking$ True
 SVar:HasAttackEffect:TRUE
 Oracle:Lifelink\nWhenever Bright-Hollow Ancient attacks, create two 1/1 white SPirit creature tokens with flying tapped and attacking.
 AlternateMode:Adventure
@@ -15,5 +15,5 @@ ALTERNATE
 Name:Grant Purpose
 ManaCost:1 W W
 Types:Sorcery Adventure
-A:SP$ Token | Cost$ 1 W W | TokenAmount$ 1 | TokenScript$ anthem_agc | TokenOwner$ You | SpellDescription$ Create a white enchantment token named Anthem with "Creatures you control get +1/+1".
+A:SP$ Token | Cost$ 1 W W | TokenAmount$ 1 | TokenScript$ anthem | TokenOwner$ You | SpellDescription$ Create a white enchantment token named Anthem with "Creatures you control get +1/+1".
 Oracle:Create a white enchantment token named Anthem with "Creatures you control get +1/+1".

@@ -2,5 +2,5 @@ Name:Dragonbone Valley
 ManaCost:no cost
 Types:Land
 A:AB$ ChangeZone | Cost$ T Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ 1 | SubAbility$ CreateToken | SpellDescription$ Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Then if you control seven or more lands, create a 5/5 red Dragon creature token with flying.
-SVar:CreateToken:DB$ Token | TokenAmount$ 1 | TokenScript$ r_5_5_dragon_flying_agc | TokenOwner$ You  | ConditionPresent$ Land.YouCtrl | ConditionCompare$ GE7 | ConditionDescription$ If you control seven or more lands, create a 5/5 red Dragon creature token with flying. 
+SVar:CreateToken:DB$ Token | TokenAmount$ 1 | TokenScript$ r_5_5_dragon_flying | TokenOwner$ You  | ConditionPresent$ Land.YouCtrl | ConditionCompare$ GE7 | ConditionDescription$ If you control seven or more lands, create a 5/5 red Dragon creature token with flying. 
 Oracle:{T}, Sacrifice Fabled Passage: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library. Then, if you control seven or more lands, create a 5/5 red Dragon creature token with flying.

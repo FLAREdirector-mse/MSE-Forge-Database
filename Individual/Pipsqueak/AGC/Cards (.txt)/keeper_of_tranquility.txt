@@ -3,7 +3,7 @@ ManaCost:2 W W
 Types:Creature Spirit Monk
 PT:3/3
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 1/1 white Spirit creature tokens with flying.
-SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_spirit_flying_agc | TokenOwner$ You
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ w_1_1_spirit_flying | TokenOwner$ You
 A:AB$ Counter | Cost$ Sac<1/Spirit> | TargetType$ Spell | ValidTgts$ Card.nonCreature | TgtPrompt$ Select target noncreature spell | UnlessCost$ 1 | SpellDescription$ Counter target noncreature spell unless its controller pays {1}.
 DeckHas:Ability$Token
 Oracle:When Keeper of Tranquility enters the battlefield, create two 1/1 white Spirit creature tokens with flying.\nSacrifice a Spirit: Counter target noncreature spell unless its controller pays {1}.
