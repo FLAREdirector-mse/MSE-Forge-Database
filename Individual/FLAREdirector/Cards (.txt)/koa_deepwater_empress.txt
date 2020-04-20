@@ -1,0 +1,15 @@
+Name:Koa, Deepwater Empress
+ManaCost:G W U B
+Types:Legendary Creature Merfolk Noble
+K:Hexproof
+PT:4/5
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Command | PresentZone$ Command | Execute$ TrigToken | TriggerDescription$ Eminence — As long as Koa, Deepwater Empress is in the command zone or on the battlefield, whenever you cast a noncreature spell, create a 1/1 blue Merfolk creature token with hexproof.
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | PresentZone$ Battlefield | Execute$ TrigToken | Secondary$ True | TriggerDescription$ As long as Koa, Deepwater Empress is in the command zone or on the battlefield, whenever you cast a noncreature spell, create a 1/1 blue Merfolk creature token with hexproof.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ u_1_1_merfolk_hexproof | TokenOwner$ You | LegacyImage$ u 1 1 merfolk hexproof xln
+T:Mode$ SpellCast | ValidCard$ Card.Merfolk | ValidActivatingPlayer$ You | TriggerZones$ Command | PresentZone$ Command | Execute$ TrigDrain | TriggerDescription$ Eminence — As long as Koa, Deepwater Empress is in the command zone or on the battlefield, whenever you cast a Merfolk spell, target opponent loses 1 life and you gain 1 life.
+T:Mode$ SpellCast | ValidCard$ Card.Merfolk | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | PresentZone$ Battlefield | Execute$ TrigDrain | Secondary$ True | TriggerDescription$ As long as Koa, Deepwater Empress is in the command zone or on the battlefield, whenever you cast a Merfolk spell, target opponent loses 1 life and you gain 1 life.
+SVar:TrigDrain:DB$LoseLife | ValidTgts$ Opponent | LifeAmount$ 1 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$GainLife | Defined$ You | LifeAmount$ 1
+A:AB$ PutCounter | Cost$ 3 G | ValidTgts$ Creature | TgtPrompt$ Select target creature. | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on target creature.
+A:AB$ PutCounter | Cost$ 3 G | ValidTgts$ Planeswalker | TgtPrompt$ Select target planeswalker. | CounterType$ LOYALTY | CounterNum$ 1 | SpellDescription$ Put a loyalty counter on target planeswalker.
+Oracle:Eminence — As long as Koa, Deepwater Empress is in the command zone or on the battlefield, whenever you cast a noncreature spell, create a 1/1 blue Merfolk creature token with hexproof, and whenever you cast a Merfolk spell, target opponent loses 1 life and you gain 1 life.\nHexproof\n{3}{G}: Put a +1/+1 counter on target creature or a loyalty counter on target planeswalker.

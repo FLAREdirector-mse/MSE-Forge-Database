@@ -1,0 +1,8 @@
+Name:Mishae the Blossoming
+ManaCost:1 G W
+Types:Legendary Creature Nymph
+PT:1/3
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 Saproling creature token for each creature that entered the battlefield this turn.
+SVar:TrigToken:DB$Token | TokenAmount$ X | TokenOwner$ You | TokenScript$ g_1_1_saproling | LegacyImage$ g 1 1 saproling agc | References$ X
+SVar:X:Count$ThisTurnEntered_Battlefield_Creature
+Oracle:When Mishae the Blossoming enters the battlefield, create a 1/1 Saproling creature token for each creature that entered the battlefield this turn.

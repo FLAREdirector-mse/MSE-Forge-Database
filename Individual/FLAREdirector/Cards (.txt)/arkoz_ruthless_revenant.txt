@@ -1,0 +1,10 @@
+Name:Arkoz, Ruthless Revenant
+ManaCost:3 W B
+Types:Legendary Creature Spirit Soldier
+K:Lifelink
+PT:3/3
+S:Mode$ Continuous | Affected$ Creature.token+YouCtrl | IsPresent$ Card.Self | PresentZone$ Battlefield | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ Lifelink | AddType$ Spirit | Description$ Eminence — As long as Arkoz, Ruthless Revenant is in the command zone or on the battlefield, creature tokens you control get +1/+1, have lifelink, and are Spirits in addition to their other types.
+S:Mode$ Continuous | Affected$ Creature.token+YouCtrl | IsPresent$ Card.Self | PresentZone$ Command | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ Lifelink | AddType$ Spirit | Description$ Eminence — As long as Arkoz, Ruthless Revenant is in the command zone or on the battlefield, creature tokens you control get +1/+1, have lifelink, and are Spirits in addition to their other types.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.YouDontCtrl |  IsPresent$ Card.Self | PresentZone$ Battlefield | Execute$ TrigToken | TriggerController$ You | Phase$ BeginCombat->EndCombat | TriggerDescription$ Whenever a creature you don't control dies during combat, if Arkoz, Ruthless Revenant is on the battlefield, you may pay {1}{W}{B}. If you do, create a token that's a copy of that creature.
+SVar:TrigToken:AB$ CopyPermanent | Cost$ 1 W B | Defined$ TriggeredCard | Controller$ You
+Oracle:Eminence — As long as Arkoz, Ruthless Revenant is in the command zone or on the battlefield, creature tokens you control get +1/+1, have lifelink, and are Spirits in addition to their other types.\nLifelink\nWhenever a creature you don't control dies during combat, if Arkoz, Ruthless Revenant is on the battlefield, you may pay {1}{W}{B}. If you do, create a token that's a copy of that creature.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

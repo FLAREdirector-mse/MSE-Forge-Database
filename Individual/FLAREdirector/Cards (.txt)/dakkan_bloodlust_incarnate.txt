@@ -1,0 +1,10 @@
+Name:Dakkan, Bloodlust Incarnate
+ManaCost:4 B R
+Types:Legendary Creature Demon Warrior
+PT:6/6
+S:Mode$ Continuous | Affected$ Creature.Demon+Other+YouCtrl,Creature.Devil+YouCtrl,Creature.Imp+YouCtrl | AddPower$ 2 | Description$ Devils, Imps, and other Demons you control get +2/+0.
+A:AB$ Token | Cost$ 3 B R T | TokenAmount$ X | References$ X | TokenScript$ b_1_1_imp_lifelink | TokenOwner$ You | LegacyImage$ b 1 1 imp lifelink | SpellDescription$ For each creature card put into a graveyard this turn, create a 1/1 black Imp creature token with lifelink.
+SVar:X:Count$ThisTurnEntered_Graveyard_Card.Creature
+SVar:PlayMain1:TRUE
+DeckHints:Type$Demon|Devil|Imp
+Oracle:Devils, Imps, and other Demons you control get +2/+0.\n{3}{B}{R}, {T}: For each creature card put into a graveyard this turn, create a 1/1 black Imp creature token with lifelink.

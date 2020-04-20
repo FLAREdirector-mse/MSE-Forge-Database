@@ -1,0 +1,7 @@
+Name:Compulsive Prodigy
+ManaCost:W B
+Types:Creature Spirit Bard
+PT:2/2
+S:Mode$ ReduceCost | ValidCard$ Artifact,Enchantment | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Artifact and enchantment spells you cast cost {1} less to cast.
+DeckHints:Type$Artifact|Enchantment
+Oracle:Artifact and enchantment spells you cast cost {1} less to cast.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

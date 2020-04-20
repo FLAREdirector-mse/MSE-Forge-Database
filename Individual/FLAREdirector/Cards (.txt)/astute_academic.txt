@@ -1,0 +1,9 @@
+Name:Astute Academic
+ManaCost:W W
+Types:Creature Human Artificer
+PT:1/2
+T:Mode$ SpellCast | ValidCard$ Artifact,Enchantment | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ Whenever you cast an artifact or enchantment spell, create a 1/1 colorless Servo artifact creature token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_a_servo | TokenOwner$ You | LegacyImage$ c 1 1 a servo war
+SVar:BuffedBy:Artifact,Enchantment
+DeckHints:Type$Artifact|Enchantment
+Oracle:Whenever you cast an artifact or enchantment spell, create a 1/1 colorless Servo artifact creature token.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

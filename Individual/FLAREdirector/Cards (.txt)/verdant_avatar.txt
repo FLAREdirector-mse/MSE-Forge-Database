@@ -1,0 +1,13 @@
+Name:Verdant Avatar
+ManaCost:4 G G
+Types:Creature Elemental Avatar
+PT:3/5
+K:ETBReplacement:Other:CounterChoice
+SVar:CounterChoice:DB$ GenericChoice | Defined$ You | Choices$ Trample,Vigilance | SpellDescription$ CARDNAME enters the battlefield with your choice of a trample counter or a vigilance counter on it.
+SVar:Trample:DB$ PutCounter | CounterType$ TRAMPLE | CounterNum$ 1 | SpellDescription$ CARDNAME enters the battlefield with a trample counter on it
+SVar:Vigilance:DB$ PutCounter | CounterType$ VIGILANCE | CounterNum$ 1 | SpellDescription$ CARDNAME enters the battlefield with a vigilance counter on it
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 0/2 green Plant creature tokens with defender for each differently named land you control.
+SVar:TrigToken:DB$Token | TokenAmount$ X | TokenScript$ g_0_2_plant_defender | TokenOwner$ You | LegacyImage$ g 0 2 plant defender xln | References$ X
+SVar:X:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield/Times.2
+SVar:BuffedBy:Land
+Oracle:Verdant Avatar enters the battlefield with your choice of a trample counter or a vigilance counter on it.\nWhen Verdant Avatar enters the battlefield, create two 0/2 green Plant creature tokens with defender for each differently named land you control.

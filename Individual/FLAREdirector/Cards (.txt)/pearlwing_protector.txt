@@ -1,0 +1,7 @@
+Name:Pearlwing Protector
+ManaCost:3 W W
+Types:Creature Cat Beast
+K:Flying
+PT:2/5
+R:Event$ DamageDone | ActiveZones$ Battlefield | Prevent$ True | ValidTarget$ Creature.untapped+YouCtrl | Description$ Prevent all damage that would be dealt to attacking creatures you control.
+Oracle:Prevent all damage that would be dealt to untapped creatures you control.\n\nDesigned by FLAREdirector\nForged by FLAREdirector
