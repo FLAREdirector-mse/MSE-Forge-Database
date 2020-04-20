@@ -1,0 +1,7 @@
+Name:Devour Reality
+ManaCost:B R
+Types:Sorcery
+K:Retrace
+A:SP$ChooseType | Defined$ You | Type$ Card | InvalidTypes$ Instant,Sorcery | SubAbility$ TrigSac | SpellDescription$ Choose a permanent type. Each player sacrifices a permanent of the chosen type.
+SVar:TrigSac:DB$Sacrifice | SacValid$ Permanent.ChosenType | Defined$ Player
+Oracle:Choose a permanent type. Each player sacrifices a permanent of the chosen type.\nRetrace (You may cast this card from your graveyard by discarding a land card in addition to paying its other costs.)

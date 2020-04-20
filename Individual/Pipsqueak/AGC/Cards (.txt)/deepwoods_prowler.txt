@@ -1,0 +1,9 @@
+Name:Deepwoods Prowler
+ManaCost:2 G G
+Types:Creature Cat Beast
+PT:2/2
+K:Flash
+S:Mode$ Continuous | Affected$ Creature.nonToken | WithFlash$ You | AffectedZone$ Exile,Graveyard,Hand,Library,Command | Description$ You may cast creature spells as though they had flash.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target permanent card from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Permanent.YouCtrl
+Oracle:Flash\nYou may cast creature spells as though they had flash.\nWhen Deepwoods Prowler enters the battlefield, return target permanent card from your graveyard to your hand.
