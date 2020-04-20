@@ -1,0 +1,6 @@
+Name:Storm's Conduit
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ Combo U R | Amount$ X | References$ X | SpellDescription$ For each spell cast this turn, add {U} or {R}.
+SVar:X:Count$ThisTurnCast_Card
+Oracle:{T}: For each spell cast this turn, add {U} or {R}.

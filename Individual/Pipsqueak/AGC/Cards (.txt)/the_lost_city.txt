@@ -1,0 +1,9 @@
+Name:The Lost City
+ManaCost:no cost
+Types:Legendary Land
+K:ETBReplacement:Other:DBChooseBasic
+K:CARDNAME enters the battlefield tapped.
+S:Mode$ Continuous | Affected$ Land.Basic+YouCtrl,Card.Self | AddType$ ChosenType | Description$ CARDNAME and basic lands you control are the chosen type in addition to their other types.
+AI:RemoveDeck:Random
+SVar:Picture:http://www.wizards.com/global/images/magic/general/urborg_tomb_of_yawgmoth.jpg
+Oracle:The Lost City enters the battlefield tapped.\nAs The Lost City enters the battlefield, choose a basic land type.\nThe Lost City and basic lands you control are the chosen type in addition to their other types.
