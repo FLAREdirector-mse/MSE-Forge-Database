@@ -1,6 +1,6 @@
 [metadata]
 Code=VTM
-Date=2021-01-01 # TODO: Find official release date
+Date=2019-02-01
 Name=MSEM: Villains: The Musical
 Code2=VTM
 MciCode=vtm
@@ -9,14 +9,254 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 U Adoration
+2 C Amateur Auteur
+3 C Awestruck
+4 R Buttress Formation
+5 U Changing Room
+6 C Crowd Favorite
+7 C Defying Gravity
+8 C Distracting Performer
+9 M Divinity
+10 U Encore
+11 C Evigial Winds
+12 C Evigian Crusher
+13 C Evigian Noble
+14 C Gilded Hawk
+15 C Golden Touch
+16 U Growing Pains
+17 U Her Ascension
+18 U Leaping Dancer
+19 R Performer of Enlightenment
+20 R Priestess of Simplicity
+21 R Protective Patron
+22 C Rallying Guardian
+23 C Rehearse
+24 R Return to Form
+25 C Reversal Medic
+26 C Saia's Price
+27 U Sartha's Studies
+28 R Shushing Usher
+29 C Street Busker
+30 U Talent Scout
+31 C Theater Guard
+32 R Tome of Loss
+33 C Unmoving Usher
+34 U Voices Overwhelming
+35 C Aerial Watch
+36 R Amulet of Loyalties
+37 U Aspiring Recluse
+38 R Augmented Spawn
+39 U Babbling Experiment
+40 U Brilliance Overbearing
+41 C Cadalon Outfitter
+42 C Control Discourse
+43 C Coral Hunter
+44 U Cursory Glance
+45 C Evigian Titan
+46 C Exit, Pursued by a Bear
+47 R Flawless Heist
+48 R Gentleman Thief
+49 C Grafted Experiment
+50 C Lost in Smoke
+51 C Mei's Understudy
+52 C Merfolk Vandal
+53 C Miscast
+54 C Moonlit Charmer
+55 R Performer of Brilliance
+56 U Pilfered Process
+57 C Posthumous Informant
+58 U Questionable Methods
+59 U Queue Bouncer
+60 R Rewriting Loyalties
+61 U Saia's Protege
+62 C Send Away
+63 R Shoreline Temptress
+64 C Stage Fright
+65 R Unraveling
+66 U Vile Infiltrator
+67 C Vivian's Vanguard
+68 C Wheat from Chaff
+69 C Alley Hunter
+70 C Arisen Troops
+71 C Backalley Cutpurse
+72 U Backalley Silencer
+73 U Blood Artist
+74 U Blood Overruling
+75 C Bloodline Shaman
+76 C Break a Leg
+77 R Compulsive Accuser
+78 U Corpsing
+79 U Cut Short
+80 C Dying Breath
+81 R Eldritch Egg
+82 C Exeunt
+83 C First Blood
+84 C Forsaken Bloodletter
+85 C Loose Ends
+86 C Lost Memories
+87 U Mei's Collector
+88 U Night on Flayed Mountain
+89 R Performer of Ambition
+90 C Poisoned Wine
+91 C Slave Child
+92 C Slums Thug
+93 C Street Stalker
+94 R Troupe Smuggler
+95 C Truth Extractor
+96 R Turned Watcher
+97 U Undercity Diplomat
+98 R Underworld Informant
+99 M Upstage
+100 U Urchin Defector
+101 C Vampiric Hunger
+102 R Villains: The Musical
+103 R Audition
+104 R Awestone
+105 C Backstage Banter
+106 C Bit Player
+107 C Blind Tunneler
+108 C Bounty Crusher
+109 U Cadalon Chemist
+110 C Cadalon Experimenter
+111 C Crack Open the Cache
+112 C Diasune Immolator
+113 C Diasune Tracker
+114 C Flameblade
+115 R Flight of the Phoenix
+116 C Furor of the Bitten
+117 C Grieved Outburst
+118 U Harms Dealer
+119 R Hats Off
+120 C Impatient Busker
+121 R Life's Work
+122 C Oracle of Flames
+123 U Passionate Painter
+124 R Performer of Desire
+125 U Power Overflowing
+126 R Reprising Bard
+127 C Scathing Review
+128 U Slay Them in the Aisles
+129 U Soliloquy
+130 U Storm Servant
+131 C Thunderous Applause
+132 U Tyrant's Reckoning
+133 C Unwilling Accomplice
+134 U War's Sorrow
+135 C Wild Pyromancer
+136 C Acorn Assault
+137 R Atlas of Worlds
+138 U Bessie's Brood
+139 C Bessie's Crusher
+140 U Canopy Scout
+141 C Diasune Irregular
+142 U Diasune Warleader
+143 C Elven Guard
+144 C Epic Confrontation
+145 C Into the Woods
+146 R Komurk Harvester
+147 R Komurk Raid
+148 C Lively Prop
+149 U Malign Growth
+150 R Performer of Growth
+151 U Realms Overturning
+152 R Realmstitching
+153 U Rei's Awakening
+154 C Rei's Ranger
+155 C Rei's Watch
+156 R Restoration
+157 C Rootshambler
+158 U Ruststep Centipede
+159 C Scenery Chewing
+160 C Scramble the Scouts
+161 C Scuripi Blessing
+162 C Scuripi Collector
+163 R Scuripi Lookout
+164 C Scuripi Reserve
+165 U Shifty Squirrel
+166 U Skitterthorns
+167 R Taken for Granite
+168 C Wayfaring Realmstitcher
 169 U Backstage Manager
+170 U Backstage Tinkers
+171 M Bahum, the Warden
+172 M Bessie, the Muscle
+173 U Bloodied Outcast
+174 U Cadalon Inspector
+175 R Chi Lee of the Underworld
+176 M Cornrose, the Mighty
+177 R Curtain Call
+178 R Ediam, the Inside Man
+179 U Evigian Sculptor
+180 M Heddwyn, the Law
+181 R Kiku, the Gadgeteer
+182 U Lantern Tender
+183 U Linebreaker Wurm
+184 M Lucien, the Grifter
+185 R Masoh, Hitana's Monster
+186 M Mei, the Infiltrator
+187 R Qililia, the Saboteur
+188 R Quinn, the Performer
+189 U Ravage Relics
+190 U Rei's Reinforcements
+191 M Saia, the Mastermind
+192 U Scuripi Shaman
+193 R Set the Stage
+194 M Sevid, the Lookout
+195 U Soulless Backstabber
+196 U Squid Pro Quo
+197 U Timid Thunderhorn
+198 U Tower Prowler
+199 U Undercity Vendor
+200 M Vivian, the Detective
+201 M Zegarra, the Rival
+202 U Clock of Seasons
+203 R Coffers of Kovach
+204 U Crystal Cauldron
+205 C Dragonfire Blade
+206 C Duelist's Choice
+207 C Ghost Light
+208 C Gilded Cipher
+209 U Golden Helm
+210 R Grab Bag
+211 U Invisibility Cloak
+212 U Joyous Chromatelk
+213 C Living Script
+214 U Mirrored Mask
+215 C Multipurpose Mannequin
+216 M Platinum Colossus
+217 C Prismatic Panes
+218 C Prophetic Prism
+219 R Skybreaker Hook
+220 U Soul Gate
+221 C Stage Dressing
+222 M Sword of Truth and Lies
+223 U Theater Mask
+224 C Uncovered Idol
+225 U Vault Sentinel
+226 R Ascendant's Gate
+227 R Backstage Rooms
+228 C Evolving Wilds
+229 R Heist Headquarters
+230 R Hidden Hollow
+231 R Legitimate Establishment
+232 C Ruined Theater
+233 U Ruptured Citadel
+234 U Ruptured Expanse
+235 U Ruptured Falls
+236 U Ruptured Flats
+237 U Ruptured Grotto
+238 U Ruptured Grove
+239 U Ruptured Meadow
+240 U Ruptured Morass
+241 U Ruptured Square
+242 U Ruptured Trail
+243 R Seedy Bar
 244 R Talent Pool
 245 L Plains
 246 L Island
 247 L Swamp
 248 L Mountain
 249 L Forest
-324
 
 [tokens]
