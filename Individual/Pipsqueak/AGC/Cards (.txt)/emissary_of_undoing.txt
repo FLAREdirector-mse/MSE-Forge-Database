@@ -1,0 +1,8 @@
+Name:Emissary of Undoing
+ManaCost:1 G
+Types:Creature Human Druid
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigEdict | TriggerDescription$ When CARDNAME enters the battlefield, target player sacrifices an artifact or enchantment.
+SVar:TrigEdict:DB$ Sacrifice | ValidTgts$ Player | SacValid$ Artifact,Enchantment | SacMessage$ artifact or enchantment
+A:AB$ Pump | Cost$ 4 G G | NumAtt$ +4 | NumDef$ +4 | SubAbility$ DBFight | SpellDescription$ CARDNAME gets +4/+4 until end of turn. It fights up to one target creature.
+SVar:DBFight:DB$ Fight | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature | TgtPrompt$ Choose up to one target creature | TargetMin$ 0 | TargetMax$ 1 | SpellDescription$ CARDNAME fights up to one target creature.
+Oracle:When Emissary of Undoing enters the battlefield, target player sacrifices an artifact or enchantment.\n{4}{G}{G}: Emissary of Undoing gets +4/+4 until end of turn. It fights up to one target creature.
