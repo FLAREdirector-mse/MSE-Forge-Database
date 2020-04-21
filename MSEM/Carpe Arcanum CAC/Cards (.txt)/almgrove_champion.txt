@@ -1,0 +1,7 @@
+Name:Almgrove Champion
+ManaCost:W
+Types:Creature Human Soldier
+K:First Strike
+PT:1/1
+
+Oracle:First strike\nCadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\nAlmgrove Champion can only attack or block alone. 

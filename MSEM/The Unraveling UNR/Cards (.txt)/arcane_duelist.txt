@@ -1,0 +1,6 @@
+Name:Arcane Duelist
+ManaCost:1 U
+Types:Creature Human Wizard
+PT:2/1
+
+Oracle:Whenever Arcane Duelist becomes tapped, target instant or sorcery card in your graveyard with converted mana cost 1 gains flashback until end of turn. The flashback cost is equal to its mana cost.

@@ -10,6 +10,8 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1
+38 R Aether Leak # reprint HI12
+55 C Seek Prophecy # reprint OPH
 286
 
 [tokens]

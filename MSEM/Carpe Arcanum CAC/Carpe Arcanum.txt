@@ -9,7 +9,8 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 R Almgrove Champion
+63 R Archive Guardian
 90
 
 [tokens]

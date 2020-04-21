@@ -8,6 +8,8 @@ Type=Other
 
 [cards]
 1
+14 M Almgrove Champion # reprint CAC
+31 M Cane Dancer # reprint GHQ
 42
 
 [tokens]

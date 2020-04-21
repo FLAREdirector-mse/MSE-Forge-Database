@@ -1,0 +1,7 @@
+Name:Cane Dancer
+ManaCost:1 U
+Types:Creature Human Monk
+K:Flash
+PT:1/2
+
+Oracle:Flash\nWhen Cane Dancer enters the battlefield, you may cast target blue instant or sorcery card with converted mana cost 2 from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead. 
