@@ -1,0 +1,5 @@
+Name:Idyllia
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ T | Produced$ G | Amount$ 3 | IsPresent$ Creature.YouCtrl | PresentCompare$ GE3 | SpellDescription$ Add {G}{G}{G}.

@@ -1,0 +1,7 @@
+Name:Crumble to Ashes
+ManaCost:1 B
+Types:Instant
+A:SP$ Charm | Cost$ 1 B | Choices$ DBCrypt,DBSmother
+SVar:DBCrypt:DB$ ChangeZoneAll | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Player | TgtPrompt$ Select target player | ChangeType$ Card | Shuffle$ True | SpellDescription$ Exile target player's graveyard.
+SVar:DBSmother:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Creature.powerLE3 | TgtPrompt$ Select target creature with converted mana cost 3 or less | SpellDescription$ Exile target creature with power 3 or less.
+Oracle:Choose one -\n• Exile target player's graveyard.\n• Exile target creature with power 3 or less.

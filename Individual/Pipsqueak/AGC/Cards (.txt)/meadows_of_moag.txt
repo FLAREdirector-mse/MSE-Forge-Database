@@ -1,0 +1,5 @@
+Name:Meadows of Moag
+ManaCost:no cost
+Types:Land Forest Plains
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, each opponent gains 10 life.
+SVar:TrigGainLife:DB$ GainLife | Defined$ Player.Opponent | LifeAmount$ 2

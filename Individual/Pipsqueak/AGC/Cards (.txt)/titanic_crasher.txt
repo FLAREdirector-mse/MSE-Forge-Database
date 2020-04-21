@@ -1,0 +1,9 @@
+Name:Titanic Crasher
+ManaCost:9
+Types:Artifact Creature Golem
+PT:9/9
+K:CantBeBlockedByAmount LT3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters the battlefield or attacks, destroy target noncreature permanent.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerZones$ Battlefield | Secondary$ True | TriggerDescription$ When CARDNAME enters the battlefield or attacks, destroy target noncreature permanent.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Permanent.nonCreature | TgtPrompt$ Select target noncreature permanent.
+Oracle:Titanic Crasher can't be blocked except by three or more creatures.\nWhen Titanic Crasher enters the battlefield or attacks, destroy target noncreature permanent.

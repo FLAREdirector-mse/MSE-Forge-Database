@@ -1,0 +1,9 @@
+Name:Spark Servant
+ManaCost:2
+Types:Artifact Creature Scout
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | TriggerDescription$ When CARDNAME enters the battlefield, search your library for a planeswalker card, exile it, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Exile | ChangeType$ Planeswalker | ChangeNum$ 1 | RememberChanged$ True | ShuffleNonMandatory$ True
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME leaves the battlefield, return the card exiled with it to its owner's hand.
+SVar:TrigReturn:DB$ChangeZone | Defined$ Remembered | Origin$ Exile | Destination$ Hand
+Oracle:When Spark Servant enters the battlefield, search your library for a planeswalker card, exile it, then shuffle your library.\nWhen Spark Servant leaves the battlefield, return the card exiled with it to its owner's hand.

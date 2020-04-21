@@ -1,0 +1,7 @@
+Name:Riddling Maze
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Effect | Cost$ 2 T | Name$ Maze Tax | SVars$ AttackTax | SpellDescription$ This turn, creatures can't attack unless their controller pays 1 for each attacking creature they control.
+SVar:AttackTax:Mode$ CantAttackUnless | ValidCard$ Creature | EffectZone$ Command | Cost$ 1 | Description$ Creatures can't attack unless their controller pays {X} for each attacking creature they control.
+Oracle:{T}: Add {C}.\n{2}, {T}: This turn, creatures can't attack unless their controller pays 1 for each attacking creature they control.
