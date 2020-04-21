@@ -2,9 +2,10 @@ Name:Consult the Dragonsages
 ManaCost:3 U
 Types:Instant
 K:Cycling:U
-A:SP$ Charm | Cost$ 3 U | CharmNum$ X | References$ X | Choices$ Counter,DrawOne,DrawTwo
+A:SP$ Charm | Cost$ 3 U | CharmNum$ 3 | Choices$ Counter,DrawOne,DrawTwo
+# A:SP$ Charm | Cost$ 3 U | CharmNum$ X | References$ X | Choices$ Counter,DrawOne,DrawTwo
 SVar:Counter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | TargetMin$ 0 | TargetMax$ 1 | ValidTgts$ Card | SpellDescription$ Counter target spell.
 SVar:DrawOne:DB$ Draw | NumCards$ 1
 SVar:DrawTwo:DB$ Draw | NumCards$ 1
-SVar:X:Count$ValidGraveyard Instant.YouOwn,Sorcery.YouOwn
+# SVar:X:Count$ValidGraveyard Instant.YouOwn,Sorcery.YouOwn
 Oracle:For each instant or sorcery card in your graveyard, choose one -\n• Counter up to one target spell.\n• Draw a card.\n• Draw a card.\nCycling {U}

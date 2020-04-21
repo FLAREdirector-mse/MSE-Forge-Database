@@ -1,5 +1,5 @@
 Name:Declare, the Mother Bear
-ManaCost:1 G W
+ManaCost:2 G W
 Types:Legendary Creature Human Knight
 K:Indestructible
 PT:3/3

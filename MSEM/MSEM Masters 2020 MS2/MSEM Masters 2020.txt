@@ -1,0 +1,50 @@
+[metadata]
+Code=MS2
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: MSEM Masters 2020
+Code2=MS2
+MciCode=ms2
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 M The Infinite # reprint MIS
+2 R Akrianos' Command # possessive # reprint TOW
+3 R Almgrove Champion # reprint CAC
+29 U Arcane Duelist # reprint UNR
+31 R Cane Dancer # reprint GHQ
+129 M Burgeoning Blooms # reprint MAC
+197
+198 M Champion of Destinies
+199 M Minister of Madness
+200 M Rhys, Keeper of Scriptures
+201 M Wunderkind Devising
+202 M Ammbradu Goliath
+203 M Liliana at the Brink
+204 M Turn to Gold
+205 M Xanigan, the Darkened Cloud
+206 M Bow or Burn
+207 M Cross Boundaries
+208 M Synchronous Hellkite
+209 M Fardancer Liege
+210 M Leyran Alpha
+211 M Breach Titan
+212 M Carnival Yatiri
+213 M Enter the Fray
+214 M Ephemeral Adept
+215 M Geetha, Glass-Shaper
+216 M Iviana, Speaker of Fangs
+217 M Nova, Skyship Captain
+218 M Oshiruko Conspirator
+219 M Plasma Addict
+220 M Shinrei of the Ghosting Way
+221 M Spellfist Gaijin # reprint WAW
+222 M Starjump
+223 M Twisting Memories
+224 M Raloran Tidecaller
+225 M Coveted Heirloom
+226 M Nightwatch Rallier
+227 M Xenocrata's Fleet
+
+[tokens]

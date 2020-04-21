@@ -1,0 +1,5 @@
+Name:Burgeoning Blooms
+ManaCost:X U R G
+Types:Sorcery
+
+Oracle:Draw X cards, then abound.

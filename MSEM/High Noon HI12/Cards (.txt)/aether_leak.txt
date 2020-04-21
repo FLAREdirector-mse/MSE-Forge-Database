@@ -1,0 +1,5 @@
+Name:Aether Leak
+ManaCost:2 U U
+Types:Instant
+
+Oracle: Search your library for a creature card, put it onto the battlefield, then exile it. Shuffle your library.

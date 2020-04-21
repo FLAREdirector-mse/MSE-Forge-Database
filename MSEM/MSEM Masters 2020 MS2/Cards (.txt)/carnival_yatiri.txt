@@ -1,0 +1,6 @@
+Name:Carnival Yatiri
+ManaCost:1 R W
+Types:Creature Human Cleric
+PT:2/2
+
+Oracle: Whenever you gain life, Clerics you control get +1/+1 and gain trample until end of turn. 

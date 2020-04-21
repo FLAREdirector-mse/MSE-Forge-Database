@@ -1,0 +1,16 @@
+[metadata]
+Code=EAU
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: Eralou
+Code2=EAU
+MciCode=eau
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1
+135 R Burning Revelations
+259
+
+[tokens]

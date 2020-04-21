@@ -1,0 +1,15 @@
+[metadata]
+Code=MPS_MSE
+Date=2021-01-01 # TODO Find official release date
+Name=MSEM: MSEM Champions
+Code2=MPS_MSE
+MciCode=mps_mse
+Type=Other
+
+[cards]
+1
+14 M Almgrove Champion # reprint CAC
+31 M Cane Dancer # reprint GHQ
+42
+
+[tokens]

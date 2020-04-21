@@ -1,0 +1,4 @@
+Name:Summoner's Call
+ManaCost:3 G
+Types:Instant
+Oracle:Reveal the top four cards of your library. Put up to two creature cards with converted mana cost 3 or less from among them onto the battlefield and the rest into your graveyard.\nProphecy {2}{G}

@@ -1,0 +1,19 @@
+[metadata]
+Code=MPS_HI12
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: High Noon: Daisite Outlaws
+Code2=MPS_HI12
+MciCode=mps_hi12
+Type=Other
+
+[cards]
+1 M Invisible Stalker
+2 M Axom, the Drifter
+3 M Gurug Scavenger
+4 M Haide Bankbuster
+5 M Peakpoint Presence
+6 M Burning-Tree Shaman
+7 M Chief Striking Dawn
+8 M Penny and Pete
+9 M Roxite of Nightrail
+10 M Haphazard Militia

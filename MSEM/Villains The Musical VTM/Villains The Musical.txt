@@ -1,0 +1,22 @@
+[metadata]
+Code=VTM
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: Villains: The Musical
+Code2=VTM
+MciCode=vtm
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1
+169 U Backstage Manager
+244 R Talent Pool
+245 L Plains
+246 L Island
+247 L Swamp
+248 L Mountain
+249 L Forest
+324
+
+[tokens]

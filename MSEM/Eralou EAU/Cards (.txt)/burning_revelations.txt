@@ -1,0 +1,5 @@
+Name:Burning Revelations
+ManaCost:3 R
+Types:Instant
+
+Oracle:Tithe (As you cast this spell, you may tap three artifacts and/or creatures you control.)\nAny opponent may have you draw three cards. If they don't, Burning Revelations deals 5 damage to them. Then, if you cast this spell and its tithe was paid, copy it twice.

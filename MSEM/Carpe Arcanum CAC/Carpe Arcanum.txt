@@ -1,0 +1,16 @@
+[metadata]
+Code=CAC
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: Carpe Arcanum
+Code2=CAC
+MciCode=cac
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 R Almgrove Champion
+63 R Archive Guardian
+90
+
+[tokens]

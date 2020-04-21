@@ -1,0 +1,15 @@
+[metadata]
+Code=PSA
+Date=2021-01-01 # TODO Find official release date
+Name=MSEM: Path of Shadows
+Code2=PSA
+MciCode=psa
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1
+216
+
+[tokens]

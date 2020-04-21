@@ -1,0 +1,6 @@
+Name:Archive Guardian
+ManaCost:2 B G
+Types:Creature Elemental
+PT:2/2
+
+Oracle:When Archive Guardian enters the battlefield, return target card from your graveyard to your hand.\nConjure {1}{B}{G}

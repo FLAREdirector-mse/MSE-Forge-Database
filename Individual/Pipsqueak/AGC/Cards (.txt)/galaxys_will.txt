@@ -1,9 +1,9 @@
 Name:Galaxy's Will
 ManaCost:1 U
 Types:Instant
-A:SP$ Charm | Cost$ 1 U | Choices$ DBTap,DBQuench,DBPreordain
-SVar:DBTap:DB$A:SP$ Tap | Cost$ 1 U | TargetMin$ 2 | TargetMax$ 2 | TgtPrompt$ Choose target creature | ValidTgts$ Permanent.nonLand | SpellDescription$ Tap two nonland permanents.
-SVar:DBQuench:DB$ Counter | Cost$ 1 U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SpellDescription$ Counter target spell unless its controller pays {2}.
-SVar:DBPreordain:DB$ Scry | Cost$ U | ScryNum$ 2 | SpellDescription$ Scry 2, then draw a card. | SubAbility$ DBDraw
+A:SP$ Charm | Cost$ 1 U | CharmNum$ 1 | Choices$ DBTap,DBQuench,DBPreordain
+SVar:DBTap:DB$ Tap | TargetMin$ 2 | TargetMax$ 2 | TgtPrompt$ Choose target creature | ValidTgts$ Permanent.nonLand | SpellDescription$ Tap two nonland permanents.
+SVar:DBQuench:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SpellDescription$ Counter target spell unless its controller pays {2}.
+SVar:DBPreordain:DB$ Scry | ScryNum$ 2 | SpellDescription$ Scry 2, then draw a card. | SubAbility$ DBDraw
 SVar:DBDraw:DB$Draw | NumCards$ 1
 Oracle:Choose one-\n• Tap two nonland permanents.\n• Counter target spell unless its controller pays {2}.\n• Scry 2, then draw a card.

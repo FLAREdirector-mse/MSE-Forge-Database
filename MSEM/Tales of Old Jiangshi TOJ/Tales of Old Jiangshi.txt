@@ -1,0 +1,15 @@
+[metadata]
+Code=TOJ
+Date=2021-01-01 # TODO: Find official release date
+Name=MSEM: Tales of Old Jiangshi
+Code2=TOJ
+MciCode=toj
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1
+184
+
+[tokens]

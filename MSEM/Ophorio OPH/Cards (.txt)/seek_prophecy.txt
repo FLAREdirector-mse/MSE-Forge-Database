@@ -1,0 +1,5 @@
+Name:Seek Prophecy
+ManaCost:U
+Types:Sorcery
+# Seek Prophecy now puts the remainder of the cards on the bottom of your library instead of the grave.
+Oracle:Reveal the top three cards of your library. Put one into your hand and the rest on the bottom of your  library.\nProphecy {1}{U}
