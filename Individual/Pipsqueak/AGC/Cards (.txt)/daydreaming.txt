@@ -1,0 +1,8 @@
+Name:Daydreaming
+ManaCost:X U U
+Types:Instant
+Kicker:1 U
+A:SP$ Draw | Cost$ X U U | NumCards$ X | References$ X | SpellDescription$ Draw X cards.
+SVar:Untap:DB$ UntapAll | ValidCards$ Land.YouCtrl | Condition$ Kicked | ConditionDescription$ If this spell was kicked, untap all lands you control.
+SVar:X:Count$xPaid
+Oracle:Kicker {1}{U}\nDraw X cards. If this spell was kicked, untap all lands you control.

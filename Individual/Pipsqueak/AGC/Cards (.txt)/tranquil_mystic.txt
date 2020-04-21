@@ -4,5 +4,4 @@ Types:Creature Human Shaman
 PT:0/1
 K:Hexproof
 A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
-SVar:Picture:http://resources.wizards.com/magic/cards/9ed/en-us/card83515.jpg
 Oracle:Hexproof\n{T}: Add {G}.

@@ -1,0 +1,7 @@
+Name:Geometric Musings
+ManaCost:1 U R
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Artifact.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDmg | TriggerDescription$ Whenever an artifact enters the battlefield under your control, CARDNAME deals 1 damage to each opponent.
+SVar:TrigDmg:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | NumDmg$ 2 | TgtPrompt$ Select any target | SpellDescription$ CARDNAME deals 2 damage to any target.
+A:AB$ Draw | Cost$ Sac<1/Artifact> | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Whenever an artifact enters the battlefield under your control, Geometric Musings deals 2 damage to any target.\nSacrifice an artifact: Draw a card.
