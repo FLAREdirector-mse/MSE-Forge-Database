@@ -1,0 +1,7 @@
+# TODO
+Name:Farwander Guide
+ManaCost:W
+Types:Creature Human Scout
+PT:1/2
+
+Oracle:{1}{W}, {T}: Aetherize target creature you control. (To aetherize a permanent, create a token that's a copy of it, then exile that token.)

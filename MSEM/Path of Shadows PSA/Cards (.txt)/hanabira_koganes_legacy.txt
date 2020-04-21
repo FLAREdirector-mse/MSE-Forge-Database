@@ -1,0 +1,6 @@
+# TODO
+Name:Hanabira, Kogane's Legacy
+ManaCost:W W
+Types:Legendary Artifact Equipment
+
+Oracle:Equipped creature gets +2/+2.\nWhenever equipped creature attacks, until your next turn, up to one target creature can't attack or block and its activated abilities can't be activated.

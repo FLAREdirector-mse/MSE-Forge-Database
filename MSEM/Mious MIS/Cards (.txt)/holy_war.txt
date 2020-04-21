@@ -1,0 +1,6 @@
+# TODO
+Name:Holy War
+ManaCost:2 R W
+Types:Enchantment
+
+Oracle:When Holy War enters the battlefield, create three 1/1 white Cleric creature tokens.\nCreature tokens you control have first strike and lifelink. 

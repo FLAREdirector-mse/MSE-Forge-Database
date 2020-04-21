@@ -1,0 +1,6 @@
+# TODO
+Name:Grave Tutor
+ManaCost:1 B
+Types:Sorcery
+
+Oracle:As an additional cost to cast this spell, exile two cards with the same converted mana cost from your graveyard.\nSearch your library for a card with converted mana cost equal to the exiled cards' converted mana cost, reveal it, put it into your hand, then shuffle your library.

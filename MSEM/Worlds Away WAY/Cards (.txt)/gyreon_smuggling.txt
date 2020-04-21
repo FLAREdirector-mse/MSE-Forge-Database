@@ -1,0 +1,6 @@
+# TODO
+Name:Gyreon Smuggling
+ManaCost:1 B
+Types:Instant
+
+Oracle:You may cast target card from an opponent's graveyard this turn. If an instant or sorcery spell cast this way would be put into a graveyard, exile it instead. (You still pay its costs.)\nDraw a card. 

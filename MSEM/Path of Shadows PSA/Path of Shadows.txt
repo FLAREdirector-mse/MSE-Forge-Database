@@ -10,6 +10,8 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1
+11 R Hanabira, Kogane's Legacy
+70 C Favor of the Emperor
 216
 
 [tokens]

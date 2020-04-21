@@ -1,0 +1,6 @@
+# TODO
+Name:Feeding Time
+ManaCost:R
+Types:Enchantment
+
+Oracle:Whenever an attacking creature dies, you may pay {R}. If you do, create a 2/1 red Merfolk creature token.

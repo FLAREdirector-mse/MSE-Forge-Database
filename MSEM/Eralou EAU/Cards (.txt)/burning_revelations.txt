@@ -1,3 +1,4 @@
+# TODO
 Name:Burning Revelations
 ManaCost:3 R
 Types:Instant

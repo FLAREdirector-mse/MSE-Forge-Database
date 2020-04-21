@@ -36,7 +36,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 25 U Prosanian Warden
 26 R Punishing Catastrophe
 27 C Purifying Light
-28 C Rallios' Demise
+28 C Rallios's Demise
 29 U Ready for the Odyssey
 30 M Sanctuary
 31 R Soulstone Commander
@@ -45,12 +45,12 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 34 C Stay on Edge
 35 C Steelborn Apprentice
 36 C Strength of the Phalanx
-37 C Tharanos' Sentinel
+37 C Tharanos's Sentinel
 38 C Wailing Spirit
 39 U Watcher of the Wall
 40 C Winterborn Savage
 41 M Allagras, Tidal Master
-42 U Allagras' Vanguard
+42 U Allagras's Vanguard
 43 C Arcane Dexterity
 44 R Arcane Rebound
 45 U Arcanist's Dispersal
@@ -63,7 +63,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 52 C Clashborn Stormling
 53 C Close Escape
 54 U Curse of the Deadlands
-55 R Deadland Summoner
+55 R Deadlands Summoner
 56 C Distort Reality
 57 C Echoing Knowledge
 58 C Erratic Arcanomancer
@@ -97,20 +97,20 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 86 C Bloodrite Fiend
 87 R Corpse Exploiter
 88 C Curse of the Drow
-89 C Deadland Mongrel
-90 U Deadland Scavenger
+89 C Deadlands Mongrel
+90 U Deadlands Scavenger
 91 U Drow Bloodmage
 92 C Drow Ritualist
 93 U Dulling Necromancer
 94 C Endrison Harvester
-95 C Guilty Execution
+95 C Execute the Guilty
 96 R Ill-Fated Profit
 97 C Last of the Poisonblades
 98 C Legion of Wights
 99 U Mawdryk's Accusation
 100 R Mawdryk's Elite
 101 C Necrobite
-102 U Purging Reolem
+102 U Purge of Reolem
 103 R Rallios Reincarnated
 104 U Scourge of the Deadlands
 105 C Sinful Past
@@ -119,7 +119,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 108 R Subturgian Proliferator
 109 C Survive the Wreckage
 110 U Temporal Resuscitation
-111 M Tharyen, Lord of Subturgia
+111 M Tharyen, Lord of Subturgia # Noble
 112 R Tharyen's Machinations
 113 R Tharyen's Sadism
 114 U Tharyen's Vanguard
@@ -155,9 +155,9 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 144 C Merciless Brute
 145 R Meteor Volley
 146 R Pyromancer's fury
-147 R Roggar's Grenzy
+147 R Roggar's Frenzy
 148 U Roggar's Gambit
-149 U Savrios' Cohort
+149 U Savrios's Cohort
 150 U Shrapnelcrafter
 151 C Surge of Depravity
 152 C Swallowed by the Earth
@@ -198,8 +198,8 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 187 U Soothevine Elemental
 188 C Stronghold Recruit
 189 R Summon to the Cause
-190 R Tharanos' Legion
-191 U Tharanos' Stratagem
+190 R Tharanos's Legion
+191 U Tharanos's Stratagem
 192 R Traversing Bulkvine
 193 C Treetop Defense
 194 U Voice of the Sisterhood
@@ -227,9 +227,9 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 216 M Mulchborn Behemoth
 217 R Prosanian Shieldmaster
 218 C Purgeward Adept
-219 R Rallios' Return
+219 R Rallios's Return
 220 M Rise from Death
-221 U Savrios' Timeshifter
+221 U Savrios's Timeshifter
 222 U Vestige of Evil
 223 C Voice of Khaliz
 224 C Whimsical Elemental
@@ -243,16 +243,16 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 232 U Massive Waraxe
 233 R Rallying banner
 234 U Ruin Salvager
-235 M Savrios' Masterpiece
+235 M Savrios's Masterpiece
 236 C Sentinel's Longbow
 237 C Sigil of Destruction
 238 C Sigil of Duty
 239 C Sigil of Savagery
 240 U Soulstone Shard
-241 C Stonework Vigilante
+241 C Stonework Guardian
 242 R Tinkerer's Tools
 243 C Wanderer's Talisman
-244 U Warmonger Contraption
+244 U Warmonger's Contraption
 245 U Wings of the Arcanomancer
 246 U Collapsing Ground
 247 R The High Prairies
@@ -267,15 +267,15 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 [tokens]
 w_1_1_soldier
 w_1_1_spirit_flying
-u_1_1_merfolk_loot
+u_1_1_merfolk_loot #
 b_1_1_vampire_lifelink
-b_0_0_zombie
+b_0_0_zombie #
 b_2_2_zombie
 r_3_1_elemental_trample_haste
 r_1_1_elemental
 r_1_1_goblin
-g_1_1_dryad_mana
-g_1_1_elf_druid
+g_1_1_dryad_mana #
+g_1_1_elf_druid #
 g_2_2_wolf
-g_5_5_wurm_trample
+g_5_5_wurm_trample #
 astrina_forged_for_glory

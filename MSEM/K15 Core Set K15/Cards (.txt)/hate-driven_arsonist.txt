@@ -1,0 +1,8 @@
+Name:Hate-Driven Arsonist
+ManaCost:3 R
+Types:Creature Human Wizard
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | OptionalDecider$ You | ValidCard$ Card.Self | Execute$ TrigDealDamage | TriggerDescription$ When CARDNAME enters the battlefield, you may have it deal X damage to target creature or planeswalker, where X is the number of instant and sorcery cards in your graveyard.
+SVar:TrigDealDamage:DB$DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ X | References$ X
+SVar:X:Count$ValidGraveyard Instant.YouOwn,Sorcery.YouOwn
+Oracle:When Hate-Driven Arsonist enters the battlefield, you may have it deal X damage to target creature or planeswalker, where X is the number of instant and sorcery cards in your graveyard.
