@@ -11,8 +11,17 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 [cards]
 1 R Transdimensional Visitor
 5 U Farwander Guide
+13 C Outlander Division
+28 U Zhedina Envoys
 40 C Glimmer
+55 U Syzygy Navigator
 67 B Gyreon Smuggling
+102 R Possibility Engine
+108 M Scion of Calamities
+128 U Offworld Surveyors
+136 R Seeds of New Life
+138 U Untethered Disciple
+175 R Vivid Mirage
 190 R Intrepid
 200 C Aether Gateway
 213 M Abandoned Monument

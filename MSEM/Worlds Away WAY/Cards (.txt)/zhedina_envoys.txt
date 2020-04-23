@@ -1,0 +1,7 @@
+# TODO
+Name:Zhedina Envoys
+ManaCost:1 W
+Types:Creature Human Scout
+PT:2/2
+
+Oracle:When Zhedina Envoys leaves the battlefield, create two 1/1 Scout creature tokens that are all colors.

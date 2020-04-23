@@ -1,0 +1,7 @@
+# TODO
+Name:Syzygy Navigator
+ManaCost:1 U
+Types:Creature Human Pirate
+PT:2/1
+
+Oracle:When Syzygy Navigator enters the battlefield, you may cast target card from an opponent's graveyard this turn. If an instant or sorcery spell cast this way would be put into a graveyard, exile it instead. (You still pay that spell's costs.)\nWhenever you cast a spell, if it wasn't cast from your hand, draw a card, then discard a card.

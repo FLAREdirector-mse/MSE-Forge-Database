@@ -1,0 +1,7 @@
+# TODO
+Name:Untethered Disciple
+ManaCost:2 G G
+Types:Creature Insect Monk
+PT:3/2
+
+Oracle:Whenever you cast a nongreen spell, creatures you control get +1/+1 until end of turn.\nWanderlust — When Untethered Disciple enters the battlefield, if you control four or more differently named lands, create two 1/1 Scout creature tokens that are all colors. 

@@ -1,0 +1,6 @@
+# TODO
+Name:Ardy's Study
+ManaCost:G G
+Types:Enchantment Study
+
+Oracle:Archive 5 (As this enters the battlefield, shuffle the top five cards of your main library into a new face-up library. Sacrifice this when the archived library is empty.)\nYou may play land cards from the top of the archived library.

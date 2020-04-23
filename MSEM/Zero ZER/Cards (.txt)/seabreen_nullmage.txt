@@ -1,0 +1,8 @@
+# TODO
+Name:Seabreen Nullmage
+ManaCost:1 U
+Types:Creature Human Wizard
+K:Flash
+PT:1/1
+
+Oracle:Flash\nWhen Seabreen Nullmage enters the battlefield, counter target activated or triggered ability.

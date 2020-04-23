@@ -1,0 +1,6 @@
+Name:Seeds of New Life
+ManaCost:1 G
+Types:Sorcery
+A:SP$ PutCounter | Cost$ 1 G | ValidTgts$ Land.YouCtrl | TgtPrompt$ Select target land you control | CounterType$ P1P1 | CounterNum$ 3 | SubAbility$ DBAnimate | SpellDescription$ Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.
+SVar:DBAnimate:DB$ Animate | Defined$ Targeted | Power$ 0 | Toughness$ 0 | Types$ Creature,Elemental | Keywords$ Haste | Permanent$ True
+Oracle:Put three +1/+1 counters on target land you control. It becomes a 0/0 Elemental creature with haste. It's still a land.

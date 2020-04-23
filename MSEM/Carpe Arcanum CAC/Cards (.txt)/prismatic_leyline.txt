@@ -1,0 +1,6 @@
+# TODO -- Market Festival JOU plus Naga Vitalist AKH
+Name:Prismatic Leyline
+ManaCost:1 G
+Types:Enchantment Aura
+
+Oracle:Enchant land\nWhenever enchanted land is tapped for mana, its controller adds one mana of any color that land could produce.
