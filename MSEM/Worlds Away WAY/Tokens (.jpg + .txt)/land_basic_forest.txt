@@ -1,0 +1,5 @@
+Name:Forest
+ManaCost:no cost
+Types:Basic Land Forest
+Colors:colorless
+Oracle:{T}: Add {G}.

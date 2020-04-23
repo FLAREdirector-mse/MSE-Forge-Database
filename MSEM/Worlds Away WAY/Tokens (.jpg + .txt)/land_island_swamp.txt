@@ -1,0 +1,5 @@
+Name:Island Swamp
+ManaCost:no cost
+Types:Land Island Swamp
+Colors:colorless
+Oracle:{T}: Add {U} or {B}.

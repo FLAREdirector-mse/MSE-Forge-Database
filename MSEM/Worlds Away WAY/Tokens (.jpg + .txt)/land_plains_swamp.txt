@@ -1,0 +1,5 @@
+Name:Plains Swamp
+ManaCost:no cost
+Types:Land Plains Swamp
+Colors:colorless
+Oracle:{T}: Add {W} or {B}.

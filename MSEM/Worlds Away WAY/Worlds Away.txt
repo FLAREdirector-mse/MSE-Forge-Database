@@ -13,8 +13,25 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 5 U Farwander Guide
 40 C Glimmer
 67 B Gyreon Smuggling
-212
+190 R Intrepid
+200 C Aether Gateway
 213 M Abandoned Monument
 235 M Monument of Queens
 
 [tokens]
+land_basic_plains
+land_basic_island
+land_basic_swamp
+land_basic_mountain
+land_basic_forest
+land_plains_island
+land_island_swamp
+land_swamp_mountain
+land_mountain_forest
+land_forest_plains
+land_plains_swamp
+land_island_mountain
+land_swamp_forest
+land_mountain_plains
+land_forest_island
+land_far_off_lands

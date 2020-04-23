@@ -1,0 +1,5 @@
+Name:Mountain Forest
+ManaCost:no cost
+Types:Land Mountain Forest
+Colors:colorless
+Oracle:{T}: Add {R} or {G}.

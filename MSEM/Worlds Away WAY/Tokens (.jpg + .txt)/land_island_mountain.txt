@@ -1,0 +1,5 @@
+Name:Island Mountain
+ManaCost:no cost
+Types:Land Island Mountain
+Colors:colorless
+Oracle:{T}: Add {U} or {R}.

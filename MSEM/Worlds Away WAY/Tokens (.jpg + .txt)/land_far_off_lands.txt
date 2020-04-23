@@ -1,0 +1,6 @@
+Name:Far-Off Lands
+ManaCost:no cost
+Types:Land
+Colors:colorless
+A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 1 | SpellDescription$ Add one mana of any color.
+Oracle:{T}: Add one mana of any color.
