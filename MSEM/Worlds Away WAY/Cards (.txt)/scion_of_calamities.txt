@@ -1,0 +1,8 @@
+# TODO
+Name:Scion of Calamities
+ManaCost:3 R R
+Types:Creature Elemental Avatar
+K:Menace
+PT:5/5
+
+Oracle:Menace\nWhen Scion of Calamities enters the battlefield, exile the top two cards of your library. Until end of turn, you may play those cards.\nWhenever a Mountain enters the battlefield under your control, aetherize Scion of Calamities. (To aetherize a permanent, create a token that's a copy of it, then exile that token.)

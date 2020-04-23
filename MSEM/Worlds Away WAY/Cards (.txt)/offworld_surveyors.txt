@@ -1,0 +1,7 @@
+# TODO
+Name:Offworld Surveyors
+ManaCost:G
+Types:Creature Human Scout
+PT:1/1
+
+Oracle:{T}: You may put a land card from your hand onto the battlefield.\n{1}, {T}: Aetherize target land you control.

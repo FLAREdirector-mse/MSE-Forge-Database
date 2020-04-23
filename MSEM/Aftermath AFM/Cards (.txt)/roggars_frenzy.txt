@@ -1,0 +1,8 @@
+Name:Roggar's Frenzy
+ManaCost:1 R
+Types:Instant
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
+A:AB$ Token | Cost$ 2 R ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | TokenAmount$ 2 | TokenScript$ r_1_1_elemental | TokenTapped$ True | TokenOwner$ You | LegacyImage$ r 1 1 elemental afm | SpellDescription$ Create two tapped 1/1 red Elemental creature tokens.
+SVar:AIPreference:ExileFromGraveCost$Card.Self
+DeckHas:Ability$Token
+Oracle:Roggar's Frenzy deals 3 damage to any target.\n{2}{R}, Exile Roggar's Frenzy from your graveyard: Create two tapped 1/1 red Elemental creature tokens. 

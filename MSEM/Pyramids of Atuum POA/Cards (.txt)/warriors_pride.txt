@@ -1,0 +1,6 @@
+# TODO
+Name:Warrior's Pride
+ManaCost:2 R
+Types:Enchantment
+
+Oracle:Creatures you control get +1/+0 and attack each turn if able.\nAs long as you control four or more Mountains, attacking creatures you control get an additional +1/+0 and have first strike.

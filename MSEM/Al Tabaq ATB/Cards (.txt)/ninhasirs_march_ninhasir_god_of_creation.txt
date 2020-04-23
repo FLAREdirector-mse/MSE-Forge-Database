@@ -1,0 +1,18 @@
+# TODO
+Name:Ninhasir's March
+ManaCost:1 R R
+Types:Legendary Enchantment
+
+AlternateMode:DoubleFaced
+Oracle:When Ninhasir's March enters the battlefield, it deals 3 damage to any target.\n{1}{R}{R}: Transform Ninhasir's March. Activate this ability only if your fealty to Mountains is five or greater.
+
+ALTERNATE
+
+Name:Ninhasir, God of Creation
+ManaCost:no cost
+Colors:red
+Types:Legendary Enchantment Creature God
+K:Indestructible
+PT:5/5
+
+Oracle:(Transforms from Ninhasir's March.)\nIndestructible\nWhen this creature transforms into Ninhasir, God of Creation, discard your hand, then draw that many cards plus one.\nWhenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy.

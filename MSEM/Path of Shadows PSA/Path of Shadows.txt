@@ -10,6 +10,11 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1
+11 R Hanabira, Kogane's Legacy
+43 U Imperial Artisan
+70 C Favor of the Emperor
+79 R Ketsueki, Kiyomi's Legacy
+132 R Mana Ascetic
 216
 
 [tokens]

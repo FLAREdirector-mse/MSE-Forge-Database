@@ -1,0 +1,6 @@
+# TODO
+Name:Felice's Study
+ManaCost:W W
+Types:Enchantment Study
+
+Oracle:Archive 5 (As this enters the battlefield, shuffle the top five cards of your main library into a new face-up library. Sacrifice this when the archived library is empty.)\nWhenever a permanent card is put into your graveyard from the battlefield, you may put that card on the bottom of the archived library. 

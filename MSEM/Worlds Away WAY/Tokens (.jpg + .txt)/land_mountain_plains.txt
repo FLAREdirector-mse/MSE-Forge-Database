@@ -1,0 +1,5 @@
+Name:Mountain Plains
+ManaCost:no cost
+Types:Land Mountain Plains
+Colors:colorless
+Oracle:{T}: Add {R} or {W}.

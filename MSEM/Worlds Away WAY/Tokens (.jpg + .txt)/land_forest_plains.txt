@@ -1,0 +1,5 @@
+Name:Forest Plains
+ManaCost:no cost
+Types:Land Forest Plains
+Colors:colorless
+Oracle:{T}: Add {G} or {W}.

@@ -10,6 +10,8 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1
+44 R Fated Challenge
+82 U Honorless Offering
 249
 
 [tokens]

@@ -1,0 +1,7 @@
+# TODO
+Name:Twin Lis of the Divine Realm
+ManaCost:1 W W
+Types:Legendary Creature Human Warrior
+PT:2/2
+
+Oracle:Each creature you control with a +1/+1 counter on it has double strike.\nIf one or more +1/+1 counters would be put on a creature you control, that many plus one of those counters are put on that creature instead.

@@ -1,0 +1,20 @@
+# TODO
+Name:Performer of Desire
+ManaCost:1 R
+Types:Creature Human Actor
+PT:2/2
+
+AlternateMode:DoubleFaced
+Oracle:{1}{R}: Performer of Desire gets +1/+1 and gains menace until end of turn. Then if its power is 4 or greater, you may transform it.
+
+ALTERNATE
+
+Name:Pyrus, the Undying Flame
+ManaCost:no cost
+Colors:red
+Types:Legendary Creature Phoenix Actor
+K:Flying
+K:Haste
+PT:4/4
+
+Oracle:Flying, haste\nWhenever Pyrus, the Undying Flame attacks, add {R}{R}{R}{R}. You don't lose this mana as steps, phases, and turns end.\n{1}{R}: Pyrus gets +1/+0 until end of turn. 

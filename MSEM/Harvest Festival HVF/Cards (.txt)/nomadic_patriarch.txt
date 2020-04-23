@@ -1,0 +1,7 @@
+# TODO
+Name:Nomadic Patriarch
+ManaCost:B G
+Types:Creature Elf Citizen
+PT:1/1
+
+Oracle:When Nomadic Patriarch enters the battlefield, nourish 1. (To nourish 1, either put a +1/+1 counter on this creature or create a 1/1 white Citizen creature token.)\nRemove a +1/+1 counter from ~: Put a +1/+1 counter on each other creature token you control.

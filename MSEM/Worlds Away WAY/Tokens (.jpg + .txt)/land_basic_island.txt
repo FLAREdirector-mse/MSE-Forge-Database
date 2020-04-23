@@ -1,0 +1,5 @@
+Name:Island
+ManaCost:no cost
+Types:Basic Land Island
+Colors:colorless
+Oracle:{T}: Add {U}.

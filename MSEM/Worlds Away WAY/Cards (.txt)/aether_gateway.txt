@@ -1,0 +1,10 @@
+Name:Aether Gateway
+ManaCost:no cost
+Types:Land
+A:AB$ Charm | Cost$ T Sac<1/CARDNAME> | Choices$ Plains,Island,Swamp,Mountain,Forest | CharmNum$ 1
+SVar:Plains:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenTapped$ True | TokenScript$ land_basic_plains | SpellDescription$ Create a tapped basic Plains token.
+SVar:Island:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenTapped$ True | TokenScript$ land_basic_island | SpellDescription$ Create a tapped basic Island token.
+SVar:Swamp:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenTapped$ True | TokenScript$ land_basic_swamp | SpellDescription$ Create a tapped basic Swamp token.
+SVar:Mountain:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenTapped$ True | TokenScript$ land_basic_mountain | SpellDescription$ Create a tapped basic Mountain token.
+SVar:Forest:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenTapped$ True | TokenScript$ land_basic_forest | SpellDescription$ Create a tapped basic Forest token.
+Oracle:{T}, Sacrifice Aether Gateway: Choose a basic land type. Create a tapped colorless basic land token of the chosen type.

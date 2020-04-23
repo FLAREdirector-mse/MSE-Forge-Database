@@ -1,0 +1,6 @@
+# TODO
+Name:Pocket Aces
+ManaCost:U
+Types:Instant
+
+Oracle:Choose up to four cards you own from outside the game with the same name, reveal them, and shuffle them into your main library.\nDraw a card.

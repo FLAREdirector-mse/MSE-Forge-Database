@@ -1,0 +1,6 @@
+# TODO
+Name:Window Shopping
+ManaCost:3 U
+Types:Sorcery
+
+Oracle:Reveal the top five cards of your library. An opponent separates them into two piles. You may put one pile into your hand or draw two cards. Then put the rest of the piles into your graveyard.
