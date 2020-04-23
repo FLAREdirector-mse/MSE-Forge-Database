@@ -1,4 +1,4 @@
-Name:Ill Fated Travels
+Name:Unleash the Monstrosity
 ManaCost:3 B R
 Types:Sorcery
 K:Retrace
