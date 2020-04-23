@@ -1,0 +1,6 @@
+Name:By the Sea
+ManaCost:U
+Types:Sorcery
+A:SP$ Token | Cost$ U | TokenAmount$ X | References$ X | TokenScript$ u_1_1_otter_draw | TokenOwner$ You | SpellDescription$ Create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card." If you control four or more differnetly named lands, create two of those tokens instead.
+SVar:X:Count$Compare DifferentCardNames_Land.YouCtrl+inZoneBattlefield GE4.2.1
+Oracle:Create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card." \nIf you control four or more differnetly named lands, create two of those tokens instead.

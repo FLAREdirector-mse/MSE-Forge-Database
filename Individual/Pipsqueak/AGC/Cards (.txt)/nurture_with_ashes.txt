@@ -1,0 +1,8 @@
+Name:Nurture with Ashes
+ManaCost:R G
+Types:Enchantment
+S:Mode$ Continuous | Affected$ Land.YouOwn | MayPlay$ True | AffectedZone$ Graveyard | Description$ You may play land cards from your graveyard.
+SVar:NonStackingEffect:True
+A:AB$ DealDamage | Cost$ X R R Sac<X/Land>| ValidTgts$ Creature,Planeswalker,Player | TgtPrompt$ Select any target. | NumDmg$ X | References$ X | SpellDescription$ CARDNAME deals X damage to any target.
+SVar:X:Count$xPaid
+Oracle:You may play land cards from your graveyard.\n{X}{R}{R}, Sacrifice X lands: Nurture with Ashes deals X damage to any target.
