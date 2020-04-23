@@ -1,0 +1,8 @@
+Name:Order the Wilds
+ManaCost:1 G G
+Types:Instant
+A:SP$ Token | Cost$ 1 G G | TokenAmount$ 1 | TokenScript$ g_3_3_beast | SubAbility$ DBDraw | SpellDescription$ Counter target spell. If you control three or more Forests, draw a card. If you control five or more Forests, return up to one target permanent to its owner’s hand. If you control seven or more Forests, take an extra turn after this one.
+SVar:DBDraw:DB$ Draw | ConditionPresent$ Forest.YouCtrl | ConditionCompare$ GE3 | NumCards$ 1 | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | ConditionPresent$ Forest.YouCtrl | ConditionCompare$ GE5 | Origin$ Hand | Destination$ Battlefield | ChangeType$ Creature | ChangeNum$ 1 | SubAbility$ DBPumpAll
+SVar:DBPumpAll:DB$ PumpAll | ConditionPresent$ Forest.YouCtrl | ConditionCompare$ GE7 | ValidCards$ Creature.YouCtrl | NumAtt$ +2 | NumDef$ +2 | KW$ Haste & Trample
+Oracle:Create a 3/3 green Beast creature token. If you control three or more Forests, draw a card. If you control five or more Forests, put a creature card from your hand onto the battlefield. If you control seven or more Forests, creatures you control get +2/+2 and gain haste and trample until end of turn.

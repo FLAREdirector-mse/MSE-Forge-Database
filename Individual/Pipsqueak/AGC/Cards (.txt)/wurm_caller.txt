@@ -1,0 +1,10 @@
+Name:Wurm Caller
+ManaCost:2 G G
+Types:Creature Elemental
+PT:4/5
+K:Trample
+T:Mode$ ChangesZone | TriggerZones$ Battlefield | CheckSVar$ X | SVarCompare$ GE7 | Origin$ Any | Destination$ Battlefield | Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, if your devotion to green is seven or greater, create a 6/6 green Wurm creature token with trample.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ g_6_6_wurm_trample | TokenOwner$ You
+SVar:X:Count$Devotion.Green
+SVar:BuffedBy:Permanent.Green
+Oracle:Trample\nWhen Wurm Caller enters the battlefield, if your devotion to green is seven or greater, create a 6/6 green Wurm creature token with trample.

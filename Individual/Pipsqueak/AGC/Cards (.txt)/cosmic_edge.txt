@@ -1,0 +1,9 @@
+Name:Cosmic Edge
+ManaCost:2
+Types:Artifact Equipment
+K:Equip:1
+T:Mode$ DamageDealtOnce | ValidSource$ Creature.EquippedBy | CombatDamage$ True | Execute$ TrigDraw | SubAbility$ FlashTrig | TriggerZones$ Battlefield | TriggerDescription$ Whenever equipped creature deals combat damage, draw a card. Until your next turn, you may cast spells as though they had flash.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+SVar:FlashTrig:DB$ Effect | Name$ Cosmic Edge Effect | StaticAbilities$ STCastFlash | Duration$ UntilYourNextTurn | SpellDescription$ Until your next turn, you may cast spells as though they had flash.
+SVar:STCastFlash:DB$ Continuous | Affected$ Card | WithFlash$ You | AffectedZone$ Exile,Graveyard,Hand,Library,Command | Description$ You may cast spells as though they had flash.
+Oracle:Whenever equipped creature deals combat damage, draw a card. Until your next turn, you may cast spells as though they had flash.\nEquip {1}

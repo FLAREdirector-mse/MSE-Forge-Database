@@ -1,0 +1,9 @@
+Name:Tyrant Wurm
+ManaCost:6 G G
+Types:Creature Wurm
+PT:9/8
+K:Trample
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Other+YouCtrl+nonToken | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME or another creature you control dies, create a 6/6 green Wurm creature token with trample.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | TriggerController$ TriggeredCardController | Execute$ TrigToken | Secondary$ True | TriggerDescription$ Whenever CARDNAME or another creature you control dies, create a 6/6 green Wurm creature token with trample.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ g_6_6_wurm_trample | TokenOwner$ You
+Oracle:Trample\nWhenever Tyrant Wurm or another creature you control dies, create a 6/6 green Wurm creature token with trample.
