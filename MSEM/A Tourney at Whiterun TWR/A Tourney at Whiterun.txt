@@ -149,7 +149,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 138 C Tectonic Wound
 139 R Thailen, Heir to Daeland
 140 R Thailen's Reprisal
-141 U Trusted Comprade
+141 U Trusted Comrade
 142 C Untested Commander
 143 C Visiting Dignitary
 144 C Wandering Goliath
