@@ -1,0 +1,7 @@
+# TODO
+Name:Iken Troubleshooter
+ManaCost:1 B R
+Types:Creature Aetherborn Rogue
+PT:3/2
+
+Oracle:Sabotage — Whenever an opponent or permanent an opponent controls becomes the target of a spell you control, Iken Troubleshooter deals 2 damage to each opponent. 

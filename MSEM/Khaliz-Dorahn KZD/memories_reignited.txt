@@ -1,0 +1,6 @@
+# TODO
+Name:Memories Reignited
+ManaCost:3 U R
+Types:Instant
+
+Oracle:Reverberate {2}{U}{R} (When you cast this spell, copy it if you paid its reverberate cost. You may choose new targets for the copies.)\nExile target instant or sorcery card from your graveyard. You may cast a copy of that card without paying its mana cost.

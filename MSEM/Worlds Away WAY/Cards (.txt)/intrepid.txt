@@ -1,0 +1,8 @@
+# TODO
+Name:Intrepid
+ManaCost:3
+Types:Legendary Artifact Vehicle
+K:Flying
+PT:4/4
+
+Oracle:Flying\nWhen Intrepid enters the battlefield, search your library for a land card that doesn't share a name with a land you control, reveal it, put it into your hand, then shuffle your library.\nWanderlust — {0}: Intrepid becomes a creature until end of turn. Activate this ability only if you control four or more differently named lands. 
