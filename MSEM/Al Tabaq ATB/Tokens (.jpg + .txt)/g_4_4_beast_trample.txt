@@ -1,0 +1,7 @@
+Name:Beast
+ManaCost:no cost
+Types:Beast
+Colors:green
+K:Trample
+PT:4/4
+Oracle:Trample

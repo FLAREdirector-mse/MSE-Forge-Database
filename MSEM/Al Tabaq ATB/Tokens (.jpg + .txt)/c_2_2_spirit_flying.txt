@@ -1,0 +1,7 @@
+Name:Spirit
+ManaCost:no cost
+Types:Creature Spirit
+Colors:colorless
+K:Flying
+PT:2/2
+Oracle:Flying

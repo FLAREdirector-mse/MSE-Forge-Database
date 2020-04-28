@@ -1,0 +1,6 @@
+Name:Djinn Horror
+ManaCost:no cost
+Colors:black
+Types:Creature Djinn Horror
+PT:*/*
+Oracle:
