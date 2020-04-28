@@ -1,0 +1,5 @@
+Name:Forest Island
+ManaCost:no cost
+Types:Land Forest Island
+Colors:colorless
+Oracle:{T}: Add {G} or {U}.

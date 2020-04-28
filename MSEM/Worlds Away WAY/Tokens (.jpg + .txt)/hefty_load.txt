@@ -1,0 +1,7 @@
+Name:Hefty Load
+ManaCost:no cost
+Types:Enchantment Aura
+Colors:green
+K:Enchant creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddToughness$ 2 | AddHiddenKeyword$ CARDNAME assigns combat damage equal to its toughness rather than its power | Description$ Enchanted creature gets +0/+2 and assigns combat damage equal to its toughness rather than its power.
+Oracle:Enchant creature\nEnchanted creature gets +0/+2 and assigns combat damage equal to its toughness rather than its power.

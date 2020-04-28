@@ -1,0 +1,7 @@
+Name:Newcomer's Luck
+ManaCost:1 R
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Creature+YouCtrl | Origin$ Any | Destination$ Battlefield | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature enters the battlefield under your control, it gets +2/+1 until end of turn. 
+SVar:TrigPump:DB$ Pump | Defined$ TriggeredCard | NumAtt$ +2 | NumDef$ +1
+SVar:BuffedBy:Creature
+Oracle:Whenever a creature enters the battlefield under your control, it gets +2/+1 until end of turn. 

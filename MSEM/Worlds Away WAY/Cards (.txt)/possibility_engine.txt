@@ -1,0 +1,6 @@
+# TODO
+Name:Possibility Engine
+ManaCost:R
+Types:Artifact
+
+Oracle:When Possibility Engine enters the battlefield, exile the top two cards of your library.\nWanderlust — During each of your turns, if you control four or more differently named lands, you may play a card exiled with Possibility Engine. 

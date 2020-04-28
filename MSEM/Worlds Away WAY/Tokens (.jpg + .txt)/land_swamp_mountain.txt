@@ -1,0 +1,5 @@
+Name:Swamp Mountain
+ManaCost:no cost
+Types:Land Swamp Mountain
+Colors:colorless
+Oracle:{T}: Add {B} or {R}.

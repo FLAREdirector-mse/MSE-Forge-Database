@@ -1,0 +1,7 @@
+# TODO
+Name:Selene the Cruel
+ManaCost:1 U
+Types:Legendary Creature Human Wizard
+PT:2/2
+
+Oracle:Whenever you cast a spell, sacrifice a permanent and draw a card.\nExile three cards from your graveyard: Counter target noncreature spell unless its controller pays {1}. 

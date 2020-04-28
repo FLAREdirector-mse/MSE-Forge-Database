@@ -1,0 +1,8 @@
+# TODO
+Name:Outlander Division
+ManaCost:W
+Types:Creature Human Scout
+K:Flash
+PT:1/1
+
+Oracle:Flash\nWhen Outlander Division enters the battlefield, target creature gets +0/+3 until end of turn.

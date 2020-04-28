@@ -1,0 +1,5 @@
+Name:Swamp Forest
+ManaCost:no cost
+Types:Land Swamp Forest
+Colors:colorless
+Oracle:{T}: Add {B} or {G}.

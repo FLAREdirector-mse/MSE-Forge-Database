@@ -1,0 +1,6 @@
+# TODO
+Name:Ketsueki, Kiyomi's Legacy
+ManaCost:B B
+Types:Legendary Artifact Equipment
+
+Oracle:Equipped creature gets +2/+2.\nWhenever equipped creature attacks, you may return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.\nEquip {2}

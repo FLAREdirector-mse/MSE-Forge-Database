@@ -1,0 +1,8 @@
+Name:Spectral Whispers
+ManaCost:no cost
+Types:Enchantment Aura
+Colors:white
+K:Enchant creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy+Aurashaper | AddKeyword$ Double Strike | Description$ Enchanted creature has double strike as long as it's an Aurashaper.
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy+nonAurashaper | AddHiddenKeyword$ CARDNAME can't attack or block. | Description$ Otherwise, it can't attack or block.
+Oracle:Enchant creature\nEnchanted creature has double strike as long as it's an Aurashaper. Otherwise, it can't attack or block.

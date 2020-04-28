@@ -4,4 +4,4 @@ ManaCost:2 G
 Types:Creature Reflection Wizard
 PT:3/2
 
-Oracle:When Dylso Charmer enters the battlefield, if you cast it from exile, create a 2/2 white Cat creature token.\nProphecy {1}{G}
+Oracle:When Dylso Charmer enters the battlefield, if you cast it from exile, create a 2/2 white Cat creature token.\nProphecy {1}{G} (Once each turn, you may exile a card with prophecy as you reveal it. When you do, you may cast it for its prophecy cost as long as it’s exiled.)

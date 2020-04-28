@@ -1,0 +1,8 @@
+Name:Vivification
+ManaCost:no cost
+Types:Enchantment Aura
+Colors:green
+K:Enchant creature
+K:Enchant land
+S:Mode$ Continuous | Affected$ Card.AttachedBy | SetPower$ 5 | SetToughness$ 5 | AddType$ Creature | Description$ Enchanted permanent is a creature with base power and toughness 5/5 in addition to its other types.
+Oracle:Enchant creature or land\nEnchanted permanent is a creature with base power and toughness 5/5 in addition to its other types.

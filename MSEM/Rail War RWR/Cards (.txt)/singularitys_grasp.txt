@@ -1,0 +1,6 @@
+# TODO
+Name:Singularity's Grasp
+ManaCost:X B G
+Types:Sorcery
+
+Oracle:Each creature gets -X/-X until end of turn. Destroy each artifact and enchantment with converted mana cost X or less.

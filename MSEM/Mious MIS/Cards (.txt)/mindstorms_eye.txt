@@ -1,0 +1,6 @@
+# TODO
+Name:Mindstorm's Eye
+ManaCost:1 U R
+Types:Sorcery
+
+Oracle:Discard your hand, then draw three cards.\nMindstorm's Eye deals 3 damage to any target.

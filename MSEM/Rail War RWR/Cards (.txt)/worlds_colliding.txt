@@ -1,0 +1,7 @@
+# TODO
+Name:Worlds Colliding
+ManaCost:3 G U U
+Types:Sorcery Revelation
+PT:6/6
+
+Oracle:Each player shuffles their hand and each non-Revelation card from their graveyard into their library, then draws seven cards. You may put any number of land cards from your hand onto the battlefield.\nCoalesce {6}{G}{U}{U} (You may cast this from your graveyard for its coalesce cost. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or fail to resolve.)

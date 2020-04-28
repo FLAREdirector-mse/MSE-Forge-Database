@@ -1,0 +1,6 @@
+# TODO
+Name:Unraveling
+ManaCost:1 U U
+Types:Instant
+
+Oracle:Choose one, then choose another for each card named Unraveling in your graveyard.\n• Counter up to one target spell.\n• Scry 2, then draw a card.\n• Creatures your opponents control get -4/-0 until end of turn.\n• Up to three target lands your opponents control don't untap during their controllers' next untap step. 

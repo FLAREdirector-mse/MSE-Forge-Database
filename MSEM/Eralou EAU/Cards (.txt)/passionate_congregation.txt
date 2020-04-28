@@ -1,0 +1,6 @@
+# TODO
+Name:Passionate Congregation
+ManaCost:2 R
+Types:Sorcery
+
+Oracle:Tithe (As you cast this spell, you may tap three artifacts and/or creatures you control.)\nCreate two 1/1 red Cleric creature tokens with haste. If this spell's tithe was paid, create four of those tokens instead.

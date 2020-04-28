@@ -1,0 +1,6 @@
+# TODO
+Name:Reflected Moment
+ManaCost:4 U U
+Types:Sorcery
+
+Oracle: Take an extra turn after this one. If this spell was cast from exile, take two extra turns after this one instead. Shuffle Reflected Moment into its owner's library.\nProphecy {6}{U}{U} (Once each turn, you may exile a card with prophecy as you reveal it. When you do, you may cast it for its prophecy cost as long as it’s exiled.)

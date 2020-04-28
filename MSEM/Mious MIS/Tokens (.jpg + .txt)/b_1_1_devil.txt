@@ -1,0 +1,6 @@
+Name:Devil
+ManaCost:no cost
+Types:Creature Devil
+Colors:black
+PT:1/1
+Oracle:

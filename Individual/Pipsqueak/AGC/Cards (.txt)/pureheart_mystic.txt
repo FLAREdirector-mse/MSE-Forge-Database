@@ -1,0 +1,8 @@
+Name:Pureheart Mystic
+ManaCost:1 W
+Types:Creature Human Cleric
+PT:0/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may search your library for a card, put it into your hand, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Artifact,Enchantment | ChangeNum$ 1 | SpellDescription$ Search your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.
+A:AB$ PumpAll | Cost$ Sac<1/CARDNAME> | ValidCards$ Artifact.YouCtrl,Enchantment.YouCtrl | KW$ Hexproof | SpellDescription$ Artifacts and enchantments you control gain hexproof until end of turn.
+Oracle:When Pureheart Mystic enters the battlefield, your library for an artifact or enchantment card and reveal that card. Shuffle your library, then put the card on top of it.\nSacrifice Pureheart Mystic: Artifacts and enchantments you control gain hexproof until end of turn.

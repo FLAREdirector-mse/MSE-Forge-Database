@@ -1,4 +1,4 @@
-Name:Painful Reminscence
+Name:Painful Reminiscence
 ManaCost:2 R
 Types:Instant
 K:Spectacle:R

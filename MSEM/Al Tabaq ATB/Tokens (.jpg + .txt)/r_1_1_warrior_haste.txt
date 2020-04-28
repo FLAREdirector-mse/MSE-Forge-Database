@@ -1,0 +1,7 @@
+Name:Warrior
+ManaCost:no cost
+Types:Warrior
+Colors:red
+K:Haste
+PT:1/1
+Oracle:Haste

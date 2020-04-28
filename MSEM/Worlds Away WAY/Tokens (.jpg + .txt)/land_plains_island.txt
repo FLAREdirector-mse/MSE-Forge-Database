@@ -1,0 +1,5 @@
+Name:Plains Island
+ManaCost:no cost
+Types:Land Plains Island
+Colors:colorless
+Oracle:{T}: Add {W} or {U}.

@@ -1,0 +1,6 @@
+# TODO
+Name:Imagine
+ManaCost:U
+Types:Sorcery
+
+Oracle:Shuffle any number of cards from your graveyard into your library. Scry 1, then draw a card.

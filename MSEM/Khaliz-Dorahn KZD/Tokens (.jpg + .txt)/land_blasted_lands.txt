@@ -1,0 +1,6 @@
+Name:Blasted Lands
+ManaCost:no cost
+Types:Land
+Colors:colorless
+A:AB$ Mana | Cost$ T | Produced$ C | Amount$ 1 | SpellDescription$ Add {C}.
+Oracle:{T}: Add {C}.

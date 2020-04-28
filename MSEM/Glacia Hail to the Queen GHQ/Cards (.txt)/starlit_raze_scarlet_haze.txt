@@ -1,0 +1,20 @@
+Name:Starlit Raze
+ManaCost:1 R
+Types:Sorcery
+A:SP$ PumpAll | Cost$ 1 R | ValidTgts$ Player | IsCurse$ True | ValidCards$ Land.nonBasic+TargetedPlayerCtrl | KW$ HIDDEN This card doesn't untap during your next untap step. | Permanent$ True | SpellDescription$ Nonbasic lands target player controls don't untap during that player's next untap step. | StackDescription$ Nonbasic lands target player controls don't untap during that player's next untap step.
+A:SP$ PumpAll | Cost$ 3 R | ValidTgts$ Player | IsCurse$ True | SubAbility$ Fabled | ValidCards$ Land.nonBasic+TargetedPlayerCtrl | KW$ HIDDEN This card doesn't untap during your next untap step. | Permanent$ True | PrecostDesc$ Fabled | CostDesc$ {3}{R} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the player it's targeting.) | StackDescription$ Nonbasic lands target player controls don't untap during that player's next untap step. Attach CARDNAME to that player.
+SVar:Fabled:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | AttachedTo$ ParentTarget
+AlternateMode:DoubleFaced
+Oracle: Nonbasic lands target player controls don't untap during that player's next untap step.\nFabled {3}{R} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that player.)
+
+ALTERNATE
+
+Name:Scarlet Haze
+ManaCost:no cost
+Colors:red
+Types:Enchantment Aura
+K:Enchant player
+A:SP$ Attach | Cost$ | ValidTgts$ Player | AILogic$ KeepTapped
+T:Mode$ TapsForMana | ValidCard$ Land.nonBasic+EnchantedPlayerCtrl | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever enchanted player taps a nonbasic land they control, that land doesn't untap during its controller's next untap step.
+SVar:TrigPump:DB$Pump | Defined$ TriggeredCard | Permanent$ True | KW$ HIDDEN This card doesn't untap during your next untap step.
+Oracle:Enchant creature\nWhenever enchanted player taps a nonbasic land they control, that land doesn't untap during its controller's next untap step.

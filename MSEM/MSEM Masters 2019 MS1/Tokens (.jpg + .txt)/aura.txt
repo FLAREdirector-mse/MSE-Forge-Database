@@ -1,0 +1,7 @@
+Name:Aura
+ManaCost:no cost
+Types:Enchantment Aura
+Colors:white
+K:Enchant creature
+A:AB$ Untap | Cost$ Sac<1/CARDNAME> | Defined$ Enchanted | SpellDescription$ Untap enchanted creature.
+Oracle:Enchant creature\nSacrifice this token: Untap enchanted creature.

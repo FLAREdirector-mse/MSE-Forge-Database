@@ -1,0 +1,6 @@
+Name:Dryad
+ManaCost:no cost
+Types:Creature Dryad
+PT:1/1
+A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+Oracle:{T}: Add one mana of any color.

@@ -10,7 +10,12 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1 R Almgrove Champion
+39 R Ardy's Study
+45 R Prismatic Leyline
 63 R Archive Guardian
 90
 
 [tokens]
+b_1_1_skeleton
+r_3_3_dragon_flying
+equipment
