@@ -3,5 +3,5 @@ ManaCost:no cost
 Types:Enchantment Aura
 Colors:white
 K:Enchant creature
-S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyword$ First Strike | Description$ Enchanted creature has first strike.
-Oracle:Enchant creature\nEnchanted creature has first strike.
+A:AB$ Untap | Cost$ Sac<1/CARDNAME> | Defined$ Enchanted | SpellDescription$ Untap enchanted creature.
+Oracle:Enchant creature\nSacrifice this token: Untap enchanted creature.
