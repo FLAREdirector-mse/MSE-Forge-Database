@@ -1,0 +1,8 @@
+Name:Forbidden Journey
+ManaCost:no cost
+Types:Enchantment Aura
+Colors:black
+K:Enchant creature
+T:Mode$ ChangesZone | Origin$ Creature.EnchantedBy | Destination$ Graveyard | ValidCard$ Enchanted | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME dies, you may search your library for a card, put it into your hand, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card | ChangeNum$ 1 | ShuffleNonMandatory$ True
+Oracle:Enchant creature\nWhen enchanted creature dies, search your library for a card, put it into your hand, then shuffle your library.

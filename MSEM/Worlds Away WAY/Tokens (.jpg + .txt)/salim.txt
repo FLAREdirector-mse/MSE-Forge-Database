@@ -1,0 +1,9 @@
+Name:Salim
+ManaCost:no cost
+Types:Legendary Creature Cat
+Colors:white,green
+K:Vigilance
+K:Trample
+K:Indestructible
+PT:3/3
+Oracle:Vigilance, trample, indestructible

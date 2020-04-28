@@ -1,0 +1,8 @@
+Name:Elemental
+ManaCost:no cost
+Types:Creature Elemental
+Colors:red
+K:Prowess
+K:Haste
+PT:1/1
+Oracle:Prowess, haste

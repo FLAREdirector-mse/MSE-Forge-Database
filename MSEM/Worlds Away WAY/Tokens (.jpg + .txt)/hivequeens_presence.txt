@@ -1,0 +1,9 @@
+Name:Hivequeen's Presence
+ManaCost:no cost
+Types:Enchantment Aura
+Colors:green white
+K:Enchant creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddKeyhword$ Vigilance | AddAbility$ AnyMana | Description$ Enchanted creature has vigilance and "{T}: Add one mana of any color."
+SVar:AnyMana:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+SVar:NonStackingAttachEffect:True
+Oracle:Enchant creature\nEnchanted creature has vigilance and "{T}: Add one mana of any color."

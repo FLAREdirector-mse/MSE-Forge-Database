@@ -1,0 +1,8 @@
+Name:Elemental
+ManaCost:no cost
+Types:Creature Elemental
+Colors:white
+K:Flying
+K:Vigilance
+PT:3/3
+Oracle:Flying, vigilance

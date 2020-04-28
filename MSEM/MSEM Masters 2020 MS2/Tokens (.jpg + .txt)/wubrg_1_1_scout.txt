@@ -1,0 +1,6 @@
+Name:Scout
+ManaCost:no cost
+Types:Creature Scout
+Colors:white,blue,black,red,green
+PT:1/1
+Oracle:This creature is all colors.

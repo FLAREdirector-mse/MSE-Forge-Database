@@ -1,0 +1,7 @@
+Name:Reckless Valor
+ManaCost:no cost
+Types:Enchantment Aura
+Colors:red white
+K:Enchant creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 2 | AddKeyword$ Lifelink & Haste | Description$ Enchanted creature gets +2/+0 and has lifelink and haste.
+Oracle:Enchant creature\nEnchanted creature gets +2/+0 and has lifelink and haste.
