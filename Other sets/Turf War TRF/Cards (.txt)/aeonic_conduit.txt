@@ -1,0 +1,6 @@
+Name:Aeonic Conduit
+ManaCost:no cost
+Types:Artifact Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ CopySpellAbility | Cost$ 1 T Sac<1/CARDNAME> | TgtPrompt$ Select target activated or triggered ability you control from a land source | TargetType$ Activated.YouCtrl,Triggered.YouCtrl | ValidTgts$ Land | AILogic$ AlwaysCopyActivatedAbilities | StackDescription$ SpellDescription | SpellDescription$ Copy target activated or triggered ability you control from a land source. You may choose new targets for the copy.
+Oracle:{T}: Add {C}.\n{1}, {T}, Sacrifice Aeonic Conduit: Copy target activated or triggered ability you control from a land source. You may choose new targets for the copy.

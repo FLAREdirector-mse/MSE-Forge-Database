@@ -1,0 +1,6 @@
+Name:"No Return"
+ManaCost:no cost
+Types:Artifact Land
+A:AB$ Mana | Cost$ T | Produced$ {C} | SpellDescription$ Add {C}.
+A:AB$ ChangeZoneAll | Cost$ 5 Exile<1/CARDNAME> | Origin$ Graveyard | Destination$ Exile | ChangeType$ Card | AILogic$ ExileGraveyards | SpellDescription$ Exile all cards from all graveyards.
+Oracle:{T}: Add {C}.\n{5}, Exile "No Return": Exile all cards from all graveyards.

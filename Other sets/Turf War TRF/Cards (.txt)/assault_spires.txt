@@ -1,0 +1,9 @@
+Name:Assault Spires
+ManaCost:no cost
+Types:Land Animus
+PT:3/1
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Animate | Cost$ R | Defined$ Self | Types$ Creature | SubAbility$ DBDealDamage | SpellDescription$ CARDNAME becomes a creature until end of turn and deals 2 damage to you. It's still a land.
+SVar:DBDealDamage:DB$ DealDamage | Defined$ You | NumDmg$ 2
+Oracle:Asssault Spires enters the battlefield tapped.\n{T}: Add {R}.\n{R}: Assault Spires becomes a creature until end of turn and deals 2 damage to you. It's still a land.

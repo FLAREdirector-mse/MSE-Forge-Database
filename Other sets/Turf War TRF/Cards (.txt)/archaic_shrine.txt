@@ -1,0 +1,10 @@
+Name:Archaic Shrine
+ManaCost:no cost
+Types:Land
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigSacrifice | TriggerDescription$ When CARDNAME enters the battlefield, sacrifice a land.
+SVar:TrigSacrifice:DB$ Sacrifice | Defined$ You | SacValid$ Land | SacMessage$ Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ 3 T | Origin$ Battlefield | Destination$ Hand | Defined$ Self | RememberChanged$ True | SubAbility$ DBChangeZone | SpellDescription$ Return CARDNAME to its owner's hand. If you do, put target land on the bottom of its owner's library.
+SVar:DBChangeZone:DB$ ChangeZone | ValidTgts$ Land | TgtPrompt$ Select target land | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1 | ConditionCheckSVar$ X | ConditionSVarCompare$ GE1 | References$ X | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount

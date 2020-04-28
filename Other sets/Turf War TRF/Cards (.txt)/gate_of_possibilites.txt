@@ -1,0 +1,5 @@
+Name:Gate of Possibilities
+ManaCost:no cost
+Types:Artifact Land
+A:AB$ ManaReflected | Cost$ T | ColorOrType$ Type | Valid$ Land | ReflectProperty$ Produce | SpellDescription$ Add one mana of any type that a land could produce.
+Oracle:{T}: Add one mana of any type that a land could produce.
