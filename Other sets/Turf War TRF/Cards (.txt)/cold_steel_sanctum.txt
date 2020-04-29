@@ -1,0 +1,9 @@
+Name:Cold Steel Sanctum
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ U | SubAbility$ DBLoseLife | SpellDescription$ Add {U}. You lose 1 life.
+A:AB$ Mana | Cost$ T | Produced$ B | SubAbility$ DBLoseLife | SpellDescription$ Add {B}. You lose 1 life.
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1
+A:AB$ ChangeZone | Cost$ 1 U B Discard<1/CARDNAME> | ActivationZone$ Hand | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDiscard | SpellDescription$ Return target permanent to its owner's hand, then that player discards a card.
+SVar:DBDiscard:DB$ Discard | Defined$ TargetedOwner | NumCards$ 1 | Mode$ TgtChoose
+Oracle:{T}: Add {U} or {B}. You lose 1 life.\n{1}{U}{B}, Discard Cold Steel Sanctum: Return target permanent to its owner's hand, then that player discards a card.
