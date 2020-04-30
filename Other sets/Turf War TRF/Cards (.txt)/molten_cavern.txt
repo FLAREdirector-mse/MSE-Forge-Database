@@ -1,0 +1,7 @@
+Name:Molten Cavern
+ManaCost:no cost
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ DealDamage | Cost$ 4 T | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | SorcerySpeed$ True | SpellDescription$ CARDNAME deals 2 damage to any target. Activate this ability only any time you could cast a sorcery.
+Oracle:Molten Cavern enters the battlefield tapped.\n{T}: Add {R}.\n{4}, {T}: Molten Cavern deals 2 damage to any target. Activate this ability only any time you could cast a sorcery.

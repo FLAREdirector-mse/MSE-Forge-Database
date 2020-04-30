@@ -1,0 +1,8 @@
+Name:Chillwind Pass
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+T:Mode$ AttackersDeclared | ValidAttackers$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigPayCost | TriggerDescription$ Whenever you attack with one or more creature tokens, you may pay {2}{W}. When you do, create a 1/1 red Soldier creature token with first strike that's tapped and attacking.
+SVar:TrigPayCost:AB$ ImmediateTrigger | Cost$ 2 W | Execute$ TrigToken | TriggerDescription$ When you pay {2}{W}, create a 1/1 red Soldier creature token with first strike that's tapped and attacking.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ r_1_1_soldier_first_strike | LegacyImage$ r 1 1 soldier first strike trf | TokenOwner$ You | TokenTapped$ True | TokenAttacking$ True
+Oracle:{T}: Add {W}.\nWhenever you attack with one or more creature tokens, you may pay {2}{W}. When you do, create a 1/1 red Soldier creature token with first strike that's tapped and attacking.

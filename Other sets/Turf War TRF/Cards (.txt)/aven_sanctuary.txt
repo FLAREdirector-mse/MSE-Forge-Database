@@ -1,0 +1,8 @@
+Name:Aven Sanctuary
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Token | Cost$ 4 G W T | TokenScript$ w_1_1_bird_flying | TokenAmount$ 1 | LegacyImage$ w 1 1 bird flying trf | SubAbility$ Gavony | SpellDescription$ Create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on each creature you control.
+SVar:Gavony:DB$ PutCounterAll | ValidCards$ Creature.YouCtrl | CounterType$ P1P1 | CounterNum$ 1
+Oracle:{T}: Add {G} or {W}.\n{4}{G}{W}, {T}: Create a 1/1 white Bird creature token with flying, then put a +1/+1 counter on each creature you control.

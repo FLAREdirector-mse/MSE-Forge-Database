@@ -1,0 +1,7 @@
+Name:Fertile Fields
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ PutCounterAll | Cost$ 1 G W T Sac<1/CARDNAME> | ValidCards$ Creature.YouCtrl,Animus.YouCtrl | CounterType$ P1P1 | CounterNum$ 1 | AILogic$ AtEOTOrBlock | SpellDescription$ Put a +1/+1 counter on each creature and Animus you control
+Oracle:{T}: Add {G} or {W}.\n{1}{G}{W}, {T}, Sacrifice Fertile Fields: Put a +1/+1 counter on each creature and Animus you control.

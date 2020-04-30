@@ -1,0 +1,7 @@
+Name:Abandoned Terrace
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChooseType | Cost$ 1 Discard<1/Card> | Defined$ You | Type$ Basic Land | SubAbility$ DBAnimate | SpellDescription$ Until end of turn, target land becomes the basic land type of your choice.
+SVar:DBAnimate:DB$ Animate | ValidTgts$ Land | TgtPrompt$ Select target land | Types$ ChosenType | RemoveLandTypes$ True | RemoveIntrinsicAbilities$ True
+Oracle:{T}: Add {C}.\n{1}, Discard a card: Until end of turn, target land becomes the basic land type of your choice. (It loses all abilities other than the mana ability that basic land would have.)

@@ -1,0 +1,7 @@
+Name:Decrepit Settlement
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ ChooseType | Cost$ 2 B Discard<1/CARDNAME> | ActivationZone$ Hand | Defined$ You | Type$ Card | InvalidTypes$ Conspiracy,Emblem,Instant,Plane,Phenomenon,Sorcery,Tribal,Vanguard | SubAbility$ DBSacrifice | SpellDescription$ Target player sacrifices a permanent of the permanent type of your choice.
+SVar:DBSacrifice:DB$ Sacrifice | ValidTgts$ Player | SacValid$ Card.ChosenType
+Oracle:{T}: Add {B}.\n{2}{B}, Discard Decrepit Settlement: Target player sacrifices a permanent of the permanent type of your choice.

@@ -1,0 +1,8 @@
+Name:Shining Hall
+ManaCost:no cost
+Types:Artifact Land
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigRepeatEach | TriggerDescription$ At the beginning of your upkeep, any player may pay {2}. For each player who does, each player draws a card.
+SVar:TrigRepeatEach:DB$ RepeatEach | RepeatPlayers$ Player | StartingWithActivator$ True | RepeatSubAbility$ RepeatDraw
+SVar:RepeatDraw:DB$ Draw | Defined$ Player | NumCards$ 1 | UnlessCost$ 2 | UnlessPayer$ Player.IsRemembered | UnlessSwitched$ True
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+Oracle:At the beginning of your upkeep, any player may pay {2}. For each player who does, each player draws a card.\n{T}: Add {C}.

@@ -1,0 +1,9 @@
+Name:Frostgripped Flow
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+T:Mode$ Phase | Phase$ Draw | ValidPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your draw step, draw an additional card.
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigChangeZone | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your end step, put a card from your hand on the bottom of your library.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Hand | Destination$ Library | LibraryPosition$ -1 | ChangeNum$ 1 | Mandatory$ True
+Oracle:{T}: Add {U}.\nAt the beginning of your draw step, draw an additional card.\nAt the beginning of your end step, put a card from your hand on the bottom of your library.
