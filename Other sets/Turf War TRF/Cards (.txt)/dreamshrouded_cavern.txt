@@ -1,0 +1,10 @@
+Name:Dreamshrouded Cavern
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ ChangeZone | Cost$ U U T Discard<1/Card> | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target creature to its owner's hand.
+A:AB$ DealDamage | Cost$ R R T Discard<1/Card> | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target (2 damage) | NumDmg$ 2 | DamageMap$ True | SubAbility$ DBDealDamage | SpellDescription$ CARDNAME deals 2 damage to any target and 1 damage to another target.
+SVar:DBDealDamage:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target (1 damage) | TargetUnique$ True | NumDmg$ 1 | SubAbility$ DBDamageResolve
+SVar:DBDamageResolve:DB$ DamageResolve
+Oracle:{T}: Add {U} or {R}.\n{U}{U}, {T}, Discard a card: Return target creature to its owner's hand.\n{R}{R}, {T}, Discard a card: Dreamshrouded Cavern deals 2 damage to any target and 1 damage to another target.

@@ -1,0 +1,10 @@
+Name:Crypt of Whispers
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ B | SpellDescription$ Add {B}.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ TrigPayCost | TriggerDescription$ Whenever a creature dies, you may pay {B}. When you do, each opponent loses 1 life and you gain 1 life.
+SVar:TrigPayCost:AB$ ImmediateTrigger | Cost$ B | Execute$ TrigLoseLife | TriggerDescription$ When you pay {B}, each opponent loses 1 life and you gain 1 life.
+SVar:TrigLoseLife:DB$ LoseLife | LifeAmount$ 1 | Defined$ Opponent | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 1
+Oracle:{T}: Add {C}.\n{T}, Pay 1 life: Add {B}.\nWhenever a creature dies, you may pay {B}. When you do, each opponent loses 1 life and you gain 1 life.

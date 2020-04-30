@@ -1,0 +1,10 @@
+Name:Hope's Finale
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Destroy | Cost$ 1 B G T Sac<1/CARDNAME> | ValidTgts$ Land | TgtPrompt$ Select target land | SubAbility$ DBLoseLife | SpellDescription$ Destroy target land. You lose 2 life.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigPayCost | TriggerDescription$ When CARDNAME is put into your graveyard from the battlefield, you may pay {1}{B}{G}. When you do, destroy target land and you lose 2 life.
+SVar:TrigPayCost:AB$ ImmediateTrigger | Cost$ 1 B G | Execute$ TrigDestroy | TriggerDescription$ When you pay {1}{B}{G}, destroy target land and you lose 2 life.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Land | TgtPrompt$ Select target land | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 2
+Oracle:{T}: Add {C}.\n{1}{B}{G}, {T}, Sacrifice Hope's Finale: Destroy target land. You lose 2 life.\nWhen Hope's Finale is put into your graveyard from the battlefield, you may pay {1}{B}{G}. When you do, destroy target land and you lose 2 life.

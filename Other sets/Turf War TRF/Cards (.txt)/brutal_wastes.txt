@@ -1,0 +1,11 @@
+Name:Brutal Wastes
+ManaCost:no cost
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ DealDamage | Cost$ 1 B R T | ValidTgts$ Creature | TgtPrompt$ Select target creature to deal damage to | NumDmg$ 2 | SubAbility$ SBEffect | SpellDescription$ CARDNAME deals 2 damage to target creature. When that creature dies this turn, CARDNAME deals 2 damage to the creature's controller.
+SVar:SBEffect:DB$ Effect | Name$ Brutal Wastes Effect | Triggers$ BrutalDeath | SVars$ SBDeathDmg | RememberObjects$ ParentTarget | StackDescription$ When {c:Targeted} dies this turn, CARDNAME deals 2 damage to {p:TargetedController}.
+SVar:BrutalDeath:Mode$ ChangesZone | ValidCard$ Creature.IsRemembered | Origin$ Battlefield | Destination$ Graveyard | Execute$ BWDeathDmg | TriggerDescription$ When a creature dealt damage by Brutal Wastes dies this turn, Brutal Wastes deals 2 damage to the creature's controller.
+SVar:BWDeathDmg:DB$ DealDamage | Defined$ TriggeredCardController | NumDmg$ 2 | DamageSource$ EffectSource
+Oracle:Brutal Wastes enters the battlefield tapped.\n{T}: Add {B} or {R}.\n{1}{B}{R}, {T}: Brutal Wastes deals 2 damage to target creature. When that creature dies this turn, Brutal Wastes deals 2 damage to the creature's controller.

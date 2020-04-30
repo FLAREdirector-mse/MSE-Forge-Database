@@ -1,0 +1,8 @@
+Name:Frontier Outpost
+ManaCost:no cost
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Token | Cost$ R W T Discard<1/Card> | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ r_1_1_soldier_first_strike | LegacyImage$ r 1 1 soldier first strike trf | SpellDescription$ Create a 1/1 red Soldier creature token with first strike. Activate this ability only any time you could cast a sorcery.
+Oracle:Frontier Outpost enters the battlefield tapped.\n{T}: Add {R} or {W}.\n{R}{W}, {T}, Discard a card: Create a 1/1 red Soldier creature token with first strike. Activate this ability only any time you could cast a sorcery.
