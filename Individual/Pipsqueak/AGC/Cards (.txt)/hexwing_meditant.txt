@@ -1,0 +1,12 @@
+Name:Hexwing Meditant
+ManaCost:1 U U
+Types:Creature Human Knight
+PT:3/1
+K:Flash
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return up to one target spell to its controller's hand. If you don't, draw a card.
+SVar:TrigChangeZone:DB$ ChangeZone | ValidTgts$ Card.inZoneStack | TgtPrompt$ Select target spell on the stack | TargetMin$ 0 | TargetMax$ 1 | TgtZone$ Stack | Origin$ Stack | Fizzle$ True | Destination$ Hand | RememberChanged$ True | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | ConditionCheckSVar$ X | ConditionSVarCompare$ EQ0 | References$ X | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+Oracle:Flash\nFlying\nWhen Hexwing Meditant enters the battlefield, return up to one target spell to its controller's hand. If you don't, draw a card.

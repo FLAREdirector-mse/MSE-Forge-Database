@@ -1,0 +1,7 @@
+Name:Paramnesia
+ManaCost:1 U
+Types:Sorcery
+A:SP$ Scry | Cost$ 1 U | ScryNum$ 2 | SubAbility$ DBEffect | SpellDescription$ Scry 2. Until end of turn, play with the top card of your library revealed, and you may play the top card of your library.
+SVar:DBEffect:DB$ Effect | Name$ Paramnesia Effect | StaticAbilities$ STPlay
+SVar:STPlay:Mode$ Continuous | EffectZone$ Command | Affected$ Card.TopLibrary+YouCtrl | AffectedZone$ Library | MayLookAt$ Player | MayPlay$ True
+Oracle:Scry 2.\nUntil end of turn, play with the top card of your library revealed, and you may play the top card of your library.

@@ -1,0 +1,12 @@
+Name:Veteran Combatant
+ManaCost:W
+Types:Creature Human Soldier
+PT:1/1
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigCharm | TriggerDescription$ Whenever CARDNAME attacks, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ GainLifelink,GainDS,GainVigilance,GainCounter | ChoiceRestriction$ NotRemembered | RememberChoice$ True | CharmNum$ 1
+SVar:GainLifelink:DB$ Pump | KW$ Lifelink | Permanent$ True | ChoiceName$ GainLifelink | SpellDescription$ CARDNAME gains lifelink.
+SVar:GainDS:DB$ Pump | KW$ Double Strike | Permanent$ True | ChoiceName$ GainDS | SpellDescription$ CARDNAME gains double strike.
+SVar:GainVigilance:DB$ Pump | KW$ Vigilance | Permanent$ True | ChoiceName$ GainVigilance | SubAbility$ DBUntap | SpellDescription$ CARDNAME gains vigilance. Untap it.
+SVar:DBUntap:DB$ Untap | Defined$ Self
+SVar:GainCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1 | ChoiceName$ GainCounter | SpellDescription$ Put a +1/+1 counter on CARDNAME.
+Oracle:Whenever Veteran Combatant attacks, choose one that hasn't been chosen —\n• Veteran Combatant gains lifelink.\n• Veteran Combatant gains double strike.\n• Veteran Combatant gains vigilance. Untap it.\n• Put a +1/+1 counter on Veteran Combatant.
