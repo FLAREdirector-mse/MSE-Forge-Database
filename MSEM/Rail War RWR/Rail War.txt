@@ -1,6 +1,6 @@
 [metadata]
 Code=RWR
-Date=2021-01-01 # TODO: Find official release date
+Date=2019-05-01
 Name=MSEM: Rail War
 Code2=RWR
 MciCode=rwr
@@ -15,3 +15,4 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 180
 
 [tokens]
+c_1_1_a_construct

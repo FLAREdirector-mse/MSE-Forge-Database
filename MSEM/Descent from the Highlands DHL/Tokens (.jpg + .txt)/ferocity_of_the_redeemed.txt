@@ -1,0 +1,8 @@
+Name:Ferocity of the Redeemed
+ManaCost:no cost
+Types:Creature Elk Spirit
+PT:3/2
+Colors:white
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReturnCreatures | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME enters the battlefield, return up to two target creature cards with converted mana cost 1 or less from your graveyard to the battlefield.
+SVar:TrigReturnCreatures:DB$ChangeZone | Origin$ Graveyard | Destination$ Battlefield | TargetMin$ 0 | TargetMax$ 2 | ValidTgts$ Creature.cmcLE1 | TargetsWithDefinedController$ TriggeredCardController | TgtPrompt$ Choose target creature
+Oracle:When Ferocity of the Redeemed enters the battlefield, return up to two target creature cards with converted mana cost 1 or less from your graveyard to the battlefield.

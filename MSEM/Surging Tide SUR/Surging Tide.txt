@@ -1,6 +1,6 @@
 [metadata]
 Code=SUR
-Date=2021-01-01 # TODO Find official release date
+Date=2017-06-08
 Name=MSEM: Surging Tide
 Code2=SUR
 MciCode=sur

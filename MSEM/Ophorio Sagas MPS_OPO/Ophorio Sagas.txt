@@ -1,6 +1,6 @@
 [metadata]
 Code=MPS_OPO
-Date=2021-01-01 # TODO Find official release date
+Date=2017-10-01
 Name=MSEM: Ophorio Sagas
 Code2=MPS_OPO
 MciCode=mps_opo

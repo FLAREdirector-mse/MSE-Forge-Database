@@ -1,0 +1,10 @@
+Name:Resolution of Stone
+ManaCost:3 G
+Types:Creature Spirit
+PT:3/3
+K:Trample
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPut | TriggerDescription$ When CARDNAME enters the battlefield, put a +1/+1 counter on target creature you control.
+SVar:TrigPut:DB$PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 1
+A:AB$ Token | Cost$ 4 G G ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ resolution_of_stone | TokenOwner$ You | LegacyImage$ resolution of stone dhl | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Trample\nWhen Resolution of Stone enters the battlefield, put a +1/+1 counter on target creature you control.\nRevive {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

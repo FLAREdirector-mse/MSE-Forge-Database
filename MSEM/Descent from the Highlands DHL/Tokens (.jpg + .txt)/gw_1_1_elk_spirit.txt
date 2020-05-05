@@ -1,0 +1,6 @@
+Name:Elk Spirit
+ManaCost:no cost
+Types:Creature Elk Spirit
+Colors:green,white
+PT:1/1
+Oracle:

@@ -1,3 +1,4 @@
+# rename to equipment2 if using this alongside CAC / IMP / TOJ
 Name:Equipment
 ManaCost:no cost
 Types:Artifact Equipment

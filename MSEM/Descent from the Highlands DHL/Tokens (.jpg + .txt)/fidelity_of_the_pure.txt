@@ -1,0 +1,8 @@
+Name:Fidelity of the Pure
+ManaCost:no cost
+Types:Creature Elk Spirit
+PT:1/1
+Colors:white
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ Token | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME leaves the battlefield, create a 1/1 green and white Elk Spirit creature token.
+SVar:Token:DB$ Token | TokenOwner$ You | TokenScript$ gw_1_1_elk_spirit | LegacyImage$ gw 1 1 elk spirit dhl | TokenAmount$ 1
+Oracle:When Fidelity of the Pure leaves the battlefield, create a 1/1 green and white Elk Spirit creature token.

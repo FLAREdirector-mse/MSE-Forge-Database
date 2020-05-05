@@ -1,6 +1,6 @@
 [metadata]
 Code=OPH
-Date=2021-01-01 # TODO Find official release date
+Date=2017-06-08
 Name=MSEM: Ophorio
 Code2=OPH
 MciCode=oph
@@ -10,6 +10,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1
+60 M Reflected Moment
 65 C Seek Prophecy
 158 C Dylso Charmer
 178 R Summoner's Call

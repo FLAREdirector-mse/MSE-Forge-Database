@@ -1,0 +1,9 @@
+Name:Scion of Fecundity
+ManaCost:1 G W
+Types:Creature Elk Spirit
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | TriggerDescription$ When CARDNAME enters the battlefield, search your library for a creature card with converted mana cost 2 or less, reveal that card, put it into your hand, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Creature.cmcLE2 | ChangeNum$ 1
+A:AB$ Token | Cost$ 1 G W Discard<1/Card> ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ scion_of_fecundity | TokenOwner$ You | LegacyImage$ scion of fecundity dhl | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Scion of Fecundity enters the battlefield, search your library for a creature card with converted mana cost 2 or less, reveal that card, put it into your hand, then shuffle your library.\nRevive—{1}{G}{W}, Discard a card ({1}{G}{W}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

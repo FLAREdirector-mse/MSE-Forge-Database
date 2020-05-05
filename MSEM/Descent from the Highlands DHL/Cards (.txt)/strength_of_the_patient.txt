@@ -1,0 +1,7 @@
+Name:Strength of the Patient
+ManaCost:1 W
+Types:Creature Elk Spirit
+PT:2/3
+A:AB$ Token | Cost$ 4 W W W ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ strength_of_the_patient | TokenOwner$ You | LegacyImage$ strength of the patient dhl | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Strength of the Patient enters the battlefield, if it was revived, put four +1/+1 counters on it.\nRevive {4}{W}{W}{W} ({4}{W}{W}{W}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

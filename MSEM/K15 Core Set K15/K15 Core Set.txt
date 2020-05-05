@@ -1,6 +1,6 @@
 [metadata]
 Code=K15
-Date=2021-01-01 # TODO Find official release date
+Date=2017-06-08
 Name=MSEM: K15 Core Set
 Code2=K15
 MciCode=k15

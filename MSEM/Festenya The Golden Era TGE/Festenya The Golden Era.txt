@@ -1,6 +1,6 @@
 [metadata]
 Code=TGE
-Date=2021-01-01 # TODO Find official release date
+Date=2017-10-01
 Name=MSEM: Festenya: The Golden Era
 Code2=TGE
 MciCode=tge

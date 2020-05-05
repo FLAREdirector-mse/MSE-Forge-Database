@@ -1,0 +1,8 @@
+Name:Strength of the Patient
+ManaCost:no cost
+Types:Creature Elk Spirit
+Colors:white
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Graveyard | Destination$ Battlefield | TriggerZones$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPutCounter | TriggerDescription$ Whenever CARDNAME enters the battlefield, if it entered from a graveyard, put four +1/+1 counters on it.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 4
+Oracle:When Strength of the Patient enters the battlefield, if it entered from a graveyard, put four +1/+1 counters on it.

@@ -1,0 +1,8 @@
+Name:Remembrance of Light
+ManaCost:1 G W
+Types:Creature Spirit
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may return target permanent card from your graveyard to your hand.
+A:AB$ Token | Cost$ 4 G Discard<1/Card> ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ remembrance_of_light | TokenOwner$ You | LegacyImage$ remembrance of light dhl | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Remembrance of Light enters the battlefield, you may return target permanent card from your graveyard to your hand.\nRevive—{4}{G}, Discard a card ({4}{G}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

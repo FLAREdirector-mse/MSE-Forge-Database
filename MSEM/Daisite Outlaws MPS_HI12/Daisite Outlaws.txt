@@ -1,6 +1,6 @@
 [metadata]
 Code=MPS_HI12
-Date=2021-01-01 # TODO: Find official release date
+Date=2018-05-01
 Name=MSEM: High Noon: Daisite Outlaws
 Code2=MPS_HI12
 MciCode=mps_hi12
