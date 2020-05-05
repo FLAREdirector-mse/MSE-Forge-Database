@@ -1,0 +1,6 @@
+Name:Adamant Cultist
+ManaCost:no cost
+Types:Creature Reflection Shaman
+PT:4/2
+Colors:green
+Oracle:

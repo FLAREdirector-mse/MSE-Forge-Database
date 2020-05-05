@@ -1,1 +1,0 @@
-(To aetherize a permanent, create a token that's a copy of it, then exile that token.)

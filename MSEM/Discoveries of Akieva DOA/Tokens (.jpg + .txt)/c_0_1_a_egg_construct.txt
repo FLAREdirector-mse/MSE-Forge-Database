@@ -1,0 +1,7 @@
+TODO
+Name:Egg Construct
+ManaCost:no cost
+Types:Artifact Creature Egg Construct
+PT:0/1
+
+Oracle:Eureka!\nWhenever you create a Masterpiece, sacrifice this creature and return target Phoenix card from your graveyard to the battlefield.

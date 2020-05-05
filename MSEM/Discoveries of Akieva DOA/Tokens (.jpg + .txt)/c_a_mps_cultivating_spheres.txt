@@ -1,0 +1,7 @@
+Name:Cultivating Spheres
+ManaCost:no cost
+Types:Artifact Masterpiece
+T:Mode$ Phase | Phase$ Draw | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ At the beginning of your draw step, draw an additional card.
+SVar:TrigDraw:DB$Draw | NumCards$ 1
+S:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | Description$ You may play an additional land on each of your turns.
+Oracle:At the beginning of your draw step, draw an additional card.\nYou may play an additional land on each of your turns.

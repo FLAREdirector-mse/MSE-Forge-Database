@@ -1,0 +1,5 @@
+Name:Powercell
+ManaCost:no cost
+Types:Artifact Powercell
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+Oracle:{T}: Add {C}.
