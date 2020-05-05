@@ -1,0 +1,9 @@
+Name:Faerie Rogue
+ManaCost:no cost
+Types:Creature Faerie Rogue
+Colors:blue
+K:Flying
+PT:*/*
+S:Mode$ Continuous | SetPower$ X | SetToughness$ X | CharacteristicDefining$ True | Description$ This creature's power and toughness are each equal to your wit (the number of cards in your hand).
+SVar:X:Count$InYourHand
+Oracle:Flying\nThis creature's power and toughness are each equal to your wit (the number of cards in your hand).

@@ -15,3 +15,14 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 269
 
 [tokens]
+b_1_1_bird_flying_deathtouch
+b_x_x_djinn_horror
+c_2_2_spirit_flying
+c_a_treasure_sac
+g_4_4_beast_trample
+r_1_1_warrior_haste
+r_5_5_dragon_flying
+w_1_1_spirit_flying
+w_1_1_warrior_lifelink
+aura
+blossom

@@ -16,4 +16,11 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 280
 
 [tokens]
+b_2_2_zombie
+g_2_2_wolf
+r_3_3_panda
+r_5_5_dragon_flying
+w_1_1_monk
+w_1_1_spirit_flying
+w_4_4_angel_flying
 equipment # rename to equipment2 if using this alongside CAC / IMP / TOJ
