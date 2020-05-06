@@ -1,0 +1,8 @@
+Name:Bone Pit Raptor
+ManaCost:no cost
+Colors:red
+Types:Creature Zombie Lizard
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigPumpAll | TriggerDescription$ When CARDNAME enters the battlefield, other creatures you control get +1/-1 until end of turn.
+SVar:TrigPumpAll:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ -1
+Oracle:When Bone Pit Raptor enters the battlefield, other creatures you control get +1/-1 until end of turn.

@@ -1,0 +1,9 @@
+Name:Kai'Jun, the Annihilator
+ManaCost:no cost
+Colors:black
+Types:Legendary Creature Demon
+K:Flying
+K:Trample
+PT:5/5
+
+Oracle:Flying, trample\nAt the beginning of your upkeep, sacrifice a creature.

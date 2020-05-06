@@ -1,0 +1,8 @@
+Name:Ravaging Ghoul
+ManaCost:no cost
+Colors:black
+Types:Creature Zombie
+PT:4/2
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDiscard | TriggerDescription$ Whenever a creature you control dies, you gain 1 life and draw a card.
+SVar:TrigDiscard:DB$ Discard | Defined$ Player.Opponent | NumCards$ 1 | Mode$ TgtChoose
+Oracle:Whenever a creature you control dies, each opponent discards a card.
