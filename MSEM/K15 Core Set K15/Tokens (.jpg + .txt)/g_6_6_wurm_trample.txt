@@ -1,0 +1,7 @@
+Name:Wurm
+ManaCost:no cost
+Types:Creature Wurm
+Colors:green
+K:Trample
+PT:6/6
+Oracle:Trample

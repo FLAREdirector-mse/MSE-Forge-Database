@@ -1,0 +1,7 @@
+Name:Horror
+ManaCost:no cost
+Types:Creature Horror
+Colors:black
+K:Indestructible
+PT:*/*
+Oracle:Indestructible
