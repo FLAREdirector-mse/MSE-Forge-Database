@@ -1,0 +1,10 @@
+Name:Emissary of the Wicked
+ManaCost:3 B B
+Types:Creature Demon
+K:Flying
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME enters the battlefield, you lose 4 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 4
+A:AB$ Token | Cost$ 2 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ emissary_of_the_wicked | TokenOwner$ You | LegacyImage$ emissary of the wicked gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Flying\nWhen Emissary of the Wicked enters the battlefield, you lose 4 life.\nRevive {2}{B}{B} ({2}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

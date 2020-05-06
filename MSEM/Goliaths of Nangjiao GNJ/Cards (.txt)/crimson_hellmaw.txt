@@ -1,0 +1,11 @@
+Name:Crimson Hellmaw
+ManaCost:3 R R
+Types:Creature Zombie Dragon
+K:Flying
+K:Haste
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigDealDamage | TriggerDescription$ When CARDNAME enters the battlefield, other creatures you control get +1/-1 until end of turn.
+SVar:TrigDealDamage:DB$DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3
+A:AB$ Token | Cost$ 5 R R ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ crimson_hellmaw | TokenOwner$ You | LegacyImage$ crimson hellmaw gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Flying, haste\nWhen Crimson Hellmaw enters the battlefield, it deals 3 damage to any target.\nRevive {5}{R}{R} ({5}{R}{R}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

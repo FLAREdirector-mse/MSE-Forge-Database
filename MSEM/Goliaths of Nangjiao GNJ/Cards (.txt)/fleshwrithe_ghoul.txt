@@ -1,0 +1,10 @@
+Name:Fleshwrithe Ghoul
+ManaCost:2 B
+Types:Creature Zombie Wizard
+PT:3/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigSac | TriggerDescription$ When CARDNAME enters the battlefield, each player sacrifices a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ Player | SacValid$ Creature
+A:AB$ Token | Cost$ 4 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ fleshwrithe_ghoul | TokenOwner$ You | LegacyImage$ fleshwrithe ghoul gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+SVar:NeedsToPlay:Creature.YouDontCtrl
+Oracle:When Fleshwrithe Ghoul enters the battlefield, each player sacrifices a creature.\nRevive {4}{B} ({4}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

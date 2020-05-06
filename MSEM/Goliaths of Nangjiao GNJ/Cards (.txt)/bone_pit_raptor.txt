@@ -1,0 +1,9 @@
+Name:Bone Pit Raptor
+ManaCost:1 R
+Types:Creature Zombie Lizard
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigPumpAll | TriggerDescription$ When CARDNAME enters the battlefield, other creatures you control get +1/-1 until end of turn.
+SVar:TrigPumpAll:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ -1
+A:AB$ Token | Cost$ 2 R ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ bone_pit_raptor | TokenOwner$ You | LegacyImage$ bone pit raptor gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Bone Pit Raptor enters the battlefield, other creatures you control get +1/-1 until end of turn.\nRevive {2}{R} ({2}{R}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

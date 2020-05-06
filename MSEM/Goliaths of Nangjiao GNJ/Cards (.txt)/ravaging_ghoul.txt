@@ -1,0 +1,9 @@
+Name:Ravaging Ghoul
+ManaCost:4 B
+Types:Creature Zombie
+PT:4/2
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDiscard | TriggerDescription$ Whenever a creature you control dies, you gain 1 life and draw a card.
+SVar:TrigDiscard:DB$ Discard | Defined$ Player.Opponent | NumCards$ 1 | Mode$ TgtChoose
+A:AB$ Token | Cost$ 6 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ ravaging_ghoul | TokenOwner$ You | LegacyImage$ ravaging ghoul gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Whenever a creature you control dies, each opponent discards a card.\nRevive {6}{B} ({6}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

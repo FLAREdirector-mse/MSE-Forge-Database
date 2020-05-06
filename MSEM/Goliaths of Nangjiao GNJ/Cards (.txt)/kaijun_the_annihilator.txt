@@ -1,0 +1,11 @@
+Name:Kai'Jun, the Annihilator
+ManaCost:2 B B
+Types:Legendary Creature Demon
+K:Flying
+K:Trample
+PT:5/5
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ At the beginning of your upkeep, sacrifice a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ You | SacValid$ Creature | SacMessage$ Creature
+A:AB$ Token | Cost$ 2 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ kaijun_the_annihilator | TokenOwner$ You | LegacyImage$ kaijun the annihilator gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Flying, trample\nAt the beginning of your upkeep, sacrifice a creature.\nRevive {2}{B}{B} ({2}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
