@@ -1,0 +1,5 @@
+Name:Desert
+ManaCost:no cost
+Types:Land Desert
+Colors:colorless
+Oracle:{T}: Add {C}.
