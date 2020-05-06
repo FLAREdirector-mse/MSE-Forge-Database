@@ -1,0 +1,8 @@
+Name:Scarecrow
+ManaCost:no cost
+Colors:red,green
+Types:Creature Scarecrow
+K:Defender
+K:Reach
+PT:0/2
+Oracle:Defender, reach

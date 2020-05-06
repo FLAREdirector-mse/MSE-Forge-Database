@@ -1,0 +1,5 @@
+Name:Tinkering Swarm
+ManaCost:no cost
+Types:Artifact Creature Rat Construct
+PT:1/1
+Oracle:Rapport — Whenever Tinkering Swarm and at least one other creature you control become tapped, create a token that's a copy of Tinkering Swarm.
