@@ -1,0 +1,8 @@
+Name:Elemental Horror
+ManaCost:no cost
+Colors:red,green
+Types:Creature Elemental Horror
+K:Haste
+K:Trample
+PT:3/1
+Oracle:Haste, trample

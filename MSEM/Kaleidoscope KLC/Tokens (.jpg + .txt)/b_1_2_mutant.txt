@@ -1,0 +1,6 @@
+Name:Mutant
+ManaCost:no cost
+Types:Creature Mutant
+Colors:black
+PT:1/2
+Oracle:

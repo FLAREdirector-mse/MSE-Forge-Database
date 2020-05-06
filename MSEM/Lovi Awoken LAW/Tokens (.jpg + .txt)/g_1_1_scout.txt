@@ -1,0 +1,6 @@
+Name:Scout
+ManaCost:no cost
+Colors:green
+Types:Creature Scout
+PT:1/1
+Oracle:

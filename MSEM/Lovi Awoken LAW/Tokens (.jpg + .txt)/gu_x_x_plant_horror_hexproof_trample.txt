@@ -1,0 +1,8 @@
+Name:Plant Horror
+ManaCost:no cost
+Colors:green,blue
+Types:Creature Plant Horror
+K:Hexproof
+K:Trample
+PT:*/*
+Oracle:Hexproof, trample

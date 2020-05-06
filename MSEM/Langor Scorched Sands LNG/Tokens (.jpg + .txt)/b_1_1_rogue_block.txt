@@ -1,0 +1,8 @@
+Name:Rogue
+ManaCost:no cost
+Colors:black
+Types:Creature Rogue
+K:CARDNAME can't block.
+K:Unblockable
+PT:1/1
+Oracle:This creature can't block and can't be blocked.
