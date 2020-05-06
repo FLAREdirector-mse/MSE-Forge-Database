@@ -1,3 +1,4 @@
+# you may need to rename this file to aura2.txt
 Name:Aura
 ManaCost:no cost
 Types:Enchantment Aura

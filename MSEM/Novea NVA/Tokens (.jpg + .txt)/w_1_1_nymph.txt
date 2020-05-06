@@ -1,0 +1,6 @@
+Name:Nymph
+ManaCost:no cost
+Types:Creature Nymph
+Colors:white
+PT:1/1
+Oracle:

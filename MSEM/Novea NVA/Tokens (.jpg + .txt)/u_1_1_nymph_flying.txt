@@ -1,0 +1,7 @@
+Name:Nymph
+ManaCost:no cost
+Types:Creature Nymph
+Colors:blue
+K:Flying
+PT:1/1
+Oracle:
