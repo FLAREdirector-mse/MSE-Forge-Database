@@ -1,6 +1,0 @@
-Name:Monk
-ManaCost:no cost
-Types:Creature Monk
-Colors:white
-PT:1/1
-Oracle:

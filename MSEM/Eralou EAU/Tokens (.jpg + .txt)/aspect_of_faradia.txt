@@ -1,8 +1,0 @@
-Name:Aspect of Faradia
-ManaCost:no cost
-Types:Legendary Creature Angel
-Colors:white
-PT:5/5
-K:Flying
-K:Vigilance
-Oracle:Flying, vigilance
