@@ -1,0 +1,8 @@
+Name:Bone Clouds
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ LoseLife | Cost$ T Sac<1/Creature> | ValidTgts$ Opponent | LifeAmount$ 2 | SubAbility$ DBGainLife | SpellDescription$ Target opponent loses 2 life and you gain 2 life.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+Oracle:{T}: Add {W} or {B}.\n{T}, Sacrifice a creature: Target opponent loses 2 life and you gain 2 life.

@@ -1,0 +1,10 @@
+Name:Foreboding Anomaly
+ManaCost:no cost
+Types:Artifact Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ 3 C C T | Defined$ Self | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True | SubAbility$ ShuffleIn | AILogic$ TimeTwister | SpellDescription$ Exile CARDNAME. If you do, each player shuffles their hand and graveyard into their library, then draws seven cards.
+SVar:ShuffleIn:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Hand,Graveyard | Destination$ Library | Shuffle$ True | Random$ True | SubAbility$ DrawSeven | UseAllOriginZones$ True | ConditionCheckSVar$ X | References$ X | ConditionSVarCompare$ GE1
+SVar:DrawSeven:DB$ Draw | NumCards$ 7 | Defined$ Player | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+Oracle:{T}: Add {C}.\n{3}{C}{C}, {T}: Exile Foreboding Anomaly. If you do, each player shuffles their hand and graveyard into their library, then draws seven cards.

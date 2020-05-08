@@ -1,0 +1,10 @@
+Name:Inactive Defense Array
+ManaCost:no cost
+Types:Artifact Land
+S:Mode$ Continuous | Affected$ Artifact.YouCtrl | AddAbility$ ABDamage | Description$ Artifacts you control have "{C}{C}, {T}: This deals 1 damage to any target."
+SVar:ABDamage:AB$ DealDamage | Cost$ C C T | NumDmg$ 1 | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | SpellDescription$ CARDNAME deals 1 damage to any target.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | OptionalDecider$ You | Execute$ TrigPayCost | TriggerDescription$ At the beginning of your upkeep, you may discard a card. When you do, search your library for an artifact card, reveal it, then shuffle your library and put that card on top of it.
+SVar:TrigPayCost:AB$ ImmediateTrigger | Cost$ Discard<1/Card> | Execute$ TrigChangeZone | TriggerDescription$ When you discard the card, search your library for an artifact card, reveal it, then shuffle your library and put that card on top of it.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Artifact | ChangeNum$ 1
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+Oracle:Artifacts you control have "{C}{C}, {T}: This deals 1 damage to any target."\nAt the beginning of your upkeep, you may discard a card. When you do, search your library for an artifact card, reveal it, then shuffle your library and put that card on top of it.\n{T}: Add {C}.

@@ -1,0 +1,9 @@
+Name:Lost Mage Ring
+ManaCost:no cost
+Types:Artifact Land
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | SubAbility$ DBAddCounter | SpellDescription$ CARDNAME enters the battlefield tapped with three charge counters on it.
+SVar:DBAddCounter:DB$ PutCounter | ETB$ True | Defined$ Self | CounterType$ CHARGE | CounterNum$ 3
+A:AB$ Mana | Cost$ T SubCounter<1/CHARGE> | Produced$ Any | Amount$ 2 | SpellDescription: Add {C}{C}.
+DeckHas:Ability$Counters
+Oracle:Lost Mage Ring enters the battlefield tapped with three charge counters on it.\n{T}, Remove a charge counter from Lost Mage Ring: Add {C}{C}.

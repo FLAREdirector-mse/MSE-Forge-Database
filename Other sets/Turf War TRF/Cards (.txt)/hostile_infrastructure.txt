@@ -1,0 +1,8 @@
+Name:Hostile Infrastructure
+ManaCost:no cost
+Types:Artifact Land Animus
+PT:2/2
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Animate | Cost$ 3 | Defined$ Self | Types$ Creature | RemoveTypes$ Land,Animus | SpellDescription$ CARDNAME becomes a creature until end of turn.
+A:AB$ Pump | Cost$ C C | Defined$ Self | NumAtt$ +1 | NumDef$ +1 | KW$ Trample | SpellDescription$ CARDNAME gets +1/+1 and gains trample until end of turn.
+Oracle:{T}: Add {C}.\n{3}: Hostile Infrastructure becomes a creature until end of turn.\n{C}{C}: Hostile Infrastructure gets +1/+1 and gains trample until end of turn.

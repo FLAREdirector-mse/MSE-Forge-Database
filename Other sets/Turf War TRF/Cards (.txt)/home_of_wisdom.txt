@@ -1,0 +1,8 @@
+Name:Home of Wisdom
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Draw | Cost$ X U U T Sac<1/CARDNAME> | NumCards$ X | References$ X | Defined$ You | SubAbility$ DBDiscard | SpellDescription$ Draw X cards, then discard a card.
+SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 1 | Mode$ TgtChoose
+SVar:X:Count$xPaid
+Oracle:{T}: Add {U}.\n{X}{U}{U}, {T}, Sacrifice Home of Wisdom: Draw X cards, then discard a card.

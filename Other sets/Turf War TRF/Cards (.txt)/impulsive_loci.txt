@@ -1,0 +1,9 @@
+Name:Impulsive Loci
+ManaCost:no cost
+Types:Land Animus
+PT:6/1
+K:Trample
+K:Haste
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Animate | Cost$ R R R | Defined$ Self | Types$ Creature | RemoveTypes$ Land,Animus | AtEOT$ Sacrifice | SpellDescription$ CARDNAME becomes a creature until end of turn. Sacrifice it at the beginning of the next end step.
+Oracle:Trample, haste\n{T}: Add {R}.\n{R}{R}{R}: Impulsive Loci becomes a creature until end of turn. Sacrifice it at the beginning of the next end step.

@@ -1,0 +1,7 @@
+Name:City of Gears
+ManaCost:no cost
+Types:Artifact Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ C | Amount$ X | References$ X | SpellDescription$ Add {C} for each artifact you control.
+SVar:X:Count$Valid Artifact.YouCtrl
+Oracle:City of Gears enters the battlefield tapped.\n{T}: Add {C} for each artifact you control.

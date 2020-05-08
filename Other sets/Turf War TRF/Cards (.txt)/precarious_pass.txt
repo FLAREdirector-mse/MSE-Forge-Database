@@ -1,0 +1,9 @@
+Name:Precarious Pass
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ TrigPutCounter | CheckSVar$ X | SVarCompare$ EQ0 | References$ X | TriggerDescription$ At the beginning of each end step, if no player lost life this turn, put a pressure counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ PRESSURE | CounterNum$ 1
+A:AB$ DealDamage | Cost$ T SubCounter<6/PRESSURE> | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
+SVar:X:PlayerCountPlayers$LifeLostThisTurn
+Oracle:{T}: Add {R}.\nAt the beginning of each end step, if no player lost life this turn, put a pressure counter on Precarious Pass.\n{T}, Remove six pressure counters from Precarious Pass: It deals 3 damage to any target.

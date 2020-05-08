@@ -1,0 +1,7 @@
+Name:Burn Rivers
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ R | SubAbility$ DBDealDamage | SpellDescription$ Add {R}. CARDNAME deals 1 damage to you.
+A:AB$ DealDamage | Cost$ 2 R T | ValidTgts$ Player | TgtPrompt$ Select target player | NumDmg$ 2 | UnlessCost$ Sac<1/Land> | UnlessPayer$ Targeted | SpellDescription$ CARDNAME deals 2 damage to target player unless that player sacrifices a land.
+SVar:DBDealDamage:DB$ DealDamage | Defined$ You | NumDmg$ 1
+Oracle:Add {R}. Burn Rivers deals 1 damage to you.\n{2}{R}, {T}: Burn Rivers deals 2 damage to target player unless that player sacrifices a land.

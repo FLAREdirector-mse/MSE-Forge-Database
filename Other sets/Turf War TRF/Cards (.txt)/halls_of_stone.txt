@@ -1,0 +1,6 @@
+Name:Halls of Stone
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ TapOrUntap | Cost$ T Discard<1/Card> | ValidTgtS$ Land | TgtPrompt$ Select target land | SpellDescription$ Tap or untap target land.
+Oracle:{T}: Add {C}.\n{T}, Discard a card: Tap or untap target land.
