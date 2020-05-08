@@ -1,7 +1,9 @@
-# TODO
 Name:Selene the Cruel
 ManaCost:1 U
 Types:Legendary Creature Human Wizard
 PT:2/2
-
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | Execute$ TrigSacYou | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a spell, sacrifice a permanent and draw a card.
+SVar:TrigSacYou:DB$ Sacrifice | SacValid$ Permanent | Defined$ You | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+A:AB$ Counter | Cost$ ExileFromGrave<3/Card> | TargetType$ Spell | TgtPrompt$ Select target noncreature spell | ValidTgts$ Card.nonCreature | UnlessCost$ 1 | SpellDescription$ Counter target noncreature spell unless its controller pays {1}.
 Oracle:Whenever you cast a spell, sacrifice a permanent and draw a card.\nExile three cards from your graveyard: Counter target noncreature spell unless its controller pays {1}. 

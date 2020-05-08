@@ -49,8 +49,12 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [tokens]
 c_1_1_a_construct
+c_1_1_elemental
+c_1_1_samurai
 c_a_lotus_petal_sac
 u_1_1_otter_draw
+w_1_1_monk
+w_1_1_nomad
 wubrg_1_1_scout
 enmity
 pale_shroud

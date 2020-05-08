@@ -1,5 +1,0 @@
-Name:Construct
-ManaCost:no cost
-PT:1/1
-Types:Artifact Creature Construct
-Oracle:

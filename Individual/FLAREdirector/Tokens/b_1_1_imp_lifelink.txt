@@ -1,0 +1,7 @@
+Name:Imp
+ManaCost:no cost
+Types:Creature Imp
+Colors:black
+PT:1/1
+K:Lifelink
+Oracle:Lifelink

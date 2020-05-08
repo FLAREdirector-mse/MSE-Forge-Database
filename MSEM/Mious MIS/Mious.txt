@@ -15,3 +15,11 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 249
 
 [tokens]
+b_1_1_devil
+g_0_1_plant
+u_1_1_elemental
+w_1_1_angel_flying
+w_1_1_cleric
+w_1_1_spirit_flying
+w_4_4_angel_flying
+aura_adj

@@ -48,3 +48,6 @@ Type=Other
 39 M Golden Touch # reprint VTM
 40 M Avatar of Basat # reprint POA
 41 M Exeunt # reprint VTM
+
+[tokens]
+g_3_3_elemental
