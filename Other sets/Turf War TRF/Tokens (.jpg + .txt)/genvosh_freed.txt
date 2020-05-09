@@ -1,0 +1,12 @@
+Name:Genvosh, Freed
+ManaCost:no cost
+Types:Legendary Creature Demon
+Colors:black
+K:Flying
+K:Lifelink
+PT:7/7
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME deals damage to  a player, you draw that many cards and you lose that much life.
+SVar:TrigDrawDiscard:DB$ Draw | Defined$ You | NumCards$ X | References$ X | SubAbility$ TrigLoseLife
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ X | References$ X
+SVar:X:TriggerCount$DamageAmount
+Oracle:Whenever this creature deals damage to a player, you draw that many cards and you lose that much life.
