@@ -132,5 +132,5 @@ g_1_1_insect
 r_1_1_soldier_first_strike
 w_1_1_bird_flying
 wb_1_1_cleric
-genvosh_freed #
-nirys_echo #
+genvosh_freed
+nirys_echo
