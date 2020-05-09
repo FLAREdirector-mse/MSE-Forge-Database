@@ -126,11 +126,11 @@ Type=Other
 117 C Yamabushi Sanctuary
 
 [tokens]
-c_3_2_horror #
-c_7_7_a_golem_trample #
+c_3_2_horror
+c_7_7_a_golem_trample
 g_1_1_insect
 r_1_1_soldier_first_strike
 w_1_1_bird_flying
-wb_1_1_cleric #
+wb_1_1_cleric
 genvosh_freed #
 nirys_echo #
