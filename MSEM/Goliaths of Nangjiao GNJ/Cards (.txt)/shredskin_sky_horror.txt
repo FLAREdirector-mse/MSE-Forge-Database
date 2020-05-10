@@ -1,0 +1,8 @@
+Name:Shredskin Sky Horror
+ManaCost:2 U
+Types:Creature Zombie Drake
+K:Flying
+PT:2/2
+A:AB$ Token | Cost$ 5 U ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ shredskin_sky_horror | TokenOwner$ You | LegacyImage$ shredskin sky horror gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Flying\nRevive {5}{U} ({5}{U}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

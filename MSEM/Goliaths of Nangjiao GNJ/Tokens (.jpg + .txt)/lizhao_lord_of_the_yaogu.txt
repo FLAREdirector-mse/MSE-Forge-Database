@@ -1,0 +1,11 @@
+Name:Lizhao, Lord of the Yaogu
+ManaCost:no cost
+Colors:black
+Types:Creature Demon
+K:Flying
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReanimate | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may put target creature card from an opponent's graveyard onto the battlefield tapped and under your control.
+SVar:TrigReanimate:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | ValidTgts$ Creature.OppCtrl | TgtZone$ Graveyard | TgtPrompt$ Choose up to one target creature card in an opponent's graveyard | TargetMin$ 0 | TargetMax$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigSac | TriggerDescription$ When CARDNAME dies, each opponent sacrifices a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ Player.Opponent | SacValid$ Creature
+Oracle:Flying\nWhen Lizhao, Lord of the Yaogu enters the battlefield, you may put target creature card from an opponent's graveyard onto the battlefield tapped and under your control.\nWhen Lizhao dies, each opponent sacrifices a creature.

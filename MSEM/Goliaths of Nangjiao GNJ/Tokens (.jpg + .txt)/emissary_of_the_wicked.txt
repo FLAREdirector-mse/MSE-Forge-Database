@@ -1,0 +1,9 @@
+Name:Emissary of the Wicked
+ManaCost:no cost
+Colors:black
+Types:Creature Demon
+K:Flying
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME enters the battlefield, you lose 4 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 4
+Oracle:Flying\nWhen Emissary of the Wicked enters the battlefield, you lose 4 life.

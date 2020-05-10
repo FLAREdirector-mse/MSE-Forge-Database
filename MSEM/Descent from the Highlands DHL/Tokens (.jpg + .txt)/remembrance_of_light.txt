@@ -1,0 +1,8 @@
+Name:Remembrance of Light
+ManaCost:no cost
+Types:Creature Spirit
+PT:3/2
+Colors:green,white
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may return target permanent card from your graveyard to your hand.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Permanent.YouCtrl
+Oracle:When Remembrance of Light enters the battlefield, you may return target permanent card from your graveyard to your hand.

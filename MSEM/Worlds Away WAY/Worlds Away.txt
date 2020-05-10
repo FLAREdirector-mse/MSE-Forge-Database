@@ -1,6 +1,6 @@
 [metadata]
 Code=WAY
-Date=2021-01-01 # TODO: Find official release date
+Date=2019-11-01
 Name=MSEM: Worlds Away
 Code2=WAY
 MciCode=way
@@ -15,7 +15,8 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 28 U Zhedina Envoys
 40 C Glimmer
 55 U Syzygy Navigator
-67 B Gyreon Smuggling
+61 U Bleak Channeler
+67 C Gyreon Smuggling
 102 R Possibility Engine
 108 M Scion of Calamities
 128 U Offworld Surveyors
@@ -28,6 +29,32 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 235 M Monument of Queens
 
 [tokens]
+c_a_mox_krismite
+c_a_treasure_sac
+g_3_3_elemental
+r_1_1_elemental_prowess_haste
+r_4_4_dragon_flying_haste
+r_x_1_elemental_trample_haste
+u_1_1_otter_draw
+w_3_3_elemental_flying_vigilance
+wubrg_1_1_scout
+salim
+
+enmity
+forbidden_journey
+foul_swathe
+hefty_load
+hivequeens_presence
+keen_edge
+pale_shroud
+reckless_valor
+spectral_whispers
+spinning_silk
+sunward
+vivification
+wild_boon
+years_of_experience
+
 land_basic_plains
 land_basic_island
 land_basic_swamp

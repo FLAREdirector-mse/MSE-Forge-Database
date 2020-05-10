@@ -1,0 +1,12 @@
+Name:Lizhao, Lord of the Yaogu
+ManaCost:5 B B
+Types:Creature Demon
+K:Flying
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReanimate | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may put target creature card from an opponent's graveyard onto the battlefield tapped and under your control.
+SVar:TrigReanimate:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | ValidTgts$ Creature.OppCtrl | TgtZone$ Graveyard | TgtPrompt$ Choose up to one target creature card in an opponent's graveyard | TargetMin$ 0 | TargetMax$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigSac | TriggerDescription$ When CARDNAME dies, each opponent sacrifices a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ Player.Opponent | SacValid$ Creature
+A:AB$ Token | Cost$ 3 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ lizhao_lord_of_the_yaogu | TokenOwner$ You | LegacyImage$ lizhao lord of the yaogu ghq | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Flying\nWhen Lizhao, Lord of the Yaogu enters the battlefield, you may put target creature card from an opponent's graveyard onto the battlefield tapped and under your control.\nWhen Lizhao dies, each opponent sacrifices a creature.\nRevive {3}{B}{B} ({3}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

@@ -1,0 +1,10 @@
+Name:Crimson Hellmaw
+Types:Creature Zombie Dragon
+Colors:red
+ManaCost:no cost
+K:Flying
+K:Haste
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigDealDamage | TriggerDescription$ When CARDNAME enters the battlefield, other creatures you control get +1/-1 until end of turn.
+SVar:TrigDealDamage:DB$DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3
+Oracle:Flying, haste\nWhen Crimson Hellmaw enters the battlefield, it deals 3 damage to any target.

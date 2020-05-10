@@ -1,0 +1,6 @@
+Name:Horse Nymph
+ManaCost:no cost
+Types:Creature Horse Nymph
+Colors:blue
+PT:1/0
+Oracle:

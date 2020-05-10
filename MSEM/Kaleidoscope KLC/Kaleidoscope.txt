@@ -1,6 +1,6 @@
 [metadata]
 Code=KLC
-Date=2021-01-01 # TODO Find official release date
+Date=2017-10-01
 Name=MSEM: Kaleidoscope
 Code2=KLC
 MciCode=klc
@@ -14,3 +14,6 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 108
 
 [tokens]
+b_1_2_mutant
+c_1_1_elemental
+c_a_clue_draw

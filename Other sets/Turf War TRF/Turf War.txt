@@ -1,0 +1,136 @@
+[metadata]
+Code=TWR
+Date=2018-09-24
+Name=Turf War
+Code2=TWR
+MciCode=twr
+Type=Other
+
+[cards]
+1 C No Return
+2 U Abandoned Terrace
+3 U Aeonic Conduit
+4 R All-Consuming Pools
+5 C Archaic Shrine
+6 C Assault Spires
+7 U Aven Sanctuary
+8 U Bloatswarm Hive
+9 R Bloodstained Citadel
+10 U Bluepetal Meadow
+11 C Bone Clouds
+12 U Brutal Wastes
+13 U Burn Rivers
+14 R The Change Dell
+15 C Chillwind Pass
+16 C City of Gears
+17 C Cold Steel Sanctum
+18 C Crypt of Whispers
+19 C Decrepit Settlement
+20 U Distant Destination
+21 R Dreamshrouded Cavern
+22 R Drifting Meadow
+23 C Expanding Undergrowth
+24 C Fertile Fields
+25 R Floating Fortress
+26 C Floating Islands
+27 U Floral Sunrise
+28 R Foreboding Anomaly
+29 C Forgotten Enclave
+30 U Frontier Outpost
+31 U Frostgripped Flow
+32 U Frozen Secrets
+33 U Gate of Possibilities
+34 R Genvosh, Eversealed
+35 R Glimpse of Tranquility
+36 C Glowing Gate
+37 R Grasping Grove
+38 U Gravity Well
+39 C Grim Barony
+40 R Grove of the Dark Ring
+41 C Guarded Bridge
+42 C Halls of Stone
+43 R Home of Wisdom
+44 R Hope's Finale
+45 U Hostile Infrastructure
+46 R Idyllic Vale
+47 C Impact Site
+48 U Impulsive Loci
+49 U Inactive Defense Array
+50 C Inspiring Shores
+51 C Iridescent Shroom Grove
+52 C Lavarift Spikes
+53 U Leyline Hub
+54 U Library of the Sun
+55 C Lily Marsh
+56 U Lost Mage Ring
+57 R Magmatic Catalyst
+58 C Market of Violence
+59 U Melon Meadows
+60 U Memorial of Dead Planes
+61 U Memory's Edge
+62 C Molten Cavern
+63 R Morning's Maze
+64 C Mortuary Stones
+65 U Oasis Sanctuary
+66 C Overgrown Hamlet
+67 C Peaceful Port
+68 R Picturesque Coast
+69 C Pools of Youth
+70 R Precarious Pass
+71 C Primal Waterfall
+72 U Prized Garden
+73 U Processing Plant
+74 C Protective Grove
+75 C Ravenous Cavern
+76 C Regal Vantage
+77 R Rotmulch Pits
+78 C Ruinous Waterfall
+79 U Scorched Earth
+80 C The Scorchyard
+81 U Secured Castle
+82 R Seedy Backalley
+83 U Shimmering Falls
+84 C Shining Hall
+85 U Shrine of the Forest Dragon
+86 R Shrine to the Eternal
+87 C Shrouded Peaks
+88 U Silent Shrine
+89 U Sinister Slums
+90 U Sleeping Dragon Valley
+91 U Slumbering Stalagmite
+92 C Solitary Clearing
+93 C Spikedust Storm
+94 C Stilling Deepwaters
+95 R Stormbroken Coast
+96 R Sunset Ridge
+97 C Suntouched Forest
+98 U Temple of Rage
+99 C Temple of Weariness
+100 R The Titan Forge
+101 R Twisted Darkheart
+102 R Ulthagen, Foot of the World
+103 R The Untraveled Paths
+104 U Valley of Hands
+105 C Vatian Defense Spires
+106 U Vatian Terraformer
+107 U Verdant Deepwell
+108 C Vile Crypt
+109 U Violet Crag
+110 C Wandering Peaks
+111 U Wasteland Outpost
+112 C Waterfall Citadel
+113 C Welcoming Hill
+114 U Whispering Shores
+115 C Windbrisk Peaks
+116 U Wytchwood Hive
+117 C Yamabushi Sanctuary
+
+[tokens]
+c_3_2_horror
+c_7_7_a_golem_trample
+g_1_1_insect
+r_1_1_soldier_first_strike
+w_1_1_bird_flying
+wb_1_1_cleric
+genvosh_freed
+nirys_echo

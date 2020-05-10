@@ -1,0 +1,10 @@
+Name:Skeletal Shredwing
+ManaCost:2 R
+Types:Creature Zombie Lizard
+PT:3/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCanNotBlock | TriggerDescription$ When CARDNAME enters the battlefield, target creature can't block until end of turn.
+SVar:TrigCanNotBlock:DB$ Pump | ValidTgts$ Creature | KW$ HIDDEN CARDNAME can't block. | TgtPrompt$ Select target creature. | IsCurse$ True | SpellDescription$ Target creature can't block until end of turn.
+A:AB$ Token | Cost$ 5 R ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ skeletal_shredwing | TokenOwner$ You | LegacyImage$ skeletal shredwing gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+SVar:PlayMain1:TRUE
+DeckHas:Ability$Token
+Oracle:When Skeletal Shredwing enters the battlefield, target creature can't block until end of turn.\nRevive {5}{R} ({5}{R}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

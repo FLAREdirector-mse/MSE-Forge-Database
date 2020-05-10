@@ -1,0 +1,10 @@
+Name:Frostfield Swordsman
+ManaCost:3 R
+Types:Creature Fox Soldier
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigArm | TriggerDescription$ When CARDNAME enters the battlefield, arm it. (Create a colorless Equipment artifact token with "Equipped creature gets +1/+0" and equip {2}, then attach it to that creature.)
+SVar:TrigArm:DB$ Token | TokenAmount$ 1 | TokenScript$ equipment_arm | LegacyImage$ equipment arm ghq | TokenOwner$ You | RememberTokens$ True | SubAbility$ DBAttach
+SVar:DBAttach:DB$ Attach | Object$ Remembered | ValidTgts$ Card.Self | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+DeckHas:Ability$Token
+Oracle:When Frostfield Swordsman enters the battlefield, arm it. (Create a colorless Equipment artifact token with "Equipped creature gets +1/+0" and equip {2}, then attach it to that creature.)

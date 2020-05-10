@@ -1,6 +1,6 @@
 [metadata]
 Code=PFP
-Date=2021-01-01 # TODO: Find official release date
+Date=2018-02-01
 Name=MSEM: Plagues of Fretport
 Code2=PFP
 MciCode=pfp
@@ -85,4 +85,9 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 210 U Ruined Citadel
 212 U Serene Trail
 214 U Vibrant Rainforest
+
 [tokens]
+b_3_2_mutant_horror
+bg_1_1_citizen
+g_1_2_frog
+r_1_1_soldier

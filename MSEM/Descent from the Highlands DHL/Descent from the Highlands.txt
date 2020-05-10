@@ -1,6 +1,6 @@
 [metadata]
 Code=DHL
-Date=2021-01-01 # TODO: Find official release date
+Date=2019-07-01
 Name=MSEM: Descent from the Highlands
 Code2=DHL
 MciCode=dhl
@@ -10,8 +10,27 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1
+6 U Ferocity of the Redeemed
+7 C Fidelity of the Pure
+15 C Strength of the Patient
 29 R Selene the Cruel
 83 C Dryad of the Grove
+86 C Exultation of Might
+93 C Resolution of Stone
+112 U Remembrance of Light
+113 R Scion of Fecundity
 137
 
 [tokens]
+b_2_2_demon
+g_1_1_spirit_snake
+gw_1_1_elk_spirit
+gw_6_6_elk
+exultation_of_might
+fawn_of_hesediel
+ferocity_of_the_redeemed
+fidelity_of_the_pure
+remembrance_of_light
+resolution_of_stone
+scion_of_fecundity
+strength_of_the_patient

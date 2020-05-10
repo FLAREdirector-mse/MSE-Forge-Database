@@ -1,0 +1,6 @@
+Name:Demon
+ManaCost:no cost
+Types:Creature Demon
+Colors:black
+PT:2/2
+Oracle:

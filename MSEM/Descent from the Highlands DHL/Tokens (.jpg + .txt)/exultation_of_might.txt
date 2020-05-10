@@ -1,0 +1,8 @@
+Name:Exultation of Might
+ManaCost:no cost
+Types:Creature Beast Spirit
+PT:7/4
+Colors:green
+K:Trample
+K:Reach
+Oracle:Trample, reach

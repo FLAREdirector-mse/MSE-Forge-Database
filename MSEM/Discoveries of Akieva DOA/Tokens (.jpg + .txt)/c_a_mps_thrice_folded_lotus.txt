@@ -1,0 +1,6 @@
+Name:Thrice-Folded Lotus
+ManaCost:no cost
+Types:Artifact Masterpiece
+A:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 3 | AILogic$ BlackLotus | SpellDescription$ Add three mana of any one color.
+A:AB$ DealDamage | Cost$ 3 T | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage any target.
+Oracle:{T}: Add three mana of any one color.\n{3}, {T}: Thrice-Folded Lotus deals 3 damage to any target.

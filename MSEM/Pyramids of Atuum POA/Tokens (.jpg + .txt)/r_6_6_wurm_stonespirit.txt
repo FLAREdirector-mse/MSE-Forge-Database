@@ -1,0 +1,7 @@
+Name:Wurm
+ManaCost:no cost
+Colors:red
+Types:Creature Wurm
+K:CantBeBlockedBy Creature.withFlying
+PT:6/6
+Oracle:This creature can't be blocked by creatures with flying.

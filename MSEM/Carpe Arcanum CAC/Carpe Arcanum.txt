@@ -1,6 +1,6 @@
 [metadata]
 Code=CAC
-Date=2021-01-01 # TODO: Find official release date
+Date=2018-08-01
 Name=MSEM: Carpe Arcanum
 Code2=CAC
 MciCode=cac
@@ -16,6 +16,3 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 90
 
 [tokens]
-b_1_1_skeleton
-r_3_3_dragon_flying
-equipment

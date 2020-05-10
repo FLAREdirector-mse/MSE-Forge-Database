@@ -1,6 +1,6 @@
 [metadata]
 Code=MS2
-Date=2021-01-01 # TODO: Find official release date
+Date=2020-01-01
 Name=MSEM: MSEM Masters 2020
 Code2=MS2
 MciCode=ms2
@@ -48,3 +48,13 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 227 M Xenocrata's Fleet
 
 [tokens]
+c_1_1_a_construct
+c_1_1_elemental
+c_1_1_samurai
+c_a_lotus_petal_sac
+u_1_1_otter_draw
+w_1_1_monk
+w_1_1_nomad
+wubrg_1_1_scout
+enmity
+pale_shroud

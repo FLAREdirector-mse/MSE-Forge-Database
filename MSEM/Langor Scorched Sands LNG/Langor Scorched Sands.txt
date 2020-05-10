@@ -1,6 +1,6 @@
 [metadata]
 Code=LNG
-Date=2021-01-01 # TODO: Find official release date
+Date=2018-05-01
 Name=MSEM: Langor: Scorched Sands
 Code2=LNG
 MciCode=lng
@@ -15,3 +15,8 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 133
 
 [tokens]
+b_1_1_rogue_block
+b_2_2_zombie
+g_1_1_saproling
+w_1_1_nomad
+land_desert

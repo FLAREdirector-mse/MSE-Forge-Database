@@ -1,6 +1,6 @@
 [metadata]
 Code=HVF
-Date=2021-01-01 # TODO: Find official release date
+Date=2018-11-01
 Name=MSEM: Harvest Festival
 Code2=HVF
 MciCode=hvf
@@ -14,3 +14,10 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 165
 
 [tokens]
+b_0_1_spirit_flying
+b_2_2_hound
+c_1_1_a_tinkering_swarm
+g_x_x_beast
+rg_0_2_scarecrow_defender_beast
+u_1_1_bird_flying
+w_1_1_citizen

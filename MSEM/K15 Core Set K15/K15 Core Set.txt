@@ -1,6 +1,6 @@
 [metadata]
 Code=K15
-Date=2021-01-01 # TODO Find official release date
+Date=2017-06-08
 Name=MSEM: K15 Core Set
 Code2=K15
 MciCode=k15
@@ -14,3 +14,18 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 249
 
 [tokens]
+b_1_1_skeleton
+b_2_2_zombie
+b_x_x_horror_indestructible
+c_1_1_a_thopter_flying
+c_3_3_a_golem
+g_1_1_saproling
+g_3_3_beast
+g_6_6_wurm_trample
+r_1_1_goblin
+r_5_5_dragon_flying
+u_2_2_illusion
+w_0_1_goat
+w_1_1_soldier
+w_2_2_knight_vigilance
+w_4_4_angel_flying

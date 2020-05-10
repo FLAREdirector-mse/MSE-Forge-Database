@@ -1,6 +1,6 @@
 [metadata]
 Code=AFM
-Date=2021-01-01 # TODO: Find official release date
+Date=2017-06-08
 Name=MSEM: Aftermath
 Code2=AFM
 MciCode=afm
@@ -267,15 +267,15 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 [tokens]
 w_1_1_soldier
 w_1_1_spirit_flying
-u_1_1_merfolk_loot
+u_1_1_merfolk_loot #
 b_1_1_vampire_lifelink
+b_0_0_zombie #
 b_2_2_zombie
-b_x_x_zombie
 r_3_1_elemental_trample_haste
 r_1_1_elemental
 r_1_1_goblin
-g_1_1_dryad_mana
-g_1_1_elf_druid
+g_1_1_dryad_mana #
+g_1_1_elf_druid #
 g_2_2_wolf
-g_5_5_wurm_trample
+g_5_5_wurm_trample #
 astrina_forged_for_glory

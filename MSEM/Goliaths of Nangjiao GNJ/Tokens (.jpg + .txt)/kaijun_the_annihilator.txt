@@ -1,0 +1,10 @@
+Name:Kai'Jun, the Annihilator
+ManaCost:no cost
+Colors:black
+Types:Legendary Creature Demon
+K:Flying
+K:Trample
+PT:5/5
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ At the beginning of your upkeep, sacrifice a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ You | SacValid$ Creature | SacMessage$ Creature
+Oracle:Flying, trample

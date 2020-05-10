@@ -1,6 +1,6 @@
 [metadata]
 Code=IMP
-Date=2021-01-01 # TODO Find official release date
+Date=2017-06-08
 Name=MSEM: Imperial Legacies
 Code2=IMP
 MciCode=imp
@@ -13,3 +13,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 143
 
 [tokens]
+c_1_1_samurai
+u_1_1_bird_flying
+w_1_1_human_samurai
+equipment

@@ -1,0 +1,6 @@
+Name:Demon Spirit
+ManaCost:no cost
+Types:Creature Demon Spirit
+K:Menace
+PT:4/4
+Oracle:Menace

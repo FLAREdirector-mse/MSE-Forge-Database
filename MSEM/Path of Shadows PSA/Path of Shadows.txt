@@ -1,6 +1,6 @@
 [metadata]
 Code=PSA
-Date=2021-01-01 # TODO Find official release date
+Date=2017-10-01
 Name=MSEM: Path of Shadows
 Code2=PSA
 MciCode=psa
@@ -18,3 +18,8 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 216
 
 [tokens]
+c_1_1_samurai
+c_2_2_spirit
+c_4_4_demon_spirit_menace
+g_1_1_snake_poisonous
+nidohagane_warfans

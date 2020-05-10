@@ -1,0 +1,8 @@
+Name:Fawn of Hesediel
+ManaCost:no cost
+Types:Creature Elk Spirit
+PT:2/2
+Colors:white
+K:First Strike
+K:Lifelink
+Oracle:First strike, lifelink

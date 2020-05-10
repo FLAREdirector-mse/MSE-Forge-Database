@@ -1,0 +1,5 @@
+Name:Samurai
+ManaCost:no cost
+Types:Creature Samurai
+PT:1/1
+Oracle:

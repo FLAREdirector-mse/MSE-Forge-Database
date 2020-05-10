@@ -1,6 +1,6 @@
 [metadata]
 Code=MPS_MSE
-Date=2021-01-01 # TODO Find official release date
+Date=2017-10-01
 Name=MSEM: MSEM Champions
 Code2=MPS_MSE
 MciCode=mps_mse
@@ -48,3 +48,6 @@ Type=Other
 39 M Golden Touch # reprint VTM
 40 M Avatar of Basat # reprint POA
 41 M Exeunt # reprint VTM
+
+[tokens]
+g_3_3_elemental

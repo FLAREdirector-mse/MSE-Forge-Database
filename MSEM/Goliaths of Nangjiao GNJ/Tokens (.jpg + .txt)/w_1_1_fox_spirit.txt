@@ -1,0 +1,6 @@
+Name:Fox Spirit
+ManaCost:no cost
+Types:Creature Fox Spirit
+Colors:white
+PT:1/1
+Oracle:

@@ -1,6 +1,6 @@
 [metadata]
 Code=GNJ
-Date=2021-01-01 # TODO Find official release date
+Date=2017-06-08
 Name=MSEM: Goliaths of Nangjiao
 Code2=GNJ
 MciCode=gnj
@@ -11,6 +11,50 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 [cards]
 1
 40 M Twin Lis of the Divine Realm
+78 C Shredskin Sky Horror
+81 U Undead Archivist
+96 C Diseased Prophet
+100 U Emissary of the Wicked
+103 U Fleshwrithe Ghoul
+107 R Kai'Jun, the Annihilator
+109 R Kugoja, Perished Conduit
+110 M Lizhao, Lord of the Yaogu
+116 C Ravaging Ghoul
+125 C Sightless Blight
+128 C Tomb Scavenger
+132 R Undeath Comes
+137 U Bone Pit Raptor
+144 R Crimson Hellmaw
+166 C Skeletal Shredwing
+227 U Kai'Shi, Anguished One 
 254
 
 [tokens]
+b_1_1_puppet
+b_1_1_rat
+b_5_5_demon_flying
+b_x_x_zombie
+c_a_idol_sac
+g_0_1_plant
+g_1_1_snake
+g_2_2_wolf
+r_4_4_dragon_flying
+rw_1_1_warrior
+w_1_1_bird_flying
+w_1_1_fox_spirit
+bone_pit_raptor
+crimson_hellmaw
+diseased_prophet
+emissary_of_the_wicked
+fleshwrithe_ghoul
+kaijun_the_annihilator
+kaishi_anguished_one
+lizhao_lord_of_the_yaogu
+pacifism
+ravaging_ghoul
+shimaru
+shredskin_sky_horror
+sightless_blight
+skeletal_shredwing
+undead_archivist
+wun_sus_staff

@@ -1,0 +1,8 @@
+Name:Diseased Prophet
+ManaCost:no cost
+Colors:black
+Types:Creature Zombie Wizard
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigDrain | TriggerDescription$ When CARDNAME enters the battlefield, each opponent loses 1 life.
+SVar:TrigDrain:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 1
+Oracle:When Diseased Prophet enters the battlefield, each opponent loses 1 life.

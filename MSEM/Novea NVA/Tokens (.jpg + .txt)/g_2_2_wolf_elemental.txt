@@ -1,0 +1,6 @@
+Name:Wolf Elemental
+ManaCost:no cost
+Types:Creature Wolf Elemental
+Colors:green
+PT:2/2
+Oracle:

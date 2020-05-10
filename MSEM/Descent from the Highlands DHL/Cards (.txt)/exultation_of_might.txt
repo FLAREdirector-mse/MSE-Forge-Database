@@ -1,0 +1,9 @@
+Name:Exultation of Might
+ManaCost:5 G G
+Types:Creature Beast Spirit
+K:Trample
+K:Reach
+PT:7/4
+A:AB$ Token | Cost$ 4 G ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ exultation_of_might | TokenOwner$ You | LegacyImage$ exultation of might dhl | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Trample, reach\nRevive {4}{G} ({4}{G}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

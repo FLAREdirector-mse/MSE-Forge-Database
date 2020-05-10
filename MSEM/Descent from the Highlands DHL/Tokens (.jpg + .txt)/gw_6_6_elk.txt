@@ -1,0 +1,6 @@
+Name:Elk
+ManaCost:no cost
+Types:Creature Elk
+Colors:green,white
+PT:6/6
+Oracle:

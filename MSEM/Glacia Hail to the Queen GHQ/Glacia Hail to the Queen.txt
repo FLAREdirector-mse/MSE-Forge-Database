@@ -1,6 +1,6 @@
 [metadata]
 Code=GHQ
-Date=2021-01-01 # TODO: Find official release date
+Date=2018-11-01
 Name=MSEM: Glacia: Hail to the Queen
 Code2=GHQ
 MciCode=ghq
@@ -16,3 +16,4 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 280
 
 [tokens]
+equipment # rename to equipment2 if using this alongside CAC / IMP / TOJ

@@ -1,0 +1,5 @@
+Name:Juggernaut
+ManaCost:no cost
+Types:Artifact Creature Juggernaut
+PT:*/*
+Oracle:

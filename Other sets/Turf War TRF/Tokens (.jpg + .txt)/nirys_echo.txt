@@ -1,0 +1,9 @@
+Name:Niry's Echo
+ManaCost:no cost
+Types:Legendary Creature Avatar
+Colors:white,black
+K:Lifelink
+K:Vigilance
+K:Protection from creature tokens
+PT:5/5
+Oracle:Lifelink, vigilance, protection from creature tokens

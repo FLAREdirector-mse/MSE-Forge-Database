@@ -1,0 +1,6 @@
+Name:Citizen
+ManaCost:no cost
+Colors:black,green
+Types:Creature Citizen
+PT:1/1
+Oracle:

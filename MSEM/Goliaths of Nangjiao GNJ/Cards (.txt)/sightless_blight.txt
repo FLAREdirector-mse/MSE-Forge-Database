@@ -1,0 +1,7 @@
+Name:Sightless Blight
+ManaCost:1 B
+Types:Creature Zombie
+PT:2/2
+A:AB$ Token | Cost$ 3 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ sightless_blight | TokenOwner$ You | LegacyImage$ sightless blight gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Revive {3}{B} ({3}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
