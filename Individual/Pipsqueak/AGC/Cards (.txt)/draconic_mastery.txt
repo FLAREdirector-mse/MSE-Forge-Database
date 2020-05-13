@@ -1,0 +1,12 @@
+Name:Draconic Mastery
+ManaCost:4 R R
+Types:Legendary Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigSac | TriggerDescription$ When CARDNAME enters the battlefield, sacrifice each other permanent you control and create twice that many Treasure tokens.
+SVar:TrigSac:DB$ SacrificeAll | ValidCards$ Permanent.Other+YouCtrl | RememberSacrificed$ True | SubAbility$ DBTreasure
+SVar:DBTreasure:DB$ Token | TokenAmount$ X | References$ X | TokenScript$ c_a_treasure_sac | TokenOwner$ You | LegacyImage$ c a treasure sac agc | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:SVar$RemAm/Times.2
+SVar:RemAm:Remembered$Amount
+A:AB$ DealDamage | Cost$ R R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to target creature or planeswalker.
+A:AB$ Token | Cost$ R R R R | TokenAmount$ 1 | TokenScript$ r_5_5_dragon_flying | TokenOwner$ You | LegacyImage$ r 5 5 dragon flying agc | SpellDescription$ Create a 5/5 red Dragon creature token with flying.
+Oracle:When Draconic Mastery enters the battlefield, sacrifice each other permanent you control and create twice that many Treasure tokens.\n{R}{R}: Draconic Mastery deals 3 damage to target creature or planeswalker.\n{R}{R}{R}{R}: Create a 5/5 red Dragon creature token with flying.

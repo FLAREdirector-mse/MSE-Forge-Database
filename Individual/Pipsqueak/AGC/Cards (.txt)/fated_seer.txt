@@ -1,0 +1,7 @@
+Name:Fated Seer
+ManaCost:U
+Types:Creature Human Wizard
+PT:1/2
+K:Flash
+A:AB$ Counter | Cost$ Return<1/Island> Sac<1/CARDNAME> | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 1 | SpellDescription$ Counter target spell unless its controller pays {1}.
+Oracle:Flash\nReturn an Island you control to its owner's hand, Sacrifice Fated Seer: Counter target spell unless its controller pays {1}.
