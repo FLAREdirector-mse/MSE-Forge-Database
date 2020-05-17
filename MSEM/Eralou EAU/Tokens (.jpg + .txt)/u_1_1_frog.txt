@@ -1,0 +1,6 @@
+Name:Frog
+ManaCost:no cost
+Types:Creature Frog
+Colors:blue
+PT:1/1
+Oracle:

@@ -1,0 +1,8 @@
+Name:Scion of Fecundity
+ManaCost:no cost
+Colors:green,white
+Types:Creature Elk Spirit
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | TriggerDescription$ When CARDNAME enters the battlefield, search your library for a creature card with converted mana cost 2 or less, reveal that card, put it into your hand, then shuffle your library.
+SVar:TrigChange:DB$ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Creature.cmcLE2 | ChangeNum$ 1
+Oracle:When Scion of Fecundity enters the battlefield, search your library for a creature card with converted mana cost 2 or less, reveal that card, put it into your hand, then shuffle your library.

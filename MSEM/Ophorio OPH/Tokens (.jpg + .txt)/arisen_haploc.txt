@@ -1,0 +1,8 @@
+Name:Arisen Haploc
+ManaCost:no cost
+Colors:black
+Types:Creature Lizard Skeleton
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | TriggerZones$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME enters the battlefield, return target creature card from a graveyard to its owner's hand.
+SVar:TrigReturn:DB$ ChangeZone | ValidTgts$ Creature | Origin$ Graveyard | Destination$ Hand
+Oracle:When Arisen Haploc enters the battlefield, return target creature card from a graveyard to its owner's hand.

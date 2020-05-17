@@ -13,3 +13,10 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 194
 
 [tokens]
+b_2_2_zombie
+c_3_3_a_construct
+c_1_1_a_servo
+g_1_1_elf_warrior
+w_1_1_human
+w_1_2_human_pirate
+open_wound

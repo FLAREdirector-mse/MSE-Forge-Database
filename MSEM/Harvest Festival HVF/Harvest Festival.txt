@@ -18,6 +18,6 @@ b_0_1_spirit_flying
 b_2_2_hound
 c_1_1_a_tinkering_swarm
 g_x_x_beast
-rg_0_2_scarecrow_defender_beast
+rg_0_2_scarecrow_defender_reach
 u_1_1_bird_flying
 w_1_1_citizen

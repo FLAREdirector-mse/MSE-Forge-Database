@@ -10,10 +10,12 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1 M The Infinite # reprint MIS
-2 R Akrianos' Command # possessive # reprint TOW
+2 R Akrianos' Command # reprint TOW
 3 R Almgrove Champion # reprint CAC
+28 U Against the Waves # reprint 101
 29 U Arcane Duelist # reprint UNR
 31 R Cane Dancer # reprint GHQ
+102 U Unceasing Flames # reprint 101
 129 M Burgeoning Blooms # reprint MAC
 197
 198 M Champion of Destinies
@@ -48,13 +50,44 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 227 M Xenocrata's Fleet
 
 [tokens]
+b_1_1_worm
+b_2_2_zombie
+b_4_4_demon_regrowth
+b_5_5_demon_flying
+b_5_5_horror
 c_1_1_a_construct
 c_1_1_elemental
 c_1_1_samurai
-c_a_lotus_petal_sac
+c_a_clue_draw
+c_a_gold
+c_a_lotus_petal_sac # wrong art
+c_a_treasure_sac
+g_0_1_plant
+g_1_1_saproling
+g_1_1_squirrel
+g_2_2_wolf_haste
+g_3_2_crocodile_trample
+r_1_1_cleric
+r_1_1_elemental
+r_1_1_goblin
+r_1_1_warrior
+r_5_5_dragon_flying_haste
+r_x_1_elemental_trample_haste
+u_0_1_weird_flying
 u_1_1_otter_draw
+w_0_2_ox
+w_1_1_human_soldier
 w_1_1_monk
 w_1_1_nomad
+w_1_1_soldier
+w_1_1_spirit_flying
 wubrg_1_1_scout
+against_the_waves
+aspect_of_faradia
+blight
 enmity
+fatethief
 pale_shroud
+scion_of_fecundity
+unceasing_flames
+warden_of_the_dead

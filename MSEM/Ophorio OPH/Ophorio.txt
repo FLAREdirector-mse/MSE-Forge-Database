@@ -12,8 +12,10 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 1
 60 M Reflected Moment
 65 C Seek Prophecy
+133 R Rite of Retribution
 158 C Dylso Charmer
 178 R Summoner's Call
 230
 
 [tokens]
+r_4_4_elemental_winnow

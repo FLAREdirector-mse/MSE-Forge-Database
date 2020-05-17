@@ -1,0 +1,6 @@
+Name:Horror
+ManaCost:no cost
+Colors:blue
+Types:Creature Horror
+PT:*/*
+Oracle:

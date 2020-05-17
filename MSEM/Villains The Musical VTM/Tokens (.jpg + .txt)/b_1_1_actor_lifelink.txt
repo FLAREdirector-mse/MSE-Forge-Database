@@ -1,0 +1,7 @@
+Name:Actor
+ManaCost:no cost
+Colors:black
+Types:Creature Actor
+K:Lifelink
+PT:1/1
+Oracle:Lifelink

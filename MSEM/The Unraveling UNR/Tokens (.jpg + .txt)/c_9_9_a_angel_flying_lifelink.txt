@@ -1,0 +1,7 @@
+Name:Angel
+ManaCost:no cost
+Types:Artifact Creature Angel
+K:Flying
+K:Lifelink
+PT:9/9
+Oracle:Flying, lifelink

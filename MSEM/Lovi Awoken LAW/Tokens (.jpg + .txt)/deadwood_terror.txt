@@ -1,0 +1,7 @@
+Name:Deadwood Terror
+ManaCost:no cost
+Colors:black
+Types:Creature Zombie
+K:Deathtouch
+PT:2/2
+Oracle:Deathtouch

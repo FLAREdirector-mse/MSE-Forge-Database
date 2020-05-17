@@ -1,0 +1,8 @@
+Name:Twisted Echo
+ManaCost:B
+Types:Creature Reflection Shaman
+K:CantBeBlockedBy Creature.untapped
+PT:1/1
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigDistort | TriggerDescription$ Distorted (This creature can be blocked by tapped creatures but not untapped creatures.)
+SVar:TrigDistort:DB$ PumpAll | NumAtt$ -1 | AddHiddenKeyword$ CARDNAME can block as though it were untapped. | ValidCards$ TriggeredAttacker.Creature+Tapped+DefenderCtrl
+Oracle:Distorted (This creature can be blocked by tapped creatures but not untapped creatures.)\nRevive {1}{B}

@@ -16,3 +16,6 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [tokens]
 c_1_1_a_construct
+g_1_1_spirit
+u_1_2_bird_flying
+w_4_4_angel_flying

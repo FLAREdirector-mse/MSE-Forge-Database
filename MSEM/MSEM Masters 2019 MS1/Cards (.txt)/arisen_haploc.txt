@@ -1,0 +1,9 @@
+Name:Arisen Haploc
+ManaCost:2 B B
+Types:Creature Lizard Skeleton
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | TriggerZones$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ When CARDNAME enters the battlefield, return target creature card from a graveyard to its owner's hand.
+SVar:TrigReturn:DB$ ChangeZone | ValidTgts$ Creature | Origin$ Graveyard | Destination$ Hand
+A:AB$ Token | Cost$ 5 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ arisen_haploc | TokenOwner$ You | LegacyImage$ arisen haploc oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Arisen Haploc enters the battlefield, return target creature card from a graveyard to its owner's hand.\nRevive {5}{B}{B} ({5}{B}{B}, Sacrifice a creature, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

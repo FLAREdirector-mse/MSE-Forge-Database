@@ -10,8 +10,24 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1
+87 C Fatethief
+105 U Twisted Echo
+196 R Shattered Mirrorwalker
 236
 
 [tokens]
+b_1_1_worm
+c_0_0_reflection
 g_3_3_elemental
+u_1_1_bird_flying
+w_2_2_cat
 adamant_cultist
+bleak_cultist
+chantwood_cultist
+eternal_nightwalker
+fatethief
+revived_colpah
+rotted_kalak
+shattered_mirrorwalker
+twisted_echo
+wild_hermit

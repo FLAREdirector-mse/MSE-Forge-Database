@@ -15,11 +15,11 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 185
 
 [tokens]
-c_a_powercell
-c_a_mps_cultivating_spheres
-c_a_mps_mirror_of_possibilities
-c_a_mps_thrice_folded_lotus
 c_0_1_a_egg_construct
 c_1_1_a_construct
 c_6_6_a_golem
 c_x_x_a_juggernaut
+c_a_mps_cultivating_spheres
+c_a_mps_mirror_of_possibilities
+c_a_mps_thrice_folded_lotus
+c_a_powercell

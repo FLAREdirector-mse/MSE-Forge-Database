@@ -1,0 +1,7 @@
+Name:Weird
+ManaCost:no cost
+Types:Creature Weird
+Colors:blue
+K:Flying
+PT:0/1
+Oracle:Flying

@@ -1,0 +1,6 @@
+Name:Cat Beast
+ManaCost:no cost
+Colors:green
+Types:Creature Cat Beast
+PT:4/4
+Oracle:

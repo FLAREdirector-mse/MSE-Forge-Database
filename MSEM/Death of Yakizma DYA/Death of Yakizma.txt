@@ -16,6 +16,10 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [tokens]
 c_1_1_a_construct_defender
+g_2_2_bear_dya
 r_1_1_dwarf_soldier
+w_1_1_cat_warrior
+w_1_1_human
+w_4_4_angel_flying
 w_5_5_giant
 wu_1_1_snow_elemental

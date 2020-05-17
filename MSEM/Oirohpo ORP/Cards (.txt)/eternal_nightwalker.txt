@@ -1,0 +1,8 @@
+Name:Eternal Nightwalker
+ManaCost:3 B B
+Types:Creature Vampire Shaman
+K:Lifelink
+PT:3/3
+A:AB$ Token | Cost$ 5 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ eternal_nightwalker | TokenOwner$ You | LegacyImage$ eternal nightwalker orp | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Lifelink\nRevive {5}{B}{B} ({5}{B}{B}, Sacrifice a creature, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

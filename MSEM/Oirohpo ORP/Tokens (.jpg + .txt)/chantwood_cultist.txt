@@ -1,0 +1,9 @@
+Name:Chantwood Cultist
+ManaCost:no cost
+Colors:green
+Types:Creature Reflection Shaman
+PT:3/3
+S:Mode$ Continuous | Affected$ Shaman.YouCtrl+Other | AddPower$ 1 | Description$ Other Shamans you control get +1/+0.
+SVar:PlayMain1:TRUE
+DeckHints:Type$Shaman
+Oracle:Other Shamans you control get +1/+0.

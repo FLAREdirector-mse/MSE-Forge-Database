@@ -1,0 +1,10 @@
+Name:Rite of Retribution
+ManaCost:3 R R
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigToken | CheckSVar$ X | SVarCompare$ GTY | References$ X,Y | TriggerDescription$ At the beginning of your upkeep, if an opponent has more life than you, create an 4/4 red Elemental creature token with “Creatures blocking this creature have winnow.” It gains haste.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ r_4_4_elemental_winnow | TokenOwner$ You | LegacyImage$ r 4 4 elemental winnow oph | RememberTokens$ True | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Remembered | KW$ Haste | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:PlayerCountOpponents$HighestLifeTotal
+SVar:Y:Count$YourLifeTotal
+Oracle:At the beginning of your upkeep, if an opponent has more life than you, create an 4/4 red Elemental creature token with “Creatures blocking this creature have winnow.” It gains haste. 

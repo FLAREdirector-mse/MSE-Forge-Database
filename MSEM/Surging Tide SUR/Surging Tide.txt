@@ -13,3 +13,14 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 183
 
 [tokens]
+b_0_1_serf
+b_1_1_rat
+b_2_2_zombie
+b_5_5_demon_flying
+c_a_idol_sac
+g_2_2_wolf
+g_4_4_beast
+u_2_2_drake_flying
+w_1_1_bird_flying
+w_1_1_warrior
+haotais_blessing

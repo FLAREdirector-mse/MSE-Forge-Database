@@ -15,10 +15,36 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 286
 
 [tokens]
+b_2_2_zombie
+c_a_gold
+c_a_idol_sac
 c_1_1_elemental
+c_1_1_spirit
+c_2_2_spirit # wrong art
+c_1_1_a_thopter_flying
+c_2_2_a_construct
+c_5_5_a_golem
+g_1_1_spirit_snake
+g_2_2_wolf
 g_3_3_elemental
 r_1_1_dwarf_soldier
+r_1_1_elemental # wrong art
+r_1_1_goblin
+r_1_1_soldier # wrong art
+r_2_1_merfolk
+r_2_2_dragon_flying_firebreathing
 r_3_3_dragon_flying
+u_1_1_bird_flying
+u_1_1_nymph_flying
+u_6_6_kraken
+w_1_1_citizen
+w_1_1_cleric
 w_1_1_nomad
+w_1_1_spirit_flying
+w_1_1_warrior
+w_2_2_knight
+wu_1_1_snow_elemental # wrong art
+arisen_haploc
 arrest
-aura
+aura_adj
+undead_archivist

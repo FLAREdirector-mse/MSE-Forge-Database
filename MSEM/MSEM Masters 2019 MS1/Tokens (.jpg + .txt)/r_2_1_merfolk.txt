@@ -1,0 +1,6 @@
+Name:Merfolk
+ManaCost:no cost
+Types:Creature Merfolk
+Colors:red
+PT:2/1
+Oracle:

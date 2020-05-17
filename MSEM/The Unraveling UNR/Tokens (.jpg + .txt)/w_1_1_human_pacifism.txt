@@ -1,0 +1,7 @@
+Name:Human
+ManaCost:no cost
+Colors:white
+Types:Creature Human
+PT:1/1
+S:Mode$ Continuous | Affected$ Card.Self | AddHiddenKeyword$ CARDNAME can't attack or block. | Description$ This creature can't attack or block.
+Oracle:This creature can't attack or block.

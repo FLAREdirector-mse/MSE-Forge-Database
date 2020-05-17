@@ -15,3 +15,6 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 90
 
 [tokens]
+g_3_3_beast
+w_1_1_human
+w_1_1_spirit_flying

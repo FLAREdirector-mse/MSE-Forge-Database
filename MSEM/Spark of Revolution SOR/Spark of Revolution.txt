@@ -13,4 +13,16 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 202
 
 [tokens]
+br_1_1_goblin
 c_1_1_a_construct
+c_1_1_a_phyrexian
+g_0_1_plant
+gu_1_1_elemental
+r_1_1_elemental
+r_1_1_goblin
+r_4_4_dragon_flying
+rw_3_1_goblin_soldier
+u_2_1_illusion_illusory
+ub_2_2_elemental
+w_1_1_soldier
+wb_1_1_e_spirit

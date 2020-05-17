@@ -1,0 +1,5 @@
+Name:Reflection
+ManaCost:no cost
+Types:Creature Reflection
+PT:0/0
+Oracle:

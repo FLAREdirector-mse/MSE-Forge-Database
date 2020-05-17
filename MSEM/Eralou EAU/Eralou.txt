@@ -16,3 +16,9 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [tokens]
 c_a_lotus_petal_sac
+g_1_1_saproling
+g_3_2_crocodile_trample
+r_1_1_cleric
+u_1_1_frog
+w_1_1_bird_flying
+aspect_of_faradia

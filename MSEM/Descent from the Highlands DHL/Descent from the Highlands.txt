@@ -26,6 +26,7 @@ b_2_2_demon
 g_1_1_spirit_snake
 gw_1_1_elk_spirit
 gw_6_6_elk
+w_1_1_bird
 exultation_of_might
 fawn_of_hesediel
 ferocity_of_the_redeemed

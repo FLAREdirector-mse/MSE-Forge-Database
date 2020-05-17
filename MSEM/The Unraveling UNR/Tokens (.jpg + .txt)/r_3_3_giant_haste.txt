@@ -1,0 +1,7 @@
+Name:Giant
+ManaCost:no cost
+Colors:red
+Types:Creature Giant
+K:Haste
+PT:3/3
+Oracle:Haste

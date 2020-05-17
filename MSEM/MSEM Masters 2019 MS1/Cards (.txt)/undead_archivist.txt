@@ -1,0 +1,9 @@
+Name:Undead Archivist
+ManaCost:2 U U
+Types:Creature Zombie Wizard
+PT:0/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target instant or sorcery card from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Instant.YouCtrl,Sorcery.YouCtrl
+A:AB$ Token | Cost$ 5 U ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ undead_archivist | TokenOwner$ You | LegacyImage$ undead archivist gnj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Undead Archivist enters the battlefield, return target instant or sorcery card from your graveyard to your hand.\nRevive {5}{U} ({5}{U}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
