@@ -1,0 +1,10 @@
+Name:Nylea's Favored
+ManaCost:3 G G
+Types:Creature Hydra
+PT:3/3
+K:Vigilance
+K:Trample
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ At the beginning of your end step, put X +1/+1 counters on CARDNAME, where X is your devotion to green.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ X | References$ X
+SVar:X:Count$Devotion.Green
+Oracle:Vigilance, trample\nAt the beginning of your end step, put X +1/+1 counters on Nylea's Favored, where X is your devotion to green.
