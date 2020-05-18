@@ -1,13 +1,13 @@
 [metadata]
-Code=TWR
+Code=TRF
 Date=2018-09-24
 Name=Turf War
-Code2=TWR
-MciCode=twr
+Code2=TRF
+MciCode=trf
 Type=Other
 
 [cards]
-1 C No Return
+1 C "No Return"
 2 U Abandoned Terrace
 3 U Aeonic Conduit
 4 R All-Consuming Pools

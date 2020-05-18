@@ -11,6 +11,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 [cards]
 1
 50 R Cane Dancer
+141 C Frostfield Swordsman
 159 R Starlit Raze
 235 R Monument to the Fallen Man
 280
