@@ -2,5 +2,10 @@ Name:Whiterun Harbor
 ManaCost:no cost
 Types:Legendary Land
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ Draw | Cost$ T | NumCards$ 1 | Defined$ Player | SubAbility$ DBDraw | SubAbility$ DBCount | OptionalDecider$ Opponent | StackDescription$ SpellDescription | SpellDescription$ Each opponent may draw a card. For each player who does, draws a card.
-Oracle:{T}: Add {C}.\n{T}: Each opponent may draw a card. For each player who does, draw a card.\nNOTE: Card does not currently function as written. Card currently lets each player draw a card.
+A:AB$ RepeatEach | Cost$ T | RepeatSubAbility$ DBDrawOpp | RepeatPlayers$ Player.Opponent | SubAbility$ DBDrawSelf | RepeatOptionalForEachPlayer$ True | RepeatOptionalMessage$ Do you want to draw a card? | SpellDescription$ Each opponent may draw a card. For each player who does, draw a card.
+SVar:DBDrawOpp:DB$ Draw | NumCards$ 1 | Defined$ Player.IsRemembered | Chooser$ Player.IsRemembered | SubAbility$ DBCount
+SVar:DBCount:DB$ StoreSVar | SVar$ X | Type$ CountSVar | Expression$ X/Plus.1 | References$ X
+SVar:DBDrawSelf:DB$ Draw | NumCards$ X | Defined$ Player | References$ X | Hidden$ True | Shuffle$ True | StackDescription$ None | SubAbility$ DBReset
+SVar:DBReset:DB$ StoreSVar | SVar$ X | Type$ Number | Expression$ 0 | References$ X
+SVar:X:Number$0
+Oracle:{T}: Add {C}.\n{T}: Each opponent may draw a card. For each player who does, draw a card.
