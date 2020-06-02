@@ -1,0 +1,8 @@
+Name:Aspect of Shifting Storms
+ManaCost:no cost
+Colors:blue
+Types:Creature Shapeshifter
+PT:0/0
+K:ETBReplacement:Copy:DBCopy:Optional
+SVar:DBCopy:DB$ Clone | Choices$ Creature.Other | SpellDescription$ You may have CARDNAME enter the battlefield as a copy of any creature on the battlefield.
+Oracle:You may have Aspect of Shifting Storms enter the battlefield as a copy of any creature on the battlefield.

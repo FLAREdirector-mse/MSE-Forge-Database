@@ -1,0 +1,7 @@
+Name:Kinjiru Cavalry
+ManaCost:no cost
+Colors:black
+Types:Creature Human Knight
+K:Menace
+PT:1/1
+Oracle:Menace

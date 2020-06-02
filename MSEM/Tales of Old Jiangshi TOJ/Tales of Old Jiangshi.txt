@@ -13,3 +13,28 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 184
 
 [tokens]
+c_a_treasure_sac
+c_2_2_spirit
+r_2_2_dragon_flying_pump
+w_0_1_cat
+w_1_1_human_samurai
+wb_0_1_human_advisor_kirishima
+aspect_of_shifting_storms
+deathless_disciple
+equipment
+forlorn_companion
+hirukaris_immortal #
+imperial_diplomats
+kareki_retainer
+kareki_vanguard
+kinjiru_blackguard
+kinjiru_cavalry
+moeru_thunderers
+moranai_outriders
+moranai_survivalist
+mortal_tapestry
+profaner_of_souls
+red_flower_assassin
+raikai_raider
+shenjin_renegade
+spirit_keeper

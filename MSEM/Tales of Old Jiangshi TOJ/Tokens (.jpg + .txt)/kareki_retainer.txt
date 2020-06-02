@@ -1,0 +1,7 @@
+Name:Kareki Retainer
+ManaCost:no cost
+Colors:green
+Types:Creature Human Warrior
+K:Vigilance
+PT:3/2
+Oracle:Vigilance

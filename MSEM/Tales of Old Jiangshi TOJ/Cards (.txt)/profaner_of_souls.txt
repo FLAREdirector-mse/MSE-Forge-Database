@@ -1,0 +1,9 @@
+Name:Profaner of Souls
+ManaCost:4 B
+Types:Creature Human Wizard
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may return target creature card with converted mana cost 2 or less from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Creature.YouCtrl+cmcLE2
+A:AB$ Token | Cost$ 6 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ profaner_of_souls | TokenOwner$ You | LegacyImage$ profaner of souls toj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Profaner of Souls enters the battlefield, you may return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.\nRevive {6}{B} ({6}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

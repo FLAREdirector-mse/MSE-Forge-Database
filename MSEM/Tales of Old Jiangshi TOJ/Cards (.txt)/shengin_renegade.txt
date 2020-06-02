@@ -1,0 +1,7 @@
+Name:Shengin Renegade
+ManaCost:2 B
+Types:Creature Human Rogue
+PT:3/1
+A:AB$ Token | Cost$ B Discard<1/Card> ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ shengin_renegade | TokenOwner$ You | LegacyImage$ shengin renegade toj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:nRevive—{B}, Discard a card ({B}, Discard a card, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
