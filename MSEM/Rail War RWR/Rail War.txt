@@ -9,10 +9,186 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 R Battlesuit Prototyping
+2 C Custom Armaments
+3 C Diligent Analyst
+4 R Dragonwrought Engineer
+5 C Evening Report
+6 U Fashionable Heiress
+7 U Fortunate Exorcist
+8 C Guardian of Rawthlin
+9 U Honorable Enforcer
+10 C Keep the Peace
+11 C Laconic Deputy
+12 M Mari, Dawn Resurgent
+13 R Marshal Jin Guiying
+14 C Renegade Spiritualist
+15 C Specialist Saboteur
+16 C Stay On Guard
+17 R Steelclad Investigator
+18 C Traveling Marshal
+19 C Watchful Signalman
+20 U Worldwide Reach
+21 U Xiu's Escape
+22 C Aetheric Disarm
+23 R Answer Midnight's Call
+24 C Consult on Ages Lost
+25 C Failing Defenses
+26 C Gleeful Deviser
+27 C Grizzled Stoker
+28 U Hostile Takeover
+29 C Lightning Draw
+30 U Lurk at Vision's Edge
+31 R Reckless Research
+32 R Ride the Storm
+33 C Rise From the Harbor
+34 C Secret-Hoarder
+35 R Severin, Broken Genius
+36 R Shatter Mortal Conveyances
+37 U Spectacle of Innovation
+38 U Suborn Humanity's Works
+39 C Tentacled Grip
+40 C Tracing Leylines
+41 U Union Rail Strikebreaker
+42 C Watch from Above
+43 R Consign to Oblivion
+44 U Darken the Sky
+45 R Dawn of the Final Day
+46 C Dead Man's Ambush
+47 C Derail
+48 C Determined Slayer
+49 C Devour Memories
+50 C Forsaken Gunfighter
+51 U Guiying's Gambit
+52 R Hartwin, Cunning Lieutenant
+53 C Lostrite Evoker
+54 C Mei Liva's Emissary
+55 U Pained Ascension
+56 C Past Unresolved
+57 C Shadow of Izumito
+58 C Teeth Without Number
+59 U Thoughtslick Engineer
+60 C Treacherous Toss
+61 R Twelve Thousand Eyes
+62 R Unforget
+63 U Unorthodox Methods
+64 U Ancestral Warlord
+65 C Bank Job
+66 C Blind Sharpshooter
+67 C Clutch Shot
+68 R Demolitionist Deviser
+69 C Devised Companions
+70 U Douse in Flame
+71 U Flamearrow Partisan
+72 C Gilded Gunman
+73 C Grifter's Diversion
+74 U Guns Akimbo
+75 C Guns Blazing
+76 R Jin Yahui, Sage of War
+77 R Night of Falling Stars
+78 R Relic Heist
+79 U Rising Temper
+80 C Savvy Saboteur
+81 C Scrapyard Raiders
+82 C Sullivan's Courier
+83 C Tesqua Cohort
+84 R Wandering Doyen
+85 C Absorb the Soul
+86 C Clear the Way Home
+87 R Crush All in Their Path
+88 C Daring Cavalier
+89 U Deviser's Cunning
+90 C Marre Guardian
+91 C Prophet of Reclamation
+92 C Ranger's Guile
+93 U Reclaim the World
+94 R Shattered Prison
+95 U Stand Unassailable
+96 C Strike Down the Usurpers
+97 U Sunrise Sentinel
+98 R Thuggish Detective
+99 U Thunderwhirl Dancer
+100 R Tower Over The Sky
+101 C Transformative Insights
+102 C Truthmarked Archivist
+103 R Tsolmon, the Huntress
+104 C Wrassle
+105 C Young Falconer
+106 R Caylin Whirlwind
+107 R Corporate War
+108 C Doom Defied
+109 U Drink Thoughts Like Oil
+110 U Dueling Duo
+111 R Emmerich, the Negotiator
+112 R Fulfill Twisted Dreams
+113 U Gathering the Gang
+114 R Henrike Clevain, Rail Baron
+115 C Impeccable Aim
+116 M Last Stop
+117 U Lie Dreaming Not Dead
+118 M The Long Road North
+119 M Magnificent Raid
+120 C Marinton Occultist
+121 M Mei Liva, the Exfiltrator
+122 C Morningsoul Posse
+123 U Mountain-Western Inventor
+124 U Propaganda Division
+125 R Raven-Cursed Dominik
+126 U Ravensgulch Contractor
+127 C Recall Forgotten Eons
+128 R Riko, the Paragon
+129 C Saboteur's Panic
+130 R Sammel Wyldjack
+131 R Shroud the World in Doom
 132 M Singularity's Grasp
+133 R Spark New Life
+134 C Sparkline Harness
+135 U Sullivan's Heralds
+136 M Taste Brilliance
+137 U Technology Transfer
+138 M Tenne, Thief of Destiny
+139 U Truth Unveiled
+140 C Twinblade Paragon
+141 C Weary Sentinel
+142 C Witchlock Sniper
 143 M Worlds Colliding
-180
+144 M Xiong Mao, the Protector
+145 R Xiu, the Sharpshooter
+146 C Armored Transports
+147 R Brazen Blackguard
+148 U Devised Battlesuit
+149 C Elderbane Rifle
+150 U Elections Tampering
+151 U Galvan Coal Line
+152 U Hellbent Speed
+153 R Imperial Titan
+154 U Lumenbay Flyer Line
+155 U Lumenbay Jailer
+156 U Marinton-Ravengulch Line
+157 C Modular Mercenary
+158 U Northern Express Line
+159 U Rawthlin Market Line
+160 C Snowclearer
+161 R Sovereign Skies
+162 C Sparkline Dancer
+163 R Steam Daimyo's Gauntlets
+164 U Steamcharged Armor
+165 C Steamwork Musicians
+166 U Stormcannon Testing
+167 R Throne of the West
+168 U Autumn Moon
+169 C Catalina's Turf
+170 C Dominik's Shack
+171 U Forgotten Doorway
+172 C Ganzorig's Domain
+173 C Hiroto's Refuge
+174 C Neblus' Legacy
+175 C Riga's Workshop
+176 C Riko's Academy
+177 C Riv's Safehouse
+178 R Shugenja Sanctuary
+179 C Takumi's Headquarters
+180 C Tsubasa's Redoubt
 
 [tokens]
 c_1_1_a_construct

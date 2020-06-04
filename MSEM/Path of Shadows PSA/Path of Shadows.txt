@@ -9,13 +9,215 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 R Faceless Animist
+2 M Hirukari, Daughter of the Sun
+3 M Mua, Seishin Ascendant
+4 U Shadowstrider
+5 U Silent Wanderer
+6 U Voiceless Assailant
+7 R Absolve
+8 C Aokara Devoted
+9 R Chochin the Silent Moth
+10 R Commander Hyctaleon
 11 R Hanabira, Kogane's Legacy
+12 U Heirloom
+13 C Hinasa Historian
+14 C Hinasa Lorebinder
+15 R Imperator Valtasius
+16 C Inner Peace
+17 C Inner Purity
+18 U Kiboshi's Guardian
+19 C Lesson in Discipline
+20 M Little Kibo
+21 U One with Seishin
+22 U Oshiruko Purifier
+23 C Phasmophobia
+24 C Scions of Old Jiangshi
+25 U Senaturian Legion
+26 C Serene Form
+27 C Shokan Battalion
+28 U Shokan Captain
+29 R Spiritual Ascension
+30 U Strident Retainer
+31 U Takaki's Kihei
+32 C Teikoku Captain
+33 C Teikoku Songcrafter
+34 R White Petal Ronin
+35 C Aokara Duelists
+36 U Aokara Elite
+37 U Betrayal of Steel
+38 C Disciple of Winds
+39 C Fleeting Thoughts
+40 C Gifts of the Oshiruko
+41 R Himitsu, Shigure's Legacy
+42 U Hisana-no-Oni
 43 U Imperial Artisan
+44 R Imposition
+45 C Jiangshi Clairvoyant
+46 R Kaiju-no-Oni
+47 R Kasoha, Keeper of Truths
+48 C Kowareta Informant
+49 M Lord Rokai
+50 C Mana Corruption
+51 U Mystic Arts
+52 C Path of the Waters
+53 U Raiun Bay Scourge
+54 U Rokai's Vassal
+55 R Scrollmaster
+56 C Sea Hunter
+57 C Seishin Tidekeeper
+58 C Spirit Reflections
+59 R Stormwake
+60 U Tales of Old Jiangshi
+61 R Unearthly Grace
+62 C Whisper of the Winds
+63 C Abura-no-Oni
+64 C Awoken Nightmares
+65 C Coil Remnant
+66 U Curse of Kurayami
+67 U Duskscale Marauder
+68 M Emperor Azuma Hashiro
+69 R End of the Empire
 70 C Favor of the Emperor
+71 U Finishing Touches
+72 C Fleshcage Shambler
+73 C Forbidden Brew
+74 U Hashiro's Devoted
+75 U Hashiro's Vanguard
+76 U Heralds of Shikai
+77 R Keeper of Dark Shadows
+78 C Kemono-no-Oni
 79 R Ketsueki, Kiyomi's Legacy
+80 C Kurayami Butcher
+81 C Kurayami Necromancer
+82 U Light Within Shadow
+83 R Ronin of Broken Vows
+84 C Sasori Nightrunner
+85 C Sever Limbs
+86 C Shikai Hunters
+87 R Shikai Revenant
+88 R Shizura, Keeper of Traditions
+89 R Soulbreaker of Mautakesh
+90 C Unhallow
+91 C Disciple of Flames
+92 R Doroda of Broken Vows
+93 C Fires of Seishin
+94 R Iaijutsu
+95 C Ikari-no-Oni
+96 U Imperial Siege
+97 C Jaakuna Betrayer
+98 U Jaakuna Bloodsworn
+99 U Jaakuna Tyrant
+100 C Kami's Greed
+101 C Kamu-Tribe Cavalry
+102 R Kamu-Tribe Outfitter
+103 U Kamu-Tribe Rager
+104 C Kamu-Tribe Runt
+105 R Kamu-Tribe Warlord
+106 R Kasai, Asharo's Legacy
+107 M Masahita, Bloodtongue
+108 U Masahita's Servant
+109 U Scintillate
+110 U Seishin Rageshaper
+111 C Seishin Smokeshaper
+112 U Shaping Dragonsteel
+113 R Sovereign of Old Jiangshi
+114 C Stormshaper Adept
+115 C Thousand Cuts
+116 C Unleash the Dragon
+117 R Way of the Dragon
+118 C Yamisaran Bladedancer
+119 U Blade of Mautakesh
+120 U Forgotten Homelands
+121 C Fuhai-no-Oni
+122 C Hinode Ranger
+123 C Kaiju Renegades
+124 U Kareki Heretic
+125 U Kizoku Valiant
+126 M Konoe the Traitor's Hand
+127 U Konoe's Lieutenant
+128 C Kumo-no-Oni
+129 C Kuryu Swordsman
+130 U Last Stand of the Naga
+131 U Legacy's End
 132 R Mana Ascetic
-216
+133 R Master of Balance
+134 R Moranai Paragon
+135 C One with the World
+136 C Prayer of Drifting Lights
+137 R Scion of Scales
+138 C Sevenfold Monk
+139 C Sheraku Swordsman
+140 C Snake Tattoo
+141 U Speaker of Seasons
+142 C Spectral Kitsune
+143 C Student of the Coil
+144 R Tarraka-no-Oni
+145 R Tsang Jin, Master of the Jade Sea
+146 R Uguisu, Kenshiro's Legacy
+147 R General Takaki
+148 R Haruna, Master Architect
+149 R Imako, Ninefingers
+150 R Inoshi the Wild Boar
+151 R Junan Venomtongue
+152 R Kogane the Crimson Consort
+153 U Kuma Strike
+154 R Lady Ashima
+155 M Mautakesh
+156 U Only Memories Remain
+157 M Ryukami, the First Sovereign
+158 R Saki of the Sea and Sky
+159 U Sanctify
+160 U Treacherous Ways
+161 R Urushi, the Ripple in the Smoke
+162 U Worthy of the Name
+163 R Yuso, Light of Jiangshi
+164 R Zahar, Aghavaan's Legacy
+165 R Asahi Yoroi
+166 C Bladed Warfan
+167 U Emblem of Aghavaan
+168 R Envenomed Shuriken
+169 R Eternal Inheritance
+170 U Fortune Charm
+171 U Imperial Katana
+172 M Imperial Mox
+173 C Inscribed Histories
+174 U Kameno Yoroi
+175 U Kiri Yoroi
+176 R Mask of Shikai
+177 R Mysterious Coffer
+178 U Nidohagane Warfans
+179 R Pagoda of Longevity
+180 U Seishin's Edge
+181 R Sekitsui Yoroi
+182 U Shadow Lantern
+183 M Shionoshio, Ocean's Vow
+184 C Shugenja's Journal
+185 R Soulstone
+186 R Spellblade
+187 M Sword of Silver and Gold
+188 M Anzen, Beyond the Sea
+189 M Chikami Castle
+190 U Dragonwall Gates
+191 U House of Forgotten Whispers
+192 U Imperial Port
+193 C Kurayami Shrine
+194 M The Last Sacred Gate
+195 R Memorial of the Fallen
+196 R Midnight Keep
+197 U Perilous Passage
+198 M Saishuteki Castle
+199 U Seishin Dojo
+200 U Shikai's Redoubt
+201 R Sunset Monastery
+202 R Temple of Falling Leaves
+203 M Tower of Long Shadows
+204 R Unzari Ruins
+205 L Plains
+206 L Island
+207 L Swamp
+208 L Mountain
+209 L Forest
 
 [tokens]
 c_1_1_samurai

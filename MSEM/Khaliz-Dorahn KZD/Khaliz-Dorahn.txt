@@ -9,10 +9,275 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 U Barbarian Axe Flinger
+2 U Barbaric Ambusher
+3 R Battle for the Shield
+4 U Danuri Eaglerider
+5 C Danuri Phalanx
+6 C Danuri Warcaller
+7 U Dictate of the Triumvirate
+8 M Elspeth, Protector of the Meek
+9 C Elspeth's Intervention
+10 U Enlistment Officer
+11 U Ethereal Savior
+12 C Fading Memories
+13 C Fellor Bloodseeker
+14 C Frontline Enthusiast
+15 U General's Presence
+16 R Heroes of Wars Past
+17 C Kill Shot
+18 R Lumi Orthodox
+19 C Martial Eagle
+20 U Military Gathering
+21 C Order's Anointer
+22 C Peaceful Intentions
+23 C Power of Unity
+24 C Punish Aggression
+25 C Resounding Battlecry
+26 M The Shield
+27 U Shield's Rebuttal
+28 C Strike from Above
+29 C Swiftclaw Griffin
+30 U Temple's Facade
+31 R Unburdening Priest
+32 U Voice of Gaalia
+33 C Youthful Recruiter
+34 R Abandon the Ranks
+35 C Arcanist's Familiar
+36 U Arcanomancer
+37 C Cancel
+38 C Clairvoyant Mage
+39 C Clever Diversion
+40 U Clever Infiltrator
+41 U Contemptuous Teacher
+42 C Denied Attempt
+43 U Dictate of Logayr
+44 U Elementalize
+45 C Elusive Illusionist
+46 U Embodiment of Heavens
+47 C Erudite Aspirant
+48 R Evil One's Mind Tricks
+49 C Expel from Reality
+50 U Fatestitcher
+51 U Fleeting Distractor
+52 U Hindered Research
+53 R Lafterii Guilemaster
+54 C Lafterii Trickery
+55 C Merkurio's Prowess
+56 R Mirror Image
+57 C Quiet Meditation
+58 C Runewing's Feathers
+59 C Search for Inspiration
+60 U Silencing Curse
+61 M Temporal Loophole
+62 C Tombstone Looter
+63 U Unstable Experiment
+64 C Volatile Elemental
+65 C Windrider Elemental
+66 R Battle the Evil One
+67 C Battle-Scarred Combatant
+68 U Blightbringer
+69 U Blighted Reckoning
+70 R Blighting Ooze
+71 C Brainless Wanderers
+72 U Coercive Methods
+73 C Crippling Illness
+74 U Cutthroat Deceiver
+75 C Deadly Infection
+76 C Dementia's Clutch
+77 U Dictate of the Evil One
+78 C Disentomb
+79 C Dredging Aberration
+80 U Driver of Hordes
+81 C Empty the Tombs
+82 M The Evil One Awakens
+83 C Grave Reaper
 84 R Grave Tutor
+85 U Grim Recruitment
+86 U Heartless Warleader
+87 R Herald of Oblivion
+88 C Polluted Servant
+89 M Rallios Unleashed
+90 U Reader of Fates
+91 C Rehison Enforcer
+92 C Rehison Soothemage
+93 C Ritual of Blight
+94 C Strangle to Death
+95 U Undead Harbinger
+96 C Undying Mobilizer
+97 U Venomous Grasp
+98 C Warm Blood Chaser
+99 C Abrupt Volley
+100 C Barbarian Battle Rage
+101 C Barbarian Rager
+102 U Barbarian Weaponsmith
+103 C Brutal Onslaught
+104 U Dictate of Rallios
+105 C Distracted Researcher
+106 U Embodiment of Ire
+107 U Fearsome Army
+108 C Fellor Grunt
+109 C Fellor Heartstriker
+110 C Fellor Raider
+111 R Fellor Razer
+112 C Flame Jolt
+113 U Goblin Experimenter
+114 R Goblin Raidleader
+115 M The High Prairies Burn
+116 U Impulsive Spirit
+117 C Lavaspark Igniter
+118 C Menacing Stance
+119 M Merkurio's Familiar
+120 U Obliterating Blast
+121 U Primitive Berserker
+122 C Raging Warlord
+123 C Searing Pulse
+124 U Spellmaster's Dominance
+125 R Surge of the Fellors
+126 C Tribal Assaulter
+127 R Unstable Impersonator
+128 U Violent Spasm
+129 U Voracious Howler
+130 C Weapon Smash
+131 C Wild Raiders
+132 U Adapt or Die
+133 C Blessing of Might
+134 C Bring Down
+135 C Dedicated Druid
+136 U Dictate of Pandora
+137 C Duskwood Traverser
+138 C Elvish Warcaller
+139 U Embodiment of Brawn
+140 R Exodus of the Khalizors
+141 C Forestborn Acolyte
+142 C Landbirth Elemental
+143 U Landmender
+144 C Naturalize
+145 U Poisonblade Elite
+146 C Poisonblade Trainee
+147 C Poisonous Shot
+148 U Reconstruct
+149 C Rehis-Dorahn Plowbeast
+150 R Rejuvenating Elemental
+151 C Scar Shed
+152 M Shared Vigor
+153 C Sheltering Fog
+154 M Sire of the Wild
+155 C Stomping Warbeast
+156 C Suffocating Growth
+157 C Sureshot Recruit
+158 R Swiftshot Sniper
+159 U Sylvan Scrying
+160 U Terrenal Might
+161 U Trupi Coordinator
+162 R Verdant Expanse
+163 U Wardbane Mystic
+164 U Wiltthorn Elemental
+165 U Adamant Healer
+166 U Arcane Harvesters
+167 U Barbarian Intimidator
+168 C Battleborn Brute
+169 U Battlewise Strategist
+170 R Bravery
+171 U Callous Trainer
+172 R Chain of Command
+173 C Controlled Decisions
+174 U Danuri Charm
+175 M The Danuri Triumvirate
+176 U Darklands Charm
+177 C Dawnglory Griffin
+178 R Deadly Manipulation
+179 R Decay
+180 R Deception
+181 R Element of Surprise
+182 R Faith
+183 R Fearless General
+184 U Fellor Charm
+185 R Fellor Tactician
+186 M Forbidden Resource
+187 M Forced Loyalty
+188 R Gallord of the Order
+189 U Hand of the Evil One
+190 U Harvester of Secrets
+191 R Intellectual Incentive
+192 R Intelligence
+193 U Intrepid Shooter
+194 U Lafterii Charm
+195 R Last Crusade
 196 U Memories Reignited
-270
+197 M Merkurio Zellurys
+198 C Nimble Elemental
+199 R Painstriker
+200 C Pandora's Mending
+201 C Phalanx's Shieldbearer
+202 C Piling Corpses
+203 R Plundered Graves
+204 C Poisonblade Herald
+205 R Poisonblade Recruiter
+206 R Prepare the Ambush
+207 U Purger of Blights
+208 M Rallios, Heir to the Evil One
+209 U Rehison Charm
+210 R Rehison Tormentor
+211 R Ruthless Bash
+212 R Spellgorger Elemental
+213 C Strategic Retreat
+214 R Sudden Changes
+215 C Thoughtgrinder
+216 R Unbound Researchers
+217 R Unearthed Legion
+218 R Warden of Rehis-Dorahn
+219 R Wretched Spawn
+220 U Dusty Record
+221 C Erudite's Tome
+222 C Expendable Contraption
+223 U Helm of the Anointer
+224 U Inscrutable Elixir
+225 M Monument of War
+226 U Possibility Grinder
+227 R Saboteur's Amulet
+228 R Sealed Mausoleum
+229 U Sellsword Contraption
+230 R Sentinel of Latter Days
+231 C Sigil of Brutality
+232 C Sigil of Growth
+233 C Sigil of Ingenuity
+234 C Sigil of Malice
+235 C Sigil of Unity
+236 C Veteran's Plate
+237 C Warrior's Blade
+238 R Amber Hills
+239 U Boiling Ridge
+240 U Duskwood Thicket
+241 R Flooded Depths
+242 R Grim Bastion
+243 U Hazy Moorland
+244 R Magmatic Torrent
+245 U Rugged Fields
+246 C Shifting Frontiers
+247 U Sungrace Meadows
+248 R Sunlit Highland
+249 C Unknown Shores
+250 L Plains
+251 L Plains
+252 L Plains
+253 L Plains
+254 L Island
+255 L Island
+256 L Island
+257 L Island
+258 L Swamp
+259 L Swamp
+260 L Swamp
+261 L Swamp
+262 L Mountain
+263 L Mountain
+264 L Mountain
+265 L Mountain
+266 L Forest
+267 L Forest
+268 L Forest
+269 L Forest
 
 [tokens]
 b_2_2_zombie

@@ -9,13 +9,229 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 C Lingering Reflection
+2 R Aleena, Grace of the Lha
+3 M Alyss, Lawweaver
+4 C Ancient Gleam
+5 U Annihilate Aggressor
+6 C Brilliant Griffin
+7 C Coastal Watch
+8 U Crystallizer
+9 U Dawn Chord
+10 R Disgrace of Kin
+11 C Fading Prison
+12 C Gleamhorn Elk
+13 C Glow of Grandeur
+14 R Hall of Mirrors
+15 C Hopeful Healer
+16 U Hour of Honor
+17 U Lha Reckoner
+18 C Lifebreather
+19 U Light Knight
+20 C Lightbolt Archer
+21 C Mirrorwalk
+22 R Pristine Prison
+23 C Promising Visage
+24 C Reclaim Relics
+25 R Refractors Gaze
+26 C Scattering Light
+27 R Shield of the Lha
+28 C Show of Supremacy
+29 C Singer of Songs
+30 C Solar Flair
+31 U Starfall Dancer
+32 U Steward of Silence
+33 C Triumphant Toady
+34 R Vicar of Victory
+35 C Wings of the Moon
+36 U Writing Wonders
+37 C Accelerate Fate
+38 C Aetherial Ascent
+39 C Augment Authority
+40 M Aurora, Soulweaver
+41 C Comfortable Commoner
+42 C Contorted Reflection
+43 R Converted Conqueror
+44 U Curator of Curios
+45 U Dispel Delusions
+46 R Elusive Fatecrafter
+47 C Enlightened Lizard
+48 U Fallen Fateweaver
+49 R Fateweaving
+50 R Follower of Fortune
+51 U Foreseen Denial
+52 C Foreseen Failure
+53 C Lusterwing Owl
+54 C Moonsight
+55 U Moonwing Watcher
+56 U Mystic Parliament
+57 C Nullify Naysayer
+58 R Omhok the Revealer
+59 U Pawnbroker
 60 M Reflected Moment
+61 C Reins of Influence
+62 C Results Uncertain
+63 R Reweave Reality
+64 U Rooted Hooter
 65 C Seek Prophecy
+66 C Simple Fatereader
+67 U Sodden Sorrow
+68 C Stormwing Raven
+69 U Treasurer of Thought
+70 R Vivid Afterimage
+71 C Walk the Seas
+72 C Warped Reader
+73 C Weaver of Lore
+74 U Arisen Haploc
+75 M Arroyo, the Bound
+76 R Arroyo's Servant
+77 R Blighted Haploc
+78 U Blood Bounty
+79 R Bogclaw Swarm
+80 U Carrier Pigeon
+81 C Contagious Host
+82 C Crusher Claw
+83 C Culling Claw
+84 C Deathlink
+85 U Destiny Forgotten
+86 R Essence Inversion
+87 U Foreign Affliction
+88 R Haploc Assembly
+89 C Haploc Blooddrinker
+90 U Haunting Haploc
+91 C Ichor Fling
+92 C Infectious Corpse
+93 U Kalak Bridge
+94 R Kalak Culler
+95 C Lunar Defractor
+96 C Lusterform
+97 C Recast Destiny
+98 C Reclaimed Kalak
+99 C Rite of Fangs
+100 C Sacrificial Pit
+101 U Skulking Claw
+102 C Stargaze Spirit
+103 U Stray Thoughts
+104 U Tempt Fate
+105 C Tormented Echo
+106 R Trading Traitor
+107 C Twisted Elixir
+108 C Wightlight
+109 C Withering Pathways
+110 M Ada, the Free
+111 C Ada's Mischief
+112 U Aleud Blademaster
+113 U Aleud Scorn
+114 R Anaz, Bloodmother
+115 U Avalanche Stinger
+116 C Bloodmad Refugee
+117 U Bogclaw Sniper
+118 U Burned Bounty
+119 C Chainslinger
+120 R Chew the Scenery
+121 C Delirious Landscape
+122 R Deranged Razorclaw
+123 C Earthen Armor
+124 C Fatefree Spirit
+125 C Feral Lizardbeast
+126 C Ferrofy
+127 U Firing Blind
+128 U Flare Extensions
+129 C Frenzied Fervor
+130 R Haploc Striker
+131 R Lavamind Elemental
+132 C Reckless Ride
 133 R Rite of Retribution
+134 U Scaled Devestator
+135 C Scaled Mindreaver
+136 C Scaled Thundercaller
+137 C Scrounging Claw
+138 C Searing Insult
+139 C Sharpened Claw
+140 C Sneak a Peek
+141 U Spark Inspiration
+142 C Sweltering Storm
+143 U Tale of Two Sisters
+144 R Vicious Slasher
+145 C Wild Haploc
+146 R Airam, Packleader
+147 R Aleud Beastmaster
+148 C Aleud Bladedancer
+149 C Aleud Grace
+150 U Aleud Pathfinder
+151 C Blazebrew Bear
+152 U Bloodscale Serpent
+153 U Clipped Seer
+154 C Confront Death
+155 U Crowned Outcast
+156 C Deranged Seeker
+157 M Dinah, Lifeweaver
 158 C Dylso Charmer
+159 C Elven War Paint
+160 U Enduring Memory
+161 U Exploring the Mirrorworlds
+162 C Foretold Strength
+163 C Forge Ahead
+164 U Glintwing Replica
+165 R Glittering Seeker
+166 R Guerrilla Strike
+167 C Mantis Slasher
+168 C Martyr's Bounty
+169 C Might of the Dylso
+170 C Ophorion Refugee
+171 U Poisoned Aleud
+172 C Proclaimed Cure
+173 U Promised Seeker
+174 C Rooted Cavalier
+175 C Snowy Misthorn
+176 C Stalk the Dylso
+177 R Study Habitats
 178 R Summoner's Call
-230
+179 R Supreme Stampede
+180 C Sylvan Crusher
+181 U Venomous Haploc
+182 M Ahl the Mirrorwalker
+183 R Better Half
+184 U Blazing Fox
+185 M The Blight Beyond
+186 R Demand Reverence
+187 M The Erased
+188 U Forgotten Lessons
+189 M Gleaming Mirrorweaver
+190 U Memory Martyr
+191 U Quadmired
+192 R Rain of Ruin
+193 R Starwing Nebula
+194 M The Sun's Last Setting
+195 U Twinned Attrition
+196 R Wildfire Elemental
+197 U Intents // Purposes
+198 U Live // Learn
+199 U Pride // Prejudice
+200 U Search // Seizure
+201 U Wait // See
+202 C Bottled Fate
+203 U Bygone Blade
+204 U Carrionpult
+205 C Crafted Behemoth
+206 M Helm of the Infinite
+207 C Mark of Majesty
+208 C Prophecized Plating
+209 U Prophetic Blade
+210 U Seeker's Garment
+211 C Seeker's Guardian
+212 C Stolen Strain
+213 U Sword of Memories
+214 U Warrior's Cloak
+215 R Ahl's Study
+216 U Crafted Coast
+217 U Dire Dive
+218 R Edge of the World
+219 R Halls of Renown
+220 U Haunted Estate
+221 U Lush Outcrop
+222 U Spired Canopy
+
 
 [tokens]
 r_4_4_elemental_winnow

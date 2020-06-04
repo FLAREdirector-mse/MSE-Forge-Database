@@ -9,8 +9,227 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
-221
+1 U Banish the Impure
+2 C Boon of Allegiance
+3 U Disseminate
+4 R Eternity Witch
+5 U Gana-Mali Elite
+6 R Gana-Mali Procession
+7 U Hallowed Shell
+8 U Inquisition Captain
+9 M Mentor of Champions
+10 R Mentor of Generations
+11 C Mesa Visions
+12 C Nayando Greatwarden
+13 C Nayando Recruiter
+14 R Offer the Sky
+15 C Omensoul
+16 C Prairie Companions
+17 R Priest of Persecution
+18 C Ready the Fleet
+19 U Savannah Warden
+20 U Soul's Pilgrim
+21 C Struggled Escape
+22 C Temple Martyr
+23 C Temple Tender
+24 C Tezoculpa Patrol
+25 C Valiant Stalwart
+26 C Burrowing Crab
+27 C Cliffshard Serpent
+28 U Coastal Savage
+29 U Communal Offering
+30 U Crovoan Storyteller
+31 C Dreamstrider
+32 C Drowned Deepfolk
+33 C Enslavement
+34 C Fly High
+35 C Hesitate
+36 C Idle Thoughts
+37 R Iridescent Featherscale
+38 R Ixolti the Enigma
+39 C Jungle Journey
+40 U Leyline Guide
+41 C Mind Alight
+42 R Mystic Meddling
+43 R Pieces of Prophecy
+44 U Reduce to Myth
+45 R Rhythmic Mystic
+46 U Seeker of Mysteries
+47 C Snaking Network
+48 C Undertow
+49 U Unravel Mind
+50 C Ashen Antiquity
+51 U Bone Picker
+52 R Carrion Scavenger
+53 U Castaway Skulkers
+54 M Choir of Wails
+55 C Court Insanity
+56 C Distressed Revelation
+57 U Dread Resurrection
+58 U Dwindling Memories
+59 U Foul Cure
+60 R Gifter of Lineages
+61 R Grave Defiler
+62 C Heritage Speaker
+63 C Ill Met End
+64 C Lonely Wanderings
+65 C Lost in the Catacombs
+66 R Molder
+67 R Nest Watchers
+68 U Obligate
+69 C Offering Quetzal
+70 C Painfully Alone
+71 M Soulfire Rogue
+72 C Stonecur Cursemonger
+73 C Temple Raider
+74 C Unstable Husk
+75 U Wicked Weaving
+76 C Adamant Pup
+77 U Blaze Devastator
+78 U Cache Breaker
+79 R Firesong Dancer
+80 C Flameblade
+81 R Forging the Sun
+82 C Heat Ray
+83 C Infectious Aggression
+84 C Lay to Ruin
+85 C Magma Veil Aggressor
+86 C Painted Dragon
+87 R Peakpoint Presence
+88 C Prey Stalker
+89 U Pyre Intimidator
+90 C Pyre Ritual
+91 R Quezrotal's Featherwing
+92 C Recollection Ritualist
+93 U Shamanic Vision
+94 R Soulforger
+95 U Spiteful Form
+96 C Threaten
+97 C Trinket Trade
+98 U Unstable Ground
+99 U War-Horn Raider
+100 C Aeons Gate Guardian
+101 C Ancestral Chant
+102 U Atzol Enforcer
+103 C Beast of Boons
+104 R Call to the Wilds
+105 C Catacomb Spider
+106 U Cavern Excavation
+107 U Elusive Chimera
+108 C Feral Challenger
+109 U Fervent Scout
+110 R Grove Strider
+111 U Nature's Decay
+112 C Nayando Lost
+113 R Restless Pack
+114 C Ruins Stalwart
+115 U Runed Elk
+116 R Sage of All
+117 U Sidewinder Slitherer
+118 C Stag Swarm
+119 C Stumble Upon
+120 C Sudden Grapple
+121 R Tranquil Wanderer
+122 C Vibrant Vigor
+123 M Witness the All-Soul
+124 R Alpha Packleader
+125 U Answer by Fire
+126 C Atzol Sandskitter
+127 R Atzol Surveyor
+128 U Avrol's Gamble
+129 C Battlemage Prowess
+130 C Boundless Splendor
+131 C Burning of Tezmodo
+132 C Callous Dredging
+133 C Charred Rumbler
+134 R Constant Discharge
+135 R Crovoan Mentalist
+136 U Darkened Halls
+137 U Disciple of Deceit
+138 U Eons Ancient
+139 C Evoke the Ancients
+140 R Exemplar of Indulgence
+141 R Fateweave Mystic
+142 C Frantic Delving
+143 R Gana-Mali Forces
+144 U Harvest Ritual
+145 U Heightened Senses
+146 U Highlands Pack
+147 C Instinctive Rage
+148 U Maddened Menace
+149 C Makeshift Market
+150 U Malice Crafter
+151 M Mariette, the Overseer
+152 R Mariette's Obtainers
+153 U Muck Trawler
+154 R Mystic Quetzal
+155 M Nada-Sha the New Eon
+156 C Nayando Journeyman
+157 U Nayando Lightcrafter
+158 C Noltari Forester
+159 U Pack Mystic
+160 M Quezrotal the Collector
+161 C Sadistic Rite
+162 C Scatter Sentience
+163 U Seafloor Scavenger
+164 C Sink Under
+165 C Skilled Display
+166 U Skyrr Shaman
+167 C Spiteful Mask
+168 C Stampeding Baloth
+169 U Stonecur Aristocrat
+170 C Surging Vigor
+171 U Tend the Crops
+172 U Tezoculpa Channeler
+173 M Topaz, the Dragon's Hand
+174 C Underworld Adorned
+175 R War-Call Rallier
+176 U Wetland Crane
+177 M Worldwither Hydra
+178 U Zeolatra Elder
+179 M Zetla, the Dragon's Voice
+180 U Ancient Guardstone
+181 R Marauder's Tomb
+182 C Mossy Guardian
+183 C Navigator's Compass
+184 U Tome of Ideals
+185 R Ashen Slab
+186 C Boundless Sinks
+187 U Cartography Spires
+188 R Coastal Cliffs
+189 C Crystal Coasts
+190 C Distant Highlands
+191 C Endless Deserts
+192 R Fetid Sinkhole
+193 R Forgotten Alcove
+194 C Hasty Encampment
+195 C Lonely Morass
+196 R Murky Isle
+197 U New Frontier
+198 R Overgrown Jungle
+199 U Receding Tides
+200 C Scorched Sanctum
+201 C Shaded Cove
+202 R Silent Mire
+203 C Sprawling Coast
+204 C Sprawling Horizon
+205 C Suntouched Temple
+206 R Sweeping Mesa
+207 R Tezmodo, the Golden City
+208 R Undergrowth Forest
+209 C Unexplored Ruins
+210 R Valley of the First Dawn
+211 R Windy Valley
+212 L Plains
+213 L Plains
+214 L Island
+215 L Island
+216 L Swamp
+217 L Swamp
+218 L Mountain
+219 L Mountain
+220 L Forest
+221 L Forest
 
 [tokens]
 b_2_2_zombie

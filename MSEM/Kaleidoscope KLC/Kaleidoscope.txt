@@ -9,9 +9,106 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 C Courier Eagle
+2 U Ephemeral Support
+3 C Evanescier Priest
+4 C Flickercloak
+5 U Hold Fast
+6 C Insightful Blow
+7 M Liguno, Who Transcends All
+8 U Moonshadow Remnant
+9 R Orzhov Benefactor
+10 C Patient Ascetic
+11 C Phantasmal Samaritan
+12 C Solar Wisp
+13 U Stalked Healer
+14 R Strive for the Heavens
+15 R Swell of Birth
+16 C Wehre-District Patrollers
+17 C Cloudsnatch
+18 C Danawan Wanderer
+19 R Fleeting Memory
+20 R Flood of Information
+21 U Fractal Findings
+22 C Highspire Informant
+23 U Horizon Gazer
+24 U Kofe-District Scholar
+25 C Lifeshell Crab
+26 R Living Antimagic
+27 C Paralyzing Ennui
+28 U Precursors' Disdain
+29 C Reclusive Mermaid
+30 M Remy, Last of Evanescier
+31 C Still the Pandemonium
+32 C Wheat from Chaff
+33 R Callous Ritualist
+34 U Choking Despair
+35 U Chronic Traitor
+36 C Creeping Terror
+37 R Dead of Night
+38 C Deformed Vagrant
+39 C Foul Drifter
+40 C Gnuge-District Hoarder
+41 C Kanlan Marauders
+42 U Lifecraft Aberration
+43 C Mongrel of Grenoui Hill
 44 C Past Unresolved
-108
+45 C Revenge of the Disfigured
+46 M Saljan, Lord of the Disfigured
+47 U Secrets Unearthed
+48 R Stay Determined
+49 C Bundan Firebrand
+50 C Burned-Mind Seer
+51 C Dancing Flames
+52 U Descent of the Stars
+53 C Distant Thunder
+54 C Emberling
+55 C Hollow Hooligan
+56 U Leyline Tracer
+57 R Mass Pandemonium
+58 C Miede-District Alchemist
+59 U Miede-District Enforcer
+60 R Rakdos Drakeswarm
+61 C Split-Second Decision
+62 R Tears of Samang
+63 M Thomar, Fearbringer
+64 U Torches Raised
+65 C Agent of Vitu-Ghazi
+66 U Breaking News
+67 C Essence of Nurture
+68 U Evanescier Greypelt
+69 C Fertile Soil
+70 U Grete-District Hermit
+71 C Grete-District Strider
+72 R Guardian's Resolve
+73 C Kin of the Rainforest
+74 R Landplate Elemental
+75 C Loresprout
+76 M The Midwife
+77 C Mystic's Mantle
+78 C Punan Mammoth
+79 R Savants of the Ley
+80 U Vitality Unbridled
+81 R Anguished Unmaking
+82 R Bestial Mob
+83 U Blood Frenzy
+84 U Border Guardian
+85 R Embrace Samang
+86 R Helix Entity
+87 U Lost in Fugue
+88 R Reform Reality
+89 M Rheila Rachy
+90 U Sanctuary for the Forsaken
+91 U Thomar's Sowing
+92 U Boneforged Arms
+93 U Doctored Trail
+94 U Looking Glass
+95 M Skull of the World
+96 R Abandoned Forge
+97 R Abandoned Hideout
+98 R Abandoned Laboratory
+99 R Abandoned Preserve
+100 R Abandoned Shores
 
 [tokens]
 b_1_2_mutant

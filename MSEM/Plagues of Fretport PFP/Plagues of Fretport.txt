@@ -16,75 +16,218 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 5 U Disassociate
 6 C Dockside Healer
 7 C Dockyard Swindling
-8 R Dregs of Order
+8 M Dregs of Order
 9 R Fervent Arbiter
 10 R Flintlock Pioneer
 11 C Fretport Warden
 12 R Gabryel's Devout
 13 C Glimpse of Innocence
+14 C Grace of the Trinity
+15 R Honor's Refuge
+16 R Kasienka, Raven's Regarded
+17 C Kasienka's Veteran
+18 C Loss of Focus
+19 U Martyr's Sacrifice
+20 U Morning Passages
+21 C Mourn the Lost
+22 U Purging Watchkeeper
+23 U Riot Queller
+24 M Seek Salvation
+25 R Serene Prayer
 26 C Untested Recruit
 27 C Valeriya's Militant
+28 U Whiplash
 29 C Awash in Despair
+30 C Boneweary Warrior
 31 R Compelling Pariah
+32 U Debt Dignitary
 33 C Dispossessed Noble
+34 U Dwindling Peace
 35 R Empty the Streets
-39 C Fretport Bounty Hunter 
+36 C Evade the Authorities
+37 R Exquisite Heist
+38 C Flee the City
+39 C Fretport Bounty Hunter
+40 U Fretport Gravetender
+41 R Masquerading Bohemian
+42 C Mental Fracture
 43 C Merchant's Guile
+44 C Morose Bohemian
+45 U Pale Flotsam
 46 U Postulate
+47 U Precarious Ledgers
+48 R Resource Management
+49 M Scatter Riches
+50 M Selective Prophecies
+51 U Silverblood Aspirant
+52 R Thespian's Finale
+53 U Unassuming Waif
+54 U Unbeholden to Death
 55 C Wary Watchkeeper
 56 C Whisper Collector
 57 C Baneblade Stalker
 58 U Conspiracy of Ravens
+59 U Crystal Puncture
+60 U Cull the Citizenry
+61 C Dockyard Stalker
 62 C Drown in Nightmares
+63 U False-Cure Smuggler
+64 C Festering Waif
 65 C Feverish Noble
+66 M Flesh to Rot
 67 C Forgotten Sins
+68 R Frenzied Watchkeeper
+69 R Harriet, Liberated Wildborn
+70 U Hateful Gaze
+71 R Hide from Horrors
+72 U Iron Warden
+73 M Kalemn Weller
+74 R Left Bereft
+75 C Lurking Terrors
+76 R Prayers of Defiance
+77 U Prayers of Judgement
+78 C Prayers of Release
+79 C Sickening Madness
+80 C Sign in Blood
+81 U Silence Dissent
+82 R Vassal of Virulence
 83 C Withering Beggar
+84 U Zealous Bloodletter
+85 R Alexei, Instigator of Terror
+86 M Balanced Blade
+87 C Blade of Fretport
 88 U Burning Heels
 89 R Carve a Path
 90 C Chained Wildborn
+91 R Cold Embrace of Steel
+92 U Fretport Anarchists
+93 U Fretport's Heedless
+94 U Hired Blades
 95 R Ill Fated Travels
+96 R Keenheart Blade
+97 U Keeper of the Banner
+98 C Mettlesome Watchkeeper
+99 U Resplendent Bearing
 100 C Revelry Reverie
+101 C Rising Riots
+102 C Strength of the Devout
+103 C Sycophantic Aristocrat
+104 U To Say Farewell
+105 C Traumatic Memories
+106 U Untouched Duelist
+107 C Voice of Warryn
+108 R Watchkeeper Deserter
+109 C Watchkeeper's Retort
+110 C Watchkeeper's Stand
+111 U Weary Watchkeeper
+112 M Worship in Vain
+113 C All Who Wander
 114 U Belligerent's Augur
 115 R Canal Lurker
 116 C Chapel Defendant
+117 R Coppergild Mercenary
+118 R Fearful Observer
+119 U Figures in the Mist
+120 U Fretport Froppers
+121 M Fretport's Lament
+122 U Grim Gravetender
 123 C Indomitable Mercenary
 124 C Influential Wildborn
 125 C Let Loose
+126 R Mob Rallier
+127 C Naturalize
+128 U Prophet of Pacifism
 129 U Ready for Battle
+130 R Right to Challenge
 131 R Sewer Pack
-132 R Shared Reminiscence
-134 C Track Prey
+132 M Shared Reminiscence
+133 C Stalwart Physicker
+134 U Track Prey
 135 C Valor of the Desperate
+136 C Venomtongue Archer
+137 U Watchkeeper's Prerogative
 138 C Wayward Afflicted
+139 C Weathered Veteran
+140 U Wildborn Courtesan
+141 R Judge's Decree
+142 M Mass Executions
+143 R The Raven Queen of Fretport
+144 R All or Nothing
+145 R Lion's Vanguard
+146 R Flush With Arcor
+147 R Nataila, Raven's Repented
+148 R Wildborn Merchant
+149 R Days of Decay
+150 R Valeriya, Watchkeeper Veteran
+151 M Helene Trant
+152 R Madelon, Merchant's Heir
+153 C Dashing Rogue
 154 U Invalidate
+155 R Persecution Official
 156 C Assassin's Warning
+157 U Fate Transfer
 158 R Inkwell Daggers
+159 R Fretport's Fade
+160 U Purge the Harbor
 161 C Unjust Sentence
+162 U Dwindling Stores
+163 C Fretport Mob
 164 R Inciting Bard
 165 U Callow Survivors
+166 R Haphazard Militia
 167 C Steadfast Heart
 168 U Delusional Noble
+169 R Exhaustive Toil
+170 C Harried Apothecary
+171 R Master of Disorientation
+172 C Political Opportunist
 173 U Unquenched Greed
+174 R Cult of Trinity's Fall
+175 U Heedless Lovers
 176 C Untested Initiates
 177 U Blade of the Long Night
 178 R Cleric of Fervor
 179 C Forgotten Consequences
 180 R Hollow Survivor
 181 C Inspired Blade
+182 U Wisdom in Reflection
+183 R Abandoned Memorial
 184 U Arcor Diamond
 185 C Artisan's Masterpiece
 186 C Battered Steel
+187 U Discordant Bell
+188 U Elixir of Immortality
+189 C Plague Mask
+190 C Rallying Horn
+191 R Raven's Standard
+192 U Vigilante's Cowl
+193 U Weight of Sin
+194 R Arctic Mine
+195 R Crumbling Precipice
+196 R Crystal Cavern
 197 U Daunting Skyline
 198 U Decrepit Crags
 199 C Failing Port
+200 R Forgotten Steppe
 201 U Grim Courtyard
 202 U Hazy Lagoon
 203 U Merchant's District
+204 R Murmuring Falls
+205 R Nomad's Township
 206 U Phosphorescent Ravine
+207 R Rampant Summit
+208 R Resplendent Substratum
 209 U Rickety Guildhall
 210 U Ruined Citadel
+211 R Sedate Tundra
 212 U Serene Trail
+213 R Shifting Glade
 214 U Vibrant Rainforest
+215 L Plains
+216 L Island
+217 L Swamp
+218 L Mountain
+219 L Forest
 
 [tokens]
 b_3_2_mutant_horror

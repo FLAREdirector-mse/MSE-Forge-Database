@@ -9,8 +9,149 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
-143
+1 M Ayashi, Winter Poet
+2 M Azuma Hashiro, the Thronebreaker
+3 C Dragonwall Samurai
+4 C Drown in Sand
+5 R Emperor's Retainer
+6 M Empress Kogane
+7 R Exemplar of Honor
+8 C Festival of Fading Lights
+9 R Final Rest
+10 R Flash of Steel
+11 U Harmony
+12 C Imperial Strategist
+13 U Kogane's Swordmaster
+14 U Kogane's Yoroi
+15 U Oshiruko Cleansing
+16 C Protector of the Gates
+17 C Sakura Spirit
+18 U Sheraku Elite
+19 R Taiyohata's Dominion
+20 C Teikoku Cavalry
+21 U Teikoku Daimyo
+22 C Teikoku Samurai
+23 C Valor in Battle
+24 U Voice of Sheraku
+25 C Will of the Emperor
+26 R Favor of the Court
+27 C Festival of Winter's Night
+28 C Flow of the River
+29 C Hinasa Mystic
+30 C Imperial Taxes
+31 C Inner Thoughts
+32 C Jiangshi Serpent
+33 R Kowareta Scrounger
+34 M Lord Shigure
+35 R Masked Impersonator
+36 U Pierce the Storm
+37 C Reversal of Fates
+38 R Seek the Future
+39 U Seeker of Mysteries
+40 R Sensei of the Seven Winds
+41 U Shigure's Yoroi
+42 U Shroud of Hinasa
+43 C Silk Crane Adept
+44 C Soaring Dreams
+45 U Student of Shigure
+46 U Tranquil Ascetic
+47 C Windwielder
+48 U Wizened Calligrapher
+49 C Blade of the Serpent
+50 R Council's Will
+51 C Disciple of Hashiro
+52 U Discorporate
+53 C Hashiro's Infiltrator
+54 C Ichi-no-Oni
+55 C Imperial Kensai
+56 U Kiyomi's Disciple
+57 U Kiyomi's Yoroi
+58 R Kurayami Ronin
+59 M Lady Kiyomi
+60 C Masked Stalker
+61 U Midnight's Pale Moon
+62 R The Moon Rises
+63 R Sankataar Nightbringer
+64 C Sankataar Scourge
+65 C Serpent's Grasp
+66 U Snake Cult Initiation
+67 U Soul Leak
+68 R Storm of Shadows
+69 U Touch of the Coil
+70 C Unhallowed Graves
+71 U Vizier of Mautakesh
+72 U Asharo's Handmaiden
+73 U Asharo's Yoroi
+74 C Dragon's Ire
+75 U Elemental Loremaster
+76 C Festival of Roaring Dragons
+77 R Fireheart Channeler
+78 U Giku Weaponsmith
+79 M Lord Asharo
+80 R Masterwork Artisan
+81 C Miyoga Dragonsoul
+82 R Mokuteki Ambusher
+83 C Sasori Ronin
+84 U Scorch
+85 R Searing Script
+86 U Stonesculpting
+87 C Sudden Seism
+88 C Swirling Dragonfire
+89 C Teikoku Skirmisher
+90 U Violent Repercussions
+91 C Void Sculptor
+92 C Wavebreaker
+93 R Wild Lightning
+94 C Yamisaran Guard
+95 C Aghavaan's Corrupter
+96 R Awakening the Dragon
+97 U Bind in Jade
+98 R Chalkira Duelist
+99 C Day of the Emperor
+100 M Emperor Kenshiro
+101 C Festival of Spring Blossoms
+102 C Hone the Blade
+103 C Imperial Legion
+104 U Kenshiro's Cavalry
+105 U Kenshiro's Yoroi
+106 R Legends Remembered
+107 C Masamori Ranger
+108 U Mautakesh Strangler
+109 R Raiun Bay Admiral
+110 U Red Silk Dancer
+111 C Sankataar Ambushers
+112 C Sankataar Assailant
+113 C Sankataar Coilborn
+114 R Scales of Aghavaan
+115 U Shinrin Blademaster
+116 C Shinrin Sage
+117 U Through the Mists
+118 U Fang of Mautakesh
+119 U Miyoga Firebird
+120 U Servant of the White Hand
+121 U Shinrin Spellhunter
+122 U Taiyohata Champion
+123 R Celestial O-Yoroi
+124 R Cursed Scroll
+125 R Dragon's Wake
+126 U Dragonwall Fragment
+127 M Palace of Heavenly Sovereigns
+128 C Raiun Bay Junk
+129 R Sage's Ashes
+130 M Aghavaan's Wound
+131 R Ancient Ossuary
+132 R Clutch of the Coil
+133 U Heavenly Temple
+134 C Imperial Ricefields
+135 R Shugenja Sanctuary
+136 R Sunrise Orchard
+137 R Wayfarer's Shrine
+138 L Plains
+139 L Island
+140 L Swamp
+141 L Mountain
+142 L Forest
+
 
 [tokens]
 c_1_1_samurai

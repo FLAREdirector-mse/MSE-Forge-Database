@@ -9,14 +9,190 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
-194
+1 R Armored Flunkie
+2 R Balgruuf of Whiterun
+3 C Barricade Watch
+4 R Blessings of Armor
+5 R Conquest Captain
+6 R Conscripted Service
+7 R Cyrodillic Captain
+8 R Disgruntled Nord
+9 R Fighter's Arena
+10 R Imperial Legate
+11 C Incapacitated
+12 C Omensoul
+13 C Perseverance
+14 C Prepare for Confrontation
+15 R Sparking Automaton
+16 R Strategizing
+17 R The Swan Song
+18 C Treacherous Tumble
+19 R Ulfric's Legion
+20 C Warden of Harmony
+21 R Ancano the Underhanded
+22 C Clairvoyant Mage
+23 C Clever Diversion
+24 C Draconic Divulging
+25 R Dungeon Dive
+26 R Dungeon Tinkerer
+27 C Dwemer-Bound Specter
+28 R Forgotten Knowledge
+29 C Frosthulk
+30 R Ghost Sea Corsair
+31 R Greedy Hands
+32 C Ice Over
+33 C Imperial Taxes
+34 R Insidious Dismissal
+35 R Myriada the Neuropath
+36 R Nocturnal's Informant
+37 R Power of the Voice
+38 R Pyrelight Guide
+39 R Questing Mage
+40 R Reflect on Old Lore
+41 C Ancestor's Calling
+42 C Brotherhood Conspirant
+43 R Chaos in Bloom
+44 R Constant Conjuring
+45 R Corrupt Keeper
+46 R Creeping Crypts
+47 R Darkness Returns
+48 C Doomstep Giant
+49 C Forbidden Knowledge
+50 R Governess's Might
+51 C Hammerbreak Orc
+52 R Jyggalag's Intrusion
+53 R Lowered Guard
+54 R M'aiq the Liar
+55 R Priest of Undeath
+56 C Shadow Ambusher
+57 C Soul Leak
+58 R Thalmor Agent
+59 R Unbound Dremora
+60 R Winged Descent
+61 R Baltrice, Consortium Agent
+62 C Bloodcrazed Acolyte
+63 R Brazen Bandit
+64 C Consuming Flames
+65 R Diving Dovah
+66 R Dovah's Ire
+67 C Dragon Initiate
+68 C Fervent Strike
+69 R Guild Opportunist
+70 R Immolation Incantation
+71 R Invocation of Fire
+72 R Legacy of the Dragonborn
+73 R Orcish Armsguard
+74 R Rain of Madness
+75 R Reachman Flamespeaker
+76 C Reserve Troops
+77 R Secunda's Rise
+78 C Sky Ancient
+79 C Solar Flare
+80 R Wandering Bard
+81 R Aldmeri Wardcaster
+82 R Altmer Emissary
+83 R Altmer Negotiators
+84 R Bosmer Ambusher
+85 R Chittering Chaurus
+86 C Conjure Creation
+87 R Eager Ears
+88 C Elvish Opportunist
+89 R Howling Alpha
+90 R Imperial Paragon
+91 R Kyne's Devoted
+92 R Life Unfettered
+93 C Pinpoint Accuracy
+94 C Return to Earth
+95 R Romana the Ambassador
+96 C Scout the Terrain
+97 R Stand Supreme
+98 R Thalmor Marshal
+99 C Treasure Troll
+100 C Tunnel Web Spider
+101 R Elusive Mage
+102 C Makeshift Mishandling
+103 R Remorse
+104 C Piling Corpses
+105 R Shadows of Alduin
+106 R Stormwing Dovah
+107 R Banneret Raider
+108 C Late Night Legionnaire
+109 R Sheogorath, Demonic Madness
+110 R Imperial Turncoat
+111 C Intense Interrogation
+112 R Ruinous Wake
+113 R Priest of Prosperity
+114 R Servant of Akatosh
+115 C Stormcloak Armorer
+116 R High King Ulfric Stormcloak
+117 C Impeccable Aim
+118 R Knight of Order
+119 R Hushing Word
+120 R Imperial Smith
+121 C Nimble Elemental
+122 R Elndor, Aldmeri Commander
+123 C Landbound Ritualist
+124 R Product of War
+125 R Aspiring Mercenary
+126 C Barbarian Hoarders
+127 R Increasing Efforts
+128 R Crashing Wave
+129 C Evoke the Ancients
+130 R Magicka Siphon
+131 R Abhorrent Spriggan
+132 C Adrenaline Rush
+133 U Bosmer Vanguard
+134 C Conquest
+135 R Deem Unworthy
+136 R Delve Through Depths
+137 U Exotic Herbalist
+138 R Falkreath Necromancer
+139 R Governess Elizabeth Williams
+140 R Groverender
+141 U Guildsworn Adept
+142 R Hero of Whiterun
+143 R Jarl's Brutalizer
+144 R Markarth Assailant
+145 R Misdirection Mage
+146 C Mzinchaleft Tinkerer
+147 U Reunification of Skyrim
+148 C Sinew Colossus
+149 R Spellfist Gaijin
+150 R Steam Ballista
+151 R Tales Retold
+152 R Traitorous Informant
+153 U Trinket Delver
+154 R Tyrant Toppler
+155 C Valenwood Scouting
+156 C Unbreachable Walls
+157 C Sadistic Sadist
+158 C Spire Tormentor
+159 C Ratway Runner
+160 C Rally-Cry Nord
+161 C Sealed Missive
+162 C Unquenched Greed
+163 C Thalmor Degenerate
+164 C Searing Burst
+165 C Nightstep
+166 C Ancestral Monument
+167 U Assailant's Blade
+168 U Bloodied Blade
+169 R Construct Caverns
+170 C Decrepit Monument
+171 R Dwemer-Made Dovah
+172 C Infernal Monument
+173 C Inspiring Monument
+174 U Makeshift Mace
+175 C Mystic Monument
+176 U Reflective Automaton
+177 U Skyfall Blade
+178 U Unburial Totem
+179 R Unending Automatons
+180 R Burial Grounds
+181 R Cold Pass
+182 R Guild Tower
+183 R Harvest Fields
+184 R The Imperial City
+185 R Market Center
 
 [tokens]
-b_2_2_zombie
-c_3_3_a_construct
-c_1_1_a_servo
-g_1_1_elf_warrior
-w_1_1_human
-w_1_2_human_pirate
-open_wound

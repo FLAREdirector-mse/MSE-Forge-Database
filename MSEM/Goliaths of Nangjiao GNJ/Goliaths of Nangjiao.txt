@@ -9,25 +9,261 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 R Achieve Greatness
+2 U Aerial Adept
+3 U Battle Acumen
+4 R Call to Attention
+5 C Charmer of the Folded Fan
+6 U The Charmer's Curse
+7 U Chords of Order
+8 C Collared Kugsha
+9 R Cou Ling of Many Tails
+10 U Crane Legionnaire
+11 C Demystifying Tide
+12 R Diao, Dragoon Captain
+13 C Ethereal Guidance
+14 U Fell the Beast
+15 C Folded Fan Recruit
+16 C Fox of the Fallen Forest
+17 C Fox of the Orange Orchard
+18 U Fox of the Sunset Legion
+19 R Gao'Wu, Master Soothsayer
+20 C Gaze of the Golden Fox
+21 R General of the Folded Fan
+22 M Heping, Master Arbitrator
+23 U Hostile Hermit
+24 U Join the Flock
+25 C Kicking Crane Technique
+26 R Kiri, Cloudwalker
+27 M Lijing, the True Divinity
+28 C Mastery of the Silken Strand
+29 C Moonlight Stag
+30 C Mother of Cranes
+31 C Pious Flutist
+32 C Put to Rest
+33 R Quell Mutiny
+34 U Spear of the Folded Fan
+35 C Student of the Crane
+36 U Surging Stream
+37 U Temperate Gazebo
+38 C Temple Cranes
+39 C Test the Winds
 40 M Twin Lis of the Divine Realm
+41 U Vanishing Memory
+42 U Warchief of the Folded Fan
+43 C Warrior of the Folded Fan
+44 C Whitepeak Predator
+45 R Yujei, Crane Companion
+46 U Albino Drake
+47 C Ancient Crab
+48 R Artful Coercion
+49 U Barterer of Passage
+50 C Bathophobia
+51 C Beckon from the Depths
+52 R Chian, Augury Adept
+53 R Coax Under
+54 C Consult the Dewdrops
+55 C Contort Reality
+56 U Deep in Thought
+57 C Gliding Serpent
+58 M Ing'Wei of the Flood Realm
+59 U Isle Conservator
+60 C Keeper of Blue Incense
+61 U Lost Among the Lilies
+62 C Lumbering Stoneshell
+63 C The Mad Sage's Scroll
+64 C Magnificent Liturgy
+65 U Master of Tranquility
+66 U Mother of Owls
+67 R Mull Over
+68 C Negate
+69 U Neutralize
+70 U Nurturing Knowledge
+71 U Obscure Apostle
+72 R Oshin, Keeper of the Shoal
+73 C Peddler of Commonwares
+74 R Pon, Twister of Forms
+75 M Shigurei, the Floodbringer
+76 C Shimmering Seadragon
+77 R Shojiro, the Wavewaker
 78 C Shredskin Sky Horror
+79 R Sun Yun, Master of Self
+80 U Twisted Mist
 81 U Undead Archivist
+82 C Unyielding Presence
+83 C Wander Ashore
+84 C Warrior's Meditation
+85 U Warrior's Perspective
+86 R Way of Kindred Mind
+87 C Welkin Tern
+88 C Whitepeak Channeler
+89 U Yawning Crane
+90 R Admirer of the Lost
+91 C Allure of the Dark Grove
+92 C Apothecary's Remedy
+93 R Bane of the Folded Fan
+94 C Deranged Apothecary
+95 U Descend into Insanity
 96 C Diseased Prophet
+97 U Disinter
+98 C The Dragon's Madness
+99 C Dragon's Twisted Shadow
 100 U Emissary of the Wicked
+101 U Engulfing Incubus
+102 C Fetid Nibbler
 103 U Fleshwrithe Ghoul
+104 C Forlorn Murklurker
+105 C Form of the Demon
+106 C Gilded Figurehead
 107 R Kai'Jun, the Annihilator
+108 R Kai'Long, Dark Immolator
 109 R Kugoja, Perished Conduit
 110 M Lizhao, Lord of the Yaogu
+111 U Nightcloak Ritualist
+112 U Pay Respects
+113 C Preacher of the Yenzu
+114 U Rabid Rodent
+115 U Radiant Maleficence
 116 C Ravaging Ghoul
+117 C Read the Bones
+118 C Resurrection Plea
+119 R Rise from the Depths
+120 R Rummage Through Remains
+121 U Sanguine Oracle
+122 U Scribal Puppeteer
+123 R Seng, Fevered Fanatic
+124 C Shadow Infestation
 125 C Sightless Blight
+126 U Soulless Decree
+127 C Succumb
 128 C Tomb Scavenger
+129 C Trophy Collector
+130 M Tzelin of the Demon Realm
+131 U Undead Banneret
 132 R Undeath Comes
+133 U Wicked Rites
+134 U Anointed General
+135 C Ash Breather
+136 C Battering Swine
 137 U Bone Pit Raptor
+138 U Brazen Chimera
+139 C Breath of Hao'Tai
+140 U Brothers in Arms
+141 R Brutal Descent
+142 C Caress the Fleets
+143 C Consuming Flame
 144 R Crimson Hellmaw
+145 R Desecrate Antiquities
+146 U Dragon Grip
+147 C Ferocity of Hao'Tai
+148 U Firebelly Toad
+149 C Flame Ascetic
+150 C Four-Headed Shredder
+151 C Frilled Drakeling
+152 M Hao'Tai, the Ancient One
+153 R Hatsuo, Honored General
+154 U Lavatongue Lizard
+155 U Lord's Call
+156 U Manic Illusionist
+157 U Miasma Spewer
+158 R Mieng, Who Dances With Dragons
+159 R Overzealous Tutor
+160 U Peakblazer Dragon
+161 R Recalibrate
+162 U Reverent Flame
+163 C Roaring Dracowyrm
+164 U Shock Blast
+165 C Simian Stick Fighter
 166 C Skeletal Shredwing
-227 U Kai'Shi, Anguished One 
-254
+167 C Slicing Legion
+168 C Spitfire
+169 C Technique of Hao'Tai
+170 R Tseng, Warden of the Peak
+171 U Unsettled Rivalry
+172 C Volcanic Whelp
+173 C Wisdom of Hao'Tai
+174 R Wun Su, Guru of the Staff
+175 M Xiusheng of the Dragon Realm
+176 C Xiusheng's Teachings
+177 C Young Dragonheart
+178 C Ambush Viper
+179 U Blades of the Many
+180 C Blooming Future
+181 C Branch Prowler
+182 C Breath of Fresh Air
+183 U Bringer of the Pack
+184 M Chiu of the Wild Realm
+185 C Come Crashing Down
+186 U Courageous Charge
+187 C Empowering Chant
+188 C Endangered Rhino
+189 U Entangled Roots
+190 U Fallen Forest Wolf
+191 C For Glory
+192 C Foraging Chipmunk
+193 U Invoke the Wild
+194 R Jiayin, the Harmonious
+195 R Jindao, the Coiled Prophet
+196 C Juvenile Boa
+197 U Kiss of the Dryad
+198 R Kou, Primal Shepherd
+199 U Leafmantle Dryad
+200 R Loamwrecker
+201 U Lurking Hippo
+202 C Maiden of the Daffodils
+203 C Meadow Macaque
+204 U Midnight Predator
+205 M Ochiji, Serpent of Seven Heads
+206 U Orchard Botanist
+207 R Pecking Order
+208 C Plodding Moose
+209 U Ruinous Glutton
+210 C Runewart Hog
+211 C Ruthless Predator
+212 R Savage Congregation
+213 C Silken Spinner
+214 R Sonwu, the Mighty
+215 C Spidery Grasp
+216 C Superiority Complex
+217 U Unleash the Beasts
+218 U Vigorous Stag
+219 C Walk the Traveled Path
+220 R Wild Germination
+221 R Xiejuan, the Regal Beast
+222 U Guawu the Untamed
+223 U An and En, Destined Souls
+224 U Merciless Xun Huang
+225 M Infuse the Apparatus
+226 M Kiora, Empress of the Flood
+227 U Kai'Shi, Anguished One
+228 M Tyrannic Judgment
+229 M Xiong Mao, Survivalist
+230 U Lei, Yak Herder
+231 R Assassin's Shuriken
+232 C Brass Dragon
+233 C Dancing Blades
+234 C Draconic Bulwark
+235 R The First Idol
+236 R Inspiring Effigy
+237 C Statuary Forge
+238 C Vial of Dragonfire
+239 C Abandoned Sanctuary
+243 R Inundated Sanctuary
+245 R Sacred Sanctuary
+246 R Savage Sanctuary
+247 R Spire Sanctuary
+249 R Wretched Sanctuary
+250 L Plains
+251 L Island
+252 L Swamp
+253 L Mountain
+254 L Forest
+255 U Zhehan, the Mediator
+256 U Da'Lang, Forest Guardian
+257 U Fei'Xing the Marvelous
+258 U Foolhardy Huo
+259 U Pan, Honored Sergeant
+
 
 [tokens]
 b_1_1_puppet

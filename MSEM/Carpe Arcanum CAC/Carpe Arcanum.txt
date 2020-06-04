@@ -10,10 +10,90 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
 1 R Almgrove Champion
+2 R Almgrove Librarian
+3 R Artisan of Marrow
+4 R Cadre Hawk
+5 R Ceaseless Valiant
+6 R Disruptive Echoes
+7 R Headwind Glider
+8 R Shatter Facade
+9 R Sigil of Radiance
+10 R Aether Ascendant
+11 R Clockwork Spellwork
+12 R Confirm Hypothesis
+13 R Essence of Constellations
+14 M Rahit, Immaculate Architect
+15 R Rahit's Prodigy
+16 R Rahit's Study
+17 R Runic Depths
+18 R Sprout Thought
+19 R Submergence
+20 R Bloated Keystone
+21 R Breaker of Secrets
+22 R Ceaseless Stalker
+23 R Corrosive Pact
+24 M Salva Tore
+25 R Salva Tore's Study
+26 R Salva Tore's Vexation
+27 R Visceral Offering
+28 R Whistling Blades
+29 R Young Necromancer
+30 R Arpechian Tiger
+31 R Autumn Fae
+32 R Cavorting Beauty
+33 R Crystal Conjuration
+34 R Entrancing Virtuoso
+35 R Exhilarating Prescience
+36 R Paternal Pride
+37 R Scaletongue Mistress
+38 R Stormsurge
 39 R Ardy's Study
+40 R Arpechian Yatte
+41 R Conjuring of Locusts
+42 R Gruff Smith
+43 R Jara Incarnation
+44 R Keystone Conjurer
 45 R Prismatic Leyline
+46 R Surge of the Leylines
+47 R Thunderous Charge
+48 R Spellsword Elite
+49 R Stall Fate
+50 R Exhaustive Research
+51 R Thought Blossom
+52 R Ignition Ritual
+53 R Reckless Festivities
+54 M Ardy, Youthful Geomancer
+55 R Ardy's Invocation
+56 R Jara Jadefist
+57 R Ironwood Elemental
+58 R Vitality Maestro
+59 R Face the Dawn
+60 R Lunar Arbiter
+61 R Almgrove Sentinel
+62 R Compulsion's Voice
 63 R Archive Guardian
-90
+64 R False Vitality
+65 R Blessing of Valor
+66 R Misleading Tactics
+67 R Chart the Vast
+68 R Lodestone Convergence
+69 R Giltwork Legacy
+70 R Mechanized Ideal
+71 R Possibility Matrix
+72 R Spellslinger's Gauntlet
+73 R Spellwork Bulwark
+74 R Warded Tome
+75 R Aerie's Pillar
+76 R Bygone Guardian
+77 R Channeling Stone
+78 R Forgotten Pit
+79 R Lumbering Hillock
+80 R Rousing Rubble
+81 L Plains
+82 L Island
+83 L Swamp
+84 L Mountain
+85 L Forest
 
 [tokens]
 b_1_1_skeleton

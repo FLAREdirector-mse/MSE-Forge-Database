@@ -9,9 +9,134 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 R Angel of Sands
+2 C Awestruck
+3 C Caravan Sumpter
+4 U Dawn Silhouette
+5 U Dignified Serpent
+6 U Diligent Believer
+7 R Divine Protection
+8 R Eternal Banishment
+9 C Expulse to the Desert
+10 M High-Priestess Nebti
+11 U Judge Unworthy
+12 U Leonin Sandfighter
+13 C Menhet Charm
+14 R Menhet's Edict
+15 U Mounted Charge
+16 C Observing Guardian
+17 C Peaceful Sunbath
+18 M Righteous Priestess
+19 C Savannah Scout
+20 C Sprawled Arming
+21 C Suntail Hawk
+22 C Utsenchep Warrior
+23 U Alpha Lion
+24 R Avatar of Utsenchep
+25 C Camelriding Archer
+26 C Giant Dromad
+27 U Stream of Light
+28 C Survive
+29 R Ancestral Memories
+30 U Atuum Serpent
+31 R Avatar of Senmut
+32 R Blurry Counterpart
+33 C Crippling Spirit
+34 U Cunning Chanter
+35 C Divination
+36 R Divine Denial
+37 C Dripping Turtle
+38 U Excellent Architecture
+39 R Gift of the Sphinx
+40 C Preserving Cloak
+41 C Priestess of Menhet
+42 U Sandborn Mage
+43 C Scaled Lurker
+44 U Sharp Eyed Sentinel
+45 U Spell Dilution
+46 R Sphinx of Riddles
+47 C Streaming Waters
+48 C Wachet Charm
+49 C Wall of Fog
+50 C Winged Envoy
+51 U Bath in the Solitude
+52 C Blurring Mists
+53 U Diligent Fishermen
+54 C Life-Giving Waters
+55 C Pharaoh Guardian
+56 M Through the Dust
+57 R Adept Necromancer
+58 C Amosis Charm
+59 R Antithesis
+60 R Avatar of Amosis
+61 U Descendant of Caaseb
+62 R Desert Slaughterer
+63 U Despise
+64 U Doomed Journey
+65 C Double Arming
+66 C Essence Dehydration
+67 C Giant Scarab
+68 C Haggard Jackal
+69 C Kill the Competition
+70 C Lasis Persecutor
+71 R Menes, the Great Pyramid
+72 U Mummification
+73 C Ruthless Monstrosity
+74 R Sinister Pact
+75 C Sudden Drought
+76 C Tendrils of Corruption
+77 U Terrifying Ankh
+78 U Tireless Vulture
+79 M Achet-Aton, Living God
+80 C Depraved Disciple
+81 U Gates to the Afterlife
+82 C Gruesome Transport
+83 C Njel Crocodile
+84 U Poisoned Well
+85 R Avatar of Basat
+86 C Basat Charm
+87 C Basat Priest
+88 U Caravan Engulfer
+89 C Desert Warriors
+90 C Dune Peregrination
+91 R Ferocious Desert-Hunter
+92 C Haughty Priest
+93 C Haze Raptor
+94 U Heat of Battle
+95 C Imaginary Flames
+96 U Inspiring Melodies
+97 U Mounted Marksman
+98 R Pyramid Lord
+99 R Rockpounding Saurian
+100 C Sanding
+101 C Sandmouth Dragon
+102 C Tamed Jaguar
 103 R Warrior's Pride
-128
+104 U Whistled Dragons
+105 U Wurm Spawning
+106 M Zarchepet, Master of Sands
+107 C Brute Force
+108 U Dance for the Heavens
+109 M Desert Wurms
+110 C Dune Scorpion
+111 U Fire from Above
+112 C Sixpod Sprinter
+113 R Daunting Gaze
+114 M Jachsechep, God's Wife
+115 R Kalro, Desert Outpost
+116 R Mesmerizing Shimmer
+117 R Mummy's Grin
+118 M Slaughter
+119 R Staff of Authority
+120 R Desert Temple
+121 L Plains
+122 L Plains
+123 L Island
+124 L Island
+125 L Swamp
+126 L Swamp
+127 L Mountain
+128 L Mountain
 
 [tokens]
 b_2_3_mummy

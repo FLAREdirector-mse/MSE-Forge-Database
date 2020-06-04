@@ -9,10 +9,140 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 C Agrysta Convoy
+2 C Desert Distracter
+3 C Deserted Truths
+4 U Faith Unbroken
+5 M Holy Reverence
+6 C Lost Sunless
+7 U Noble's Steed
+8 C Nomadic Journey
+9 C Salt Flat Wanderers
+10 R Salvation Seekers
+11 U Sandscatter
+12 R Sandstorm Skirmishers
+13 C Scout the Sands
+14 U Soul's Attendant
+15 R Sun-City Adorned
+16 C Sun-City Aspirant
+17 R Survival Instincts
+18 U Avenging Stroke
+19 C Careful Selection
+20 C Drownthief
+21 C Dune Mystic
+22 U Dunegrasp
+23 R Glittering Funeral
+24 C Gurug Drowner
+25 C Gurug's Jaws
+26 R Lonely Journey
+27 M Oasis Scourge
+28 C Omens Hawk
+29 U Osrius Peddler
+30 R Sandstorm Ascendant
+31 C Spell Stutter
+32 R Spirit's Will
+33 C Trying Trek
+34 U Warded Stance
+35 R Agrysta Invoker
+36 C Deadmaw's Perch
+37 M Demon of False Promises
+38 C Disentomb
+39 C Dunebelt Fiend
+40 C Dunebelt Thief
+41 R Fateshaper
+42 R Grim Tutor
+43 U Gurug Scavenger
+44 C Nettle Outcast
+45 U Predatory Instincts
+46 C Punishing Heat
+47 C Read the Bones
+48 C Scattered Tatters
+49 U Scavenging Trek
+50 R Succumb to the Heat
+51 U Wither Away
+52 C Brimstone Volley
+53 U Dry Out
+54 C Dune Prowler
+55 U Dunebelt Stalker
+56 R Entel, Osrius Vagrant
+57 C Fall to Ruin
+58 R Lorani Avenger
+59 C Redrubble Bandit
+60 C Sandshape
+61 M Sandstone Berserker
+62 C Scorched Sandhorn
+63 C Stand Stalwart
+64 R Sudden Flourish
+65 R Sunless Seekers
+66 U Sweeping Storm
+67 U Vizier of Sands
+68 C Weary Travelers
+69 R Agrysta Historian
+70 C Ancestral Heritage
+71 U Arid Invocation
+72 C Cactus Walker
+73 C Clinging Cacti
+74 U Discover Sanctuary
+75 R Foraging Beetle
+76 C Hunt for Survival
+77 C Into the Sandstorm
+78 C River Winder
+79 R Sacred Sands Guardian
+80 U Saguaro Titan
+81 U Sandstone Seeker
 82 M Seeker of New Horizons
+83 C Sentinel Spider
+84 R Splitting Bloom
+85 C Sprouting
+86 R Admius the Ancient
+87 R Breaching Storm
+88 U Circling Deadmaw
+89 U Desert Crawler
+90 U Gurug Mistwalker
+91 R Lorani Archmage
+92 U Lorani Detainer
+93 U Osrius Outrider
 94 R Osrius Royalty
-133
+95 U Osrius Warden
+96 U Redrubble Fugitive
+97 U Sacred Sands Seeker
+98 R Secunda Peak Bandit
+99 U Sunburst Beetle
+100 U Watchful Eye
+101 R Interplanar Lens
+102 U Sand Rider
+103 C Sandstone Totem
+104 R Arid Ruins
+105 R Canyon Falls
+106 R Clay Mesa
+107 C Hidden Oasis
+108 R Hostile Dunes
+109 U Imposing Holdout
+110 C Last Vestiges
+111 R Lonely Dunes
+112 R Mountain Spring
+113 R Scorched Canyon
+114 U Skittersands
+115 R Sunlit Cactus
+116 R Sunset Sands
+117 R Unending Sands
+118 R Weathered Oasis
+119 L Dry Plains
+120 L Dry Plains
+121 L Plains
+122 L Dry Island
+123 L Dry Island
+124 L Island
+125 L Dry Swamp
+126 L Dry Swamp
+127 L Swamp
+128 L Dry Mountain
+129 L Dry Mountain
+130 L Mountain
+131 L Dry Forest
+132 L Dry Forest
+133 L Forest
+
 
 [tokens]
 b_1_1_rogue_block

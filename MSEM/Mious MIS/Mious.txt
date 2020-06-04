@@ -9,10 +9,255 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 M The Infinite
+2 C Lesser Virtue
+3 U Shroudwing Seraph
+4 C Zephyr Purifier
+5 C Adverse Reunion
+6 M Angelic Destiny
+7 U Armorer of the Soul
+8 C Binding Judgment
+9 U Coercive Cardinal
+10 R Council of the Immortals
+11 C Curator of Cures
+12 U Dauntless Qith
+13 R Descent of the Cherubim
+14 C Divine Detention
+15 U Duchess of Life
+16 C Dutiful Counselor
+17 R Embodiment of Order
+18 C Eternal Path
+19 R Final Verdict
+20 C Glimmering Prosecutor
+21 U Hopebringer Cherub
+22 R In the Face of Divinity
+23 U Inspiring Mantle
+24 C Ishim of Punishment
+25 C Martyr of the Work
+26 U Oppressive Tithes
+27 C Pierce the Unruly
+28 R Pinnacle Seraph
+29 U Qith Maneuver
+30 R Razing Throng
+31 C Resounding Relief
+32 U Rework the Canvas
+33 C Sha'Iv Cagemage
+34 C Sha'Iv's Emissary
+35 U Souls of the Jury
+36 R Through New Eyes
+37 C Wandering Devout
+38 C Wardwing Seraph
+39 C Wayfaring Swindler
+40 C Assertive Inaction
+41 U Beckon the Scribes
+42 U Chaos Tradewinder
+43 M Consecrated Sight
+44 C Dissolve
+45 C Divine Lockdown
+46 R Dreams in Flight
+47 R Eternal Recurrence
+48 C Formed Anew
+49 R Gusma's Artisan
+50 C Gusma's Emissary
+51 U Gustscreen Cherub
+52 R Hayda, Worldseeder Archmage
+53 U Inherited Rite
+54 C Ishim of Genesis
+55 R Ishim of the Mists
+56 C Oracle of Edicts
+57 C Peel from Reality
+58 U Ponderance of Transience
+59 C Potential Beetle
+60 U Proclamation of the Tides
+61 U Recombobulate
+62 C Repel the Unruly
+63 C Scene of Nativity 
+64 C Scrivener of Sha'Iv
+65 C Seal of Insights
+66 U Seraphic Divination
+67 R Shaper of the Formless
+68 C Spawn from the Void
+69 U Taker of Tithes
+70 C Telling Time
+71 C Temple Stalker
+72 U Thought Police
+73 R Thoughts Reborn
+74 R Tiller of Potential
+75 R Bahet's Sacrament
+76 C Bane of Identity
+77 U Born from the Flock
+78 C Crisis of Body
+79 C Dark Night Cleansing
+80 C Devilish Undoer
+81 R Di'Ala, Ominous Seraph
+82 C Doomstep Giant
+83 U Duke of Death
+84 C Essence of Thought
+85 R Eternal Night
+86 U Evershedder
+87 R Excise from Existence
+88 R False Savior
+89 U Fanatic Revival
+90 C Fatal Edict
+91 U Gusma's Darkcycler
+92 U Immortal Terror
+93 C Ishim of Devilry
+94 C Manifest Dead
+95 M Mark of Hubris
+96 U Masqued Cleansers
+97 U Minstrel of the Bloodied
+98 R Mortality Keeper
+99 R Naberas' Wisdom
+100 C Ni'Ama's Emissary
+101 R Polluted Bonds
+102 U Return of the Fallen
+103 C Soul Cajoler
+104 M Spawns of Dementia
+105 C Steeple Deadeye
+106 C Test of Fear
+107 C Thorough Cleansing
+108 U Unwavering Questant
+109 C Wake from the Mire
+110 C Wilting Waif
+111 C Admonish the Unruly
+112 C Angeltouched Komodo
+113 R Archlegislator
+114 C Blazeblade Sergeant
+115 C Chaosphere Ravager
+116 U Combatant Conflagration
+117 C Consult the Ashes
+118 R Cosmostorm Rider
+119 R Embrace the Id
+120 C Fearless Charger
+121 C Fury Swipes
+122 C Heedless Adversary
+123 U Ifram's Cavalier
+124 C Ifram's Emissary
+125 U Inspired Trialmaker
+126 C Ishim of Tempest
+127 R Marzen's Frenzy
+128 C Marzen's Sorrow
+129 M Planar Conflagration
+130 U Purgator of Storms
+131 C Purpose Elemental
+132 R Reckoner of Man
+133 C Righteous Bolt
+134 U Searing Blasphemy
+135 C Sha'Iv's Scout
+136 R Splitflame Phoenix
+137 R Test of Burning Wax
+138 C Test of Forsaking
+139 U Treacherous Devil
+140 U Tremor Elemental
+141 C Unpredictable Bloodshed
+142 U Weavetide Militia
+143 U Whim of Ifram
+144 R Zaidha, Seraph of Calamity
+145 U Zealous Enforcers
+146 U Angelbane Spider
+147 R Angelcaller
+148 U Angeltouched Dryad
+149 M Augury Hydra
+150 C Bahet's Emissary
+151 R Beastwaker of Gusma
+152 C Branching Antlers
+153 C Counsel of Bahet
+154 R Deathless Hunter
+155 U Dismantle the Established
+156 C Dryad of Rippling Leaves
+157 C Enforce the Cycle
+158 C Ifram's Greenfur
+159 C Ishim of Oblivion
+160 C Journey to Atonement
+161 R Lifetwist
+162 U Mindhunter Grizzly
+163 U Ophan Titan
+164 U Ouroboros Twist
+165 C Progenitor of Rebirth
+166 U Rampant Giantling
+167 C Reincarnation Savant
+168 C Return to Ash
+169 R Saghira, Divinity's Usurper
+170 C Seasons' Bounty
+171 U Spearhead Ophan
+172 C Strength from Chaos
+173 U Summer's Approach
+174 C Thornweald Archer
+175 R Tusked Consumer
+176 R Verdant Trauma
+177 C War Priest of Bahet
+178 C Weaver of Ifram
+179 R Wild Gravetender
+180 U Worldly Lore
+181 M Worldsculpt
+182 U Adversary Ancestor
+183 M Bahet, God of Destruction
+184 C Bahet's Wink
+185 M Bahum, Penitent
+186 R Bahum's Penance
+187 M Chiara the Enchantress
+188 C Chimera Graft
+189 R Damnation of Gluttons
+190 U Death in Reverse
+191 U End of the Road
+192 C Ethereal Fervor
+193 U Evoke the Maelstrom
+194 C Fuming Lawmaker
+195 M Gusma, God of Creation
+196 R Hand of Genesis
+197 M Hestia, Doubtful Archon
 198 R Holy War
+199 M Ifram, God of Chaos
+200 C Instability Elemental
+201 U Lightning Chorus
+202 M Marzen, Answer Seeker
+203 R Mind's Communion
 204 U Mindstorm's Eye
-249
+205 U Move with the Tides
+206 M Naberas the Pilgrim
+207 C Nascent Adversary
+208 M Ni'Ama, God of Adversity
+209 R Provoke the Gods
+210 U Release from Death
+211 U Search for Precedent
+212 M Sha'Iv, God of Order
+213 C Silence of the Guilty
+214 R Starlight Seraph
+215 C Strength in Imagining
+216 R Tammil and Sulei, the Guides
+217 C Tides of Chaos
+218 R Trifold Chaos
+219 U Unorthodox Tutelage
+220 R Wellspring of Creation
+221 C Wings of Reckoning
+222 C Altar of Devotion
+223 C Angel's Codex
+224 U Angeltouched Golem
+225 R Avatar of Being
+226 U Chemical Grenade
+227 R Divining Lens
+228 R Helm of the Devoted
+229 U Marzen's Grimoire
+230 C Meditant's Halo
+231 R Protector of the Innocent
+232 U Seraph's Remnant
+233 U Shrine to the Shrouded
+234 C Altar of Adversity
+235 C Altar of Chaos
+236 C Altar of Creation
+237 C Altar of Destruction
+238 C Altar of Order
+239 R Angeltouched Cavern
+240 R Angeltouched Crag
+241 R Angeltouched Garden
+242 R Angeltouched Marsh
+243 R Angeltouched Saltflat
+244 U Descended Delta
+245 U Descended Marsh
+246 U Descended Meadow
+247 U Descended Mortuary
+248 U Descended Towers
+249 C Unknown Shores
 
 [tokens]
 b_1_1_devil

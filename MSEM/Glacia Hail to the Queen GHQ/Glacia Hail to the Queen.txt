@@ -9,12 +9,270 @@ BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 
 [cards]
-1
+1 C Awoken Soul
+2 C Bjarndyr Militant
+3 U Bjarndyr Outfitter
+4 R Bjarndyr Sergeant
+5 C Breathless Gasp
+6 C Bristled Wolverine
+7 M Centered Acolyte
+8 C Conviction
+9 R Crippling Specter
+10 R Culi-Sae Exonerator
+11 U Culi-Sae Partisan
+12 U Curio Connoisseur
+13 U Deathless Ghoul
+14 C Efface
+15 R Equanimity
+16 R Fiery Reckoning
+17 C Fleecy Lynx
+18 C Gilded Yak
+19 C Haunted Hermit
+20 C Heartless Host
+21 U Howl of the Hunted
+22 C Humble Fieldhand
+23 R Issbarren Warden
+24 U Keeper of Twisted Light
+25 M Mirin, Held by the Heavens
+26 U Mortal Resurrection
+27 U Phantasmal Possession
+28 U Rakkiri Initiate
+29 R Redtail Fencer
+30 U Sanctifier Spirit
+31 M Seto San, Forlorn Savior
+32 C Soulsmoke Adept
+33 C Spiritual Heir
+34 U Splintering Hail
+35 C Steward of the Code
+36 C Student's Pilgrimage
+37 C Third Legion Rider
+38 R Virtuous Angel
+39 C War Spirit
+40 R Warring Ways
+41 U Wayfaring Pilgrim
+42 C Weirding Wings
+43 C Whispered Wishes
+44 C Aegis Expertise
+45 U Ancient Studies
+46 C Aspect of Focus
+47 U Attuned Prodigy
+48 U Blow Away
+49 C Cancel
 50 R Cane Dancer
+51 U Charmed Sage
+52 R Cryptic Ritual
+53 U Culi-Sae Mesmer
+54 C Culi-Sae Transfigurer
+55 C Dragon Queen's Hoard
+56 U Ephemeral Visions
+57 C Forgotten Experiment
+58 C Frigid Behemoth
+59 U Frost Walker
+60 R Gale Murmurer
+61 M Hat Trick
+62 C Ice Over
+63 R Invocation Circle
+64 C Issbarrens Banishment
+65 C Lose Composure
+66 C Mammoth Crab
+67 R Model of Perfection
+68 C Moonlight Curator
+69 U Reticent Possessor
+70 C Ripclaw Drake
+71 R Seismic Passage
+72 R Shipway Whale
+73 U Shorecrash Octopus
+74 C Skhorvall Patrol
+75 C Stoic Muse
+76 M Syrina, the Dragon Queen
+77 R Syrina's Brood
+78 C Temple Instructor
+79 C Touch of Shadow
+80 U Transcendent Arts
+81 R Treacherous Conditions
+82 C Tundra Turtle
+83 U Turbulent Journey
+84 U Wave of Ice
+85 C Windwhip
+86 R Astrid, Disgruntled Princess
+87 C Bearhide Initiate
+88 C Bereave
+89 C Bloodhunter Orca
+90 U Brain Feeding
+91 U Dark Harvester
+92 R Departed Evangel
+93 C Devastating Blow
+94 U Engrave
+95 U The Ever-Pestilent
+96 R Fateful Journey
+97 R Flailing Terror
+98 C Flesh Shredder
+99 C Host of Haloes
+100 U Hungering Horde
+101 C Last Dusk
+102 C Leech-Ridden Corpse
+103 C Merciless Oaf
+104 C Midnight Gaze
+105 C Neckbreaker Viking
+106 M Ravaging Tyrant
+107 C Recover
+108 R Rend Asunder
+109 U Ruthless Conscript
+110 M Saffrisa, Heir Apparent
+111 U Saffrisa's Touch
+112 C Sanitarium Skeleton
+113 C Shambling Gutless
+114 C Sinful Burial
+115 U Sinner's Purge
+116 R Skhorvall Behemoth
+117 U Skhorvall Eternal
+118 C Soul Release
+119 U Soul Stroke
+120 R Spirits of the Shrine
+121 U Sullen Bonecrusher
+122 R Tear Loose
+123 U Tundra Forager
+124 C Unending Voracity
+125 C Viork Woods Butcher
+126 C Wily Ermine
+127 R Withered Elk
+128 C Bellowing Giant
+129 U Bloodsworn Provoker
+130 R Byway Bruiser
+131 R Casualty of War
+132 C Cinder Arrows
+133 R Cogent Recruiter
+134 U Copse Crusher
+135 U Dawn Siege
+136 C Demolish
+137 U Dire Betrayal
+138 C Dissenting Vikings
+139 M Dragon Queen's Disciple
+140 C Dragon Queen's Pupil
 141 C Frostfield Swordsman
+142 C Furor of the Bitten
+143 U Issbarren Phoenix
+144 C Leopard Seal
+145 C Marred Marauder
+146 U Murderlust
+147 C Peasant Crusher
+148 R Play the Coward
+149 C Primal Caribou
+150 U Rakkiri Aspirant
+151 R Rakkiri Dissident
+152 C Rakkiri Pathblazer
+153 C Rewrite Fate
+154 C Scornful Flames
+155 C Shredding Blizzard
+156 C Skhorvall Raider
+157 U Skhorvall Warleader
+158 U Sly Snow-Fox
 159 R Starlit Raze
+160 C Temple Recluse
+161 U Third Legion General
+162 C Thoughtless Malice
+163 U To the Hunt
+164 R Twilight Delirium
+165 M Unburdened Rage
+166 R Viork Woods Savage
+167 U Wake of the Beast
+168 C Wanton Cleave
+169 R Warfury Dragon
+170 U Arctic Pack
+171 U Battle Roarer
+172 U Bear in Mind
+173 C Bear Necessities
+174 C Beat Down
+175 R Bestial Harmony
+176 C Bjarndyr Bruiser
+177 U Bjarndyr Venerable
+178 U Blossoming Defense
+179 C Crash of Hooves
+180 C Demand Submission
+181 R Forest Fellowship
+182 C Great Gray Wolf
+183 C Greenheart Squirrel
+184 R Grizzly Matriarch
+185 C Highlands Advocate
+186 M Highlands Champion
+187 U Icefang Wurm
+188 M Imperial Chimera
+189 R Inborn Instincts
+190 C Intrepid Shieldmate
+191 C Join the Pack
+192 U Lands Untrodden
+193 C Lumbering Mammoth
+194 U Marked Scent
+195 U Mountain Bighorn
+196 C Nature's Claim
+197 C Pinion Peaks
+198 C Rakkiri Archer
+199 C Redleather Armorer
+200 C Rotfeeder Slime
+201 C Seek Haven
+202 R Sentinel of the Highlands
+203 C Steelcrusher Viking
+204 U Tawny Lemmings
+205 R Thunderhoof Mammoth
+206 U Viking Packleader
+207 U Vitality Reclaimer
+208 R Warfield Excavator
+209 R Wild Bearmaster
+210 R Winter Widow
+211 C Woolly Moose
+212 U Ascetic of Imbalance
+213 U Bjarndyr Mender
+214 U Bloodshed Devotee
+215 U Frosted Adder
+216 U Glacier Tortoise
+217 M Hemley Eggfeather
+218 U Issbarren Creeper
+219 M Light a Fire
+220 M Lumbering Egil
+221 U Powdercoat Leopard
+222 U Rakkiri Piker
+223 U Rimecraft Owl
+224 U Weeping Soul
+225 M Xiong Mao, the Intrepid
+226 C Bearhide Cloak
+227 R Blood Hunter's Spear
+228 R Bloodguard's Hand
+229 R Chains of Subdual
+230 C Dragonfire Longboat
+231 R Ghastly Ferry
+232 U Ghoulsaber
+233 U Hearty Karv
+234 U Icy Manipulator
 235 R Monument to the Fallen Man
-280
+236 U Oaken Longbow
+237 U Pillager's Sloop
+238 C Short Sword
+239 R Skeigr, Skhorvall Flagship
+240 R Staff of Equilibrium
+241 C Viking Greataxe
+242 C Weathered Skiff
+243 U Abandoned Den
+244 U Dragon Queen's Den
+245 U Greenheart Den
+246 U Hibernation Den
+247 R The Issbarrens
+248 U Raider's Den
+249 C War-Torn Tundra
+250 L Plains
+251 L Plains
+252 L Plains
+253 L Island
+254 L Island
+255 L Island
+256 L Swamp
+257 L Swamp
+258 L Swamp
+259 L Mountain
+260 L Mountain
+261 L Mountain
+262 L Forest
+263 L Forest
+264 L Forest
 
 [tokens]
 b_2_2_zombie

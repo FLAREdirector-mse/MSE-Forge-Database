@@ -258,5 +258,78 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 247 L Swamp
 248 L Mountain
 249 L Forest
+250 S Tome of Loss
+251 S Amulet of Loyalties
+252 S Blood Artist
+253 S Eldritch Egg
+254 S Awestone
+255 S Atlas of Worlds
+256 S Bessie, the Muscle
+257 S Ayshea Tome
+258 S Chromatic Lantern
+259 S Chronovore Clock
+260 S Crux Pinnacle
+261 S The Dominomicon
+262 S Drop of Envy
+263 S Elsewhere Mirror
+264 S Encrypted Monument
+265 S Enlightened Sigil
+266 S Eternity Pendant
+267 S Gilded Lotus
+268 S Glistening Chalice
+269 S Goblet of Unhallowed Blood
+270 S Isochron Wand
+271 S Lightless Hedron
+272 S Lodestone Golem
+273 S Mentorb
+274 S Mindlock Field
+275 S Mnemonic Curator
+276 S Pristine Frame
+277 S Ring of Souls
+278 S Seer's Sphere
+279 S Servant of Armageddon
+280 S Seven-Year Step
+281 S Shared Trove
+282 S Shining Crusader
+283 S Skeleton Keyring
+284 S Sorcerous Spyglass
+285 S Spectral Skycruiser
+286 S Starforge Armor
+287 S Steamquiver Strix
+288 S Stormcannon Gauntlet
+289 S The Stranger's Play
+290 S Sundial of the Infinite
+291 S Sword of Redemption
+292 S Time Cube
+293 S Titan Snare
+294 S Trap Door
+295 S Treasury Keyper
+296 S Walking Armory
+297 S Warlord's Mantle
+298 S Warrior's Bane
+299 S Whispering Halls
+300 S Wistful Automaton
+301 S Worldslayer
+302 S Forest
+303 S Island
+304 S Mountain
+305 S Plains
+306 S Swamp
 
 [tokens]
+b_1_1_actor_lifelink
+b_2_2_spirit
+b_4_4_demon_regrowth
+b_4_4_horror # wrong art
+c_a_clue_draw
+g_1_1_scout
+g_2_2_bear_actor
+r_3_3_phoenix_flying_haste_firebreathing
+r_3_3_wurm
+u_1_1_fish
+u_1_1_merfolk
+u_3_3_squid
+u_x_x_horror
+w_1_1_bird_flying
+w_x_x_avatar_indestructible
+land_basic_forest
