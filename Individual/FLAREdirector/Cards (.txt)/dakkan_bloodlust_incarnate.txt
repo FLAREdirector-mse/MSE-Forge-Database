@@ -7,4 +7,4 @@ A:AB$ Token | Cost$ 3 B R T | TokenAmount$ X | References$ X | TokenScript$ b_1_
 SVar:X:Count$ThisTurnEntered_Graveyard_Card.Creature
 SVar:PlayMain1:TRUE
 DeckHints:Type$Demon|Devil|Imp
-Oracle:Devils, Imps, and other Demons you control get +2/+0.\n{3}{B}{R}, {T}: For each creature card put into a graveyard this turn, create a 1/1 black Imp creature token with lifelink.
+Oracle:Devils, Imps, and other Demons you control get +2/+0.\n{3}{B}{R}, {T}: For each creature card put into a graveyard this turn, create a 1/1 black Imp creature token with lifelink.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

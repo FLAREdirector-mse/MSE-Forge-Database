@@ -10,4 +10,4 @@ T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.S
 SVar:TrigToken:DB$Token | TokenAmount$ X | TokenScript$ g_0_2_plant_defender | TokenOwner$ You | LegacyImage$ g 0 2 plant defender xln | References$ X
 SVar:X:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield/Times.2
 SVar:BuffedBy:Land
-Oracle:Verdant Avatar enters the battlefield with your choice of a trample counter or a vigilance counter on it.\nWhen Verdant Avatar enters the battlefield, create two 0/2 green Plant creature tokens with defender for each differently named land you control.
+Oracle:Verdant Avatar enters the battlefield with your choice of a trample counter or a vigilance counter on it.\nWhen Verdant Avatar enters the battlefield, create two 0/2 green Plant creature tokens with defender for each differently named land you control.\n\nDesigned by FLAREdirector\nForged by FLAREdirector
