@@ -171,3 +171,15 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 160 L Forest
 
 [tokens]
+b_1_1_bird_flying
+b_1_1_goblin
+b_2_2_zombie
+b_x_x_zombie_horror
+g_1_1_scout
+g_2_2_hound
+gu_x_x_plant_horror_hexproof_trample
+rg_3_1_elemental_horror_haste_trample
+w_1_1_soldier_vigilance
+w_1_1_spirit_flying
+deadwood_terror
+land_basic_plains
