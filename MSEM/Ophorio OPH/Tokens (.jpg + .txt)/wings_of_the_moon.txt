@@ -1,0 +1,7 @@
+Name:Wings of the Moon
+ManaCost:no cost
+Colors:white
+Types:Creature Bird
+K:Flying
+PT:2/1
+Oracle:Flying

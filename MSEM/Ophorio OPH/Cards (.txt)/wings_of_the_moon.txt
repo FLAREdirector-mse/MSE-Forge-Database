@@ -1,0 +1,8 @@
+Name:Wings of the Moon
+ManaCost:1 W
+Types:Creature Bird
+K:Flying
+PT:2/1
+A:AB$ Token | Cost$ 1 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ wings_of_the_moon | TokenOwner$ You | LegacyImage$ wings of the moon oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Flying\nRevive {1}{B}{B} ({1}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

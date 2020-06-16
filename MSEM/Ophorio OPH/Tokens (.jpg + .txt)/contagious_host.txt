@@ -1,0 +1,8 @@
+Name:Contagious Host
+ManaCost:no cost
+Colors:black
+Types:Creature Carrier
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | TriggerController$ TriggeredCardController | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME dies, each player loses 1 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player | LifeAmount$ 1
+Oracle:When Contagious Host dies, each player loses 1 life.

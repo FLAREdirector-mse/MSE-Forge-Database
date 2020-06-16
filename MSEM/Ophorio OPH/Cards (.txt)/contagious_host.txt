@@ -1,0 +1,9 @@
+Name:Contagious Host
+ManaCost:B
+Types:Creature Carrier
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME dies, each player loses 1 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player | LifeAmount$ 1
+A:AB$ Token | Cost$ 2 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ contagious_host | TokenOwner$ You | LegacyImage$ contagious host oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Contagious Host dies, each player loses 1 life.\nRevive {2}{B} ({2}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

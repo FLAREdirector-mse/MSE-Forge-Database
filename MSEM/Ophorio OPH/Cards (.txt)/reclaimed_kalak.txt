@@ -1,0 +1,8 @@
+Name:Reclaimed Kalak
+ManaCost:3 B
+Types:Creature Troll Shaman
+PT:4/2
+A:AB$ Pump | Cost$ 2 B | KW$ Indestructible | Defined$ Self | SpellDescription$ CARDNAME gains indestructible until end of turn.
+A:AB$ Token | Cost$ 3 W ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ reclaimed_kalak | TokenOwner$ You | LegacyImage$ reclaimed kalak oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:{2}{B}: Reclaimed Kalak gains indestructible until end of turn.\nRevive {3}{W} ({3}{W}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
