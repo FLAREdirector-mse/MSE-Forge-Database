@@ -1,0 +1,272 @@
+[metadata]
+Code=LVS
+Date=2020-07-01
+Name=MSEM: Love Song
+Code2=LVS
+MciCode=LVS
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Pipsqueak
+
+[cards]
+1 M The Oltenen Emissary
+2 U Adapted Explorer
+3 C AOSE Field Researcher
+4 C AOSE Spacewalker
+5 C Beyond Humanity
+6 R Combat Technician
+7 R Cosmic War
+8 C Counting Stars
+9 U Covert Reinforcement
+10 C Disassociate
+11 U Exergetic Chains
+12 U First Wave Explorer
+13 C Glowspore Grove
+14 U Glowspore Swarmgrounds
+15 C Grounded
+16 R Heaven Knows
+17 R Jacque, Crystal-Touched
+18 U Lead the Nation
+19 C Major General Explorer
+20 R Mentalist Guardian
+21 C Mining Rover Manager
+22 C Nimble Explorer
+23 C Operations Manager
+24 U Out-of-Body Experience
+25 C Paired Pathfinders
+26 U Persevere
+27 U Planetary Reconnoiterer
+28 C Purging Light
+29 C Ready to Go
+30 U Robot Herder
+31 M Rule the World
+32 C S-19 Long Jacket
+33 U Stalwart Guardian
+34 M Unending Armies
+35 M United Guardian
+36 C United Patrol
+37 C Unwavering Guardian
+38 C Weary Adventurer
+39 R When the Stars Align
+40 C Admin of Asthenia
+41 R Advanced Schematics
+42 R Alive and on Top
+43 C AOSE Lab Tech
+44 U Architect of the Derezzed
+45 C Bulletproof Will
+46 C Comfortably Numb
+47 C Cosmic Sinkhole
+48 C Dimensional Plunge
+49 M Enlightened Guardian
+50 U Essential Override
+51 C Far Wandering Guardian
+52 R Field Technician
+53 U Guardian of Lost Truths
+54 R Hopeless Wanderer
+55 C Lost Among the Stars
+56 U Olten Skywhale
+57 C On Display
+58 U Planeswalker's Insight
+59 C A Planet Far, Far Away
+60 C Predatory Psion
+61 U Reenter Orbit
+62 U Remember for Centuries
+63 U Skyward Ambition
+64 C Slyen Technician
+65 C Space Jelly Swarm
+66 C Speck of Dust
+67 C Station Repair Technician
+68 U Surveyor of Skies
+69 C Take a Walk
+70 C Terrasculpt Mantas
+71 M Time After Time
+72 M Time in a Bottle
+73 C Uncover the Truth
+74 R Want It All
+75 U Whatever It Takes
+76 R Whimsy
+77 C Winged Guardian
+78 U Abomination Blackguard
+79 C Abomination Emissary
+80 C Abomination Sculptor
+81 R Between Life and Death
+82 C Bog Apex
+83 C Call of the Abyss
+84 C Coldhearted Explorer
+85 U Dead End Adventurer
+86 U Dead on Arrival
+87 C Determined Explorer
+88 U Enjoy the Silence
+89 R Everything Black
+90 C Far Too Young to Die
+91 C Find Happiness in Misery
+92 R The Flenser of Singularities
+93 U Grotesque Presence
+94 C Hero's Downfall
+95 C Hold Me Down
+96 M Horrific Progenitor
+97 U Human Frailty
+98 R I'll Be Gone
+99 M Jaded Guardian
+100 C Killdrone Engineer
+101 C Lost Without You
+102 U Malignant Reaver
+103 C Mephistian Abomination
+104 R One Bad Night
+105 C Prosthetic Repairs
+106 M Recurring Abomination
+107 C Repurposed Killdrone
+108 U Returned Explorer
+109 R Senator Christian Winters
+110 C Silencing Guardian
+111 U Spaceship Invader
+112 U Speed of Darkness
+113 U Stratospheric Bombardment
+114 C Sudden Decompression
+115 C Twisted Predator
+116 U 11-A Lionheart
+117 C Abandon Life and Hope
+118 C Accompanied Adventurer
+119 C Architect of Calamity
+120 M Armoured Guardian
+121 C Bloody Business
+122 R Burning Up
+123 U C25-Juliet
+124 C Convert to Resources
+125 U Crystal Vision Abomination
+126 C Dream of Greatness
+127 U Embrace the Abominable
+128 C Emergent Predator
+129 M End of the World
+130 C Extrastellar Larceny
+131 C Fiery Erasure
+132 C Fracking Factory
+133 C Galactic Detonation
+134 C Hardened Explorer
+135 U Head on Collision
+136 R Hostile Habitat
+137 U Hot to the Touch
+138 U In Control
+139 U K-17 Drone
+140 R Let It Burn
+141 R Lt. Daisy Saxon
+142 R Novaheart Guardian
+143 R Olten Sandwurm
+144 C Painwield Explorer
+145 U Power Drive
+146 C R-12 Lone Digger
+147 C Ravenous Abomination
+148 C Scarlet Mist
+149 U Slyten Ignitor
+150 U Space Oddity
+151 M Starborne Hellkite
+152 C V-4 Fixit
+153 C Wandering Precursor
+154 C Beastly Dispute
+155 C Big Enough
+156 R Biocrystal Augmentation
+157 U Bury the Past
+158 M Chromatic Herald
+159 C Collector of Green and Grey
+160 C Colossal Camouflage
+161 U Come Out and Play
+162 C Connoisseur of Toxins
+163 U Cultivate
+164 C Daring Adventurer
+165 C Dedicated Bushwacker
+166 U Deepbrush Operative
+167 U Dirty-Pawed Grazer
+168 C Farseek
+169 M FO-2 Radiation Kid
+170 C Greedy Insects
+171 U Green Daywalker
+172 U Growing Up
+173 M Isolated Guardian
+174 R Lay Claim to Nature
+175 C Lonely Giant
+176 C Lupine Skygrazer
+177 C Nebula's Call
+178 R Olten Survivalist
+179 R On the Shoulders of Giants
+180 R Pernicious Primavore
+181 C Rethia Cultivator
+182 C Return to Earth
+183 C Scavenging Pack
+184 U Seasoned Adventurer
+185 U Strange Discovery
+186 C Strike Down
+187 U Thorn-Touch Abomination
+188 U Venomclaw Skitterer
+189 C Verdant Haven
+190 C Wandering Megaflora
+191 R Wild Dogs of the Night
+192 R Aldorus Fin, Vice President
+193 U Animus Vox
+194 U Atrocity of Flesh
+195 U Collapsing Star Viper
+196 U Dead Man's Party
+197 C Defected Explorer
+198 C Destructive Ambition
+199 C Enter Mephisto's Gate
+200 U The Future Is Now
+201 U Gateblessed Explorer
+202 M Glitch, Galactic Muse
+203 C Heedless Astronaut
+204 R Ignition Point
+205 U Joyous Explorer
+206 R Lone Survivor
+207 C Nebula's Majesty
+208 R No Rest
+209 R Prismatic Scyphozoa
+210 R Rage-Fueled Adventurer
+211 R Rot
+212 M Sadie Dal, Doctor Dreamer
+213 U Sage of Wilds
+214 U Source Day
+215 R Thunder Road
+216 R TT-23 Aegis
+217 U Vengeant Precursor
+218 M Watch the World Fade
+219 R Xenoflora Expert
+220 U Ancient Artillery
+221 U AOSE Skydrone
+222 U Clash Reactor
+223 U Cosmic Chart
+224 R Crucible of Worlds
+225 R Defected Android
+226 C Dreadtread Rover
+227 R Heaven, Presidential Ship
+228 R Inquirer, Roaming Rover
+229 R Killdrone Assembly Works
+230 U Lower Stratosphere Destroyer
+231 C Mineral Retriever
+232 C Precursor Filtercruiser
+233 R Precursor Sentinel
+234 C Prophetic Prism
+235 U Servant of Precursors
+236 M Sword of Monsters and Men
+237 C Tessellated Orb
+238 U Trick Mirror GUI
+239 U Barren Vista
+240 U Blooming Vista
+241 U Glacial Vista
+242 R Hall of Random Access Memories
+243 U Living Vista
+244 U Marshy Vista
+245 U Nebula of Empty Gold
+246 U New Divide
+247 C Prismatic Cavern
+248 U Slyten Crystal Motherlode
+249 R The Tomb of Precursors
+250 L Plains
+251 L Island
+252 L Swamp
+253 L Mountain
+254 L Forest
+
+[tokens]
+c_a_sac_treasure
+c_1_1_a_servo
+c_x_x_a_construct
+u_1_1_elemental_flying

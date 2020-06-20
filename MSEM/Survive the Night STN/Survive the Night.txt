@@ -1,0 +1,116 @@
+[metadata]
+Code=STN
+Date=2020-07-01
+Name=MSEM: Survive the Night
+Code2=MSE
+MciCode=mse
+Type=Other
+# BoosterCovers=5
+# Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Gateways7
+
+[cards]
+1 R Ascension
+2 R Ayala, Shrouded Shepherd
+3 R Caulte Sovereign
+4 R Jenn, the Rising Dawn
+5 R Jenn's Stand
+6 R Keeper of the Sanctum
+7 R Militant Youth
+8 R Ochre Knight
+9 R Phantasmal Reflection
+10 R Reaper of the Fields
+11 R See the Sunrise
+12 R Skyflock Warrior
+13 R Stonewood Sanctuary
+14 R Verdict of the Council
+15 R Banish the Intruders
+16 R Endless Discoveries
+17 R Frostbreath Dragon
+18 R Icepeak Phantasm
+19 R Jaws of the Sea
+20 R Majesty Moonwhale
+21 R Paradox Zone
+22 R Prowling Frost-Tiger
+23 R Skystream Mantas
+24 R Spellshatter
+25 R Strix of Dark Omens
+26 R Temporal Insight
+27 R Veiled by the Blizzard
+28 R Worldly Travels
+29 R Agonizing Punishment
+30 R The Awakening
+31 R Bloodlash Caravan
+32 R Concealed Slasher
+33 R Corvid Heretic
+34 R Demon of Dark Shadows
+35 R Descend on the Helpless
+36 R Escape Death
+37 R Heartripper Zombie
+38 R Impden Mother
+39 R Offerings to the Deathless
+40 R Ominous Hart
+41 R Spellflux Skeleton
+42 R Surge of Darkness
+43 R Banished Companion
+44 R Caulte Axeslinger
+45 R Cragbound Crusher
+46 R Crimson Knight
+47 R Eternal Rage
+48 R The Flames Approach
+49 R Fleeting Discoveries
+50 R Frostfire Hulk
+51 R Hell's Verdict
+52 R Inferno Lash
+53 R Kaor Awoken
+54 R Kaor's Tithe
+55 R Molten Incubation
+56 R Scarletblood Hound
+57 R Brushcover Elf
+58 R Earthform Pachyderm
+59 R Gaze Over the Wilds
+60 R Guardian of the Divergent
+61 R Highpeak Rider
+62 R Honor the Lost
+63 R Poisonheart Druid
+64 R Shambling Manglers
+65 R Shatter the Mask
+66 R Show of Dominance
+67 R Towering Stag
+68 R Verdant Sanctuary
+69 R What Lurks Beyond
+70 R Whisperwoods Reclaimer
+71 R Ayala's Concord
+72 R Champion of Blades
+73 R Eclipse Knight
+74 R Risen Raven
+75 R Skyscreecher Dragon
+76 R Solitary Guardian
+77 R Torch the City
+78 R Vali, Planar Researcher
+79 R Whisperwood Exploration
+80 R Whisperwoods Phoenix
+81 R Wisdom of the Wilds
+82 R Ayala's Steeple
+83 R Cinderblade
+84 R Aureate Panorama
+85 R Frozen Hinterlands
+86 R Hazy Coppice
+87 R Lowland Vista
+88 R Spires of Caulte
+89 R Sunlit Fissure
+90 R Testament to Heroism
+91 R Towering Boughs
+92 R The Whisperwoods
+
+[tokens]
+b_1_1_imp
+c_a_treasure_sac
+g_3_3_elephant
+r_5_5_dragon_flying
+u_1_1_bird_flying
+w_0_4_wall_defender
+w_1_1_bird_flying
+w_1_1_cleric
+w_1_1_spirit_lifelink
+ash

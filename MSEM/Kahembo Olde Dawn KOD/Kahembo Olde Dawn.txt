@@ -1,0 +1,296 @@
+[metadata]
+Code=KOD
+Date=2020-07-01
+Name=MSEM: Kahembo: Olde Dawn
+Code2=KOD
+MciCode=KOD
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by CanterburyEgg
+
+[cards]
+1 R Aparodist
+2 C Aerie Warden
+3 C Ambitious Ostrich
+4 C Aspirant of Legend
+5 U Batiga Escort
+6 U Beyond the Boneyard
+7 U Bourasan Street Watch
+8 M End of Days
+9 R Frontier Savior
+10 C Glory in the Fray
+11 C Greypelt Clergy
+12 U Greypelt Initiate
+13 C Jowly Recruit
+14 U Mythos Scribe
+15 C Nest Matriarch
+16 C Pacifism
+17 C Paint Over
+18 C Palace Vanguard
+19 L Plains
+20 U Provincial Loyalty
+21 C Resting Wildehound
+22 C Royal Bloodhound
+23 C Sandblast
+24 C Shabil's Absolute Triumph
+25 U T'nege, Skyguard
+26 C Twinklewings
+27 C Windwatch Eagle
+28 C Aether Runes
+29 U Aether Sculptor
+30 U Arcane Refusal
+31 C Croak Tales
+32 C Gharial Bandit
+33 C Icecap Tortoise
+34 U Into Waridi Valley
+35 L Island
+36 C Kafyabari Patrol
+37 C Lustrous Shrike
+38 C Murmuring Typhoon
+39 U Nectarkin
+40 U On Marvelous Wings
+41 R Ophidian Augury
+42 M Prodigious Panya
+43 C Sable Hoopoe
+44 U Sage of Storms
+45 C Samaki School
+46 C Serenity of Youth
+47 U Serum Smoker
+48 U Sheltered Diviner
+49 C Spirit Transfusion
+50 C Student of the Scroll
+51 U Tanager Typhoon
+52 C Unbracing Rain
+53 C Welkin Tern
+54 C Wind Ward
+55 C Barbed Cocoon
+56 C Blackmoat Bully
+57 C Bloodied Wulfhound
+58 C Bogfume Pact
+59 C Bone Splinters
+60 C Boneyard Mantis
+61 R Butcher of Shallow Graves
+62 C Foul Vulture
+63 C Fuel the Arcflame
+64 U A Grave Sentence
+65 C Hemophage Parasite
+66 U Hero Slayer
+67 C Lupine Ferocity
+68 C Manglehorn Hunter
+69 C Nightmare Chanter
+70 U Pact of Dark Power
+71 U Pakka, the Shadowcloak
+72 U Pestilent Vermin
+73 C Rip to Shreds
+74 U Shrieking Gnoll
+75 C Starvation
+76 C Stupefied Piper
+77 U Stygian Condor
+78 L Swamp
+79 M Trouble Brewing
+80 U Twilight Ambush
+81 C Brushfire
+82 U Calamity of Yore
+83 U Canine Acumen
+84 C Desert Storm
+85 R Fateful Eruption
+86 U Fierce Combatant
+87 C Gnarled Challenger
+88 C Greypelt Ruffian
+89 U The Harnessing of Fire
+90 C Indomitable Rage
+91 C Kwende Peak Sentry
+92 C Maddening Thoughts
+93 L Mountain
+94 U Mwiti, Ever-Scarred
+95 C Nip at the Heel
+96 C Ox of Blood Bend
+97 U Quill Sniper
+98 M Rainbow Phoenix
+99 C Rapacious Instinct
+100 C Ravenous Pack
+101 C Rugged Ferocity
+102 C Ruthless Mastiff
+103 C Scale-Crown Ranger
+104 C Siamang Minstrel
+105 U Thorny Bushwacker
+106 U Vibrant Flames
+107 U Virtuorangutan
+108 U Babyscale Bruiser
+109 U Battle for Msuji Highlands
+110 C Blisterbug
+111 C Chimperial Guard
+112 U Coldblood Bender
+113 C Colony Soldier
+114 R Crashing Mammoth
+115 U Disciple of the All-Mother
+116 C Elken Grovetender
+117 C Felling Vines
+118 L Forest
+119 C Gentle Giraffe
+120 C Grace of Timber
+121 C Grotto Scarab
+122 C Infestation
+123 C Iron Hide
+124 U Join the Colony
+125 C Kwende Peak Huntsman
+126 U Lair Recluse
+127 C Panthera Magus
+128 U Rains Bring New Life
+129 C Ring-Tailed Ascetic
+130 C Silverhorn Tactician
+131 C Suncrown Mastodon
+132 C Turf War
+133 M A Wide World Awaits
+134 R Anomalion
+135 R An'yama, Elder Guardian
+136 U Back-Alley Gnoll
+137 U Bourasan Highguard
+138 C Cave Eel
+139 U Chitterrax
+140 U Darkwing Wretch
+141 C Devious Paladin
+142 R Eternal Deliverance
+143 U Fester Swarm
+144 R Fractured Illusion
+145 R Fume Whisperer
+146 C Great Migration
+147 C Greypelt Trooper
+148 C Headhunter Mantis
+149 C Herd Matron
+150 R Howling Shieldbreaker
+151 U Kafyabari Enforcer
+152 R Kalosi Invoker
+153 U Kutaan Incubation
+154 C Lace-Barred Owl
+155 C Lava Spill
+156 R Lunar Emissary
+157 U Miluna, Prairie Prince
+158 U Netherform
+159 U Ornery Bloom
+160 U Parrot Pools
+161 R Petrify
+162 U Primation
+163 U Reticulate Chemist
+164 R Ruinous Naga
+165 U Savannah Huntsman
+166 R Settle the Dust
+167 C Simian Sentinel
+168 C Speckled Outcast
+169 U Tawny Prophet
+170 U Theurgic Flock
+171 U Trials of Ndengo
+172 U Umala, the Reverent
+173 U Wisdom Beyond Age
+174 U Wise Farseer Chini
+175 R Agrestal Decay
+176 M All-Enduring Mafua
+177 R Am'atambi, Fable Weaver
+178 R Animorph
+179 R Anuran Encounters
+180 R Art of Evasion
+181 R Artful Chari
+182 U Azure Caterwauler
+183 R Badru, the Skyshadow
+184 U The Banishment of Seh'a
+185 R Berylscale Alaj
+186 R Blind Blackguard
+187 U Bwema, the Ruthless
+188 R Cloud Locus Sentry
+189 R Colony Queen
+190 U Distorted Reflection
+191 C Elegant Agility
+192 U Explore Forgotten Lands
+193 R Fakadeh, Florid Queen
+194 R Fearless King Shabil
+195 U Feline Furor
+196 R Flatboat Artisan
+197 U Glinthide Hero
+198 C Golden Gust
+199 U Greypelt Brute
+200 R Greypelt Emissary
+201 U Guide to the Wayward
+202 M Hembwe, the All-Mother's Hand
+203 U Homestead
+204 C Joyful Deviant
+205 R Kambiro, the Untrue King
+206 R Kiana, the Unyielding
+207 U King Shabil's Tournament
+208 C Kwende Peak Partisan
+209 R Lumbering Ox
+210 M Manic River-Fishers
+211 R Mercurial Chameleon
+212 U Msuji Operative
+213 M Msuji Sureshot
+214 R Neural Contagion
+215 R Olde King Koswe
+216 U Oozing Adder
+217 M Pangoling
+218 U Pith Wilt
+219 C Pungent Beetle
+220 R Rage of the Ravaged	
+221 R Raiding Gnoll-Band
+222 C Rousing Battlehound
+223 M Ruchi, the Effervescent
+224 R Rumble in the Jungle
+225 U Runescale Brawler
+226 C Scavenger's Feast
+227 C Shadow Stalker
+228 U Shrewd Sikoyo
+229 U Silthway Scuttler
+230 U Sirif of the Lord's Legion
+231 M Slippery Axolotl
+232 C Squall Serpent
+233 R The Sungaru Gang
+234 R Take the Bait
+235 C Tarrying Gharial
+236 M Threshing Sundew
+237 R Thrice-Clawed Troika
+238 R Triumphant Tactics
+239 R Unlikeliest Heroes
+240 M Warhound Shuja
+241 R Will of a Fickle Lord
+242 M Xiong Mao, Restless Waif
+243 C Aetherspear
+244 R Canid Simulacrum
+245 C Esoteric Egg
+246 C Prophetic Prism
+247 C Punja Stick Trap
+248 C Wings of Liberty
+249 C Evolving Wilds
+250 R Gleaming River
+251 R Murky Peat
+252 R Sunwashed Spires
+253 R Tropical Grove
+254 R Vast Savannah
+255 U Ancient Dominion
+256 U Bleak Dominion
+257 C Bloodfell Caves
+258 C Blossoming Sands
+259 U Coastal Dominion
+260 U Desolate Dominion
+261 C Dismal Backwater
+262 C Jungle Hollow
+263 U Majestic Dominion
+264 U Primal Dominion
+265 U Pristine Dominion
+266 U Rugged Dominion
+267 C Rugged Highlands
+268 C Scoured Barrens
+269 U Stalwart Dominion
+270 C Swiftwater Cliffs
+271 C Thornwood Falls
+272 C Tranquil Cove
+273 U Verdant Dominion
+274 C Wind-Scarred Crag
+
+[tokens]
+g_1_1_insect
+g_4_4_rhino_warrior_trample
+r_1_1_dog
+r_3_3_ox
+u_1_1_bird_flying
+w_2_2_cat
+lotus_petal
+land_far_off_lands
