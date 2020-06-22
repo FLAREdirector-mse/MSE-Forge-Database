@@ -1,6 +1,6 @@
 Name:Drown in Nightmares
 ManaCost:B B
 Types:Sorcery
-A:SP$ Discard | Cost$ B B | ValidTgts$ Player | Mode$ RevealYouChoose | DiscardValid$ Card.nonLand | NumCards$ 1 | SubAbility$ DBMill | SpellDescription$ Target player reveals their hand. You choose a nonland card from it. That player discards that card, then puts the top four cards of their library into their graveyard.
+A:SP$ Discard | Cost$ B B | ValidTgts$ Player | Mode$ RevealYouChoose | DiscardValid$ Card.nonLand | NumCards$ 1 | SubAbility$ DBMill | SpellDescription$ Target player reveals their hand. You choose a nonland card from it. That player discards that card, then mills four cards.
 SVar:DBMill:DB$ Mill | NumCards$ 4 | Defined$ TargetedController
-Oracle:Target player reveals their hand. You choose a nonland card from it. That player discards that card, then puts the top four cards of their library into their graveyard
+Oracle:Target player reveals their hand. You choose a nonland card from it. That player discards that card, then mills four cards.

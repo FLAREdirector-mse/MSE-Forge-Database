@@ -6,4 +6,4 @@ A:AB$ Mana | Cost$ T Mill<2> | Produced$ G | SpellDescription$ Add {G}.
 T:Mode$ ChangesZoneAll | ValidCards$ Card.Land+YouOwn | Origin$ Library | Destination$ Graveyard | TriggerZones$ Battlefield | Execute$ TrigPayCost | TriggerDescription$ Whenever one or more land cards are put into your graveyard from your library, you may pay {1}{B}{G}. When you do, create a 1/1 green Insect creature token.
 SVar:TrigPayCost:AB$ ImmediateTrigger | Cost$ 1 B G | Execute$ TrigToken | TriggerDescription$ When you pay {1}{B}{G}, create a 1/1 green Insect creature token.
 SVar:TrigToken:DB$ Token | TokenScript$ g_1_1_insect | TokenAmount$ 1 | LegacyImage$ g 1 1 insect twr
-Oracle:{T}, Put the top two cards of your library into your graveyard: Add {B} or {G}.\nWhenever one or more land cards are put into your graveyard from your library, you may pay {1}{B}{G}. When you do, create a 1/1 green Insect creature token.
+Oracle:{T}, Mill two cards: Add {B} or {G}.\nWhenever one or more land cards are put into your graveyard from your library, you may pay {1}{B}{G}. When you do, create a 1/1 green Insect creature token.

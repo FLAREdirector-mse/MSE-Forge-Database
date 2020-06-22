@@ -1,6 +1,6 @@
 Name:Assassin's Warning
 ManaCost:2 UB
 Types:Instant
-A:SP$ Pump | Cost$ 2 UB | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBMill | NumAtt$ -3 | IsCurse$ True | SpellDescription$ Target creature gets -3/-0 until end of turn. That creature's controller puts the top six cards of their library into their graveyard.
+A:SP$ Pump | Cost$ 2 UB | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBMill | NumAtt$ -3 | IsCurse$ True | SpellDescription$ Target creature gets -3/-0 until end of turn. That creature's controller mills six cards.
 SVar:DBMill:DB$ Mill | NumCards$ 6 | Defined$ TargetedController
-Oracle:Target creature gets -3/-0 until end of turn. That creature's controller puts the top six cards of their library into their graveyard.
+Oracle:Target creature gets -3/-0 until end of turn. That creature's controller mills six cards.
