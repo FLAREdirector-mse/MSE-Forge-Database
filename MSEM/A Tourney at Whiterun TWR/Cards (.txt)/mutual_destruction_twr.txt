@@ -1,4 +1,4 @@
-Name:Mutual Destruction
+Name:Mutual Destruction TWR
 ManaCost:2 B B
 Types:Enchantment
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDestroy | TriggerDescription$ Whenever a creature you control dies, destroy target creature you don’t control.

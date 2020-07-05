@@ -102,7 +102,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 91 U Knight of the Raven
 92 C Mercenary Coercer
 93 R Mismatched Bandit
-94 M Mutual Destruction
+94 M Mutual Destruction TWR
 95 U Old Grudges
 96 C Punish the Bold
 97 U Reverence Seeker
