@@ -1,0 +1,5 @@
+Name:Royal Bloodhound
+ManaCost:2 W
+Types:Creature Dog
+PT:2/4
+Oracle:

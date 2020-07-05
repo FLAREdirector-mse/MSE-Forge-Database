@@ -1,0 +1,6 @@
+Name:Paint Over
+ManaCost:W
+Types:Instant
+A:SP$ Sacrifice | Cost$ W | ValidTgts$ Player | SacValid$ Enchantment | SacMessage$ Enchantment | SubAbility$ DBGainLife | SpellDescription$ Target player sacrifices an enchantment. You gain 4 life.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 4
+Oracle:Target player sacrifices an enchantment. You gain 4 life.

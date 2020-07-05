@@ -1,0 +1,6 @@
+Name:Ambitious Ostrich
+ManaCost:3 W
+Types:Creature Bird
+PT:3/3
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Flying | IsPresent$ Legendary.YouCtrl,Enchantment.YouCtrl | Description$ CARDNAME has flying as long as you control a storied permanent. (Enchantments and legendary permanents are storied.)
+Oracle:Ambitious Ostrich has flying as long as you control a storied permanent. (Enchantments and legendary permanents are storied.)

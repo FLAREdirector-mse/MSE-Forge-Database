@@ -1,0 +1,8 @@
+Name:Bourasan Street Watch
+ManaCost:1 W
+Types:Creature Dog Knight
+PT:3/1
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | OptionalDecider$ You | TriggerDescription$ Whenever CARDNAME attacks, you may pay {W}. If you do, CARDNAME gains indestructible until end of turn.
+SVar:TrigPump:AB$ Pump | Cost$ W | Defined$ Self | KW$ Indestructible
+SVar:HasAttackEffect:TRUE 
+Oracle:Whenever Bourasan Street Watch attacks, you may pay {W}. If you do, Bourasan Street Watch gains indestructible until end of turn.

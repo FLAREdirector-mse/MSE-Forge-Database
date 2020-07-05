@@ -1,0 +1,15 @@
+Name:T'nege, Skyguard
+ManaCost:4 W
+Types:Creature Bird Knight
+PT:4/4
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChoose | TriggerDescription$ When CARDNAME enters the battlefield, exile another creature you control until CARDNAME leaves the battlefield. If you do, exile target creature an opponent controls until CARDNAME leaves the battlefield.
+SVar:TrigChoose:DB$ ChooseCard | Choices$ Creature.YouCtrl+Other | ChoiceZone$ Battlefield | ChoiceTitle$ Select another creature you control | Mandatory$ True | SubAbility$ DBExile
+SVar:DBExile:DB$ ChangeZone | Defined$ ChosenCard | Origin$ Battlefield | Destination$ Exile | RememberLKI$ True | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | Triggers$ ComeBack | SVars$ TrigReturn | RememberObjects$ ChosenCard | ImprintCards$ Self | ForgetOnMoved$ Exile | Duration$ Permanent | SubAbility$ DBChoose2
+SVar:DBChoose2:DB$ ChooseCard | Choices$ Creature.OppCtrl | ChoiceZone$ Battlefield | ChoiceTitle$ Select a creature an opponent controls | Mandatory$ True | SubAbility$ DBExile2
+SVar:DBExile2:DB$ ChangeZone | Defined$ ChosenCard | Origin$ Battlefield | Destination$ Exile | RememberLKI$ True
+SVar:ComeBack:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.IsImprinted | Execute$ TrigReturn | TriggerZones$ Command | TriggerController$ TriggeredCardController | Static$ True | TriggerDescription$ This creature is exiled until EFFECTSOURCE leaves the battlefield
+SVar:TrigReturn:DB$ ChangeZone | Defined$ ChosenCard | Origin$ Exile | Destination$ Battlefield
+SVar:DBCleanup:DB$ Cleanup | ClearChosenCard$ True | ClearRemembered$ True
+Oracle:Flying\nWhen T'nege, Skyguard enters the battlefield, exile another target creature you control until T'nege leaves the battlefield. If you do, exile target creature an opponent controls until T'nege leaves the battlefield.

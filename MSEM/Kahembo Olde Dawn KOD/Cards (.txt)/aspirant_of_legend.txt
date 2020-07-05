@@ -1,0 +1,7 @@
+Name:Aspirant of Legend
+ManaCost:2 W
+Types:Creature Cat Warrior
+PT:2/3
+T:Mode$ ChangesZone | ValidCard$ Legendary.YouCtrl,Enchantment.YouCtrl | Origin$ Any | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigTap | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, tap target creature an opponent controls. (Enchantments and legendary permanents are storied.)
+SVar:TrigTap:DB$ Tap | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Choose target creature an opponent controls.
+Oracle:Whenever a storied permanent enters the battlefield under your control, tap target creature an opponent controls. (Enchantments and legendary permanents are storied.)
