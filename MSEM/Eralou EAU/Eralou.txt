@@ -7,6 +7,7 @@ MciCode=eau
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Tyrant
 
 [cards]
 1 U Acclaimed Leadership

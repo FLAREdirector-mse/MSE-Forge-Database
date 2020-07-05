@@ -5,6 +5,7 @@ Name=MSEM: The Mana Pool 2
 Code2=L3
 MciCode=l3
 Type=Other
+# Set compiled by Timespiraled
 
 [cards]
 0 C Wastes

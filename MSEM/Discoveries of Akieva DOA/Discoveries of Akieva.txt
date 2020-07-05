@@ -7,6 +7,7 @@ MciCode=doa
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Pipsqueak
 
 [cards]
 1 R Alia, Bearer of Morning

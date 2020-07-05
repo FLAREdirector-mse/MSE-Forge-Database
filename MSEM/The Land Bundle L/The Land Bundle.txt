@@ -5,6 +5,7 @@ Name=MSEM: The Land Bundle
 Code2=L
 MciCode=l
 Type=Other
+# Set compiled by Timespiraled
 
 [cards]
 1 C Tranquil Stream

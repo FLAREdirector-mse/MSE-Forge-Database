@@ -5,6 +5,7 @@ Name=MSEM: MSEM Champions
 Code2=MPS_MSE
 MciCode=mps_mse
 Type=Other
+# Set compiled by Cajun
 
 [cards]
 1 M Master of Tranquility

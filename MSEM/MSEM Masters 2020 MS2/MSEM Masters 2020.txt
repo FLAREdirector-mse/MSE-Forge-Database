@@ -7,9 +7,8 @@ MciCode=ms2
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set compiled by Timespiraled & CyberChronometer
 
-[cards]
-MSEM Masters 2020
 [cards]
 1 M The Infinite
 2 R Akrianos' Command

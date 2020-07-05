@@ -5,6 +5,7 @@ Name=MSEM: Mious Divinities
 Code2=MPS_MIS
 MciCode=mps_mis
 Type=Other
+# Set designed by MSE Community (good job all!)
 
 [cards]
 1 M The Infinite

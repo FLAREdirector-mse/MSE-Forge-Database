@@ -5,6 +5,7 @@ Name=MSEM: Ophorio Sagas
 Code2=MPS_OPO
 MciCode=mps_opo
 Type=Other
+# Set designed by Cajun
 
 [cards]
 1 M Alyss, Lawweaver

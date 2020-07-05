@@ -5,8 +5,9 @@ Name=MSEM: Storytime
 Code2=101
 MciCode=101
 Type=Other
-BoosterCovers=5
-Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# BoosterCovers=5
+# Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Pipsqueak
 
 [cards]
 1 M Azamir, Wayward Titan
