@@ -1,0 +1,9 @@
+Name:Encampment Raid
+ManaCost:1 R
+Types:Sorcery
+A:SP$ Charm | Cost$ 1 R | Choices$ DBPumpAll,DBEffect
+SVar:DBPumpAll:DB$ PumpAll | Cost$ 2 R | ValidCards$ Creature.YouCtrl | NumAtt$ +2 | SpellDescription$ Creatures you control get +2/+0 until end of turn.
+SVar:DBEffect:DB$ Effect | Name$ Encampment Raid Effect | StaticAbilities$ KWPump | AILogic$ Evasion | SpellDescription$ Creatures your opponents control can't block creatures with less power this turn.
+SVar:KWPump:Mode$ Continuous | EffectZone$ Command | AffectedZone$ Battlefield | Affected$ Creature.OppCtrl | AddHiddenKeyword$ CantBlock Creature.powerGTX:creatures with less power | AddSVar$ X | References$ X | Description$ Creatures your opponents control can't block creatures with less power this turn.
+SVar:X:Count$CardPower
+Oracle:Choose one —\n• Creatures you control get +2/+0 until end of turn.\n• Creatures your opponents control can't block creatures with less power this turn.
