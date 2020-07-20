@@ -1,0 +1,14 @@
+Name:On Marvelous Wings
+ManaCost:2 U
+Types:Enchantment Saga
+K:Saga:3:DBPutCounter,DBPutCounter,DBTax1
+SVar:DBPutCounter:DB$ GenericChoice | Defined$ You | Choices$ Flying,Hexproof | Description$ I, II — Put your choice of a flying or hexproof counter on target creature you control.
+SVar:Flying:DB$ PutCounter | Choices$ Creature.YouCtrl | ChoiceTitle$ Choose target creature you control to put a flying counter on | CounterType$ Flying | CounterNum$ 1 | SubAbility$ DBCleanup | SpellDescription$ Flying
+SVar:Hexproof:DB$ PutCounter | Choices$ Creature.YouCtrl | ChoiceTitle$ Choose target creature you control to put a hexproof counter on | CounterType$ Hexproof | CounterNum$ 1 | SubAbility$ DBCleanup | SpellDescription$ Hexproof
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:DBTax1:DB$ Effect | StaticAbilities$ CantBlockUnless | SVars$ CantBlockUnless | SubAbility$ DBTax2 | SpellDescription$ Creatures you control with counters on them can't be blocked this turn unless defending player pays {3} for each blocking creature.
+SVar:CantBlockUnless:Mode$ CantBlockUnless | ValidCard$ Creature | Attacker$ Creature.YouCtrl+HasCounters | Cost$ 3 | EffectZone$ Command | Description$ Creatures you control with counters on them can't be blocked this turn unless defending player pays {3} for each blocking creature.
+SVar:DBTax2:DB$ Effect | Duration$ UntilYourNextTurn | StaticAbilities$ RaiseCost | SVars$ RaiseCost | SpellDescription$ Spells that target creatures you control cost an additional {3} to cast until your next turn (including spells you cast).
+SVar:RaiseCost:Mode$ RaiseCost | ValidTarget$ Creature.YouCtrl | Type$ Spell | Amount$ 3 | EffectZone$ Command | Description$ Spells that target creatures you control cost an additional {3} to cast until your next turn (including spells you cast).
+SVar:NeedsToPlay:Creature.YouCtrl
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Put your choice of a flying or hexproof counter on target creature you control.\nIII — Creatures you control with counters on them can't be blocked this turn unless defending player pays {3} and spells that target those creatures cost an additional {3} to cast until your next turn.

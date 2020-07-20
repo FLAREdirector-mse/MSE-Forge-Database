@@ -1,0 +1,9 @@
+Name:Sage of Storms
+ManaCost:5 U
+Types:Creature Bird Wizard
+PT:5/5
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigTap | TriggerDescription$ When CARDNAME enters the battlefield, untap another target creature you control with flying and put a +1/+1 counter on it.
+SVar:TrigTap:DB$ Untap | ValidTgts$ Creature.Other+YouCtrl+withFlying | SubAbility$ DBPutCounter | TgtPrompt$ Choose another target creature you control with flying.
+SVar:DBPutCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1 | Defined$ Targeted
+Oracle:Flying\nWhen Sage of Storms enters the battlefield, untap another target creature you control with flying and put a +1/+1 counter on it.

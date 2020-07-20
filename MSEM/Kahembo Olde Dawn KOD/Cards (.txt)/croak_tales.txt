@@ -1,0 +1,7 @@
+Name:Croak Tales
+ManaCost:2 U
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | CheckSVar$ X | SVarCompare$ GE1 | References$ X | Description$ CARDNAME costs {2} less to cast if you control a creature with a Tale.
+SVar:X:Count$Valid Creature.TaleCard+YouCtrl
+A:SP$ Draw | Cost$ 2 U | NumCards$ 2 | SpellDescription$ Draw two cards.
+Oracle:This spell costs {2} less to cast if you control a creature with a Tale.\nDraw two cards.

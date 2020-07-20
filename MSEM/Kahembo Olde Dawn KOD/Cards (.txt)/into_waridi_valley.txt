@@ -1,0 +1,8 @@
+Name:Into Waridi Valley
+ManaCost:7 U
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | References$ X | EffectZone$ All | Description$ CARDNAME costs {1} less to cast for each multicolored card in your graveyard.
+SVar:X:Count$ValidGraveyard Card.MultiColor+YouOwn
+DeckHints:Ability$Graveyard
+A:SP$ Draw | Cost$ 7 U | NumCards$ 4 | SpellDescription$ Draw four cards.
+Oracle:This spell costs {1} less to cast for each multicolored card in your graveyard.\nDraw four cards.

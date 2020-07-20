@@ -1,0 +1,8 @@
+Name:Serenity of Youth
+ManaCost:1 U
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 1 U | ValidTgts$ Creature | AILogic$ KeepTapped
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddHiddenKeyword$ CARDNAME doesn't untap during your untap step. | CheckSVar$ X | SVarCompare$ EQ1 | References$ X | Description$ Enchanted creature doesn't untap during its controller's untap step unless its controller controls no other creatures.
+SVar:X:Count$EnchantedControllerCreatures
+Oracle:Enchant creature\nEnchanted creature doesn't untap during its controller's untap step unless its controller controls no other creatures.

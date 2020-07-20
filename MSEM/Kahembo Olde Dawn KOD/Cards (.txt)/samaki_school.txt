@@ -1,0 +1,6 @@
+Name:Samaki School
+ManaCost:U
+Types:Creature Fish
+PT:0/3
+A:AB$ Dig | Cost$ 7 T Sac<1/CARDNAME> | DigNum$ 4 | ChangeNum$ 2 | RestRandomOrder$ True | SpellDescription$ Look at the top four cards of your library. Put two into your hand and the rest on the bottom of your library in any order.
+Oracle:{7}, {T}, Sacrifice Samaki School: Look at the top four cards of your library. Put two into your hand and the rest on the bottom of your library in any order.

@@ -1,0 +1,6 @@
+Name:Murmuring Typhoon
+ManaCost:1 U
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 U | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBShuffle | SpellDescription$ Return target creature to its owner's hand. You may shuffle up to four target cards from your graveyard into your library.
+SVar:DBShuffle:DB$ ChangeZone | Origin$ Graveyard | Destination$ Library | DefinedPlayer$ You | Hidden$ True | ChangeNum$ 4 | ChangeType$ Card.YouOwn | Shuffle$ True | OptionalDecider$ You
+Oracle:Return target creature to its owner's hand. You may shuffle up to four target cards from your graveyard into your library. 

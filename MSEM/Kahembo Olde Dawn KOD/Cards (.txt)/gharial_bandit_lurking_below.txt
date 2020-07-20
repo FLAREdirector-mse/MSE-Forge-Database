@@ -1,0 +1,16 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Gharial Bandit
+ManaCost:3 U
+Types:Creature Crocodile Rogue
+PT:3/2
+Oracle:
+
+ALTERNATE
+
+Name:Lurking Below
+ManaCost:U
+Types:Sorcery Tale
+A:SP$ PutCounter | Cost$ U | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Targeted | KW$ HIDDEN Unblockable
+Oracle:Put a +1/+1 counter on target creature. It can't be blocked this turn. (Cast a copy of this spell once while this creature is on the battlefield.)

@@ -1,0 +1,6 @@
+Name:Aether Runes
+ManaCost:2 U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 3 |SubAbility$ DBMill | Destination$ Graveyard | SpellDescription$ Counter target spell unless its controller pays {3}. Its controller mills three cards.
+SVar:DBMill:DB$ Mill | NumCards$ 3 | Defined$ TargetedController
+Oracle:Counter target spell unless its controller pays {3}. Its controller mills three cards.

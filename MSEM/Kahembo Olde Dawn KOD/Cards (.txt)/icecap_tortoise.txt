@@ -1,0 +1,8 @@
+Name:Icecap Tortoise
+ManaCost:5 U
+Types:Creature Turtle Elemental
+PT:6/6
+K:etbCounter:ICE:3
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_ICE | AddKeyword$ Defender | Description$ As long as CARDNAME has an ice counter on it, it has defender.
+A:AB$ RemoveCounter | Cost$ 1 U | CounterType$ ICE | CounterNum$ 1 | SpellDescription$ Remove an ice counter from Icecap Tortoise.
+Oracle:Icecap Tortoise enters the battlefield with three ice counters on it.\nIcecap Tortoise has defender as long as it has an ice counter on it.\n{1}{U}: Remove an ice counter from Icecap Tortoise.
