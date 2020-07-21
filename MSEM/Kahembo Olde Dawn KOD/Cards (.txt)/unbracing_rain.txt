@@ -1,0 +1,7 @@
+Name:Unbracing Rain
+ManaCost:3 U
+Types:Instant
+A:SP$ Pump | Cost$ 3 U | TargetMin$ 0 | TargetMax$ 2 | NumAtt$ -3 | ValidTgts$ Creature | TgtPrompt$ Select target Creature | SubAbility$ DBTap | SpellDescription$ Up to two target creatures each get -3/-0 until end of turn. Tap those creatures. They don't untap during their controller's next untap step.
+SVar:DBTap:DB$ Tap | Defined$ Targeted | SubAbility$ DBFreeze
+SVar:DBFreeze:DB$ Pump | Defined$ Targeted | KW$ HIDDEN This card doesn't untap during your next untap step. | Permanent$ True
+Oracle:Up to two target creatures each get -3/-0 until end of turn. Tap those creatures. They don't untap during their controller's next untap step

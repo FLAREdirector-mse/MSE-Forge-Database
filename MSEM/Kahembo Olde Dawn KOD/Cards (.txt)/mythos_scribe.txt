@@ -4,4 +4,6 @@ Types:Creature Cat Bard
 PT:3/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, you may return target storied card from your graveyard to your hand. (Enchantments and legendary permanents are storied.)
 SVar:TrigChangeZone:DB$ ChangeZone | OptionalDecider$ You | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Permanent.Legendary+YouCtrl,Enchantment.YouCtrl
+SVar:BuffedBy:Enchantment
+SVar:BuffedBy:Legendary
 Oracle:When Mythos Scribe enters the battlefield, you may return target storied card from your graveyard to your hand. (Enchantments and legendary permanents are storied.)

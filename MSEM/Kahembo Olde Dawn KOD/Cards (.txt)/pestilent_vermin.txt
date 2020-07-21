@@ -1,0 +1,9 @@
+Name:Pestilent Vermin
+ManaCost:2 B
+Types:Creature Rat Shaman
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ When Pestilent Vermin enters the battlefield, target opponent loses 2 life unless they discard a card.
+SVar:TrigLoseLife:DB$LoseLife | ValidTgts$ Opponent | TgtPrompt$ Choose target opponent | LifeAmount$ 2 | UnlessCost$ Discard<1/Card> | UnlessPayer$ Targeted
+T:Mode$ SpellCast | ValidCard$ Instant.Tale,Sorcery.Tale | ValidActivatingPlayer$ You | TriggerZones$ Graveyard | OptionalDecider$ You | Execute$ TrigReturn | TriggerDescription$ Whenever you cast a Tale, you may return Pestilent Vermin from your graveyard to your hand.
+SVar:TrigReturn:AB$ ChangeZone | Defined$ Self | Origin$ Graveyard | Destination$ Hand
+Oracle:When Pestilent Vermin enters the battlefield, target opponent loses 2 life unless they discard a card.\nWhenever you cast a Tale, you may return Pestilent Vermin from your graveyard to your hand.

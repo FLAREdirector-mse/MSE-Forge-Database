@@ -1,0 +1,7 @@
+Name:Barbed Cocoon
+ManaCost:B
+Types:Creature Insect
+PT:1/2
+A:AB$ Token | Cost$ 2 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 2 | TokenScript$ g_1_1_insect | TokenOwner$ You | LegacyImage$ g 1 1 insect kod | SpellDescription$ Create two 1/1 green Insect creature tokens. Activate this ability only any time you could cast a sorcery.
+DeckHas:Ability$Token
+Oracle:{2}{B}, Exile Barbed Cocoon from your graveyard: Create two 1/1 green Insect creature tokens. Activate this ability only any time you could cast a sorcery.

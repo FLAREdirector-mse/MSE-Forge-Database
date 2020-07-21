@@ -1,0 +1,18 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Pakka, the Shadowcloak
+ManaCost:1 B
+Types:Legendary Creature Cat Rogue
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Other | TriggerZones$ Battlefield | Execute$ TrigDealDamage | TriggerDescription$ Whenever CARDNAME or another creature dies, CARDNAME deals 1 damage to each opponent.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | TriggerController$ TriggeredCardController | Execute$ TrigDealDamage | Secondary$ True | TriggerDescription$ Whenever CARDNAME or another creature dies, CARDNAME deals 1 damage to each opponent.
+SVar:TrigDealDamage:DB$ DamageAll | ValidPlayers$ Player.Opponent | NumDmg$ 1
+Oracle:Whenever Pakka, the Shadowcloak or another creature dies, Pakka, the Shadowcloak deals 1 damage to each opponent.
+
+ALTERNATE
+
+Name:Conclusion
+ManaCost:2 B
+Types:Sorcery Tale
+A:SP$ Destroy | Cost$ 2 B | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
+Oracle:Destroy target creature. (Cast a copy of this spell once while this creature is on the battlefield.)

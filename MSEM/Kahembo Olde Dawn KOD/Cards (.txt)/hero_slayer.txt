@@ -1,0 +1,11 @@
+Name:Hero Slayer
+ManaCost:3 B
+Types:Creature Lizard Warrior
+K:Deathtouch
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Permanent.YouCtrl+Legendary | Execute$ TrigRemove | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, remove up to two counters from target creature or planeswalker an opponent controls. (Enchantments and legendary permanents are storied.)
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Enchantment.YouCtrl | TriggerZones$ Battlefield | Secondary$ True | Execute$ TrigRemove | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, remove up to two counters from target creature or planeswalker an opponent controls. (Enchantments and legendary permanents are storied.)
+SVar:TrigRemove:DB$ RemoveCounter | ValidTgts$ Creature.OppCtrl,Planeswalker.OppCtrl | TgtPrompt$ Select target creature or planeswalker an opponent controls | CounterType$ Any | CounterNum$ 2 | UpTo$ True | SpellDescription$ Remove up to two counters from target creature or planeswalker an opponent controls.
+SVar:BuffedBy:Enchantment
+SVar:BuffedBy:Legendary
+Oracle:Deathtouch\nWhenever a storied permanent enters the battlefield under your control, remove up to two counters from target creature or planeswalker an opponent controls. (Enchantments and legendary permanents are storied.)

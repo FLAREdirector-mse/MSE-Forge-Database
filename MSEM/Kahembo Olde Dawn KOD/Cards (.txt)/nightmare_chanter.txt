@@ -1,0 +1,10 @@
+Name:Nightmare Chanter
+ManaCost:4 B
+Types:Creature Lizard Bard
+PT:4/5
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Permanent.YouCtrl+Legendary | Execute$ TrigDiscard | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, each opponent discards a card. (Enchantments and legendary permanents are storied.)
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Enchantment.YouCtrl | TriggerZones$ Battlefield | Secondary$ True | Execute$ TrigDiscard | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, each opponent discards a card. (Enchantments and legendary permanents are storied.)
+SVar:TrigDiscard:DB$ Discard | Defined$ Player.Opponent | NumCards$ 1 | Mode$ TgtChoose
+SVar:BuffedBy:Enchantment
+SVar:BuffedBy:Legendary
+Oracle:Whenever a storied permanent enters the battlefield under your control, each opponent discards a card. (Enchantments and legendary permanents are storied.)
