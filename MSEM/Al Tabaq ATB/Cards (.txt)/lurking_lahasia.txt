@@ -1,0 +1,7 @@
+Name:Lurking Lahasia
+ManaCost:3 W W
+Types:Creature Lizard Beast
+PT:5/3
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ First Strike & Lifelink | CheckSVar$ Concord | SVarCompare$ GE4 | Description$ Concord — CARDNAME has first strike and lifelink as long as there are four or more card types among permanents you control.
+SVar:Concord:Count$CardControllerTypes.Battlefield
+Oracle:Concord — Lurking Lahasia has first strike and lifelink as long as there are four or more card types among permanents you control.

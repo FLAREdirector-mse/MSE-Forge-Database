@@ -1,0 +1,8 @@
+Name:Scimitar Techniques
+ManaCost:W
+Types:Instant
+A:SP$ Pump | Cost$ W | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | NumAtt$ 1 | NumDef$ 2 | SubAbility$ DBToken | RememberObjects$ Targeted | SpellDescription$ Target creature you control gets +1/+2 until end of turn. If that creature is white, create a white Aura enchantment token with enchant creature and "Enchanted creature has first strike" attached to that creature.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ aura | TokenOwner$ You | AttachedTo$ Remembered | ConditionCheckSVar$ X | ConditionSVarCompare$ GE1 | References$ X | LegacyImage$ aura atb | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Targeted$Valid Creature.IsRemembered+White
+Oracle:Target creature you control gets +1/+2 until end of turn. If that creature is white, create a white Aura enchantment token with enchant creature and "Enchanted creature has first strike" attached to that creature.

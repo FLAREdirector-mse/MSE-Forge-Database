@@ -1,0 +1,5 @@
+Name:Buried by Time
+ManaCost:W W
+Types:Instant
+A:SP$ ChangeZone | Cost$ W W | Destination$ Exile | ValidTgts$ Artifact.cmcLE4,Enchantment.cmcLE4 | TgtPrompt$ Select target artifact or enchantment with converted mana cost 4 or less | SpellDescription$ Exile target artifact or enchantment with converted mana cost 4 or less.
+Oracle:Exile target artifact or enchantment with converted mana cost 4 or less.

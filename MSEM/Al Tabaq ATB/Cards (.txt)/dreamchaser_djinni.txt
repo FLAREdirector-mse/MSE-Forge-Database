@@ -1,0 +1,6 @@
+Name:Dreamchaser Djinni
+ManaCost:R R
+Types:Creature Djinn
+PT:3/3
+K:CARDNAME attacks each combat if able.
+Oracle:Dreamchaser Djinni attacks each combat if able.

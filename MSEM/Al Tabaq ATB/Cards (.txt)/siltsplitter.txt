@@ -1,0 +1,9 @@
+Name:Siltsplitter
+ManaCost:3 R R
+Types:Creature Wurm
+PT:4/5
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigImmediate | TriggerDescription$ Desecrate (When this creature enters the battlefield, you may sacrifice an artifact or land.)
+SVar:TrigImmediate:AB$ ImmediateTrigger | Cost$ Sac<1/Artifact;Land/artifact or land> | Execute$ TrigSacrifice | TriggerDescription$ When CARDNAME desecrates a permanent, each opponent sacrifices an artifact.
+SVar:TrigSacrifice:DB$ Sacrifice | Defined$ Player.Opponent | SacValid$ Artifact | SacMessage$ artifact
+S:Mode$ Continuous | Description$ When CARDNAME desecrates a permanent, each opponent sacrifices an artifact.
+Oracle:Desecrate (When this creature enters the battlefield, you may sacrifice an artifact or land.)\nWhen Siltsplitter desecrates a permanent, each opponent sacrifices an artifact.

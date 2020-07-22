@@ -1,0 +1,7 @@
+Name:Obscuring Sandstorm
+ManaCost:1 U
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 U | Origin$ Battlefield | Destination$ Hand | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBDraw | SpellDescription$ Return target creature to its owner's hand. Concord — If there are four or more card types among permanents you control, draw a card.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | ConditionCheckSVar$ Concord | ConditionSVarCompare$ GE4
+SVar:Concord:Count$CardControllerTypes.Battlefield
+Oracle:Return target creature to its owner's hand.\nConcord — If there are four or more card types among permanents you control, draw a card.

@@ -1,0 +1,8 @@
+Name:Globule of Sanctuary
+ManaCost:2W
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters or leaves the battlefield, you gain 2 life.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigGainLife | Secondary$ True | TriggerDescription$ When CARDNAME enters or leaves the battlefield, you gain 2 life.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+A:AB$ Draw | Cost$ 2W T Sac<1/CARDNAME> | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:When Globule of Sanctuary enters or leaves the battlefield, you gain 2 life.\n{2/W}, {T}, Sacrifice Globule of Sanctuary: Draw a card.

@@ -1,0 +1,6 @@
+Name:Chosen of Bal
+ManaCost:2 B B
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 2 B B | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card in your graveyard | ValidTgts$ Creature.YouCtrl+powerLEX | References$ X | SpellDescription$ Return target creature card with power less than or equal to your fealty to Swamps from your graveyard to the battlefield. (Each Swamp you control counts towards your fealty to Swamps.)
+SVar:X:Count$TypeYouCtrl.Swamp
+Oracle:Return target creature card with power less than or equal to your fealty to Swamps from your graveyard to the battlefield. (Each Swamp you control counts towards your fealty to Swamps.)
