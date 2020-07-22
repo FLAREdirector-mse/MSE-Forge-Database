@@ -1,0 +1,11 @@
+Name:Nectarkin
+ManaCost:1 U
+Types:Creature Bird
+PT:0/0
+K:etbCounter:P1P1:1
+K:Flying
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPerm | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, permutate.
+SVar:TrigPerm:DB$ ChooseCard | ChoiceOptional$ True | Defined$ You | Choices$ Creature.YouCtrl+HasCounters | Amount$ 1 | SubAbility$ DBRemoveCounter | SpellDescription$ Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBRemoveCounter:DB$ RemoveCounter | Defined$ ChosenCard | CounterType$ Any | CounterNum$ 1 | SubAbility$ DBPutCounters | StackDescription$ Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBPutCounters:DB$ PutCounter | Choices$ Creature.YouCtrl | CounterType$ P1P1 | CounterNum$ 2
+Oracle:Flying\nNectarkin enters the battlefield with a +1/+1 counter on it.\nWhenever Nectarkin deals combat damage to a player, permutate.

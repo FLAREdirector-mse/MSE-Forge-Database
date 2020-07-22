@@ -1,0 +1,7 @@
+Name:Forlorn Companion
+ManaCost:B R
+Types:Creature Human Shapeshifter
+PT:2/2
+A:AB$ Token | Cost$ B R Sac<1/Creature> | LegacyImage$ forlorn companion toj | TokenAmount$ 1 | TokenScript$ forlorn_companion | TokenOwner$ You | SpellDescription$ Create a token that's a copy of CARDNAME, except it has no mana cost.
+DeckHas:Ability$Token
+Oracle:{B}{R}, Sacrifice a creature: Create a token that's a copy of Forlorn Companion, except it has no mana cost.

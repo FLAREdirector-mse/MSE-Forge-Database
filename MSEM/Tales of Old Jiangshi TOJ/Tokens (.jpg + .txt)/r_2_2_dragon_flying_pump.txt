@@ -1,0 +1,8 @@
+Name:Dragon
+ManaCost:no cost
+Types:Creature Dragon
+Colors:red
+K:Flying
+PT:2/2
+A:AB$ Pump | Cost$ R | NumAtt$ +1 | NumDef$ +2 | SpellDescription$ CARDNAME gets +1/+1 until end of turn.
+Oracle:Flying\n{R}: This creature gets +1/+1 until end of turn.

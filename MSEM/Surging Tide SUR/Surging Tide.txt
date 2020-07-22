@@ -7,9 +7,191 @@ MciCode=sur
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by CanterburyEgg
 
 [cards]
-1
-183
+1 R Acabo, the Fabled Falcon
+2 R Ancestral Shrine
+3 C Ascendant's Murmur
+4 R Cai Lan, the Chained
+5 U Circumspect Flock
+6 R Commander of the Folded Fan
+7 C Crane's Way
+8 C Dusk Insurgent
+9 U Essence Rehabilitator
+10 C Fennec Fostress
+11 C Field Chaplain
+12 C Fox of the Molten Dawn
+13 U Fox of the Trembling Night
+14 U Foxflame
+15 C Hypnotic Halo
+16 U Inspirited Duelist
+17 R Liao, Seto's Shield
+18 C Lightwalker
+19 C Melodious Musician
+20 R Noble Fall
+21 U Once More with Style
+22 C Parrying Scholar
+23 U Pietistic Performance
+24 U Resolute Crusader
+25 M Seto San, the Sacred Hand
+26 C Staggering Brilliance
+27 U Stand Tall
+28 U Swift Savior
+29 U Til Death
+30 C The Way of the Fan
+31 C Whitepeak Lookout
+32 U Astute Prophet
+33 C Clairvoyant Koi
+34 C Deep Temptation
+35 C Deepsea Denizen
+36 C Deluge Crab
+37 U Dimensional Plunge
+38 C Divine Dispersion
+39 U Empty the Archives
+40 C Enduring Rockshell
+41 U Finwing Drake
+42 C Harmonious Meditation
+43 M Ing'Wei, the Surging Tide
+44 U Invoke the Anima
+45 R Kan'Gi, the Reverent
+46 C Mystical Dowsing
+47 C Ocean Spray
+48 R Orichi of the Cold Mist
+49 C Paralysis Specialist
+50 U Patient Orchestration
+51 C Rhythmic Distraction
+52 U Sea Wall
+53 R Shara, the Last Leviathan
+54 R Shimmering Veil
+55 U Siphoning Slash
+56 R Strike Out
+57 R Swelling Sea
+58 C Temporal Augury
+59 U Wadepool Frog
+60 U Wash Away
+61 C Wind Drake
+62 U Woken Wave
+63 C Anima Interrogator
+64 C Corpsekisser
+65 R Crippling Fear
+66 U Cunning Cephalomancer
+67 R Dark Rite Cultist
+68 U Decipher the Dark Tome
+69 U Depraved Imp
+70 U Dessication Ritual
+71 U Fall from Glory
+72 C Graveyard Shift
+73 U Gulch Glutton
+74 R Ha'Eng, Figure of Greed
+75 C Harrowing Infusion
+76 C Haunting Illusion
+77 R Hui Zhou, the Dark Visage
+78 C Infected Null
+79 U Infernal Portal
+80 M Kai'Dwo, Eternal Ravager
+81 R Kai'Wej, the Desolate
+82 U Lifeblood Leecher
+83 R Malefic Portal
+84 U Malignant Afflicted
+85 U Mausoleum Rite
+86 C Moonlight Butcher
+87 C Organ Scavenger
+88 C Rapacious Demon
+89 C Robe of Shadows
+90 U Skirmish Scars
+91 C Stitch Sinew
+92 C Warpath Ghoul
+93 C Yenzu Mindwrencher
+94 R Abrupt Explosion
+95 C Akimbo Slash
+96 U Blazing Beam
+97 C Canyon Agamid
+98 C Concentrated Blast
+99 U Conduit of Rage
+100 C Dazzling Display
+101 C Draconic Aspirant
+102 C Dragon Initiate
+103 U Dynamic Wyvern
+104 R Fang, the Lavaclasm
+105 R Hasty Assault
+106 C Heated Dispute
+107 R Heathen Rise
+108 C Hurtling Swine
+109 U Lightning Ox
+110 U Majestic Monitor
+111 U Maniac Macaque
+112 U Monumental Siege
+113 C Perimeter Siege
+114 M Perplexing Turmoil
+115 U Sharpened Tusks
+116 C Simian Striker
+117 C Slippery Salamander
+118 R Sugon, Destruction's Fist
+119 U Sunspear Surge
+120 U Sustaining Meditation
+121 C Tormenting Voice
+122 U Vindictive Pyromancer
+123 C Worshipper Whelp
+124 R Zhenya, the Draconic
+125 C Arbalest Barrage
+126 U Attuned Ancient
+127 R Avatar of the Natural
+128 C Beast Hunt
+129 C Canopy Ratstalker
+130 R Challenge Authority
+131 C Child of the Pack
+132 C Contentious Yak
+133 U Deathcoil Cobra
+134 C Elder Rootwallas
+135 C Fierce Howl
+136 C Golden Grizzly
+137 M The Great Awakening
+138 U Harness the Wild
+139 R Heyu, Immortal Hunter
+140 R Hunter's Instinct
+141 C Immaculate Attunement
+142 C Impressible Cub
+143 U Naiad of the Glen
+144 C Organic Corrosion
+145 U Pack Familiar
+146 U Savage Savant
+147 R Shuye, Forever Watching
+148 U Solemn Stag
+149 U Spined Tarantula
+150 U Stoic Observation
+151 C Tunnel Web Spider
+152 C Vigorous Dryad
+153 U Wanderer of the Wilds
+154 U Xiong's Gambit
+155 R Xira, Scatterer of Seeds
+156 M Doombringer Dragon
+157 R Duan, the Fabled Rider
+158 M Feral Exemplar
+159 R Gui, the Islandbringer
+160 R Hayuan, the Misjudged
+161 R Mamei, Benevolent Tyrant
+162 M Morose Harpist
+163 M Resurging Rhino
+164 M Vulpine Cloudchaser
+165 R Xing, the Lucky Charm
+166 C Barreling Chariot
+167 U Granite Sibyl
+168 M Heping's Armistice Chains
+169 U Illustrious Lantern
+170 U Inciting Blade
+171 R Ing'Wei's Crystal Top
+172 U Plagued Skull
+173 C Sinister Saber
+174 R Temporary Armory
+175 C Vial of Ice
+176 R Aquatic Refuge
+177 M Citadel of Denial
+178 C No-Man's Land
+179 R Prairie Monastery
+180 R Scorched Copse
+181 R Sunless Ridge
+182 U Temple of Brilliance
+183 R Toxic Spring
 
 [tokens]

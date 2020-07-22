@@ -5,9 +5,52 @@ Name=MSEM: The Land Bundle
 Code2=L
 MciCode=l
 Type=Other
+# Set compiled by Timespiraled
 
 [cards]
-1
-44
+1 C Tranquil Stream
+2 C Sodden Cavern
+3 C Fiery Chasm
+4 C Highland Vale
+5 C Alpine Meadow
+6 C Desolate Barrens
+7 C Roaring Cascade
+8 C Somber Marsh
+9 C Jagged Crag
+10 C Rainforest Spring
+11 C Wastes
+12 C Command Tower
+13 C Sigil of Creation
+14 C Sigil of Martyrdom
+16 R Ocean Monastery
+17 R Shardstone Rift
+18 R Timber Range
+19 R Barren Desolation
+20 R Mysterious Cataract
+21 R Abandoned Skyroad
+22 R Abandoned Battlefield
+23 R Abandoned Cairn
+24 R Abandoned Meadow
+25 R Abandoned Wilderness
+26 R Ornate Interior
+27 R Torchlit Shipyard
+28 R Empty Courtyard
+29 R Courtroom Halls
+30 R Waterway Dam
+31 R Hallowed Dungeon
+32 R Mystic Spire
+33 R Hidden Hovel
+34 R Valiant's Stronghold
+35 R Distant Domains
+36 R Spires of Telenia
+37 R Academy Wastes
+38 R Grove of Reversal
+39 R Tirenan Market
+40 R Quintok Station
+41 R Cleared Vault
+42 R Unlit Alley
+43 R Grim Slums
+44 R Forgotten Shrine
+45 R Overgrown Refuge
 
 [tokens]

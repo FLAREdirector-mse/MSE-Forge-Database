@@ -1,0 +1,13 @@
+Name:Beyond the Boneyard
+ManaCost:3 W
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile another target nonland permanent until CARDNAME leaves the battlefield.\nYour opponents can't cast spells that share a card type with the exiled card during postcombat main phases.
+SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Permanent.nonLand+Other | TgtPrompt$ Select another target nonland permanent. | ConditionPresent$ Card.Self | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | Triggers$ ComeBack | RememberObjects$ Targeted | ImprintCards$ Self | StaticAbilities$ NoCast | SVars$ TrigReturn,ExileSelf,NoCast | ConditionPresent$ Card.Self | Duration$ Permanent | ForgetOnMoved$ Exile
+SVar:ComeBack:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.IsImprinted | Execute$ TrigReturn | TriggerZones$ Command | TriggerController$ TriggeredCardController | Static$ True | TriggerDescription$ That permanent is exiled until EFFECTSOURCE leaves the battlefield.\nYour opponents can't cast spells that share a card type with the exiled card during postcombat main phases.
+SVar:TrigReturn:DB$ ChangeZoneAll | Origin$ Exile | Destination$ Battlefield | ChangeType$ Card.IsRemembered | SubAbility$ ExileSelf
+SVar:ExileSelf:DB$ ChangeZone | Origin$ Command | Destination$ Exile | Defined$ Self
+SVar:NoCast:Mode$ CantBeCast | EffectZone$ Command | Phases$ Main2 | ValidCard$ Card.sharesCardTypeWith Remembered | Caster$ Opponent | Description$ Your opponents can't cast spells that share a card type with the exiled card during postcombat main phases.
+SVar:PlayMain1:TRUE
+SVar:OblivionRing:TRUE
+Oracle:When Beyond the Boneyard enters the battlefield, exile another target nonland permanent until Beyond the Boneyard leaves the battlefield.\nYour opponents can't cast spells that share a card type with the exiled card during postcombat main phases.

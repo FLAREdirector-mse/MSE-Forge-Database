@@ -1,0 +1,7 @@
+Name:Crocodile
+ManaCost:no cost
+Types:Creature Crocodile
+Colors:green
+K:Trample
+PT:3/2
+Oracle:Trample

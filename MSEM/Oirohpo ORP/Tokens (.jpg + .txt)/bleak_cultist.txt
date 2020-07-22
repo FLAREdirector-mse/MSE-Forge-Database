@@ -1,0 +1,7 @@
+Name:Bleak Cultist
+ManaCost:no cost
+Colors:green
+Types:Creature Reflection Shaman
+K:Trample
+PT:4/4
+Oracle:Trample

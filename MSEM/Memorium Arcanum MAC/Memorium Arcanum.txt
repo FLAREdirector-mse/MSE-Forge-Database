@@ -7,11 +7,93 @@ MciCode=mac
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by HerziQuerzi
 
 [cards]
-1
+1 R Culminating Salvation
+2 M Felice, Adira's Salvation
+3 R Felice's Defiance
 4 R Felice's Study
+5 R Heroism
+6 R Once Shunned
+7 R Paragon of Purity
+8 R Strayseeker Ranger
+9 R Almgrove Ambassador
+10 R Culminating Conspiracy
+11 R Master of Masks
+12 R Once Denied
+13 R Recalculation
+14 R Spectrum Archmage
+15 R Unbound Horizons
+16 R Adiran Survivors
+17 R Algrin's Legacy
+18 R Culminating Despair
+19 R Fading Dead
+20 R Once Betrayed
+21 R Refracted Thoughts
+22 R Shroud in Paranoia
+23 R Aerida's Study
+24 R Anarchy Storm
+25 R Collapsing Realities
+26 R Culminating Chaos
+27 R End of Worlds
+28 R Once Scarred
+29 R Speaker of the Iris
+30 R Adiran Scryers
+31 R Consuming Symbiosis
+32 R Culminating Wisdom
+33 R Foliage Hunter
+34 R Once Abandoned
+35 R Root Dancer
+36 R Seek Refuge
+37 R Equilibrium Paladin
+38 R Inspire Actuality
+39 R Buy Time
+40 R Withering Husk
+41 R Fallacy's Channeler
+42 R In Tragedy
+43 R Charming Marauder
+44 R Rubble Tender
+45 R Seeker of Horizons
+46 R Through Worlds
+47 R Cognitive Fumigator
+48 R Fallacy's Sanctifier
+49 M Aerida, Envious Chronomancer
+50 R Aerida's Assistant
+51 R Ophidian Oracle
+52 R Act of Repentance
+53 R Appeal to the Ancestors
+54 R Champion of the Red Dawn
+55 R Wicked Blow
+56 R Conjure Realities
+57 R Contemplate Obscurity
+58 R Adiran Distractor
 59 R Burgeoning Blooms
-90
+60 R Chance at Redemption
+61 R Crystal Wave
+62 R Litany of Renewal
+63 R Mirrorplate Exemplar
+64 R Mystic of Many Winds
+65 R Repent, Daughter of Fallacy
+66 R Starvation
+67 R Theurgist of the Depths
+68 R Fate Charm
+69 R Fateseeker's Orb
+70 R Paradox Rings
+71 R Poisoned Tonic
+72 R Potion of Inhibition
+73 R Seeking Sword
+74 R Artist's Vista
+75 R Over the Horizon
+76 R Stark Copse
+77 R Stark Hinterlands
+78 R Stark Horizon
+79 R Stark Stream
+80 R Stark Wildfire
+81 L Plains
+82 L Island
+83 L Swamp
+84 L Mountain
+85 L Forest
 
 [tokens]

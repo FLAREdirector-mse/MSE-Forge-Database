@@ -7,10 +7,206 @@ MciCode=sor
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by WindyDelcarlo
 
 [cards]
-1
-202
+1 U Annihilate the Enemy
+2 R Artificer's Gift
+3 C Auramancer's Appraisal
+4 R Enchanter's Resolution
+5 U Enhance Armor
+6 C Inspiration of War
+7 R Interan Resistance
+8 U Interan Skycaster
+9 C Kor Skyknight
+10 C Lerithan Jailer
+11 U Lightbringer's Touch
+12 C Lightsteel Enforcer
+13 C Lighttoxin Arcrunner
+14 U Morning's Rise
+15 C Phiresan Lifemage
+16 C Photon Barricade
+17 C Phyten Bodyguards
+18 C Playful Surveyor
+19 C Raise the Alarm
+20 R Renili, Telenian Weaponist
+21 R Savings Broker
+22 C Sejiri Skyhunter
+23 R Shadowforged Cleric
+24 C Signal Distress
+25 U Supreme Judge
+26 M Sythian Scripture
+27 U Tether of Simplicity
+28 U Veteran Lifeforger
+29 C Adept Electromancer
+30 R Aetherforge
+31 U Duel of Intellect
+32 U Entali Aeromancer
+33 M Entelan Erasure
+34 C Entelan Savant
+35 R Esiara, Skycaster's Infiltrator
+36 C Essence Scatter
+37 C Frostborn Skyrunner
+38 U Infinite Suspension
+39 U Mental Thievery
+40 C Miroran Waterbinder
+41 U Mystic Seer
+42 C Notion Retrieval
+43 C Opt
+44 R Paralysis Field
+45 U Phyrexian Arcforger
+46 C Plasma Arc
+47 R Reliya's Construct
+48 U Roilmaster
+49 C Shaidostan Cryoforger
+50 C Skycaster's Aura
+51 C Street Performer
+52 R Sudden Suspension
+53 U Syncopate
+54 C Sythian Interference
+55 R Telenian Formshaping
+56 C Warden of the Moonshadow
+57 U Abyssal Nightcaster
+58 C Alenian Cruel-Star
+59 C Arina's Defiance
+60 C Blood Bairn
+61 U Blood Teacher
+62 R Deathwind Survivor
+63 U Deathwind's Grasp
+64 U Deform Sanity
+65 C Delusive Shadows
+66 C Despair Scavenger
+67 C Drakon Nightshade
+68 R Elancean Regrowth
+69 R Evanescent Soulcatcher
+70 U Fortune Hoarder
+71 C Icilica's Icestrider
+72 U Infested Goblin
+73 R Jonah of the Spellbane
+74 C Remove from Existence
+75 R Revert to Moonlight
+76 R Shadow Sky
+77 C Shadowfeeder
+78 C Simplified Life
+79 M Spellbane's Strike
+80 C Sythian Enrichment
+81 C Sythian Traverser
+82 C Touch of Corruption
+83 U Trauma Surgeon
+84 U Vampiric Defenses
+85 C Akoum Rockhurler
+86 R Akoum Trailblazer
+87 R Alenian Boom Squad
+88 U Alenian Warcaller
+89 C Alenil Bladerunner
+90 C Awaken to the Skies
+91 C Circus Firebreather
+92 C Cobblebrute
+93 R Dragonfire Fury
+94 M Electrical Eradication
+95 U Electrokinetic's Bolt
+96 R Embrace the Unpredictable
+97 C Firefish Assault
+98 U Firewall Trap
+99 U Flamerider
+100 U Flamewhip
+101 C Goblin Exploration Team
+102 C Goblin Rocktosser
+103 C Hidden Prowess
+104 C Lavahurler
+105 C Lerithan Rebel
+106 C Phyrexian Firemaster
+107 U Pyre Trap
+108 U Pyres-Guild Rallier
+109 C Ria-Demian Lavaslinger
+110 R Sara, Entelan Elementalist
+111 U Tirenan Pyromancer
+112 R Trapcatcher's Form
+113 R Artian, Phyrexian Architect
+114 R Break Hold
+115 C Deathfeeder
+116 C Defiant Bristles
+117 C Devastating Impact
+118 R Earthfeeder Worm
+119 M Elemental Envelopment
+120 C Elvish Skyranger
+121 C Expansive Growth
+122 U Forest Whale
+123 U Forestheart Elemental
+124 U Interan Soothsayer
+125 U Last Parley
+126 C Master Chef
+127 U Miroran Skycatcher
+128 U Mul Daya Elder
+129 C Naturalize
+130 U Perfect Aim
+131 C Phyrexian Snapjaw
+132 C Rose Defender
+133 R Sea Gate Crawler
+134 C Steelcharm Obliterator
+135 R Thriving Population
+136 U Trace the Leylines
+137 R Treecrawler Elemental
+138 C Triline Hunter
+139 C Vastwood Gorger
+140 C Zendikari Ranger
+141 R Akoum Pathfinder
+142 R Alenian Batallion
+143 M Aleryn, Trapseeker
+144 M Arina, Volarian Explorer
+145 M Fulmen, Eldritch Channeler
+146 M Kimar, Lightforger
+147 R Miroran Spellformer
+148 R Relitian Sentry
+149 R Resistance Collapse
+150 M Revela, Entelan Darkcaster
+151 C Alenian Warhammer
+152 U Bird Call
+153 R Counteredge Blade
+154 M Deathwind Detonator
+155 R EHSAE, Entelan Skycraft
+156 C Elementalist's Blade
+157 U Encrypted Dagger
+158 C Forgemaster's Altar
+159 C Virtual Terrain
+160 C Zephyrglider
+161 R Deathwind Expanse
+162 R Gryla Canyon
+163 R Moonshadow Abyss
+164 R Priest's Altar
+165 R Stormcaster's Tower
+166 L Plains
+167 L Plains
+168 L Plains
+169 L Plains
+170 L Island
+171 L Island
+172 L Island
+173 L Island
+174 L Swamp
+175 L Swamp
+176 L Swamp
+177 L Swamp
+178 L Mountain
+179 L Mountain
+180 L Mountain
+181 L Mountain
+183 L Forest
+184 L Forest
+185 L Forest
+185 L Forest
 
 [tokens]
+br_1_1_goblin
 c_1_1_a_construct
+c_1_1_a_phyrexian
+g_0_1_plant
+gu_1_1_elemental
+r_1_1_elemental
+r_1_1_goblin
+r_4_4_dragon_flying
+rw_3_1_goblin_soldier
+u_2_1_illusion_illusory
+ub_2_2_elemental
+w_1_1_soldier
+wb_1_1_e_spirit

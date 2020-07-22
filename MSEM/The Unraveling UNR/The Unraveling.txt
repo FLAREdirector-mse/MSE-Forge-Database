@@ -7,12 +7,264 @@ MciCode=unr
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by JustNobody
 
 [cards]
-1
+1 C Cryptic Fragment
+2 U Hall of Lost Histories
+3 M Mirror Cipher
+4 M Riddle of Entropy
+5 R Tesseract Conjecture
+6 C Arcblade Enforcers
+7 U Aura of Leadership
+8 C Avenging Yuroda
+9 C Barricade Watch
+10 U Blossom-Ash Trance
+11 U Clockwork Astrolarium
+12 C Dimensional Isolation
+13 C Dispersive Volley
+14 C Establish Guard
+15 R Eye of the Barricade
+16 R Guardian of the Eclipse
+17 R Herald of the Fallow Years
+18 M High Chancellor Kazimir
+19 R Immortalize in Stone
+20 C Inspiring Bannerguard
+21 U Kazimir's Ban
+22 U Masha's Lightbound
+23 R Merciful Yuroda
+24 R Moonlight Sanctum
+25 C Mysterious Absence
+26 U Pact of Martyrs
+27 C Pelaski Twinblade
+28 C Pelaski Valiant
+29 C Realmwalker Domovoi
+30 M Seeker Taras
+31 U Shockblade Warden
+32 U Skymount Commander
+33 C Skymount Reinforcements
+34 U Slaffield Workgate
+35 U Spare the Meek
+36 R Unbound Expanse
+37 C Vanguard of the Barricade
+38 R Wandering Domovoi
+39 C Yuroda's Blessing
+40 R Antimagic
 41 U Arcane Duelist
+42 C Cloud Runner
+43 C Coiling Mystic
+44 C Deem Incomplete
+45 U Demonqueller Mage
+46 C Dimensional Dodge
+47 U Dreamcast Relic
+48 C Duelist's Wings
+49 R Enter the Labyrinth
+50 M Find Nothing
+51 C Force Back
+52 U Keen-Eyed Gemcutter
+53 C Keep At Bay
+54 C Mischievous Sprite
+55 R Oracle's Omission
+56 R Paradox Sculptor
+57 C Paranoid Archivist
+58 R Patient Aethermage
+59 U Portal to the Unknown
+60 C Price of Wisdom
+61 C Relearn History
+62 C Rune-Scribe's Apprentice
+63 C Runebreaker Mage
+64 C Scholar of Reflections
+65 R Serafina's Gift
+66 U Sift Through False Leads
+67 U Sower of Dreamless Sleep
+68 R Sphinx of Ill Omens
+69 U Titan of Lake Vasil
+70 U Tunneling Screecher
+71 R Warden of the Archives
+72 U Wreath of Crows
+73 C Archivist Heretic
+74 C Awaken the Nav
+75 R Collector of Histories
+76 R Curse of Unraveling
+77 U Darken the Skies
+78 C Exiled Necromancer
+79 C Fleshcrawler
+80 U Frostfall Hunter
+81 C Grip of Paranoia
+82 R Guardian of Dusk
+83 R Harbinger of Inversion
+84 C Intertwined Fates
+85 U King of Bones
+86 C Merchant of False Lives
+87 U Mortal's Conundrum
+88 R Omenreaper
+89 C Paincaller
 90 U Prying Inquiry
+91 U Putrid Lurker
+92 U Rite of Lost Timelines
+93 U Sadistic Indulgence
+94 C Scion of Pestilence
+95 M Serafina, the Traitor Amongst
+96 C Sever Flesh
+97 C Through the Ashen Gate
+98 C Touch of the Uncanny
+99 C Unliving Swarm
+100 R Unmasker of Fate's Design
+101 R Wave of Decay
+102 R Wither
+103 U Writhing Gateway
+104 U Zadyk Assassin
+105 C Zadyk Resourcefulness
+106 R Archivist's Torment
+107 U Ashen Host
+108 C Barricade Patrol
+109 U Blood Cult Covenant
+110 C Bloodcrazed Acolyte
+111 C Bloodspawn
+112 U Breach Runner
+113 R Cackling Tormentor
+114 C Crack Open the Cache
+115 U Devouring Flame
+116 R Dragongate
+117 U Elemental of Vengeance
+118 C From Ancient Tomes
+119 C Gift of Fire
+120 C Infernal Barrier
+121 R Inversion of Flesh
+122 U Ion Field
+123 C Mark of Mutiny
+124 M Masha, Hero of Pelastrov
+125 R Masha's Vanguard
+126 C Melt the Earth
 127 R Newcomer's Luck
-236
+128 C Orphan of the Nav
+129 C Pyremage's Knack
+130 C Pyremage's Last Rite
+131 U Reckless Pyremage
+132 R Rune-Scribe's Trap
+133 C Student of Lightning
+134 M The Third Breach
+135 U Thundering Charge
+136 C Thunderstep Ved
+137 U Traitor's Execution
+138 U Traitor's Gambit
+139 R Vidal, Rune Thief
+140 U Ancient Maze
+141 U Ancient of the Glade
+142 R Beyond the Forest's Edge
+143 U Buried Glade Historian
+144 C Catalog the Possibilities
+145 U Champion of the Fae
+146 U Channel the Spirits
+147 C Confront
+148 U Detritus Scourge
+149 C Disciple of the Buried Glade
+150 U Evoker of the Ancient Form
+151 C Fae-Blessed Hunter
+152 R The Frontier Beckons
+153 U Guardian of the Circle
+154 R Guardian's Revocation
+155 C Halskrow Street Scavenger
+156 R Hand of the Chroma
+157 C Leapweb Lurker
+158 R Mina and Adurnos
+159 C Moss Dweller
+160 C Nature's Defiance
+161 U Prismatic Bounty
+162 C Return to Earth
+163 C Seedcall
+164 M Seeker Lizaveth
+165 C Slaffield Caravan
+166 R Slaffield Overseer
+167 C Tender of Gardens
+168 M Twist the Threads
+169 U Twisted Stampede
+170 C Unearth the Buried Glade
+171 R Unnoticed in the Glade
+172 R Unwavering Sentinel
+173 C Zadyk Ritualist
+174 R Key to the Nexus
+175 M The Lonely Prophet
+176 C Aethermage's Chains
+177 R Featherfall Ascetic
+178 U Sky's Refuge
+179 U Accursed by Unborn Fates
+180 R Infiltrate the Archives
+181 C Oracle's Vision
+182 U Chained Ravager
+183 R Desperate Measures
+184 C Kindle the Cursed
+185 R Brutish Champion
+186 U Marketplace Brawl
+187 C Tear Through
+188 R Arbiter of Endless Summer
+189 U Chroma's Guidance
+190 C Knight of the Orchards
+191 C Choir of the Lost
+192 R Kazimir's Inquisition
+193 U Spiteful Domovoi
+194 C Duelist's Forms
+195 R Explosive Results
+196 U Oracle's Disciple
+197 U Blightroot
+198 C Blossom-Sower Witch
+199 R Extinguisher of Knowledge
+200 C The Barricade Strikes
+201 U Finish the Job
+202 R Speaker for the Flame
+203 R Dreamsight Well
+204 U Fae-Blessed Attendant
+205 C Outland Alchemist
+206 R Chromatic Pendant
+207 U Demanding Idol
+208 C Guidestone
+209 R Herald of Desolations
+210 U Lodestone Sword
+211 M Nexus of Possibilities
+212 R Orb of Undoing
+213 C Rune of Rejuvenation
+214 U Runic Pillars
+215 M Salvation Engine
+216 U Stonefall Golem
+217 C Tinkerer's Assistant
+218 C Tracer Sigil
+219 M The Volostoy Key
+220 U Ancient Cairns
+221 R Chroma, the Faerie Circle
+222 R District of Artisans
+223 U Field of Obelisks
+224 M Gate to the Nav
+225 R Halskrow Street Gallows
+226 U Noxious Garden
+227 U Overgrown Ruins
+228 R Parliament's Courtyard
+229 R Public Gardens
+230 R River's End Falls
+231 U Wanderer's Sky
+232 L Plains
+233 L Island
+234 L Swamp
+235 L Mountain
+236 L Forest
 
 [tokens]
+b_1_1_skeleton
+b_1_1_spirit_flying
+b_5_5_horror
+c_a_clue_draw
+c_9_9_a_angel_flying_lifelink
+g_0_1_plant
+g_2_2_wolf
+g_3_3_elemental
+g_x_x_elemental
+r_1_1_elemental
+r_3_3_giant_haste
+r_4_4_dragon_flying
+u_3_3_sphinx_flying
+w_0_2_ox
+w_1_1_human_pacifism
+w_1_1_human_soldier
+wu_1_1_bird_flying
+blight
+land_plains
+shield

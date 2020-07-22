@@ -1,0 +1,6 @@
+Name:Human Pirate
+ManaCost:no cost
+Colors:white
+Types:Creature Human Pirate
+PT:1/2
+Oracle:

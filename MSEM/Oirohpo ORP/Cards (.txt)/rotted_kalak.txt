@@ -1,0 +1,8 @@
+Name:Rotted Kalak
+ManaCost:3 G
+Types:Creature Troll Shaman
+PT:2/4
+A:AB$ Pump | Cost$ 2 G | Defined$ Self | KW$ Indestructible | SpellDescription$ CARDNAME gains indestructible until end of turn. (Damage and effects that say "destroy" don't destroy it.)
+A:AB$ Token | Cost$ 3 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ rotted_kalak | TokenOwner$ You | LegacyImage$ rotted kalak orp | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:{2}{G}: Rotted Kalak gains indestructible until end of turn.\nRevive {3}{B} ({3}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

@@ -7,13 +7,284 @@ MciCode=hi12
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Cajun
 
 [cards]
-1
+1 C Arrest
+2 U Atop Their High Horses
+3 R Bearidge Charmer
+4 R Bearidge Jailer
+5 R Bearidge Marshall
+6 C Bearidge Preacher
+7 C Bold Griffin
+8 M Calamity Rose
+9 U Collapsed Mine
+10 U Diligent Deputy
+11 R Drifting Warden
+12 U Eversoar
+13 C Forlorn Farmhand
+14 C Frontier Paragon
+15 R Ghostway
+16 C Graygulch Howler
+17 U Hardened Soul
+18 C Harsh Wastes
+19 C Haunting Bard
+20 C Judges' Shield
+21 C Kill Shot
+22 U Lone Stranger
+23 C Old-World Forgotten
+24 U Old-World Walker
+25 C Pioneer of Wild Places
+26 R Preacher of Stray Souls
+27 R Ride into the Sunset
+28 C Sandbluff Barflies
+29 C Sandbluff Confiscator
+30 C Sandbluff Enforcers
+31 C Sandbluff Irregular
+32 C Sandbluff Training
+33 R Slinger's Showdown
+34 C Solemn Deputy
+35 C Songs of the Howlers
+36 C Spirit Guidance
+37 U Stand Your Ground
+38 U Tailwind Griffin
+39 U Tales of the Lingering
+40 U Uncommon Grit
+41 U Wardens of the Ulek
+42 U Warning Shot
 43 M Aether Leak
+44 U Aetherite Slugs
+45 U Aetherwhirl
+46 U Arcane Heist
+47 C Blind Soulcaller
+48 U Cage the Mind
+49 C Cardsharp Drifter
+50 R Daisite Express
+51 R Disallow
+52 C Dispel
+53 U Elven Wanderer
+54 C Embed
+55 C Fool's Gold
+56 R Full House
+57 C Ghostly Flicker
+58 U Gleaming Rider
+59 C Gulchdrinker Serpent
+60 C Head in the Clouds
+61 C High Spirits
+62 U Invisible Stalker
+63 C Ironeyes Scoundrel
+64 U Luck of the Draw
+65 C Merchant's Guile
+66 R Nameless Drifter
+67 C Nightrail Printer
 68 R Pocket Aces
-74 U Window Shopping
-279
+69 U Prolific Thief
+70 C Refund
+71 C Silence of the Drifter
+72 U Slighted Spirit
+73 U Slinger's Storm
+74 R Sparkling Jackalope
+75 M Spirit of the Falls
+76 C Stealer of Secrets
+77 C Straw Soldiers
+78 C Street Urchin
+79 C Thunder Crow
+80 C Ulek Windrider
+81 U Vivid Hallucination
+82 R Weaver of the Winds
+83 C Whirling Thoughts
+84 U Window Shopping
+85 R Winning Hand
+86 M Axom, the Drifter
+87 C Bloodleaf Butcher
+88 C Bloodleaf Poisoner
+89 C Bloodthirsty Ambusher
+90 R Bounty Collector
+91 R Cardsharp
+92 C Down Barrel
+93 C Exposed Ghoul
+94 U Feed to the Pigs
+95 U From the Shadows
+96 R Ghastly Character
+97 C Gift of Shadows
+98 C Grasping Spirits
+99 U Graygulch Drifter
+100 C Graygulch Lurker
+101 C Graygulch Outcast
+102 R Graygulch Revenant
+103 C Graygulch Turncoat
+104 U Hard Knocks
+105 U Haunting Horseman
+106 C Haunting Stragglers
+107 U Howler Sellout
+108 C Lonely Return
+109 C March of the Gray
+110 U Midnight Fright
+111 U Murder
+112 C Nightrail Forger
+113 U Nightrail Kingpin
+114 C Pickpocket
+115 C Public Hanging
+116 U Ravenous Chupacabra
+117 C Roxite's Revenge
+118 R Sareng, the Dealer
+119 U Spirit of Infamy
+120 U Staking Hand
+121 C Sunset Cliffs Patron
+122 R Unassuming Swineherd
+123 U Uncovered Mine
+124 R Vengeful Agent
+125 C Victims of Graygulch
+126 C Wanted
+127 R Wendigo
+128 U Azun's Play
+129 C Bleeding Bear
+130 R Bloodshot Berserker
+131 U Brazen Drifter
+132 C Campfire Stories
+133 C Cathartic Reunion
+134 R Creed, Eternal Straggler
+135 C Crossfire
+136 R Deputy Gibem
+137 U Driver of Herds
+138 C Dual Wield
+139 M Haide Bankbuster
+140 U Hair-Trigger Marshall
+141 C Heartwood Sniper
+142 U High Noon
+143 U Howler Sheriff
+144 C Injustice
+145 U Ironeyes Desperado
+146 C Ironeyes Slingers
+147 U Land Grab
+148 C Make an Entrance
+149 C Mudslinging
+150 R Open Road
+151 C Pains of the Drunk
+152 C Qilan Raiders
+153 R Qilan Stormers
+154 C Qilan Warrior
+155 R Rain of Blood
+156 U Reach for the Sky
+157 C Reforge
+158 C Sandbluff Assailant
+159 C Sandbluff Duelist
+160 U Sandbluff Slinger
+161 U Spectral Slinger
+162 U Stolen Cache
+163 C Sunset Cliffs Hunter
+164 C Sunset Cliffs Lawman
+165 R Tavern Brawl
+166 M Terror of Sunset Cliffs
+167 C Threaten
+168 R Train Heist
+169 C Wave of Goblins
+170 U Wild Bounties
+171 R Aether Recoverer
+172 U Bloodleaf Druid
+173 R Bloodleaf Tracker
+174 C Bloodleaf Warcry
+175 C Brush Sniper
+176 C Canopy Ambush
+177 U Creeping Hidebehind
+178 C Eternal Scout
+179 U Expedition Leader
+180 U Fireheart Centaur
+181 C Fog
+182 U Frontier Hoof
+183 R Frontier Meditation
+184 C Frontier Outrider
+185 C Frontier Scouts
+186 U Gifts of Ancient Ulek
+187 C Gun Fight
+188 U Lead the Charge
+189 C Lingering Guide
+190 U Loreweaver
+191 R Mentor of the Mighty
+192 R Mistbreaker
+193 R Mysteries of the Ulek
+194 C Natural Growth
+195 C Nightshade Cultivator
+196 R One with the Herd
+197 R Patron of the Ancients
+198 U Qilan Archer
+199 C Qilan Explorer
+200 C Qilan Seer
+201 C Qilan Wanderer
+202 C Scout Ahead
+203 U Spectral Hunter
+204 C Take Aim
+205 C Tracker of Wild Places
+206 U Trailbloomer
+207 C Ulek Crusher
+208 C Ulek Elder
+209 U Ulek Wayfinder
+210 C Uncharted Frontier
+211 M Unified Ceremony
+212 U Walking with Ancients
+213 R Aether Striders
+214 R At the Gallows
+215 M Azun, Sheriff of Daisite
+216 U Bounty Leveler
+217 R Burning-Tree Shaman
+218 R Chief Striking Dawn
+219 U Dusk Occultist
+220 U Dusk Rider
+221 R Imposing Griffin
+222 M Judges of Bearidge
+223 M Koshui, the Trader
+224 R Lease on Life
+225 U Maligned Scavenger
+226 U Miner's Barracks
+227 U Nightrail Fence
+228 U Quelling Tavern
+229 U Recoil
+230 R Roxite of Nightrail
+231 U Sandbluff Inciter
+232 R Stickup
+233 M Stormcall Thunderbird
+234 R Tireless Explorer
+235 R Vessel of Lost Souls
+236 U Walker of Wild Places
+237 M Wu, the Shackled
+238 U Aetherite Dagger
+239 R Aetherite Shackles
+240 C Aetherite Vein
+241 U Aetherlock Effigy
+242 C Aetherlock Pistol
+243 C Binding Lasso
+244 C Cruel Effigy
+245 M Dead Man's Hand
+246 U Derelict Watcher
+247 U Dreamkeeper
+248 R Foulweather Effigy
+249 C Gambler's Dice
+250 C Heavy Moneybag
+251 C Mighty Totem
+252 U Moonlit Lurker
+253 U Murderkeep
+254 C Needle Doll
+255 C Penny Dreadful
+256 C Resolute Scarecrow
+257 U Scoundrel's Aetherlock
+258 U Shredding Sword
+259 C Tumblewalker
+260 U Ulek Guardian
+261 M The Wicker Lord
+262 C Worn Saddle
+263 M The Aetherite Saloon
+264 R Derelict Town
+265 U Forgotten Haunt
+266 R Sunrise Bluffs
+267 R Sunrise Prairie
+268 R Sunrise River
+269 R Sunrise Ruins
+270 R Sunrise Woods
+271 L Plains
+272 L Island
+273 L Swamp
+274 L Mountain
+275 L Forest
 
 [tokens]
 b_1_1_bird_flying

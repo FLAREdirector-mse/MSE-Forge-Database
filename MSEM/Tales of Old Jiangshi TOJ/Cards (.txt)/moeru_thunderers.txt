@@ -1,0 +1,10 @@
+Name:Moeru Thunderers
+ManaCost:2 R
+Types:Creature Human Knight
+K:First Strike
+K:Haste
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self+nonToken | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, if it's not a token, create a token that's a copy of it, except it has no mana cost.
+SVar:TrigToken:DB$ Token | LegacyImage$ moeru thunderers toj | TokenAmount$ 1 | TokenScript$ moeru_thunderers | TokenOwner$ You | SpellDescription$ Create a token that's a copy of CARDNAME, except it has no mana cost.
+DeckHas:Ability$Token
+Oracle:First strike, haste\nWhen Moeru Thunderers enters the battlefield, if it's not a token, create a token that's a copy of it, except it has no mana cost.

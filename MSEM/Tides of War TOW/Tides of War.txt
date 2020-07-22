@@ -7,10 +7,290 @@ MciCode=tow
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Korakhos
 
 [cards]
-1
+1 R Akrianos' Command
+2 C Althestran Legionnaire
+3 U Althestran Oathsworn
+4 M Ancestors' Grace
+5 M Arbiter of Silence
+6 C Auramancer
+7 R Aven Warmonger
+8 U Battlewise Aptitude
+9 C Celestian Crusader
+10 C Disciple of Atemhar
+11 U Erika's Purge
+12 C Ethereal Armor
+13 C Evasive Maneuver
+14 C Fearless Recruit
+15 C Frontline Commander
+16 C Goriana Tactician
+17 C Griffin Skycaller
+18 U Harmonical Weaver
+19 U Heavenly Patron
+20 C Incapacitated
+21 U Infiltrate Celestia
+22 U Korrinary Warcaller
+23 R Leader of Resistance
+24 C Muster for Battle
+25 R Norn's Ultimatum
+26 C Purging Priestess
+27 C Purging Strike
+28 R Ralezza, Weaver of Okthuros
+29 C Ralezza's Disciple
+30 C Rebel Instigator
+31 C Rousing Chant
+32 C Sanctuary Invocation
+33 U Skyblind Duo
+34 U Soul of Misery
+35 R Timely Commander
+36 U Timely Reinforcements
+37 R To a Bright Future
+38 R Valina's Aid
+39 R Valtrian Cavalier
+40 U Veteran Renegade
+41 C Watchful Skyguardian
+42 C Adroit Riddlemage
+43 U Artful Diversion
+44 U Artificer's Persuasion
+45 C Aven Ranger
+46 U Battlemage's Disruption
+47 C Bonds of Quicksilver
+48 C Burglar's Mischief
+49 C Cancel
+50 C Dazzling Voidmage
+51 C Drownyard Scavenger
+52 U Gifted Arcanomancer
+53 U Glimmerwing Trickster
+54 C Glintfeather Mystic
+55 U Infiltrate Demmurya
+56 R Insipid Metamorph
+57 C Iridescent Familiar
+58 R Ishtari, Oasis Warden
+59 C Ishtari's Deliverance
+60 M Magistrate of Eras
+61 R Merkurio's Command
+62 R Mindbreak Artisan
+63 R Mobilize the Heavenly
+64 U Nightchill Grasp
+65 R Non-Stop Production
+66 C Prohibit
+67 C Psychic Grid
+68 C Reengineer
+69 U Reorganized Thoughts
 70 R Replicator Mage
-272
+71 C Steel Hunter
+72 C Stunning Jolt
+73 M Terror of the Tides
+74 C Tidemaster's Loyalist
+75 R Tidetwister Mage
+76 R Total Recall
+77 C Unpredictable Blizzard
+78 U Vedalken Machinist
+79 U Vedalken Reshaper
+80 C Vedalken Wingcrafter
+81 U Volatimancer
+82 C Vorreia's Acumen
+83 R Aether Snap
+84 U Ammbradu Parasite
+85 U Battlefield Catastrophe
+86 C Bioenhancement
+87 C Black Cat
+88 C Blood-Tithe Harpy
+89 C Branding Shackles
+90 C Burn with Demonfire
+91 C Butcher's Fervor
+92 U Carrion Gourmet
+93 R Consuming Doom
+94 C Death's Sentry
+95 C Delirious Fervor
+96 U Fallen Ideal
+97 C Flesh Hoarder Ghoul
+98 R Fleshrender Demon
+99 U Glorious Revival
+100 R Grafted Physician
+101 C Heartstabber Mosquito
+102 R Ill Winds Blow
+103 U Infiltrate Nimunot
+104 C Insidious Terror
+105 R Kevthra's Command
+106 M Kevthra's Will
+107 U Network Sabotage
+108 U Nightclad Stalker
+109 U Pestilent Renewal
+110 U Phyrexian Illbearer
+111 C Poisonheart Undead
+112 R Ragantiar, Maurassi Overlord
+113 C Ragantiar's Hoarding
+114 C Scrapyard Aberration
+115 C Sense of Loss
+116 M Seven Deadly Sins
+117 C Soulsorrow Shade
+118 R Spawn of Shadows
+119 C Sporesowed Disease
+120 C Unholy Crusader
+121 U Vaultkeeper
+122 R Vestige of Skithiryx
+123 C Vile Weavers
+124 R All-Consuming Fire
+125 C Ardor of the Masses
+126 U Arsenal Curator
+127 C Bellowing Warleader
+128 U Bloodcrazed Instigator
+129 C Blow to Pieces
+130 R Bomb Juggler
+131 M Cataclysmic Skytyrant
+132 R Commander of the War Song
+133 R Corrignos' Rage
+134 C Crazed Bruiser
+135 C Darokki Renegade
+136 U Deranged Arsonist
+137 R Form of the Phoenix
+138 R General Merthilios
+139 C Goblin Sniper
+140 C Goblin Tunneler
+141 U Goriana Battlechief
+142 C Guiltless Brutality
+143 C Harpoon Launching
+144 C Igniting Lavaling
+145 U Infiltrate Rammaneth
+146 M Jeska, Neolition Leader
+147 R Jeska's Command
+148 R Loot Hoarder Dragon
+149 U Mark of Mutiny
+150 C Merthilios' Escort
+151 C Molten Ritual
+152 C Moment of Madness
+153 C Mountain Victor
+154 C Novice Pyromancer
+155 U Rammanethi Sandshaper
+156 C Scorchland Vandal
+157 C Seismic Strike
+158 U Shal'Draen's Rage
+159 R Spreading Dissent
+160 U Tormenting Thoughts
+161 C Vanquish the Obsolete
+162 U Violent Offensive
+163 C Voice of Revolution
+164 U Youthful Renegade
+165 R Abinna, Humanity's Herald
+166 C Abinna's Consecration
+167 C Ambush Viper
+168 U Birthing Elemental
+169 C Blessing of Plenty
+170 C Blissful Lull
+171 C Brace for Battle
+172 R Camouflaged Sprareos
+173 C Contempt for the Unnatural
+174 C Earthenlore Blessing
+175 C Earthenlore Channeler
+176 U Earthenlore Disciple
+177 U Evergrowth
+178 R Fatresya's Command
+179 U Gorandu's Majesty
+180 U Goriana Naturalist
+181 U Gorillas in the Mist
+182 C Imposing Bulkvine
+183 U Infiltrate Althestra
+184 U Knight's Daring
+185 M Miraculous Genesis
+186 C Mold Shambler
+187 C Mossvine Lurker
+188 R Mulch Harvest
+189 C Naturebound Druid
+190 C Nroxi Beastmaster
+191 C Pinpoint Accuracy
+192 R Poignant Hydra
+193 U Rammanethi Hydroshaper
+194 M Rampaging Tremorwurm
+195 R Reshaping Primordial
+196 R Sagewood Animist
+197 C Shadowcreep
+198 U Skittering Swarm
+199 C Stampede Instigator
+200 R Steelhoof Battlechief
+201 C Sylvan Vitality
+202 C Symbiotic Sprout
+203 C Velkian Savage
+204 R Vengeful Ferocity
+205 U Vigorous Tracker
+206 M Akrianos, Redeemed Avenger
+207 U Bloodblade Mercenary
+208 U Bloodfury Warlord
+209 U Callous Renegade
+210 M Erika, Mourning Soul
+211 M Fatresya, Protector of the People
+212 U Glintfeather Sage
+213 U Goriana Earthshaker
+214 M Kellythross, Master Artificer
+215 U Loxodon Battlepriest
+216 M Merkurio, Volatile Elementalist
+217 U Merkurio's Opus
+218 U Meticulous Dissector
+219 U Oracle of Tides
+220 U Runic Soulthief
+221 U Centipede Engine
+222 R Coalition Relic
+223 U Crystalline Golem
+224 C Escape Hatch
+225 R Fatresya's Ankh
+226 R Foundryborn Ingester
+227 U Glitched Carcass
+228 U Grafted Weaponry
+229 C Insurgent's Blade
+230 U Knowledge Extractor
+231 U Mechanical Masterpiece
+232 U Metalwork Machinist
+233 R Necrosavant's Staff
+234 R Orrery Technician
+235 U Phyrexian Scraphandler
+236 C Scrapgear Contraption
+237 U Smoldering Blade
+238 U Spellbound Gauntlet
+239 U Spinegraft Disabler
+240 C Unstable Orb
+241 C Walking Platform
+242 U Wingcrafter's Legacy
+243 C Adaptive Terrains
+244 U Enduring Vestige
+245 R Frostfire Geysers
+246 R Fungal Mire
+247 R Gloomcover Steppe
+248 M Kellythross' Workshop
+249 R Lush Oasis
+250 U Shrine of the Six Pillars
+251 R Spiraling Canyon
+252 U War Golem Forge
+253 L Plains
+254 L Plains
+255 L Plains
+256 L Plains
+257 L Island
+258 L Island
+259 L Island
+260 L Island
+261 L Swamp
+262 L Swamp
+263 L Swamp
+264 L Swamp
+265 L Mountain
+266 L Mountain
+267 L Mountain
+268 L Mountain
+269 L Forest
+270 L Forest
+271 L Forest
+272 L Forest
 
 [tokens]
+b_2_2_zombie
+c_1_1_a_thopter_flying
+c_3_3_a_golem
+g_1_1_saproling
+r_1_1_goblin
+r_3_3_dragon_flying
+u_8_8_kraken_trample
+w_1_1_bird_flying
+w_1_1_rebel
+w_1_1_soldier

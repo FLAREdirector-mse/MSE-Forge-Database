@@ -1,0 +1,10 @@
+Name:Lupine Ferocity
+ManaCost:1 B
+Types:Instant
+A:SP$ Charm | Cost$ 1 B | Choices$ P1P1Lifelink,P1P1Indes,LifelinkIndes | CharmNum$ 1
+SVar:P1P1Lifelink:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPump1 | SpellDescription$ Put a +1/+1 counter the chosen creature. It gains lifelink until end of turn.
+SVar:DBPump1:DB$ Pump | Defined$ Targeted | KW$ Lifelink
+SVar:P1P1Indes:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPump2 | SpellDescription$ Put a +1/+1 counter the chosen creature. It gains indestructible until end of turn.
+SVar:DBPump2:DB$ Pump | Defined$ Targeted | KW$ Indestructible
+SVar:LifelinkIndes:DB$ Pump | ValidTgts$ Creature | KW$ Lifelink & Indestructible | SpellDescription$ The chosen creature gains lifelink and indestructible until end of turn.
+Oracle:Choose target creature, then choose two —\n• Put a +1/+1 counter on the chosen creature.\n• The chosen creature gains lifelink until end of turn.\n• The chosen creature gains indestructible until end of turn.

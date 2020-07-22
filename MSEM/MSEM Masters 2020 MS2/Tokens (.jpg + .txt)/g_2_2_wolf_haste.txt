@@ -1,0 +1,7 @@
+Name:Wolf
+ManaCost:no cost
+Types:Creature Wolf
+Colors:green
+K:Haste
+PT:2/2
+Oracle:Haste

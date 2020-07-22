@@ -5,49 +5,52 @@ Name=MSEM: MSEM Champions
 Code2=MPS_MSE
 MciCode=mps_mse
 Type=Other
+# Set compiled by Cajun
 
 [cards]
-1 M Master of Tranquility # reprint GNJ
-2 M Ardy's Study # reprint CAC
-3 M Merkurio's Familiar # reprint KZD
-4 M Scorch # reprint IMP
-5 M Egg of Avarice # reprint ATB
-6 M Autumnal Watch # reprint HVF
-7 M Cranial Violation # reprint ORP
-8 M Leyline Alignment Field # reprint 101
-9 M Nomadic Patriarch # reprint HVF
-10 M Nighthallow Ritual # reprint TGE
-11 M Ryukami, the First Sovereign # reprint PSA
-12 M Into the Sky # reprint TGE
-13 M Master Chef # reprint SOR
-14 M Almgrove Champion # reprint CAC
-15 M Pocket Aces # reprint HI12
-16 M Savage Congregation # reprint GNJ
-17 M Dark Rite Cultist # reprint SUR
-18 M Saigura Tam # reprint DYA
-19 M Taiyohata Champion # reprint IMP
-20 M Rock // Roll # reprint ORP
-21 M Mystic Meddling # reprint XPM
-22 M Suisei the Southern Star # comma # reprint TOJ
-23 M Serene Prayer # reprint PFP
-24 M Winterheath Snowbanks # reprint DYA
-25 M Winterheath Tundra # reprint DYA
-26 M Northern Holdout # reprint DYA
-27 M Villainy # reprint 101
-28 M District of Artisans # reprint UNR
-29 M Lady Genvieve of Caulder # reprint TWR	
-30 M Flesh to Rot # reprint PFP
-31 M Recall Forgotten Eons # reprint RWR
-32 M Monument to the Fallen Man # reprint GHQ
-33 M Infuse the Apparatus # reprint GNJ
-34 M Vidal, Rune Thief # reprint UNR
-35 M Invalidate # reprint PFP
-36 M Rakkiri Dissident # reprint GHQ
-37 M Cane Dancer # reprint GHQ
-38 M Stormsurge # reprint CAC
-39 M Golden Touch # reprint VTM
-40 M Avatar of Basat # reprint POA
-41 M Exeunt # reprint VTM
-
-[tokens]
-g_3_3_elemental
+1 M Master of Tranquility
+2 M Scorch
+3 M Cranial Violation
+4 M Nighthallow Ritual
+5 M Ryukami, the First Sovereign
+6 M Into the Sky
+7 M Master Chef
+8 M Savage Congregation
+9 M Dark Rite Cultist
+10 M Saigura Tam
+11 M Taiyohata Champion
+12 M Rock // Roll
+13 M Mystic Meddling
+14 M Almgrove Champion
+15 M Pocket Aces
+16 M Suisei the Southern Star
+17 M Serene Prayer
+18 M Winterheath Snowbanks
+19 M Winterheath Tundra
+20 M Northern Holdout
+21 M Villainy
+22 M District of Artisans
+23 M Lady Genvieve of Caulder
+24 M Flesh to Rot
+25 M Recall Forgotten Eons
+26 M Monument to the Fallen Man
+27 M Infuse the Apparatus
+28 M Vidal, Rune Thief
+29 M Invalidate
+30 M Rakkiri Dissident
+31 M Cane Dancer
+32 M Stormsurge
+33 M Golden Touch
+34 M Avatar of Basat
+35 M Exeunt
+36 M Glimmer
+37 M Carnival Yatiri
+38 M Performer of Ambition
+40 M Latent Potential
+41 M Ardy's Study
+42 M Merkurio's Familiar
+43 M Autumnal Watch
+44 M Nomadic Patriarch
+45 M Egg of Avarice
+46 M Leyline Alignment Field
+47 M Thriving Hydra

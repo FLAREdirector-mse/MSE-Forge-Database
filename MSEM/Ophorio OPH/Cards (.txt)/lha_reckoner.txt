@@ -1,0 +1,8 @@
+Name:Lha Reckoner
+ManaCost:2 W W
+Types:Creature Reflection
+K:Flying
+PT:3/3
+A:AB$ Token | Cost$ 4 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ lha_reckoner | TokenOwner$ You | LegacyImage$ lha reckoner oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Flying\nRevive {4}{B}{B} ({4}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

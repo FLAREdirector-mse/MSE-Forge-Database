@@ -1,0 +1,6 @@
+Name:Ox
+ManaCost:no cost
+Types:Creature Ox
+Colors:white
+PT:0/2
+Oracle:

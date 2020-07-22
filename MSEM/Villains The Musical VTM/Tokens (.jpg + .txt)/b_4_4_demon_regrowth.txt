@@ -1,0 +1,8 @@
+Name:Demon
+ManaCost:no cost
+Colors:black
+Types:Creature Demon
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Opponent | Execute$ TrigChange | TriggerZones$ Battlefield | TriggerDescription$ Whenever this creature deals combat damage to a player, return target card from your graveyard to your hand.
+SVar:TrigChange:AB$ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Card.YouCtrl | Cost$ 0
+PT:4/4
+Oracle:Whenever this creature deals combat damage to a player, return target card from your graveyard to your hand.

@@ -1,0 +1,6 @@
+Name:Wurm
+ManaCost:no cost
+Colors:red
+Types:Creature Wurm
+PT:3/3
+Oracle:

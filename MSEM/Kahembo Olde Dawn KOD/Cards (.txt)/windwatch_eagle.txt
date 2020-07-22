@@ -1,0 +1,8 @@
+Name:Windwatch Eagle
+ManaCost:2 W
+Types:Creature Bird
+K:Flying
+PT:2/2
+S:Mode$ Continuous | Affected$ Card.Self+counters_GE1_P1P1 | AddKeyword$ Vigilance | Description$ CARDNAME has vigilance as long as it has a +1/+1 counter on it.
+DeckHints:Ability$Counters
+Oracle:Flying\nWindwatch Eagle has vigilance as long as it has a +1/+1 counter on it.

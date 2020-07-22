@@ -2,7 +2,7 @@ Name:Ferris, the Sapphire Storm
 ManaCost:1 U B
 Types:Legendary Creature Human Pirate
 PT:2/1
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self,Creature.Other+YouCtrl | Execute$ TrigMill | TriggerDescription$ Whenever CARDNAME or another creature enters the battlefield under your control, each opponent puts the top X cards of their library into their graveyard, where X is that creature’s power.
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self,Creature.Other+YouCtrl | Execute$ TrigMill | TriggerDescription$ Whenever CARDNAME or another creature enters the battlefield under your control, each opponent mills X cards, where X is that creature’s power.
 SVar:TrigMill:DB$Mill | NumCards$ X | Defined$ Player.Opponent
 SVar:X:TriggeredCard$CardPower
-Oracle:Whenever Ferris, the Sapphire Storm or another creature enters the battlefield under your control, each opponent puts the top X cards of their library into their graveyard, where X is that creature’s power.
+Oracle:Whenever Ferris, the Sapphire Storm or another creature enters the battlefield under your control, each opponent mills X cards, where X is that creature’s power.

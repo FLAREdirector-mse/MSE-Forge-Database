@@ -1,0 +1,10 @@
+Name:Warden of the Dead
+ManaCost:2 B B
+Types:Creature Demon
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, you draw a card and you lose 1 life.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1
+# T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigMake | TriggerDescription$ When CARDNAME dies, make and shuffle three Warden of the Dead into your main library.
+# SVar:TrigDraw:DB$ Draw
+Oracle:When Warden of the Dead enters the battlefield, you draw a card and you lose 1 life.\nWhen Warden of the Dead dies, make and shuffle three Warden of the Dead into your main library. For the rest of the game, you may cast spells named Warden of the Dead without paying their mana costs.

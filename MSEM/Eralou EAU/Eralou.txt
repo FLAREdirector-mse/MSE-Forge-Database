@@ -7,12 +7,269 @@ MciCode=eau
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Tyrant
 
 [cards]
-1
+1 U Acclaimed Leadership
+2 C Aven Traveller
+3 U Beautiful Crescendo
+4 C Blessings of the Parish
+5 R Defector of the Clergy
+6 M Faradia, Honored Sovereign
+7 U Faradia's Collector
+8 R Faradia's Grace
+9 U Festival Songstress
+10 R Glamorous Festivities
+11 C Gleaming Gallant
+12 C Glorious Celebration
+13 M Helena, the Awakener
+14 C Helena's Exaltation
+15 R Helena's Rebuff
+16 R Heroic Crusader
+17 C Inspiring Band
+18 U Kantra of Healing
+19 C New Alores Charmer
+20 C New Alores Fiddler
+21 C Nimbus Glider
+22 R Ontarachie Vagabond
+23 C Overgrowth Guardian
+24 R Parish Paragon
+25 U Parish's Command
+26 R Pretentious Performer
+27 C Proselytize
+28 R Rejoicing Aristocrats
+29 C Smite the Monstrous
+30 U Solemn Offering
+31 U Splendid Leap
+32 C Sporecrafter's Gift
+33 C Sporeflow Mantle
+34 U Sporeflow Propagator
+35 C Sporeflow Repulsion
+36 C Stratusform Seraph
+37 C Thespian Soldier
+38 U Tomb Keeper
+39 C Turtleback Guide
+40 U Woopip Chef
+41 C Woopip Sproutling
+42 U Aetherdrain
+43 R Aspiring Rascals
+44 U Aven Acoustimancer
+45 C Belittle
+46 C Bewildering Sight
+47 C Bogsnatcher Drake
+48 C Book Return
+49 U Captivating Jester
+50 C Chilling Musician
+51 C Coordinated Commotion
+52 C Coveted Stallion
+53 C Creeping Pianist
+54 U Curse of Impotence
+55 C Divination
+56 C Elaborate Transportation
+57 R Enthralling Actor
+58 C Glamorous Aerialist
+59 R Hunter's Mark
+60 R Kantra of the Third Eye
+61 M Lazaire's Conjuring
+62 C Lost in Admiration
+63 U Lotus Debutante
+64 C Luminescent Croaker
+65 R Mark of the Scaleblight
+66 R Marshcroaker Coaching
+67 U Marshcroaker Drake
+68 C Negate
+69 C Opt
+70 M Planar Traversal
+71 C Portside Smuggler
+72 C Ranidaphobia
+73 C River Dabbler
+74 U Riverguide Harpist
+75 R Sensational Festivities
+76 U Soul Trapper
+77 U Tempted by Lotuses
+78 R Wade Through
+79 R Witch of Shifting Waters
+80 R Witch's Invocation
+81 C Zoulev Envoy
+82 U Zoulev Offering
+83 U Zoulev Rebuff
+84 C Ancestor's Calling
+85 R Banish
+86 U Bayou Courier
+87 U Bitterheart Bokor
+88 C Bog Rebirth
+89 M Boghex Witch
+90 C Bokor's Recruitment
+91 R Curse of Bleeding
+92 C Curse of Haunting
+93 U Curse of Waning Wealth
+94 R Explorer's Fate
+95 U Greater Swooprat
+96 R Grim Festivities
+97 R Grisly Hunger
+98 U Kantra of Avarice
+99 M Kantra of Plagues
+100 R Lazaire's Altar
+101 C Murmurs of the Bayou
+102 R Occult Tutor
+103 R Ontarachie Hunter
+104 U Oracle's Ploy
+105 C Overwhelming Guilt
+106 C Parish Custodian
+107 U Reclaim the Devout
+108 R Returned Bokor
+109 C Scaleblight Warrior
+110 R Shaman of the First Pact
+111 U Sin Broker
+112 C Souldebt Collector
+113 C Spite Caster
+114 C Sporegraft
+115 C Starving Swooprat
+116 C Stinghopper
+117 C Tear to Shreds
+118 U Terror of the Ontarachie
+119 C Undying Watcher
+120 R Vibrant Rapture
+121 C Vindictive Abbot
+122 C Wailing Chorus
+123 C Wanderspore Terrapin
+124 U Whispers of the Ontarachie
+125 C Woopip Decomposition
+126 U Young Swooprat
+127 C Balloon Dragoon
+128 U Band of Irregulars
+129 C Blazing Volley
+130 R Bogborn Charger
+131 R Bogborn Exorcist
+132 C Bogstalker Snake
+133 U Bouquet Singer
+134 R Brash Hunter
 135 R Burning Revelations
+136 C Cataclysmic Preacher
+137 R Curse of Uncertainty
+138 C Damning Flames
+139 R Dazzling Festivities
+140 C Disrupting Storms
+141 C Elegant Strike
+142 M Encore of the Phoenix
+143 R Exciting Band
+144 U Faradia's Outrage
+145 C Fervent Strike
+146 C Festival Rioters
+147 U Fool's Errand
+148 C Gift of the Phoenix
+149 M Herald of Festivities
+150 C Intoxicating Melody
+151 C Lonely Devil
+152 U Lord's Voyage
+153 C Lotus Studies
+154 R Minister of Zealots
+155 R Ontarachie Apex
 156 C Passionate Congregation
-259
+157 C Pyrodancer
+158 U Radiant Outburst
+159 C Rallying Rector
+160 C Reformed Devil
+161 U Scuttling Bogbuster
+162 C Shock and Awe
+163 U Storehouse Collapse
+164 C Streetside Entertainer
+165 U Sudden Conversion
+166 U Twirling Duet
+167 R Vivid March
+168 U Zealous Scaleblight
+169 U Ambushing Alligator
+170 C Artisan's Sorrow
+171 M Avatar of Plume de Val
+172 C Bite Down
+173 C Bloomcrawler
+174 C Coat in Petals
+175 C Commune with Kantra
+176 C Croakfolk Troubadour
+177 C Crown of Spores
+178 U Curse of Encroaching Waters
+179 U Curse of the Petrified
+180 R Curse of Tracking
+181 U Curse of Vulnerability
+182 M Cypress, the Wayfarer
+183 R Fungal Whomper
+184 R Jeama, Zoulev Queen
+185 M Kantra of Bounty
+186 C Kantra of Fortitude
+187 R Kantra of Old Majik
+188 C Kantra's Envoy
+189 C Lotus Feaster
+190 C Marsh's Veil
+191 R Mushroom Merchant
+192 C Ontarachie Bushwhack
+193 R Ontarachie Dryad
+194 U Ontarachie Emissary
+195 C Ontarachie Forager
+196 U Overgrowth Instigator
+197 U Prized Marshcroaker
+198 C Remarkable Hunter
+199 U Serpentdancer Kantra
+200 C Shelled Muckdweller
+201 R Sporeflow Protector
+202 U Tenacious Brawler
+203 C Trufflefrog
+204 C Uncouth Ancestor
+205 R Wild Festivities
+206 C Wild Instincts
+207 C Woopip Elder
+208 U Woopip Wanderer
+209 R Zoulev Rites
+210 U Zoulev Ritualist
+211 M Adavene, Dean of the Arts
+212 M Antonin Lazaire
+213 U Determined Evangelist
+214 U Dramatic Artist
+215 M Erollin, Eccentric Collector
+216 U Faradia's Favored
+217 U Gift of the Bayou
+218 R Grindlesnap
+219 U Irrigation Trawler
+220 U Manhunter Kantra
+221 U Plume de Val Singer
+222 U Riverboat Assault
+223 U Smooth Musician
+224 U Woopip Bruiser
+225 U Arcane Saxophone
+226 U Artisan's Fountain
+227 R Automated Maestromancer
+228 C Bogchomper Juggernaut
+229 C Bogsworn Club
+230 C Fleshcarver Knife
+231 R Gilded Lotus
+232 C Improvising Automaton
+233 C Ornate Incense
+234 C Prophetic Prism
+235 M Soul of New Alores
+236 U Unicorn of the Vale
+237 U Zoulev Altar
+238 U Art Studio
+239 U Blessed Mausoleum
+240 U Dangerous Territory
+241 U Eerie Bayou
+242 U Forlorn Ruin
+243 U Lakeside Park
+244 U Mushroom Lagoon
+245 U Prayer Hall
+246 U Ritzy Parlor
+247 R Royal Domain
+248 U Sunlit Plaza
+249 U Vacated Bar
+250 L Plains
+251 L Island
+252 L Swamp
+253 L Mountain
+254 L Forest
 
 [tokens]
 c_a_lotus_petal_sac
+g_1_1_saproling
+g_3_2_crocodile_trample
+r_1_1_cleric
+u_1_1_frog
+w_1_1_bird_flying
+aspect_of_faradia

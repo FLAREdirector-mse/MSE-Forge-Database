@@ -1,0 +1,10 @@
+Name:Palace Vanguard
+ManaCost:3 W
+Types:Creature Cat Knight
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters the battlefield, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ DBBird,DBCat
+SVar:DBBird:DB$ Token | TokenAmount$ 1 | TokenScript$ u_1_1_bird_flying | TokenOwner$ You | LegacyImage$ u 1 1 bird flying kod | SpellDescription$ Create a 1/1 blue Bird creature token with flying.
+SVar:DBCat:DB$ Token | TokenAmount$ 5 | TokenScript$ w_2_2_cat | TokenOwner$ You | LegacyImage$ w 2 2 cat kod | SpellDescription$ Create a 2/2 white Cat creature token.
+DeckHas:Ability$Token
+Oracle:When Palace Vanguard enters the battlefield, choose one —\n• Create a 1/1 blue Bird creature token with flying.\n• Create a 2/2 white Cat creature token.

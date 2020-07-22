@@ -1,0 +1,6 @@
+Name:Rip to Shreds
+ManaCost:3 B
+Types:Sorcery
+A:SP$ Destroy | Cost$ 3 B | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBLoseLife | SpellDescription$ Destroy target creature. Its controller loses 1 life.
+SVar:DBLoseLife:DB$ LoseLife | Defined$ TargetedController | LifeAmount$ 1
+Oracle:Destroy target creature. Its controller loses 1 life.

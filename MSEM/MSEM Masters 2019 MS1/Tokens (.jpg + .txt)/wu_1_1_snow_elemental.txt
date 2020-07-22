@@ -1,0 +1,6 @@
+Name:Elemental
+ManaCost:no cost
+Types:Snow Creature Elemental
+Colors:white,blue
+PT:1/1
+Oracle:

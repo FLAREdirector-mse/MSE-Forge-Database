@@ -1,0 +1,10 @@
+# TODO Permutate operates on the honor system; as of July 2020 you may remove a counter from a creature you control, then put two P1P1 counters on that same creature.
+# --FLAREdirector
+Name:Glory in the Fray
+ManaCost:1 W
+Types:Sorcery
+A:SP$ PumpAll | Cost$ 1 W | ValidCards$ Creature.YouCtrl | KW$ First Strike & Vigilance | SubAbility$ DBPermutate | SpellDescription$ Creatures you control gain first strike and vigilance until end of turn. Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBPermutate:DB$ ChooseCard | ChoiceOptional$ True | Defined$ You | Choices$ Creature.YouCtrl+HasCounters | Amount$ 1 | SubAbility$ DBRemoveCounter | SpellDescription$ Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBRemoveCounter:DB$ RemoveCounter | Defined$ ChosenCard | CounterType$ Any | CounterNum$ 1 | SubAbility$ DBPutCounters | StackDescription$ Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBPutCounters:DB$ PutCounter | Choices$ Creature.YouCtrl | CounterType$ P1P1 | CounterNum$ 2
+Oracle:Creatures you control gain first strike and vigilance until end of turn. Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on a different creature you control.)

@@ -7,11 +7,268 @@ MciCode=atb
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by CanterburyEgg
 
-# Permanent cards that transform are just named their front face.
 [cards]
-1
+1 R Archangel of Accord
+2 M Asham's Path
+3 C Bazaar Equestrian
+4 R Bewitching Vapors
+5 U Brittle Bequest
+6 C Buried by Time
+7 U Cass-o'-Warrior
+8 C Djinni Imprisonment
+9 C Dune Wraith
+10 C Ephemeral Soultender
+11 C Globule of Sanctuary
+12 R Guiding Light
+13 C Hajir Sentinel
+14 C Hall of Remembrance
+15 U Hand of Fidelity
+16 R Keeper of Holy Lands
+17 C Lurking Lahasia
+18 C Masabh Legionnaire
+19 M Mercantile Accords
+20 U Mortal Pilgrimage
+21 C Outflank
+22 C Palace Dancer
+23 C Patron of Asham
+24 U Pristine Duelist
+25 R Ridge Warden
+26 U Roving Chaplains
+27 C Sandbank Guardian
+28 R Sandstreamer
+29 C Scimitar Techniques
+30 U Seraph of Renewal
+31 M Seto San, Summer Blossom
+32 U Shawlbinder
+33 R Skyline Tracer
+34 U Sleepless Specter
+35 U Stasis Snare
+36 U Suraj Militant
+37 U Venerable Judgment
+38 C Apt Countermeasure
+39 R Astral Alignment
+40 C Bashful Drake
+41 C Bazaar Informant
+42 C Canyon Mystic
+43 U Carpet Racers
+44 C Chart the Stars
+45 U Crested Crustacean
+46 R Decree of Bias
+47 C Dilapidate
+48 U Dissipate
+49 U Djinni of Whispers
+50 C Eccentric Musings
+51 U Follow the Light
+52 R Gentry Infiltrator
+53 C Globule of Intuition
+54 M Hafiq the Wise
+55 R Hajir Soothsayer
+56 U Hand of Dominion
+57 R Horizon Augur
+58 M Iekin's Portal
+59 C Judicious Djinni
+60 U Meat Puppet
+61 U Memoria Thief
+62 M Mischievous Romish
+63 R Morrow Probe
+64 C Oasis Glutton
+65 C Obscuring Sandstorm
+66 C One With the Wind
+67 U Outspoken Seminar
+68 U Raving Rover
+69 C Sage of the Sands
+70 C Sensory Gouger
+71 U Sights Beyond
+72 C Stabilize
+73 U Sticky Fingers
+74 R Veiled Virtuoso
+75 C Atrophy
+76 U Back-Alley Vandal
+77 M Bal's Descent
+78 C Bitter Wanderer
+79 C Bleak Condor
+80 U Blood Jade Prophet
+81 C Chosen of Bal
+82 U Cruel Consultation
+83 M Deathless Siege
+84 R Depravity
+85 C Due Judgment
+86 C Exemplar of Disdain
+87 U Flayed Dunerazer
+88 R Gaunt Abnormality
+89 C Globule of Agony
+90 U Hand of Consequence
+91 R Liege of Luxury
+92 U Liturgic Tutor
+93 C Loose Threads
+94 M Mukhif the Grim
+95 C Princely Mettle
+96 U Ruthless Vagrant
+97 R Selfish Journeyman
+98 C Shadow Ambusher
+99 U Shadowband Consul
+100 U Sink into the Floor
+101 C Slum Scrounger
+102 U Strangulate
+103 R Sultan of Avarice
+104 U Tip the Scales
+105 R Tomb Steward
+106 C Twisted Gladiator
+107 C Umbral Stalker
+108 U Unfettered Atrocity
+109 C Vengeful Cohort
+110 R Violent Collapse
+111 C Warpblade Warrior
+112 U Badland Zealot
+113 R Beastback Raider
+114 U Bizarre Bazaar
+115 U Bloodboil Harlequin
+116 R Brazen Sacrilege
+117 R Curio Pavilion
+118 C Dreamchaser Djinni
+119 R Emerald Warcaller
+120 M Emissary of Antiquity
+121 C Encampment Raid
+122 C Encrusted Sahalia
+123 C Fanciful Bloom
+124 C Fervent Ensign
+125 U Fierce Contempt
+126 C Globule of Turmoil
+127 U Hand of Fury
+128 C Harsh Erosion
+129 C Heat Ray
+130 R Herald of the Humble
+131 U Hostile Atmosphere
+132 C Impish Delights
+133 U Madcap Mercenary
+134 M Menna Al-Mejjat
 135 M Ninhasir's March
-269
+136 C Nurtured Sandwolf
+137 U Rapacious Rattler
+138 U Rubble Scavenger
+139 C Rush of Adrenaline
+140 C Scorned Figurant
+141 C Siltsplitter
+142 C Skin from Bone
+143 U Smoldering Djinni
+144 C Suraj Outrider
+145 R Trove Tyrant
+146 U Venom Infusion
+147 U Wandering Hussar
+148 R Wayfaring Falconer
+149 U Beetleback Forager
+150 U Bleak Gorge Convoy
+151 R Broadened Horizons
+152 C Colossal Camouflage
+153 C Court Beastmaster
+154 U Crossridge Commerce
+155 C Dromedary Packbeast
+156 C Dutiful Camel
+157 U Flora Acolyte
+158 C Globule of Vigor
+159 C Hajir Allegiant
+160 U Hand of the Harvest
+161 R Hero of the Stained Blade
+162 C Highland Hermit
+163 R Kalib Kabir
+164 M Magnific Wilderkin
+165 R Menagerie Expo
+166 R Mesa Brute
+167 C Oasis Cartography
+168 U Petal Scatterer
+169 U Plated Crusher
+170 U Promised Land
+171 U Raise a Ruckus
+172 C Rift Prowler
+173 C Roaming Falconer
+174 C Ruins Monitor
+175 M Sabne's Autumn
+176 U Sahalia Dragoons
+177 U Salt Flat Survivors
+178 R Scaleback Steed
+179 R Sower of Wishes
+180 C Strike Down
+181 C Sultan's Strength
+182 M Thriving Hydra
+183 C Verdant Haven
+184 C Visceral Assault
+185 U Warrior's Discipline
+186 U Aeriform Remnant
+187 C Alquyut Mount
+188 R Ash-Withered Cloak
+189 C Bearer of Old Growth
+190 C Blade of Burning Sand
+191 U Blighted Dagger
+192 R Chromatic Lantern
+193 U Churning Rough-Roller
+194 C Congruous Simulacrum
+195 R Curious Dais
+196 R Dancing Mirrorblade
+197 C Drift Tracer
+198 C Effigy of Creation
+199 C Effigy of Destiny
+200 C Effigy of Harvest
+201 C Effigy of Morality
+202 C Effigy of Wisdom
+203 R Egg of Avarice
+204 R Facsimile Sculptor
+205 C Furnace Golem
+206 C Gateway Statues
+207 C Gemplate Golem
+208 R Gilded Wyvern
+209 C Granite Plating
+210 U Gulch Custodian
+211 U Helm of Princes
+212 C Idol of the Dead God
+213 U Igneous Pulverizer
+214 C Kaleidostone
+215 U Laden Bruiser
+216 C Macabre Ruins
+217 U Meddling Gargoyle
+218 C Palace Gargoyle
+219 U Plumed Carpet
+220 R Prismatic Basilisk
+221 U Promenade Banner
+222 R Proselytic Shrine
+223 C Runed Servitor
+224 R Saber of Defiled Rites
+225 U Scabrous Automaton
+226 U Secluded Monument
+227 R Seismic Colossus
+228 U Shrapnel Golem
+229 C Silt Conduit
+230 C Silt-Trench Brute
+231 C Soul Chalice
+232 C Strider Harness
+233 U Temple Attendant
+234 R Volatile Stonework
+235 U Zoetic Tomb
+236 R Barren Boneyard
+237 U Calcified Dunes
+238 R El-Mazar, Wayward Palace
+239 U Flourishing Dunes
+240 U Highland Dunes
+241 R Immolated Grave
+242 C Painted Bluffs
+243 R Ravaged Monument
+244 C Sandswept Bazaar
+245 U Saturated Dunes
+246 C Skeletal Oasis
+247 U Stygian Dunes
+248 R Sunrazed Ruins
+249 R Tomb of Great Drakes
 
 [tokens]
+b_1_1_bird_flying_deathtouch
+b_x_x_djinn_horror
+c_2_2_spirit_flying
+c_a_treasure_sac
+g_4_4_beast_trample
+r_1_1_warrior_haste
+r_5_5_dragon_flying
+w_1_1_spirit_flying
+w_1_1_warrior_lifelink
+aura
+blossom

@@ -1,0 +1,6 @@
+Name:Elf Spirit
+ManaCost:no cost
+Colors:green
+Types:Creature Elf Spirit
+PT:1/1
+Oracle:

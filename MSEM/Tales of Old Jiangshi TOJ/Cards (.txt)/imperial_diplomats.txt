@@ -1,0 +1,10 @@
+Name:Imperial Diplomats
+ManaCost:2 U
+Types:Creature Human Advisor
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self+nonToken | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, if it's not a token, create a token that's a copy of it, except it has no mana cost.
+SVar:TrigToken:DB$ Token | LegacyImage$ imperial diplomats toj | TokenAmount$ 1 | TokenScript$ imperial_diplomats | TokenOwner$ You | SpellDescription$ Create a token that's a copy of CARDNAME, except it has no mana cost.
+A:AB$ Draw | Cost$ T tapXType<1/Creature> | NumCards$ 1 | SpellDescription$ Draw a card, then discard a card. | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$Discard | Defined$ You | NumCards$ 1 | Mode$ TgtChoose
+DeckHas:Ability$Token
+Oracle:When Imperial Diplomats enters the battlefield, if it's not a token, create a token that's a copy of it, except it has no mana cost.\n{T}, Tap an untapped creature you control: Draw a card, then discard a card.

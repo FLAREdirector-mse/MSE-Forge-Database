@@ -1,0 +1,9 @@
+Name:Batiga Escort
+ManaCost:3 W
+Types:Creature Fox
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 blue Bird creature token with flying.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ u_1_1_bird_flying | TokenOwner$ You | LegacyImage$ u 1 1 bird flying kod
+A:AB$ PutCounterAll | Cost$ 2 W T | ValidCards$ Creature.Flying+YouCtrl | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on each creature you control with flying.
+DeckHas:Ability$Token
+Oracle:When Batiga Escort enters the battlefield, create a 1/1 blue Bird creature token with flying.\n{2}{W}, {T}: Put a +1/+1 counter on each creature you control with flying.

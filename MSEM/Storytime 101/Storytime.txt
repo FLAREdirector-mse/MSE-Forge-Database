@@ -5,11 +5,111 @@ Name=MSEM: Storytime
 Code2=101
 MciCode=101
 Type=Other
-BoosterCovers=5
-Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# BoosterCovers=5
+# Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Pipsqueak
 
 [cards]
-1
-101
+1 M Azamir, Wayward Titan
+2 R Apotheosis
+3 R Arbiter of the Scales
+4 R Autumn's Farewell
+5 R Brave the Issbarrens
+6 R Daring Skythief
+7 R Final Reckoning
+8 R Golden Company Tactics
+9 R Golden Company Valiant
+10 M Happy Together
+11 R Herald of Heroes
+12 R In Memoriam
+13 R Magdel, Caller of Souls
+14 R Right to Rule
+15 R The Start of Something
+16 M Storytime
+17 R Titan's Will
+18 R Turela, Defiant Angel
+19 R Wandering Souls
+20 R Against the Waves
+21 R Antimagic Formula
+22 R Charting the Cosmos
+23 R Chronofracture
+24 R Edge of the Water
+25 R Fish Out of Water
+26 R Gorbes Index
+27 R Legacy's Malediction
+28 R Meadow's Melody
+29 R Oscanthor, Trader's Ruin
+30 R Outsmart
+31 R Start Anew
+32 R Tempus Fugit
+33 R Terror of Palta Gorge
+34 R Tidal Spite
+35 R Unbound Academic
+36 R Vengeful Messenger
+37 R Xinan Skycharter
+38 R Afterlife Heist
+39 R Berbarus Unsealed
+40 R Curse-Blood Morrigan
+41 R Embrace Madness
+42 R Glymna Blackrune
+43 R Jara Champion
+44 R Just Business
+45 R The Lord of All Beyond
+46 R Memento Mori
+47 R Puppeteering
+48 R Rend the Mind
+49 R Seventh Circle Cultist
+50 R Sinister Heir
+51 R Ultim Nox
+52 R Villainy
+53 R Warden of the Dead
+54 R Welcome Return
+55 R Words of Eternity
+56 R Academy Renegade
+57 R Aquilifer Axelius
+58 R Bretala of Redsky
+59 R Calamitous Crash
+60 R Captain Mattias Ochre
+61 R Dragoncalling
+62 R Epic Score
+63 R Finale of Cinders
+64 R Glorysinger
+65 R Jak, Daring Vanguard
+66 R Lady Ashtongue
+67 R Meteor Fall
+68 R Overclock
+69 R Overwhelming Armies
+70 R Regal Ignition
+71 R Takeda Taro
+72 R Unceasing Flames
+73 R Warrior's Request
+74 R Apex's Oath
+75 R Arpechian Champion
+76 R Backwood Rangers
+77 R Caller of Hunger
+78 R Chratteri Restoration
+79 R Chratteri Valiant
+80 R Daisy, the Heart of Chasmek
+81 R Elder's Wisdom
+82 R Great and Small
+83 R Greenwood Outrider
+84 R Hunter's Hideout
+85 R Lost to the Ages
+86 R Meadow Songstress
+87 R Mossy Companion
+88 R Ol' Sycamore
+89 R Remnant of the Wild
+90 R Rujan, the Great Pumpkin
+91 R Spring Renewal
+92 M Emperor Tzhai
+93 R Academic's Claymore
+94 R The Aether Lens
+95 R The Knowledge Hub
+96 R Voidlife Orbs
+97 R Crystal Garden
+98 R Leyline Alignment Field
+99 R Mirrorgate
+100 R Overloaded Aethergate
+101 R Titan's Palace
 
 [tokens]

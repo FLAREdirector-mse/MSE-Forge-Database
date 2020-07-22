@@ -1,0 +1,10 @@
+Name:Foul Vulture
+ManaCost:3 B
+Types:Creature Bird
+K:Flying
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 red Dog creature token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ r_1_1_dog | TokenOwner$ You | LegacyImage$ r 1 1 dog kod
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | CheckSVar$ X | SVarCompare$ GE1 | Description$ CARDNAME gets +1/+0 as long as a creature you controlled died this turn.
+SVar:X:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature.YouCtrl 
+Oracle:Flying\nWhen Foul Vulture enters the battlefield, create a 1/1 red Dog creature token.\nFoul Vulture gets +1/+0 as long as a creature you controlled died this turn.

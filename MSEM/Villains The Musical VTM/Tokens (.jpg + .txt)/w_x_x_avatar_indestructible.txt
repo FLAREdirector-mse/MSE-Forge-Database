@@ -1,0 +1,7 @@
+Name:Avatar
+ManaCost:no cost
+Colors:white
+Types:Creature Avatar
+K:Indestructible
+PT:*/*
+Oracle:Indestructible

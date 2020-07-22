@@ -1,0 +1,9 @@
+Name:Kinjiru Cavalry
+ManaCost:1 B
+Types:Creature Human Knight
+K:Menace
+PT:1/1
+T:Mode$ Phase | Phase$ End of Turn | CheckSVar$ Morbid | SVarCompare$ GE1 | References$ Morbid | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of each end step, if a creature died this turn and CARDNAME isn't a token, create a token that's a copy of it, except it has no mana cost.
+SVar:TrigToken:DB$ Token | LegacyImage$ kinjiru cavalry toj | TokenAmount$ 1 | TokenScript$ kinjiru_cavalry | TokenOwner$ You | SpellDescription$ Create a token that's a copy of CARDNAME, except it has no mana cost.
+SVar:Morbid:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature
+Oracle:Menace\nAt the beginning of each end step, if a creature died this turn and Kinjiru Cavalry isn't a token, create a token that's a copy of it, except it has no mana cost.

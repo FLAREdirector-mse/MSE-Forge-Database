@@ -1,0 +1,6 @@
+Name:Rebel
+ManaCost:no cost
+Types:Creature Rebel
+Colors:white
+PT:1/1
+Oracle:

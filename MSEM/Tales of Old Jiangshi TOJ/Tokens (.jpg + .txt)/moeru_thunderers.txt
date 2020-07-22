@@ -1,0 +1,8 @@
+Name:Moeru Thunderers
+ManaCost:no cost
+Colors:red
+Types:Creature Human Knight
+K:First Strike
+K:Haste
+PT:1/1
+Oracle:First strike, haste

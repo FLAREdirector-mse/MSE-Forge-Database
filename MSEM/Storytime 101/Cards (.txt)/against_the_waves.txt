@@ -1,0 +1,10 @@
+Name:Against the Waves
+ManaCost:U
+Types:Sorcery
+A:SP$ Mill | Cost$ U | NumCards$ X | ValidTgts$ Player | TgtPrompt$ Choose a player | References$ X | SubAbility$ TrigDraw | SpellDescription$ Target player mills X cards, where X is two plus the number of cards named Against the Waves in your graveyard.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+
+# SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ TrigMake
+
+SVar:X:Count$ValidGraveyard Card.YouOwn+namedAgainst the Waves/Plus.2
+Oracle:Target player mills X cards, where X is two plus the number of cards named Against the Waves in your graveyard. Draw a card, then make and shuffle three Against the Waves into your main library. 

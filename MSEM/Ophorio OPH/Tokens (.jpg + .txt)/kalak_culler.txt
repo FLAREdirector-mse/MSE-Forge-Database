@@ -1,0 +1,9 @@
+Name:Kalak Culler
+ManaCost:no cost
+Colors:black
+Types:Creature Troll Warrior
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME enters the battlefield, each opponent loses life equal to the number of creatures you've sacrificed this turn.
+SVar:TrigLoseLife:DB$LoseLife | Defined$ Opponent | LifeAmount$ X | References$ X
+SVar:X:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature.YouCtrl
+Oracle:When Kalak Culler enters the battlefield, each opponent loses life equal to the number of creatures you've sacrificed this turn.

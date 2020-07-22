@@ -1,0 +1,9 @@
+Name:Aspect of Shifting Storms
+ManaCost:4 U U
+Types:Creature Shapeshifter
+PT:0/0
+K:ETBReplacement:Copy:DBCopy:Optional
+SVar:DBCopy:DB$ Clone | Choices$ Creature.Other | SpellDescription$ You may have CARDNAME enter the battlefield as a copy of any creature on the battlefield.
+T:Mode$ SpellCast | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When you cast CARDNAME, create a token that's a copy of it.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ aspect_of_shifting_storms | TokenOwner$ You | LegacyImage$ aspect of shifting storms toj
+Oracle:When you cast Aspect of Shifting Storms, create a token that's a copy of it.\nYou may have Aspect of Shifting Storms enter the battlefield as a copy of any creature on the battlefield.

@@ -1,0 +1,11 @@
+Name:Shrieking Gnoll
+ManaCost:3 B
+Types:Creature Hyena Warrior
+K:Lifelink
+PT:3/2
+T:Mode$ Attached | ValidSource$ Aura | ValidTarget$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever an Aura becomes attached to CARDNAME, put a +1/+1 counter on CARDNAME, then target creature an opponent controls gets -1/-1 until end of turn for each +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPump
+SVar:DBPump:DB$Pump | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumAtt$ -X | NumDef$ -X | IsCurse$ True | References$ X
+SVar:X:Count$CardCounters.P1P1
+SVar:EnchantMe:Multiple
+Oracle:Lifelink\nWhenever an Aura becomes attached to Shrieking Gnoll, put a +1/+1 counter on Shrieking Gnoll, then target creature an opponent controls gets -1/-1 until end of turn for each +1/+1 counter on Shrieking Gnoll.

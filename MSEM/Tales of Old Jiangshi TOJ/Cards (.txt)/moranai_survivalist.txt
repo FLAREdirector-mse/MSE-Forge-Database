@@ -1,0 +1,8 @@
+Name:Moranai Survivalist
+ManaCost:1 G
+Types:Creature Human Shaman
+PT:2/2
+K:etbCounter:P1P1:3:ValidCard$ Card.Self+wasNotCastFromHand:CARDNAME enters the battlefield with three +1/+1 counters on it if you didn't cast it from your hand.
+A:AB$ Token | Cost$ 3 G G ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ moranai_survivalist | TokenOwner$ You | LegacyImage$ moranai survivalist toj | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Moranai Survivalist enters the battlefield with three +1/+1 counters on it if you didn't cast it from your hand.\nRevive {3}{G}{G} ({3}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

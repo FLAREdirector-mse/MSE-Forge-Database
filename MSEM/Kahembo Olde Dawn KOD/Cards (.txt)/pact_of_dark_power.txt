@@ -1,0 +1,9 @@
+Name:Pact of Dark Power
+ManaCost:2 B
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 2 B | ValidTgts$ Creature | AILogic$ Pump
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ Flying & Indestructible | Description$ Enchanted creature gets +1/+1 and has flying and indestructible.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ At the beginning of your upkeep, sacrifice a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ You | SacValid$ Creature | SacMessage$ Sacrifice a creature
+Oracle:Enchant creature\nEnchanted creature gets +1/+1 and has flying and indestructible.\nAt the beginning of your upkeep, sacrifice a creature.

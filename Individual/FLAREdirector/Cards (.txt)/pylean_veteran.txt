@@ -1,0 +1,9 @@
+Name:Pylean Veteran
+ManaCost:R R W W
+Types:Creature Human Soldier
+K:Double Strike
+PT:2/3
+S:Mode$ Continuous | Affected$ Creature.Soldier+Other+YouCtrl | AddKeyword$ Double Strike | Description$ Other Soldiers you control have double strike.
+S:Mode$ Continuous | Affected$ Creature.nonSoldier+YouCtrl | AddKeyword$ First Strike | Description$ Non-Soldiers you control have first strike.
+SVar:PlayMain1:TRUE
+Oracle:Double strike\nOther Soldiers you control have double strike.\nNon-Soldiers you control have first strike.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

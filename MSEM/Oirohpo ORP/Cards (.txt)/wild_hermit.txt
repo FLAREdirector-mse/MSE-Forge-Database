@@ -1,0 +1,9 @@
+Name:Wild Hermit
+ManaCost:3 G G
+Types:Creature Reflection Shaman
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, create a 2/2 white Cat creature token.
+SVar:TrigToken:DB$Token | TokenAmount$ 1 | TokenScript$ w_2_2_cat | TokenOwner$ TriggeredCardController | LegacyImage$ w 2 2 cat orp
+A:AB$ Token | Cost$ 3 G G Sac<1/Creature> ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ wild_hermit | TokenOwner$ You | LegacyImage$ wild hermit orp | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Wild Hermit dies, create a 2/2 white Cat creature token.\nRevive—{3}{G}{G}, Sacrifice a creature ({3}{G}{G}, Sacrifice a creature, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

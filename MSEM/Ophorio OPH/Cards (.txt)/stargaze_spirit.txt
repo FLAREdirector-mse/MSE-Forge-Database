@@ -1,0 +1,10 @@
+Name:Stargaze Spirit
+ManaCost:1 B
+Types:Creature Reflection Cleric
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Other | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever CARDNAME or another creature dies, you may gain 1 life.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigGainLife | Secondary$ True | TriggerDescription$ Whenever CARDNAME or another creature dies, you may gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1 | OptionalDecider$ You
+A:AB$ Token | Cost$ 3 W ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ stargaze_spirit | TokenOwner$ You | LegacyImage$ stargaze spirit oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Whenever Stargaze Spirit or another creature dies, you may gain 1 life.\nRevive {3}{W} ({3}{W}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

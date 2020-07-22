@@ -1,0 +1,10 @@
+Name:Nest Matriarch
+ManaCost:4 W
+Types:Creature Bird
+K:Flying
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters the battlefield, put a +1/+1 counter on another target creature you control. That creature gains lifelink until end of turn.
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Targeted | KW$ Lifelink
+DeckHas:Ability$Counters
+Oracle:Flying\nWhen Nest Matriarch enters the battlefield, put a +1/+1 counter on another target creature you control. That creature gains lifelink until end of turn.

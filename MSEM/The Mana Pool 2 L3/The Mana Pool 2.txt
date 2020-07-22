@@ -5,9 +5,134 @@ Name=MSEM: The Mana Pool 2
 Code2=L3
 MciCode=l3
 Type=Other
+# Set compiled by Timespiraled
 
 [cards]
-1
-126
+0 C Wastes
+1 R Ocean Monastery
+2 R Flooded Depths
+3 R Shardstone Rift
+4 R Timber Range
+5 R Amber Hills
+6 R Barren Desolation
+7 R Magmatic Torrent
+8 R Grim Bastion
+9 R Sunlit Highland
+10 R Mysterious Cataract
+11 R Murky Isle
+12 R Fetid Sinkhole
+13 R Ashen Slab
+14 R Overgrown Jungle
+15 R Windy Valley
+16 R Silent Mire
+17 R Coastal Cliffs
+18 R Undergrowth Forest
+19 R Sweeping Mesa
+20 R Forgotten Alcove
+21 R Pool of Light
+22 R Flooded Morass
+23 R Lavatorn Fields
+24 R Flourishing Crevasse
+25 R Heart of the Glade
+26 R Gloomcover Steppe
+27 R Frostfire Geysers
+28 R Fungal Mire
+29 R Spiraling Canyon
+30 R Lush Oasis
+31 R Port Town
+32 R Choked Estuary
+33 R Foreboding Ruins
+34 R Game Trail
+35 R Fortified Village
+36 R Hallowed Dungeon
+37 R Mystic Spire
+38 R Hidden Hovel
+39 R Valiant's Stronghold
+40 R Distant Domains
+41 R Spires of Telenia
+42 R Moonshadow Abyss
+43 R Academy Wastes
+44 R Gryla Canyon
+45 R Priest's Altar
+46 R Deathwind Expanse
+47 R Stormcaster's Tower
+48 R Grove of Reversal
+49 R Tirenan Market
+50 R Quintok Station
+51 R Angeltouched Crag
+52 R Angeltouched Marsh
+53 R Angeltouched Cavern
+54 R Angeltouched Saltflat
+55 R Angeltouched Garden
+56 U Bustling Docks
+57 U Interlocked Waterways
+58 U Shadowed Slums
+59 U Derelict Amphitheatre
+60 U Isolated Cloister
+61 R Mosecf, the Sunseeker's Path
+62 R Sea Of Skies Beyond
+63 R Cradle of Corruption
+64 R Ralora, Unforgiving Depths
+65 R Elrayin, the Manaroot
+66 U Northern Holdout
+67 U Winterheath Snowbanks
+68 U Winterheath Tundra
+70 R Tezmodo, the Golden City
+71 U Collapsing Ground
+72 C Command Tower
+73 C Crumbling Vestige
+74 R Derelict Town
+75 R Desert Temple
+76 R Halls of Renown
+77 R The High Prairies
+78 U Hill of Souls
+79 U Shrine of the Six Pillars
+80 R Shugenja Sanctuary
+81 U Temple of Brilliance
+82 R Channeling Stone
+91 R Ahl's Study
+92 M Citadel of Denial
+93 M Kellythross' Workshop
+94 R Whiterun Harbor
+96 C Adaptive Terrains
+97 R Ancient Ossuary
+98 U Cartography Spires
+99 R Valley of the First Dawn
+100 R Wayfarer's Shrine
+101 R Clutch of the Coil
+102 R Edge of the World
+103 U Forgotten Haunt
+104 U Heavenly Temple
+105 U Living Gallery
+106 R Memorial of the Fallen
+107 R Midnight Keep
+108 U Perilous Passage
+109 M Planar Alignment
+110 R Planar Market
+111 U Receding Tides
+112 U Ripping Wilds
+113 U Shikai's Redoubt
+114 R Sunrise Orchard
+115 M Whiterun Gates
+116 U Jade Temple
+117 R Chamber of Splendor
+118 C Dragonfly Shrine
+119 R Palace of Reflections
+120 U Shengin Heartland
+146 R Bygone Guardian
+147 R Aerie's Pillar
+148 R Forgotten Pit
+149 R Rousing Rubble
+150 R Lumbering Hillock
+151 R Sedate Tundra
+152 R Murmuring Falls
+153 R Crumbling Precipice
+154 R Rampant Summit
+155 R Resplendent Substratum
+156 R Arctic Mine
+157 R Crystal Cavern
+158 R Nomad's Township
+159 R Forgotten Steppe
+160 R Shifting Glade
 
 [tokens]

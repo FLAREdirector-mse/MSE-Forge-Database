@@ -1,0 +1,9 @@
+Name:Lunar Defractor
+ManaCost:no cost
+Colors:black
+Types:Creature Reflection
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ When CARDNAME enters the battlefield, each player discards a card.
+SVar:TrigDiscard:DB$ Discard | Defined$ Player | NumCards$ 1 | Mode$ TgtChoose
+AI:RemoveDeck:Random
+Oracle:When CARDNAME enters the battlefield, each player discards a card.

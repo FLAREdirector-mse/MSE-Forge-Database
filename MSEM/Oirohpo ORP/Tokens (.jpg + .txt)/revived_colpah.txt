@@ -1,0 +1,7 @@
+Name:Revived Colpah
+ManaCost:no cost
+Colors:black
+Types:Creature Cat Horror
+K:Menace
+PT:2/1
+Oracle:Menace

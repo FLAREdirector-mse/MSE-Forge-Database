@@ -6,4 +6,4 @@ PT:2/2
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDblStrike | TriggerDescription$ When CARDNAME enters the battlefield, put a double strike counter on each creature you control with first strike.
 SVar:TrigDblStrike:DB$ PutCounterAll | ValidCards$ Creature.Other+YouCtrl+withFirst Strike | CounterType$ DOUBLESTRIKE | CounterNum$ 1 | SubAbility$ DBFStrike
 SVar:DBFStrike:DB$ PutCounterAll | ValidCards$ Creature.Other+YouCtrl+withoutFirst Strike+withoutDouble Strike | CounterType$ FIRSTSTRIKE | CounterNum$ 1
-Oracle:Double strike\nWhen Battlefield Paragon enters the battlefield, put a double strike counter on each creature you control with first strike, then put a first strike counter on each creature you control without first strike or double strike.
+Oracle:Double strike\nWhen Battlefield Paragon enters the battlefield, put a double strike counter on each creature you control with first strike, then put a first strike counter on each creature you control without first strike or double strike.\n\nDesigned by FLAREdirector\nForged by FLAREdirector

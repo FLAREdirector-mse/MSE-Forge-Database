@@ -1,0 +1,6 @@
+Name:Kinjiru Blackguard
+ManaCost:no cost
+Colors:black
+Types:Creature Human Rogue
+PT:2/1
+Oracle:

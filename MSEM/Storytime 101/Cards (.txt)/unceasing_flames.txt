@@ -1,0 +1,6 @@
+Name:Unceasing Flames
+ManaCost:R
+Types:Sorcery
+A:SP$ DealDamage | Cost$ R | NumCards$ X | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | References$ X | SubAbility$ TrigMake | SpellDescription$ Unceasing Flames deals X damage to any target,, where X is 2 plus the number of cards named Unceasing Flames in your graveyard.
+SVar:X:Count$ValidGraveyard Card.YouOwn+namedUnceasing Flames/Plus.2
+Oracle:Unceasing Flames deals X damage to any target, where X is 2 plus the number of cards named Unceasing Flames in your graveyard.\nMake and shuffle three Unceasing Flames into your main library. 

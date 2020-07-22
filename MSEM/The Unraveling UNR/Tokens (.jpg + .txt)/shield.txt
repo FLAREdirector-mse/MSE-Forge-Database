@@ -1,0 +1,8 @@
+Name:Shield
+Types:Enchantment Aura
+Colors:white
+ManaCost:no cost
+K:Enchant Creature
+K:Totem armor
+A:SP$ Attach | Cost$ 0 | ValidTgts$ Creature | AILogic$ Pump
+Oracle:Enchant creature\nIf enchanted creature would be destroyed, instead remove all damage from it and sacrifice this aura.

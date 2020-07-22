@@ -1,0 +1,9 @@
+Name:Phoenix
+ManaCost:no cost
+Types:Creature Phoenix
+Colors:red
+K:Flying
+K:Haste
+PT:3/3
+A:AB$ Pump | Cost$ R | NumAtt$ +1 | SpellDescription$ CARDNAME gets +1/+0 until end of turn.
+Oracle:Flying, haste\n{R}: This creature gets +1/+0 until end of turn.

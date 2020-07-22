@@ -1,0 +1,6 @@
+Name:Arcane Refusal
+ManaCost:3 U
+Types:Instant
+A:SP$ Counter | Cost$ 3 U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SubAbility$ DBDig | SpellDescription$ Counter target spell. Look at the top three cards of your library. Put one on top and the rest on the bottom in any order.
+SVar:DBDig:DB$ Dig | DigNum$ 3 | ChangeNum$ 1 | DestinationZone$ Library | LibraryPosition$ 0 | SpellDescription$ Look at the top three cards of your library. Put one on top and the rest on the bottom in any order.
+Oracle:Counter target spell.\nLook at the top three cards of your library. Put one on top and the rest on the bottom in any order.

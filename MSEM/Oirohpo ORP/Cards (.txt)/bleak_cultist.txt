@@ -1,0 +1,8 @@
+Name:Bleak Cultist
+ManaCost:3 G G
+Types:Creature Reflection Shaman
+K:Trample
+PT:4/4
+A:AB$ Token | Cost$ 5 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ bleak_cultist | TokenOwner$ You | LegacyImage$ bleak cultist orp | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Trample\nRevive {5}{B} ({5}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

@@ -1,0 +1,7 @@
+Name:Butcher of Shallow Graves
+ManaCost:3 B B
+Types:Creature Crocodile Warlock
+K:Deathtouch
+PT:5/6
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | MayPlay$ True | MayPlayLimit$ 1 | MayPlayAltManaCost$ PayLife<ConvertedManaCost> | EffectZone$ Battlefield | AffectedZone$ Graveyard | Description$ Once each turn, you may cast a creature card from your graveyard by paying life equal to its converted mana cost rather than paying its mana cost.
+Oracle:Deathtouch\nOnce each turn, you may cast a creature card from your graveyard by paying life equal to its converted mana cost rather than paying its mana cost.

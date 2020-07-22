@@ -1,0 +1,11 @@
+# Distorted *technically* works, but it allows tapped creatures to block non-Distorted creatures you control.
+# FLAREdirector
+Name:Twisted Echo
+ManaCost:no cost
+Colors:black
+Types:Creature Reflection Shaman
+K:CantBeBlockedBy Creature.untapped
+PT:1/1
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigDistort | TriggerDescription$ Distorted (This creature can be blocked by tapped creatures but not untapped creatures.)
+SVar:TrigDistort:DB$ PumpAll | KW$ HIDDEN CARDNAME can block as though it were untapped. | ValidCards$ TriggeredAttacker.Creature+DefenderCtrl
+Oracle:Distorted (This creature can be blocked by tapped creatures but not untapped creatures.)

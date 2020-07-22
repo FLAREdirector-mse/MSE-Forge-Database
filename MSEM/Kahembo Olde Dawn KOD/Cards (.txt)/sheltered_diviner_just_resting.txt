@@ -1,0 +1,18 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Sheltered Diviner
+ManaCost:1 U
+Types:Creature Turtle Wizard
+PT:1/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMill | TriggerDescription$ When CARDNAME enters the battlefield, each player mills three cards.
+SVar:TrigMill:DB$Mill | NumCards$ 3 | Defined$ Player
+DeckHas:Ability$Graveyard
+Oracle:When Sheltered Diviner enters the battlefield, each player mills three cards.
+
+ALTERNATE
+
+Name:Just Resting
+ManaCost:3 WB
+Types:Sorcery Tale
+A:SP$ ChangeZone | Cost$ 3 WB | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card with converted mana cost 3 or less in your graveyard | ValidTgts$ Creature.cmcLE3+YouCtrl | SpellDescription$ Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
+Oracle:Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield. (Cast a copy of this spell once while this creature is on the battlefield.)

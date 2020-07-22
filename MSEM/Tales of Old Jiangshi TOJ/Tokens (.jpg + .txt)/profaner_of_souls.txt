@@ -1,0 +1,8 @@
+Name:Profaner of Souls
+ManaCost:no cost
+Colors:black
+Types:Creature Human Wizard
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may return target creature card with converted mana cost 2 or less from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Creature.YouCtrl+cmcLE2
+Oracle:When Profaner of Souls enters the battlefield, you may return target creature card with converted mana cost 2 or less from your graveyard to the battlefield.

@@ -7,54 +7,276 @@ MciCode=ms2
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set compiled by Timespiraled & CyberChronometer
 
 [cards]
-1 M The Infinite # reprint MIS
-2 R Akrianos' Command # possessive # reprint TOW
-3 R Almgrove Champion # reprint CAC
-29 U Arcane Duelist # reprint UNR
-31 R Cane Dancer # reprint GHQ
-129 M Burgeoning Blooms # reprint MAC
-197
-198 M Champion of Destinies
-199 M Minister of Madness
-200 M Rhys, Keeper of Scriptures
-201 M Wunderkind Devising
-202 M Ammbradu Goliath
-203 M Liliana at the Brink
-204 M Turn to Gold
-205 M Xanigan, the Darkened Cloud
-206 M Bow or Burn
-207 M Cross Boundaries
-208 M Synchronous Hellkite
-209 M Fardancer Liege
-210 M Leyran Alpha
-211 M Breach Titan
-212 M Carnival Yatiri
-213 M Enter the Fray
-214 M Ephemeral Adept
-215 M Geetha, Glass-Shaper
-216 M Iviana, Speaker of Fangs
-217 M Nova, Skyship Captain
-218 M Oshiruko Conspirator
-219 M Plasma Addict
-220 M Shinrei of the Ghosting Way
-221 M Spellfist Gaijin # reprint WAW
-222 M Starjump
-223 M Twisting Memories
-224 M Raloran Tidecaller
-225 M Coveted Heirloom
-226 M Nightwatch Rallier
-227 M Xenocrata's Fleet
+1 M The Infinite
+2 R Akrianos' Command
+3 R Almgrove Champion
+4 C Arcblade Enforcers
+5 R Centered Acolyte
+6 C Citywide Automation
+7 C Crowd Favorite
+8 C Dispersive Volley
+9 U Harsh Unpreparedness
+10 C Headwind Glider
+11 M Helena, the Awakener
+12 U Her Ascension
+13 M High Chancellor Kazimir
+14 U Honorable Enforcer
+15 R Keeper of Holy Lands
+16 U Light Knight
+17 C Photon Barricade
+18 R Protector of the League
+19 C Seeker of the Way
+20 U Slaffield Workgate
+21 C Soul's Attendant
+22 R Storytime
+23 U Strident Retainer
+24 C Valor in Battle
+25 U Wayfaring Pilgrim
+26 C Whispered Wishes
+27 U Worldwide Reach
+28 U Against the Waves
+29 U Arcane Duelist
+30 R By the Sea
+31 R Cane Dancer
+32 C Consult the Dewdrops
+33 M Entelan Erasure
+34 C Erudite Aspirant
+35 R Flood of Information
+36 C Judicious Djinni
+37 R Muzzarlo the Spellweaver
+38 C Negate
+39 U Pierce the Storm
+40 C Plasma Arc
+41 C Portal Fracture
+42 C Sea Cache
+43 U Seabreen Nullmage
+44 R Selene the Cruel
+45 U Shroud of Hinasa
+46 C Snowline Ascetic
+47 R Temporary Treason
+48 U Union Rail Strikebreaker
+49 U Vedalken Reshaper
+50 C Watch from Above
+51 C Wheat from Chaff
+52 U Worlds Away
+53 U Adiran Survivors
+54 C Awaken the Nav
+55 R Chigau, the Red Market
+56 U Cunning Cephalomancer
+57 C Dark Bargain
+58 R Dark Rite Cultist
+59 R Explorer's Fate
+60 C Fatethief
+61 C Fertile Grave
+62 C Frailty
+63 U Grave Tutor
+64 R Jara Champion
+65 U Memento Mori
+66 C Merchant of False Lives
+67 U Prying Inquiry
+68 M Ravaging Tyrant
+69 C Scion of Pestilence
+70 C Shadow Ambusher
+71 U Shadowband Consul
+72 U Tear Loose
+73 C Unliving Swarm
+74 U Veilcrossed Twins
+75 R Villainy
+76 R Warden of the Dead
+77 C Weaver of Tales
+78 M Aiel Tazan
+79 C Akaima Rager
+80 R Akoum Trailblazer
+81 U Arrogant Fencer
+82 U Artisan of Brutality
+83 U Autumnal Watch
+84 U Avatar of Basat
+85 C Barricade Patrol
+86 C Crack Open the Cache
+87 U Daughter of Suisei
+88 C Devised Companions
+89 C Dreamchaser Djinni
+90 C Hate-Driven Arsonist
+91 R Iaijutsu
+92 C Jaakuna Tyrant
+93 U Latent Potential
+94 R Performer of Desire
+95 C Pyromantic Expertise
+96 R Rakkiri Dissident
+97 U Roggar's Frenzy
+98 R Speaker of the Iris
+99 C Stormshaper Adept
+100 C Stormsurge
+101 R Suisei the Southern Star
+102 U Unceasing Flames
+103 C Akkrixian Assailants
+104 U Ancient of the Glade
+105 R Ardy's Study
+106 U Arpechian Champion
+107 R Avatar of the Natural
+108 C Coat in Petals
+109 C Deathfeeder
+110 C Duskwood Vanguard
+111 C Explore
+112 R Forest Fellowship
+113 U Herald of Might
+114 C Imperial Legion
+115 C Master Chef
+116 C Nature's Claim
+117 C Nature's Defiance
+118 U Pinnacle of Vigor
+119 U Relentless Pathcutter
+120 R Restoration
+121 R Seeker of New Horizons
+122 U Sevenfold Summoner
+123 C Sowing Spring
+124 R Splitting Bloom
+125 U Surging Kalak
+126 M Thriving Hydra
+127 U Untethered Disciple
+128 U Blood Frenzy
+129 M Burgeoning Blooms
+130 R Chi Lee of the Underworld
+131 M Deadly Manipulation
+132 R Destabilizing the Rifts
+133 R Ellis, Caravan Captain
+134 U Formless Wanderer
+135 U Gathering the Gang
+136 R Herald of Unity
+137 R Jara Jadefist
+138 R Jessica Turin, Battlemage
+139 U Kuma Strike
+140 U Lorani Archmage
+141 U Mausoleum Suffragan
+142 U Mindstorm's Eye
+143 M Quinn, the Performer
+144 U Recall Forgotten Eons
+145 R Reflect on Serenity
+146 M Repent, Daughter of Fallacy
+147 R Scion of Fecundity
+148 U Scuripi Shaman
+149 M Singularity's Grasp
+150 R Stickup
+151 U Taiyohata Champion
+152 R Unearthed Legion
+153 M Worlds Colliding
+154 M Zetla, the Dragon's Voice
+155 C Farmer's Repose
+156 M Haphazard Militia
+157 C Invalidate
+158 C Oracle's Vision
+159 C Tear Through
+160 C Unjust Sentence
+161 C Alquyut Mount
+162 U Arboreal Runes
+163 U Artisan's Fountain
+164 C Duelist's Choice
+165 C Fortune Charm
+166 R Harmony Array
+167 R Intrepid
+168 C Iron Signet
+169 R Isochron Wand
+170 R Monument to the Fallen Man
+171 M Platinum Colossus
+172 U Promenade Banner
+173 M Sword of Tides and Time
+174 U Wilted Lotus
+175 C Aether Gateway
+176 U Art Studio
+177 C Derelict Town
+178 C Golden Glade
+179 R Leyline Alignment Field
+180 C Painted Bluffs
+181 C Ruined Theater
+182 U Shifting Canyon
+183 U Shifting Cascade
+184 U Shifting Crag
+185 U Shifting Grove
+186 U Shifting Morass
+187 C Skeletal Oasis
+188 L Plains
+189 L Snow-Covered Plains
+190 L Island
+191 L Snow-Covered Island
+192 L Snow-Covered Swamp
+193 L Swamp
+194 L Mountain
+195 L Snow-Covered Mountain
+196 L Forest
+197 L Snow-Covered Forest
+198 S Champion of Destinies
+199 S Minister of Madness
+200 S Rhys, Keeper of Scriptures
+201 S Wunderkind Devising
+202 S Ammbradu Goliath
+203 S Liliana at the Brink
+204 S Turn to Gold
+205 S Xanigan, the Darkened Cloud
+206 S Bow or Burn
+207 S Cross Boundaries
+208 S Synchronous Hellkite
+209 S Fardancer Liege
+210 S Leyran Alpha
+211 S Breach Titan
+212 S Carnival Yatiri
+213 S Enter the Fray
+214 S Ephemeral Adept
+215 S Geetha, Glass-Shaper
+216 S Iviana, Speaker of Fangs
+217 S Nova, Skyship Captain
+218 S Oshiruko Conspirator
+219 S Plasma Addict
+220 S Shinrei of the Ghosting Way
+221 S Spellfist Gaijin
+222 S Starjump
+223 S Twisting Memories
+224 S Raloran Tidecaller
+225 S Coveted Heirloom
+226 S Nightwatch Rallier
+227 S Xenocrata's Fleet
 
 [tokens]
+b_1_1_worm
+b_2_2_zombie
+b_4_4_demon_regrowth
+b_5_5_demon_flying
+b_5_5_horror
 c_1_1_a_construct
 c_1_1_elemental
 c_1_1_samurai
-c_a_lotus_petal_sac
+c_a_clue_draw
+c_a_gold
+c_a_lotus_petal_sac # wrong art
+c_a_treasure_sac
+g_0_1_plant
+g_1_1_saproling
+g_1_1_squirrel
+g_2_2_wolf_haste
+g_3_2_crocodile_trample
+r_1_1_cleric
+r_1_1_elemental
+r_1_1_goblin
+r_1_1_warrior
+r_5_5_dragon_flying_haste
+r_x_1_elemental_trample_haste
+u_0_1_weird_flying
 u_1_1_otter_draw
+w_0_2_ox
+w_1_1_human_soldier
 w_1_1_monk
 w_1_1_nomad
+w_1_1_soldier
+w_1_1_spirit_flying
 wubrg_1_1_scout
+against_the_waves
+aspect_of_faradia
+blight
 enmity
+fatethief
 pale_shroud
+scion_of_fecundity
+unceasing_flames
+warden_of_the_dead

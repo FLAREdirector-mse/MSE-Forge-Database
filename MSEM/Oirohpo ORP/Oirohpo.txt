@@ -7,11 +7,245 @@ MciCode=orp
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Cajun
 
 [cards]
-1
-236
+1 C Colpah Charmer
+2 C Crystallized Moment
+3 C Deserted Monk
+4 C Divert Attention
+5 C Echo Cleric
+6 C Echo Striker
+7 C Echoing Determination
+8 U Essence Weaver
+9 U Faded Sacrifice
+10 C Intangible Company
+11 R Kohmo the Grizzled
+12 R Lha Elite
+13 R Lha Maria
+14 M Lha Sha'rador
+15 R Lightcrafter
+16 R Manifest Memories
+17 C Market Caster
+18 C Might of the Oslyd
+19 C Mirage Caster
+20 R Mirage Master
+21 C Mirror Mirage
+22 C Mirrorform
+23 C Oslyd Dreamer
+24 U Oslyd Heretic
+25 U Purestrike Rebel
+26 U Reach of the Sha
+27 C Return to Service
+28 U Sandstrider
+29 U Sha's Summons
+30 C Splintering Scuttler
+31 C Splitting Phantasm
+32 U Spring Recaller
+33 M Starfall Singer
+34 U Tale of Two Sons
+35 U Twisted Legacy
+36 C Vigil Invoker
+37 R Dignity // Grace
+38 R Alita Dawnstrike
+39 R Bazaar Trickster
+40 C Bird with the Word
+41 C Blind Spellfeeder
+42 C Delude
+43 R Dissipator Mage
+44 C Duela Alchemist
+45 C Duela Marshall
+46 C Dwarven Inquisitor
+47 C Echoing Silence
+48 R Ensouler of Blades
+49 C Fatewrench
+50 U Feed Into Aether
+51 C Flinging Invoker
+52 U Frozen Halo
+53 C Gleaming Dream
+54 R Learn from Mistakes
+55 C Lift Off
+56 U Mei's Student
+57 R Memory Deterioration
+58 C Mirrorstalk
+59 U Power Jam
+60 C Preparation
+61 C Retrace Histories
+62 C Sift Components
+63 U Sigil Slinger
+64 U Slightly Mad
+65 U Spellbound Serpent
+66 M Spellwoven Monster
+67 U Spilling Secrets
+68 C Student of Secrets
+69 C Toggle
+70 C Trench Breaker
+71 U Twin Trifles
+72 U Unveil
+73 R Time // Again
+74 U Blood Lashing
+75 U Buried Secrets
+76 U Craving Secrets
+77 U Cavern Monstrosity
+78 R Clawing Shaman
+79 C Clinging Mire
+80 R Cranial Violation
+81 C Draw and Quarter
+82 C Echoing Rites
+83 C Eternal Nightwalker
+84 C Exploit Fear
+85 U Eyes of Endless Fates
+86 C Fallen Fanatic
+87 C Fatethief
+88 C Fertile Grave
+89 C Fickle Feeder
+90 U Forgotten Fall
+91 R Infiltrate Memory
+92 C Last-Thought Feeder
+93 R Obliterate Flesh
+94 C Poisoned Pupil
+95 C Portent of Doom
+96 C Rangewalker Giant
+97 U Ravencaller
+98 M Reflected Worldwalker
+99 U Reformed Seeker
+100 C Revived Colpah
+101 C Ritesinger Shaman
+102 C Rot Invoker
+103 R Sever Existence
+104 C Sluiceway Shrieker
+105 U Twisted Echo
+106 U Unhallowed Singers
+107 C Vampiric Rise
+108 R Vaneir, Necromaster
+109 R One // Done
+110 C Analyze the Deep
+111 C Blazing Mirage
+112 R Chain of Decimation
+113 M Channel the Mirror
+114 U Controlled Burn
+115 R Dragonblood Slayer
+116 R Dreamfire
+117 U Dusk Chord
+118 C Dwarven Fireslinger
+119 R Dwarven Twinslinger
+120 C Echoing Thunder
+121 U Endless Walc
+122 C Energize
+123 C False Shimmer
+124 U Fight or Fade
+125 C Fine Craftsmanship
+126 U Flames of the Forge
+127 C Forge Trick
+128 U Fueled Flame
+129 U Heat of the Moment
+130 C Lavastep Colossus
+131 C Lha Striker
+132 C Melt Down
+133 U Mirage Adept
+134 U Noirohpo Renegade
+135 C Ore Tunneler
+136 C Practical Battlemage
+137 C Rangewalker Pyromancer
+138 C Reforged Relic
+139 C Relentless Researcher
+140 C Searing Recaller
+141 M Shimmering Dragon
+142 U Storm Entity
+143 R Sweep Stakes
+144 C Twinned Slasher
+145 M The Warrior Within
+146 R Zana, the Dreamer
+147 R Lo // Behold
+148 C Abandoned Hermit
+149 C Adamant Cultist
+150 C Avoid Fate
+151 C Bleak Cultist
+152 C Blessed Spellroot
+153 U Bridge Kalak
+154 R Chantwood Channeler
+155 U Chantwood Cultist
+156 C Chantwood Guards
+157 U Churning Spellroot
+158 C Claw Crusher
+159 R Colpah Mystic
+160 U Devouring Spellroot
+161 C Distant Misthorns
+162 C Dredge the Graves
+163 C Echoing Sunder
+164 C Fallow Grave
+165 C Farseek
+166 C Fatetwist Shaman
+167 C Gravantee
+168 C Mightlight
+169 R Mirage Keeper
+170 U Open the Wilds
+171 R Overgrown Spellroot
+172 M Planar Reflection
+173 C Rotted Kalak
+174 U Scout the Chantwoods
+175 C Shapen Spellroot
+176 R Sigil of Echoes
+177 C Spiritual Colpah
+178 R Surging Kalak
+179 U Trade Blows
+180 U Unreflected Cultist
+181 U Untouched Wilds
+182 U Wild Hermit
+183 R Rock // Roll
+184 M Corrupted Bloodline
+185 U Deepcaller Cultist
+186 R Endless Reverie
+187 U Hired Kalak
+188 M Mei Liva, the Forsaken
+189 R Mental Meltdown
+190 R Mindrip
+191 M Mirrorfuse Angel
+192 R Mirrorstorm
+193 U Raving Student
+194 U Refract
+195 R Revoke
+196 R Shattered Mirrorwalker
+197 U Steamwalker
+198 U Above // Beyond
+199 U Flotsam // Jetsam
+200 U High // Mighty
+201 U Safe // Sound
+202 U Sword // Board
+203 R Bazaar Guardian
+204 C Bronze Giant
+205 U Cultist's Dagger
+206 R Curious Statue
+207 C Duela Duelist
+208 U Duela Science Kit
+209 C Excavation Engine
+210 U Forging Blade
+211 C Fortified Flightsuit
+212 C Memory Collector
+213 C Mirage Bracers
+214 U Shard Flower
+215 U Shard Sword
+216 M Shimmersting
+217 C Tunnel Map
+218 U Ghastly Castle
+219 U Gleaming Veldt
+220 U Grisly Marsh
+221 U Sunken Cavern
+222 U Sunny Dunes
 
 [tokens]
+b_1_1_worm
+c_0_0_reflection
 g_3_3_elemental
+u_1_1_bird_flying
+w_2_2_cat
 adamant_cultist
+bleak_cultist
+chantwood_cultist
+eternal_nightwalker
+fatethief
+revived_colpah
+rotted_kalak
+shattered_mirrorwalker
+twisted_echo
+wild_hermit

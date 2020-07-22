@@ -2,7 +2,7 @@ Name:Wary Watchkeeper
 ManaCost:2 U U
 Types:Creature Human Warrior
 PT:2/4
-K: Hexproof
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMill | TriggerDescription$ When CARDNAME enters the battlefield, target player puts the top three cards of their library into their graveyard.
+K:Hexproof
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMill | TriggerDescription$ When CARDNAME enters the battlefield, target player mills three cards.
 SVar:TrigMill:DB$Mill | NumCards$ 3 | ValidTgts$ Player | TgtPrompt$ Select target player
-Oracle:Hexproof\nWhen Wary Watchkeeper enters the battlefield, target player puts the top three cards of their library into their graveyard.
+Oracle:Hexproof\nWhen Wary Watchkeeper enters the battlefield, target player mills three cards.

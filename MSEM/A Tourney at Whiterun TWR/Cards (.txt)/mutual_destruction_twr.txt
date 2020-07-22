@@ -1,0 +1,6 @@
+Name:Mutual Destruction TWR
+ManaCost:2 B B
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigDestroy | TriggerDescription$ Whenever a creature you control dies, destroy target creature you don’t control.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Permanent.Creature+OppCtrl | TgtPrompt$ Select target creature an opponent controls. Destroy that creature.
+Oracle:Whenever a creature you control dies, destroy target creature you don’t control.

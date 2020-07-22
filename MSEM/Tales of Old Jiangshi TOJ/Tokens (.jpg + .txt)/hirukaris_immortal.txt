@@ -1,0 +1,8 @@
+Name:Hirukari's Immortal
+ManaCost:no cost
+Colors:white
+Types:Creature Human Samurai Knight
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self+notEnteredBattlefieldThisTurn | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, if it didn't enter the battlefield this turn, create a token that's a copy of it, except it has no mana cost.
+SVar:TrigToken:DB$ Token | LegacyImage$ hirukaris immortal toj | TokenAmount$ 1 | TokenScript$ hirukaris_immortal | TokenOwner$ You | SpellDescription$ Create a token that's a copy of CARDNAME, except it has no mana cost.
+Oracle:When Hirukari's Immortal dies, if it didn't enter the battlefield this turn, create a token that's a copy of it, except it has no mana cost

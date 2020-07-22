@@ -1,0 +1,9 @@
+Name:Fatethief
+ManaCost:1 B B
+Types:Creature Reflection Shaman
+PT:2/3
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigPeek | TriggerDescription$ When CARDNAME dies, put the bottom card of your library into your hand.
+SVar:TrigPeek:DB$ ChangeZone | Origin$ Library | Destination$ Hand | Defined$ BottomOfLibrary
+A:AB$ Token | Cost$ 2 B B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ fatethief | TokenOwner$ You | LegacyImage$ fatethief orp | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:When Fatethief dies, put the bottom card of your library into your hand.\nRevive {2}{B}{B} ({2}{B}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

@@ -2,5 +2,5 @@ Name:Withering Agony
 ManaCost:1 UB UB
 Types:Instant
 K:Spectacle:UB
-A:SP$ Mill | Cost$ 1 UB UB | NumCards$ 8 | ValidTgts$ Player | TgtPrompt$ Choose target player | SpellDescription$ Target player puts the top eight cards of their library into their graveyard.
-Oracle:Cripple {U/B} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nTarget player puts the top eight cards of their library into their graveyard.
+A:SP$ Mill | Cost$ 1 UB UB | NumCards$ 8 | ValidTgts$ Player | TgtPrompt$ Choose target player | SpellDescription$ Target player mills eight cards.
+Oracle:Cripple {U/B} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nTarget player mills eight cards.

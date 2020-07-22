@@ -1,0 +1,9 @@
+# TODO: Art looks like ass for some reason
+Name:Human Advisor
+ManaCost:no cost
+Colors:white,black
+Types:Creature Human Advisor
+PT:0/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, target creature can't attack or block until this creature leaves the battlefield.
+SVar:TrigPump:DB$ Pump | Cost$ 1 T Sac<1/CARDNAME> | ValidTgts$ Creature | TgtPrompt$ Select target creature | IsCurse$ True | KW$ HIDDEN CARDNAME can't attack or block. | UntilLoseControlOfHost$ True | SpellDescription$ Target creature can't attack or block this turn.
+Oracle:When this creature enters the battlefield, target creature can't attack or block until this creature leaves the battlefield.

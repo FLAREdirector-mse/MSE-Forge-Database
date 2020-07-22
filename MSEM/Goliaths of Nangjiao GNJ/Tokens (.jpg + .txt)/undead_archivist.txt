@@ -1,0 +1,8 @@
+Name:Undead Archivist
+ManaCost:no cost
+Colors:blue
+Types:Creature Zombie Wizard
+PT:0/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target instant or sorcery card from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Instant.YouCtrl,Sorcery.YouCtrl
+Oracle:When Undead Archivist enters the battlefield, return target instant or sorcery card from your graveyard to your hand.

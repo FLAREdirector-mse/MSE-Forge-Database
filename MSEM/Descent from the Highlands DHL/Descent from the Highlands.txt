@@ -7,25 +7,154 @@ MciCode=dhl
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by FifthDragon
 
 [cards]
-1
+1 C Ancient Counsel
+2 C Binding Stones
+3 U Bittersweet Reunion
+4 R Children of the Clouds
+5 C Fade Into Mists
 6 U Ferocity of the Redeemed
 7 C Fidelity of the Pure
+8 C Grove's Respite
+9 M Hesediel, the Reborn
+10 C Hushwing Sentinel
+11 U Indomitable Bear
+12 C Oaken Spearman
+13 C Remnants of Divinity
+14 R Stag of the Moon
 15 C Strength of the Patient
+16 R Tranquil Moment
+17 U Vitality of Blossoms
+18 C Windwise Courier
+19 C Young Hieromancer
+20 M Aryam the Dreamer
+21 U Aurora's Whisper
+22 C Consuming Knowledge
+23 C Heartless Pact
+24 C Highland Elk
+25 U Long-Finned Skywhale
+26 C Read the Clouds
+27 U Rimebreath Tyrant
+28 C Sage of the Aurora
 29 R Selene the Cruel
+30 U Silent Musing
+31 C Smokeweaver Initiate
+32 U Snowline Ascetic
+33 R Spotless Mind
+34 C Stalker in the Underbrush
+35 C Streamlash
+36 R Tea of Augury
+37 M The Tree of Wisdom
+38 C Wild Skycub
+39 C Windwise Mentor
+40 C Beckon the Shadows
+41 C Brutal Champion
+42 C Conjured Shade
+43 C Dark Huntress
+44 R Desiccate
+45 C Diabolic Designs
+46 C Emissary of Smoke
+47 C Gloaming Smokeweaver
+48 M Invoking the Name
+49 R Jejun, Dark Wendigo
+50 R Onyx Ritualist
+51 C Persistent Fiend
+52 C Reaping Mask
+53 U Rend
+54 C Rite of the Dark Harvest
+55 U Ritual of Coalescence
+56 U Shattered Valkyrie
+57 M Smoke's Whispers
+58 U Twilight Blade
+59 U Upon the Altar
+60 M Amelie Mayn
+61 U Angelfire
+62 C Battle-Blind Leonin
+63 M Crimson Sunrise
+64 C Elvish Songseeker
+65 U Grieving Revenant
+66 R Heart's Desire
+67 U Lavamancer Adept
+68 R Leija, the Bloodied Queen
+69 C Magmatic Cache
+70 C Meteoric Smith
+71 C Rebellious Streak
+72 U Reckless Rage
+73 C Surestrike Elite
+74 R Twisted Archangel
+75 C Verse of Fire
+76 C Volcanic Pounce
+77 C Warband Commander
+78 C Warband Lieutenant
+79 C Wastewolf
+80 M Aelani, Mother of All
+81 R Aid of the Ancients
+82 C Ancient Gift
 83 C Dryad of the Grove
+84 C Dryad Outrider
+85 C Elvish Verseblade
 86 C Exultation of Might
+87 U Frilled Hydra
+88 R Great Sable Stag
+89 U Leija's Greenblade
+90 U Migration Range
+91 C Moonlit Pursuit
+92 C Pyresong Ranger
 93 C Resolution of Stone
+94 C Sleeping Dryads
+95 R Unbowed Hart
+96 U Unproven Champion
+97 U Verdant Cloak
+98 C Waking Mists
+99 R Cloud Sovereign
+100 U Silent Griffin
+101 U Written in the Stars
+102 U Breach the Mind
+103 U Divine in Blood
+104 R Soulcarver
+105 U Blinded Avenger
+106 U Gift to the Gloam
+107 R Toros the Warchief
+108 R Glorybound Chorister
+109 U Hymn of Fury
+110 U Pyresong Aspirant
+111 U Armadillo Cloak
 112 U Remembrance of Light
 113 R Scion of Fecundity
-137
+114 U Vindictive Regent
+115 U Arcanist's Spellsurge
+116 U Wealth of the Underbrush
+117 U Hallowed Executioner
+118 U Hexfang Ascetic
+119 M Rain Zai, Spiritscale
+120 C Carven Guardian
+121 U Granite Watchers
+122 C Hallowed Fragment
+123 R Joyous Chromatelk
+124 R Mind-Mute
+125 R Vanquisher's Banner
+126 C Alpine Meadow
+127 R The Aurora's Heart
+128 R The Court of Angels
+129 U Dust Barrens
+130 C Fiery Chasm
+131 U Golden Glade
+132 C Highland Vale
+133 R Ligos, Shadow's Source
+134 R Rius, Temple of the Grandfather
+135 R Singers' Grove
+136 C Sodden Cavern
+137 C Tranquil Stream
+
 
 [tokens]
 b_2_2_demon
 g_1_1_spirit_snake
 gw_1_1_elk_spirit
 gw_6_6_elk
+w_1_1_bird
 exultation_of_might
 fawn_of_hesediel
 ferocity_of_the_redeemed

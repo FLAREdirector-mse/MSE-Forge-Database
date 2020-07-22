@@ -7,12 +7,194 @@ MciCode=doa
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Pipsqueak
 
 [cards]
-1
+1 R Alia, Bearer of Morning
+2 R Alia's Enforcer
+3 R Align the Astrolabe
+4 R Banish Through the Veil
+5 R Benevolent Malach
+6 R Blessing of Morning
+7 R Citywide Automation
+8 R Consort of Morning
+9 R Crystallized Hope
+10 R Dawnwisp Vents
+11 R Disassociate
+12 R Eager Observer
+13 R Evavin Duelist
+14 R Final Symphony
+15 R Lockdown
+16 R Matron of Machines
+17 R Morning's Warden
+18 R Nina, Master of Arms
+19 R Polgek Artisan
+20 R Polgek Restorationist
+21 R Protector of the League
+22 R Purging Light
+23 R Rilken Forcefield Keeper
+24 R Rilken Preserver
+25 R Seek Perfection
+26 R Self Replication
+27 R Artificer's Prowess
+28 R Artistic Vision
+29 R Avid Researcher
+30 R The Clocktower Project
+31 R Disallow
+32 R Focus Thoughts
+33 R Frozen Moment
+34 R Herald of Wisdom
 35 R Imagine
+36 R Imitator of Drakes
+37 R Iterative Designer
+38 R Marin Polgek, Academy Heiress
+39 R Obtain Answers
+40 R Opt
+41 R Reality Rewoven
+42 R Reclusive Archmage
+43 R Reconsider
+44 R Reinvent
+45 R Resonating Force
+46 R Seek the Future
+47 R Telling Time
+48 R Unified Theory
+49 R Unite the Powergrid
+50 R Veilborn Meddler
+51 R Volta, Construct Consultant
+52 R Warden of Silence
+53 R Ambitious Necromancer
+54 R Atychiphobia
+55 R Beckon Darkness
+56 R Beckoner of Horrors
+57 R Channeler of the Veil
+58 R Craving Secrets
+59 R Disqualify
+60 R Duress
+61 R Fallback Plan
+62 R Gate to the Beyond
+63 R Glimpse the Veil
+64 R Iken Company Nightwalker
+65 R Inevitable Ending
+66 R Irika, Wielder of Secrets
+67 R Mastery of the Veil
+68 R Monstrous Hunter
+69 R Murderous Flock
+70 R Propagation Plant
+71 R Sealer of Pacts
+72 R Secret Thief
+73 R Sesilius, Chosen Speaker
+74 R Slay the Unkillable
+75 R Veilcrossed Twins
+76 R Veilcursed Soulthief
+77 R Veilstalker
+78 R Violent Collapse
+79 R Arcane Metalcrafter
+80 R Artisan of Brutality
+81 R Bottled Lightning
+82 R Calamity Dragon
+83 R Careless Violence
+84 R Claimed by the Veil
+85 R Dedicated Weaponsmith
+86 R Eleventh Hour Breakthrough
+87 R Endless Assembly
+88 R Fento, Nova Crusader
+89 R Flamecloaked Artisan
+90 R Forgemaster's Charm
+91 R Instant of Brilliance
+92 R Madcap Mercenary
+93 R Martial Maestro
+94 R Meteor Harbinger
+95 R Mirrorcast Battlemage
+96 R Novaheart Dragon
+97 R Philosophy of Fire
+98 R Polgek Songcrafter
+99 R Pyromantic Expertise
+100 R Scorch
+101 R Siraj, Interplanar Thief
+102 R Speedreading
+103 R Vitin Firebird
+104 R Vitin Forgemaster
+105 R Advanced Powercell
+106 R Ancient of the Glade
+107 R Backwoods Cultivator
+108 R Dovon, Verdant Experimenter
+109 R The Feller of Greatwoods
+110 R Flamboyant Inventor
+111 R Forest Fellowship
+112 R Herald of Might
+113 R Hunt the Monstrous
+114 R Kati Evalin, World Wanderer
+115 R Kindly Greatwood
+116 R Legends Remembered
+117 R Maladapted Greatwood
+118 R Oldgrove Nurturer
+119 R Powercell Cultivator
+120 R Powercell Engineer
+121 R Primal Ruffian
+122 R Queen of Unclaimed Lands
+123 R Ravenous Hydra
+124 R Reclamation Grovesculptor
+125 R Reclamation Sage
+126 R Reconstruct
+127 R Seeker of Untouched Beauty
+128 R Telvim Explorer
+129 R Telvim Sculptor
+130 R Unexplored Regions
+131 R Acin, the Toymaker
+132 R Artisan's Genius
+133 R Assemble an Army
+134 R Discarded Achievement
+135 R Embrace the Veil
+136 R Extravagant Flair
+137 R Exuberant Inventor
+138 R Flare Blitz
+139 R Formless Wanderer
+140 R Herald of Unity
 141 R Iken Troubleshooter
-185
+142 R Imagination Unleashed
+143 R Jessica Turin, Battlemage
+144 R The Lost Titan
+145 R Omegalomania
+146 R Petal-Weaver Alexa
+147 R Seeker of Battle
+148 R Supplanter of Realities
+149 R Twisted Speaker
+150 R Veil's Recovery
+151 R Arcane Chronometer
+152 R Colossal Achievement
+153 R Cosmic Chart
+154 R Encampment Blimp
+155 R Facsimile of Divinity
+156 R Gearcraft Observer
+157 R Gilded Gearhulk
+158 R Gilded Spyglass
+159 R Harmony Array
+160 R Hub of Innovation
+161 R Iron Signet
+162 R Junktrawler
+163 R Lifebond Claymore
+164 R Mana Geode
+165 R Manaflux Battery
+166 R Meranan Dragonship
+167 R Perpetual Motion Machine
+168 R Propagation Blade
+169 R Sword of Tides and Time
+170 R Unity Spheres
+171 R Brilliant Academy
+172 R Brilliant Archives
+173 R Brilliant Capital
+174 R Brilliant Castle
+175 R Brilliant Citadel
+176 R Brilliant Cityscape
+177 R Brilliant Hub
+178 R Brilliant Mansion
+179 R Brilliant Port
+180 R Brilliant Workshop
+181 L Plains
+182 L Island
+183 L Swamp
+184 L Mountain
+185 L Forest
 
 [tokens]
 c_a_powercell

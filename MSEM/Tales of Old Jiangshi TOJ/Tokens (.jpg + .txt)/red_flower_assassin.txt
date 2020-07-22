@@ -1,0 +1,8 @@
+Name:Red Flower Assassin
+ManaCost:no cost
+Colors:black
+Types:Creature Human Assassin
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters the battlefield, destroy target creature.
+SVar:TrigDestroy:DB$Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature.
+Oracle:When Red Flower Assassin enters the battlefield, destroy target creature.

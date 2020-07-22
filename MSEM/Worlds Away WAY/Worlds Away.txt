@@ -7,26 +7,272 @@ MciCode=way
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Timespiraled
 
 [cards]
 1 R Transdimensional Visitor
+2 U Aethercrafting
+3 C Ceaseless Pilgrim
+4 R Cyone, Expedition Captain
 5 U Farwander Guide
+6 U Fearless Freeclimber
+7 R Grand Expeditions
+8 C Honored Spellbearer
+9 U Journey to the Zhedina
+10 U Journey's End
+11 R Lure of Adventure
+12 U Opulent Proprietor
 13 C Outlander Division
+14 R Phantom Threader
+15 C Planeshift
+16 R Prismatic Champion
+17 M Scion of Storms
+18 U Silkweaver Matron
+19 R Soulblade
+20 C Spellweaver Escort
+21 U Survival Experience 
+22 C Telarine Infantry
+23 C Telarine Sharpshooter
+24 C Temporal Rift
+25 U Threadspinner Mage
+26 R Timestream Sentinel
+27 C Zhedina Confiscator
 28 U Zhedina Envoys
+29 C Zhedina Provisioner
+30 R Across the Threshold
+31 U Aethermancer's Familiar
+32 U Benthic Thaumaturge
+33 C Brinechum
+34 R By the Sea
+35 U Contested Discovery
+36 C Crest Skimmer
+37 R Excursion Contingent
+38 U Fathom Diver
+39 C Filch
 40 C Glimmer
+41 U Isolated
+42 U Journey to the Syzygy Spire
+43 U Pathshaper Mage
+44 C Portal Fracture
+45 R Prodigious Telemancer
+46 C Reefback Clacker
+47 U Research Experience
+48 C Roguish Instincts
+49 R Saddled Scuttleback
+50 M Scion of Torrents
+51 R Shifting Spaces
+52 C Shiftscale Drake
+53 R Sphinx of Supremacy
+54 C Stormtide Renegade
 55 U Syzygy Navigator
+56 C Transnaturalist
+57 U Worlds Away
+58 U Aether Corsair
+59 R Alethea, Syzygy Captain
+60 U Beneath the Zhedina
 61 U Bleak Channeler
+62 C Cave Diving
+63 U Echoed Shadowmancer
+64 C Forgotten Remains
+65 C Gloam Gullet
+66 C Gyreon Pickpocket
 67 C Gyreon Smuggling
+68 U Harrowing Experience
+69 U Marrow Raptor
+70 U Planar Eulogist
+71 R Portal Inhibitor
+72 C Quickmire
+73 C Razorshell Marauder
+74 U Rift Splicing
+75 R Ruin Delver
+76 M Scion of Desolation
+77 R Seeker of Lost Secrets
+78 C Shambling Morass
+79 R Spoils of the Undermarket
+80 C Telarine Enforcers
+81 C Thievery
+82 R Umberlure Angler
+83 R Undermarket Guildmaster
+84 U Undermarket Hawker
+85 U Zhargetan Reclaimers
+86 U Amber Reserves
+87 U Archaelogical Experience
+88 C Ardent Explorers
+89 R Champion of Scales
+90 U Crater Burst
+91 C Crossing the Rifts
+92 C Exhaustive Trek
+93 C Hot Streak
+94 U Hunter of the Aimless
+95 U Incense Stoker
+96 R Interplanar Raid
+97 C Jadycian Empath
+98 U Journey to the Otherworlds
+99 U Kilnsoul Adept
+100 U Krismite Purveyor
+101 R Master of Imports
 102 R Possibility Engine
+103 C Pyroclastic Maw
+104 C Riftbreaker Mage
+105 R Riftkeeper Colossus
+106 R Rogg, Chaos Treader
+107 C Rubble Seer
 108 M Scion of Calamities
+109 U Shardstorm Elemental
+110 U Spitfireling
+111 C Thermal Surger
+112 C Voidflare
+113 R Voliv Ritualist
+114 R Ageless Weaver
+115 C Akkrixian Assailants
+116 C Arbor Protector
+117 R Crossworld Wanderer
+118 U Distant Worlds
+119 U Entropic Harvest
+120 C Far-Realm Blademaster
+121 C Feral Ornithax
+122 U Fungal Swathe
+123 C Guided by the Weave
+124 U Heartwalker
+125 U Hunting Experience
+126 R Majesty of Nature
+127 R Microzoologist
 128 U Offworld Surveyors
+129 C Otherworldly Gifts
+130 R Phasmopillar
+131 R Planar Genesis
+132 U Relentless Pathcutter
+133 U Rootbound Awakener
+134 C Saddlesaur Guide
+135 M Scion of Flourishing
 136 R Seeds of New Life
+137 C Sowing Spring
 138 U Untethered Disciple
+139 C Verdant Renewal
+140 C Wayfinding
+141 U Worldshaping
+142 U Aether Road Caravan
+143 C Akkrixian Ambassador
+144 U Biome Cultivator
+145 R Blossoming Inspiration
+146 C Caldera Crawlers
+147 R Caronas, Eon Wanderer
+148 M Chronosphere Sovereign
+149 C Crypt Sentinel
+150 C Customs Officer
+151 R Destabilizing the Rifts
+152 M Dreadfire Tyrant
+153 U Epoch Warden
+154 R Gyr, Awoken World
+155 U Highwild Survivalist
+156 R Iknan, the Last Gildmane
+157 U Into the Unknown
+158 U Journeying Giftbearer
+159 M Mabil Fardancer
+160 U Mausoleum Suffragan
+161 M Maw of a Thousand Worlds
+162 U Notorious Smuggler
+163 C Othersea Submersible
+164 U Reborn from the Ashes
+165 R Rhyolithic Hellkite
+166 C Rootwarper
+167 M Salim and Certo
+168 M Silksoul Celestial
+169 U Spellclad Auranaught
+170 R Stormtide Hypnotist
+171 U Sunchaser Mantas
+172 U Syzygy Privateer
+173 C Undermarket Favors
+174 R Vedlinn Ross
 175 R Vivid Mirage
+176 U Volcanic Terror
+177 C Voliv Skyhunter
+178 U Wasteland Ravagers
+179 M Whisper in the Rift
+180 R Xoqal, World Eater
+181 C Zephyr Gliders
+182 U Zhedina Coastguard
+183 C Zhedina Valiant
+184 U Aether Crosser
+185 U Arboreal Runes
+186 R Chamber of Reflections
+187 M Dimensional Reshaper
+188 M Ethereal Stone
+189 U Expedition Post
 190 R Intrepid
+191 C Krismite Shard
+192 R Mutalithic Golem
+193 U Possibility Scope
+194 R Rippling Curtain
+195 C Soaring Biome
+196 C Telarine Flagship
+197 R Transposition Portal
+198 R Zhedina Bazaar
+199 C Zhedina Servitor
 200 C Aether Gateway
-213 M Abandoned Monument
-235 M Monument of Queens
+201 R Morphic Verge
+202 C Otherworldly Forest
+203 C Otherworldly Island
+204 C Otherworldly Mountain
+205 C Otherworldly Plains
+206 C Otherworldly Swamp
+207 U Zhedina Exchange
+208 L Plains
+209 L Island
+210 L Swamp
+211 L Mountain
+212 L Forest
+
+213 S Abandoned Monument
+214 S Autumn Canopy
+215 S Blossoming Expanse
+216 S Brine Fleet Bay
+217 S Cloudsteel Summit
+218 S Cursed Wastes
+219 S Dreamscape
+220 S Dustchoked Outpost
+221 S Endless Trove
+222 S Eternal Reactor
+223 S Explorer's Ascent
+224 S Fractured Reach
+225 S Gathering Beacon
+226 S Ghostspore Mire
+227 S Gilded Gulch
+228 S Glacial Shelf
+229 S Grove of Embers
+230 S Heart of Zhedina
+231 S Idravir, the Last City
+232 S Krismite Vault
+233 S Lotus Lake
+234 S Molten Falls
+235 S Monument of Queens
+236 S Nereba, Sandchoked Archives
+237 S Paracosm
+238 S Polyp Pools
+239 S Precursor Sanctum
+240 S Promethean Grotto
+241 S Rainsculpted Gorge
+242 S Razione Racecourse
+243 S Shadowcleft Hideout
+244 S Shifting Canyon
+245 S Shifting Cascade
+246 S Shifting Crag
+247 S Shifting Grove
+248 S Shifting Morass
+249 S Shuddering Node
+250 S Skylight Fortress
+251 S Smuggler's Den
+252 S Soaring Rainforest
+253 S Starlight Beacon
+254 S Steamlit Peaks
+255 S Tears of Tizuma
+256 S Timeless Shrine
+257 S Tomb of Shifting Sands
+258 S Untethered Spire
+259 S Urban Plaza
+260 S Woven Network
+261 S Zhedina Outskirts
+262 S Zhelid, Planar Academy
 
 [tokens]
 c_a_mox_krismite

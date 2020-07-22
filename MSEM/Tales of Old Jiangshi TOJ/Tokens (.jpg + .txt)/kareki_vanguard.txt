@@ -1,0 +1,7 @@
+Name:Kareki Vanguard
+ManaCost:no cost
+Colors:white
+Types:Creature Human Samurai
+K:First Strike
+PT:2/3
+Oracle:First strike

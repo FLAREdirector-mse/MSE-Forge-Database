@@ -5,6 +5,7 @@ Name=MSEM: High Noon: Daisite Outlaws
 Code2=MPS_HI12
 MciCode=mps_hi12
 Type=Other
+# Set designed by Cajun
 
 [cards]
 1 M Invisible Stalker

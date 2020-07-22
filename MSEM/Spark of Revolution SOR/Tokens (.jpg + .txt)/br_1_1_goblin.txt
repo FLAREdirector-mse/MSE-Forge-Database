@@ -1,0 +1,6 @@
+Name:Goblin
+ManaCost:no cost
+Types:Creature Goblin
+Colors:black,red
+PT:1/1
+Oracle:

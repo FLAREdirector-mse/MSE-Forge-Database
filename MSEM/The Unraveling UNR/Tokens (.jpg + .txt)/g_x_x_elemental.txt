@@ -1,0 +1,6 @@
+Name:Elemental
+ManaCost:no cost
+Types:Creature Elemental
+Colors:green
+PT:*/*
+Oracle:

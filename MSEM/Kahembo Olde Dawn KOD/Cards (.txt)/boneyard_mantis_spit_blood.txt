@@ -1,0 +1,16 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Boneyard Mantis
+ManaCost:3 B
+Types:Creature Insect
+K:Deathtouch
+PT:2/3
+Oracle:Deathtouch
+
+ALTERNATE
+
+Name:Spit Blood
+ManaCost:B
+Types:Sorcery Tale
+A:SP$ Pump | Cost$ B | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -1 | NumDef$ -1 | IsCurse$ True | SpellDescription$ Target creature gets -1/-1 until end of turn.
+Oracle:Target creature gets -1/-1 until end of turn. (Cast a copy of this spell once while this creature is on the battlefield.)

@@ -1,0 +1,10 @@
+Name:Chantwood Cultist
+ManaCost:2 G G
+Types:Creature Reflection Shaman
+PT:3/3
+S:Mode$ Continuous | Affected$ Shaman.YouCtrl+Other | AddPower$ 1 | Description$ Other Shamans you control get +1/+0.
+A:AB$ Token | Cost$ 4 G G ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ chantwood_cultist | TokenOwner$ You | LegacyImage$ chantwood cultist orp | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+SVar:PlayMain1:TRUE
+DeckHints:Type$Shaman
+DeckHas:Ability$Token
+Oracle:Other Shamans you control get +1/+0.\nRevive {4}{G}{G} ({4}{G}{G}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

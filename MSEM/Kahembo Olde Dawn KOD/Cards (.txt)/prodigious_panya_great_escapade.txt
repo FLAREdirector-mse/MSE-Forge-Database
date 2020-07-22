@@ -1,0 +1,17 @@
+# TODO Tales don't work. Also Medomai the Ageless is Forged as "K:CARDNAME can't attack during extra turns" which means I can't Forge Panya's third ability
+# --FLAREdirector
+Name:Prodigious Panya
+ManaCost:U
+Types:Legendary Creature Mouse Warrior
+K:Flash
+K:Flying
+PT:1/1
+Oracle:Flash\nFlying\nProdigious Panya has base power and toughness 5/5 during extra turns.
+
+ALTERNATE
+
+Name:Great Escapade
+ManaCost:3 U U
+Types:Sorcery Tale
+A:SP$ AddTurn | Cost$ 3 U U | NumTurns$ 1 | SpellDescription$ Take an extra turn after this one.
+Oracle:Take an extra turn after this one. (Cast a copy of this spell once while this creature is on the battlefield.)

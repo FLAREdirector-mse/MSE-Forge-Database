@@ -1,0 +1,6 @@
+Name:End of Days
+ManaCost:3 W W
+Types:Sorcery
+A:SP$ ChooseType | Cost$ 3 W W | Defined$ You | Type$ Card | InvalidTypes$ Land,Instant,Sorcery,Tribal | SubAbility$ DBDestroy | SpellDescription$ Choose a nonland permanent type, then destroy all nonland permanents that aren't of the chosen type.
+SVar:DBDestroy:DB$ DestroyAll | ValidCards$ Permanent.nonLand+IsNotChosenType | Zone$ Battlefield
+Oracle:Choose a nonland permanent type, then destroy all nonland permanents that aren't of the chosen type.

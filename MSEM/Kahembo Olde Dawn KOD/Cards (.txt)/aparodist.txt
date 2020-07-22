@@ -1,0 +1,9 @@
+Name:Aparodist
+ManaCost:2
+Types:Creature Shapeshifter
+PT:1/1
+K:ETBReplacement:Other:ChooseCT
+SVar:ChooseCT:DB$ ChooseType | Type$ Creature | InvalidTypes$ Human | AILogic$ MostProminentInComputerDeck | SpellDescription$ As CARDNAME enters the battlefield, choose a non-Human creature type.
+S:Mode$ Continuous | EffectZone$ All | Affected$ Card.Self | CharacteristicDefining$ True | AddType$ ChosenType | Description$ CARDNAME is the chosen type in addition to its other types.
+A:AB$ PutCounterAll | Cost$ 1 T | ValidCards$ Creature.ChosenType+YouCtrl | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on each creature you control of the chosen type.
+Oracle:As Aparodist enters the battlefield, choose a non-Human creature type.\nAparodist is the chosen type in addition to its other types.\n{1}, {T}: Put a +1/+1 counter on each creature you control of the chosen type.

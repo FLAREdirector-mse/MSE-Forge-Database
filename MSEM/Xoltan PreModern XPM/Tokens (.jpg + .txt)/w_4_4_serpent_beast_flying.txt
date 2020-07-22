@@ -1,0 +1,7 @@
+Name:Serpent Beast
+ManaCost:no cost
+Colors:white
+Types:Creature Serpent Beast
+K:Flying
+PT:4/4
+Oracle:Flying

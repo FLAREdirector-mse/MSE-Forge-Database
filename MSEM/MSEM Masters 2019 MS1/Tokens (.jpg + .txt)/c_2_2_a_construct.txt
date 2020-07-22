@@ -1,0 +1,5 @@
+Name:Spawn
+ManaCost:no cost
+Types:Artifact Creature Construct
+PT:2/2
+Oracle:

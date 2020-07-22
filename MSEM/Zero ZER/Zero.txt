@@ -7,11 +7,251 @@ MciCode=zer
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Umisa
 
 [cards]
-1
+1 R Aegis Champion
+2 C Audacious Knight
+3 U Backup Forces
+4 C Battle Tactics
+5 C Battlefield Priest
+6 C Captain's Call
+7 U Dauntless Piker
+8 U Daybreak Justicar
+9 C Divine Ascension
+10 C Due Judgement
+11 R Fell the Haughty
+12 M Gavis the Stalwart
+13 R Gavis's Dragoons
+14 C Goldhill Enforcer
+15 R Goldhill Guardian
+16 U Harm's Way
+17 C Harrier's Falcon
+18 C Healer's Knack
+19 U In Arms
+20 R Kotis, Promised General
+21 M Life's Will
+22 U Maelstrom Griffin
+23 R Magister of Impotence
+24 R Might of All
+25 C Natia Nomad
+26 C Natia Shaman
+27 M Radiant Justicar
+28 C Runic Wall
+29 C Sanctum
+30 C Shieldmaster's Blessing
+31 U Soulight Captain
+32 C Spirit Drain
+33 R Stalwart Angel
+34 C Steeled Resolve
+35 C Stillness
+36 R Sudden Ambush
+37 U Vanishing Stroke
+38 C Whitetail Sparrow
+39 C Whitetusk Charger
+40 C Zephyr Rider
+41 C Adept of Waves
+42 C Aeon's Hand Cutthroat
+43 U Anurafication
+44 C Arcanum Owl
+45 R Arden, Mirrormage
+46 C Brain Static
+47 R Concenter
+48 M Daril, Agent of Time
+49 R Daril's Timewalker
+50 C Depths of Solitude
+51 C Exclude
+52 U Fates Foretold
+53 C Focus Thoughts
+54 U Freezing Maelstrom
+55 C Galeforce 
+56 C Gossamer Veil
+57 C Heavens Above
+58 C Illusionary Steed
+59 C Library Specter
+60 M Master Spellwright
+61 R Mindbreaker Sphinx
+62 C Move Unseen
+63 U Nimbus Fae
+64 C Northwind Master
+65 C Oracle Crab
+66 C Pull the Strings
+67 R Puppetize
+68 U Recall to Mind
+69 U Redo
+70 C Sea Strider
 71 R Seabreen Nullmage
-242
+72 C Seabreen Protector
+73 C Sleight of Hand
+74 R Spell Shackle
+75 U Sphinx Mentor
+76 M Thought Siphon
+77 R Travian Archsage
+78 U Wailing Soul
+79 R Waketide Serpent
+80 C Wispbreath Drake
+81 M Abyssal Stalker
+82 R Aldrane, Insane Necromancer
+83 C Assassinate
+84 R Blood Fiend
+85 C Bloodrage Gladiator
+86 C Caustic Lurker
+87 U Consort of Blood
+88 C Corrupted Strength
+89 C Dark Bargain
+90 R Death Strike
+91 C Edge of Madness
+92 R Erase From Existence
+93 C Festering Shambler
+94 U Forbidden Truths
+95 C Leech Soul
+96 U Lord of Swarms
+97 U Mausoleum Revenant
+98 R Mind Crash
+99 C Monstrous Guise
+100 C Morbid Plunder
+101 U Murderous Rampage
+102 C Ophelia's Neophyte
+103 C Palloren Vulture
+104 U Priest of Profanities
+105 C Revenant Shade
+106 U Rise from the Grave
+107 C Rouse From Below
+108 M Sagi Aysan
+109 R Sagi's Revenant
+110 R Sanguine Mortifier
+111 C Sink into Despair
+112 R Spawn of Nazgur
+113 U Tainted Grounds
+114 C Twice-Lived Dead
+115 M Unhallowed Concordat
+116 C Vampiric Thirst
+117 R Venomous Assault
+118 C Voracious Ghoul
+119 C Whispernight Assassin
+120 C Young Tempter
+121 M Aiel Tazan
+122 R Aiel's Fury
+123 R Aspect of Rage
+124 C Bladesinger
+125 R Bloodfire Phoenix
+126 U Channel Enmity
+127 C Charbelcher
+128 M Convergent Might
+129 U Dracosoul
+130 U Elegant Fireslinger
+131 C Ember Salvo
+132 C Goblin Cutpurses
+133 C Goblin Squire
+134 R Hav'za, Itavan Warchief
+135 R Infernal Invocation
+136 C Inferno Forerunner
+137 C Ironsmash Wrecker
+138 C Itava Outrider
+139 C Itava Warshrieker
+140 C Lightning Strike
+141 C Magma Hoof Giant
+142 U Magmatic Ravager
+143 U Maligned Brute
+144 C Meteorain
+145 C Mighty Swing
+146 C Prophetic Flame
+147 C Pummel
+148 R Pyrostorm
+149 R Roar of War
+150 U Rush of Thought
+151 M Scourge of the Skies
+152 R Searshot Dragon
+153 C Seismic Spike
+154 R Shifting Allegiances
+155 U Soul Flame
+156 C Speculate
+157 C Surging Charge
+158 C Swordmaster's Blessing
+159 C Tactical Maneuvers
+160 U Vengeant Souls
+161 C Ancient Grizzly
+162 R Apprentice Summoner
+163 U Atdrik Ravager
+164 C Brave the Frontier
+165 C Commune With Nature
+166 C Copse Watcher
+167 C Ensnaring Vines
+168 C Envoy of Growth
+169 M Eternal Oak
+170 C Feral Atdrik
+171 C Forced Sprouting
+172 U Harvest Moon
+173 C Kalime Charger
+174 R Kusore, Essence Spinner
+175 C Life's Harbinger
+176 C Lifespinner Spider
+177 M Mavisa, Wayfinder
+178 R Mavisa's Familar
+179 U Mindwinder
+180 R Mistwake Hydra
+181 R Overwhelming Force
+182 C Predatory Feast
+183 C Prey Upon
+184 M Primal Evocation
+185 R Rejuvenation
+186 U Rot Rebirth
+187 R Rule of Nature
+188 C Scaled Wurm
+189 C Shredding Gale
+190 R Skavi Behemoth
+191 U Spider Broodmother
+192 C Stoneskin
+193 U Trail of Rebirth
+194 C Valley Mists
+195 U Verendas Brawler
+196 C Verendas Spiritwalker
+197 U Wellspring of Life
+198 C Wild Fervor
+199 C Wildwood Keeper
+200 R Wyrmwood Enchantress
+201 U Bloodfont Ritualist
+202 U Ferverent Sergeant
+203 U Grave Revenant
+204 U Itava Scourge
+205 U Living Fissures
+206 U Magus Aspirant
+207 U Mist Lurker
+208 U Skysovereign Griffin
+209 U Sunwright Scion
+210 U Thought Grifter
+211 R Adaptive Servitor
+212 R Ancient Saber
+213 C Ancient Statue
+214 R Astral Dynamo
+215 U Automated Blademaster
+216 M Blade of the Many
+217 C Carved Dagger
+218 M Convergence Colossus
+219 U Crude Tablet
+220 R Dominion Crown
+221 U Javelin
+222 U Mana Prism
+223 U Paladin's Blade
+224 R Planar Processor
+225 U Scrapper Construct
+226 U Skeleton Shield
+227 U Spirit Pendant
+228 U Steel Swarmer
+229 U Unstable Borer
+230 C Wayfarer's Lantern
+231 R Bloodstone Halls
+232 C Crumbling Vestige
+233 U Hill of Souls
+234 R Moonlit Shore
+235 R Valley Falls
+236 R Verdant Sanctum
+237 R Wild Ravine
+239 L Plains
+243 L Island
+246 L Swamp
+249 L Mountain
+252 L Forest
 
 [tokens]
 sword

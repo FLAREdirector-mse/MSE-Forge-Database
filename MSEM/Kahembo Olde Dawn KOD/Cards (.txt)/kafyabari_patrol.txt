@@ -1,0 +1,8 @@
+Name:Kafyabari Patrol
+ManaCost:1 U
+Types:Creature Lizard Scout
+PT:1/3
+T:Mode$ SpellCast | ValidCard$ Card.MultiColor | ValidActivatingPlayer$ You | Execute$ TrigMill | TriggerZones$ Battlefield | TriggerDescription$ Prismatic — Whenever you cast a multicolored spell, target player mills two cards. 
+SVar:TrigMill:DB$ Mill | NumCards$ 2 | ValidTgts$ Player | TgtPrompt$ Choose a player
+DeckHas:Ability$Graveyard
+Oracle:Prismatic — Whenever you cast a multicolored spell, target player mills two cards. 

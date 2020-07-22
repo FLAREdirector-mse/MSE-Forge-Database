@@ -7,11 +7,258 @@ MciCode=k15
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Korakhos
 
 [cards]
-1
+1 U Armament Upgrade
+2 R Barracks Trainer
+3 C Blessing from Above
+4 C Cast Away
+5 R Celestial Army
+6 U Confining Priest
+7 C Devoted Gatekeeper
+8 C Devout Protector
+9 U Divine Presence
+10 C Divine Verdict
+11 C Eager Shieldbearer
+12 C Escorted Rider
+13 U Faithful Acolyte
+14 R Fateful Hour
+15 U Fellor Vanguard
+16 C Flightpath Trainee
+17 C Gather Forces
+18 C Guardian of Heavens
+19 R Heavenly Avenger
+20 U Heaven's Champion
+21 U Heavensent Emmisary
+22 C Inspiring Personality
+23 C Knightly Escort
+24 U Knightly Valor
+25 C Knight's Attendant
+26 C Laia's Intervention
+27 R Magus of the Well
+28 U Mass Orator
+29 R Moreena of the High Council
+30 M Seluriel, Danuri Leader
+31 M Seluriel's Blessing
+32 C Soul Warden
+33 R Spellbane Adept
+34 R Spur of the Moment
+35 C Surprise Strike
+36 C Syurrai Battlepriest
+37 C Trained Warhawk
+38 M Transcendent Priest
+39 C Wall of Hope
+40 C Ward Shatter
+41 C Aqueous Treader
+42 R Arcane Might
+43 C Archaeomancer
+44 C Barge Engulfer
+45 C Brainwave Elemental
+46 C Cancel
+47 C Cuff Down
+48 U Cunning Infiltrator
+49 C Cutthroat Spy
+50 C Disassemble
+51 C Divination
+52 R Eidetic Memory
+53 U Erudition of the Lafterii
+54 R Faint Memory
+55 U Favorable Winds
+56 C Forced Idleness
+57 C Infiltrator's Appeal
+58 R Ingenious Trickster
+59 C Keeneye Drake
+60 C Lafterii Savant
+61 R Logayr, Lafterii Magistrate
+62 R Magus of the Sands
+63 R Master of Winds
+64 C Mental Dislocation
+65 C Mind's Intruder
+66 U Mindscreech Drake
+67 C Mischievous Miscreant
+68 C Plan Ahead
+69 U Repressed Potential
+70 R Resourceful Impersonator
+71 C Scholar's Captivation
+72 C Soul Pierce
+73 U Spellcycler
+74 U Summoner's Bane
+75 M Vaertris' Master Plan
+76 M Vaertris, Mindmelder
+77 C Vaporkin
+78 R Vexing Riddlemage
+79 U Vollta Patrician
+80 U Wizard's Insight
+81 C Bonereader
+82 U Bonespitting Monstrosity
+83 C Brainless Ghoul
+84 C Brew of Undeath
+85 U Brutal Murder
+86 U Carrion Gourmet
+87 U Dark Desire
+88 M Daughter of Malextros
+89 R Diabolic Sacrifice
+90 R Diseased Warrior
+91 C Distressing Reality
+92 C Feed the Horde
+93 R Fleshmonger
+94 C Gift of Undeath
+95 C Hollowflesh Ghoul
+96 R Impending Contagion
+97 C Infected Flesh
+98 C Insatiable Thirst
+99 C Lifegorging Aberration
+100 R Magus of the Grimoire
+101 M Malextros, Deathlord
+102 C Mass of Ghouls
+103 C Necromancer Trainee
+104 U Necromancer's Talent
+105 C Night Screecher
+106 R Nightbane Specter
+107 C Ravenous Rats
+108 C Sign in Blood
+109 C Skieryg Menace
+110 U Spreading Disease
+111 C Suicidal Impulse
+112 U Syurrai Traitor
+113 R Tainted Remedy
+114 C Tortured Psyche
+115 U Toxic Lurker
+116 C Treacherous Shade
+117 U Vampire Nighthawk
+118 C Vampire's Curse
+119 R Vythraktos, Master Necromancer
+120 U Battle Fervor
+121 C Bloodthirsty Insurgent
+122 R Chaotic Will
+123 C Crafter's Mistake
+124 U Deserter's Disdain
+125 R Eradicating Flames
+126 C Explosion Fanatic
+127 C Explosive Implant
+128 C Fervent Assault
+129 R Flamemaster Insurgent
+130 C Gamble for Knowledge
+131 C Goblin Arsonist
+132 C Goblin Roughrider
+133 C Goblin Stormcaller
+134 C Growing Numbers
 135 U Hate-Driven Arsonist
-249
+136 C Hunger for Battle
+137 U Impulsive Action
+138 C Insurgent Racketeer
+139 C Kragnoss' Assault
+140 U Kragnoss' Battlecharger
+141 R Kragnoss, Rebellion Commander
+142 R Led by Fury
+143 R Magus of the Gauntlet
+144 U Mindblaze Pyromancer
+145 C Newborn Dragon
+146 C Pillar of Flame
+147 C Prophetic Flames
+148 C Pyromancer Apprentice
+149 R Rageborn Phoenix
+150 M Raidragos' Avenger
+151 M Raidragos, the Vindictive
+152 R Risky Business
+153 C Rush of Strength
+154 U Stormbred Elemental
+155 C Threatening Pikeman
+156 M Uttermost Obliteration
+157 U Vanguard's Assault
+158 C Wingless Dragon
+159 U Zealous Brawler
+160 C Abundant Panorama
+161 R Ankryss, Biologist Adept
+162 C Armor of Vines
+163 C Beastly Dispute
+164 U Bestial Summons
+165 R Boundless Evolution
+166 C Crazed Sprareos
+167 C Derrivan Beast Tracker
+168 C Derrivan Brawnmage
+169 C Druid's Deliverance
+170 C Earthchannel Apprentice
+171 M Evergrowing Hydra
+172 U Evolving Elemental
+173 C Fierce Instinct
+174 C Giant Warthog
+175 U Guardian of the Wurm
+176 C Harbinger of Growth
+177 R Harmonic Growth
+178 R Hunted Sprareos
+179 U Lay to Rest
+180 R Magus of the Lantern
+181 C Natural Growth
+182 R Natural Recycling
+183 U Parasitic Bloodsucker
+184 C Rampant Growth
+185 U Reclamation Sage
+186 R Reflected Grandeur
+187 U Saproling Genesis
+188 C Shoot Down
+189 U Spore Vessel
+190 U Sprareos Yearling
+191 C Swiftfoot Elk
+192 C Tender of the Land
+193 C Venomsilk Recluse
+194 C Vinecreeper
+195 C Viper's Fangs
+196 M Vorreia, Farseer
+197 M Vorreia's Farsight
+198 R Warden of the Fronds
+199 C Woodtrasher Wurm
+200 M Soul of Iscathia
+201 U Ankryss' Staff
+202 R Artificer's Workshop
+203 U Berserker's Axe
+204 U Bloodstained Knife
+205 U Cartographer's Chart
+206 U Crafted Wings
+207 U Kragnoss' Arsenal
+208 U Logayr's Tome
+209 U Mighty Colossus
+210 R Monolith of Ages
+211 R Monument of the Masses
+212 U Moreena's Banner
+213 U Pennon Blade
+214 U Sentient Contraption
+215 U Sorcerer's Staff
+216 U Stonework Idol
+217 R Sword of the Brave
+218 R Twinforged Golem
+219 U Vythraktos' Dagger
+220 R Well of Eternity
+221 C Adaptive Terrains
+222 R Flooded Morass
+223 R Flourishing Crevasse
+224 R Heart of the Glade
+225 R Lavatorn Fields
+226 M Planar Alignment
+227 R Pool of Light
+228 R Springjack Pasture
+229 U War Golem Forge
+230 L Plains
+231 L Plains
+232 L Plains
+233 L Plains
+234 L Island
+235 L Island
+236 L Island
+237 L Island
+238 L Swamp
+239 L Swamp
+240 L Swamp
+241 L Swamp
+242 L Mountain
+243 L Mountain
+244 L Mountain
+245 L Mountain
+246 L Forest
+247 L Forest
+248 L Forest
+249 L Forest
 
 [tokens]
 b_1_1_skeleton

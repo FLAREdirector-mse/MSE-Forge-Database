@@ -1,0 +1,8 @@
+Name:Revived Colpah
+ManaCost:1 B
+Types:Creature Cat Horror
+K:Menace
+PT:2/1
+A:AB$ Token | Cost$ 3 B ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ revived_colpah | TokenOwner$ You | LegacyImage$ revived colpah orp | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$Token
+Oracle:Menace\nRevive {3}{B} ({3}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

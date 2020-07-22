@@ -1,0 +1,7 @@
+Name:Reclaimed Kalak
+ManaCost:no cost
+Colors:black
+Types:Creature Troll Shaman
+PT:4/2
+A:AB$ Pump | Cost$ 2 B | KW$ Indestructible | Defined$ Self | SpellDescription$ CARDNAME gains indestructible until end of turn.
+Oracle:{2}{B}: Reclaimed Kalak gains indestructible until end of turn.

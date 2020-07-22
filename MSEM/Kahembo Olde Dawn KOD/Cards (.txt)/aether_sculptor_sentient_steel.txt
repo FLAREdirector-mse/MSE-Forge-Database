@@ -1,0 +1,19 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Aether Sculptor
+ManaCost:3 U
+Types:Creature Lizard Artificer
+PT:2/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigLotus | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME enters the battlefield, create a tapped Lotus Petal token. (It's a colorless artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.”)
+SVar:TrigLotus:DB$ Token | TokenAmount$ 1 | TokenScript$ lotus_petal | TokenOwner$ You | LegacyImage$ lotus petal kod | TokenTapped$ True
+Oracle:When Aether Sculptor enters the battlefield, create a tapped Lotus Petal token. (It's a colorless artifact token with “{T}, Sacrifice this artifact: Add one mana of any color.”)
+
+ALTERNATE
+
+Name:Sentient Steel
+ManaCost:1 U
+Types:Sorcery Tale
+A:SP$ Animate | Cost$ 1 U | ValidTgts$ Artifact.nonCreature+YouCtrl | TgtPrompt$ Select noncreature artifact | Power$ 0 | Toughness$ 0 | Types$ Artifact,Creature | RemoveCardTypes$ True | Permanent$ True | SubAbility$ DBPutCounter
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Targeted | CounterType$ P1P1 | CounterNum$ 3
+DeckHas:Ability$Counters
+Oracle:Target noncreature artifact you control becomes a 0/0 artifact creature. Put three +1/+1 counters on it. (Cast a copy of this spell once while this creature is on the battlefield.)

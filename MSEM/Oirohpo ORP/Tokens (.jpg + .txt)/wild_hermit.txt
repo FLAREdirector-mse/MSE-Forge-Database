@@ -1,0 +1,8 @@
+Name:Wild Hermit
+ManaCost:no cost
+Colors:green
+Types:Creature Reflection Shaman
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, create a 2/2 white Cat creature token.
+SVar:TrigToken:DB$Token | TokenAmount$ 1 | TokenScript$ w_2_2_cat | TokenOwner$ TriggeredCardController | LegacyImage$ w 2 2 cat orp
+Oracle:When Wild Hermit dies, create a 2/2 white Cat creature token.

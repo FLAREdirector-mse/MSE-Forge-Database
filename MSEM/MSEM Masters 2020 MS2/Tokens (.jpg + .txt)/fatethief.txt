@@ -1,0 +1,8 @@
+Name:Fatethief
+ManaCost:no cost
+Colors:black
+Types:Creature Reflection Shaman
+PT:2/3
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigPeek | TriggerDescription$ When CARDNAME dies, put the bottom card of your library into your hand.
+SVar:TrigPeek:DB$ ChangeZone | Origin$ Library | Destination$ Hand | Defined$ BottomOfLibrary
+Oracle:When Fatethief dies, put the bottom card of your library into your hand.

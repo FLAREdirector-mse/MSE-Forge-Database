@@ -1,7 +1,7 @@
 Name:Commoners' Justice
-ManaCost:4 B B
+ManaCost:4 B
 Types:Instant
 K:Spectacle:2 B
-A:SP$ Destroy | Cost$ 4 B B | ValidTgts$ Creature | TgtPrompt$ Select target creature to destroy. Its controller loses 2 life. | SubAbility$ DBLoseLife | SpellDescription$ Destroy target creature. Its controller loses 2 life.
+A:SP$ Destroy | Cost$ 4 B | ValidTgts$ Creature | TgtPrompt$ Select target creature to destroy. Its controller loses 2 life. | SubAbility$ DBLoseLife | SpellDescription$ Destroy target creature. Its controller loses 2 life.
 SVar:DBLoseLife:DB$ LoseLife | Defined$ TargetedController | LifeAmount$ 2
 Oracle:Cripple {2}{B} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nDestroy target creature. Its controller loses 2 life.

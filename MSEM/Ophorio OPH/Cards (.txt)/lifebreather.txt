@@ -1,0 +1,10 @@
+Name:Lifebreather
+ManaCost:3 W
+Types:Creature Reflection Cleric
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, you gain 4 life.
+SVar:TrigGainLife:DB$GainLife | LifeAmount$ 4
+A:AB$ Token | Cost$ 4 W ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ lifebreather | TokenOwner$ You | LegacyImage$ lifebreather oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+DeckHas:Ability$LifeGain
+DeckHas:Ability$Token
+Oracle:When Lifebreather enters the battlefield, you gain 4 life.\nRevive {4}{W} ({4}{W}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

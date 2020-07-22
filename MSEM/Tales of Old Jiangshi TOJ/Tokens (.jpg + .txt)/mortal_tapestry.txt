@@ -1,0 +1,8 @@
+Name:Mortal Tapestry
+ManaCost:no cost
+Colors:green
+Types:Creature Human Monk
+PT:2/2
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | AddToughness$ X | Description$ CARDNAME gets +1/+1 for each land card in your graveyard.
+SVar:X:Count$TypeInYourYard.Land
+Oracle:Mortal Tapestry gets +1/+1 for each land card in your graveyard.

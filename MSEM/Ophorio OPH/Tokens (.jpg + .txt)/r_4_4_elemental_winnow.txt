@@ -1,0 +1,10 @@
+Name:Elemental
+ManaCost:no cost
+Types:Creature Elemental
+Colors:red
+S:Mode$ Continuous | Affected$ Creature.blockingSource | AddTrigger$ Winnow | Description$ Creatures blocking this creature have winnow. (Damage dealt to them also causes their controller to lose that much life.)
+SVar:Winnow:Mode$ DamageDoneOnce | ValidTarget$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigLoseLife | TriggerDescription$ Whenever a creature with winnow is dealt damage, its controller loses that much life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ TriggeredTargetController | LifeAmount$ X | References$ X
+SVar:X:TriggerCount$DamageAmount
+PT:4/4
+Oracle:Creatures blocking this creature have winnow. (Damage dealt to them also causes their controller to lose that much life.)

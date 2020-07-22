@@ -1,0 +1,8 @@
+Name:Lizard
+ManaCost:no cost
+Colors:red
+Types:Creature Lizard
+T:Mode$ AttackerUnblocked | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Frenzy 2 (Whenever this creature attacks and isn't blocked, it gets +2/+0 until end of turn.)
+SVar:TrigPump:DB$ Pump | NumAtt$ +2
+PT:2/1
+Oracle:Frenzy 2 (Whenever this creature attacks and isn't blocked, it gets +2/+0 until end of turn.)

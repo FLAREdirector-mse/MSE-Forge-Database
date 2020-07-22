@@ -1,0 +1,7 @@
+Name:Aerie Warden
+ManaCost:1 W
+Types:Creature Bird Warrior
+PT:1/2
+K:Flying
+K:First Strike
+Oracle:Flying, first strike

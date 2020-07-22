@@ -1,0 +1,7 @@
+Name:Moranai Outriders
+ManaCost:no cost
+Colors:green
+Types:Creature Human Knight
+K:Trample
+PT:2/2
+Oracle:Trample

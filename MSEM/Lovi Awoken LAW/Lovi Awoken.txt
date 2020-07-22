@@ -7,9 +7,180 @@ MciCode=law
 Type=Other
 BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Fluffydeathbringer
 
 [cards]
-1
-160
+1 C Bright-Eyed Adventurer
+2 U Cower in Denial
+3 U Determined to Prevail
+4 C The Flesh Becomes Soil
+5 R Forager's Lore
+6 R Grim Armory
+7 C Herald of the Departed
+8 C Ineffable Patronage
+9 M Ivenge, False God
+10 R Lone Hunter
+11 C Nixie's Edict
+12 C Outskirts Provider
+13 C Risti Inquisitor
+14 C Risti Operative
+15 U Runeclad Seeker
+16 R Scion of the Pack
+17 U True Shot
+18 U Vulture Corps
+19 U Warped Recluse
+20 C Wilderness Forager
+21 C Worn Peacekeeper
+22 M The Ark Project
+23 C Awaken to the New World
+24 C Cantrip Collector
+25 U Children of the Void
+26 C Cutting Rejection
+27 R Godwatcher
+28 U Hollow Wanderer
+29 U Hone Strategy
+30 C Hoverbike Courier
+31 C Imperious Nixie
+32 U Imposing Barricade
+33 C The Mist Thirsts for Silence
+34 R Reality Reversal
+35 R Rebuild History
+36 U Sudden Fatigue
+37 C Supply Run
+38 R Swarm of the Dispossessed
+39 C Tip of the Tongue
+40 U Trail Off
+41 C Triplicate Terror
+42 C Wind-Blessed Guardian
+43 C Acid Sewage
+44 M The Afterlife Takes Its Due
+45 C Battery Bearer
+46 C The Bliss of Ignorance Dies
+47 U Broken Deathbringer
+48 R Dead-Set Duo
+49 R Deadwood Terror
+50 C Deepmire Abomination
+51 C Desperate Forsaken
+52 R False God's Downfall
+53 U Fertile Flesh
+54 C Hand of the Murder
+55 R Kielie, Risti Strike Leader
+56 U Make or Break
+57 C Mennin Pack
+58 U Monstrous Amalgam
+59 C Neophyte of the Old Gods
+60 U Open the Cryo-Chambers
+61 C Procession of the Conscripted
+62 U Risti Suppression
+63 C Underhanded Employ
+64 C Armament Scavenger
+65 U Courier's Misfortune
+66 U Discover Survivors
+67 C Ember of Ancient Infernos
+68 C Excavator of the Beyond
+69 C Expand the Perimeter
+70 C The Hidden Truths Resurface
+71 C Infiltrator of the Anomalous
+72 U Keen Reflexes
+73 C Leery Sortie
+74 C Left on the Wayside
+75 R Rabid Thrill
+76 R Ravenous Forsaken
+77 U Reason Rots, Rage Remains
+78 U Relic Hoarder
+79 M Reyhsia, Truth Chaser
+80 U Risti Assault Squadron
+81 C Savage Stalker
+82 C Scavenger Hunt
+83 R Scorched-Earth Defence
+84 R Singer of Calamities
+85 R Dogged Pioneer
+86 U Eerie Armanent
+87 U Farmland Settlers
+88 C Friend of the Woods
+89 C Godseeker Vanguard
+90 C Heir to the Old Bonds
+91 C Hunger of Old Lovi
+92 C Imperious Ram
+93 M Kaur, End of Lies
+94 R Kaur's Gift
+95 U Life Remembers Its Roots
+96 C Logger Recluse
+97 C Moved by Instinct
+98 C Neo-Alchemist
+99 R Neo-Alchemist's Mastery
+100 U Refuse Trawler
+101 U Risti Strategist
+102 C Risti Watchkeeper
+103 C The Songs of Gods Echo
+104 U Sovereign of Old Lovi
+105 R Tahti, Forged by the World
+106 U Bravery's Reward
+107 R Reclamation Project
+108 R Resign to Madness
+109 U Watchers of the Veil
+110 R Makias, Marked Marauder
+111 U Traversing the Hellwastes
+112 R Mennin Reclamation
+113 U Reunite with Nature
+114 R Fate Tracer
+115 U Hermit of the Taiga
+116 R The Ancestors Pass Judgment
+117 U Drove of the Lost
+118 U Crossroads Harrier
+119 R Favoured Firebrand
+120 U Bloodrune Patron
+121 R The Cannibals of Kallio Hill
+122 R Approach of Old Lovi
+123 U Risti Salvager
+124 R Foreboding Calm
+125 U Privilege's Sway
+126 C Ancestor's Skull
+127 C Antiquated Firearm
+128 C Cobbled Currency
+129 U Cobbled Transport
+130 U Experimental Battle Armor
+131 M Head of Ulko
+132 C Medical Mask
+133 C Mennin Jar
+134 U Realm Tiller
+135 C Renegade Servitor
+136 U Scavengermobile
+137 C Seductive Seashell
+138 U Servitor Vanguard
+139 C Surveyor's Rifle
+140 C Suspect Concoctions
+141 U Drained Shore
+142 U Drought-Plagued Slum
+143 C Fluctuating Locale
+144 U Forsaken Getaway
+145 U Grave of an Old Lord
+146 U Haunted Fairground
+147 U Hellwaste Settlement
+148 U Memorial Ground
+149 U Pulsating Mass
+150 U Risti Citadel
+151 C Scavenger Holdout
+152 U Secluded Farmstead
+153 U Sepulchral Seas
+154 C Warped Landscape
+155 R Windmill Project
+156 L Plains
+157 L Island
+158 L Swamp
+159 L Mountain
+160 L Forest
 
 [tokens]
+b_1_1_bird_flying
+b_1_1_goblin
+b_2_2_zombie
+b_x_x_zombie_horror
+g_1_1_scout
+g_2_2_hound
+gu_x_x_plant_horror_hexproof_trample
+rg_3_1_elemental_horror_haste_trample
+w_1_1_soldier_vigilance
+w_1_1_spirit_flying
+deadwood_terror
+land_basic_plains

@@ -1,0 +1,7 @@
+Name:Spirit Keeper
+ManaCost:no cost
+Colors:white
+Types:Creature Human Cleric
+K:Lifelink
+PT:1/1
+Oracle:Lifelink

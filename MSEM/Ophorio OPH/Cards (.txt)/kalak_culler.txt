@@ -1,0 +1,9 @@
+Name:Kalak Culler
+ManaCost:2 B
+Types:Creature Troll Warrior
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME enters the battlefield, each opponent loses life equal to the number of creatures you've sacrificed this turn.
+SVar:TrigLoseLife:DB$LoseLife | Defined$ All | LifeAmount$ X | References$ X
+SVar:X:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature.YouCtrl
+A:AB$ Token | Cost$ 3 B Sac<1/Creature> ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | SorcerySpeed$ True | TokenAmount$ 1 | TokenScript$ kalak_culler | TokenOwner$ You | LegacyImage$ kalak culler oph | SpellDescription$ Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.
+Oracle:When Kalak Culler enters the battlefield, each opponent loses life equal to the number of creatures you've sacrificed this turn.\nRevive—{3}{B}, Sacrifice a creature. ({3}{B}, Sacrifice a creature, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
