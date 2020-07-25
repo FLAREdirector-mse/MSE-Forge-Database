@@ -1,0 +1,6 @@
+Name:Ruins Monitor
+ManaCost:5 G G
+Types:Creature Lizard Beast
+PT:7/7
+K:CantBeBlockedByAmount GT1
+Oracle:Ruins Monitor can't be blocked by more than one creature.

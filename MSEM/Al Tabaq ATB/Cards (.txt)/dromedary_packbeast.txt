@@ -1,0 +1,6 @@
+Name:Dromedary Packbeast
+ManaCost:2 G G
+Types:Creature Camel
+PT:3/3
+A:AB$ PutCounter | Cost$ 2G T | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on target creature you control.
+Oracle:{2/G}, {T}: Put a +1/+1 counter on target creature you control.

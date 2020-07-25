@@ -1,0 +1,6 @@
+Name:Hajir Allegiant
+ManaCost:2 G
+Types:Creature Human Survivor
+PT:2/2
+S:Mode$ Continuous | Affected$ Survivor.YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Survivors you control get +1/+1.
+Oracle:Survivors you control get +1/+1.

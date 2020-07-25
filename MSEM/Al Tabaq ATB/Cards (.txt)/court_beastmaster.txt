@@ -1,0 +1,8 @@
+Name:Court Beastmaster
+ManaCost:G G
+Types:Creature Human Shaman
+PT:0/4
+A:AB$ Mana | Cost$ 2 | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ 2 | Produced$ Combo Any | Amount$ 2 | CheckSVar$ Concord | SVarCompare$ GE4 | SpellDescription$ Add two mana in any combination of colors. Activate this ability only if there are four or more card types among permanents you control.
+SVar:Concord:Count$CardControllerTypes.Battlefield
+Oracle:{T}: Add {G}.\n{T}: Add two mana in any combination of colors. Activate this ability only if there are four or more card types among permanents you control.

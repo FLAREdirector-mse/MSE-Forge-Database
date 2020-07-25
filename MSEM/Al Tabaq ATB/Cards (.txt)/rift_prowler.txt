@@ -1,0 +1,9 @@
+Name:Rift Prowler
+ManaCost:3 G G
+Types:Creature Cat Beast
+PT:0/0
+K:Trample
+K:etbCounter:P1P1:X:no Condition:CARDNAME enters the battlefield with X +1/+1 counters on it, where X is your fealty to Forests. (Each Forest you control counts towards your fealty to Forests.)
+SVar:NeedsToPlayVar:X GT3
+SVar:X:Count$TypeYouCtrl.Forest
+Oracle:Rift Prowler enters the battlefield with X +1/+1 counters on it, where X is your fealty to Forests. (Each Forest you control counts towards your fealty to Forests.)

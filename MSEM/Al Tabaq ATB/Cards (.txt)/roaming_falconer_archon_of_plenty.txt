@@ -1,0 +1,19 @@
+Name:Roaming Falconer
+ManaCost:1 G
+Types:Creature Human
+PT:3/1
+K:Trample
+A:AB$ SetState | Cost$ W U B R G | Defined$ Self | Mode$ Transform | PrecostDesc$ Chosen one | CostDesc$ | SpellDescription$ ({W}{U}{B}{R}{G}: Transform this permanent.)
+AlternateMode:DoubleFaced
+Oracle:Trample\nChosen one ({W}{U}{B}{R}{G}: Transform this permanent.)
+
+ALTERNATE
+
+Name:Archon of Plenty
+ManaCost:no cost
+Colors:white,blue,black,red,green
+Types:Creature Archon
+PT:5/5
+K:Flying
+K:Trample
+Oracle:Flying, trample
