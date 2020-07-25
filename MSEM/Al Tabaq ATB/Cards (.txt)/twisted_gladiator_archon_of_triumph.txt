@@ -1,0 +1,19 @@
+Name:Twisted Gladiator
+ManaCost:2 B
+Types:Creature Mutant Warrior
+PT:3/2
+K:Menace
+A:AB$ SetState | Cost$ W U B R G | Defined$ Self | Mode$ Transform | PrecostDesc$ Chosen one | CostDesc$ | SpellDescription$ ({W}{U}{B}{R}{G}: Transform this permanent.)
+AlternateMode:DoubleFaced
+Oracle:Menace\nChosen one ({W}{U}{B}{R}{G}: Transform this permanent.)
+
+ALTERNATE
+
+Name:Archon of Triumph
+ManaCost:no cost
+Colors:white,blue,black,red,green
+Types:Creature Archon
+PT:5/5
+K:Flying
+K:Menace
+Oracle:Flying, menace

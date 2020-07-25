@@ -1,0 +1,6 @@
+Name:Suraj Outrider
+ManaCost:1 R
+Types:Creature Human Warrior
+PT:2/1
+A:AB$ Pump | Cost$ 2R | Defined$ Self | NumAtt$ +1 | SpellDescription$ CARDNAME gets +1/+0 until end of turn.
+Oracle:{2/R}: Suraj Outrider gets +1/+0 until end of turn.

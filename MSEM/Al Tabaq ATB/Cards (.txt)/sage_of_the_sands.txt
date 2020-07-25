@@ -1,0 +1,6 @@
+Name:Sage of the Sands
+ManaCost:1 U
+Types:Creature Human Survivor
+PT:1/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Survivor.YouCtrl | TriggerZone$ Battlefield | Execute$ TrigScry | TriggerDescription$ Whenever a Survivor enters the battlefield under your control, scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)
+Oracle:Whenever a Survivor enters the battlefield under your control, scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)

@@ -1,0 +1,11 @@
+Name:Loose Threads
+ManaCost:1 B B
+Types:Sorcery
+A:SP$ LoseLife | Cost$ 1 B B | Defined$ You | LifeAmount$ 2 | SubAbility$ DBDig | SpellDescription$ You lose 2 life. Look at the top two cards of your library, then do the following in any order — Mill two cards. Draw two cards.
+SVar:DBDig:DB$ Dig | Defined$ You | DigNum$ 2 | NoMove$ True | SubAbility$ DBMill
+SVar:DBMill:DB$ Mill | Defined$ You | NumCards$ 2 | Optional$ True | RememberMilled$ True | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 2 | ConditionDefined$ Remembered | ConditionPresent$ Card | ConditionCompare$ EQ2 | SubAbility$ DBDraw2
+SVar:DBMill2:DB$ Mill | Defined$ You | NumCards$ 2 | SubAbility$ DBCleanup | ConditionPresent$ Card | ConditionCompare$ EQ0
+SVar:DBDraw2:DB$ Draw | Defined$ You | NumCards$ 2 | ConditionDefined$ Remembered | ConditionPresent$ Card | ConditionCompare$ EQ0 | SubAbility$ DBMill2
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:You lose 2 life. Look at the top two cards of your library, then do the following in any order —\n• Mill two cards.\n• Draw two cards.

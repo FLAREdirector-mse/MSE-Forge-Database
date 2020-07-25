@@ -1,0 +1,8 @@
+Name:Globule of Turmoil
+ManaCost:2R
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters or leaves the battlefield, up to one target creature can't block this turn.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigPump | Secondary$ True | TriggerDescription$ When CARDNAME enters or leaves the battlefield, up to one target creature can't block this turn.
+SVar:TrigPump:DB$ Pump | TargetMin$ 0 | TargetMax$ 1 | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ HIDDEN CARDNAME can't block.
+A:AB$ Draw | Cost$ 2R T Sac<1/CARDNAME> | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:When Globule of Turmoil enters or leaves the battlefield, up to one target creature can't block this turn.\n{2/R}, {T}, Sacrifice Globule of Turmoil: Draw a card.

@@ -1,0 +1,8 @@
+Name:Globule of Intuition
+ManaCost:2U
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigScry | TriggerDescription$ When CARDNAME enters or leaves the battlefield, scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigScry | Secondary$ True | TriggerDescription$ When CARDNAME enters or leaves the battlefield, scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)
+SVar:TrigScry:DB$ Scry | Defined$ You | ScryNum$ 1
+A:AB$ Draw | Cost$ 2U T Sac<1/CARDNAME> | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:When Globule of Intuition enters or leaves the battlefield, scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)\n{2/U}, {T}, Sacrifice Globule of Intuition: Draw a card.

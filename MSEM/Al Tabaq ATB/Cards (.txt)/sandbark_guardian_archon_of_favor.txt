@@ -1,0 +1,19 @@
+Name:Sandbark Guardian
+ManaCost:2 W
+Types:Creature Mutant Warrior
+PT:2/4
+K:Vigilance
+A:AB$ SetState | Cost$ W U B R G | Defined$ Self | Mode$ Transform | PrecostDesc$ Chosen one | CostDesc$ | SpellDescription$ ({W}{U}{B}{R}{G}: Transform this permanent.)
+AlternateMode:DoubleFaced
+Oracle:Vigilance\nChosen one ({W}{U}{B}{R}{G}: Transform this permanent.)
+
+ALTERNATE
+
+Name:Archon of Favor
+ManaCost:no cost
+Colors:white,blue,black,red,green
+Types:Creature Archon
+PT:5/5
+K:Flying
+K:Vigilance
+Oracle:Flying, vigilance

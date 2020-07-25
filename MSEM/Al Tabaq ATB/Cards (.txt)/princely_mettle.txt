@@ -1,0 +1,6 @@
+Name:Princely Mettle
+ManaCost:B
+Types:Instant
+A:SP$ Pump | Cost$ B | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature | NumAtt$ +2 | KW$ Indestructible | SubAbility$ DBLoseLife | SpellDescription$ Target creature you control gets +2/+0 and gains indestructible until end of turn. You lose 2 life.
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 2
+Oracle:Target creature you control gets +2/+0 until end of turn. You lose 2 life.

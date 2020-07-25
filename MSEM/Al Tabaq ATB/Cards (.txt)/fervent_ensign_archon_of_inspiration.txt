@@ -1,0 +1,23 @@
+Name:Fervent Ensign
+ManaCost:1 R
+Types:Creature Mutant Warrior
+PT:2/2
+A:AB$ SetState | Cost$ W U B R G | Defined$ Self | Mode$ Transform | PrecostDesc$ Chosen one | CostDesc$ | SpellDescription$ ({W}{U}{B}{R}{G}: Transform this permanent.)
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDelTrig | TriggerDescription$ Whenever CARDNAME attacks, add {R} at the beginning of your next postcombat main phase.
+SVar:TrigDelTrig:DB$ DelayedTrigger | Mode$ Phase | Phase$ Main2 | ValidPlayer$ You | Execute$ TrigMana | TriggerDescription$ At the beginning of your next postcombat main phase, add {R}.
+SVar:TrigMana:DB$ Mana | Produced$ R
+AlternateMode:DoubleFaced
+Oracle:Chosen one ({W}{U}{B}{R}{G}: Transform this permanent.)\nWhenever Fervent Ensign attacks, add {R} at the beginning of your next postcombat main phase.
+
+ALTERNATE
+
+Name:Archon of Inspiration
+ManaCost:no cost
+Colors:white,blue,black,red,green
+Types:Creature Archon
+PT:5/5
+K:Flying
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDelTrig | TriggerDescription$ Whenever CARDNAME attacks, add three mana in any combination of colors at the beginning of your next postcombat main phase.
+SVar:TrigDelTrig:DB$ DelayedTrigger | Mode$ Phase | Phase$ Main2 | ValidPlayer$ You | Execute$ TrigMana | TriggerDescription$ At the beginning of your next postcombat main phase, add three mana in any combination of colors.
+SVar:TrigMana:DB$ Mana | Produced$ Combo Any | Amount$ 3 | AILogic$ MostProminentInComputerHand
+Oracle:Flying\nWhenever Archon of Inspiration attacks, add three mana in any combination of colors at the beginning of your next postcombat main phase.

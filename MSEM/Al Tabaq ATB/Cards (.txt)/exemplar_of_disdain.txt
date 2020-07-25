@@ -1,0 +1,9 @@
+Name:Exemplar of Disdain
+ManaCost:3 B B
+Types:Creature Djinn
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigImmediate | TriggerDescription$ Desecrate (When this creature enters the battlefield, you may sacrifice an artifact or land.)
+SVar:TrigImmediate:AB$ ImmediateTrigger | Cost$ Sac<1/Artifact;Land/artifact or land> | Execute$ TrigPump | TriggerDescription$ When CARDNAME desecrates a permanent, target creature you don't control gets -3/-3 until end of turn.
+SVar:TrigPump:DB$ Pump | Cost$ B B | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Select target creature you don't control | NumAtt$ -3 | NumDef$ -3 | IsCurse$ True
+S:Mode$ Continuous | Description$ When CARDNAME desecrates a permanent, target creature you don't control gets -3/-3 until end of turn.
+Oracle:Desecrate (When this creature enters the battlefield, you may sacrifice an artifact or land.)\nWhen Bitter Wanderer desecrates a permanent, target creature you don't control gets -3/-3 until end of turn.

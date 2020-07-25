@@ -1,0 +1,8 @@
+Name:Patron of Asham
+ManaCost:1 W W
+Types:Creature Human Warrior
+PT:3/2
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigTap | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME attacks, tap target creature an opponent controls with power less than or equal to your fealty to Plains. (Each Plains you control counts towards your fealty to Plains.)
+SVar:TrigTap:DB$ Tap | ValidTgts$ Creature.powerLEX+OppCtrl | TgtPrompt$ Select target creature an opponent controls with power less than or equal to your fealty to Plains | References$ X
+SVar:X:Count$TypeYouCtrl.Plains
+Oracle:Whenever Patron of Asham attacks, tap target creature an opponent controls with power less than or equal to your fealty to Plains. (Each Plains you control counts towards your fealty to Plains.)

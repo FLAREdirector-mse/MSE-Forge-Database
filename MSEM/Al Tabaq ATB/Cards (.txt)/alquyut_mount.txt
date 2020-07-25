@@ -1,0 +1,6 @@
+Name:Alquyut Mount
+ManaCost:1
+Types:Artifact Creature Construct
+PT:2/1
+K:CARDNAME can't attack or block alone.
+Oracle:Alqutut Mount can't attack or block alone.

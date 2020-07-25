@@ -1,0 +1,9 @@
+Name:Sultan's Strength
+ManaCost:1 G
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 1 G | ValidTgts$ Creature | AILogic$ Pump | AITgts$ Creature.powerLE2,Creature.toughnessLE2
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | SetPower$ 0 | SetToughness$ 2 | Description$ Enchanted creature has base power and toughness 3/3.
+SVar:NonStackingAttachEffect:True
+AI:RemoveDeck:All
+Oracle:Enchant creature\nEnchanted creature has base power and toughness 3/3.

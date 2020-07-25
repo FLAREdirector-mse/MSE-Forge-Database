@@ -1,0 +1,5 @@
+Name:Oasis Cartography
+ManaCost:1 G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 1 G | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeNum$ 2 | SpellDescription$ Search your library for two basic land cards, reveal them, put them into your hand, then shuffle your library.
+Oracle:Search your library for two basic land cards, reveal them, put them into your hand, then shuffle your library.

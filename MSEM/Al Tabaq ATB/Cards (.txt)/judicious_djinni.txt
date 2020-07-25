@@ -1,0 +1,9 @@
+Name:Judicious Djinni
+ManaCost:4 U U
+Types:Creature Djinn
+PT:4/4
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | CheckSVar$ Concord | SVarCompare$ GE4 | Execute$ TrigChangeZone | SpellDescription$ Concord — When CARDNAME enters the battlefield, if there are four or more card types among permanents you control, return target instant or sorcery card from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Instant.YouCtrl,Sorcery.YouCtrl
+SVar:Concord:Count$CardControllerTypes.Battlefield
+Oracle:Flying\nConcord — When Judicious Djinni enters the battlefield, if there are four or more card types among permanents you control, return target instant or sorcery card from your graveyard to your hand.

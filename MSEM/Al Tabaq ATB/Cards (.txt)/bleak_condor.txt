@@ -1,0 +1,8 @@
+Name:Bleak Condor
+ManaCost:B B
+Types:Creature Bird
+PT:1/3
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigMill | TriggerDescription$ When CARDNAME enters the battlefield, mill four cards.
+SVar:TrigMill:DB$ Mill | NumCards$ 4 | Defined$ You
+Oracle:Flying\nWhen Bleak Condor enters the battlefield, mill four cards.

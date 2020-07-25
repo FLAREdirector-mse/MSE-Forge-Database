@@ -1,0 +1,6 @@
+Name:Harsh Erosion
+ManaCost:R R R
+Types:Sorcery
+A:SP$ Destroy | Cost$ R R R | ValidTgts$ Permanent.nonBasic+Colorless | TgtPrompt$ Select target colorless nonbasic permanent | SubAbility$ DBDealDamage | SpellDescription$ Destroy target colorless nonbasic permanent. CARDNAME deals 2 damage to that permanent's controller.
+SVar:DBDealDamage:DB$ DealDamage | Defined$ TargetedController | NumDmg$ 2
+Oracle:Destroy target colorless nonbasic permanent. Harsh Erosion deals 2 damage to that permanent's controller.

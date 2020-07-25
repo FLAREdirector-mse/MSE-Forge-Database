@@ -1,0 +1,9 @@
+Name:Dune Wraith
+ManaCost:1 W W
+Types:Creature Spirit
+PT:0/1
+K:Flying
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters the battlefield, distribute two +1/+1 counters among Spirits you control.
+SVar:TrigPutCounter:DB$ PutCounter | Choices$ Spirit.YouCtrl | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPutCounter
+SVar:DBPutCounter:DB$ PutCounter | Choices$ Spirit.YouCtrl | CounterType$ P1P1 | CounterNum$ 1
+Oracle:Flying\nWhen Dune Wraith enters the battlefield, distribute two +1/+1 counters among Spirits you control.

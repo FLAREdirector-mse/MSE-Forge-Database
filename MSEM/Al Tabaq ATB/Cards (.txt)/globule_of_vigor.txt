@@ -1,0 +1,8 @@
+Name:Globule of Vigor
+ManaCost:2G
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters or leaves the battlefield, up to one target creature gets +1/+1 until end of turn.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigPump | Secondary$ True | TriggerDescription$ When CARDNAME enters or leaves the battlefield, up to one target creature gets +1/+1 until end of turn.
+SVar:TrigPump:DB$ Pump | TargetMin$ 0 | TargetMax$ 1 | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +3 | NumDef$ +3
+A:AB$ Draw | Cost$ 2G T Sac<1/CARDNAME> | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:When Globule of Vigor enters or leaves the battlefield, up to one target creature gets +1/+1 until end of turn.\n{2/G}, {T}, Sacrifice Globule of Vigor: Draw a card.

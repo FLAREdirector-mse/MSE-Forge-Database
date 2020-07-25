@@ -1,0 +1,10 @@
+Name:Bitter Wanderer
+ManaCost:1 B B
+Types:Creature Human Warrior
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigImmediate | TriggerDescription$ Desecrate (When this creature enters the battlefield, you may sacrifice an artifact or land.)
+SVar:TrigImmediate:AB$ ImmediateTrigger | Cost$ Sac<1/Artifact;Land/artifact or land> | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME desecrates a permanent, each opponent loses 2 life and you gain 2 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 2 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+S:Mode$ Continuous | Description$ When CARDNAME desecrates a permanent, each opponent loses 2 life and you gain 2 life.
+Oracle:Desecrate (When this creature enters the battlefield, you may sacrifice an artifact or land.)\nWhen Bitter Wanderer desecrates a permanent, each opponent loses 2 life and you gain 2 life.

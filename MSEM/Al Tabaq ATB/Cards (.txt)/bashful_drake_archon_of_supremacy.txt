@@ -1,0 +1,19 @@
+Name:Bashful Drake
+ManaCost:U
+Types:Creature Drake
+PT:0/3
+K:Flying
+A:AB$ SetState | Cost$ W U B R G | Defined$ Self | Mode$ Transform | PrecostDesc$ Chosen one | CostDesc$ | SpellDescription$ ({W}{U}{B}{R}{G}: Transform this permanent.)
+AlternateMode:DoubleFaced
+Oracle:Flying\nChosen one ({W}{U}{B}{R}{G}: Transform this permanent.)
+
+ALTERNATE
+
+Name:Archon of Supremacy
+ManaCost:no cost
+Colors:white,blue,black,red,green
+Types:Creature Archon
+PT:5/5
+K:Flying
+A:AB$ Pump | Cost$ 1 | NumAtt$ +1 | NumDef$ -1 | SpellDescription$ CARDNAME gets +1/-1 until end of turn.
+Oracle:Flying\n{1}: Archon of Supremacy gets +1/-1 until end of turn.

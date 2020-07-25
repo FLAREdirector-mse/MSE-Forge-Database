@@ -1,0 +1,7 @@
+Name:Scorned Figurant
+ManaCost:R
+Types:Creature Mutant
+PT:1/1
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a spell, CARDNAME gets +1/+1 until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ Self | ValidCard$ Card.Self | NumAtt$ 1 | NumDef$ 1
+Oracle:Whenever you cast a spell, Scorned Figurant gets +1/+1 until end of turn.

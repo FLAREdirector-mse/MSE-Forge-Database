@@ -1,0 +1,7 @@
+Name:Highland Hermit
+ManaCost:G
+Types:Creature Human
+PT:1/1
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ Hexproof | CheckSVar$ Concord | SVarCompare$ GE4 | Description$ Concord — CARDNAME gets +1/+1 and has hexproof as long as there are four or more card types among permanents you control.
+SVar:Concord:Count$CardControllerTypes.Battlefield
+Oracle:Concord — Highland Hermit gets +1/+1 and has hexproof as long as there are four or more card types among permanents you control.

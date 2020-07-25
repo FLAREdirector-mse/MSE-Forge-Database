@@ -1,0 +1,8 @@
+Name:Oasis Glutton
+ManaCost:3 U U
+Types:Creature Beast
+PT:5/6
+K:Defender
+S:Mode$ Continuous | Affected$ Card.Self | AddHiddenKeyword$ CARDNAME can attack as though it didn't have defender. | CheckSVar$ X | SVarCompare$ GE6 | References$ X | Description$ As long as your fealty to Islands is 6 or greater, CARDNAME can attack as though it didn't have defender. (Each Island you control counts towards your fealty to Islands.)
+SVar:X:Count$TypeYouCtrl.Island
+Oracle:Defender\nAs long as your fealty to Islands is 6 or greater, Oasis Glutton can attack as though it didn't have defender. (Each Island you control counts towards your fealty to Islands.)

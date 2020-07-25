@@ -1,0 +1,6 @@
+Name:Nurtured Sandwolf
+ManaCost:3 R
+Types:Creature Wolf Survivor
+PT:3/3
+S:Mode$ Continuous | Affected$ Survivor.YouCtrl | AddKeyword$ Haste | Description$ Survivors you control have haste.
+Oracle:Survivors you control have haste.

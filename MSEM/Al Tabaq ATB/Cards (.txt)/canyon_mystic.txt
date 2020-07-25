@@ -1,0 +1,7 @@
+Name:Canyon Mystic
+ManaCost:U U
+Types:Creature Human Rogue
+PT:1/3
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:Whenever Canyon Mystic deals combat damage to a player, draw a card.

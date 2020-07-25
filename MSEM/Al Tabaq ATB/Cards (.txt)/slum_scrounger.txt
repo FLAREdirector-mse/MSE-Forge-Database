@@ -1,0 +1,8 @@
+Name:Slum Scrounger
+ManaCost:4 B B
+Types:Creature Beast
+PT:4/6
+K:Deathtouch
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, put up to two target creature cards in your graveyard on top of your library in any order.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Library | LibraryPosition$ 0 | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Select up to two target creature cards in your graveyard | ValidTgts$ Card.Creature+YouCtrl
+Oracle:Deathtouch\nWhen Slum Scrounger enters the battlefield, put up to two target creature cards in your graveyard on top of your library in any order.

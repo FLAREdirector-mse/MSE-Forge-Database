@@ -1,0 +1,6 @@
+Name:Chart the Stars
+ManaCost:U U U
+Types:Sorcery
+A:SP$ Draw | Cost$ U U U | Defined$ You | NumCards$ 3 | SubAbility$ DBDiscard | SpellDescription$ Draw three cards, then discard a card.
+SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 1 | Mode$ TgtChoose
+Oracle:Draw three cards, then discard a card.
