@@ -1,4 +1,4 @@
-Name:Sandbark Guardian
+Name:Sandbank Guardian
 ManaCost:2 W
 Types:Creature Mutant Warrior
 PT:2/4

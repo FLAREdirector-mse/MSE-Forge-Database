@@ -30,7 +30,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 18 C Masabh Legionnaire
 19 M Mercantile Accords
 20 U Mortal Pilgrimage
-21 C Outflank
+21 C Outflank (ATB)
 22 C Palace Dancer
 23 C Patron of Asham
 24 U Pristine Duelist
