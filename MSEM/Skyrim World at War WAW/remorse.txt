@@ -1,0 +1,5 @@
+Name:Remorse
+ManaCost:1 W W U
+Types:Sorcery
+A:SP$ ChangeZoneAll | Cost$ 1 W W U | ChangeType$ Creature | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1 |SpellDescription$ Put all creatures on the bottom of their owners' libraries.
+Oracle:Put all creatures on the bottom of their owners' libraries.

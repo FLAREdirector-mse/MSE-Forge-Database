@@ -1,0 +1,5 @@
+Name:Deem Unworthy
+ManaCost:G W B
+Types:Instant
+A:SP$ ChangeZone | Cost$ G W B | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target permanent.
+Oracle:Exile target permanent.
