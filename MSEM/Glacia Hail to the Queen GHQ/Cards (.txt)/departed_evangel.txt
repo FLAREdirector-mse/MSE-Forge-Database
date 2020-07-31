@@ -1,0 +1,8 @@
+Name:Departed Evangel
+ManaCost:B
+Types:Creature Zombie Monk
+PT:2/2
+A:SP$ PermanentCreature | Cost$ B PayLife<1>
+K:CARDNAME can't block.
+SVar:AltCost:Cost$ B PayLife<1> | ActivationZone$ Graveyard | Description$ You may cast CARDNAME from your graveyard.
+Oracle:As an additional cost to cast this spell, pay 1 life.\nDeparted Evangel can't block.\nYou may cast Departed Evangel from your graveyard.
