@@ -1,0 +1,5 @@
+Name:Violent Collapse
+ManaCost:1 B B
+Types:Sorcery
+A:SP$ PumpAll | Cost$ 1 B B | ValidCards$ Creature | NumAtt$ -3 | NumDef$ -3 | IsCurse$ True | SpellDescription$ All creatures get -3/-3 until end of turn.
+Oracle:All creatures get -3/-3 until end of turn.

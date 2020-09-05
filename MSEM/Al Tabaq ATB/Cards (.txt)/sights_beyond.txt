@@ -1,0 +1,9 @@
+Name:Sights Beyond
+ManaCost:U
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigScry | TriggerDescription$ When CARDNAME enters the battlefield, scry 3.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | CheckSVar$ Concord | SVarCompare$ GE4 | Execute$ TrigDraw | TriggerDescription$ Concord — At the beginning of your upkeep, if there are four or more card types among permanents you control, draw a card.
+SVar:TrigScry:DB$ Scry | ScryNum$ 3
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+SVar:Concord:Count$CardControllerTypes.Battlefield
+Oracle:When Sights Beyond enters the battlefield, scry 3.\nConcord — At the beginning of your upkeep, if there are four or more card types among permanents you control, draw a card.

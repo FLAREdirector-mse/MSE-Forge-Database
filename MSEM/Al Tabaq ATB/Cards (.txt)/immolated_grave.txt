@@ -1,0 +1,7 @@
+Name:Immolated Grave
+ManaCost:no cost
+Types:Land Desert
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Animate | Cost$ 2R 2R | Defined$ Self | Power$ 3 | Toughness$ 1 | Types$ Creature,Elemental | Colors$ Red | Keywords$ First Strike | SpellDescription$ CARDNAME becomes a 3/1 red Elemental creature with first strike until end of turn. It's still a land.
+Oracle:Immolated Grave enters the battlefield tapped.\n{T}: Add {R}.\n{2/R}{2/R}: Immolated Grave becomes a 3/1 red Elemental creature with first strike until end of turn. It's still a land.

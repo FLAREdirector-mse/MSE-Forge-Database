@@ -1,4 +1,4 @@
-Name:Extirpate
+Name:Seal the Tomb
 ManaCost:B
 Types:Instant
 A:SP$ ChangeZone | Cost$ B | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Card.nonBasic | TgtPrompt$ Select target card in a graveyard other than a basic land | RememberTargets$ True | ForgetOtherTargets$ True | SubAbility$ ExileYard | SpellDescription$ Choose target card in a graveyard other than a basic land card. Search its owner's graveyard, hand, and library for all cards with the same name as that card and exile them. Then that player shuffles their library.

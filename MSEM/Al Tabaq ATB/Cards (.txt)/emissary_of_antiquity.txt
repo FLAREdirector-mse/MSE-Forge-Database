@@ -1,0 +1,9 @@
+Name:Emissary of Antiquity
+ManaCost:R R R
+Types:Creature Dragon
+PT:3/3
+K:Flying
+K:Haste
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPlay | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, you may cast a noncreature card with converted mana cost 3 or less from your hand without paying its mana cost.
+SVar:TrigPlay:DB$ Play | Valid$ Card.nonCreature+nonLand+YouOwn+cmcLE3 | ValidZone$ Hand | WithoutManaCost$ True | Amount$ 1 | Controller$ You | Optional$ True
+Oracle:Flying, haste\nWhenever Emissary of Antiquity deals combat damage to a player, you may cast a noncreature card with converted mana cost 3 or less from your hand without paying its mana cost.

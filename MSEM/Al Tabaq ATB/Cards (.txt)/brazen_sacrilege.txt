@@ -1,0 +1,10 @@
+Name:Brazen Sacrilege
+ManaCost:R R
+Types:Instant
+A:SP$ DealDamage | Cost$ R R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
+A:AB$ Effect | Cost$ R R ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | Name$ Brazen Sacrilege Effect | ReplacementEffects$ DoubleDamage | SVars$ DmgTwice,ExileEffect,X | SpellDescription$ The next time a spell you control would deal damage this turn, it deals double that damage instead.
+SVar:DoubleDamage:Event$ DamageDone | ValidSource$ Spell.YouCtrl | ReplaceWith$ DmgTwice | Description$ The next time a spell you control would deal damage this turn, it deals double that damage instead.
+SVar:DmgTwice:DB$ ReplaceEffect | VarName$ DamageAmount | VarValue$ X | References$ X | SubAbility$ ExileEffect
+SVar:ExileEffect:DB$ ChangeZone | Defined$ Self | Origin$ Command | Destination$ Exile
+SVar:X:ReplaceCount$DamageAmount/Twice
+Oracle:Brazen Sacrilege deals 3 damage to any target.\n{R}{R}, Exile Brazen Sacrilege from your graveyard: The next time a spell you control would deal damage this turn, it deals double that damage instead.

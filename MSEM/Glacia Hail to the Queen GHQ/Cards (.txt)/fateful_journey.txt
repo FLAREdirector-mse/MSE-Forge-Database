@@ -1,0 +1,8 @@
+Name:Fateful Journey
+ManaCost:1 B
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 B | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Card | ChangeNum$ 1 | Mandatory$ True | SubAbility$ DBLoseLife | Reveal$ True | RememberChanged$ True | SpellDescription$ Search your library for a card, reveal it, then shuffle your library and put that card on top of it. You lose life equal to its converted mana cost.
+SVar:DBLose:DB$ LoseLife | LifeAmount$ X | SubAbility$ DBCleanup | References$ X
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$CardManaCost
+Oracle:Search your library for a card, reveal it, then shuffle your library and put that card on top of it. You lose life equal to its converted mana cost.

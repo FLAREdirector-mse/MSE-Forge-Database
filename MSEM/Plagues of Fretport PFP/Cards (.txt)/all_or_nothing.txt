@@ -1,0 +1,10 @@
+Name:All or Nothing
+ManaCost:2 B R
+Types:Instant
+A:SP$ ChooseNumber | Cost$ 2 B R | SubAbility$ DBDig | SpellDescription$ Choose a number. Reveal that many cards from the top of your library and put them into your hand. You lose life equal to the total converted mana cost of those cards.
+SVar:DBDig:DB$ Dig | Defined$ You | DigNum$ X | Reveal$ True | ChangeNum$ All | DestinationZone$ Hand | RememberChanged$ True | References$ X | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ Y | References$ Y | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Number$ChosenNumber
+SVar:Y:Remembered$SumCMC
+Oracle:Choose a number. Reveal that many cards from the top of your library and put them into your hand. You lose life equal to the total converted mana cost of those cards.

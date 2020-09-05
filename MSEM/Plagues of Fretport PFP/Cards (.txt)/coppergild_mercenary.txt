@@ -1,0 +1,8 @@
+Name:Coppergild Mercenary
+ManaCost:2 G G
+Types:Creature Human Warrior
+PT:4/4
+K:CARDNAME can't be countered.
+K:Persist
+S:Mode$ Continuous | Affected$ Creature.Self+HasCounters | AddKeyword$ Hexproof | Description$ CARDNAME has hexproof as long as it has one or more counters on it.
+Oracle:Coppergild Mercenary can't be countered.\nCoppergild Mercenary has hexproof as long as it has one or more counters on it.\nPersist

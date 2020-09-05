@@ -1,0 +1,7 @@
+Name:Days of Decay
+ManaCost:2 B G
+Types:Instant
+A:SP$ Charm | Cost$ 2 B G | Choices$ DBDestroy,DBPutCounterAll
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Card.nonCreature+nonLand | TgtPrompt$ Select target noncreature, nonland permanent | SpellDescription$ Destroy target noncreature, nonland permanent.
+SVar:DBPutCounterAll:DB$ PutCounterAll | ValidCards$ Creature | CounterType$ M1M1 | CounterNum$ 1 | IsCurse$ True | SpellDescription$ Put a -1/-1 counter on each creature.
+Oracle:Choose one —\n• Destroy target noncreature, nonland permanent.\n• Put a -1/-1 counter on each creature.

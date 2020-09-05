@@ -1,8 +1,9 @@
-# TODO
 Name:Ninhasir's March
 ManaCost:1 R R
 Types:Legendary Enchantment
-
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDealDamage | TriggerDescription$ When CARDNAME enters the battlefield, it deals 3 damage to any target.
+SVar:TrigDealDamage:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3
+A:AB$ SetState | Cost$ 1 R R | Defined$ Self | IsPresent$ Card.Mountain+YouCtrl | PresentCompare$ GE5 | Mode$ Transform | SpellDescription$ Transform CARDNAME. Activate this ability only if your fealty to Mountains is five or greater.
 AlternateMode:DoubleFaced
 Oracle:When Ninhasir's March enters the battlefield, it deals 3 damage to any target.\n{1}{R}{R}: Transform Ninhasir's March. Activate this ability only if your fealty to Mountains is five or greater.
 
@@ -12,7 +13,13 @@ Name:Ninhasir, God of Creation
 ManaCost:no cost
 Colors:red
 Types:Legendary Enchantment Creature God
-K:Indestructible
 PT:5/5
-
-Oracle:(Transforms from Ninhasir's March.)\nIndestructible\nWhen this creature transforms into Ninhasir, God of Creation, discard your hand, then draw that many cards plus one.\nWhenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy.
+K:Indestructible
+T:Mode$ Transformed | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ When this creature transforms into CARDNAME, discard the cards in your hand, then draw that many cards plus one.
+SVar:TrigDiscard:DB$ Discard | Defined$ You | RememberDiscarded$ True | Mode$ Hand | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ X | References$ X | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+T:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ You | Execute$ TrigCopy | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy.
+SVar:TrigCopy:DB$ CopySpellAbility | Defined$ TriggeredSpellAbility
+SVar:X:Remembered$Amount.Plus.1
+Oracle:Indestructible\nWhen this creature transforms into Ninhasir, God of Creation, discard the cards in your hand, then draw that many cards plus one.\nWhenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy.

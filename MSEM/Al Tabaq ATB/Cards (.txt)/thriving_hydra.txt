@@ -1,0 +1,16 @@
+Name:Thriving Hydra
+ManaCost:4 G G G G
+Types:Creature Hydra
+PT:0/0
+K:Trample
+K:etbCounter:P1P1:4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigRepeat | TriggerDescription$ When CARDNAME enters the battlefield, for each other creature you control, put X +1/+1 counters on that creature, where X is four minus its power.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDoubleCounters | TriggerDescription$ Whenever CARDNAME attacks, double the number of +1/+1 counters on each creature you control.
+SVar:TrigRepeat:DB$ RepeatEach | RepeatSubAbility$ DBPutCounter | RepeatCards$ Creature.Other+YouCtrl
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ P1P1 | CounterNum$ X
+SVar:TrigDoubleCounters:DB$ MultiplyCounter | Defined$ Valid Creature.YouCtrl | CounterType$ P1P1
+SVar:X:Remembered$CardPower/NMinus.4
+DeckHints:Ability$Counters
+DeckHas:Ability$Counters
+SVar:HasAttackEffect:TRUE
+Oracle:Trample\nThriving Hydra enters the battlefield with four +1/+1 counters on it.\nWhen Thriving Hydra enters the battlefield, for each other creature you control, put X +1/+1 counters on that creature, where X is four minus its power.\nWhenever Thriving Hydra attacks, double the number of +1/+1 counters on each creature you control.

@@ -1,0 +1,7 @@
+Name:Nomad's Township
+ManaCost:no cost
+Types:Land Swamp Forest
+T:Mode$ Taps | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ Whenever CARDNAME becomes tapped, you lose 1 life unless you control two or more basic lands.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1 | ConditionCheckSVar$ X | ConditionSVarCompare$ LE1 | References$ X
+SVar:X:Count$Valid Land.Basic+YouCtrl
+Oracle:({T}: Add {B} or {G}.)\nWhenever Nomad's Township becomes tapped, you lose 1 life unless you control two or more basic lands.

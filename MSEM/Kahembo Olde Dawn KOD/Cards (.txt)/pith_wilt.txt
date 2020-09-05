@@ -1,0 +1,11 @@
+Name:Pith Wilt
+ManaCost:GW B
+Types:Instant
+A:SP$ Destroy | Cost$ GW B | ValidTgts$ Permanent.nonLand | AITgts$ Card.cmcLEX | TgtPrompt$ Select target nonland permanent | ConditionCheckSVar$ Y | ConditionSVarCompare$ LEX | References$ X,Y | SpellDescription$ Destroy target nonland permanent if its converted mana cost is less than or equal to the number of colors among spells you've cast this turn.
+SVar:Y:Targeted$CardManaCost
+SVar:X:Count$ThisTurnCast_Card.White+YouCtrl/Plus.SpellUBRG
+SVar:SpellUBRG:Count$ThisTurnCast_Card.Blue+YouCtrl/Plus.SpellBRG
+SVar:SpellBRG:Count$ThisTurnCast_Card.Black+YouCtrl/Plus.SpellRG
+SVar:SpellRG:Count$ThisTurnCast_Card.Red+YouCtrl/Plus.SpellG
+SVar:SpellG:Count$ThisTurnCast_Card.Green+YouCtrl
+Oracle:Destroy target nonland permanent if its converted mana cost is less than or equal to the number of colors among spells you've cast this turn.
