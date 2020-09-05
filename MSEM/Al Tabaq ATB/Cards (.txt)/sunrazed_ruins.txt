@@ -1,0 +1,7 @@
+Name:Sunrazed Ruins
+ManaCost:no cost
+Types:Land Desert
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Animate | Cost$ 2W 2W | Defined$ Self | Power$ 2 | Toughness$ 3 | Types$ Creature,Elemental | Colors$ White | Keywords$ Lifelink | SpellDescription$ CARDNAME becomes a 2/3 white Elemental creature with lifelink until end of turn. It's still a land.
+Oracle:Sunrazed Ruins enters the battlefield tapped.\n{T}: Add {W}.\n{2/W}{2/W}: Sunrazed Ruins becomes a 2/3 white Elemental creature with lifelink until end of turn. It's still a land.

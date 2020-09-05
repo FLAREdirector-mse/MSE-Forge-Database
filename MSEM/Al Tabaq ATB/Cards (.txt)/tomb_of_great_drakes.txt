@@ -1,0 +1,7 @@
+Name:Tomb of Great Drakes
+ManaCost:no cost
+Types:Land Desert
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Animate | Cost$ 2U 2U | Defined$ Self | Power$ 2 | Toughness$ 2 | Types$ Creature,Elemental | Colors$ Blue | Keywords$ Flying | SpellDescription$ CARDNAME becomes a 2/2 blue Elemental creature with flying until end of turn. It's still a land.
+Oracle:Tomb of Great Drakes enters the battlefield tapped.\n{T}: Add {U}.\n{2/U}{2/U}: Tomb of Great Drakes becomes a 2/2 blue Elemental creature with flying until end of turn. It's still a land.

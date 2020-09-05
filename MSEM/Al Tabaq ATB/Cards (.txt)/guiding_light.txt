@@ -1,0 +1,8 @@
+Name:Guiding Light
+ManaCost:W W
+Types:Enchantment
+K:ETBReplacement:Other:ChooseColor
+SVar:ChooseColor:DB$ ChooseColor | Defined$ You | AILogic$ MostProminentInHumanDeck | SpellDescription$ As CARDNAME enters the battlefield, choose a color.
+S:Mode$ Continuous | Affected$ You | AddKeyword$ Hexproof:Card.ChosenColor:ChosenColor | Description$ You have hexproof from the chosen color.
+S:Mode$ PreventDamage | Target$ Creature.YouCtrl | Source$ Card.ChosenColor | Amount$ 1 | Description$ If a creature you control would be dealt damage by a source of the chosen color, prevent 1 of that damage.
+Oracle:As Guiding Light enters the battlefield, choose a color.\nYou have hexproof from the chosen color.\nIf a creature you control would be dealt damage by a source of the chosen color, prevent 1 of that damage.

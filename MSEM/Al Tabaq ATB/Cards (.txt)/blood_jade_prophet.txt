@@ -1,0 +1,11 @@
+Name:Blood Jade Prophet
+ManaCost:B B B
+Types:Creature Human Wizard
+PT:4/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters the battlefield, reveal the top three cards of your library. For each card revealed this way, you may pay 2 life. If you do, put that card into your hand. Otherwise, put it into your graveyard.
+SVar:TrigDig:DB$ Dig | DigNum$ 3 | NoMove$ True | Reveal$ True | RememberRevealed$ True | SubAbility$ DBRepeat
+SVar:DBRepeat:DB$ RepeatEach | RepeatSubAbility$ DBChangeZone | RepeatCards$ Card.IsRemembered | Zone$ Library | UseImprinted$ True
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Imprinted | Origin$ Library | Destination$ Graveyard | UnlessCost$ PayLife<2> | UnlessPayer$ You | UnlessResolveSubs$ WhenPaid | ForgetChanged$ True | StackDescription$ Put [{c:Imprinted}] into your graveyard | SubAbility$ DBChangeZone2
+SVar:DBChangeZone2:DB$ ChangeZone | Defined$ Imprinted | Origin$ Library | Destination$ Hand | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:When Blood Jade Prophet enters the battlefield, reveal the top three cards of your library. For each card revealed this way, you may pay 2 life. If you do, put that card into your hand. Otherwise, put it into your graveyard.

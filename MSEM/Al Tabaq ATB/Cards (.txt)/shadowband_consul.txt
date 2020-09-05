@@ -1,0 +1,6 @@
+Name:Shadowband Consul
+ManaCost:B
+Types:Creature Mutant Rogue
+PT:2/1
+A:AB$ ChangeZone | Cost$ B PayLife<2> | Origin$ Graveyard | Destination$ Battlefield | ActivationZone$ Graveyard | Tapped$ True | SpellDescription$ Return CARDNAME from your graveyard to the battlefield tapped.
+Oracle:{B}, Pay 2 life: Return CARDNAME from your graveyard to the battlefield tapped.

@@ -1,0 +1,26 @@
+Name:Sabne's Autumn
+ManaCost:G G
+Types:Legendary Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card. You may play an additional land this turn.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBExplore
+SVar:DBExplore:DB$ Effect | StaticAbilities$ Exploration
+SVar:Exploration:Mode$ Continuous | Affected$ You | AddKeyword$ AdjustLandPlays:1 | EffectZone$ Command | Description$ You may play an additional land this turn.
+A:AB$ SetState | Cost$ 1 G G | Defined$ Self | IsPresent$ Card.Forest+YouCtrl | PresentCompare$ GE5 | Mode$ Transform | SpellDescription$ Transform CARDNAME. Activate this ability only if your fealty to Forests is five or greater.
+AlternateMode:DoubleFaced
+Oracle:When Sabne's Autumn enters the battlefield, draw a card. You may play an additional land this turn.\n{1}{G}{G}: Transform Sabne's Autumn. Activate this ability only if your fealty to Forests is five or greater.
+
+ALTERNATE
+
+Name:Sabne, God of Harvest
+ManaCost:no cost
+Colors:green
+Types:Legendary Enchantment Creature God
+PT:4/4
+K:Indestructible
+S:Mode$ Continuous | Affected$ Land.YouCtrl | AddAbility$ Mana | Description$ Lands you control have "{T}: Add {G}{G}."
+SVar:Mana:AB$Mana | Cost$ T | Produced$ G | Amount$ 2 | SpellDescription$ Add {G}{G}.
+A:AB$ RepeatEach | Cost$ 5 G G | RepeatCards$ Creature.YouCtrl | RepeatSubAbility$ DBPump | SpellDescription$ Double the power and toughness of each creature you control until end of turn.
+SVar:DBPump:DB$ Pump | Defined$ Remembered | NumAtt$ X | NumDef$ Y | References$ X,Y
+SVar:X:Remembered$CardPower
+SVar:Y:Remembered$CardToughness
+Oracle:Indestructible\nLands you control have "{T}: Add {G}{G}."\n{5}{G}{G}: Double the power and toughness of each creature you control until end of turn.
