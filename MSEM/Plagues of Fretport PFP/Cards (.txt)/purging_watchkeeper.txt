@@ -1,0 +1,8 @@
+Name:Purging Watchkeeper
+ManaCost:1 W
+Types:Creature Human Soldier
+PT:2/2
+A:AB$ ChangeZone | Cost$ G | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Card | TgtPrompt$ Select target card in a graveyard | SubAbility$ DBGainLife | SpellDescription$ Exile target card from a graveyard. You gain 1 life and CARDNAME gets +1/+1 until end of turn.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1 | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Self | NumAtt$ +1 | NumDef$ +1
+Oracle:{G}: Exile target card from a graveyard. You gain 1 life and Purging Watchkeeper gets +1/+1 until end of turn.

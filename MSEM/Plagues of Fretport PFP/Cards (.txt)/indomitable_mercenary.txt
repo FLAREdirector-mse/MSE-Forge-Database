@@ -1,4 +1,4 @@
-Name:Grizzly Bears
+Name:Indomitable Mercenary
 ManaCost:2 G G
 Types:Creature Human Warrior
 PT:5/4

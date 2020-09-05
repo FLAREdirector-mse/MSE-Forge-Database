@@ -1,0 +1,10 @@
+Name:Alexei, Instigator of Terror
+ManaCost:2 R R
+Types:Legendary Creature Human Mutant Noble
+PT:4/3
+K:Menace
+T:Mode$ Blocks | ValidCard$ Creature | TriggerZones$ Battlefield | Execute$ DelTrigBlocker | TriggerDescription$ Whenever a creature blocks, put a -1/-1 counter on that creature at end of combat.
+SVar:DelTrigBlocker:DB$ DelayedTrigger | Mode$ Phase | Phase$ EndCombat | ValidPlayer$ Player | Execute$ TrigPutCounter | RememberObjects$ TriggeredBlocker | TriggerDescription$ Put a -1/-1 on the blocking creature at end of combat.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ DelayTriggerRemembered | CounterType$ M1M1 | CounterNum$ 1
+S:Mode$ Continuous | Affected$ Creature.counters_GE1_M1M1 | AddHiddenKeyword$ CARDNAME can't block. | Description$ Creatures with -1/-1 counters on them can't block.
+Oracle:Menace\nWhenever a creature blocks, put a -1/-1 counter on that creature at end of combat.\nCreatures with -1/-1 counters on them can't block.

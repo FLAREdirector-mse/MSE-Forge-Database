@@ -1,0 +1,6 @@
+Name:Abandoned Memorial
+ManaCost:6
+Types:Artifact
+S:Mode$ Continuous | Affected$ Permanent.nonLand | AddKeyword$ CARDNAME doesn't untap during your untap step. | AddAbility$ PermUntap | Description$ Nonland permanents have "This permanent doesn't untap during your untap step" and "{2}: Untap this permanent."
+SVar:PermUntap:AB$ Untap | Cost$ 2 | SpellDescription$ Untap this permanent.
+Oracle:Nonland permanents have "This permanent doesn't untap during your untap step" and "{2}: Untap this permanent."

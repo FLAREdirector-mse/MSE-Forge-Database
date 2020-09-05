@@ -1,5 +1,5 @@
 Name:Canal Lurker
-Manacost:3 G G G
+ManaCost:3 G G G
 Types:Creature Beast Horror
 PT:7/6
 K:Trample

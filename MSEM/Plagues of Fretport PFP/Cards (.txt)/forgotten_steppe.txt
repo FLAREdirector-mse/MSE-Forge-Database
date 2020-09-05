@@ -1,0 +1,7 @@
+Name:Forgotten Steppe
+ManaCost:no cost
+Types:Land Mountain Plains
+T:Mode$ Taps | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ Whenever CARDNAME becomes tapped, you lose 1 life unless you control two or more basic lands.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1 | ConditionCheckSVar$ X | ConditionSVarCompare$ LE1 | References$ X
+SVar:X:Count$Valid Land.Basic+YouCtrl
+Oracle:({T}: Add {R} or {W}.)\nWhenever Forgotten Steppe becomes tapped, you lose 1 life unless you control two or more basic lands.
