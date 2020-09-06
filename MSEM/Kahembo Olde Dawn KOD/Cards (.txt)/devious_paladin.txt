@@ -1,0 +1,11 @@
+Name:Devious Paladin
+ManaCost:1 W B
+Types:Creature Badger Knight
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Permanent.YouCtrl+Legendary,Enchantment.YouCtrl | Execute$ TrigGain | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, you gain 1 life and each opponent loses 1 life. (Enchantments and legendary permanents are storied.)
+SVar:TrigGain:DB$ GainLife | Defined$ You | LifeAmount$ 1 | SubAbility$ DBDrainLife
+SVar:DBDrainLife:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 1
+DeckHas:Ability$LifeGain
+SVar:BuffedBy:Enchantment
+SVar:BuffedBy:Legendary
+Oracle:Whenever a storied permanent enters the battlefield under your control, you gain 1 life and each opponent loses 1 life. (Enchantments and legendary permanents are storied.)

@@ -1,0 +1,9 @@
+Name:Simian Sentinel
+ManaCost:2 R G
+Types:Creature Monkey Warrior
+K:Trample
+PT:3/3
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME attacks, it gets +X/+0 until end of turn, where X is the number of lore counters on Sagas you control.
+SVar:TrigPump:DB$ Pump | Defined$ Self | NumAtt$ X | References$ X
+SVar:X:Count$TotalCounters_LORE_Saga.YouCtrl
+Oracle:Trample\nWhenever Simian Sentinel attacks, it gets +X/+0 until end of turn, where X is the number of lore counters on Sagas you control.

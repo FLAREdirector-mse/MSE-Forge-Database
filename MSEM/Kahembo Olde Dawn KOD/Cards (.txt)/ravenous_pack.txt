@@ -1,0 +1,6 @@
+Name:Ravenous Pack
+ManaCost:3 R
+Types:Creature Dog
+PT:2/2
+K:Double Strike
+Oracle:Double strike

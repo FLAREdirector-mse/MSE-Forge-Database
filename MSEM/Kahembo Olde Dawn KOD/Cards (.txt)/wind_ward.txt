@@ -1,0 +1,8 @@
+# TODO
+Name:Wind Ward
+ManaCost:1 U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U | TargetType$ Spell | TgtPrompt$ Select target spell or ability that targets you or a permanent you control | ValidTgts$ Card | TargetValidTargeting$ Permanent.YouCtrl+inZoneBattlefield,You | SubAbility$ PutCounters | SpellDescription$ Counter target spell that targets you or a permanent you control.
+SVar:PutCounters:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1 | Defined$ CheckTgt | References$ CheckTgt | SpellDescription$ If that spell targeted one or more creatures, put a +1/+1 counter on each of those creatures.
+SVar:CheckTgt:TargetedByTarget$Valid Creature
+Oracle:Counter target spell that targets you or a permanent you control. If that spell targeted one or more creatures, put a +1/+1 counter on each of those creatures.

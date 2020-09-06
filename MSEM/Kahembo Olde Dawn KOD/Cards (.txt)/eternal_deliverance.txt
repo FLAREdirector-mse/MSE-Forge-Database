@@ -1,0 +1,8 @@
+Name:Eternal Deliverance
+ManaCost:3 W B
+Types:Enchantment Aura Curse
+K:Enchant player
+A:SP$ Attach | Cost$ 3 W B | ValidTgts$ Player | AILogic$ Curse
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Player.EnchantedBy | TriggerZones$ Battlefield | Execute$ TrigLife | TriggerDescription$ At the beginning of enchanted player's upkeep, their life total becomes 10.
+SVar:TrigLife:DB$ SetLife | Defined$ TriggeredPlayer | LifeAmount$ 10
+Oracle:At the beginning of enchanted player's upkeep, their life total becomes 10.

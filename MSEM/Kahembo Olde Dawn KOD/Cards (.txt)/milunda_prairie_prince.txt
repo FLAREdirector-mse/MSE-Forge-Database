@@ -1,0 +1,12 @@
+Name:Milunda, Prairie Prince
+ManaCost:2 W B
+Types:Legendary Creature Horse Knight
+K:Lifelink
+PT:3/4
+
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDrain | TriggerDescription$ When CARDNAME enters the battlefield, each opponent loses life equal to the number of storied permanents you control and you gain that much life. (Enchantments and legendary permanents are storied.)
+SVar:TrigDrain:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ X | References$ X | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses life equal to the number of storied permanents you control and you gain that much life. (Enchantments and legendary permanents are storied.)
+SVar:DBGainLife:DB$GainLife | Defined$ You | LifeAmount$ X | References$ X
+SVar:X:Count$Valid Enchantment.YouCtrl,Permanent.Legendary+YouCtrl
+
+Oracle:Lifelink\nWhen Milunda, Prairie Prince enters the battlefield, each opponent loses life equal to the number of storied permanents you control and you gain that much life. (Enchantments and legendary permanents are storied.)

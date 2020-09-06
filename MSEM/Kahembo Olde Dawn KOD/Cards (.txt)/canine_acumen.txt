@@ -1,0 +1,15 @@
+Name:Canine Acumen
+ManaCost:R
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ R | ValidTgts$ Creature | AILogic$ Pump
+SVar:AltCost:Cost$ 2 R | ActivationZone$ Hand | Description$ {2}{R} — Create a 1/1 red Dog creature token, then attach Canine Acumen to it.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | CheckSVar$ AltCostPaid | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, if its alternate cost was paid, create a 1/1 red Dog creature token, then attach CARDNAME to it.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ r_1_1_dog | TokenOwner$ You | LegacyImage$ r 1 1 dog kod | RememberTokens$ True | SubAbility$ DBAttach2
+SVar:DBAttach2:DB$ Attach | Defined$ Remembered | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 2 | AddKeyword$ First Strike | Description$ Enchanted creature gets +2/+0 and has first strike.
+SVar:AltCostPaid:Count$AltCost.1.0
+SVar:NonStackingAttachEffect:True
+DeckHas:Ability$Token
+Oracle:You may cast this spell with no targets for {2}{R}. If you do, create a 1/1 red Dog creature token, then attach this Aura to that token as it resolves.\nEnchant creature\nEnchanted creature gets +2/+0 and has first strike.

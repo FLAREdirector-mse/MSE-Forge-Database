@@ -1,0 +1,7 @@
+Name:Ring-Tailed Ascetic
+ManaCost:1 G
+Types:Creature Lemur Cleric
+PT:2/2
+S:Mode$ ReduceCost | ValidCard$ Saga | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Saga spells you cast cost {1} less to cast.
+DeckHints:Type$Saga
+Oracle:Saga spells you cast cost {1} less to cast.

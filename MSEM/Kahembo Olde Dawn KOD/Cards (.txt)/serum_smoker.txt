@@ -1,0 +1,8 @@
+# TODO
+Name:Serum Smoker
+ManaCost:2 U
+Types:Creature Cat Bard
+PT:2/2
+T:Mode$ SpellCast | ValidCard$ Instant.Tale,Sorcery.Tale | ValidActivatingPlayer$ You | Execute$ TrigRansom | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a Tale, exile target creature an opponent controls until its owner pays {2}.
+
+Oracle:Whenever you cast a Tale, exile target creature an opponent controls until its owner pays {2}. (It enters the battlefield under its owner's control.)

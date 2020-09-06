@@ -1,0 +1,8 @@
+Name:Join the Colony
+ManaCost:2 G
+Types:Instant
+A:SP$ Charm | Cost$ 2 G | Choices$ DBToken,DBPutCounter | CharmNum$ 2 | CanRepeatModes$ True
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ g_1_1_insect | TokenOwner$ You | LegacyImage$ g 1 1 insect kod | SpellDescription$ Create a 1/1 green Insect creature token.
+SVar:DBPutCounter:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control to put a +1/+1 counter on | AILogic$ Good | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on target creature you control.
+DeckHas:Ability$Token
+Oracle:Choose two. You may choose the same mode more than once.\n• Create a 1/1 green Insect creature token.\n• Put a +1/+1 counter on target creature you control.

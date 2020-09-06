@@ -1,0 +1,6 @@
+Name:Fateful Eruption
+ManaCost:4 R R
+Types:Sorcery
+A:SP$ Sacrifice | Cost$ 4 R R | Amount$ 6 | SacValid$ Permanent | Defined$ Player | SpellDescription$ Each player sacrifices six permanents.
+AI:RemoveDeck:All
+Oracle:Each player sacrifices six permanents.

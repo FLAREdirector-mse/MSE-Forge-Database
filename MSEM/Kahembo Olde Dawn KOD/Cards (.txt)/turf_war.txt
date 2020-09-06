@@ -1,0 +1,9 @@
+Name:Turf War
+ManaCost:1 G
+Types:Sorcery
+A:SP$ Pump | Cost$ 1 G | ValidTgts$ Creature.YouCtrl | RememberTargets$ True | TgtPrompt$ Choose target creature you control | SubAbility$ DBFight | SpellDescription$ Target creature you control fights target creature you don't control.
+SVar:DBFight:DB$ Fight | Defined$ Remembered | ValidTgts$ Creature.YouDontCtrl | SubAbility$ PutCounter | TgtPrompt$ Choose target creature you don't control
+SVar:PutCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ If the creature you control survives, put a +1/+1 counter on it. | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+DeckHas:Ability$Counters
+Oracle:Target creature you control fights target creature you don't control. If the creature you control survives, put a +1/+1 counter on it.

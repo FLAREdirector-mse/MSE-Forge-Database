@@ -1,0 +1,8 @@
+Name:Mwiti, Ever-Scarred
+ManaCost:4 R
+Types:Legendary Creature Dog Warrior
+K:Menace
+PT:5/3
+S:Mode$ Continuous | Affected$ Dog.attacking+YouCtrl+Other | AddPower$ 2 | Description$ Attacking creatures you control get +2/+0.
+SVar:PlayMain1:TRUE
+Oracle:Menace\nOther attacking Dogs you control get +2/+0.

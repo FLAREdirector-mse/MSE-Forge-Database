@@ -1,3 +1,5 @@
+# TODO Permutate operates on the honor system; you may remove a counter from a creature you control, then put two P1P1 counters on that same creature.
+# --FLAREdirector
 Name:Nectarkin
 ManaCost:1 U
 Types:Creature Bird

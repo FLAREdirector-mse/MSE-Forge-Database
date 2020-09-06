@@ -1,0 +1,8 @@
+Name:Kwende Peak Sentry
+ManaCost:4 R
+Types:Creature Ape Warrior
+K:Reach
+PT:4/5
+T:Mode$ CounterAdded | ValidCard$ Saga.YouCtrl | TriggerZones$ Battlefield | CounterType$ LORE | Execute$ TrigDealDamage | TriggerDescription$ Whenever a lore counter is put on a Saga you control, CARDNAME deals 1 damage to each opponent.
+SVar:TrigDealDamage:DB$ DealDamage | Defined$ Player.Opponent | NumDmg$ 1
+Oracle:Reach\nWhenever a lore counter is put on a Saga you control, Kwende Peak Sentry deals 1 damage to each opponent.

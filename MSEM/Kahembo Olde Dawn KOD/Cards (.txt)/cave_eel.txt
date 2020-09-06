@@ -1,0 +1,7 @@
+Name:Cave Eel
+ManaCost:U B
+Types:Creature Fish
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters the battlefield, look at the top three cards of your library. Put one on top and the rest on the bottom in any order.
+SVar:TrigDig:DB$ Dig | DigNum$ 3 | ChangeNum$ 1 | DestinationZone$ Library | LibraryPosition$ 0 | SpellDescription$ When CARDNAME enters the battlefield, look at the top three cards of your library. Put one on top and the rest on the bottom in any order.
+Oracle:When Cave Eel enters the battlefield, look at the top three cards of your library. Put one on top and the rest on the bottom in any order.

@@ -1,0 +1,8 @@
+Name:Chimperial Guard
+ManaCost:3 G
+Types:Creature Ape Warrior
+K:Trample
+PT:3/3
+T:Mode$ CounterAdded | ValidCard$ Saga.YouCtrl | TriggerZones$ Battlefield | CounterType$ LORE | Execute$ TrigPump | TriggerDescription$ Whenever a lore counter is placed on a Saga you control, CARDNAME gets +2/+2 until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ Self | NumAtt$ 2 | NumDef$ 2
+Oracle:Trample\nWhenever a lore counter is placed on a Saga you control, Chimperial Guard gets +2/+2 until end of turn.

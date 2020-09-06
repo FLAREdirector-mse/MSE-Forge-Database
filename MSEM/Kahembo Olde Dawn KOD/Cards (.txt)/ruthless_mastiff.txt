@@ -1,0 +1,6 @@
+Name:Ruthless Mastiff
+ManaCost:R
+Types:Creature Dog
+PT:1/2
+A:AB$ Pump | Cost$ 2 R | NumAtt$ +3 | SpellDescription$ CARDNAME gets +3/+0 until end of turn.
+Oracle:{2}{R}: Ruthless Mastiff gets +3/+0 until end of turn.

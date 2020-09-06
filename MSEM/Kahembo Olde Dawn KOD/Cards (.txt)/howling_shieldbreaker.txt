@@ -1,0 +1,11 @@
+# TODO Intended behavior is that if a non-mana ability of an artifact creature or enchantment creature is activated, Howling Shieldbreaker's controller chooses if the creature or its controller takes 2 damage.
+Name:Howling Shieldbreaker
+ManaCost:B R
+Types:Creature Hyena Warrior
+K:Menace
+PT:2/2
+T:Mode$ AbilityCast | ValidActivatingPlayer$ Opponent | ValidCard$ Creature.inZoneBattlefield,Planeswalker.inZoneBattlefield | TriggerZones$ Battlefield | Execute$ TrigDmg1 | TriggerDescription$ Whenever an opponent activates an ability of a creature or planeswalker, if it isn't a mana ability, CARDNAME deals 2 damage to that creature or planeswalker.
+SVar:TrigDmg1:DB$ DealDamage | NumDmg$ 2 | Defined$ TriggeredCard
+T:Mode$ AbilityCast | ValidActivatingPlayer$ Opponent | ValidCard$ Artifact.nonCreature+inZoneBattlefield,Enchantment.nonCreature+inZoneBattlefield,Land.nonCreature+inZoneBattlefield | TriggerZones$ Battlefield | Execute$ TrigDmg2 | TriggerDescription$ Whenever an opponent activates an ability of a noncreature, nonplaneswalker permanent, if it isn't a mana ability, CARDNAME deals 2 damage to that permanent's controller.
+SVar:TrigDmg2:DB$ DealDamage | NumDmg$ 2 | Defined$ TriggeredActivator
+Oracle:Menace\nWhenever an opponent activates an ability of a permanent, if it isn't a mana ability, Howling Shieldbreaker deals 2 damage to that permanent or that permanent's controller.

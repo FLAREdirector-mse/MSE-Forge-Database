@@ -1,0 +1,8 @@
+Name:Kutaan Incubation
+ManaCost:3 G W
+Types:Sorcery
+A:SP$ Token | Cost$ 3 G W | TokenAmount$ 3 | TokenScript$ g_1_1_insect | LegacyImage$ g 1 1 insect kod | TokenOwner$ You | RememberTokens$ True | SubAbility$ DBPutCounter
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+DeckHas:Ability$Token
+Oracle:Create three 1/1 green Insect creature tokens, then put a +1/+1 counter on each of them.

@@ -1,0 +1,12 @@
+# TODO -- Removing rot counters is not considered part of the cost.
+Name:Fester Swarm
+ManaCost:B G
+Types:Enchantment
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever a creature you control dies, put a rot counter on CARDNAME and you gain 1 life.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ ROT | CounterNum$ 1 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1
+A:AB$ Token | Cost$ XCantBe0 B G SubCounter<X/ROT> | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ g_1_1_insect | LegacyImage$ g 1 1 insect kod | CostDesc$ {B}{G}, Remove two or more rot counters from CARDNAME: | References$ X | RememberTokens$ True | SubAbility$ DBPutCounter | SpellDescription$ Create a 1/1 green Insect creature token, then put a +1/+1 counter on it for each rot counter removed this way.
+SVar:DBPutCounter:DB$ PutCounter | Choices$ Card.IsRemembered | CounterType$ P1P1 | CounterNum$ X | References$ X | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:XChoice
+Oracle:Whenever a creature you control dies, put a rot counter on Fester Swarm and you gain 1 life.\n{B}{G}, Remove two or more rot counters from Fester Swarm: Create a 1/1 green Insect creature token, then put a +1/+1 counter on it for each rot counter removed this way.

@@ -1,0 +1,9 @@
+Name:Gnarled Challenger
+ManaCost:3 R
+Types:Creature Lizard Warrior
+PT:5/2
+T:Mode$ SpellCast | ValidCard$ Card.MultiColor | ValidActivatingPlayer$ You | Execute$ TrigDiscard | TriggerZones$ Battlefield | TriggerDescription$ Prismatic — Whenever you cast a multicolored spell, you may discard a card. If you do, draw a card
+SVar:TrigDiscard:DB$ Discard | Defined$ You | NumCards$ 1 | Mode$ TgtChoose | RememberDiscarded$ True | Optional$ True | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | ConditionDefined$ Remembered | ConditionPresent$ Card | ConditionCompare$ GE1 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Prismatic — Whenever you cast a multicolored spell, you may discard a card. If you do, draw a card.

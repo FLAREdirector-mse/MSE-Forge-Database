@@ -1,0 +1,10 @@
+Name:Rapacious Instinct
+ManaCost:2 R
+Types:Enchantment Aura
+K:Enchant creature you control
+A:SP$ Attach | Cost$ 2 R | ValidTgts$ Creature.YouCtrl | AILogic$ Pump
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigDamage | TriggerDescription$ When CARDNAME enters the battlefield, enchanted creature deals damage equal to its power to target creature you don't control.
+SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature.OppCtrl,Planeswalker.OppCtrl | TgtPrompt$ Select a creature you don't control | NumDmg$ X | References$ X
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 1 | Description$ Enchanted creature gets +1/+0.
+SVar:X:Enchanted$CardPower
+Oracle:Enchant creature you control\Rapacious Instinct enters the battlefield, enchanted creature deals damage equal to its power to target creature you don't control.\nEnchanted creature gets +1/+0.

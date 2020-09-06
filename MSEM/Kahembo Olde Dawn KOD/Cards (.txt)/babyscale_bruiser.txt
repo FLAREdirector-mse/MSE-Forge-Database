@@ -1,0 +1,12 @@
+Name:Babyscale Bruiser
+ManaCost:1 G
+Types:Creature Lizard Scout
+PT:2/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigReveal | TriggerDescription$ When CARDNAME enters the battlefield, you may reveal a creature card from your hand. If you do, CARDNAME deals damage to target creature an opponent controls equal to the revealed card's power. That creature deals damage equal to its power to CARDNAME.
+SVar:TrigReveal:DB$ Reveal | RevealValid$ Card.Creature+YouCtrl | RememberRevealed$ True | SubAbility$ DBDamage
+SVar:DBDamage:DB$ DealDamage | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | NumDmg$ X | SubAbility$ DBDamageBack | References$ X | SpellDescription$ CARDNAME deals damage to target creature an opponent controls equal to the revealed card's power. That creature deals damage equal to its power to CARDNAME.
+SVar:DBDamageBack:DB$ DealDamage | Defined$ Self | NumDmg$ Y | References$ Y | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$CardPower
+SVar:Y:Targeted$CardPower
+Oracle:When Babyscale Bruiser enters the battlefield, you may reveal a creature card from your hand. If you do, Babyscale Bruiser deals damage to target creature an opponent controls equal to the revealed card's power. That creature deals damage equal to its power to Babyscale Bruiser.

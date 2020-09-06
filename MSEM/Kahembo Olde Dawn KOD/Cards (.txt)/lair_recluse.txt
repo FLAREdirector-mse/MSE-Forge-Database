@@ -1,0 +1,15 @@
+# TODO Permutate operates on the honor system; you may remove a counter from a creature you control, then put two P1P1 counters on that same creature.
+# --FLAREdirector
+Name:Lair Recluse
+ManaCost:5 G
+Types:Creature Spider
+PT:4/5
+K:ETBReplacement:Other:Counter1
+SVar:Counter1:DB$ PutCounter | ETB$ True | CounterType$ Vigilance | CounterNum$ 1 | SubAbility$ Counter2 | SpellDescription$ CARDNAME enters the battlefield with a vigilance counter and a reach counter on it.
+SVar:Counter2:DB$ PutCounter | ETB$ True | CounterType$ Reach | CounterNum$ 1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ DBPermutate | TriggerDescription$ At the beginning of your upkeep, permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBPermutate:DB$ ChooseCard | ChoiceOptional$ True | Defined$ You | Choices$ Creature.YouCtrl+HasCounters | Amount$ 1 | SubAbility$ DBRemoveCounter | SpellDescription$ Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBRemoveCounter:DB$ RemoveCounter | Defined$ ChosenCard | CounterType$ Any | CounterNum$ 1 | SubAbility$ DBPutCounters | StackDescription$ Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)
+SVar:DBPutCounters:DB$ PutCounter | Choices$ Creature.YouCtrl | CounterType$ P1P1 | CounterNum$ 2
+DeckHas:Ability$Counters
+Oracle:Lair Recluse enters the battlefield with a vigilance counter and a reach counter on it.\nAt the beginning of your upkeep, permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on another creature you control.)

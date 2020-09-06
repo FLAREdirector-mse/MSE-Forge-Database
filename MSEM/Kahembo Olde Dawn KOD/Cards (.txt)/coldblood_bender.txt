@@ -1,0 +1,8 @@
+Name:Coldblood Bender
+ManaCost:3 G
+Types:Creature Lizard Wizard
+PT:4/4
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ CBBAnimate | TriggerDescription$ At the beginning of combat on your turn, target creature you control has base power and toughness 4/4 until end of turn.
+SVar:CBBAnimate:DB$ Animate | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Power$ 4 | Toughness$ 4
+SVar:PlayMain1:TRUE
+Oracle:At the beginning of combat on your turn, target creature you control has base power and toughness 4/4 until end of turn.

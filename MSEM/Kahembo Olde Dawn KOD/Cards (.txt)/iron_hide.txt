@@ -1,0 +1,9 @@
+Name:Iron Hide
+ManaCost:G
+Types:Instant
+A:SP$ Pump | Cost$ G | ValidTgts$ Creature | TgtPrompt$ Select target creature | SubAbility$ DBBranch | StackDescription$ SpellDescription | SpellDescription$ Target creature gets +2/+2 until end of turn. If it's blocked or blocking, it gets an additional +2/+2 until end of turn.
+SVar:DBBranch:DB$ Branch | BranchConditionSVar$ X | BranchConditionSVarCompare$ EQ1 | References$ X | TrueSubAbility$ Pump2 | FalseSubAbility$ Pump1
+SVar:Pump2:DB$ Pump | Defined$ Targeted | NumAtt$ 4 | NumDef$ 4
+SVar:Pump1:DB$ Pump | Defined$ Targeted | NumAtt$ 2 | NumDef$ 2
+SVar:X:Targeted$Valid Creature.blocked,Creature.blocking
+Oracle:Target creature gets +2/+2 until end of turn. If it's blocked or blocking, it gets an additional +2/+2 until end of turn.

@@ -1,0 +1,21 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Virtuorangutan
+ManaCost:2 R
+Types:Creature Ape Bard
+K:Trample
+PT:2/1
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a noncreature spell, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+SVar:BuffedBy:nonCreature
+DeckHas:Ability$Counters
+Oracle:Trample\nWhenever you cast a noncreature spell, put a +1/+1 counter on Virtuorangutan.
+
+ALTERNATE
+
+Name:Birdsong
+ManaCost:WU
+Types:Sorcery Tale
+A:SP$ Token | Cost$ WU | TokenAmount$ 1 | TokenScript$ u_1_1_bird_flying | TokenOwner$ You | LegacyImage$ u 1 1 bird flying kod | SpellDescription$ Create a 1/1 blue Bird creature token with flying.
+DeckHas:Ability$Token
+Oracle:Create a 1/1 blue Bird creature token with flying. (Cast a copy of this spell once while this creature is on the battlefield.)

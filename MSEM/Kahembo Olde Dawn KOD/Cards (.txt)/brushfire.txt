@@ -1,0 +1,5 @@
+Name:Brushfire
+ManaCost:1 R
+Types:Instant
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ 3 | ReplaceDyingDefined$ Targeted | SpellDescription$ CARDNAME deals 3 damage to target creature. If that creature would die this turn, exile it instead.
+Oracle:Brushfire deals 3 damage to target creature. If that creature would die this turn, exile it instead.

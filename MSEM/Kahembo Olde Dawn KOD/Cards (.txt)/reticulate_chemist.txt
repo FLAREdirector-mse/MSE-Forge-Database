@@ -1,0 +1,10 @@
+Name:Reticulate Chemist
+ManaCost:1 G U
+Types:Creature Naga Wizard
+K:Flash
+PT:3/2
+T:Mode$ SpellCast | ValidCard$ Instant.Tale,Sorcery.Tale | ValidActivatingPlayer$ You | Execute$ TrigDig | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a Tale, look at the top two cards of your library. Put one into your hand and the other back on top or into your graveyard.
+SVar:TrigDig:DB$ Dig | DigNum$ 2 | ChangeNum$ 1 | DestinationZone$ Hand | LibraryPosition2$ 0 | RememberChanged$ True | SubAbility$ DBDig | StackDescription$ SpellDescription | SpellDescription$ Whenever you cast a Tale, look at the top two cards of your library. Put one into your hand and the other back on top or into your graveyard.
+SVar:DBDig:DB$ Dig | DigNum$ 1 | DestinationZone$ Library | DestinationZone2$ Graveyard | Optional$ True | LibraryPosition$ 0
+SVar:DBCleanup:DB$Cleanup | ClearRemembered$ True
+Oracle:Flash\nWhenever you cast a Tale, look at the top two cards of your library. Put one into your hand and the other back on top or into your graveyard.

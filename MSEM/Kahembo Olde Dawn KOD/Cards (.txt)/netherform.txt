@@ -1,0 +1,11 @@
+Name:Netherform
+ManaCost:4 W B
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 4 W B | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target permanent card in your graveyard | ValidTgts$ Permanent.YouCtrl | SubAbility$ Aurify | SpellDescription$ Return target permanent card from your graveyard to the battlefield. If that permanent is storied, Netherform becomes an Aura enchantment with enchant permanent. Attach it to that permanent. (Enchantments and legendary permanents are storied.)
+SVar:Aurify:DB$ Animate | IsPresent$ Card.Self | Types$ Enchantment,Aura | RemoveCardTypes$ True | OverwriteSpells$ True | Abilities$ NewAttach | Keywords$ Enchant permanent | Permanent$ True |  ConditionCheckSVar$ X | ConditionSVarCompare$ GE1 | References$ X | SubAbility$ ChangeZone
+SVar:ChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | AttachedTo$ ParentTarget | SubAbility$ NetherformAttach
+SVar:NewAttach:SP$ Attach | Cost$ 4 W B | ValidTgts$ Permanent | AILogic$ Pump
+SVar:NetherformAttach:DB$ Attach | Defined$ Remembered | IsPresent$ Card.Self
+S:Mode$ Continuous | Affected$ Permanent.EnchantedBy | AddKeyword$ Indestructible | Description$ Enchanted permanent has indestructible.
+SVar:X:Targeted$Valid Enchantment,Legendary
+Oracle:Return target permanent card from your graveyard to the battlefield. If that permanent is storied, Netherform becomes an Aura enchantment with enchant permanent. Attach it to that permanent. (Enchantments and legendary permanents are storied.)\nEnchanted permanent has indestructible.

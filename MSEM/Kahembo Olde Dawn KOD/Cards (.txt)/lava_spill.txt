@@ -1,0 +1,6 @@
+Name:Lava Spill
+ManaCost:U R
+Types:Instant
+A:SP$ DealDamage | Cost$ U R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | SubAbility$ TrigDig | TriggerDescription$ CARDNAME deals 2 damage to any target.\nLook at the top three cards of your library. Put one on top and the rest on the bottom in any order.
+SVar:TrigDig:DB$ Dig | DigNum$ 3 | ChangeNum$ 1 | ChangeValid$ Card | ForceRevealToController$ True | DestinationZone$ Library | LibraryPosition$ 0
+Oracle:Lava Spill deals 2 damage to any target.\nLook at the top three cards of your library. Put one on top and the rest on the bottom in any order.

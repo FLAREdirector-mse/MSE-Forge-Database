@@ -1,0 +1,16 @@
+# TODO Fight is not optional
+Name:Trials of Ndengo
+ManaCost:2 R G
+Types:Enchantment Saga
+K:Saga:3:DBDog,DBRhino,DBFight
+
+SVar:DBDog:DB$ Token | TokenAmount$ 1 | TokenScript$ r_1_1_dog | TokenOwner$ You | LegacyImage$ r 1 1 dog kod | SpellDescription$ Create a 1/1 red Dog creature token.
+SVar:DBRhino:DB$ Token | TokenAmount$ 1 | TokenScript$ g_4_4_rhino_warrior_trample | TokenOwner$ You | LegacyImage$ g 4 4 rhino warrior trample kod | SpellDescription$ Create a 4/4 green Rhino creature token with trample.
+
+SVar:DBFight:DB$ Fight | OptionalDecider$ You | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creatures you control | TargetMin$ 2 | TargetMax$ 2 | RememberTargets$ True | SubAbility$ DBSurvivor | SpellDescription$ You may have two target creatures you control fight. If you do and exactly one survives, put four +1/+1 counters on that creature.
+SVar:DBSurvivor:DB$ PutCounter | ConditionDefined$ Remembered | ConditionPresent$ Creature | ConditionCompare$ EQ1 | Defined$ Remembered | CounterType$ P1P1 | CounterNum$ 4 | SubAbility$ DBCleanup
+
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+
+DeckHas:Ability$Token
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI - Create a 1/1 red Dog creature token.\nII - Create a 4/4 green Rhino Warrior creature token with trample.\nIII - You may have two target creatures you control fight. If you do and exactly one survives, put four +1/+1 counters on that creature.

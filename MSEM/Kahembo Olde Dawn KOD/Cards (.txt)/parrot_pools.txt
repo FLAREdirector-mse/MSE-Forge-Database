@@ -1,0 +1,15 @@
+# TODO Draw triggers off of combat damage dealt once three or more creatures have been declared as attackers; even if one of them is blocked, you still draw a card.
+Name:Parrot Pools
+ManaCost:U R
+Types:Enchantment
+T:Mode$ SpellCast | ValidCard$ Card.MultiColor | ValidActivatingPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a multicolored spell, create a 1/1 blue Bird creature token with flying. It gains haste until end of turn.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ u_1_1_bird_flying | LegacyImage$ u 1 1 bird flying kod | RememberTokens$ True | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Remembered | KW$ Haste | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+T:Mode$ DamageDoneOnce | CombatDamage$ True | ValidSource$ Creature.YouCtrl | TriggerZones$ Battlefield | ValidTarget$ Player | CheckSVar$ CheckAttackers | SVarCompare$ GE3 | NoResolvingCheck$ True | Execute$ DBDraw | TriggerDescription$ Whenever three or more creatures you control deal combat damage to a player, draw a card.
+SVar:CheckAttackers:Count$Valid Creature.YouCtrl+attacking
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
+SVar:PlayMain1:TRUE
+SVar:BuffedBy:Card.MultiColor
+DeckHas:Ability$Token
+Oracle:Prismatic — Whenever you cast a multicolored spell, create a 1/1 blue Bird creature token with flying. It gains haste until end of turn.\nWhenever three or more creatures you control deal combat damage to a player, draw a card.

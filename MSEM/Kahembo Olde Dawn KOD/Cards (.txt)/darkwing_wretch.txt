@@ -1,0 +1,10 @@
+Name:Darkwing Wretch
+ManaCost:U B
+Types:Creature Bird
+K:Flying
+PT:2/1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigScry | TriggerDescription$ At the beginning of your upkeep, if you have at least two more cards in hand than an opponent, scry 1.
+SVar:TrigScry:DB$ Scry | ScryNum$ 1 | CheckSVar$ X | SVarCompare$ GEY | References$ X,Y 
+SVar:X:PlayerCountOpponents$HighestCardsInHand
+SVar:Y:Count$InYourHand/Plus.2
+Oracle:Flying\nAt the beginning of your upkeep, if you have at least two more cards in hand than an opponent, scry 1.

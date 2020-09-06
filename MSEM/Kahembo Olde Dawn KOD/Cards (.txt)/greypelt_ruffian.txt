@@ -1,0 +1,10 @@
+Name:Greypelt Ruffian
+ManaCost:1 R
+Types:Creature Dog Warrior
+K:Trample
+PT:3/1
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | CheckSVar$ Storied | SVarCompare$ GE1 | References$ Storied | Description$ CARDNAME gets +1/+1 as long as you control a storied permanent. (Enchantments and legendary permanents are storied.)
+SVar:BuffedBy:Enchantment
+SVar:BuffedBy:Legendary
+SVar:Storied:Count$Valid Legendary.YouCtrl,Enchantment.YouCtrl
+Oracle:Trample\nGreypelt Ruffian gets +1/+1 as long as you control a storied permanent. (Enchantments and legendary permanents are storied.)

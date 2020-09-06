@@ -1,0 +1,8 @@
+Name:Stygian Condor
+ManaCost:4 B
+Types:Creature Bird
+K:Flying
+PT:3/3
+A:AB$ Draw | Cost$ B Sac<1/Creature.Other/another creature> | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:AIPreference:SacCost$Creature.Token,Creature.cmcLE3
+Oracle:Flying\n{B}, Sacrifice another creature: Draw a card.

@@ -1,0 +1,8 @@
+Name:Bourasan Highguard
+ManaCost:R W
+Types:Creature Dog Warrior
+PT:2/2
+S:Mode$ Continuous | Affected$ Dog.YouCtrl+Other | AddPower$ 1 | AddToughness$ 1 | Description$ Other Dogs you control get +1/+1.
+SVar:PlayMain1:TRUE
+DeckHints:Type$Dog
+Oracle:Other Dogs you control get +1/+1.

@@ -1,0 +1,15 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Elken Grovetender
+ManaCost:2 G
+Types:Creature Elk Druid
+PT:3/3
+Oracle:
+
+ALTERNATE
+
+Name:See the Forest
+ManaCost:G
+Types:Sorcery Tale
+A:SP$ ChangeZone | Cost$ G | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+Oracle:Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library. (Cast a copy of this spell once while this creature is on the battlefield.)

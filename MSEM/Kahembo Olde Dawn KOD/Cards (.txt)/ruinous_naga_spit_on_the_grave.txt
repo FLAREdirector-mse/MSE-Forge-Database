@@ -1,0 +1,19 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Ruinous Naga
+ManaCost:1 R G
+Types:Creature Naga Warrior
+K:Trample
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Artifact,Enchantment,Planeswalker,Land | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever a noncreature permanent is put into a graveyard from the battlefield, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+Oracle:Trample\nWhenever a noncreature permanent is put into a graveyard from the battlefield, put a +1/+1 counter on Ruinous Naga.
+
+ALTERNATE
+
+Name:Spit on the Grave
+ManaCost:R G
+Types:Sorcery Tale
+A:SP$ Destroy | Cost$ R G | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | SubAbility$ DBDealDamage | SpellDescription$ Destroy target artifact or enchantment. CARDNAME deals 2 damage to that permanent's controller.
+SVar:DBDealDamage:DB$ DealDamage | NumDmg$ 2 | Defined$ TargetedController
+Oracle:Destroy target artifact or enchantment. Spit on the Grave deals 2 damage to that permanent's controller. (Cast a copy of this spell once while this creature is on the battlefield.)

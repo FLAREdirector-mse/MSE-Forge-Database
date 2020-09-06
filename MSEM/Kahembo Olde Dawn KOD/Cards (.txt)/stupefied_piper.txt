@@ -1,0 +1,10 @@
+Name:Stupefied Piper
+ManaCost:2 B
+Types:Creature Rabbit Bard
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Permanent.YouCtrl+Legendary | Execute$ TrigDrain | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, each opponent loses 2 life. (Enchantments and legendary permanents are storied.)
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Enchantment.YouCtrl | TriggerZones$ Battlefield | Secondary$ True | Execute$ TrigDrain | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, each opponent loses 2 life. (Enchantments and legendary permanents are storied.)
+SVar:TrigDrain:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 2
+SVar:BuffedBy:Enchantment
+SVar:BuffedBy:Legendary
+Oracle:Whenever a storied permanent enters the battlefield under your control, each opponent loses 2 life. (Enchantments and legendary permanents are storied.)

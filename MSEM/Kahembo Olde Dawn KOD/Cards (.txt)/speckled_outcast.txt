@@ -1,0 +1,7 @@
+Name:Speckled Outcast
+ManaCost:1 B R
+Types:Creature Hyena Warrior
+PT:3/3
+S:Mode$ Continuous | Affected$ Card.Self+enchanted | AddKeyword$ Menace | Description$ CARDNAME has menace as long as it's enchanted.
+SVar:EnchantMe:Once
+Oracle:Speckled Outcast has menace as long as it's enchanted.

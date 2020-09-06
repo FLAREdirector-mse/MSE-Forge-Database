@@ -1,0 +1,14 @@
+# TODO Savannah Huntsman only triggers off of P1P1, M1M1, lore, loyalty, time, and charge counters
+Name:Savannah Huntsman
+ManaCost:3 R G
+Types:Creature Cat Warrior
+PT:5/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDealDamage | TriggerDescription$ When CARDNAME enters the battlefield, it deals X damage to target creature or planeswalker, where X is the number of counters among permanents you control.
+SVar:TrigDealDamage:DB$ DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ X | References$ X
+SVar:X:Count$TotalCounters_P1P1_Permanent.YouCtrl,TotalCounters_M1M1_Permanent.YouCtrl,TotalCounters_LORE_Permanent.YouCtrl,TotalCounters_LOYALTY_Permanent.YouCtrl
+Oracle:When Savannah Huntsman enters the battlefield, it deals X damage to target creature or planeswalker, where X is the number of counters among permanents you control.
+
+# is there a way in forge to have a player choose a number and then have an opponent confirm that number
+# cause then you could do some of the uncodable things by
+# "Hey effect's controller, tell me what the number is"
+# "Hey opponent, is this number right?"

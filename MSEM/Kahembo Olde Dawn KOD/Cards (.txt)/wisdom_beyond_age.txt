@@ -1,0 +1,7 @@
+# TODO
+Name:Wisdom Beyond Age
+ManaCost:1 U R
+Types:Instant
+
+AI:RemoveDeck:Random
+Oracle:Look at the top three cards of your library. Exile one, put one into your hand, and put the rest on the bottom of your library. Wisdom Beyond Age deals damage to target creature or planeswalker equal to the exiled card's converted mana cost.

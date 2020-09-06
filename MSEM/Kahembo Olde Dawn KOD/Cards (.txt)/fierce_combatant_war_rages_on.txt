@@ -1,0 +1,16 @@
+# TODO Tales don't work
+# --FLAREdirector
+Name:Fierce Combatant
+ManaCost:R
+Types:Creature Dog Warrior
+K:Haste
+PT:1/1
+Oracle:Haste
+
+ALTERNATE
+
+Name:War Rages On
+ManaCost:1 R
+Types:Sorcery Tale
+A:SP$ PumpAll | Cost$ 1 R | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | KW$ Haste | SpellDescription$ Creatures you control get +1/+0 and gain haste until end of turn.
+Oracle:Creatures you control get +1/+0 and gain haste until end of turn. (Cast a copy of this spell once while this creature is on the battlefield.)

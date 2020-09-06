@@ -1,0 +1,8 @@
+Name:Rugged Ferocity
+ManaCost:1 R
+Types:Instant
+A:SP$ Charm | Cost$ 1 R | Choices$ Plus3POWTrample,Plus3POWFirstStrike,TrampleFirstStrike | CharmNum$ 1
+SVar:Plus3POWTrample:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +3 | KW$ Trample | SpellDescription$ The chosen creature gets +3/+0 and gains trample until end of turn.
+SVar:Plus3POWFirstStrike:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +3 | KW$ First Strike | SpellDescription$ The chosen creature gets +3/+0 and gains first strike until end of turn.
+SVar:TrampleFirstStrike:DB$ Pump | ValidTgts$ Creature | KW$ Trample & First Strike | SpellDescription$ The chosen creature gains trample and first strike until end of turn.
+Oracle:Choose target creature, then choose two —\n• The chosen creature gets +3/+0 until end of turn.\n• The chosen creature gains trample until end of turn.\n• The chosen creature gains first strike until end of turn.

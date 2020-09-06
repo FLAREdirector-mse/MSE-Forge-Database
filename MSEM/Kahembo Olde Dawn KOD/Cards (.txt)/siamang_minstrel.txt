@@ -1,0 +1,7 @@
+Name:Siamang Minstrel
+ManaCost:1 R
+Types:Creature Ape Bard
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters the battlefield, you may put a lore counter on target Saga you control.
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Saga.YouCtrl | OptionalDecider$ You | TgtPrompt$ Select target Saga you control | CounterType$ LORE | CounterNum$ 1
+Oracle:When Siamang Minstrel enters the battlefield, you may put a lore counter on target Saga you control.

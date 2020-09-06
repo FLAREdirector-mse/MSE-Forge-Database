@@ -1,0 +1,11 @@
+Name:Great Migration
+ManaCost:1 G U
+Types:Sorcery
+A:SP$ PeekAndReveal | Cost$ 1 G U | PeekAmount$ 3 | RevealValid$ Card | RememberRevealed$ True | SubAbility$ ChooseLand | SpellDescription$ Reveal the top ten cards of your library. Starting with the next opponent in turn order, each opponent chooses a different nonland card from among them. Put the chosen cards into your hand and the rest on the bottom of your library in a random order.
+SVar:ChooseLand:DB$ ChooseCard | ChoiceZone$ Library | Choices$ Card.Land+IsRemembered | Defined$ You | ForgetChosen$ True | SubAbility$ LandETB
+SVar:LandETB:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | Tapped$ True | Defined$ ChosenCard | SubAbility$ ChooseCreature
+SVar:ChooseCreature:DB$ ChooseCard | ChoiceZone$ Library | Choices$ Card.Creature+IsRemembered | Defined$ You | ForgetChosen$ True | SubAbility$ CreatureHand
+SVar:CreatureHand:DB$ ChangeZone | Origin$ Library | Destination$ Hand | Defined$ ChosenCard | SubAbility$ ShipToBottom
+SVar:ShipToBottom:DB$ ChangeZone | Defined$ Remembered | Origin$ Library | Destination$ Library | LibraryPosition$ -1 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearChosenCard$ True
+Oracle:Reveal the top three cards of your library. You may put a land card from among them onto the battlefield tapped, then you may put a creature card from among them into your hand. Put the rest on the bottom of your library in any order.

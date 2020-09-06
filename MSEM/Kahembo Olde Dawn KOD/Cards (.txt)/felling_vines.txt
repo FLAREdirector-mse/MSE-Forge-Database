@@ -1,0 +1,11 @@
+Name:Felling Vines
+ManaCost:2 G
+Types:Instant
+A:SP$ Charm | Cost$ 2 G | Choices$ DBDestroyA,DBDestroyE,DBDestroyF
+SVar:DBDestroyA:DB$ GainLife | Defined$ You | LifeAmount$ 3 | SubAbility$ DestroyA | SpellDescription$ You gain 3 life. Destroy target artifact.
+SVar:DestroyA | ValidTgts$ Artifact | TgtPrompt$ Select target artifact
+SVar:DBDestroyE:DB$ GainLife | Defined$ You | LifeAmount$ 3 | SubAbility$ DestroyE | SpellDescription$ You gain 3 life. Destroy target enchantment.
+SVar:DestroyE | ValidTgts$ Enchantment | TgtPrompt$ Select target enchantment
+SVar:DBDestroyF:DB$ GainLife | Defined$ You | LifeAmount$ 3 | SubAbility$ DestroyF | SpellDescription$ You gain 3 life. Destroy target creature with flying.
+SVar:DestroyF | ValidTgts$ Creature.withFlying | TgtPrompt$ Select target creature with flying
+Oracle:You gain 3 life. Choose one —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Destroy target creature with flying.

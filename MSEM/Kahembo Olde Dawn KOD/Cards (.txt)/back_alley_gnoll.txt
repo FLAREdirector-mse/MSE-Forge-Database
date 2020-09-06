@@ -1,0 +1,11 @@
+Name:Back-Alley Gnoll
+ManaCost:1 B R
+Types:Creature Hyena Warrior
+K:First Strike
+PT:2/3
+S:Mode$ Continuous | Affected$ Card.Self+enchanted | AddKeyword$ Lifelink | References$ VarBlack | Description$ CARDNAME has lifelink as long as it's enchanted by a black Aura.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted | AddPower$ 2 | References$ VarRed | Description$ CARDNAME gets +2/+0 as long as it's enchanted by a red Aura.
+SVar:VarBlack:Count$Valid Aura.Black+Attached
+SVar:VarRed:Count$Valid Aura.Red+Attached
+SVar:BuffedBy:Aura.Black,Aura.Red
+Oracle:First strike\nBack-Alley Gnoll has lifelink as long as it's enchanted by a black Aura.\nBack-Alley Gnoll gets +2/+0 as long as it's enchanted by a red Aura.

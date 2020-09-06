@@ -1,0 +1,11 @@
+# TODO
+Name:Kafyabari Enforcer
+ManaCost:2 B R
+Types:Creature Hyena Warrior
+K:Haste
+PT:4/3
+
+T:Mode$ ChangesZone | ValidCard$ Creature.enchanted+YouCtrl | Origin$ Battlefield | Destination$ Graveyard | TriggerZones$ Battlefield | Execute$ TrigAura | TriggerDescription$ Whenever another creature you control dies, you may return an Aura that was attached to that creature to the battlefield attached to CARDNAME.
+SVar:TrigAura:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ChangeType$ Aura.CanEnchantSource+AttachedTo TriggeredCard | AttachedTo$ Self
+
+Oracle:Haste\nWhenever another creature you control dies, you may return an Aura that was attached to that creature to the battlefield attached to Kafyabari Enforcer.

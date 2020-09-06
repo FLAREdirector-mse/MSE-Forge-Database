@@ -1,0 +1,6 @@
+Name:Lace-Barred Owl
+ManaCost:W U
+Types:Creature Bird
+K:Flying
+PT:2/2
+Oracle:Flying

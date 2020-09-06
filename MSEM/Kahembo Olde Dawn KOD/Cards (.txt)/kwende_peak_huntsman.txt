@@ -1,0 +1,9 @@
+Name:Kwende Peak Huntsman
+ManaCost:4 G
+Types:Creature Lizard Warrior
+K:Vigilance
+PT:3/5
+T:Mode$ SpellCast | ValidCard$ Card.MultiColor | ValidActivatingPlayer$ You | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a noncreature spell, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+DeckHas:Ability$Counters
+Oracle:Vigilance\nPrismatic — Whenever you cast a multicolored spell, put a +1/+1 counter on Kwende Peak Huntsman.

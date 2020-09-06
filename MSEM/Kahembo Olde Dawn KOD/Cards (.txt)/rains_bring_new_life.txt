@@ -1,0 +1,9 @@
+Name:Rains Bring New Life
+ManaCost:1 G
+Types:Enchantment Saga
+K:Saga:3:DBSearch,DBLand,DBwubrg
+SVar:DBSearch:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Land.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.
+SVar:DBLand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Land.YouCtrl | SpellDescription$ You may put a land card from your hand onto the battlefield.
+SVar:DBwubrg:DB$ AnimateAll | ValidCards$ Land.YouCtrl | Abilities$ ABMana | SpellDescription$ Lands you control gain "{T}: Add one mana of any color" until end of turn.
+SVar:ABMana:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nII — You may put a land card from your hand onto the battlefield.\nIII — Lands you control gain "{T}: Add one mana of any color" until end of turn.

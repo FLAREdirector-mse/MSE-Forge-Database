@@ -2,8 +2,10 @@ Name:A Grave Sentence
 ManaCost:3 B
 Types:Enchantment Saga
 K:Saga:4:DBPump,DBPump,DBPump,DBLoseLife
+
 SVar:DBPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -X | NumDef$ -X | References$ X | SpellDescription$ Target creature gets -X/-X until end of turn, where X is the number of lore counters on CARDNAME.
 SVar:DBLoseLife:DB$ LoseLife | ValidTgts$ Opponent | LifeAmount$ Y | References$ Y | SpellDescription$ Target opponent loses 1 life for each creature card in their graveyard.
+
 SVar:X:Count$CardCounters.LORE
 SVar:Y:TargetedPlayer$ValidGraveyard Creature.YouOwn
 SVar:PlayMain1:TRUE

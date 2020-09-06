@@ -1,0 +1,9 @@
+Name:Maddening Thoughts
+ManaCost:2 R
+Types:Sorcery
+A:SP$ Draw | Cost$ R Discard<1/Card> | CostDesc$ As an additional cost to cast CARDNAME, discard a card. | NumCards$ 3 | Defined$ You | SpellDescription$ Draw three cards, then discard a card. | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$Discard | Defined$ You | NumCards$ 1 | Mode$ TgtChoose
+DeckHas:Ability$Discard
+DeckHints:Keyword$Madness & Ability$Delirium
+AI:RemoveDeck:All
+Oracle:As an additional cost to cast Maddening Thoughts, discard a card.\nDraw three cards, then discard a card.

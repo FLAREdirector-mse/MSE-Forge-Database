@@ -1,0 +1,9 @@
+Name:Headhunter Mantis
+ManaCost:2 B G
+Types:Creature Insect
+K:Reach
+PT:2/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | CheckSVar$ Morbid | SVarCompare$ GE1 | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, if a creature you controlled died this turn, create a 1/1 green Insect creature token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ g_1_1_insect | TokenOwner$ You | LegacyImage$ g 1 1 insect kod
+SVar:Morbid:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature.YouCtrl
+Oracle:Reach\nWhen Headhunter Mantis enters the battlefield, if a creature you controlled died this turn, create a 1/1 green Insect creature token.

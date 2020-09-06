@@ -1,0 +1,9 @@
+Name:Scale-Crown Ranger
+ManaCost:2 R
+Types:Creature Lizard Archer
+PT:1/4
+K:Defender
+A:AB$ DealDamage | Cost$ T | NumDmg$ 1 | Defined$ Player.Opponent | SpellDescription$ CARDNAME deals 1 damage to each opponent.
+T:Mode$ SpellCast | ValidCard$ Card.MultiColor | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigUntap | TriggerDescription$ Prismatic — Whenever you cast a multicolored spell, untap CARDNAME.
+SVar:TrigUntap:DB$ Untap | Defined$ Self
+Oracle:Defender\n{T}: Scale-Crown Ranger deals 1 damage to each opponent.\nPrismatic — Whenever you cast a multicolored spell, untap Scale-Crown Ranger.

@@ -1,0 +1,16 @@
+# TODO Distribution of +1/+1 counters is not limited to preexisting targets
+# TODO Consequently, RememberObjects$ Targeted accomplishes nothing
+Name:Primation
+ManaCost:4 G W
+Types:Sorcery
+
+A:SP$ PutCounter | Cost$ 4 G W | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature to put a vigilance counter on | CounterType$ Vigilance | CounterNum$ 1 | SubAbility$ DBTrample | RememberObjects$ Targeted | SpellDescription$ Distribute a vigilance, trample, first strike, and lifelink counter among up to four target creatures you control, then distribute four +1/+1 counters among those creatures.
+SVar:DBTrample:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature to put a trample counter on | CounterType$ Trample | CounterNum$ 1 | RememberObjects$ Targeted | SubAbility$ DBFirstStrike
+SVar:DBFirstStrike:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature to put a first strike counter on | CounterType$ First Strike | CounterNum$ 1 | RememberObjects$ Targeted | SubAbility$ DBLifelink
+SVar:DBLifelink:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature to put a lifelink counter on | CounterType$ Lifelink | CounterNum$ 1 | RememberObjects$ Targeted | SubAbility$ DBPutCounter
+
+SVar:DBPutCounter:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature to distribute +1/+1 counters to | CounterType$ P1P1 | CounterNum$ 4 | TargetMin$ 1 | TargetMax$ 4 | DividedAsYouChoose$ 4 | SubAbility$ DBCleanup
+
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+DeckHas:Ability$Counters
+Oracle:Distribute a vigilance, trample, first strike, and lifelink counter among up to four target creatures you control, then distribute four +1/+1 counters among those creatures.

@@ -1,0 +1,18 @@
+Name:Calamity of Yore
+ManaCost:1 R
+Types:Enchantment Saga
+K:Saga:3:DBExile,DBExileMass,DBDamage
+
+SVar:DBExile:DB$ Mill | Defined$ You | NumCards$ 1 | Destination$ Exile | RememberMilled$ True | ExileFaceDown$ True | NoReveal$ True | SpellDescription$ Target creature gets -X/-X until end of turn, where X is the number of lore counters on CARDNAME.
+
+SVar:DBExileMass:DB$ ChangeZone | Origin$ Hand | Destination$ Exile | ChangeType$ Card | ChangeNum$ XFetch | References$ XFetch | RememberChanged$ True | ExileFaceDown$ True | NoReveal$ True | SpellDescription$ Target creature gets -X/-X until end of turn, where X is the number of lore counters on CARDNAME.
+
+SVar:DBDamage:DB$ DealDamage | NumDmg$ ExileCount | ValidTgts$ Creature,Planeswalker | References$ ExileCount | SubAbility$ TrigReturn | SpellDescription$ Target opponent loses 1 life for each creature card in their graveyard.
+SVar:TrigReturn:DB$ ChangeZoneAll | ChangeType$ Card.IsRemembered+ExiledWithSource | Origin$ Exile | Destination$ Hand | Execute$ DBCleanup
+SVar:DBCleanup:DB$Cleanup | ClearRemembered$ True
+
+SVar:XFetch:Count$InYourHand
+SVar:ExileCount:Count$ValidExile Card.IsRemembered+ExiledWithSource
+SVar:PlayMain1:TRUE
+DeckHas:Ability$Counters
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Exile the top card of your library face down.\nII — Exile any number of cards from your hand face down.\nIII — Calamity of Yore deals damage to target creature or planeswalker equal to the number of cards you own in exile. Return all cards exiled with Calamity of Yore to their owners' hands. 

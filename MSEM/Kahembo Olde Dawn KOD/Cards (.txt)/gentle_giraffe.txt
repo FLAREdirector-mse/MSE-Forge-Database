@@ -1,0 +1,8 @@
+Name:Gentle Giraffe
+ManaCost:2 G
+Types:Creature Giraffe # IKO Flycatcher Giraffid uses Antelope
+PT:3/2
+K:Reach
+T:Mode$ SpellCast | ValidCard$ Card.MultiColor | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Prismatic — Whenever you cast a multicolored spell, you gain 2 life.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+Oracle:Reach\nPrismatic — Whenever you cast a multicolored spell, you gain 2 life.

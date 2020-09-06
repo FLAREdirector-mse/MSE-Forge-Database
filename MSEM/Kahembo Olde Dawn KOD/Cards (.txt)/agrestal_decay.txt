@@ -1,0 +1,11 @@
+# TODO All triggers require a targeted creature even if no counters will be put on
+Name:Agrestal Decay
+ManaCost:1 BG
+Types:Enchantment
+T:Mode$ Phase | Phase$ Main1 | PreCombatMain$ True | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ At the beginning of your precombat main phase, exile target card from a graveyard. If a creature card is exiled this way, put a +1/+1 counter on target creature you control. If a land card is exiled this way, add {C}. If a noncreature, nonland card is exiled this way, you gain 3 life.
+SVar:TrigChangeZone:DB$ChangeZone | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Card | TgtPrompt$ Select target card in a graveyard | RememberChanged$ True | AILogic$ DeathgorgeScavenger | SubAbility$ DBPutCounter
+SVar:DBPutCounter:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ P1P1 | CounterNum$ 1 | ConditionDefined$ Remembered | ConditionPresent$ Creature | ConditionCompare$ EQ1 | SubAbility$ DBMana
+SVar:DBMana:DB$ Mana | Produced$ C | ConditionDefined$ Remembered | ConditionPresent$ Land | ConditionCompare$ EQ1 | SubAbility$ DBLife
+SVar:DBLife:DB$ GainLife | LifeAmount$ 3 | ConditionDefined$ Remembered | ConditionPresent$ Creature,Land | ConditionCompare$ EQ0 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:At the beginning of your precombat main phase, exile target card from a graveyard. If a creature card is exiled this way, put a +1/+1 counter on target creature you control. If a land card is exiled this way, add {C}. If a noncreature, nonland card is exiled this way, you gain 3 life.

@@ -1,0 +1,10 @@
+Name:Trouble Brewing
+ManaCost:3 B B
+Types:Sorcery
+A:SP$ ChangeZoneAll | Cost$ 3 B B | ChangeType$ Creature.YouCtrl | Origin$ Graveyard | Destination$ Battlefield | RememberChanged$ True | SubAbility$ DBChoose | SpellDescription$ Return all creature cards from your graveyard to the battlefield.
+SVar:DBChoose:DB$ ChooseCard | Defined$ You | Amount$ 1 | Choices$ Creature.IsRemembered | ChoiceTitle$ Choose a creature put onto the battlefield this way. Exile the rest | AILogic$ Duneblast | SubAbility$ DBImprint | SpellDescription$ Choose up to one creature put onto the battlefield this way. Exile the rest.
+SVar:DBImprint:DB$ Pump | ImprintCards$ ChosenCard | SubAbility$ DBExileAll
+SVar:DBExileAll:DB$ ChangeZoneAll | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.IsRemembered+IsNotImprinted | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearImprinted$ True
+DeckHints:Ability$Graveyard
+Oracle:Return all creature cards from your graveyard to the battlefield, then exile all but one creature put onto the battlefield this way.

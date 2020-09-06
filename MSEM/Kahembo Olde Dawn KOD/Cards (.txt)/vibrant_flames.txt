@@ -1,0 +1,6 @@
+Name:Vibrant Flames
+ManaCost:R
+Types:Instant
+K:AlternateAdditionalCost:ExileFromGrave<1/MultiColor>:2
+A:SP$ DealDamage | Cost$ R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
+Oracle:As an additional cost to cast this spell, exile a multicolored card from your graveyard or pay {2}.\nVibrant Flames deals 3 damage to any target.

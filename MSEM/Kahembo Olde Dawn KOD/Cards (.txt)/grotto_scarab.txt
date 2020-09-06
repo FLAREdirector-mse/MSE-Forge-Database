@@ -1,0 +1,8 @@
+Name:Grotto Scarab
+ManaCost:4 G
+Types:Creature Insect
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 1/1 green Insect creature tokens for each creature that died under your control this turn.
+SVar:TrigToken:DB$Token | TokenAmount$ X | References$ X | TokenScript$ g_1_1_insect | TokenOwner$ You | LegacyImage$ g 1 1 insect kod
+SVar:X:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature.YouCtrl/Twice
+Oracle:When Grotto Scarab enters the battlefield, create two 1/1 green Insect creature tokens for each creature that died under your control this turn.

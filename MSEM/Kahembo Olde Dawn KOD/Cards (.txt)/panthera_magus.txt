@@ -1,0 +1,7 @@
+Name:Panthera Magus
+ManaCost:1 G
+Types:Creature Cat Shaman
+PT:1/2
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ T | Produced$ W U B R | RestrictValid$ Card.MultiColor | SpellDescription$ Add {W}, {U}, {B}, or {R}. Spend this mana only to cast a multicolored spell.
+Oracle:{T}: Add {G}.\n{T}: Add {W}, {U}, {B}, or {R}. Spend this mana only to cast a multicolored spell.

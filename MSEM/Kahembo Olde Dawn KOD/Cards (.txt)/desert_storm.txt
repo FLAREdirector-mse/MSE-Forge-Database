@@ -1,0 +1,5 @@
+Name:Desert Storm
+ManaCost:3 R
+Types:Sorcery
+A:SP$ DealDamage | Cost$ 3 R | ValidTgts$ Creature | NumDmg$ 6 | SpellDescription$ CARDNAME deals 6 damage to target creature.
+Oracle:Desert Storm deals 6 damage to target creature.

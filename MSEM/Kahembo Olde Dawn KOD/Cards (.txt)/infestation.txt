@@ -1,0 +1,8 @@
+Name:Infestation
+ManaCost:3 G
+Types:Sorcery
+A:SP$ Token | Cost$ 3 G | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ g_1_1_insect | LegacyImage$ g 1 1 insect kod | SubAbility$ DBCounters | SpellDescription$ Create two 1/1 green Insect creature tokens, then put a +1/+1 counter on target creature you control for each Insect you control.
+SVar:DBCounters:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | CounterType$ P1P1 | CounterNum$ X | References$ X | SpellDescription$ Put a +1/+1 counter on target creature you control for each Insect you control.
+SVar:X:Count$Valid Insect.YouCtrl
+DeckHints:Type$Insect
+Oracle:Create two 1/1 green Insect creature tokens, then put a +1/+1 counter on target creature you control for each Insect you control.

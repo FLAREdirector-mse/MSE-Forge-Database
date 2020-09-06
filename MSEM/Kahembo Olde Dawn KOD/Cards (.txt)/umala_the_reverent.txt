@@ -1,0 +1,8 @@
+Name:Umala, the Reverent
+ManaCost:2 R W
+Types:Legendary Creature Dog Knight
+PT:4/3
+S:Mode$ Continuous | Affected$ Dog.Other+YouCtrl | AddKeyword$ Trample | Description$ Other Dogs you control have trample.
+A:AB$ PutCounter | Cost$ RW T | ValidTgts$ Dog.YouCtrl | TgtPrompt$ Select target Dog you control | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on target Dog you control.
+DeckHas:Ability$Counters
+Oracle:Other Dogs you control have trample.\n{R/W}, {T}: Put a +1/+1 counter on target Dog you control.

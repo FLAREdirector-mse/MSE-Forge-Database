@@ -1,0 +1,6 @@
+Name:Ornery Bloom
+ManaCost:1 G U
+Types:Sorcery
+A:SP$ Draw | Cost$ 1 G U | NumCards$ 2 | SubAbility$ DBLotus | SpellDescription$ Draw two cards. Create a tapped Lotus Petal token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+SVar:DBLotus:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_lotus_petal_sac | TokenOwner$ You | TokenTapped$ True | LegacyImage$ c a lotus petal sac kod
+Oracle:Draw two cards. Create a tapped Lotus Petal token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")

@@ -1,0 +1,11 @@
+Name:Battle for Msuji Highlands
+ManaCost:4 G
+Types:Enchantment Saga
+K:Saga:3:DBReveal,DBFightSelect,DBRecur
+SVar:DBReveal:DB$ Dig | DigNum$ 4 | Reveal$ True | ChangeNum$ 1 | ChangeValid$ Creature.cmcLE4 | DestinationZone$ Battlefield | DestinationZone2$ Graveyard | SpellDescription$ Reveal the top four cards of your library. Put a creature card with converted mana cost 4 or less from among them onto the battlefield and the rest into your graveyard.
+SVar:DBFightSelect:DB$ Pump | ValidTgts$ Creature.YouCtrl | TargetMin$ 0 | TargetMax$ X | TgtPrompt$ Choose any number of target creatures you control | SubAbility$ DBFight | SpellDescription$ Any number of target creatures you control fight target creature you don't control. (Each of those creatures you control deal damage equal to their power to the creature you don't control.)
+SVar:DBFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Choose target creature you don't control
+SVar:DBRecur:DB$ ChangeZone | Origin$ Graveyard | Destination$ Library | LibraryPosition$ 0 | TgtPrompt$ Choose target card in your graveyard | ValidTgts$ Creature.YouCtrl | TargetMin$ 0 | TargetMax$ 3 | SpellDescription$ Put up to three target cards from your graveyard on top of your library in any order.
+SVar:X:Count$Valid Creature.YouCtrl
+SVar:PlayMain1:TRUE
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Reveal the top four cards of your library. Put a creature card with converted mana cost 4 or less from among them onto the battlefield and the rest into your graveyard.\nII — Any number of target creatures you control fight target creature you don't control.\nIII — Put up to three target cards from your graveyard on top of your library in any order.

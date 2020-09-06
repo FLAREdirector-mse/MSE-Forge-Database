@@ -1,0 +1,9 @@
+Name:Theurgic Flock
+ManaCost:1 W U
+Types:Creature Bird
+K:Flying
+PT:2/2
+T:Mode$ DamageDone | ValidSource$ Card.Self+counters_EQ0_P1P1 | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, if it doesn't have a +1/+1 counter on it, put a +1/+1 counter on it.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+DeckHints:Ability$Counters
+Oracle:Flying\nWhenever Theurgic Flock deals combat damage to a player, if it doesn't have a +1/+1 counter on it, put a +1/+1 counter on it.

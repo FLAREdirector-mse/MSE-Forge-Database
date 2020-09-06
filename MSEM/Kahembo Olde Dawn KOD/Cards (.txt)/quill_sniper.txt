@@ -1,0 +1,7 @@
+Name:Quill Sniper
+ManaCost:2 R
+Types:Creature Porcupine Warrior
+PT:2/2
+A:AB$ DealDamage | Cost$ T | NumDmg$ 1 | ValidTgts$ Player.Opponent | StackDescription$ SpellDescription | SpellDescription$ CARDNAME deals 1 damage to target opponent.
+A:AB$ DealDamage | Cost$ T | NumDmg$ 1 | ValidTgts$ Creature,Player,Planeswalker | IsPresent$ Enchantment.YouCtrl,Permanent.Legendary+YouCtrl | StackDescription$ SpellDescription | SpellDescription$ CARDNAME deals 1 damage to any target. Activate this ability only if you control a storied permanent. (Enchantments and legendary permanents are storied.)
+Oracle:{T}: Quill Sniper deals 1 damage to any target if it's an opponent or if you control a storied permanent. (Enchantments and legendary permanents are storied.)

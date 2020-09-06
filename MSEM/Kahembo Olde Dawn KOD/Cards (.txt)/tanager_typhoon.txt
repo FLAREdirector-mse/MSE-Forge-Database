@@ -4,4 +4,4 @@ Types:Enchantment
 T:Mode$ SpellCast | ValidCard$ Card.MultiColor | ValidActivatingPlayer$ You | Execute$ TrigBlink | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Prismatic — Whenever you cast a multicolored spell, you may pay {1}. If you do, exile target nonland permanent, then return it to the battlefield tapped under its owner's control.
 SVar:TrigBlink:AB$ ChangeZone | Cost$ 1 | ValidTgts$ Permanent.nonLand | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBReturn | SpellDescription$ Exile target nonland permanent, then return it to the battlefield tapped under its owner's control.
 SVar:DBReturn:DB$ ChangeZone | Defined$ Targeted | Origin$ Exile | Destination$ Battlefield | Tapped$ True
-Oracle:Whenever you cast a multicolored spell, you may pay {1}. If you do, exile target nonland permanent, then return it to the battlefield tapped under its owner's control.
+Oracle:Prismatic — Whenever you cast a multicolored spell, you may pay {1}. If you do, exile target nonland permanent, then return it to the battlefield tapped under its owner's control.

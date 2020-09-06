@@ -1,0 +1,17 @@
+Name:Lunar Emissary
+ManaCost:1 W U
+Types:Creature Bird
+K:Flash
+K:Flying
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile another target creature you control until CARDNAME leaves the battlefield.
+SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True | Hidden$ True | ChangeType$ Creature.Other+YouCtrl | ChangeNum$ 1 | SelectPrompt$ Choose another creature you control | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | Triggers$ ComeBack | RememberObjects$ RememberedCard | ImprintCards$ Self | SVars$ TrigReturn,ExileSelf | ConditionPresent$ Card.Self | Duration$ Permanent | ForgetOnMoved$ Exile
+SVar:ComeBack:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.IsImprinted | Execute$ TrigReturn | TriggerZones$ Command | TriggerController$ TriggeredCardController | Static$ True | TriggerDescription$ That creature is exiled until EFFECTSOURCE leaves the battlefield
+SVar:TrigReturn:DB$ ChangeZoneAll | Origin$ Exile | Destination$ Battlefield | ChangeType$ Card.IsRemembered | SubAbility$ ExileSelf
+SVar:ExileSelf:DB$ ChangeZone | Origin$ Command | Destination$ Exile | Defined$ Self
+T:Mode$ ChangesZone | ValidCard$ Card.IsRemembered | Origin$ Exile | Destination$ Any | TriggerZones$ Battlefield | Static$ True | Execute$ TrigForget
+SVar:TrigForget:DB$ Pump | ForgetObjects$ TriggeredCard
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Any | Static$ True | Execute$ TrigForgetAll
+SVar:TrigForgetAll:DB$ Cleanup | ClearRemembered$ True
+Oracle:Flash\nFlying\nWhen Lunar Emissary enters the battlefield, exile another target creature you control until Lunar Emissary leaves the battlefield.

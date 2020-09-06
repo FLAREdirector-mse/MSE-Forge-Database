@@ -1,0 +1,5 @@
+Name:Settle the Dust
+ManaCost:2 R W
+Types:Sorcery
+A:AB$ DamageAll | Cost$ 2 R W | ValidCards$ Creature.tapped | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to each tapped creature.
+Oracle:Settle the Dust deals 4 damage to each tapped creature.
