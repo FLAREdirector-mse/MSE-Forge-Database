@@ -1,0 +1,9 @@
+Name:Adiran Distractor
+ManaCost:1 G W U
+Types:Creature Elf Scout
+PT:4/3
+K:Flash
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigBounce | TriggerDescription$ When CARDNAME enters the battlefield, return up to one target creature you control and up to one target creature you don't control to their owners' hands.
+SVar:TrigBounce:DB$ ChangeZone | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature you control | Origin$ Battlefield | Destination$ Hand | TargetMin$ 0 | TargetMax$ 1 | SubAbility$ DBBounce
+SVar:DBBounce:DB$ ChangeZone | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Select target creature you don't control | Origin$ Battlefield | Destination$ Hand | TargetMin$ 0 | TargetMax$ 1
+Oracle:Flash\nWhen Adiran Distractor enters the battlefield, return up to one target creature you control and up to one target creature you don't control to their owners' hands.
