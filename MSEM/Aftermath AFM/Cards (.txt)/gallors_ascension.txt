@@ -1,0 +1,5 @@
+Name:Gallord's Ascension
+ManaCost:G W
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ G W | Origin$ Library | Destination$ Hand | ChangeType$ Creature,Planeswalker | ChangeNum$ 1 | SpellDescription$ Search your library for a creature or planeswalker card, reveal it, put it into your hand, then shuffle your library.
+Oracle:Search your library for a creature or planeswalker card, reveal it, put it into your hand, then shuffle your library.

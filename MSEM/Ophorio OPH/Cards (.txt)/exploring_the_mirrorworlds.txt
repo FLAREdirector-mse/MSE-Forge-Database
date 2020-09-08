@@ -1,0 +1,5 @@
+Name:Exploring the Mirrorworlds
+ManaCost:G
+Types:Instant
+A:SP$ ChangeZone | Cost$ G | Origin$ Library | Destination$ Battlefield | ChangeType$ Land.Basic | ChangeNum$ 1 | DefinedPlayer$ Player | Shuffle$ True | Tapped$ True | SpellDescription$ Each player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles their library.
+Oracle:Each player searches their library for a basic land card, puts it onto the battlefield tapped, then shuffles their library.
