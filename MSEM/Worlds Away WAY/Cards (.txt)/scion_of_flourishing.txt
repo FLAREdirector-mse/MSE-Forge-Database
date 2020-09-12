@@ -1,0 +1,13 @@
+Name:Scion of Flourishing
+ManaCost:3 G G
+Types:Creature Elemental Avatar
+PT:5/5
+K:Trample
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPutCounters | TriggerDescription$ When CARDNAME enters the battlefield, put a +1/+1 counter on each other creature you control. Those creatures gain trample until end of turn.
+SVar:TrigPutCounters:DB$ PutCounterAll | ValidCards$ Creature.Other+YouCtrl | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPumpAll
+SVar:DBPumpAll:DB$ PumpAll | ValidCards$ Creature.Other+YouCtrl | KW$ Trample
+T:Mode$ ChangesZone | ValidCard$ Forest.YouCtrl | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigAetherize | TriggerDescription$ Whenever a Forest enters the battlefield under your control, aetherize CARDNAME.
+SVar:TrigAetherize:DB$ CopyPermanent | Defined$ Self | RememberTokens$ True | SubAbility$ DBExile
+SVar:DBExile:DB$ ChangeZone | Defined$ Remembered | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Trample\nWhen Scion of Flourishing enters the battlefield, put a +1/+1 counter on each other creature you control. Those creatures gain trample until end of turn.\nWhenever a Forest enters the battlefield under your control, aetherize Scion of Flourishing.

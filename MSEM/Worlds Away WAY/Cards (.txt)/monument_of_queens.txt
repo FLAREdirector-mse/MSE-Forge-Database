@@ -1,13 +1,13 @@
 Name:Monument of Queens
 ManaCost:no cost
 Types:Land Animus
+PT:0/0
 K:Flying
 K:First Strike
 K:Vigilance
 K:Trample
 K:Lifelink
-PT:0/0
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ PutCounter | Cost$ 3 | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBAnimate
-SVar:DBAnimate:DB$ Animate | Defined$ Self | Power$ 0 | Toughness$ 0 | Types$ Creature,Avatar | SpellDescription$ Put a +1/+1 counter on CARDNAME. It becomes an Avatar creature until end of turn. It's still a land.
+A:AB$ PutCounter | Cost$ 3 | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBAnimate | SpellDescription$ Put a +1/+1 counter on CARDNAME. It becomes an Avatar creature until end of turn. It's still a land.
+SVar:DBAnimate:DB$ Animate | Defined$ Self | Types$ Creature,Avatar
 Oracle:Flying, first strike, vigilance, trample, lifelink\n{T}: Add {C}.\n{3}: Put a +1/+1 counter on Monument of Queens. It becomes an Avatar creature until end of turn. It's still a land.
