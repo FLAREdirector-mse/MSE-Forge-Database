@@ -1,0 +1,7 @@
+Name:Artificer's Persuasion
+ManaCost:1 U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ X | References$ X,Y | SpellDescription$ Counter target spell unless its controller pays {1}. If you control an artifact, instead counter that spell unless its controller pays {4}.
+SVar:Y:Count$Valid Artifact.YouCtrl
+SVar:X:Count$Compare Y GE1.4.1
+Oracle:Counter target spell unless its controller pays {1}. If you control an artifact, instead counter that spell unless its controller pays {4}.
