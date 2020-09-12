@@ -1,0 +1,9 @@
+Name:Border Guardian
+ManaCost:1 R G
+Types:Creature Giant
+PT:4/4
+K:Vigilance
+K:Trample
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | TriggerDescription$ When CARDNAME enters the battlefield, return a creature you control to its owner's hand.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Battlefield | Destination$ Hand | Hidden$ True | Mandatory$ True | ChangeType$ Creature.YouCtrl
+Oracle:Vigilance, trample\nWhen Border Guardian enters the battlefield, return a creature you control to its owner's hand.
