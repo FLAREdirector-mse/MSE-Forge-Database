@@ -1,0 +1,8 @@
+Name:Heart of Zhedina
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChooseColor | Cost$ 3 T | AILogic$ MostProminentInComputerDeck | SubAbility$ DBMana | SpellDescription$ Choose a color. For each differently named land you control, add one mana of that color.
+SVar:DBMana:DB$ Mana | Produced$ Chosen | Amount$ X | References$ X
+SVar:X:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:{T}: Add {C}\n{3}, {T}: Choose a color. For each differently named land you control, add one mana of that color.
