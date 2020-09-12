@@ -1,0 +1,12 @@
+Name:Scion of Storms
+ManaCost:3 W W
+Types:Creature Elemental Avatar
+PT:5/5
+K:Vigilance
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 3/3 white Elemental creature token with flying and vigilance.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenOwner$ You | TokenScript$ w_3_3_elemental_flying_vigilance
+T:Mode$ ChangesZone | ValidCard$ Plains.YouCtrl | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigAetherize | TriggerDescription$ Whenever a Plains enters the battlefield under your control, aetherize CARDNAME.
+SVar:TrigAetherize:DB$ CopyPermanent | Defined$ Self | RememberTokens$ True | SubAbility$ DBExile
+SVar:DBExile:DB$ ChangeZone | Defined$ Remembered | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Vigilance\nWhen Scion of Storms enters the battlefield, create a 3/3 white Elemental creature token with flying and vigilance.\nWhenever a Plains enters the battlefield under your control, aetherize Scion of Storms.

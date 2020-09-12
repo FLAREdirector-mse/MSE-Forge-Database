@@ -1,0 +1,11 @@
+Name:Thunderous Charge
+ManaCost:G
+Types:Instant
+A:SP$ Pump | Cost$ G | ValidTgts$ Creature | KW$ Hexproof & Trample | SubAbility$ DBPump | SpellDescription$ Target creature gains hexproof and trample until end of turn. If CARDNAME was cast from exile, that creature gets an additional +4/+4 until end of turn.
+SVar:DBPump:DB$ Pump | Defined$ Targeted | NumAtt$ +4 | NumDef$ +4 | ConditionDefined$ Self | ConditionPresent$ Card.wasCastFromExile
+A:AB$ ChangeZone | Cost$ G G | ValidCard$ Self | Destination$ Exile | RememberChanged$ True | SorcerySpeed$ True | ActivationZone$ Hand | SubAbility$ Orchestrate | PrecostDesc$ Orchestrate | CostDesc$ {G}{G} | SpellDescription$ (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
+SVar:Orchestrate:DB$ Animate | Defined$ Self | ValidCard$ Remembered | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
+SVar:TrigCast:Mode$ SpellCast | ValidControllingPlayer$ You | Execute$ DBCast | IsPresent$ Card.Self | PresentZone$ Exile
+SVar:DBCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Target creature gains hexproof and trample until end of turn. If Thunderous Charge was cast from exile, that creature gets an additional +4/+4 until end of turn.\nOrchestrate {G}{G} (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)

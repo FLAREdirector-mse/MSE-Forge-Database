@@ -1,0 +1,6 @@
+Name:Frostfire Geysers
+ManaCost:no cost
+Types:Land Island Mountain
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Island.Basic+YouCtrl,Mountain.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Island or a basic Mountain.
+Oracle:({T}: Add {U} or {R}.)\nFrostfire Geysers enters the battlefield tapped unless you control a basic Island or a basic Mountain.

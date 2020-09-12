@@ -1,0 +1,6 @@
+Name:Oracle's Vision
+ManaCost:UB
+Types:Sorcery
+A:SP$ Mill | Cost$ UB | NumCards$ 3 | Defined$ Player | SubAbility$ DBDraw | SpellDescription$ Each player mills three cards. Draw a card.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:Each player mills three cards.\nDraw a card.

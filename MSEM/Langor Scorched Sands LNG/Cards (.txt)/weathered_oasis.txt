@@ -1,0 +1,8 @@
+Name:Weathered Oasis
+ManaCost:no cost
+Types:Land Desert
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | UnlessAI$ Shockland | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+Oracle:As Weathered Oasis enters the battlefield, you may pay 2 life. If you don't, Weathered Oasis enters the battlefield tapped.\n{T}: Add {G} or {U}.

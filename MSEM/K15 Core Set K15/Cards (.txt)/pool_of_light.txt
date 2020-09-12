@@ -1,0 +1,6 @@
+Name:Pool of Light
+ManaCost:no cost
+Types:Land Plains Island
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Plains.Basic+YouCtrl,Island.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Plains or a basic Island.
+Oracle:({T}: Add {W} or {U}.)\nPool of Light enters the battlefield tapped unless you control a basic Plains or a basic Island.

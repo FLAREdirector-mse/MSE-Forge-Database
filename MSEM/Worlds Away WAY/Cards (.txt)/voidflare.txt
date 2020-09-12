@@ -1,0 +1,7 @@
+Name:Voidflare
+ManaCost:R
+Types:Instant
+A:SP$ DealDamage | Cost$ R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | ConditionCheckSVar$ WanderlustTest | ConditionSVarCompare$ LE3 | References$ WanderlustTest | SubAbility$ DBDmg | SpellDescription$ CARDNAME deals 2 damage to any target.\nWanderlust — CARDNAME deals 3 damage instead if you control four or more differently named lands.
+SVar:DBDmg:DB$ DealDamage | Defined$ Targeted | NumDmg$ 3 | ConditionCheckSVar$ WanderlustTest | ConditionSVarCompare$ GE4 | References$ WanderlustTest | StackDescription$ Wanderlust — CARDNAME deals 3 damage to {Targeted} instead if you control four or more differently named lands.
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Voidflare deals 2 damage to any target.\nWanderlust — Voidflare deals 3 damage instead if you control four or more differently named lands.

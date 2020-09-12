@@ -1,0 +1,8 @@
+Name:Canyon Falls
+ManaCost:no cost
+Types:Land Desert
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | UnlessAI$ Shockland | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+Oracle:As Canyon Falls enters the battlefield, you may pay 2 life. If you don't, Canyon Falls enters the battlefield tapped.\n{T}: Add {W} or {U}.

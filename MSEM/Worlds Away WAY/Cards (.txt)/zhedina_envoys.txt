@@ -1,7 +1,7 @@
-# TODO
 Name:Zhedina Envoys
 ManaCost:1 W
 Types:Creature Human Scout
 PT:2/2
-
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | Execute$ TrigToken | TriggerDescription$ When CARDNAME leaves the battlefield, create two 1/1 Scout creature tokens that are all colors.
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ wubrg_1_1_scout
 Oracle:When Zhedina Envoys leaves the battlefield, create two 1/1 Scout creature tokens that are all colors.

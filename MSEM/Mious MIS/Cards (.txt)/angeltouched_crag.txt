@@ -1,0 +1,6 @@
+Name:Angeltouched Crag
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T | Produced$ Combo R W B | RestrictValid$ Card.nonMonoColor | SpellDescription$ Add {R}, {W}, or {B}. You can't spend this mana to cast a monocolored spell.
+Oracle:{T}: Add {C}\n{T}: Add {R}, {W}, or {B}. You can't spend this mana to cast a monocolored spell.

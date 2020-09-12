@@ -1,0 +1,6 @@
+Name:Lush Oasis
+ManaCost:no cost
+Types:Land Forest Island
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Forest.Basic+YouCtrl,Island.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Forest or a basic Island.
+Oracle:({T}: Add {G} or {U}.)\nLush Oasis enters the battlefield tapped unless you control a basic Forest or a basic Island.

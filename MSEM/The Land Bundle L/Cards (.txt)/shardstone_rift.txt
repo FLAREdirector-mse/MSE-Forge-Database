@@ -1,0 +1,7 @@
+Name:Shardstone Rift
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | UnlessAI$ Shockland | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, CARDNAME enters the battlefield tapped.
+A:AB$ ChangeZone | Cost$ T Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Swamp,Mountain | ChangeNum$ 1 | SpellDescription$ Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.
+Oracle:As Shardstone Rift enters the battlefield, you may pay 2 life. If you don't, Shardstone Rift enters the battlefield tapped.\n{T}, Sacrifice Shardstone Rift: Search your library for a Swamp or Mountain card, put it onto the battlefield, then shuffle your library.

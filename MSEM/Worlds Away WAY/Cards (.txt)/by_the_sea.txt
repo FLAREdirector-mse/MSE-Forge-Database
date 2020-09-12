@@ -1,0 +1,7 @@
+Name:By the Sea
+ManaCost:1 U
+Types:Sorcery
+A:SP$ Token | Cost$ 1 U | TokenAmount$ X | References$ X | TokenScript$ u_1_1_otter_draw | TokenOwner$ You | SpellDescription$ Create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card." Wanderlust — If you control four or more differently named lands, create two of those tokens instead.
+SVar:X:Count$Compare Wanderlust GE4.2.1
+SVar:Wanderlust:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Create a 1/1 blue Otter creature token with "Whenever this creature deals combat damage to a player, draw a card."\nWanderlust — If you control four or more differently named lands, create two of those tokens instead.

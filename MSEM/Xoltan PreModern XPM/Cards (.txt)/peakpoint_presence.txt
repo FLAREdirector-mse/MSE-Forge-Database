@@ -1,0 +1,9 @@
+Name:Peakpoint Presence
+ManaCost:1 R
+Types:Creature Human Berserker
+PT:2/2
+K:Menace
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigMana | TriggerDescription$ When CARDNAME enters the battlefield, add {R}{R}. CARDNAME deals 2 damage to you.
+SVar:TrigMana:DB$ Mana | Produced$ R | Amount$ 2 | SubAbility$ DBDamage
+SVar:DBDamage:DB$ DealDamage | Defined$ You | NumDmg$ 2
+Oracle:Menace\nWhen Peakpoint Presence enters the battlefield, add {R}{R}. Peakpoint Presence deals 2 damage to you.

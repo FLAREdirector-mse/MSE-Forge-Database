@@ -1,0 +1,14 @@
+Name:Aiel Tazan
+ManaCost:1 R R
+Types:Legendary Planeswalker Aiel
+Loyalty:3
+A:AB$ DealDamage | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | SubAbility$ DBDamage | SpellDescription$ CARDNAME deals 2 damage to any target. Then she deals 2 damage to herself unless you have her deal 2 damage to you.
+A:AB$ PumpAll | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidCards$ Creature.YouCtrl | NumAtt$ 2 | KW$ Haste | SpellDescription$ Creatures you control get +2/+0 and gain haste until end of turn.
+A:AB$ Token | Cost$ SubCounter<X/LOYALTY> | Planeswalker$ True | References$ X | TokenAmount$ 1 | TokenScript$ r_x_1_elemental_trample_haste | TokenOwner$ You | TokenPower$ ChosenX | LegacyImage$ r x 1 elemental trample haste zer | AtEOT$ Exile | RememberTokens$ True | SubAbility$ DBPump | SpellDescription$ Create an X/1 red Elemental creature token with haste and trample. Exile that token at the beginning of the next end step. If X is 6 or more, it gains double strike.
+SVar:DBDamage:DB$ DealDamage | Defined$ Self | NumDmg$ 2 | UnlessCost$ DamageYou<2> | UnlessPayer$ You
+SVar:DBPump:DB$ Pump | Defined$ Remembered | KW$ Double Strike | Permanent$ True | SubAbility$ DBCleanup | ConditionCheckSVar$ Y | ConditionSVarCompare$ GE1 | References$ Y
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:Y:Count$Compare ChosenX GE6.1.0
+SVar:X:XChoice
+SVar:PlayMain1:TRUE
+Oracle:[+1]: Aiel Tazan deals 2 damage to any target. Then she deals 2 damage to herself unless you have her deal 2 damage to you.\n[-3]: Creatures you control get +2/+0 and gain haste until end of turn.\n[-X]: Create an X/1 red Elemental creature token with haste and trample. Exile that token at the beginning of the next end step. If X is 6 or more, it gains double strike.

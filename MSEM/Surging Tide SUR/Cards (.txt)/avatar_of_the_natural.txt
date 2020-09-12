@@ -1,0 +1,9 @@
+Name:Avatar of the Natural
+ManaCost:G G
+Types:Creature Avatar
+PT:2/3
+K:Reach
+K:Trample
+T:Mode$ CounterAddedOnce | ValidCard$ Creature.YouCtrl+notnamedAvatar of the Natural | TriggerZones$ Battlefield | CounterType$ P1P1 | OptionalDecider$ You | Execute$ TrigPutCounter | TriggerDescription$ Whenever one or more +1/+1 counters are put on a creature you control not named Avatar of the Natural, you may put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+Oracle:Reach, trample\nWhenever one or more +1/+1 counters are put on a creature you control not named Avatar of the Natural, you may put a +1/+1 counter on Avatar of the Natural.

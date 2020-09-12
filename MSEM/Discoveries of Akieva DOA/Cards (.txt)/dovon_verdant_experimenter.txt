@@ -1,0 +1,9 @@
+Name:Dovon, Verdant Experimenter
+ManaCost:G
+Types:Legendary Creature Elf Shaman
+PT:0/1
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ ChangeZone | Cost$ BG T | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Card | TgtPrompt$ Select target card in a graveyard | SubAbility$ DBPutCounter | SpellDescription$ Exile target card from a graveyard. If that card is a creature card, put a +1/+1 counter on CARDNAME and you gain 1 life.
+SVar:DBPutCounter:DB$PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1 | ConditionDefined$ Targeted | ConditionPresent$ Creature | ConditionCompare$ EQ1 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$GainLife | Defined$ You | LifeAmount$ 1 | ConditionDefined$ Targeted | ConditionPresent$ Creature | ConditionCompare$ EQ1
+Oracle:{T}: Add {G}.\n{B/G}, {T}: Exile target card from a graveyard. If that card is a creature card, put a +1/+1 counter on Dovon, Verdant Experimenter and you gain 1 life.

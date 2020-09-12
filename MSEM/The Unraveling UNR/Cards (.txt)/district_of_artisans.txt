@@ -1,0 +1,8 @@
+Name:District of Artisans
+ManaCost:no cost
+Types:Legendary Land
+K:etbCounter:CHARGE:1
+S:Mode$ CantBeCast | ValidCard$ Card.nonRed | Caster$ You | Description$ You can't cast nonred spells.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Mana | Cost$ R T SubCounter<1/CHARGE> | Produced$ R | Amount$ 3 | SpellDescription$ Add {R}{R}{R}.
+Oracle:District of Artisans enters the battlefield with a charge counter on it.\nYou can't cast nonred spells.\n{T}: Add {R}.\n{R}, {T}, Remove a charge counter from District of Artisans: Add {R}{R}{R}.

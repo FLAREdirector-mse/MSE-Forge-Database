@@ -1,0 +1,8 @@
+Name:Halskrow Street Gallows
+ManaCost:no cost
+Types:Legendary Land
+K:etbCounter:CHARGE:1
+S:Mode$ CantBeCast | ValidCard$ Card.nonBlack | Caster$ You | Description$ You can't cast nonblack spells.
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ Mana | Cost$ B T SubCounter<1/CHARGE> | Produced$ B | Amount$ 3 | SpellDescription$ Add {B}{B}{B}.
+Oracle:Halskrow Street Gallows enters the battlefield with a charge counter on it.\nYou can't cast nonblack spells.\n{T}: Add {B}.\n{B}, {T}, Remove a charge counter from Halskrow Street Gallows: Add {B}{B}{B}.

@@ -1,0 +1,7 @@
+Name:Portal Fracture
+ManaCost:1 U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SubAbility$ DBToken | SpellDescription$ Counter target spell unless its controller pays {2}.\nWanderlust — If you control four or more differently named lands, create two 1/1 Scout creature tokens that are all colors.
+SVar:DBToken:DB$ Token | TokenAmount$ 2 | TokenOwner$ You | TokenScript$ wubrg_1_1_scout | LegacyImage$ wubrg 1 1 scout way | ConditionCheckSVar$ WanderlustTest | ConditionSVarCompare$ GE4
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Counter target spell unless its controller pays {2}.\nWanderlust — If you control four or more differently named lands, create two 1/1 Scout creature tokens that are all colors.

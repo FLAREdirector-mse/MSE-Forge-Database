@@ -1,0 +1,8 @@
+Name:Master of Tranquility
+ManaCost:1 U
+Types:Creature Human Monk
+PT:0/4
+K:Prowess
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPump | OptionalDecider$ You | TriggerDescription$ Whenever you cast a noncreature spell, you may switch CARDNAME's power and toughness until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ Self | KW$ HIDDEN CARDNAME's power and toughness are switched
+Oracle:Prowess\nWhenever you cast a noncreature spell, you may switch Master of Tranquility's power and toughness until end of turn.

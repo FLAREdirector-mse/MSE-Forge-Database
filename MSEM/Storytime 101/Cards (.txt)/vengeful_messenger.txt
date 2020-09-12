@@ -1,0 +1,8 @@
+Name:Vengeful Messenger
+ManaCost:1 U U
+Types:Creature Faerie Assassin
+PT:3/1
+K:Flash
+K:Flying
+A:AB$ Counter | Cost$ Sac<1/CARDNAME> | TargetType$ Spell | TgtPrompt$ Select target noncreature spell | ValidTgts$ Card.nonCreature | UnlessCost$ 2 | SpellDescription$ Counter target noncreature spell unless its controller pays {2}.
+Oracle:Flash\nFlying\nSacrifice Vengeful Messenger: Counter target noncreature spell unless its controller pays {2}.

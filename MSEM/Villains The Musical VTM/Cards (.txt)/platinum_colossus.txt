@@ -1,0 +1,10 @@
+Name:Platinum Colossus
+ManaCost:13
+Types:Artifact Creature Golem
+PT:11/11
+K:Trample
+S:Mode$ Continuous | Affected$ Creature.YouCtrl+powerLE10+toughnessGE11 | SetPower$ 11 | Description$ Creatures you control with power less than 11 have base power 11. The same is true for toughness.
+S:Mode$ Continuous | Affected$ Creature.YouCtrl+toughnessLE10+powerGE11 | SetToughness$ 11
+S:Mode$ Continuous | Affected$ Creature.YouCtrl+toughnessLE10+powerLE11 | SetPower$ 11 | SetToughness$ 11
+#This card actually doesn't do what it's supposed to do. Sorry, fam.
+Oracle:Trample\nEach creature you control can't have power less than 11 and can't have toughness less than 11.

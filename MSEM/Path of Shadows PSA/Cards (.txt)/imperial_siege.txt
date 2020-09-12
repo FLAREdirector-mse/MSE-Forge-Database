@@ -1,0 +1,5 @@
+Name:Imperial Siege
+ManaCost:1 R
+Types:Sorcery
+A:SP$ Destroy | Cost$ 1 R | ValidTgts$ Land.nonBasic | TgtPrompt$ Select target nonbasic land | SpellDescription$ Destroy target nonbasic land.
+Oracle:Destroy target nonbasic land.

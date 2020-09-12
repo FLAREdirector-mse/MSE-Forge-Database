@@ -1,0 +1,7 @@
+Name:Memento Mori
+ManaCost:B B
+Types:Instant
+A:SP$ Charm | Cost$ B B | Choices$ DBExileAll,DBSacrifice
+SVar:DBExileAll:DB$ ChangeZoneAll | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Player | TgtPrompt$ Select target player | ChangeType$ Card | SpellDescription$ Exile all cards from target player's graveyard.
+SVar:DBSacrifice:DB$ Sacrifice | ValidTgts$ Player | SacValid$ Creature | SacMessage$ Creature | SpellDescription$ Target player sacrifices a creature.
+Oracle:Choose one —\n• Exile all cards from target player's graveyard.\n• Target player sacrifices a creature.

@@ -1,0 +1,10 @@
+Name:Vidal, Rune Thief
+ManaCost:1 R R
+Types:Legendary Creature Human Wizard
+PT:4/2
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters the battlefield, reveal cards from the top of your library until you reveal an enchantment card with converted mana cost 3 or less. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Sacrifice that enchantment at the beginning of the next end step.
+SVar:TrigDig:DB$ DigUntil | Valid$ Card.Enchantment+cmcLE3 | FoundDestination$ Battlefield | RevealedDestination$ Library | RevealedLibraryPosition$ -1 | RevealRandomOrder$ True | RememberFound$ True | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Card.IsRemembered | AtEOT$ Sacrifice | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Haste\nWhen Vidal enters the battlefield, reveal cards from the top of your library until you reveal an enchantment card with converted mana cost 3 or less. Put that card onto the battlefield and the rest on the bottom of your library in a random order. Sacrifice that enchantment at the beginning of the next end step.

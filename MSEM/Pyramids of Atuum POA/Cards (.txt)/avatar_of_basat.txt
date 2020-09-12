@@ -1,0 +1,7 @@
+Name:Avatar of Basat
+ManaCost:R
+Types:Creature Avatar
+PT:2/1
+K:Menace
+K:CARDNAME can't block.
+Oracle:Menace\nAvatar of Basat can't block.

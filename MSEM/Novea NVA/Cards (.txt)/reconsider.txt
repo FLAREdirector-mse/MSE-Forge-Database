@@ -1,0 +1,7 @@
+Name:Reconsider
+ManaCost:1 U
+Types:Instant
+A:SP$ Charm | Cost$ 1 U | Choices$ DBCounter,DBDraw
+SVar:DBCounter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ 2 | SpellDescription$ Counter target spell unless its controller pays {2}.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Choose one —\n• Counter target spell unless its controller pays {2}.\n• Draw a card.

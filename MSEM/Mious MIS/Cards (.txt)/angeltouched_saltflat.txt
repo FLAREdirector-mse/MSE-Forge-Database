@@ -1,0 +1,6 @@
+Name:Angeltouched Saltflat
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T | Produced$ Combo U R W | RestrictValid$ Card.nonMonoColor | SpellDescription$ Add {U}, {R}, or {W}. You can't spend this mana to cast a monocolored spell.
+Oracle:{T}: Add {C}\n{T}: Add {U}, {R}, or {W}. You can't spend this mana to cast a monocolored spell.

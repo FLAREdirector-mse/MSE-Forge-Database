@@ -1,0 +1,7 @@
+Name:Dreamsight Well
+ManaCost:1 GU
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 1 GU | Origin$ Sideboard | Destination$ Library | Shuffle$ True | ChangeType$ Card.YouOwn | ChangeNum$ 5 | SubAbility$ DBDraw | SpellDescription$ Choose up to five cards you own from outside the game and shuffle them into your library. Then, if your library has 100 or more cards in it, draw five cards.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 5 | ConditionCheckSVar$ X | References$ X | ConditionSVarCompare$ GE100
+SVar:X:Count$ValidLibrary Card.YouOwn
+Oracle:Choose up to five cards you own from outside the game and shuffle them into your library. Then, if your library has 100 or more cards in it, draw five cards.

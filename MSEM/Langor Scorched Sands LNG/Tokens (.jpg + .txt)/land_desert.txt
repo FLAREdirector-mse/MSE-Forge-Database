@@ -2,4 +2,5 @@ Name:Desert
 ManaCost:no cost
 Types:Land Desert
 Colors:colorless
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
 Oracle:{T}: Add {C}.

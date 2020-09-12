@@ -1,0 +1,11 @@
+Name:Sentinel of Latter Days
+ManaCost:4
+Types:Artifact Creature Golem
+PT:3/3
+K:TypeCycling:Soldier:W
+K:TypeCycling:Wizard:U
+K:TypeCycling:Zombie:B
+K:TypeCycling:Warrior:R
+K:TypeCycling:Elf:G
+S:Mode$ Continuous | Affected$ Card.Self | EffectZone$ Library | CharacteristicDefining$ True | AddType$ AllCreatureTypes | Description$ CARDNAME is every creature type as long as it's in your library.
+Oracle:Soldiercycling {W}, Wizardcycling {U}, Zombiecycling {B}, Warriorcycling {R}, Elfcycling {G}\nSentinel of Latter Days is every creature type as long as it's in your library.

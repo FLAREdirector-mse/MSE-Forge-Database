@@ -1,0 +1,7 @@
+Name:Soul Gate
+ManaCost:2
+Types:Artifact
+A:AB$ ChangeZone | Cost$ T | ValidTgts$ Card | Origin$ Graveyard | Destination$ Exile | SubAbility$ DBScry | SpellDescription$ Exile target card from a graveyard. Scry 1.
+A:AB$ ChangeZoneAll | Cost$ T Exile<1/CARDNAME> | Origin$ Graveyard | Destination$ Exile | ChangeType$ Card | AILogic$ ExileGraveyards | SpellDescription$ Exile all cards from all graveyards.
+SVar:DBScry:DB$ Scry | ScryNum$ 1
+Oracle:{T}: Exile target card from a graveyard. Scry 1.\n{T}, Exile Soul Gate: Exile all cards from all graveyards.

@@ -1,0 +1,8 @@
+Name:Clay Mesa
+ManaCost:no cost
+Types:Land Desert
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | UnlessAI$ Shockland | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+Oracle:As Clay Mesa enters the battlefield, you may pay 2 life. If you don't, Clay Mesa enters the battlefield tapped.\n{T}: Add {R} or {G}.

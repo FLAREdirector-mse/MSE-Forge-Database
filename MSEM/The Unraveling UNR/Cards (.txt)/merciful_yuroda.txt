@@ -1,0 +1,8 @@
+Name:Merciful Yuroda
+ManaCost:1 W W
+Types:Creature Angel
+PT:4/4
+K:Flying
+K:Vigilance
+R:Event$ DamageDone | Prevent$ True | ValidSource$ Creature.Self | ValidTarget$ Creature | Description$ Prevent all damage CARDNAME would deal to creatures.
+Oracle:Flying, vigilance\nPrevent all damage Merciful Yuroda would deal to creatures.

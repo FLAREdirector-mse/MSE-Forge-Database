@@ -1,8 +1,7 @@
 Name:Prying Inquiry
 ManaCost:1 B
 Types:Sorcery
-A:SP$ Discard | Cost$ 2 B | ValidTgts$ Opponent | DiscardValid$ Card.nonLand | NumCards$ 1 | Mode$ RevealYouChoose | SubAbility$ DBLoseLife | SpellDescription$ Target opponent reveals their hand. You choose a nonland card from it. That player discards that card and you lose 1 life. Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
-SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1 | Defined$ You | SubAbility$ DBToken
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_clue_draw | TokenOwner$ You | LegacyImage$ c a clue draw unr
-DeckHas:Ability$Investigate
-Oracle:Look at target player's hand. Choose a nonland card from it. That player discards that card and you lose 1 life.\nInvestigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+A:SP$ Discard | Cost$ 1 B | ValidTgts$ Player | NumCards$ 1 | DiscardValid$ Card.nonLand | Mode$ RevealYouChoose | SubAbility$ DBLoseLife | SpellDescription$ Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 1 life. Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1 | SubAbility$ DBClue
+SVar:DBClue:DB$ Investigate | Num$ 1
+Oracle:Target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 1 life.\nInvestigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")

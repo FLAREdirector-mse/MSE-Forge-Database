@@ -1,0 +1,12 @@
+Name:Shatter Facade
+ManaCost:2 W
+Types:Instant
+A:SP$ Destroy | Cost$ 2 W | ValidTgts$ Creature | ConditionDefined$ Targeted | ConditionPresent$ Creature.cmcGE4 | ConditionCheckSVar$ X | ConditionSVarCompare$ EQ0 | SubAbility$ DBDestroy | References$ X | SpellDescription$ Destroy target creature if it has converted mana cost 4 or greater. If CARDNAME was cast from exile, destroy that creature if it has converted mana cost 3 or less instead.
+SVar:DBDestroy:DB$ Destroy | Defined$ Targeted | ConditionDefined$ Targeted | ConditionPresent$ Creature.cmcLE3 | ConditionCheckSVar$ X | ConditionSVarCompare$ EQ1 | References$ X
+A:AB$ ChangeZone | Cost$ B | ValidCard$ Self | Destination$ Exile | RememberChanged$ True | SorcerySpeed$ True | ActivationZone$ Hand | SubAbility$ Orchestrate | PrecostDesc$ Orchestrate | CostDesc$ {B} | SpellDescription$ (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
+SVar:Orchestrate:DB$ Animate | Defined$ Self | ValidCard$ Remembered | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
+SVar:TrigCast:Mode$ SpellCast | ValidControllingPlayer$ You | Execute$ DBCast | IsPresent$ Card.Self | PresentZone$ Exile
+SVar:DBCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$wasCastFromExile.1.0
+Oracle:Destroy target creature if it has converted mana cost 4 or greater. If Shatter Facade was cast from exile, destroy that creature if it has converted mana cost 3 or less instead.\nOrchestrate {B} (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)

@@ -1,0 +1,7 @@
+Name:Tropical Grove
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ ChangeZone | Cost$ T PayLife<1> Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Forest.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic Forest card, put it onto the battlefield, then shuffle your library.
+A:AB$ ChangeZone | Cost$ T PayLife<1> Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Forest.nonBasic | ChangeNum$ 1 | Tapped$ True | SpellDescription$ Search your library for a nonbasic Forest card, put it onto the battlefield tapped, then shuffle your library.
+Oracle:{T}, Pay 1 life: Add {G}.\n{T}, Pay 1 life, Sacrifice Tropical Grove: Search your library for a Forest card, put it onto the battlefield, then shuffle your library. That land enters the battlefield tapped unless it's basic.

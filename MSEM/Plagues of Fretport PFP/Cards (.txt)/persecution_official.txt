@@ -1,0 +1,8 @@
+Name:Persecution Official
+ManaCost:WU WU
+Types:Creature Human Noble
+PT:2/2
+K:ETBReplacement:Other:DBNameCard
+SVar:DBNameCard:DB$ NameCard | Defined$ You | ValidCards$ Creature | ValidDesc$ creature | SpellDescription$ As CARDNAME enters the battlefield, choose a creature card name.
+S:Mode$ CantBeCast | ValidCard$ Card.NamedCard | Description$ Cards with the chosen name can't be cast.
+Oracle:When Persecution Official enters the battlefield, choose a creature card name.\nCards with the chosen name can't be cast.

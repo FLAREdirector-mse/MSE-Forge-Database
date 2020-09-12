@@ -1,0 +1,7 @@
+Name:Northern Express Line
+ManaCost:2
+Types:Artifact
+K:CARDNAME enters the battlefield tapped.
+SVar:AltCost:Cost$ Return<1/Land> | Description$ You may return a land you control to its owner's hand rather than pay this spell's mana cost.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+Oracle:You may return a land you control to its owner's hand rather than pay this spell's mana cost.\nNorthern Express Line enters the battlefield tapped.\n{T}: Add {U}.
