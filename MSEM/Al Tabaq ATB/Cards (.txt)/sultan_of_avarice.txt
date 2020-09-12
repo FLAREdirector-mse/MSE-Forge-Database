@@ -1,0 +1,8 @@
+Name:Sultan of Avarice
+ManaCost:B B
+Types:Creature Human Warrior
+PT:2/3
+K:Menace
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ ABDraw | TriggerDescription$ At the beginning of your upkeep, you may pay 3 life. If you do, draw a card.
+SVar:ABDraw:AB$ Draw | Cost$ PayLife<3> | NumCards$ 1
+Oracle:Menace\nAt the beginning of your upkeep, you may pay 3 life. If you do, draw a card.
