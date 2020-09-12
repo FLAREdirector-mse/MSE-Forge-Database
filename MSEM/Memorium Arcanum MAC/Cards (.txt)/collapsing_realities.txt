@@ -1,0 +1,6 @@
+Name:Collapsing Realities
+ManaCost:2 R
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Land | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ Whenever a land enters the battlefield, CARDNAME deals 2 damage to each player.
+SVar:TrigDamage:DB$ DamageAll | ValidPlayers$ Player | ValidDescription$ each player. | NumDmg$ 2
+Oracle:Whenever a land enters the battlefield, Collapsing Realities deals 2 damage to each player.
