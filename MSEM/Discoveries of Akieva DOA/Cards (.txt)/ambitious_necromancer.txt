@@ -1,0 +1,8 @@
+Name:Ambitious Necromancer
+ManaCost:B
+Types:Creature Human Cleric
+PT:1/1
+T:Mode$ BecomesTarget | ValidTarget$ Opponent | ValidSource$ Card.YouCtrl | SourceType$ Spell | Execute$ TrigReturn | TriggerDescription$ Sabotage — Whenever an opponent or permanent an opponent controls becomes the target of a spell you control, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
+T:Mode$ BecomesTarget | ValidTarget$ Permanent.OppCtrl | ValidSource$ Card.YouCtrl | SourceType$ Spell | Execute$ TrigReturn | Secondary$ True | TriggerDescription$ Sabotage — Whenever an opponent or permanent an opponent controls becomes the target of a spell you control, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card with converted mana cost 3 or less in your graveyard | ValidTgts$ Creature.cmcLE3+YouCtrl
+Oracle:Sabotage — Whenever an opponent or permanent an opponent controls becomes the target of a spell you control, return target creature card with converted mana cost 3 or less from your graveyard to the battlefield.

@@ -1,0 +1,6 @@
+Name:Self Replication
+ManaCost:W
+Types:Instant
+A:SP$ Token | Cost$ W | TokenAmount$ 2 | TokenScript$ c_1_1_a_construct | LegacyImage$ c 1 1 a construct doa | TokenOwner$ You | ConditionPresent$ Artifact.YouCtrl | ConditionCompare$ GE1 | SubAbility$ DBToken | SpellDescription$ Create a 1/1 colorless Construct artifact creature token. If you control an artifact, create two of those tokens instead.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_a_construct | LegacyImage$ c 1 1 a construct doa | TokenOwner$ You | ConditionPresent$ Artifact.YouCtrl | ConditionCompare$ EQ0
+Oracle:Create a 1/1 colorless Construct artifact creature token. If you control an artifact, create two of those tokens instead.

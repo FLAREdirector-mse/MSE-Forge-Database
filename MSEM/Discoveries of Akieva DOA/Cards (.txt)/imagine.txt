@@ -1,6 +1,8 @@
-# TODO
 Name:Imagine
 ManaCost:U
 Types:Sorcery
-
-Oracle:Shuffle any number of cards from your graveyard into your library. Scry 1, then draw a card.
+A:SP$ ChangeZone | Cost$ U | Origin$ Graveyard | Destination$ Library | DefinedPlayer$ You | Hidden$ True | ChangeNum$ X | ChangeType$ Card.YouOwn | Shuffle$ True | References$ X | SubAbility$ DBScry | SpellDescription$ Shuffle any number of cards from your graveyard into your library. Scry 1, then draw a card.
+SVar:DBScry:DB$ Scry | ScryNum$ 1 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+SVar:X:Count$InYourYard
+Oracle:Shuffle any number of cards from your graveyard into your library.\nScry 1, then draw a card.
