@@ -1,0 +1,9 @@
+Name:Forbidden Brew
+ManaCost:B
+Types:Sorcery Inscription
+A:SP$ LoseLife | Cost$ B | ValidTgts$ Player | TgtPrompt$ Select a player | LifeAmount$ 3 | SpellDescription$ Target player loses 3 life.
+A:AB$ Effect | Cost$ 3 B | ValidTgts$ Creature | ActivationZone$ Hand | RememberObjects$ Targeted | Duration$ Permanent | ForgetOnMoved$ Battlefield | Triggers$ Trigger | SubAbility$ DBChangeZone | SorcerySpeed$ True | SVars$ TrigPlay | PrecostDesc$ Inscribe | CostDesc$ {3}{B} | SpellDescription$ ({3}{B}: Exile this card from your hand inscribed on a creature you control. Whenever that creature attacks, its controller may cast a copy of the inscribed card without paying its mana cost. Inscribe only as a sorcery.)
+SVar:DBChangeZone:DB$ ChangeZone | Destination$ Exile | ValidCard$ Card.Self
+SVar:Trigger:Mode$ Attacks | ValidCard$ Card.IsRemembered | Execute$ TrigPlay | TriggerZones$ Command | TriggerDescription$ Whenever the remembered creature attacks, you may cast a copy of the exiled card without paying its mana cost.
+SVar:TrigPlay:DB$ Play | Valid$ Card.EffectSource | ValidZone$ Exile | Amount$ All | CopyOnce$ True | WithoutManaCost$ True | Optional$ True | CopyCard$ True
+Oracle:Target player loses 3 life.\nInscribe {3}{B} ({3}{B}: Exile this card from your hand inscribed on a creature you control. Whenever that creature attacks, its controller may cast a copy of the inscribed card without paying its mana cost. Inscribe only as a sorcery.)

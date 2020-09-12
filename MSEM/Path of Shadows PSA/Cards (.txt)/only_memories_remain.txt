@@ -1,0 +1,9 @@
+Name:Only Memories Remain
+ManaCost:U B
+Types:Instant Inscription
+A:SP$ Mill | Cost$ U B | NumCards$ 7 | ValidTgts$ Player | SpellDescription$ Target player mills seven cards.
+A:AB$ Effect | Cost$ 3 U B | ValidTgts$ Creature | ActivationZone$ Hand | RememberObjects$ Targeted | Duration$ Permanent | ForgetOnMoved$ Battlefield | Triggers$ Trigger | SubAbility$ DBChangeZone | SorcerySpeed$ True | SVars$ TrigPlay | PrecostDesc$ Inscribe | CostDesc$ {3}{U}{B} | SpellDescription$ ({3}{U}{B}: Exile this card from your hand inscribed on a creature you control. Whenever that creature attacks, its controller may cast a copy of the inscribed card without paying its mana cost. Inscribe only as a sorcery.)
+SVar:DBChangeZone:DB$ ChangeZone | Destination$ Exile | ValidCard$ Card.Self
+SVar:Trigger:Mode$ Attacks | ValidCard$ Card.IsRemembered | Execute$ TrigPlay | TriggerZones$ Command | TriggerDescription$ Whenever the remembered creature attacks, you may cast a copy of the exiled card without paying its mana cost.
+SVar:TrigPlay:DB$ Play | Valid$ Card.EffectSource | ValidZone$ Exile | Amount$ All | CopyOnce$ True | WithoutManaCost$ True | Optional$ True | CopyCard$ True
+Oracle:Target player mills seven cards.\nInscribe {3}{U}{B} ({3}{U}{B}: Exile this card from your hand inscribed on a creature you control. Whenever that creature attacks, its controller may cast a copy of the inscribed card without paying its mana cost. Inscribe only as a sorcery.)
