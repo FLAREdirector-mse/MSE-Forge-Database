@@ -1,0 +1,12 @@
+Name:Siesa Tremund
+ManaCost:3 B B
+Types:Legendary Creature Gorgon Archer
+PT:2/4
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigRepeat | TriggerDescription$ When CARDNAME enters the battlefield, for each player, search that player's library for a card and exile it. That player shuffles their library. You may play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells.
+SVar:TrigRepeat:DB$ RepeatEach | RepeatPlayers$ Player | RepeatSubAbility$ DBExile | SubAbility$ DBEffect
+SVar:DBExile:DB$ ChangeZone | Origin$ Library | Destination$ Exile | DefinedPlayer$ Remembered | Chooser$ You | ChangeType$ Card | ChangeNum$ 1 | Imprint$ True | Shuffle$ True
+SVar:DBEffect:DB$ Effect | StaticAbilities$ STPlay | RememberObjects$ Imprinted | Duration$ Permanent | SubAbility$ DBCleanup
+SVar:STPlay:Mode$ Continuous | MayPlay$ True | MayPlayIgnoreType$ True | EffectZone$ Command | Affected$ Card.IsRemembered | AffectedZone$ Exile | Description$ You may play the exiled cards for as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearImprinted$ True
+Oracle:Deathtouch\nWhen Siesa Tremund enters the battlefield, for each player, search that player's library for a card and exile it. That player shuffles their library. You may play those cards for as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells.
