@@ -1,0 +1,8 @@
+Name:Mountain Spring
+ManaCost:no cost
+Types:Land Desert
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | UnlessAI$ Shockland | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+Oracle:As Mountain Spring enters the battlefield, you may pay 2 life. If you don't, Mountain Spring enters the battlefield tapped.\n{T}: Add {U} or {R}.

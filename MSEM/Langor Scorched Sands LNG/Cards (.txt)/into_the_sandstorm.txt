@@ -1,0 +1,5 @@
+Name:Into the Sandstorm
+ManaCost:1 G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 1 G | Origin$ Library | Destination$ Battlefield | ChangeType$ Desert | Tapped$ True | ChangeNum$ 1 | SpellDescription$ Search your library for a Desert card and put that card onto the battlefield tapped. Then shuffle your library.
+Oracle:Search your library for a Desert card and put that card onto the battlefield tapped. Then shuffle your library.
