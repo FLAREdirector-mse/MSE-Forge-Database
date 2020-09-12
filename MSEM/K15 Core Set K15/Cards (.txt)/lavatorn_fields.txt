@@ -1,0 +1,6 @@
+Name:Lavatorn Fields
+ManaCost:no cost
+Types:Land Swamp Mountain
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Swamp.Basic+YouCtrl,Mountain.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Swamp or a basic Mountain.
+Oracle:({T}: Add {B} or {R}.)\nLavatorn Fields enters the battlefield tapped unless you control a basic Swamp or a basic Mountain.

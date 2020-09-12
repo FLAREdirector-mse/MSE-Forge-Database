@@ -1,0 +1,6 @@
+Name:Heart of the Glade
+ManaCost:no cost
+Types:Land Forest Plains
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Forest.Basic+YouCtrl,Plains.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Forest or a basic Plains.
+Oracle:({T}: Add {G} or {W}.)\nHeart of the Glade enters the battlefield tapped unless you control a basic Forest or a basic Plains.
