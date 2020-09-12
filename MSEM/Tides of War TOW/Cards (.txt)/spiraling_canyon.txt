@@ -1,0 +1,6 @@
+Name:Spiraling Canyon
+ManaCost:no cost
+Types:Land Mountain Plains
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Mountain.Basic+YouCtrl,Plains.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Mountain or a basic Plains.
+Oracle:({T}: Add {R} or {W}.)\nSpiraling Canyon enters the battlefield tapped unless you control a basic Mountain or a basic Plains.

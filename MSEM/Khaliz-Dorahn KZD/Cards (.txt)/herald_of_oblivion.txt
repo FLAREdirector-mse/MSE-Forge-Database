@@ -1,0 +1,9 @@
+Name:Herald of Oblivion
+ManaCost:B
+Types:Creature Horror
+PT:14/14
+K:Flying
+K:etbCounter:M1M1:X:no Condition:CARDNAME enters the battlefield with X -1/-1 counters on it, where X is your life total.
+SVar:X:Count$YourLifeTotal
+SVar:NeedsToPlayVar:X LE13
+Oracle:Flying\nHerald of Oblivion enters the battlefield with X -1/-1 counters on it, where X is your life total.

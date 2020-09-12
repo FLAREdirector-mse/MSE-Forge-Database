@@ -1,0 +1,8 @@
+Name:Dead-Set Duo
+ManaCost:B
+Types:Creature Human Berserker
+PT:2/2
+K:CARDNAME can't block.
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | OptionalDecider$ You | Execute$ TrigDiscard | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, you may pay {B} and sacrifice it. If you do, they discard two cards.
+SVar:TrigDiscard:AB$ Discard | Cost$ B Sac<1/CARDNAME> | Defined$ TriggeredTarget | NumCards$ 2 | Mode$ TgtChoose
+Oracle:Dead-Set Duo can't block.\nWhenever CARDNAME deals combat damage to a player, you may pay {B} and sacrifice it. If you do, they discard two cards.

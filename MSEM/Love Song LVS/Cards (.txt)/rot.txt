@@ -1,0 +1,5 @@
+Name:Rot
+ManaCost:2 B G
+Types:Sorcery
+A:SP$ DestroyAll | Cost$ 2 B G | ValidCards$ Permanent.nonLand+cmcLE3 | SpellDescription$ Destroy all nonland permanents with converted mana cost 3 or less.
+Oracle:Destroy all nonland permanents with converted mana cost 3 or less.

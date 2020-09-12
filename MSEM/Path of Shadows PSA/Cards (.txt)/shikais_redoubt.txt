@@ -1,0 +1,6 @@
+Name:Shikai's Redoubt
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ Discard<1/CARDNAME> | ActivationZone$ Hand | Origin$ Graveyard | Destination$ Exile | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Select up to two target cards in graveyards | ValidTgts$ Card | SpellDescription$ Exile up to two target cards from graveyards.
+Oracle:{T}: Add {C}.\nDiscard Shikai's Redoubt: Exile up to two target cards from graveyards.

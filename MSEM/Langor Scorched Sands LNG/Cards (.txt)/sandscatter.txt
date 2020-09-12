@@ -1,0 +1,7 @@
+Name:Sandscatter
+ManaCost:1 W
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 W | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Creature | TgtPrompt$ Select target creature | RememberLKI$ True | SubAbility$ DBToken | SpellDescription$ Exile target creature. Its controller creates a colorless Desert land token with "{T}: Add {C}."
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ land_desert | TokenOwner$ RememberedController | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Exile target creature. Its controller creates a colorless Desert land token with "{T}: Add {C}."

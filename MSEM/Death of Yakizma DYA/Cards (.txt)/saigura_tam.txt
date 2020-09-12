@@ -1,0 +1,11 @@
+Name:Saigura Tam
+ManaCost:1 R W
+Types:Legendary Planeswalker Tam
+Loyalty:2
+A:AB$ Token | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | TokenAmount$ 3 | TokenScript$ w_1_1_cat_warrior | LegacyImage$ w 1 1 cat warrior dya | TokenOwner$ You | AtEOT$ Exile | RememberTokens$ True | SubAbility$ DBPump | SpellDescription$ Create three 1/1 white Cat Warrior creature tokens with haste. Exile them at the beginning of the next end step.
+A:AB$ Pump | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ 2 | KW$ Haste & Vigilance | SpellDescription$ Target creature gets +2/+0 and gains haste and vigilance until end of turn.
+A:AB$ DealDamage | Cost$ SubCounter<4/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 3 damage to any target. You gain 3 life.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 3
+SVar:DBPump:DB$ Pump | Defined$ Remembered | KW$ Haste | Permanent$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:[+1]: Create three 1/1 white Cat Warrior creature tokens with haste. Exile them at the beginning of the next end step.\n[+1]: Target creature gets +2/+0 and gains haste and vigilance until end of turn.\n[-4]: Saigura Tam deals 3 damage to any target. You gain 3 life.

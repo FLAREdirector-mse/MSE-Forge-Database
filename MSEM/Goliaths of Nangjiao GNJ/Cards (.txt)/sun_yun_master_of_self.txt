@@ -1,0 +1,11 @@
+Name:Sun Yun, Master of Self
+ManaCost:2 U U
+Types:Legendary Creature Human Wizard
+PT:1/3
+K:Panharmonicon:Creature.YouCtrl:If a creature entering the battlefield under your control causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.
+A:AB$ ChangeZone | Cost$ 1 U T | ValidTgts$ Creature.Other | Mandatory$ True | TgtPrompt$ Select another target creature | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True | SubAbility$ DelTrig | SpellDescription$ Exile another target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+SVar:DelTrig:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | Execute$ TrigBounce | TriggerDescription$ Return the exiled permanent to the battlefield. | RememberObjects$ Remembered | SubAbility$ DBCleanup
+SVar:TrigBounce:DB$ ChangeZone | Origin$ Exile | Destination$ Battlefield | Defined$ DelayTriggerRemembered
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:TrigReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ Exile | Destination$ Battlefield
+Oracle:If a creature entering the battlefield under your control causes a triggered ability of a permanent you control to trigger, that ability triggers an additional time.\n{1}{U}, {T}: Exile another target creature. Return it to the battlefield under its owner's control at the beginning of the next end step.

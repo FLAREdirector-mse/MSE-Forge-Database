@@ -1,0 +1,6 @@
+Name:Upon the Altar
+ManaCost:2 B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Creature | Origin$ Battlefield | Destination$ Graveyard | TriggerZones$ Battlefield | Execute$ ABDraw | TriggerDescription$ Whenever a creature dies, you may pay 1 life. If you do, draw a card.
+SVar:ABDraw:AB$ Draw | Cost$ PayLife<1> | Defined$ You | NumCards$ 1
+Oracle:Whenever a creature dies, you may pay 1 life. If you do, draw a card.

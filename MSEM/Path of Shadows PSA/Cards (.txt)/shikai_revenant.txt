@@ -1,0 +1,9 @@
+Name:Shikai Revenant
+ManaCost:B
+Types:Creature Zombie
+PT:2/1
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | TriggerZones$ Graveyard | CheckSVar$ X | References$ X | Execute$ TrigChangeZone | TriggerDescription$ At the beginning of your end step, if an opponent lost life this turn, you may return CARDNAME from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ ChangeZone | Defined$ Card.Self | Origin$ Graveyard | Destination$ Hand
+SVar:X:Count$LifeOppsLostThisTurn
+Oracle:Shikai Revenant enters the battlefield tapped.\nAt the beginning of your end step, if an opponent lost life this turn, you may return Shikai Revenant from your graveyard to your hand.

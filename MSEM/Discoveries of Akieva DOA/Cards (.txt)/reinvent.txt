@@ -1,0 +1,7 @@
+Name:Reinvent
+ManaCost:6 U U
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | References$ X | EffectZone$ All | Description$ This spell costs {1} less to cast for each artifact you control.
+A:SP$ ChangeZone | Cost$ 6 U U | Origin$ Library | Destination$ Battlefield | ChangeType$ Creature.Artifact | ChangeNum$ 1 | SpellDescription$ Search your library for an artifact creature card, put it onto the battlefield, then shuffle your library.
+SVar:X:Count$Valid Artifact.YouCtrl
+Oracle:This spell costs {1} less to cast for each artifact you control.\nSearch your library for an artifact creature card, put it onto the battlefield, then shuffle your library.

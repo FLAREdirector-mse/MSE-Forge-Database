@@ -1,0 +1,12 @@
+Name:Veilborn Meddler
+ManaCost:1 U
+Types:Creature Horror Wizard
+PT:1/1
+K:Flash
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigCounter | TriggerDescription$ When CARDNAME enters the battlefield, counter target spell if its converted mana cost is less than or equal to CARDNAME power.
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | OpponentTurn$ True | Execute$ TrigPutCounter | TriggerDescription$ Whenever you cast a spell during an opponent's turn, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+SVar:TrigCounter:DB$ Counter | TargetType$ Spell | ValidTgts$ Card | ConditionCheckSVar$ X | ConditionSVarCompare$ LEY | References$ X,Y
+SVar:X:Targeted$CardManaCost
+SVar:Y:TriggeredCard$CardPower
+Oracle:Flash\nWhen Veilborn Meddler enters the battlefield, counter target spell if its converted mana cost is less than or equal to Veilborn Meddler's power.\nWhenever you cast a spell during an opponent's turn, put a +1/+1 counter on Veilborn Meddler. 

@@ -1,0 +1,8 @@
+Name:River's End Falls
+ManaCost:no cost
+Types:Legendary Land
+K:etbCounter:CHARGE:1
+S:Mode$ CantBeCast | ValidCard$ Card.nonBlue | Caster$ You | Description$ You can't cast nonblue spells.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Mana | Cost$ U T SubCounter<1/CHARGE> | Produced$ U | Amount$ 3 | SpellDescription$ Add {U}{U}{U}.
+Oracle:River's End Falls enters the battlefield with a charge counter on it.\nYou can't cast nonblue spells.\n{T}: Add {U}.\n{U}, {T}, Remove a charge counter from River's End Falls: Add {U}{U}{U}.

@@ -1,0 +1,10 @@
+Name:What Lurks Beyond
+ManaCost:G G
+Types:Sorcery
+A:SP$ GenericChoice | Cost$ G G Sac<1/Creature> | Choices$ SearchLibrary,SearchHand,SearchGraveyard | Defined$ You | SpellDescription$ Search your library, hand, or graveyard for a creature card with converted mana cost 1 greater than the sacrificed creature's and put it onto the battlefield. If you searched your library this way, shuffle it.
+SVar:SearchLibrary:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Creature.cmcEQX | ChangeNum$ 1 | References$ X | SpellDescription$ Search your library and shuffle.
+SVar:SearchHand:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ChangeType$ Creature.cmcEQX+YouCtrl | ChangeNum$ 1 | References$ X | SpellDescription$ Search your hand.
+SVar:SearchGraveyard:DB$ ChooseCard | Choices$ Creature.YouOwn+cmcEQX | ChoiceZone$ Graveyard | Amount$ 1 | SubAbility$ DBChangeZone | References$ X | SpellDescription$ Search your graveyard.
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | Defined$ ChosenCard
+SVar:X:Sacrificed$CardManaCost/Plus.1
+Oracle:As an additional cost to cast this spell, sacrifice a creature.\nSearch your library, hand, or graveyard for a creature card with converted mana cost 1 greater than the sacrificed creature's and put it onto the battlefield. If you searched your library this way, shuffle it.

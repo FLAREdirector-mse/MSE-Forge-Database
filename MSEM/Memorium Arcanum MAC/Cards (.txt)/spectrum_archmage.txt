@@ -1,0 +1,11 @@
+Name:Spectrum Archmage
+ManaCost:2 U U
+Types:Creature Human Wizard
+PT:3/1
+K:Flash
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target spell to its owner's hand, then abound. (To abound, you may cast a nonland card that costs less than this from your hand without paying its mana cost.)
+SVar:TrigChangeZone:DB$ ChangeZone | ValidTgts$ Card | TgtZone$ Stack | Origin$ Stack | Fizzle$ True | Destination$ Hand | SubAbility$ DBAbound
+SVar:DBAbound:DB$ Play | Valid$ Card.nonLand+YouOwn+cmcLTX | References$ X | ValidZone$ Hand | WithoutManaCost$ True | Amount$ 1 | Controller$ You | Optional$ True
+SVar:X:TriggeredCard$CardManaCost
+Oracle:Flash\nFlying\nWhen Spectrum Archmage enters the battlefield, return target spell to its owner's hand, then abound. (To abound, you may cast a nonland card that costs less than this from your hand without paying its mana cost.)

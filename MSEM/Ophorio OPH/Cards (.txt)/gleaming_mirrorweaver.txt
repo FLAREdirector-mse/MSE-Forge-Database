@@ -1,0 +1,10 @@
+Name:Gleaming Mirrorweaver
+ManaCost:2 G U R
+Types:Legendary Creature Spirit
+PT:3/3
+K:Flying
+T:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ Opponent | Execute$ TrigCopySpell | TriggerZones$ Battlefield | TriggerDescription$ Whenever an opponent casts an instant or sorcery spell, copy that spell. You may choose new targets for the copy.
+T:Mode$ SpellCast | ValidCard$ Permanent | ValidActivatingPlayer$ Opponent | Execute$ TrigCopyPermanent | TriggerZones$ Battlefield | TriggerDescription$ Whenever an opponent casts a permanent spell, create a token that's a copy of it.
+SVar:TrigCopySpell:DB$ CopySpellAbility | Defined$ TriggeredSpellAbility
+SVar:TrigCopyPermanent:DB$ CopyPermanent | Defined$ TriggeredCard
+Oracle:Flying\nWhenever an opponent casts an instant or sorcery spell, copy that spell. You may choose new targets for the copy.\nWhenever an opponent casts a permanent spell, create a token that's a copy of it.

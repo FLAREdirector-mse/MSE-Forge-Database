@@ -1,0 +1,8 @@
+Name:Tsang Jin, Master of the Jade Sea
+ManaCost:2 G
+Types:Legendary Creature Human Warrior
+PT:3/2
+K:Flash
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, put target land card from a graveyard onto the battlefield under your control.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | TgtPrompt$ Select target land card in a graveyard | ValidTgts$ Land
+Oracle:Flash\nWhen Tsang Jin, Master of the Jade Sea enters the battlefield, put target land card from a graveyard onto the battlefield under your control.

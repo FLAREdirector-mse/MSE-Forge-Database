@@ -1,0 +1,6 @@
+Name:Convert to Resources
+ManaCost:1 R
+Types:Instant
+A:SP$ Destroy | Cost$ 1 R | ValidTgts$ Artifact | TgtPrompt$ Select target artifact | SubAbility$ DBToken | SpellDescription$ Destroy target artifact. Create two 1/1 colorless Servo artifact creature tokens.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_a_servo
+Oracle:Destroy target artifact. Create two 1/1 colorless Servo artifact creature tokens.

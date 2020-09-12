@@ -1,0 +1,7 @@
+Name:Xira, Scatterer of Seeds
+ManaCost:G
+Types:Legendary Creature Dryad
+PT:0/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.powerGE4+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigUntap | TriggerDescription$ Ferocious — Whenever a creature with power 4 or greater enters the battlefield under your control, untap all lands you control.
+SVar:TrigUntap:DB$ UntapAll | ValidCards$ Land.YouCtrl
+Oracle:Ferocious — Whenever a creature with power 4 or greater enters the battlefield under your control, untap all lands you control.

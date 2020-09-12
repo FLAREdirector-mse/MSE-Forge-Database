@@ -1,0 +1,7 @@
+Name:Guidestone
+ManaCost:2
+Types:Artifact Clue
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Draw | Cost$ 2 Sac<1/CARDNAME> | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Guidestone enters the battlefield tapped.\n{T}: Add {C}.\n{2}, Sacrifice Guidestone: Draw a card.

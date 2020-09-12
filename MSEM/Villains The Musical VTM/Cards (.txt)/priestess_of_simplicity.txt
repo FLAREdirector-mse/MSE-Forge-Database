@@ -1,0 +1,7 @@
+Name:Priestess of Simplicity
+ManaCost:1 W
+Types:Creature Elf Cleric
+PT:2/1
+S:Mode$ Continuous | Affected$ Player | AddKeyword$ UntapAdjust:Land.nonBasic:1 | Description$ Each player can't untap more than one nonbasic land during their untap step.
+SVar:NonStackingEffect:True
+Oracle:Each player can't untap more than one nonbasic land during their untap step.

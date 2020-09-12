@@ -1,0 +1,5 @@
+Name:Strike from the Shadows
+ManaCost:B B
+Types:Instant
+A:SP$ Destroy | Cost$ B B | ValidTgts$ Creature.nonAssassin+nonNinja+nonRogue | TgtPrompt$ Select target non-Assassin, non-Ninja, non-Rogue creature | SpellDescription$ Destroy target non-Assassin, non-Ninja, non-Rogue creature.
+Oracle:Destroy target non-Assassin, non-Ninja, non-Rogue creature.

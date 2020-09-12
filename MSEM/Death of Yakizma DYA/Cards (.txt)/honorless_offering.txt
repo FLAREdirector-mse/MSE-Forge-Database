@@ -2,11 +2,7 @@ Name:Honorless Offering
 ManaCost:B
 Types:Sorcery
 K:Escalate:B
-A:SP$ Charm | Cost$ B | MinCharmNum$ 1 | CharmNum$ 3 | Choices$ DBDraw1,DBDraw2,DBDraw3
-SVar:DBDraw1:DB$ Draw | NumCards$ 1 | Defined$ You | SubAbility$ DBLoseLife1 | SpellDescription$ You draw a card and you lose 1 life.
-SVar:DBLoseLife1:DB$ LoseLife | LifeAmount$ 1
-SVar:DBDraw2:DB$ Draw | NumCards$ 1 | Defined$ You | SubAbility$ DBLoseLife2 | SpellDescription$ You draw a card and you lose 1 life.
-SVar:DBLoseLife2:DB$ LoseLife | LifeAmount$ 1
-SVar:DBDraw3:DB$ Draw | NumCards$ 1 | Defined$ You | SubAbility$ DBLoseLife3 | SpellDescription$ You draw a card and you lose 1 life.
-SVar:DBLoseLife3:DB$ LoseLife | LifeAmount$ 1
-Oracle:Escalate {B}\nChoose one or more —\n• You draw a card and you lose 1 life.\n• You draw a card and you lose 1 life.\n• You draw a card and you lose 1 life.
+A:SP$ Charm | Cost$ B | MinCharmNum$ 1 | CharmNum$ 3 | Choices$ DBDraw,DBDraw,DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife | SpellDescription$ You draw a card and you lose 1 life.
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1
+Oracle:Escalate {B} (Pay this cost for each mode chosen beyond the first.)\nChoose one or more —\n• You draw a card and you lose 1 life.\n• You draw a card and you lose 1 life.\n• You draw a card and you lose 1 life. 

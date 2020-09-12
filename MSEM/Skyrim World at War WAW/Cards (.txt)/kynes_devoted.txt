@@ -1,0 +1,6 @@
+Name:Kyne's Devoted
+ManaCost:G
+Types:Creature Human Druid
+PT:0/1
+A:AB$ Mana | Cost$ T | Produced$ Combo G U R | Amount$ 1 | AddsNoCounter$ Creature.powerGE4 | SpellDescription$ Add {G}, {U}, or {R}. If that mana is spent on a creature spell with power 4 or greater, it can't be countered.
+Oracle:{T}: Add {G}, {U}, or {R}. If that mana is spent on a creature spell with power 4 or greater, it can't be countered.

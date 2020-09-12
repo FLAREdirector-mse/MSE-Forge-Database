@@ -1,0 +1,6 @@
+Name:Fungal Mire
+ManaCost:no cost
+Types:Land Swamp Forest
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Swamp.Basic+YouCtrl,Forest.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Swamp or a basic Forest.
+Oracle:({T}: Add {B} or {G}.)\nFungal Mire enters the battlefield tapped unless you control a basic Swamp or a basic Forest.

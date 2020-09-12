@@ -1,0 +1,10 @@
+Name:Ardy's Invocation
+ManaCost:R G
+Types:Sorcery
+A:SP$ Mana | Cost$ R G | Produced$ Combo Any | Amount$ 3 | AILogic$ MostProminentInComputerHand | SubAbility$ DBDraw | SpellDescription$ Add three mana in any combination of colors.
+A:AB$ ChangeZone | Cost$ 1 R G | ValidCard$ Self | Destination$ Exile | RememberChanged$ True | SorcerySpeed$ True | ActivationZone$ Hand | SubAbility$ Orchestrate | PrecostDesc$ Orchestrate | CostDesc$ {1}{R}{G} | SpellDescription$ (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
+SVar:Orchestrate:DB$ Animate | Defined$ Self | ValidCard$ Remembered | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
+SVar:TrigCast:Mode$ SpellCast | ValidControllingPlayer$ You | Execute$ DBCast | IsPresent$ Card.Self | PresentZone$ Exile
+SVar:DBCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Add three mana in any combination of colors.\nOrchestrate {1}{R}{G} (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)

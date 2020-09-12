@@ -1,0 +1,12 @@
+Name:Scion of Desolation
+ManaCost:3 B B
+Types:Creature Elemental Avatar
+PT:5/5
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, put target creature card with converted mana cost 3 or less from a graveyard onto the battlefield under your control.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card with converted mana cost 3 or less in a graveyard | ValidTgts$ Creature.cmcLE3 | GainControl$ True
+T:Mode$ ChangesZone | ValidCard$ Swamp.YouCtrl | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigAetherize | TriggerDescription$ Whenever a Swamp enters the battlefield under your control, aetherize CARDNAME.
+SVar:TrigAetherize:DB$ CopyPermanent | Defined$ Self | RememberTokens$ True | SubAbility$ DBExile
+SVar:DBExile:DB$ ChangeZone | Defined$ Remembered | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Deathtouch\nWhen Scion of Desolation enters the battlefield, put target creature card with converted mana cost 3 or less from a graveyard onto the battlefield under your control.\nWhenever a Swamp enters the battlefield under your control, aetherize Scion of Desolation.

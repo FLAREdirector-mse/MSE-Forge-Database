@@ -1,0 +1,7 @@
+Name:Shal'Draen's Rage
+ManaCost:1 R
+Types:Instant
+K:Kicker:1 R
+A:SP$ DamageAll | Cost$ 1 R | ValidCards$ Creature | NumDmg$ WasKicked | References$ WasKicked | SpellDescription$ CARDNAME deals 1 damage to each creature. If this spell was kicked, it deals 3 damage to each creature instead.
+SVar:WasKicked:Count$Kicked.3.1
+Oracle:Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)\nShal'Draen's Rage deals 1 damage to each creature. If this spell was kicked, it deals 3 damage to each creature instead.

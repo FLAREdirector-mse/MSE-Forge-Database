@@ -1,0 +1,7 @@
+Name:Cleared Vault
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Investigate | Cost$ 1 T Sac<1/CARDNAME> | SpellDescription$ Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+Oracle:{T}, Pay 1 life: Add {W} or {U}.\n{1}, {T}, Sacrifice Cleared Vault: Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")

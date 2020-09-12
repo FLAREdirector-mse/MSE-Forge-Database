@@ -1,0 +1,6 @@
+Name:Gloomcover Steppe
+ManaCost:no cost
+Types:Land Plains Swamp
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Plains.Basic+YouCtrl,Swamp.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Plains or a basic Swamp.
+Oracle:({T}: Add {W} or {B}.)\nGloomcover Steppe enters the battlefield tapped unless you control a basic Plains or a basic Swamp.

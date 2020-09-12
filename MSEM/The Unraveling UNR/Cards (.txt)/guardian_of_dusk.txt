@@ -1,0 +1,11 @@
+Name:Guardian of Dusk
+ManaCost:B B
+Types:Creature Human Warrior
+PT:2/2
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | AddToughness$ X | References$ X | Description$ CARDNAME gets +X/+X, where X is the amount of life you've lost this turn.
+T:Mode$ Always | TriggerZones$ Battlefield | IsPresent$ Creature.Self+powerGE13 | PresentCompare$ GE1 | Execute$ TrigSac | TriggerDescription$ When CARDNAME has power 13 or greater, sacrifice it. If you do, you gain life equal to its power.
+SVar:TrigSac:DB$ Sacrifice | Defined$ Self | SubAbility$ DBGainLife
+SVar:TrigSac:DB$ GainLife | Defined$ TriggeredCardController | LifeAmount$ XPower | References$ XPower
+SVar:X:Count$LifeYouLostThisTurn
+SVar:XPower:TriggeredCard$CardPower
+Oracle:Guardian of Dusk gets +X/+X, where X is the amount of life you've lost this turn.\nWhen Guardian of Dusk has power 13 or greater, sacrifice it. If you do, you gain life equal to its power.

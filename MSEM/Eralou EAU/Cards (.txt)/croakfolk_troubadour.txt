@@ -1,0 +1,7 @@
+Name:Croakfolk Troubadour
+ManaCost:1 G
+Types:Creature Frog Bard
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:When Croakfolk Troubadour enters the battlefield, draw a card.

@@ -1,0 +1,10 @@
+Name:Sparking Automaton
+ManaCost:1 W
+Types:Artifact Creature Construct
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Artifact.Other+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever another artifact enters the battlefield under your control, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+SVar:BuffedBy:Artifact
+DeckHas:Ability$Counters
+DeckNeeds:Type$Artifact
+Oracle:Whenever another artifact enters the battlefield under your control, put a +1/+1 counter on Sparking Automaton.

@@ -1,0 +1,7 @@
+Name:Citywide Automation
+ManaCost:1 W
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 1/1 colorless Construct artifact creature tokens.
+SVar:TrigToken:DB$ Token | TokenAmount$ 2 | TokenScript$ c_1_1_a_construct | LegacyImage$ c 1 1 a construct doa | TokenOwner$ You
+A:AB$ PumpAll | Cost$ 2 W W Sac<1/CARDNAME> | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ +1 | SorcerySpeed$ True | SpellDescription$ Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.
+Oracle:When Citywide Automation enters the battlefield, create two 1/1 colorless Construct artifact creature tokens.\n{2}{W}{W}, Sacrifice Citywide Automation: Creatures you control get +1/+1 until end of turn. Activate this ability only any time you could cast a sorcery.

@@ -1,0 +1,8 @@
+Name:Chigau, the Red Market
+ManaCost:1 B
+Types:Legendary Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card, then choose a creature card name.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBNameCard
+SVar:DBNameCard:DB$ NameCard | Defined$ You | ValidCards$ Card.Creature | ValidDesc$ creature
+S:Mode$ Continuous | Affected$ Card.NamedCard+YouOwn | MayPlay$ True | AffectedZone$ Graveyard | MayPlayLimit$ 1 | Description$ Once each turn, you may cast a creature card with the chosen name from your graveyard.
+Oracle:When Chigau, the Red Market enters the battlefield, draw a card, then choose a creature card name.\nOnce each turn, you may cast a creature card with the chosen name from your graveyard.

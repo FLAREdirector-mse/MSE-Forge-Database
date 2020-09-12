@@ -1,0 +1,9 @@
+Name:Aguri, Shadow of Doubt
+ManaCost:1 B B
+Types:Legendary Creature Spirit Rogue
+PT:3/1
+A:AB$ ChangeZone | Cost$ 1 B Return<1/Creature.attacking+unblocked/unblocked attacker> | PrecostDesc$ Deception | CostDesc$ {1}{B} | ActivationZone$ Hand | Origin$ Hand | Ninjutsu$ True | Destination$ Battlefield | Defined$ Self | SpellDescription$ ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDiscard | TriggerDescription$ When CARDNAME enters the battlefield, target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.
+SVar:TrigDiscard:DB$ Discard | ValidTgts$ Player | NumCards$ 1 | DiscardValid$ Card.nonLand | Mode$ RevealYouChoose | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 2
+Oracle:Deception {1}{B} ({1}{B}, Return an unblocked attacker you control to hand: Put this card onto the battlefield from your hand tapped and attacking.)\nWhen Aguri, Shadow of Doubt enters the battlefield, target player reveals their hand. You choose a nonland card from it. That player discards that card. You lose 2 life.

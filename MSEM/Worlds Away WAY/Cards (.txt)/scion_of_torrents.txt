@@ -1,0 +1,12 @@
+Name:Scion of Torrents
+ManaCost:3 U U
+Types:Creature Elemental Avatar
+PT:5/5
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, put target permanent on top of its owner's library.
+SVar:TrigChangeZone:DB$ ChangeZone | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | Origin$ Battlefield | Destination$ Library | LibraryPosition$ 0
+T:Mode$ ChangesZone | ValidCard$ Island.YouCtrl | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigAetherize | TriggerDescription$ Whenever an Island enters the battlefield under your control, aetherize CARDNAME.
+SVar:TrigAetherize:DB$ CopyPermanent | Defined$ Self | RememberTokens$ True | SubAbility$ DBExile
+SVar:DBExile:DB$ ChangeZone | Defined$ Remembered | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Flying\nWhen Scion of Torrents enters the battlefield, put target permanent on top of its owner's library.\nWhenever an Island enters the battlefield under your control, aetherize Scion of Torrents.

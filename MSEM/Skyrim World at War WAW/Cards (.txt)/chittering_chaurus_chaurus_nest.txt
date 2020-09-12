@@ -1,0 +1,22 @@
+Name:Chittering Chaurus
+ManaCost:1 G G
+Types:Creature Insect
+PT:3/3
+K:Trample
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | OptionalDecider$ You | Execute$ TrigReturn | TriggerDescription$ When CARDNAME dies, you may return it to the battlefield transformed with two egg counters on it.
+SVar:TrigReturn:DB$ ChangeZone | Defined$ TriggeredCard | Origin$ Graveyard | Destination$ Battlefield | Transformed$ True | WithCounters$ EGG_2
+AlternateMode:DoubleFaced
+Oracle:Trample\nWhen Chittering Chaurus dies, you may return it to the battlefield transformed with two egg counters on it.
+
+ALTERNATE
+
+Name:Chaurus Nest
+ManaCost:no cost
+Colors:green
+Types:Creature Insect
+PT:0/3
+K:Defender
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigRemoveCtr | TriggerDescription$ At the beginning of your upkeep, remove an egg counter from CARDNAME. Then if there are no egg counters on it, transform it.
+SVar:TrigRemoveCtr:DB$ RemoveCounter | Defined$ Self | CounterType$ EGG | CounterNum$ 1 | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform | ConditionPresent$ Card.Self+counters_EQ0_EGG
+Oracle:Defender\nAt the beginning of your upkeep, remove an egg counter from Chaurus Nest. Then if there are no egg counters on it, transform it.

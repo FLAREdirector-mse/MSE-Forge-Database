@@ -1,0 +1,16 @@
+Name:Warfield Excavator
+ManaCost:1 G
+Types:Creature Human Viking
+PT:2/3
+K:Vigilance
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigChangeZone | OptionalDecider$ You | TriggerDescription$ Whenever CARDNAME attacks, you may exile target card from a graveyard.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Card | TgtPrompt$ Select target card in a graveyard | RememberChanged$ True
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Creature.IsRemembered | Description$ CARDNAME gets +1/+1 for each card type among cards exiled with it.
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Land.IsRemembered
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Enchantment.IsRemembered
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Artifact.IsRemembered
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Instant.IsRemembered
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Sorcery.IsRemembered
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Planeswalker.IsRemembered
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | PresentZone$ Exile | PresentCompare$ GE1 | IsPresent$ Tribal.IsRemembered
+Oracle:Vigilance\nWhenever Warfield Excavator attacks, you may exile target card from a graveyard.\nWarfield Excavator gets +1/+1 for each card type among cards exiled with it.

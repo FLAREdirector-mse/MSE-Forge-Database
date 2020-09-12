@@ -1,0 +1,6 @@
+Name:Flooded Morass
+ManaCost:no cost
+Types:Land Island Swamp
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Island.Basic+YouCtrl,Swamp.Basic+YouCtrl | ConditionCompare$ EQ0 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control a basic Island or a basic Swamp.
+Oracle:({T}: Add {U} or {B}.)\nFlooded Morass enters the battlefield tapped unless you control a basic Island or a basic Swamp.

@@ -1,0 +1,10 @@
+Name:Villainy
+ManaCost:B B B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Creature | Origin$ Battlefield | Destination$ Graveyard | TriggerZones$ Battlefield | ActivationLimit$ 1 | Execute$ TrigDraw | TriggerDescription$ Whenever a creature dies for the first time each turn, you draw a card and you lose 1 life.
+T:Mode$ SpellCast | ValidCard$ Card.Black+nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ Whenever you cast a black noncreature spell, CARDNAME deals 2 damage to any target and you gain 2 life.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife
+SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | SubAbility$ DBGainLife
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+Oracle:Whenever a creature dies for the first time each turn, you draw a card and you lose 1 life.\nWhenever you cast a black noncreature spell, Villainy deals 2 damage to any target and you gain 2 life.

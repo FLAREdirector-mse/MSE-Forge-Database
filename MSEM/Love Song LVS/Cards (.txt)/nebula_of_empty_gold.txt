@@ -1,0 +1,25 @@
+Name:Nebula of Empty Gold
+ManaCost:no cost
+Types:Land
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Static$ True | Execute$ ChooseW | OptionalDecider$ You | StackDescription$ CARDNAME gains "{T}: Add {W}."
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Static$ True | Execute$ ChooseU | OptionalDecider$ You | StackDescription$ CARDNAME gains "{T}: Add {U}."
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Static$ True | Execute$ ChooseB | OptionalDecider$ You | StackDescription$ CARDNAME gains "{T}: Add {B}."
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Static$ True | Execute$ ChooseR | OptionalDecider$ You | StackDescription$ CARDNAME gains "{T}: Add {R}."
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Static$ True | Execute$ ChooseG | OptionalDecider$ You | StackDescription$ CARDNAME gains "{T}: Add {G}."
+SVar:ChooseW:DB$ Animate | Defined$ Self | Abilities$ AddW | Optional$ True | Permanent$ True | SubAbility$ LoseW
+SVar:ChooseU:DB$ Animate | Defined$ Self | Abilities$ AddU | Optional$ True | Permanent$ True | SubAbility$ LoseU
+SVar:ChooseB:DB$ Animate | Defined$ Self | Abilities$ AddB | Optional$ True | Permanent$ True | SubAbility$ LoseB
+SVar:ChooseR:DB$ Animate | Defined$ Self | Abilities$ AddR | Optional$ True | Permanent$ True | SubAbility$ LoseR
+SVar:ChooseG:DB$ Animate | Defined$ Self | Abilities$ AddG | Optional$ True | Permanent$ True | SubAbility$ LoseB
+SVar:AddW:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+SVar:AddU:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+SVar:AddB:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+SVar:AddR:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+SVar:AddG:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+SVar:LoseW:DB$ LoseLife | Defined$ You | LifeAmount$ 1
+SVar:LoseU:DB$ LoseLife | Defined$ You | LifeAmount$ 1
+SVar:LoseB:DB$ LoseLife | Defined$ You | LifeAmount$ 1
+SVar:LoseR:DB$ LoseLife | Defined$ You | LifeAmount$ 1
+SVar:LoseG:DB$ LoseLife | Defined$ You | LifeAmount$ 1
+S:Mode$ Continuous | Description$ As CARDNAME enters the battlefield, choose one or more colors. You lose life equal to the number of colors chosen this way.
+Oracle:As Nebula of Empty Gold enters the battlefield, choose one or more colors. You lose life equal to the number of colors chosen this way.\n{T}: Add one mana of any of the chosen colors.

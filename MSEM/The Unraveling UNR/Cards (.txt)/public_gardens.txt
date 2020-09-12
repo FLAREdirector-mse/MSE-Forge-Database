@@ -1,0 +1,8 @@
+Name:Public Gardens
+ManaCost:no cost
+Types:Legendary Land
+K:etbCounter:CHARGE:1
+S:Mode$ CantBeCast | ValidCard$ Card.nonGreen | Caster$ You | Description$ You can't cast nongreen spells.
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ G T SubCounter<1/CHARGE> | Produced$ G | Amount$ 3 | SpellDescription$ Add {G}{G}{G}.
+Oracle:Public Gardens enters the battlefield with a charge counter on it.\nYou can't cast nongreen spells.\n{T}: Add {G}.\n{G}, {T}, Remove a charge counter from Public Gardens: Add {G}{G}{G}.

@@ -1,0 +1,6 @@
+Name:Still the Pandemonium
+ManaCost:U U
+Types:Instant
+A:SP$ Counter | Cost$ U U | TargetType$ Spell | TgtPrompt$ Select target noncreature Spell | ValidTgts$ Card.nonCreature | SubAbility$ DBClue | SpellDescription$ Counter target noncreature spell. Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+SVar:DBClue:DB$ Investigate | Num$ 1
+Oracle:Counter target noncreature spell.\nInvestigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")

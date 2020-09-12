@@ -1,0 +1,5 @@
+Name:Veteran Lifeforger
+ManaCost:W
+Types:Artifact Creature Construct Cleric
+PT:2/1
+Oracle:

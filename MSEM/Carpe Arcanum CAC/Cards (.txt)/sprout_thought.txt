@@ -1,0 +1,11 @@
+Name:Sprout Thought
+ManaCost:1 U
+Types:Instant
+A:SP$ Draw | Cost$ 1 U | Defined$ You | NumCards$ 1 | SubAbility$ DBScry | SpellDescription$ Draw a card. Scry 2.
+SVar:DBScry:DB$ Scry | Defined$ You | ScryNum$ 2
+A:AB$ ChangeZone | Cost$ U | ValidCard$ Self | Destination$ Exile | RememberChanged$ True | SorcerySpeed$ True | ActivationZone$ Hand | SubAbility$ Orchestrate | PrecostDesc$ Orchestrate | CostDesc$ {U} | SpellDescription$ (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
+SVar:Orchestrate:DB$ Animate | Defined$ Self | ValidCard$ Remembered | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
+SVar:TrigCast:Mode$ SpellCast | ValidControllingPlayer$ You | Execute$ DBCast | IsPresent$ Card.Self | PresentZone$ Exile
+SVar:DBCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Draw a card. Scry 2.\nOrchestrate {U} (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)

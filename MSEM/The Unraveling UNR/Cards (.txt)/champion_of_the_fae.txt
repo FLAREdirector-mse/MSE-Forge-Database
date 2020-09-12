@@ -1,0 +1,8 @@
+Name:Champion of the Fae
+ManaCost:G
+Types:Creature Human Druid
+PT:1/1
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | OpponentTurn$ True | Execute$ TrigPutCounter | TriggerDescription$ Whenever you cast a spell during an opponent's turn, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+DeckHas:Ability$Counters
+Oracle:Whenever you cast a spell during an opponent's turn, put a +1/+1 counter on Champion of the Fae.

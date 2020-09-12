@@ -1,0 +1,6 @@
+Name:Abscond
+ManaCost:X U
+Types:Sorcery
+A:SP$ GainControl | Cost$ X U | Announce$ X | ValidTgts$ Creature.cmcEQX | TgtPrompt$ Select target noncreature, nonland permanent | References$ X | SpellDescription$ Gain control of target noncreature, nonland permanent with converted mana cost X.
+SVar:X:Count$xPaid
+Oracle:Gain control of target noncreature, nonland permanent with converted mana cost X.

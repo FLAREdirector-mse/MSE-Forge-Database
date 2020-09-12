@@ -1,0 +1,14 @@
+Name:Volatile Stonework
+ManaCost:1
+Types:Artifact Creature Construct
+PT:1/1
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChoose | TriggerDescription$ When CARDNAME enters the battlefield, choose target creature or planeswalker an opponent controls.
+SVar:TrigChoose:DB$ Pump | ValidTgts$ Creature.OppCtrl,Planeswalker.OppCtrl | TgtPrompt$ Select target creature or planeswalker an opponent controls | RememberObjects$ Targeted | UntilHostLeavesPlay$ True
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigDealDamage | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, it deals 4 damage to the chosen creature or planeswalker.
+SVar:TrigDealDamage:DB$ DealDamage | Defined$ Remembered | NumDmg$ 4 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+
+#There's an edge case where Volatile Stonework won't forget the card if its damage trigger gets stifled. I don't think there's a solution here, but if you're willing to try, good luck. I'd fiddle with static triggers.
+
+Oracle:Haste\nWhen Volatile Stonework enters the battlefield, choose target creature or planeswalker an opponent controls.\nWhen Volatile Stonework dies, it deals 4 damage to the chosen creature or planeswalker.

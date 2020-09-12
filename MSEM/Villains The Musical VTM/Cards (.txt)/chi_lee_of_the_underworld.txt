@@ -1,0 +1,7 @@
+Name:Chi Lee of the Underworld
+ManaCost:B G
+Types:Legendary Creature Human Shaman
+PT:2/1
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ ABToken | TriggerDescription$ Whenever CARDNAME attacks, you may discard a card. If you do, create a 4/4 black Demon creature token with "Whenever this creature deals combat damage to a player, return target card from your graveyard to your hand."
+SVar:ABToken:AB$ Token | Cost$ Discard<1/Card> | TokenScript$ b_4_4_demon_regrowth | TokenAmount$ 1
+Oracle:Whenever Chi Lee attacks, you may discard a card. If you do, create a 4/4 black Demon creature token with "Whenever this creature deals combat damage to a player, return target card from your graveyard to your hand."
