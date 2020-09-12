@@ -1,0 +1,9 @@
+Name:Virida the Forgotten One
+ManaCost:2 G G
+Types:Legendary Creature God
+PT:8/8
+K:Indestructible
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | AddKeyword$ Hexproof | Description$ Other creatures you control have hexproof.
+S:Mode$ Continuous | Affected$ Card.YouCtrl | AffectedZone$ Stack | AddHiddenKeyword$ CARDNAME can't be countered. | Description$ Spells you cast can't be countered.
+S:Mode$ Continuous | Affected$ Card.Self+withoutHexproof | AddHiddenKeyword$ CARDNAME can't attack or block. | Description$ CARDNAME can't attack or block unless it has hexproof.
+Oracle:Indestructible\nOther creatures you control have hexproof.\nSpells you cast can't be countered.\nVirida can't attack or block unless it has hexproof.

@@ -1,0 +1,6 @@
+Name:Arcane Genesis
+ManaCost:U U
+Types:Instant
+A:SP$ Counter | Cost$ U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | Destination$ Exile | SubAbility$ DBChange | SpellDescription$ Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. Its controller may search their library for a land card, put that card onto the battlefield tapped, then shuffle their library.
+SVar:DBChange:DB$ ChangeZone | Optional$ True | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land | ChangeNum$ 1 | DefinedPlayer$ TargetedController | ShuffleNonMandatory$ True
+Oracle:Counter target spell. If that spell is countered this way, exile it instead of putting it into its owner's graveyard. Its controller may search their library for a land card, put that card onto the battlefield tapped, then shuffle their library.

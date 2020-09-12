@@ -1,0 +1,10 @@
+Name:Snowfield Mother
+ManaCost:2 G G
+Types:Snow Creature Bear
+PT:4/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigLife | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME enters the battlefield, you gain 4 life.
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigToken | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME leaves the battlefield, create a 2/2 green Bear token.
+SVar:TrigLife:DB$ GainLife | Defined$ You | LifeAmount$ 4
+SVar:TrigToken:DB$ Token | TokenOwner$ You | TokenScript$ g_2_2_bear | LegacyImage$ g 2 2 bear mh1 | TokenAmount$ 1
+DeckHas:Ability$Token & Ability$LifeGain
+Oracle:When Snowfield Mother enters the battlefield, you gain 4 life.\nWhen Snowfield Mother leaves the battlefield, create a 2/2 green Bear creature token
