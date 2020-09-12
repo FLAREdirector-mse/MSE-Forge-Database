@@ -1,0 +1,7 @@
+Name:Murky Peat
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ ChangeZone | Cost$ T PayLife<1> Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Swamp.Basic | ChangeNum$ 1 | SpellDescription$ Search your library for a basic Swamp card, put it onto the battlefield, then shuffle your library.
+A:AB$ ChangeZone | Cost$ T PayLife<1> Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Swamp.nonBasic | ChangeNum$ 1 | Tapped$ True | SpellDescription$ Search your library for a nonbasic Swamp card, put it onto the battlefield tapped, then shuffle your library.
+Oracle:{T}, Pay 1 life: Add {B}.\n{T}, Pay 1 life, Sacrifice Murky Peat: Search your library for a Swamp card, put it onto the battlefield, then shuffle your library. That land enters the battlefield tapped unless it's basic.
