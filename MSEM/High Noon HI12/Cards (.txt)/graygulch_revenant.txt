@@ -1,0 +1,8 @@
+Name:Graygulch Revenant
+ManaCost:B
+Types:Creature Spirit
+PT:3/2
+K:Haste
+T:Mode$ LifeLost | ValidPlayer$ Player | TriggerZones$ Battlefield | Execute$ TrigControl | TriggerDescription$ Whenever a player loses life, that player gains control of CARDNAME.
+SVar:TrigControl:DB$ GainControl | Defined$ Self | NewController$ TriggeredPlayer
+Oracle:Haste\nWhenever a player loses life, that player gains control of Graygulch Revenant.
