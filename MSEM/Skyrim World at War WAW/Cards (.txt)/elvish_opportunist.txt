@@ -1,0 +1,9 @@
+Name:Elvish Opportunist
+ManaCost:G
+Types:Creature Elf Rogue
+PT:1/1
+K:ETBReplacement:Other:DBChoice
+SVar:DBChoice:DB$ GenericChoice | Defined$ You | Choices$ DBCounter,DBToken | SpellDescription$ Pillage (You may have this enter the battlefield with a +1/+1 counter. If you don't, create a Treasure token.)
+SVar:DBCounter:DB$ PutCounter | Defined$ Self | ETB$ True | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ +1/+1 counter
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_treasure_sac | SpellDescription$ Treasure token
+Oracle:Pillage (You may have this enter the battlefield with a +1/+1 counter. If you don't, create a Treasure token.)
