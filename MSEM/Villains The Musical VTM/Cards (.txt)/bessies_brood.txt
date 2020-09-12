@@ -1,0 +1,7 @@
+Name:Bessie's Brood
+ManaCost:1 G G
+Types:Creature Wurm
+PT:3/4
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigFight | TriggerDescription$ When CARDNAME enters the battlefield, it fights target creature.
+SVar:TrigFight:DB$ Fight | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature | TgtPrompt$ Choose target creature
+Oracle:When Bessie's Brood enters the battlefield, it fights target creature.

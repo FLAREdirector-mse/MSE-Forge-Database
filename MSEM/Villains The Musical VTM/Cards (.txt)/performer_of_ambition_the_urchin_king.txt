@@ -1,0 +1,23 @@
+Name:Performer of Ambition
+ManaCost:1 B B
+Types:Creature Human Actor
+PT:3/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ When CARDNAME enters the battlefield, each player discards a card. Then if a player has no cards in hand, you may transform CARDNAME.
+SVar:TrigDiscard:DB$ Discard | Defined$ Player | NumCards$ 1 | Mode$ TgtChoose | SubAbility$ DBStatTrig
+SVar:DBStatTrig:DB$ ImmediateTrigger | Execute$ TrigTransform | OptionalDecider$ You | Static$ True | CheckSVar$ LowestHand | SVarCompare$ EQ0 | TriggerDescription$ You may transform CARDNAME.
+SVar:TrigTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+SVar:LowestHand:PlayerCountPlayers$LowestCardsInHand
+Oracle:When Performer of Ambition enters the battlefield, each player discards a card. Then if a player has no cards in hand, you may transform Performer of Ambition.
+
+ALTERNATE
+
+Name:The Urchin King
+ManaCost:no cost
+Colors:black
+Types:Legendary Creature Human Noble Actor
+PT:*/*
+S:Mode$ Continuous | EffectZone$ All | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | Description$ CARDNAME's power and toughness are each equal to the number of cards in all graveyards.
+A:AB$ Pump | Cost$ Sac<1/Creature> | Defined$ Self | KW$ Lifelink & Indestructible | SpellDescription$ CARDNAME gains lifelink and indestructible until end of turn.
+SVar:X:Count$InAllYards
+Oracle:The Urchin King's power and toughness are each equal to the number of cards in all graveyards.\nSacrifice a creature: The Urchin King gains lifelink and indestructible until end of turn.
