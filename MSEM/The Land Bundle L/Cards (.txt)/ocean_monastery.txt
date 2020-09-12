@@ -1,0 +1,7 @@
+Name:Ocean Monastery
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | UnlessAI$ Shockland | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, CARDNAME enters the battlefield tapped.
+A:AB$ ChangeZone | Cost$ T Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Plains,Island | ChangeNum$ 1 | SpellDescription$ Search your library for a Plains or Island card, put it onto the battlefield, then shuffle your library.
+Oracle:As Ocean Monastery enters the battlefield, you may pay 2 life. If you don't, Ocean Monastery enters the battlefield tapped.\n{T}, Sacrifice Ocean Monastery: Search your library for a Plains or Island card, put it onto the battlefield, then shuffle your library.
