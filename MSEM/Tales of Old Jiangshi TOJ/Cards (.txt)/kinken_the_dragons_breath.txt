@@ -1,0 +1,9 @@
+Name:Kinken, the Dragon's Breath
+ManaCost:1 R
+Types:Legendary Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card, then choose a creature card name.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBNameCard
+SVar:DBNameCard:DB$ NameCard | Defined$ You | ValidCards$ Card.Creature | ValidDesc$ creature
+T:Mode$ Attacks | ValidCard$ Card.NamedCard | TriggerZones$ Battlefield | Execute$ TrigCopy | TriggerDescription$ Whenever a creature you control with the chosen name attacks, create a tapped and attacking token that's a copy of it except it isn't legendary. Exile the token at the beginning of the end step.
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ TriggeredAttacker | NonLegendary$ True | TokenTapped$ True | TokenAttacking$ True | AtEOT$ Exile
+Oracle:When Kinken, the Dragon's Breath enters the battlefield, draw a card, then choose a creature card name.\nWhenever a creature you control with the chosen name attacks, create a tapped and attacking token that's a copy of it except it isn't legendary. Exile the token at the beginning of the end step.
