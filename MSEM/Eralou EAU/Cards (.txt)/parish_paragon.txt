@@ -1,0 +1,9 @@
+Name:Parish Paragon
+ManaCost:1 W
+Types:Creature Human Cleric
+PT:0/0
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | AddToughness$ X | References$ X | Description$ CARDNAME gets +1/+1 for each creature you control.
+R:Event$ DamageDone | ActiveZones$ Battlefield | ValidTarget$ Creature.Other+YouCtrl | ReplaceWith$ DmgSelf | Description$ All damage that would be dealt to other creatures you control is dealt to CARDNAME instead.
+SVar:DmgSelf:DB$ ReplaceEffect | VarName$ Affected | VarValue$ Self | VarType$ Card
+SVar:X:Count$Valid Creature.YouCtrl
+Oracle:Parish Paragon gets +1/+1 for each creature you control.\nAll damage that would be dealt to other creatures you control is dealt to Parish Paragon instead.
