@@ -1,0 +1,12 @@
+Name:Sea Of Skies Beyond
+ManaCost:no cost
+Types:Legendary Land Island
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ DBPutCounter | TriggerDescription$ Whenever you cast a noncreature spell, put a wind counter on CARDNAME.
+
+#The card uses wind counters instead of creation counters - the latter don't exist in canon yet.
+
+SVar:DBPutCounter:DB$ PutCounter | CounterType$ WIND | CounterNum$ 1
+A:AB$ ChangeZoneAll | Cost$ T SubCounter<10/WIND> Sac<1/CARDNAME> | Defined$ You | Origin$ Hand | Destination$ Library | LibraryPosition$ -1 | Shuffle$ True | SubAbility$ DBDraw | SpellDescription$ Shuffle your hand into your library, then draw five cards.
+SVar:DBDraw:DB$ Draw | NumCards$ 5
+Oracle:({T}: Add {U}.)\nSea Of Skies Beyond enters the battlefield tapped.\nWhenever you cast a noncreature spell, put a creation counter on Sea Of Skies Beyond.\n{T}, Remove ten creation counters from Sea Of Skies Beyond and sacrifice it: Shuffle your hand into your library, then draw five cards.

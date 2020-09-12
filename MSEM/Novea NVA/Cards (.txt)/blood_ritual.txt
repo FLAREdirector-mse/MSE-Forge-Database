@@ -1,0 +1,5 @@
+Name:Blood Ritual
+ManaCost:B
+Types:Instant
+A:SP$ LoseLife | Cost$ B | ValidTgts$ Player | TgtPrompt$ Select a player | LifeAmount$ 3 | SpellDescription$ Target player loses 3 life.
+Oracle:Target player loses 3 life.
