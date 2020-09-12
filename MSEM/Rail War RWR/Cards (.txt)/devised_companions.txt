@@ -1,0 +1,6 @@
+Name:Devised Companions
+ManaCost:1 R
+Types:Sorcery
+A:SP$ Token | Cost$ 1 R | TokenAmount$ 3 | TokenScript$ c_1_1_a_construct | LegacyImage$ c 1 1 a construct rwr | TokenOwner$ You | ConditionPresent$ Artifact.YouCtrl | ConditionCompare$ GE1 | SubAbility$ DBToken | SpellDescription$ If you control an artifact, create three 1/1 colorless Construct artifact creature tokens. Otherwise, create one of those tokens.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_a_construct | LegacyImage$ c 1 1 a construct rwr | TokenOwner$ You | ConditionPresent$ Artifact.YouCtrl | ConditionCompare$ EQ0
+Oracle:If you control an artifact, create three 1/1 colorless Construct artifact creature tokens. Otherwise, create one of those tokens.

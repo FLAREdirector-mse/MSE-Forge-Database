@@ -1,0 +1,7 @@
+Name:Union Rail Strikebreaker
+ManaCost:1 U
+Types:Creature Human Artificer
+PT:1/1
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ Strikebreaking | TriggerDescription$ Whenever you cast a noncreature spell, create a 1/1 colorless Construct artifact creature token.
+SVar:Strikebreaking:DB$ Token | TokenAmount$ 1 | TokenScript$ c_1_1_a_construct | LegacyImage$ c 1 1 a construct rwr | TokenOwner$ You
+Oracle:Whenever you cast a noncreature spell, create a 1/1 colorless Construct artifact creature token.
