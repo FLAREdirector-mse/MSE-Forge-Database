@@ -1,0 +1,6 @@
+Name:White Petal Ronin
+ManaCost:W
+Types:Creature Human Samurai
+PT:0/2
+K:Double Strike
+Oracle:Double Strike
