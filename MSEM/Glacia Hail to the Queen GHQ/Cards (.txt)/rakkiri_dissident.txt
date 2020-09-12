@@ -1,0 +1,8 @@
+Name:Rakkiri Dissident
+ManaCost:R R
+Types:Creature Fox Soldier
+PT:2/2
+K:Haste
+T:Mode$ SpellCast | TriggerZones$ Battlefield | Execute$ TrigDealDamage | TriggerDescription$ Whenever a player casts a spell, CARDNAME deals 1 damage to that player.
+SVar:TrigDealDamage:DB$ DealDamage | Defined$ TriggeredActivator | NumDmg$ 1
+Oracle:Haste\nWhenever a player casts a spell, Rakkiri Dissident deals 1 damage to that player.

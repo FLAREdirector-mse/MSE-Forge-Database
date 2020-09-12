@@ -1,8 +1,8 @@
-# TODO
 Name:Cane Dancer
 ManaCost:1 U
-Types:Creature Human Monk
-K:Flash
+Types:Creature Human Wizard
 PT:1/2
-
-Oracle:Flash\nWhen Cane Dancer enters the battlefield, you may cast target blue instant or sorcery card with converted mana cost 2 from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead. 
+K:Flash
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPlay | TriggerDescription$ When CARDNAME enters the battlefield, you may cast target blue instant or sorcery card with converted mana cost 2 from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.
+SVar:TrigPlay:DB$ Play | TgtZone$ Graveyard | ValidTgts$ Instant.YouCtrl+Blue+cmcLE2,Sorcery.YouCtrl+Blue+cmcLE2 | TgtPrompt$ Choose target blue instant or sorcery card with converted mana cost 2 or less from your graveyard | WithoutManaCost$ True | Optional$ True | ReplaceGraveyard$ Exile | AILogic$ ReplaySpell
+Oracle:Flash\nWhen Cane Dancer enters the battlefield, you may cast target blue instant or sorcery card with converted mana cost 2 from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.
