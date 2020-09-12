@@ -1,0 +1,8 @@
+Name:Raiun Bay Admiral
+ManaCost:G G
+Types:Creature Human Samurai
+PT:3/2
+K:Trample
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPutCounters | IsPresent$ Card.Self+dealtDamageToOppThisTurn | TriggerDescription$ Art of war — At the beginning of your end step, if CARDNAME dealt damage to an opponent this turn, put a +1/+1 counter on each other creature you control.
+SVar:TrigPutCounters:DB$ PutCounterAll | ValidCards$ Creature.Other+YouCtrl | CounterType$ P1P1 | CounterNum$ 1
+Oracle:Trample\nArt of war — At the beginning of your end step, if Raiun Bay Admiral dealt damage to an opponent this turn, put a +1/+1 counter on each other creature you control.
