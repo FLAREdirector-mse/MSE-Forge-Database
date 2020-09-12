@@ -1,0 +1,10 @@
+Name:Bloated Keystone
+ManaCost:1 B B
+Types:Sorcery
+A:SP$ Discard | Cost$ 1 B B | ValidTgts$ Player | NumCards$ 2 | Mode$ TgtChoose | SpellDescription$ Target player discards two cards.
+A:AB$ ChangeZone | Cost$ 1 B B | ValidCard$ Self | Destination$ Exile | RememberChanged$ True | SorcerySpeed$ True | ActivationZone$ Hand | SubAbility$ Orchestrate | PrecostDesc$ Orchestrate | CostDesc$ {1}{B}{B} | SpellDescription$ (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
+SVar:Orchestrate:DB$ Animate | Defined$ Self | ValidCard$ Remembered | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
+SVar:TrigCast:Mode$ SpellCast | ValidControllingPlayer$ You | Execute$ DBCast | IsPresent$ Card.Self | PresentZone$ Exile
+SVar:DBCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Target player discards two cards.\nOrchestrate {1}{B}{B} (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
