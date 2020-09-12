@@ -1,0 +1,6 @@
+Name:Blood Tide
+ManaCost:2 R
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ At the beginning of your upkeep, each player sacrifices a nonbasic land.
+SVar:TrigSac:DB$ Sacrifice | SacValid$ Land.nonBasic | Defined$ Player
+Oracle:At the beginning of your upkeep, each player sacrifices a nonbasic land.
