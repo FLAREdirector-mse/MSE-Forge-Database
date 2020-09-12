@@ -1,0 +1,8 @@
+Name:Mossy Companion
+ManaCost:2 G G
+Types:Creature Elemental
+PT:5/5
+K:Vigilance
+K:Reach
+K:Trample
+Oracle:Vigilance, reach, trample
