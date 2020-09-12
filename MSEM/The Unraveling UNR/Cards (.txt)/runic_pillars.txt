@@ -1,0 +1,7 @@
+Name:Runic Pillars
+ManaCost:4
+Types:Artifact
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ C | Amount$ 3 | SpellDescription$ Add {C}{C}{C}.
+A:AB$ Mana | Cost$ 2 | Produced$ Any | SpellDescription$ Add one mana of any color.
+Oracle:Runic Pillars enters the battlefield tapped.\n{T}: Add {C}{C}{C}.\n{2}: Add one mana of any color.

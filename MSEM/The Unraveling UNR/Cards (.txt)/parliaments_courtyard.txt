@@ -1,0 +1,8 @@
+Name:Parliament's Courtyard
+ManaCost:no cost
+Types:Legendary Land
+K:etbCounter:CHARGE:1
+S:Mode$ CantBeCast | ValidCard$ Card.nonWhite | Caster$ You | Description$ You can't cast nonwhite spells.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Mana | Cost$ W T SubCounter<1/CHARGE> | Produced$ W | Amount$ 3 | SpellDescription$ Add {W}{W}{W}.
+Oracle:Parliament's Courtyard enters the battlefield with a charge counter on it.\nYou can't cast nonwhite spells.\n{T}: Add {W}.\n{W}, {T}, Remove a charge counter from Parliament's Courtyard: Add {W}{W}{W}.
