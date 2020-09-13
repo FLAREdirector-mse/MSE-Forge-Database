@@ -1,0 +1,8 @@
+Name:Blade of Fretport
+ManaCost:1 R
+Types:Creature Human Soldier
+PT:2/1
+K:CARDNAME must be blocked if able.
+T:Mode$ AttackerBlockedByCreature | ValidCard$ Card.Self | ValidBlocker$ Creature | Execute$ TrigDamageBlocker | Secondary$ True | TriggerDescription$ Whenever CARDNAME becomes blocked by a creature, CARDNAME deals 1 damage to that creature.
+SVar:TrigDamageBlocker:DB$ DealDamage | Defined$ TriggeredBlockerLKICopy | NumDmg$ 1
+Oracle:Engage (This creature must be blocked each combat if able.)\nWhenever Blade of Fretport becomes blocked by a creature, Blade of Fretport deals 1 damage to that creature.

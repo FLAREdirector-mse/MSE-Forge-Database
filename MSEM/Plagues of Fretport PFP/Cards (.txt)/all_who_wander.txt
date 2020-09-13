@@ -1,0 +1,8 @@
+Name:All Who Wander
+ManaCost:G
+Types:Enchantment
+K:Vanishing:2
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigGainLife | TriggerDescription$ Whenever a time counter is removed from CARDNAME, you gain 2 life and scry 1.
+SVar:TrigGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2 | SubAbility$ DBScry
+SVar:DBScry:DB$ Scry | Defined$ You | ScryNum$ 1
+Oracle:Vanishing 2 (This permanent enters the battlefield with two time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhenever a time counter is removed from All Who Wander, you gain 2 life and scry 1.

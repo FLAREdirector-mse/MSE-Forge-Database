@@ -1,0 +1,8 @@
+Name:Dwindling Peace
+ManaCost:2 U
+Types:Enchantment
+K:Vanishing:3
+S:Mode$ Continuous | Affected$ Creature | AddPower$ -1 | Description$ Creatures get -1/-0.
+A:AB$ GainLife | Cost$ 1 W | LifeAmount$ X | References$ X | SpellDescription$ You gain 1 life for each time counter on CARDNAME.
+SVar:X:Count$CardCounters.TIME
+Oracle:Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nCreatures get -1/-0.\n{1}{W}: You gain 1 life for each time counter on Dwindling Peace.

@@ -1,0 +1,6 @@
+Name:Dashing Rogue
+ManaCost:WU
+Types:Creature Human Rogue
+PT:1/2
+K:Creatures with power greater than CARDNAME's power can't block it.
+Oracle:Creatures with power greater than Dashing Rogue's power can't block it.

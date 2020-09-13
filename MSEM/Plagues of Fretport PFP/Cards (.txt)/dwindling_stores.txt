@@ -1,0 +1,6 @@
+Name:Dwindling Stores
+ManaCost:2 RG
+Types:Enchantment
+K:Vanishing:3
+A:AB$ Mana | Cost$ SubCounter<1/TIME> | Produced$ Any | SpellDescription$ Add one mana of any color.
+Oracle:Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nRemove a time counter from Dwindling Stores: Add one mana of any color.
