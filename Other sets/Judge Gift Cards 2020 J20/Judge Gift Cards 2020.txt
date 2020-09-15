@@ -10,7 +10,7 @@ Type=Other
 3 R Spellseeker
 4 R Demonic Tutor
 5 R Infernal Tutor
-6 R Gample
+6 R Gamble
 7 R Birthing Pod
 8 R Sylvan Tutor
 9 R Sterling Grove
