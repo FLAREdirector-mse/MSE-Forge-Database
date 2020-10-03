@@ -1,0 +1,5 @@
+Name:Killdrone Engineer
+ManaCost:2 B
+Types:Creature Human Artificer 
+PT:2/1
+Oracle:When Killdrone Engineer enters the battlefield, create a 1/1 colorless Servo artifact creature token.\nArtifacts you control have deathtouch.\n

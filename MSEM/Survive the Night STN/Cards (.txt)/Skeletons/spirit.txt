@@ -1,0 +1,6 @@
+Name:Spirit
+ManaCost:
+Types:Token Creature Spirit 
+PT:1/1
+K:Lifelink
+Oracle:Lifelink\n

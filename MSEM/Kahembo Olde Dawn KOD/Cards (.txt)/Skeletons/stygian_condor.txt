@@ -1,0 +1,6 @@
+Name:Stygian Condor
+ManaCost:4 B
+Types:Creature Bird 
+PT:3/3
+K:Flying
+Oracle:Flying\n{B}, Sacrifice another creature: Draw a card.\n

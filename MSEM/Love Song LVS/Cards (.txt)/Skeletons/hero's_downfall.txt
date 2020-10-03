@@ -1,0 +1,4 @@
+Name:Hero’s Downfall
+ManaCost:1 B B
+Types:Instant
+Oracle:Destroy target creature or planeswalker.\n

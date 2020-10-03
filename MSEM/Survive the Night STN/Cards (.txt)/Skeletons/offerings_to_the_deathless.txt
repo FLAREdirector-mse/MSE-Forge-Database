@@ -1,0 +1,4 @@
+Name:Offerings to the Deathless
+ManaCost:B
+Types:Sorcery
+Oracle:Each player sacrifices a creature. If a player lost 3 or more life this turn, each opponent sacrifices a creature instead.\n

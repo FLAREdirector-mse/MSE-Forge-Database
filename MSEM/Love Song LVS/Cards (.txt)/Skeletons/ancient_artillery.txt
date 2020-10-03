@@ -1,0 +1,4 @@
+Name:Ancient Artillery
+ManaCost:3
+Types:Artifact
+Oracle:{3}, {T}: Ancient Artillery deals 1 damage to target creature or planeswalker and 1 damage to that permanent's controller.\n

@@ -1,0 +1,5 @@
+Name:Green Daywalker
+ManaCost:2 G
+Types:Creature Beast 
+PT:2/1
+Oracle:When Green Daywalker enters the battlefield, you may destroy target artifact or enchantment.\nAugmented — At the beginning of each end step, if you've spent {W}{U}{B}{R}{G} on spells this turn, put a +1/+1 counter on Green Daywalker.\n

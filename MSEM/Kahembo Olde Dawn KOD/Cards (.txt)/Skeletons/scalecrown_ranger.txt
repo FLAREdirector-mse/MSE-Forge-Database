@@ -1,0 +1,6 @@
+Name:Scale-Crown Ranger
+ManaCost:2 R
+Types:Creature Lizard Archer 
+PT:1/4
+K:Defender
+Oracle:Defender\n{T}: Scale-Crown Ranger deals 1 damage to each opponent.\nPrismatic — Whenever you cast a multicolored spell, untap Scale-Crown Ranger.\n

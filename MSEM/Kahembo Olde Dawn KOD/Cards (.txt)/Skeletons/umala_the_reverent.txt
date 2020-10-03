@@ -1,0 +1,5 @@
+Name:Umala, the Reverent
+ManaCost:2 R W
+Types:Legendary Creature Hound Knight 
+PT:4/3
+Oracle:Other Hounds you control have trample.\n{R/W}, {T}: Put a +1/+1 counter on target Hound you control.\n

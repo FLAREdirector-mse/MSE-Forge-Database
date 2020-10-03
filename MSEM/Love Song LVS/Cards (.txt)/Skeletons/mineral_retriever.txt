@@ -1,0 +1,6 @@
+Name:Mineral Retriever
+ManaCost:3
+Types:Artifact Creature Thopter 
+PT:1/1
+K:Flying
+Oracle:Flying\nWhen Mineral Retriever enters the battlefield, create a Treasure token.\n

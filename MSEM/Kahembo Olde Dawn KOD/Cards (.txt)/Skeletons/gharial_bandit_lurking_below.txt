@@ -1,0 +1,5 @@
+Name:Gharial Bandit
+ManaCost:3 U
+Types:Creature Crocodile Rogue 
+PT:3/2
+Oracle:

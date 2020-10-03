@@ -1,0 +1,5 @@
+Name:Bourasan Street Watch
+ManaCost:1 W
+Types:Creature Hound Knight 
+PT:3/1
+Oracle:Whenever Bourasan Street Watch attacks, you may pay {W}. If you do, Bourasan Street Watch gains indestructible until end of turn.\n

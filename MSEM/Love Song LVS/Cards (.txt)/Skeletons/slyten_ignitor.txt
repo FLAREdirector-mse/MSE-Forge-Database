@@ -1,0 +1,6 @@
+Name:Slyten Ignitor
+ManaCost:2 R
+Types:Creature Elemental Drake 
+PT:2/1
+K:Flying
+Oracle:Flying\n{R}: Slyten Ignitor gets +1/+0 until end of turn.\n

@@ -1,0 +1,6 @@
+Name:Ruinous Naga
+ManaCost:1 R G
+Types:Creature Naga Warrior 
+PT:3/3
+K:Trample
+Oracle:Trample\nWhenever a noncreature permanent is put into a graveyard from the battlefield, put a +1/+1 counter on Ruinous Naga.\n

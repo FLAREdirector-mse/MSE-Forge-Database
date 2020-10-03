@@ -1,0 +1,4 @@
+Name:Croak Tales
+ManaCost:2 U
+Types:Sorcery
+Oracle:This spell costs {2} less to cast if you control a creature with a Tale.\nDraw two cards.\n

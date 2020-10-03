@@ -1,0 +1,4 @@
+Name:Temporal Insight
+ManaCost:9 U U U
+Types:Sorcery
+Oracle:This spell costs {1} less to cast for each ten cards in your library.\nTake an extra turn after this one.\nExile Temporal Insight.\n

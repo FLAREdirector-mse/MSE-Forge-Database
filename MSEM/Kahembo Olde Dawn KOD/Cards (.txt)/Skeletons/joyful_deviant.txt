@@ -1,0 +1,5 @@
+Name:Joyful Deviant
+ManaCost:2 BR
+Types:Creature Hyena Rogue 
+PT:2/2
+Oracle:When Joyful Deviant enters the battlefield or dies, it deals 1 damage to any target.\n

@@ -1,0 +1,5 @@
+Name:Corvid Heretic
+ManaCost:B
+Types:Creature Bird 
+PT:1/1
+Oracle:Whenever one or more cards leave your graveyard, each opponent loses 1 life and you gain that much life.\n

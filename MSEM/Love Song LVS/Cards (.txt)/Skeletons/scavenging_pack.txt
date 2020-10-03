@@ -1,0 +1,6 @@
+Name:Scavenging Pack
+ManaCost:1 G G
+Types:Creature Spider 
+PT:3/3
+K:Reach
+Oracle:Reach\nWhen Scavenging Pack enters the battlefield, you may destroy target artifact with converted mana cost 2 or less.\n

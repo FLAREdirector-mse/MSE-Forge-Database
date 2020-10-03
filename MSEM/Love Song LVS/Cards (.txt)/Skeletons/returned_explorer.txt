@@ -1,0 +1,5 @@
+Name:Returned Explorer
+ManaCost:2 B
+Types:Creature Zombie 
+PT:3/2
+Oracle:At the beginning of your upkeep, if a library has twenty or fewer cards left in it, return Returned Explorer from your graveyard to the battlefield tapped.\n

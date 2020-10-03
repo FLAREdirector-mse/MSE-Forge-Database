@@ -1,0 +1,6 @@
+Name:Aldorus Fin, Vice President
+ManaCost:1 B R
+Types:Legendary Creature Human Noble 
+PT:1/4
+K:Deathtouch
+Oracle:Deathtouch\nWhenever a creature you don't control dies, choose one —\n• Create a Treasure token.\n• You draw a card and lose 1 life.\n

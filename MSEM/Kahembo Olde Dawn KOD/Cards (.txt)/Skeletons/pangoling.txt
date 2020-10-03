@@ -1,0 +1,5 @@
+Name:Pangoling
+ManaCost:1 GU GU
+Types:Creature Pangolin Shapeshifter 
+PT:3/3
+Oracle:{G/U}: Pangoling gains hexproof until end of turn.\n{G/U}: Move a counter from target creature you control onto Pangoling.\n{G/U}: Whenever Pangoling deals combat damage to a player this turn, draw a card. Activate this ability only once each turn.\n{1}: Pangoling gets +1/-1 or -1/+1 until end of turn.\n

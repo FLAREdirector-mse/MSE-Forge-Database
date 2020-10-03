@@ -1,0 +1,4 @@
+Name:See the Sunrise
+ManaCost:W W
+Types:Enchantment Saga 
+Oracle:\nI — Create a 0/4 white Wall creature token with defender.\nII — Put a +1/+1 counter on up to one target creature.\nIII — Until your next turn, each creature you control assigns combat damage equal to its toughness rather than its power.\n

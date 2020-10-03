@@ -1,0 +1,4 @@
+Name:Cosmic Chart
+ManaCost:3
+Types:Artifact
+Oracle:{T}: Add one mana of any color.\n{5}, {T}, Sacrifice Cosmic Chart: Search your library for a card, put it into your hand, then shuffle your library.\n

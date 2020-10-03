@@ -1,0 +1,6 @@
+Name:Howling Shieldbreaker
+ManaCost:B R
+Types:Creature Hyena Warrior 
+PT:2/2
+K:Menace
+Oracle:Menace\nWhenever an opponent activates an ability of a permanent, if it isn't a mana ability, Howling Shieldbreaker deals 2 damage to that permanent or player.\n

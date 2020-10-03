@@ -1,0 +1,4 @@
+Name:Sword of Monsters and Men
+ManaCost:3
+Types:Artifact Equipment 
+Oracle:Equipped creature gets +2/+2 and has protection from green and from white.\nWhenever equipped creature deals combat damage to a player, you may reveal the top five cards of your library. Put a creature card revealed this way into your hand, then put the rest into your graveyard. Destroy up to one target enchantment.\nEquip {2}\n

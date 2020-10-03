@@ -1,0 +1,4 @@
+Name:Lost Among the Stars
+ManaCost:2 U U
+Types:Instant
+Oracle:Counter target spell. Create a 1/1 blue Elemental creature token with flying.\n

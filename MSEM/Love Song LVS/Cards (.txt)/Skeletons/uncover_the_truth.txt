@@ -1,0 +1,4 @@
+Name:Uncover the Truth
+ManaCost:1 U
+Types:Sorcery
+Oracle:Look at the top two cards of your library. Put one of them into your hand, then each player mills three cards.\n

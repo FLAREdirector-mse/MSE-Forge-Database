@@ -1,0 +1,5 @@
+Name:Artful Chari
+ManaCost:GW U R
+Types:Legendary Creature Frog Shaman 
+PT:1/3
+Oracle:{1}{G/W}: Put a +1/+1 counter on Artful Chari.\nWhenever you cast an instant or sorcery spell, you may remove a number of +1/+1 counters from Chari equal to that spell's converted mana cost. If you do, copy that spell, and you may choose new targets for the copy.\n

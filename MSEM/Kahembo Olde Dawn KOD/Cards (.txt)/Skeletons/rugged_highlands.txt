@@ -1,0 +1,5 @@
+Name:Rugged Highlands
+ManaCost:
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+Oracle:Rugged Highlands enters the battlefield tapped.\nWhen Rugged Highlands enters the battlefield, you gain 1 life.\n{T}: Add {R} or {G}.\n

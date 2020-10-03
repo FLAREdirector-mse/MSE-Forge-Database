@@ -1,0 +1,6 @@
+Name:Tarrying Gharial
+ManaCost:5 GU
+Types:Creature Crocodile 
+PT:4/6
+K:Hexproof
+Oracle:Hexproof\n

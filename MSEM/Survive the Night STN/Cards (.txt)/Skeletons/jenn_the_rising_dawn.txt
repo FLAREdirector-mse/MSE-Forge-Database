@@ -1,0 +1,5 @@
+Name:Jenn, the Rising Dawn
+ManaCost:1 W
+Types:Legendary Planeswalker Jenn 
+Loyalty:2
+Oracle:Whenever a creature enters the battlefield under your control, put a loyalty counter on Jenn, the Rising Dawn.\n[0]: Target creature you control gets +1/+1 and gains first strike and lifelink until end of turn.\n[-5]: Exile target creature.\n

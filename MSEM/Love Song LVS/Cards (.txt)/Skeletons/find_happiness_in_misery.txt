@@ -1,0 +1,4 @@
+Name:Find Happiness in Misery
+ManaCost:1 B
+Types:Sorcery
+Oracle:Target player mills three cards. You draw a card and lose 1 life. (They put the top three cards of their library into their graveyard.)\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)\n

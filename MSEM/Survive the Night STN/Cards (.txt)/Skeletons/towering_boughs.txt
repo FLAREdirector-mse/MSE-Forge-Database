@@ -1,0 +1,4 @@
+Name:Towering Boughs
+ManaCost:
+Types:Land Mountain Forest 
+Oracle:({T}: Add {R} or {G}.)\nAs Towering Boughs enters the battlefield, you may torment yourself. If you don't, it enters the battlefield tapped. (You lose 3 life unless you discard a card or sacrifice a nonland permanent.)\n

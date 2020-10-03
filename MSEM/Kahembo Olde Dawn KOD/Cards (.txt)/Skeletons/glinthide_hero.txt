@@ -1,0 +1,5 @@
+Name:Glinthide Hero
+ManaCost:1 GU GU
+Types:Creature Lizard Warrior 
+PT:2/4
+Oracle:Prismatic — Whenever you cast a multicolored spell, draw a card.\n

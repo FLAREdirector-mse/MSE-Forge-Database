@@ -1,0 +1,4 @@
+Name:Speck of Dust
+ManaCost:1 U
+Types:Instant
+Oracle:Until end of turn, target creature loses all abilities and becomes a 1/1.\nDraw a card, then discard a card.\n

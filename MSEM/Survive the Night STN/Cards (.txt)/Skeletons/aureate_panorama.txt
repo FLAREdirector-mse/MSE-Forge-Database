@@ -1,0 +1,4 @@
+Name:Aureate Panorama
+ManaCost:
+Types:Land
+Oracle:{1}, {T}, Sacrifice Aureate Panorama: Search your library for a land that could produce each color of mana, put it onto the battlefield, then shuffle your library.\n

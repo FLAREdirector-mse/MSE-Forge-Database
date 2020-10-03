@@ -1,0 +1,5 @@
+Name:Nightmare Chanter
+ManaCost:4 B
+Types:Creature Lizard Bard 
+PT:4/5
+Oracle:Whenever a storied permanent enters the battlefield under your control, each opponent discards a card. (Enchantments and legendary permanents are storied.)\n

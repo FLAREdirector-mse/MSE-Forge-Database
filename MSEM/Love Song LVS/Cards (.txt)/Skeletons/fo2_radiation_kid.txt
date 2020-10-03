@@ -1,0 +1,6 @@
+Name:FO-2 Radiation Kid
+ManaCost:4 G G
+Types:Artifact Creature Construct 
+PT:8/8
+K:Trample
+Oracle:Trample\nAs an additional cost to cast noncreature spells, players must put a noncreature permanent they own and control on top of their library.\n

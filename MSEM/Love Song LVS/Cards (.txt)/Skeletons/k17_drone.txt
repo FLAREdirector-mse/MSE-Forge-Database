@@ -1,0 +1,5 @@
+Name:K-17 Drone
+ManaCost:2 R
+Types:Artifact Creature Warrior 
+PT:2/1
+Oracle:Whenever an artifact you control becomes tapped, K-17 Drone deals 1 damage to each opponent.\n

@@ -1,0 +1,4 @@
+Name:Spellshatter
+ManaCost:1 U U
+Types:Instant
+Oracle:You may cast this spell without paying it's mana cost if it's the only card in your hand.\nCounter target spell.\n

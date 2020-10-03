@@ -1,0 +1,5 @@
+Name:Mythos Scribe
+ManaCost:2 W
+Types:Creature Cat Bard 
+PT:3/2
+Oracle:When Mythos Scribe enters the battlefield, you may return target storied card from your graveyard to your hand. (Enchantments and legendary permanents are storied.)\n

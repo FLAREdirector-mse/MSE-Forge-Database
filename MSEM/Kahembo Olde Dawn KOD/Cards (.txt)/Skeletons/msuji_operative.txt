@@ -1,0 +1,6 @@
+Name:Msuji Operative
+ManaCost:1 UR B
+Types:Creature Lizard Rogue 
+PT:2/2
+K:Menace
+Oracle:Menace\nWhenever Msuji Operative deals combat damage to a player, reveal the top card of your library, put it into your hand, then you lose life equal to its converted mana cost unless you discard a card.\n

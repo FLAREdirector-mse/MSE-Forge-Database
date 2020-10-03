@@ -1,0 +1,6 @@
+Name:Olde King Koswe
+ManaCost:4 UR G W
+Types:Legendary Creature Ape Noble 
+PT:8/8
+K:Vigilance
+Oracle:Vigilance\nWhen Olde King Koswe enters the battlefield, reveal the top eight cards of your library. Put any number of permanent cards from among them onto the battlefield under an opponent's control, then put the rest on the bottom of your library in a random order.\nAt the beginning of your end step, gain control of target permanent you own.\n

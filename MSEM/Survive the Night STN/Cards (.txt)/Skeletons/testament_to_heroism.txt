@@ -1,0 +1,4 @@
+Name:Testament to Heroism
+ManaCost:
+Types:Land
+Oracle:Whenever a creature you control dies, put a legacy counter on Testament to Heroism.\n{T}: Add {C}.\n{T}, Remove a legacy counter from Testament to Heroism: Add one mana of any color.\n

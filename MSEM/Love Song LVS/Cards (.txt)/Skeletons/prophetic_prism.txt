@@ -1,0 +1,4 @@
+Name:Prophetic Prism
+ManaCost:2
+Types:Artifact
+Oracle:When Prophetic Prism enters the battlefield, draw a card.\n{1}, {T}: Add one mana of any color.\n

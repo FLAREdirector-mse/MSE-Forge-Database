@@ -1,0 +1,5 @@
+Name:S-19 Long Jacket
+ManaCost:4 W
+Types:Artifact Creature Construct 
+PT:4/2
+Oracle:S-19 Long Jacket has first strike as long as it's attacking.\nS-19 Long Jacket has lifelink as long as it's blocking.\n

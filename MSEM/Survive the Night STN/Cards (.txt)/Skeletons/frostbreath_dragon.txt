@@ -1,0 +1,6 @@
+Name:Frostbreath Dragon
+ManaCost:5 U U
+Types:Creature Dragon 
+PT:6/7
+K:Flying
+Oracle:Flying\nFrostbreath Dragon can't be countered.\nWhen Frostbreath Dragon enters the battlefield, tap target creature. It doesn't untap during its controller's next untap step.\nWhenever Frostbreath Dragon becomes the target of a spell or ability, counter it unless its controller pays {2} and discards a card.\n

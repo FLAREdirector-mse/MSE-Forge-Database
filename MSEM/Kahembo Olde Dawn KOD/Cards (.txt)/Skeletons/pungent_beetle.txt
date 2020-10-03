@@ -1,0 +1,5 @@
+Name:Pungent Beetle
+ManaCost:2 BG
+Types:Creature Insect 
+PT:2/2
+Oracle:Pungent Beetle enters the battlefield with a +1/+1 counter on it for each creature you controlled that died this turn.\n

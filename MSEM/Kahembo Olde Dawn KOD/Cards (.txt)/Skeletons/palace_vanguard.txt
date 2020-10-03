@@ -1,0 +1,5 @@
+Name:Palace Vanguard
+ManaCost:3 W
+Types:Creature Cat Knight 
+PT:2/2
+Oracle:When Palace Vanguard enters the battlefield, choose one —\n• Create a 1/1 blue Bird creature token with flying.\n• Create a 2/2 white Cat creature token.\n

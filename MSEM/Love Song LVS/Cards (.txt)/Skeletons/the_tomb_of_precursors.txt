@@ -1,0 +1,4 @@
+Name:The Tomb of Precursors
+ManaCost:
+Types:Land
+Oracle:{T}: Add {C}.\n{1}, {T}: Draw a card, then discard a card. Activate this ability only if you have seven or more cards in your graveyard.\n

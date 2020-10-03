@@ -1,0 +1,4 @@
+Name:Paint Over
+ManaCost:W
+Types:Instant
+Oracle:Target player sacrifices an enchantment. You gain 4 life.\n

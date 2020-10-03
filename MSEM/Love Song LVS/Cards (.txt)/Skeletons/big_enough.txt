@@ -1,0 +1,4 @@
+Name:Big Enough
+ManaCost:2 G
+Types:Enchantment Aura 
+Oracle:Enchant creature\nConverge — When Big Enough enters the battlefield, put X +1/+1 counters on enchanted creature, where X is number of colors of mana spent to cast Big Enough.\nEnchanted creature has trample.\n

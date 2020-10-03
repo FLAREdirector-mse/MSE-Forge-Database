@@ -1,0 +1,5 @@
+Name:Sage of Wilds
+ManaCost:1 G U
+Types:Creature Elk 
+PT:2/2
+Oracle:Whenever you draw a card, put a +1/+1 counter on Sage of Wilds.\nAugmented — {T}: Scry 1, then draw a card. Activate this ability only if you've spent {W}{U}{B}{R}{G} on spells this turn.\n

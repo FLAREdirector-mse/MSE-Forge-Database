@@ -1,0 +1,6 @@
+Name:Scarletblood Hound
+ManaCost:2 R
+Types:Creature Hound 
+PT:3/1
+K:Haste
+Oracle:Haste\nMotley — At the beginning of your upkeep, if there are five or more names among nonland permanents you control, Scarletblood Hound deals 3 damage to each opponent.\n

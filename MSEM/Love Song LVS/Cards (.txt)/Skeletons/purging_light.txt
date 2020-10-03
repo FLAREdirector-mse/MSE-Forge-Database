@@ -1,0 +1,4 @@
+Name:Purging Light
+ManaCost:1 W
+Types:Instant
+Oracle:Choose one —\n• Purging Light deals 3 damage to target attacking or blocking creature. If that creature would die this turn, exile it instead.\n• Exile target enchantment.\n

@@ -1,0 +1,4 @@
+Name:Come Out and Play
+ManaCost:1 G
+Types:Sorcery
+Oracle:Put a +1/+1 counter on target creature you control. It can't be blocked by more than one creature this turn.\nWhenever a creature you control attacks alone, return Come Out and Play from your graveyard to your hand.\n

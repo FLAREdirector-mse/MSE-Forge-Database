@@ -1,0 +1,7 @@
+Name:First Wave Explorer
+ManaCost:2 W W
+Types:Creature Human Soldier 
+PT:3/2
+K:First Strike
+K:Vigilance
+Oracle:First strike, vigilance\nSpells that your opponents cast that target First Wave Explorer cost {2} more to cast.\n

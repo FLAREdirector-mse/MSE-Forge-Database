@@ -1,0 +1,4 @@
+Name:Runescale Brawler
+ManaCost:1 GU W
+Types:Creature Lizard Warrior 
+Oracle:Runescale Brawler enters the battlefield with three +1/+1 counters on it.\nIf damage would be dealt to Runescale Brawler while it has a +1/+1 counter on it, prevent that damage and remove a +1/+1 counter from Runescale Brawler.\n

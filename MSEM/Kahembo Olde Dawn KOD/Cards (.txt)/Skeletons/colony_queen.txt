@@ -1,0 +1,5 @@
+Name:Colony Queen
+ManaCost:3 BG BG
+Types:Creature Insect Noble 
+PT:2/2
+Oracle:When Colony Queen enters the battlefield, create three 1/1 green Insect creature tokens.\nInsect tokens you control have flying and deathtouch.\n

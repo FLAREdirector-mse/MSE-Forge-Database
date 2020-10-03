@@ -1,0 +1,4 @@
+Name:Ignition Point
+ManaCost:U R
+Types:Instant
+Oracle:Ignition Point deals 3 damage to any target.\nThe next card you cast this turn can be cast as though it has flash.\n

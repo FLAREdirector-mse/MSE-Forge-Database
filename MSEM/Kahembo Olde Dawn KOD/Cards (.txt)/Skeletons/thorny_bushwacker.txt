@@ -1,0 +1,5 @@
+Name:Thorny Bushwacker
+ManaCost:1 R
+Types:Creature Lizard Warrior 
+PT:2/1
+Oracle:Prismatic — Whenever you cast a multicolored spell, Thorny Bushwacker has base power and toughness 5/3 until end of turn.\n

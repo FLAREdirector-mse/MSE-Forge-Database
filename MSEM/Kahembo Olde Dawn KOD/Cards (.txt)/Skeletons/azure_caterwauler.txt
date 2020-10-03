@@ -1,0 +1,7 @@
+Name:Azure Caterwauler
+ManaCost:1 RG U
+Types:Creature Bird 
+PT:2/1
+K:Flying
+K:Trample
+Oracle:Flying, trample\nPrismatic — Whenever you cast a multicolored spell, put a +1/+1 counter on Azure Caterwauler.\n

@@ -1,0 +1,4 @@
+Name:Hostile Habitat
+ManaCost:1 R R
+Types:Sorcery
+Oracle:Hostile Habitat deals 2 damage to each creature.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)\n

@@ -1,0 +1,4 @@
+Name:Netherform
+ManaCost:4 W B
+Types:Sorcery
+Oracle:Return target permanent card from your graveyard to the battlefield. If that permanent is storied, Netherform becomes an Aura enchantment with enchant permanent. Attach it to that permanent. (Enchantments and legendary permanents are storied.)\nEnchanted permanent has indestructible.\n

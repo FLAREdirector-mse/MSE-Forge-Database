@@ -1,0 +1,6 @@
+Name:Dragon
+ManaCost:
+Types:Token Creature Dragon 
+PT:5/5
+K:Flying
+Oracle:Flying\n

@@ -1,0 +1,6 @@
+Name:Dedicated Bushwacker
+ManaCost:1 G
+Types:Creature Human Scout 
+PT:2/2
+K:Haste
+Oracle:Haste\nWhen Dedicated Bushwacker enters the battlefield, other creatures you control get +1/+0 and gain haste until end of turn.\n

@@ -1,0 +1,4 @@
+Name:Time in a Bottle
+ManaCost:4 U U
+Types:Sorcery
+Oracle:Take an extra turn after this one. Exile Time in a Bottle.\nAugmented — If you've spent {W}{U}{B}{R}{G} on spells this turn, draw three cards.\n

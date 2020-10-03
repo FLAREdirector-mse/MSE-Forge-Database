@@ -1,0 +1,4 @@
+Name:Beyond the Boneyard
+ManaCost:3 W
+Types:Enchantment
+Oracle:When Beyond the Boneyard enters the battlefield, exile another target nonland permanent until Beyond the Boneyard leaves the battlefield.\nYour opponents can't cast spells that share a card type with the exiled card during postcombat main phases.\n

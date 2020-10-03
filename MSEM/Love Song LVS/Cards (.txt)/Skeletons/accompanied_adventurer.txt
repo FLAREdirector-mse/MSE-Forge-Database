@@ -1,0 +1,6 @@
+Name:Accompanied Adventurer
+ManaCost:2 R
+Types:Creature Human Scout 
+PT:2/2
+K:Menace
+Oracle:Menace\nCadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\n

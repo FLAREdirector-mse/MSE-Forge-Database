@@ -1,0 +1,4 @@
+Name:Take a Walk
+ManaCost:1 U
+Types:Instant
+Oracle:Exile target nonland permanent you control, then return that card to the battlefield under your control.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)\n

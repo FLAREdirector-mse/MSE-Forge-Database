@@ -1,0 +1,6 @@
+Name:Adapted Explorer
+ManaCost:5 W
+Types:Creature Human Knight 
+PT:4/4
+K:Lifelink
+Oracle:Lifelink\nConverge — When Adapted Explorer enters the battlefield, it deals X damage to up to one target tapped creature, where X is the number of colors of mana spent to cast it.\n

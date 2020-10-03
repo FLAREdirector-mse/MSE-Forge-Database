@@ -1,0 +1,6 @@
+Name:Oozing Adder
+ManaCost:1 BG R
+Types:Creature Snake 
+PT:1/3
+K:Deathtouch
+Oracle:Deathtouch\nWhenever Oozing Adder attacks, you may have target creature defending player controls block it this combat if able.\n

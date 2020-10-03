@@ -1,0 +1,6 @@
+Name:Thorn-Touch Abomination
+ManaCost:X G
+Types:Creature Beast Horror 
+PT:0/0
+K:Flash
+Oracle:Flash\nThorn-Touch Abomination enters the battlefield with X +1/+1 counters on it.\n

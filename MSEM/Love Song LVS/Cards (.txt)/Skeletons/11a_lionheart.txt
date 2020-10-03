@@ -1,0 +1,5 @@
+Name:11-A Lionheart
+ManaCost:4 R R
+Types:Artifact Creature Construct 
+PT:6/4
+Oracle:When 11-A Lionheart enters the battlefield, it deals 2 damage to each nonartifact creature.\n

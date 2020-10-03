@@ -1,0 +1,4 @@
+Name:Surge of Darkness
+ManaCost:1 B
+Types:Instant
+Oracle:As an additional cost to cast this spell, torment yourself. (You lose 3 life unless you discard a card or sacrifice a nonland permanent.)\nDestroy target creature.\n

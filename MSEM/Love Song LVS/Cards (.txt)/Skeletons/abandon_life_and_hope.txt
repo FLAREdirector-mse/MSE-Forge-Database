@@ -1,0 +1,4 @@
+Name:Abandon Life and Hope
+ManaCost:4 R
+Types:Sorcery
+Oracle:This spell costs {X} less to cast, where X is the greatest power among creatures you control.\nAbandon Life and Hope deals 5 damage to target creature or planeswalker.\n

@@ -1,0 +1,5 @@
+Name:Bloodfell Caves
+ManaCost:
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+Oracle:Bloodfell Caves enters the battlefield tapped.\nWhen Bloodfell Caves enters the battlefield, you gain 1 life.\n{T}: Add {B} or {R}.\n

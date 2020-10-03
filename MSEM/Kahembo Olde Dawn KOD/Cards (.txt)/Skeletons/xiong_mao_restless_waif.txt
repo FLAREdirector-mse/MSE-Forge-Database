@@ -1,0 +1,5 @@
+Name:Xiong Mao, Restless Waif
+ManaCost:2 BR G
+Types:Legendary Planeswalker Xiong 
+Loyalty:3
+Oracle:[+1]: Put a +1/+1 counter on up to one target creature, then put your choice of a menace, deathtouch, or trample counter on it.\n[0]: Target creature or Xiong planeswalker you control fights target creature you don't control.\n[-1]: Target player sacrifices a permanent.\n

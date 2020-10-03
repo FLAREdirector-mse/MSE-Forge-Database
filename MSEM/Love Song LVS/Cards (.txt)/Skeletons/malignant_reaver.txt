@@ -1,0 +1,5 @@
+Name:Malignant Reaver
+ManaCost:3 B B
+Types:Creature Elemental Horror 
+PT:3/4
+Oracle:{2}: Exile up to two target cards in a single graveyard. If two creature cards were exiled this way, create a 1/1 blue Elemental creature token with flying.\n

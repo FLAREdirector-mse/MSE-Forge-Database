@@ -1,0 +1,4 @@
+Name:Bury the Past
+ManaCost:3 G
+Types:Sorcery
+Oracle:Converge — Destroy up to X target artifacts or enchantments, where X is the number of colors of mana spent to cast Bury the Past.\n

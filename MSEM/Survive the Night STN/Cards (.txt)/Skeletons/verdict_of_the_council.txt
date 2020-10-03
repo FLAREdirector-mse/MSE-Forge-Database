@@ -1,0 +1,4 @@
+Name:Verdict of the Council
+ManaCost:1 W W
+Types:Enchantment
+Oracle:When Verdict of the Council enters the battlefield, exile up to one target creature until Verdict of the Council leaves the battlefield.\nWhite creatures you control get +1/+0.\n

@@ -1,0 +1,4 @@
+Name:Verdant Haven
+ManaCost:2 G
+Types:Enchantment Aura 
+Oracle:Enchant land\nWhen Verdant Haven enters the battlefield, you gain 2 life.\nWhenever enchanted land is tapped for mana, its controller adds one mana of any color.\n

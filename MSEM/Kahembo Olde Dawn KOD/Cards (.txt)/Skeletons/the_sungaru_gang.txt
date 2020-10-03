@@ -1,0 +1,7 @@
+Name:The Sungaru Gang
+ManaCost:2 RG W B
+Types:Legendary Creature Rabbit Rogue 
+PT:3/4
+K:Lifelink
+K:Deathtouch
+Oracle:Lifelink, deathtouch\nAt the beginning of combat on your turn, for each creature your opponents control, you may tap an untapped creature you control. If you do, those creatures fight each other.\n

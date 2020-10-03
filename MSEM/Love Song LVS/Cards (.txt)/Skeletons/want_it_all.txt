@@ -1,0 +1,4 @@
+Name:Want It All
+ManaCost:5 U U
+Types:Instant
+Oracle:Exile the top card of your library. You may play it without paying its mana cost.\nAugmented — Then if you've spent {W}{U}{B}{R}{G} on spells this turn and this isn't a copy, copy Want It All for each other spell cast this turn.\n

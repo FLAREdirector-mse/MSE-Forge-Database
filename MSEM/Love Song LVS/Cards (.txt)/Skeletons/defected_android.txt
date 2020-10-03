@@ -1,0 +1,5 @@
+Name:Defected Android
+ManaCost:3
+Types:Artifact Creature Construct Bard 
+PT:3/2
+Oracle:Whenever you cast a spell, if it shared a color with the last spell you cast this turn, put two +1/+1 counters on Defected Android.\n

@@ -1,0 +1,5 @@
+Name:Servant of Precursors
+ManaCost:5
+Types:Artifact Creature Golem 
+PT:4/3
+Oracle:When Servant of Precursors enters the battlefield, you gain 4 life and draw a card.\n

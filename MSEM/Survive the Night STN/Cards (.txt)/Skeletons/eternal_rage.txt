@@ -1,0 +1,4 @@
+Name:Eternal Rage
+ManaCost:R
+Types:Enchantment Aura 
+Oracle:Enchant creature\nEnchanted creature attacks each turn if able.\nAt the beginning of your upkeep, Eternal Rage deals 2 damage to enchanted creature's controller.\n

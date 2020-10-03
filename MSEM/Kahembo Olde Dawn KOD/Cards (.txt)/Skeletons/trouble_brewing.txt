@@ -1,0 +1,4 @@
+Name:Trouble Brewing
+ManaCost:3 B B
+Types:Sorcery
+Oracle:Return all creature cards from your graveyard to the battlefield, then exile all but one of them.\n

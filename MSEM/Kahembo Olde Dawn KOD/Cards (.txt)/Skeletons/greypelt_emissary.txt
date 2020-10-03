@@ -1,0 +1,5 @@
+Name:Greypelt Emissary
+ManaCost:1 RW RW
+Types:Creature Hound Warrior 
+PT:3/2
+Oracle:Whenever a Hound you control is dealt damage, Greypelt Emissary deals 1 damage to any target.\nWhenever Greypelt Emissary attacks, you choose how target creature blocks this combat.\n

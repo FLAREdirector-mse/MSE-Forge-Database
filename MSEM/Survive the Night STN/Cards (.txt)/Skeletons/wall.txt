@@ -1,0 +1,5 @@
+Name:Wall
+ManaCost:
+Types:Token Creature Wall 
+K:Defender
+Oracle:Defender\n

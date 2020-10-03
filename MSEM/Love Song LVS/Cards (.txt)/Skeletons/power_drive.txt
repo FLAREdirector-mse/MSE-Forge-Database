@@ -1,0 +1,4 @@
+Name:Power Drive
+ManaCost:4 R
+Types:Sorcery
+Oracle:This spell costs {1} less to cast for each artifact you control.\nChoose two —\n• Creatures without flying can't block this turn.\n• Two target creatures get +2/+0 until end of turn.\n• Power Drive deals 3 damage to any target.\n

@@ -1,0 +1,4 @@
+Name:Trials of Ndengo
+ManaCost:2 R G
+Types:Enchantment Saga 
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Create a 1/1 red Hound creature token.\nII — Create a 4/4 green Rhino Warrior creature token with trample.\nIII — You may have two target creatures you control fight. If you do and exactly one survives, put four +1/+1 counters on that creature.\n

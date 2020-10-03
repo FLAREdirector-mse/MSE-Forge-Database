@@ -1,0 +1,5 @@
+Name:Devious Paladin
+ManaCost:1 W B
+Types:Creature Badger Knight 
+PT:3/2
+Oracle:Whenever a storied permanent enters the battlefield under your control, you gain 1 life and each opponent loses 1 life. (Enchantments and legendary permanents are storied.)\n

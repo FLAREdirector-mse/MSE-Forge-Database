@@ -1,0 +1,4 @@
+Name:What Lurks Beyond
+ManaCost:G G
+Types:Sorcery
+Oracle:As an additional cost to cast this spell, sacrifice a creature.\nSearch your library, hand, or graveyard for a creature card with converted mana cost 1 greater than the sacrificed creature's and put it onto the battlefield. If you searched your library this way, shuffle it.\n

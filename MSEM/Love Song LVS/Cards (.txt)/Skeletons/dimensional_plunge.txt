@@ -1,0 +1,4 @@
+Name:Dimensional Plunge
+ManaCost:3 U
+Types:Sorcery
+Oracle:Put target creature into its owner's library third from the top.\n

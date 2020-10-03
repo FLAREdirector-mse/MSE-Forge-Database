@@ -1,0 +1,5 @@
+Name:Dismal Backwater
+ManaCost:
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+Oracle:Dismal Backwater enters the battlefield tapped.\nWhen Dismal Backwater enters the battlefield, you gain 1 life.\n{T}: Add {U} or {B}.\n

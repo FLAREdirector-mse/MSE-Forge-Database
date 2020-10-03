@@ -1,0 +1,13 @@
+Name:Descend on the Helpless
+ManaCost:B
+Types:Sorcery
+Oracle:Destroy target creature if it has the least power or is tied for least power among creatures on the battlefield.\nMemento {3}{B}{B} (You may cast this from your graveyard for {3}{B}{B}. If you do, put it onto the battlefield transformed after it resolves. Exile it if it would leave the battlefield or not resolve.)\n
+
+ALTERNATE
+
+Name:Descend on the Helpless
+ManaCost:
+Types:Legendary Creature  Bird Human 
+Types:Legendary Creature  Bird Human 
+K:Flying
+Oracle:Flying\nWhen Cormoran, Raven Monarch enters the battlefield, you may return target creature card with converted mana cost 3 or less from a graveyard to the battlefield under your control.\n

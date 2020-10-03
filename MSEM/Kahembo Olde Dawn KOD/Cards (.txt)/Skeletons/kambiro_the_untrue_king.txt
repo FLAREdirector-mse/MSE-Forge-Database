@@ -1,0 +1,5 @@
+Name:Kambiro, the Untrue King
+ManaCost:3 WB WB
+Types:Legendary Creature Lemur Noble 
+PT:3/3
+Oracle:{W/B}: Kambiro, the Untrue King gets +1/+1 until end of turn.\nWhenever a storied permanent enters the battlefield under your control, if you cast it, return target creature card from your graveyard to your hand. If that creature's power is less than Kambiro's power, you may return it to the battlefield instead. (Enchantments and legendary permanents are storied.)\n

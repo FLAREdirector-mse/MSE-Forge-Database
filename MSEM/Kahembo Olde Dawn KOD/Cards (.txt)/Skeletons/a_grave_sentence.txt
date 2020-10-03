@@ -1,0 +1,4 @@
+Name:A Grave Sentence
+ManaCost:3 B
+Types:Enchantment Saga 
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI, II, III — Target creature gets -X/-X until end of turn, where X is the number of lore counters on A Grave Sentence.\nIV — Target opponent loses 1 life for each creature card in their graveyard.\n

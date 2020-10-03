@@ -1,0 +1,5 @@
+Name:Slyten Technician
+ManaCost:1 U
+Types:Creature Human Advisor 
+PT:1/3
+Oracle:Whenever you cast a noncreature spell, Slyten Technician gets +1/+0 until end of turn, then scry 1.\n

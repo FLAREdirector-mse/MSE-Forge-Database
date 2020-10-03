@@ -1,0 +1,5 @@
+Name:Servo
+ManaCost:
+Types:Token Artifact Creature Servo 
+PT:1/1
+Oracle:

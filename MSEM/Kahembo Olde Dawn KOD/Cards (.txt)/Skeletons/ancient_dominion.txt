@@ -1,0 +1,5 @@
+Name:Ancient Dominion
+ManaCost:
+Types:Land Island Mountain Plains 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {U}, {R}, or {W}.)\nAncient Dominion enters the battlefield tapped.\n

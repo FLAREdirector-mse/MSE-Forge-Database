@@ -1,0 +1,4 @@
+Name:Indomitable Rage
+ManaCost:1 R
+Types:Enchantment Aura 
+Oracle:Enchant creature\nEnchanted creature gets +3/+2 and attacks each turn if able.\n

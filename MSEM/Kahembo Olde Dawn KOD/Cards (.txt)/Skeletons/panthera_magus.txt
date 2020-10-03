@@ -1,0 +1,5 @@
+Name:Panthera Magus
+ManaCost:1 G
+Types:Creature Cat Shaman 
+PT:1/2
+Oracle:{T}: Add {G}.\n{T}: Add {W}, {U}, {R}, or {B}. Spend this mana only to cast a multicolored spell.\n

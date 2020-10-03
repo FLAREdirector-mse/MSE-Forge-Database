@@ -1,0 +1,6 @@
+Name:Abomination Blackguard
+ManaCost:3 B
+Types:Creature Elemental Horror 
+PT:2/2
+K:Menace
+Oracle:Menace\nWhenever Abomination Blackguard deals combat damage to an opponent, you may draw a card. If you do, you lose 1 life.\n

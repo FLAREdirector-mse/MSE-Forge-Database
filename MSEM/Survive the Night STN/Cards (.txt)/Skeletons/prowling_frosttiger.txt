@@ -1,0 +1,5 @@
+Name:Prowling Frost-Tiger
+ManaCost:1 U
+Types:Creature Cat 
+PT:2/1
+Oracle:Whenever you cast a noncreature spell, Prowling Frost-Tiger gets +1/+1 and gains hexproof until the end of turn.\n

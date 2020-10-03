@@ -1,0 +1,4 @@
+Name:The Whisperwoods
+ManaCost:
+Types:Land
+Oracle:{T}: Add {C}.\n{1}, {T}, Sacrifice The Whisperwoods: Add two mana in any combination of colors.\nWhenever a player loses life, return The Whisperwoods from your graveyard to your hand.\n

@@ -1,0 +1,4 @@
+Name:Glory in the Fray
+ManaCost:1 W
+Types:Sorcery
+Oracle:Creatures you control gain first strike and vigilance until end of turn. Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on a different creature you control.)\n

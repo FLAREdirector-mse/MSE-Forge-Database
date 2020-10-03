@@ -1,0 +1,4 @@
+Name:Exergetic Chains
+ManaCost:2 W
+Types:Enchantment
+Oracle:When Exergetic Chains enters the battlefield, exile target nonland permanent you don't control and up to one target creature you control until Exergetic Chains leaves the battlefield.\n

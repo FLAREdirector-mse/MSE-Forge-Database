@@ -1,0 +1,5 @@
+Name:Am’atambi, Fable Weaver
+ManaCost:2 BR G U
+Types:Legendary Creature Spider Bard 
+PT:4/5
+Oracle:At the beginning of each other player's upkeep, draw a card, then discard a card unless you have Am'atambi, Fable Weaver deal 3 damage to you.\nOnce each turn, when you draw a creature card, you may pay {3} and reveal it. If you do, create a token that's a copy of it except it has base power and toughness 3/3.\n

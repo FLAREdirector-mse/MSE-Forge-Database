@@ -1,0 +1,5 @@
+Name:Spirit Reminder
+ManaCost:
+Types:Reminder
+PT:1/1
+Oracle:(This creature is a 1/1 white Spirit creature token in addition to its other colors and types.)\n

@@ -1,0 +1,5 @@
+Name:Bourasan Highguard
+ManaCost:R W
+Types:Creature Hound Warrior 
+PT:2/2
+Oracle:Other Hounds you control get +1/+1.\n

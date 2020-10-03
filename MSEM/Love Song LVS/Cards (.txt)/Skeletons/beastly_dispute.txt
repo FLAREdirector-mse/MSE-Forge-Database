@@ -1,0 +1,4 @@
+Name:Beastly Dispute
+ManaCost:G
+Types:Sorcery
+Oracle:Target creature you control fights target creature you don't control.\n

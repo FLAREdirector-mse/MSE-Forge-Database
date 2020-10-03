@@ -1,0 +1,4 @@
+Name:Clash Reactor
+ManaCost:4
+Types:Artifact
+Oracle:Whenever you cast an instant or sorcery spell, you may exile it with Clash Reactor as it resolves.\nAt the beginning of your upkeep, Clash Reactor deals X damage to each opponent, where X is the number of colors of cards exiled with Clash Reactor.\n

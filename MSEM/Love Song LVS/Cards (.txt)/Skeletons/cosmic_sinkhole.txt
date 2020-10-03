@@ -1,0 +1,4 @@
+Name:Cosmic Sinkhole
+ManaCost:X U
+Types:Instant
+Oracle:Converge — Counter target spell unless its controller pays {1} for each color of mana spent to cast Cosmic Sinkhole.\n

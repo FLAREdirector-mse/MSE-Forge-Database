@@ -1,0 +1,4 @@
+Name:Murmuring Typhoon
+ManaCost:1 U
+Types:Instant
+Oracle:Return target creature to its owner's hand. You may shuffle up to four target cards from your graveyard into your library.\n

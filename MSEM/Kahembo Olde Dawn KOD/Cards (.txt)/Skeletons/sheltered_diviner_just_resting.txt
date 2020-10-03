@@ -1,0 +1,5 @@
+Name:Sheltered Diviner
+ManaCost:1 U
+Types:Creature Turtle Wizard 
+PT:1/3
+Oracle:When Sheltered Diviner enters the battlefield, each player mills three cards.\n
