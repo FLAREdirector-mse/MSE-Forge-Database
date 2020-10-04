@@ -1,0 +1,11 @@
+Name:Creeping Crypts
+ManaCost:2 B
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigMill | TriggerDescription$ At the beginning of your upkeep, mill three cards. Then you draw a card and lose 1 life if a noncreature, nonland card was milled this way.
+SVar:TrigMill:DB$ Mill | NumCards$ 3 | Defined$ You | RememberMilled$ True | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | ConditionDefined$ Remembered | ConditionPresent$ Card.nonCreature+nonLand | ConditionCompare$ GE1 | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1 | ConditionDefined$ Remembered | ConditionPresent$ Card.nonCreature+nonLand | ConditionCompare$ GE1 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+T:Mode$ ChangesZone | Origin$ Library | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME is put into your graveyard from your library, create a 2/2 black Zombie creature token.
+SVar:TrigToken:DB$ Token | TokenScript$ b_2_2_zombie | TokenAmount$ 1 | TokenOwner$ You | LegacyImage$ b 2 2 zombie waw
+Oracle:At the beginning of your upkeep, mill three cards. Then you draw a card and lose 1 life if a noncreature, nonland card was milled this way.\nWhen Creeping Crypt is put into your graveyard from your library, create a 2/2 black Zombie creature token.

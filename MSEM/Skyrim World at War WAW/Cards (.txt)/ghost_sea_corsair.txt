@@ -1,0 +1,8 @@
+Name:Ghost Sea Corsair
+ManaCost:U
+Types:Creature Human Pirate
+PT:1/1
+K:Prowess
+A:AB$ ChangeZone | Cost$ 1 Sac<1/CARDNAME> | ValidTgts$ Instant.YouCtrl+cmcEQX,Sorcery.YouCtrl+cmcEQX | TgtPrompt$ Select target instant or sorcery card in your graveyard with converted mana cost equal to this creature's power | References$ X | Origin$ Graveyard | Destination$ Hand | SpellDescription$ Return target instant or sorcery card with converted mana cost equal to CARDNAME's power from your graveyard to your hand.
+SVar:X:Count$CardPower
+Oracle:Prowess\n{1}, Sacrifice Ghost Sea Corsair: Return target instant or sorcery card with converted mana cost equal to Ghost Sea Corsair's power from your graveyard to your hand.
