@@ -1,0 +1,6 @@
+Name:Prismatic Scyphozoa
+ManaCost:3 U B
+Types:Creature Elemental Jellyfish 
+PT:4/4
+K:Flying
+Oracle:Flying\nWhenever Prismatic Scyphozoa attacks or blocks, target player mills three cards.\nWhen Prismatic Scyphozoa dies, create four 1/1 blue Elemental creature tokens with flying.\n

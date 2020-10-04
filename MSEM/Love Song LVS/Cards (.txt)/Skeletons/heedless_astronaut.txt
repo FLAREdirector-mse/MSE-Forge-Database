@@ -1,0 +1,5 @@
+Name:Heedless Astronaut
+ManaCost:R G
+Types:Creature Human Scout 
+PT:1/2
+Oracle:Whenever Heedless Astronaut attacks, it gets +2/+0 and gains indestructible until end of turn.\n

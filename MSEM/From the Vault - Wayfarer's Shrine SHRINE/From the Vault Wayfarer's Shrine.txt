@@ -1,0 +1,31 @@
+[metadata]
+Code=SHRINE
+Date=2020-07-01
+Name=From the Vault: Wayfarer's Shrine
+MciCode=shrine
+
+[cards]
+1 S Wayfarer's Shrine
+2 S Wayfarer's Shrine
+3 S Wayfarer's Shrine
+4 S Wayfarer's Shrine
+5 S Wayfarer's Shrine
+6 S Wayfarer's Shrine
+7 S Wayfarer's Shrine
+8 S Wayfarer's Shrine
+9 S Wayfarer's Shrine
+10 S Wayfarer's Shrine
+11 S Wayfarer's Shrine
+12 S Wayfarer's Shrine
+13 S Wayfarer's Shrine
+14 S Wayfarer's Shrine
+15 S Wayfarer's Shrine
+16 S Wayfarer's Shrine
+17 S Wayfarer's Shrine
+18 S Wayfarer's Shrine
+19 S Wayfarer's Shrine
+20 S Wayfarer's Shrine
+21 S Wayfarer's Shrine
+22 S Wayfarer's Shrine
+23 S Wayfarer's Shrine
+24 S Wayfarer's Shrine

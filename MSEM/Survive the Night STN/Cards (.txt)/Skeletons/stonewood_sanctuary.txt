@@ -1,0 +1,4 @@
+Name:Stonewood Sanctuary
+ManaCost:W
+Types:Enchantment
+Oracle:Creature spells cost {1} more to cast.\nAt the beginning of your upkeep, put a decay counter on Stonewood Sanctuary. Then if it has three or more decay counters on it, sacrifice it.\n

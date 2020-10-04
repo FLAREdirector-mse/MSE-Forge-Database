@@ -1,0 +1,4 @@
+Name:Petrify
+ManaCost:1 B G
+Types:Enchantment Aura 
+Oracle:Enchant permanent\nEnchanted permanent is a colorless Swamp Forest land.\nWhenever enchanted permanent becomes tapped, its controller loses 1 life.\n

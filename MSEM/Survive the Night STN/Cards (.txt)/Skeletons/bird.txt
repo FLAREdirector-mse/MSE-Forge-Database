@@ -1,0 +1,6 @@
+Name:Bird
+ManaCost:
+Types:Token Creature Bird 
+PT:1/1
+K:Flying
+Oracle:Flying\n

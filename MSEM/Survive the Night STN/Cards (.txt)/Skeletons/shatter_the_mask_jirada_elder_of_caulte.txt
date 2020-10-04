@@ -1,0 +1,12 @@
+Name:Shatter the Mask
+ManaCost:2 G G
+Types:Sorcery
+Oracle:Destroy target noncreature permanent.\nMemento {5}{G}{G} (You may cast this from your graveyard for {5}{G}{G}. If you do, put it onto the battlefield transformed after it resolves. Exile it if it would leave the battlefield or not resolve.)\n
+
+ALTERNATE
+
+Name:Shatter the Mask
+ManaCost:
+Types:Legendary Creature  Wizard 
+Types:Legendary Creature  Wizard 
+Oracle:You may play land cards from graveyards.\n{9}{G}{G}: Put nine +1/+1 counters on Jirada, Elder of Caulte.\n

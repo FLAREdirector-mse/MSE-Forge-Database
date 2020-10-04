@@ -1,0 +1,4 @@
+Name:Verdant Sanctuary
+ManaCost:1 G
+Types:Enchantment
+Oracle:You may play basic land cards from outside the game.\n

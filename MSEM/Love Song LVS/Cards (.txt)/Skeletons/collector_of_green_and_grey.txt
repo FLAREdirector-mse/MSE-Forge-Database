@@ -1,0 +1,5 @@
+Name:Collector of Green and Grey
+ManaCost:1 G
+Types:Creature Human Druid 
+PT:1/1
+Oracle:{T}: Add one mana of any color.\nAugmented — Whenever a nontoken creature enters the battlefield under your control, if you've spent {W}{U}{B}{R}{G} on spells this turn, put a +1/+1 counter on it.\n

@@ -1,0 +1,6 @@
+Name:Nimble Explorer
+ManaCost:2 W
+Types:Creature Human Scout 
+PT:2/3
+K:Flash
+Oracle:Flash\n{1}{W}: Return Nimble Explorer to its owner's hand.\n

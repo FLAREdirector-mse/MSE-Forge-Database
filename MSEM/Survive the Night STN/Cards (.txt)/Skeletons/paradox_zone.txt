@@ -1,0 +1,4 @@
+Name:Paradox Zone
+ManaCost:U U
+Types:Legendary Enchantment
+Oracle:Whenever a player casts a spell from their hand, they reveal the top card of their library. If it's a nonland card with a converted mana cost less than that spell's, they may cast it without paying its mana cost. Otherwise, they put it on the bottom of their library.\n{2}{U}: Scry 1.\n

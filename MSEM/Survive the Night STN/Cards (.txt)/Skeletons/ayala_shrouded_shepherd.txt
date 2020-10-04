@@ -1,0 +1,5 @@
+Name:Ayala, Shrouded Shepherd
+ManaCost:2 W W
+Types:Legendary Creature God 
+PT:5/5
+Oracle:Ayala, Shrouded Shepherd can't attack or block unless your life total is greater than or equal to your starting life total.\nLifelink, indestructible\nWhenever a creature attacks you or a planeswalker you control, you may pay {2}. If you do, create a 1/1 white Spirit creature token with lifelink blocking that creature.\n

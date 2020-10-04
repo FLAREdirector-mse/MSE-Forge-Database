@@ -1,0 +1,4 @@
+Name:Scarlet Mist
+ManaCost:R
+Types:Sorcery
+Oracle:Target creature you control gains haste until end of turn. Create a token that's a copy of that creature, then exile that token.\n

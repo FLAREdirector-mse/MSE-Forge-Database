@@ -1,0 +1,5 @@
+Name:Sadie Dal, Doctor Dreamer
+ManaCost:3 G U
+Types:Legendary Planeswalker Sadie 
+Loyalty:3
+Oracle:[+1]: Draw two cards, then put a card from your hand on the bottom of your library unless you've spent {W}{U}{B}{R}{G} on spells this turn.\n[-2]: Add {W}{U}{B}{R}{G}.\n[-6]: For each card type, you may return a card of that type from your graveyard to your hand.\n

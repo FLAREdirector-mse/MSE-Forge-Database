@@ -1,0 +1,6 @@
+Name:Nest Matriarch
+ManaCost:4 W
+Types:Creature Bird 
+PT:3/3
+K:Flying
+Oracle:Flying\nWhen Nest Matriarch enters the battlefield, put a +1/+1 counter on another target creature you control. That creature gains lifelink until end of turn.\n

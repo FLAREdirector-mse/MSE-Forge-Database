@@ -1,0 +1,4 @@
+Name:Guide to the Wayward
+ManaCost:1 WU
+Types:Creature Goat Scout 
+Oracle:Guide to the Wayward enters the battlefield with a +1/+1 counter on it.\n{1}{W/U}, {T}: Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on a different creature you control.)\n

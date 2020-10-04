@@ -1,0 +1,5 @@
+Name:Wild Dogs of the Night
+ManaCost:2 G
+Types:Creature Hound Horror 
+PT:2/1
+Oracle:Whenever Wild Dogs of the Night or another Horror enters the battlefield under your control, exile up to one target card in a graveyard. If that card was a creature card, you gain 2 life and put two +1/+1 counters on that Horror.\n

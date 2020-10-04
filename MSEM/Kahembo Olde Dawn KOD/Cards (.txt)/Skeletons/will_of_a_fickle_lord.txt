@@ -1,0 +1,4 @@
+Name:Will of a Fickle Lord
+ManaCost:2 WU WU
+Types:Enchantment
+Oracle:At the beginning of each player's upkeep, you may exile target permanent that player controls. If you do, return that card to the battlefield under its owner's control at the beginning of the next end step.\n

@@ -1,0 +1,4 @@
+Name:Unbracing Rain
+ManaCost:3 U
+Types:Instant
+Oracle:Up to two target creatures each get -3/-0 until end of turn. Tap those creatures. They don't untap during their controller's next untap step.\n

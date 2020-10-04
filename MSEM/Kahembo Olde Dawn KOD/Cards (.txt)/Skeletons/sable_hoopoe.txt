@@ -1,0 +1,6 @@
+Name:Sable Hoopoe
+ManaCost:2 U
+Types:Creature Bird 
+PT:2/1
+K:Flying
+Oracle:Flying\nWhen Sable Hoopoe enters the battlefield, draw a card.\n

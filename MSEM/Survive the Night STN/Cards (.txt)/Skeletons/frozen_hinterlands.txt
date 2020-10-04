@@ -1,0 +1,4 @@
+Name:Frozen Hinterlands
+ManaCost:
+Types:Land Plains Island 
+Oracle:({T}: Add {W} or {U}.)\nAs Frozen Hinterlands enters the battlefield, you may torment yourself. If you don't, it enters the battlefield tapped. (You lose 3 life unless you discard a card or sacrifice a nonland permanent.)\n

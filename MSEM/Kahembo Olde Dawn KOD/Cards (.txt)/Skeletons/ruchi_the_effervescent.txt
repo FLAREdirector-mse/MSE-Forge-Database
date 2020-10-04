@@ -1,0 +1,5 @@
+Name:Ruchi, the Effervescent
+ManaCost:1 GW U
+Types:Legendary Planeswalker Ruchi 
+Loyalty:3
+Oracle:[+1]: Up to one other target permanent gains hexproof until your next turn. Untap it.\n[-3]: Put target nonland permanent into its owner's library third from the top.\n[-8]: Shuffle any number of cards you own from your graveyard and/or outside the game into your library. You get an emblem with “Permanents you control have ‘{T}: Draw a card.'”\n

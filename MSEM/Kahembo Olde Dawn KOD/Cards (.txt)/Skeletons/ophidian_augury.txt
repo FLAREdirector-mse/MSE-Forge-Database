@@ -1,0 +1,4 @@
+Name:Ophidian Augury
+ManaCost:4 U U
+Types:Enchantment
+Oracle:Once each turn, you may pay {U} rather than pay the mana cost for a blue spell you cast.\n

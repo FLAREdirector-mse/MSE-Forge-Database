@@ -1,0 +1,5 @@
+Name:Greypelt Brute
+ManaCost:RW
+Types:Creature Hound Warrior 
+PT:2/1
+Oracle:

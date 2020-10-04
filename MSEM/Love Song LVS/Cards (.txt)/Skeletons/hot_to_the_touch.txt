@@ -1,0 +1,4 @@
+Name:Hot to the Touch
+ManaCost:X R
+Types:Sorcery
+Oracle:This spell costs {1} less to cast for each creature that attacked this turn.\nHot to the Touch deals X damage to any target.\n

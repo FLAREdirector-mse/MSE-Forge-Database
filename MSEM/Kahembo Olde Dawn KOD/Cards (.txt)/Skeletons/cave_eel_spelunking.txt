@@ -1,0 +1,5 @@
+Name:Cave Eel
+ManaCost:U B
+Types:Creature Fish 
+PT:2/2
+Oracle:When Cave Eel enters the battlefield, look at the top three cards of your library. Put one on top and the rest on the bottom in any order.\n

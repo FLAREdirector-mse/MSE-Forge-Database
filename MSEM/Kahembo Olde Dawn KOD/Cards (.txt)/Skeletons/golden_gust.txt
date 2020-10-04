@@ -1,0 +1,4 @@
+Name:Golden Gust
+ManaCost:1 WU
+Types:Instant
+Oracle:Tap up to two target creatures.\nPermutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on a different creature you control.)\n

@@ -1,0 +1,5 @@
+Name:Tranquil Cove
+ManaCost:
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+Oracle:Tranquil Cove enters the battlefield tapped.\nWhen Tranquil Cove enters the battlefield, you gain 1 life.\n{T}: Add {W} or {U}.\n

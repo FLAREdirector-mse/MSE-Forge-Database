@@ -1,0 +1,5 @@
+Name:Wise Farseer Chini
+ManaCost:3 G U
+Types:Legendary Creature Squirrel Scout 
+PT:3/3
+Oracle:When Wise Farseer Chini enters the battlefield, create a tapped colorless land token named Far-Off Lands with “{T}: Add one mana of any color.”\n

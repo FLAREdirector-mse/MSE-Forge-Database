@@ -1,0 +1,4 @@
+Name:Canid Simulacrum
+ManaCost:2
+Types:Artifact
+Oracle:Canid Simulacrum enters the battlefield with each counter on it from among +1/+1, flying, first strike, deathtouch, hexproof, lifelink, menace, reach, trample, and vigilance.\nWhenever a creature enters the battlefield under your control, move two random counters from Canid Simulacrum onto that creature.\n

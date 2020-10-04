@@ -1,0 +1,5 @@
+Name:Repurposed Killdrone
+ManaCost:B
+Types:Artifact Creature Construct 
+PT:1/1
+Oracle:Sacrifice Repurposed Killdrone: Repurposed Killdrone deals 1 damage to any target. You gain 1 life.\n

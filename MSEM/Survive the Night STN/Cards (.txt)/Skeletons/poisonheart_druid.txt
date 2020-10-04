@@ -1,0 +1,5 @@
+Name:Poisonheart Druid
+ManaCost:G
+Types:Creature Zombie Druid 
+PT:1/1
+Oracle:{T}, Exile a land card from your hand, from your graveyard, or a land that you control: Add one mana of any color.\n

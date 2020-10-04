@@ -1,0 +1,4 @@
+Name:Pith Wilt
+ManaCost:GW B
+Types:Instant
+Oracle:Destroy target nonland permanent if its converted mana cost is less than or equal to the number of colors among spells you've cast this turn.\n

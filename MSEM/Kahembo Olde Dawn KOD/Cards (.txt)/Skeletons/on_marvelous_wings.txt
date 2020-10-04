@@ -1,0 +1,4 @@
+Name:On Marvelous Wings
+ManaCost:2 U
+Types:Enchantment Saga 
+Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Put your choice of a flying or hexproof counter on target creature you control.\nIII — Creatures you control with counters on them can't be blocked this turn unless defending player pays {3} and spells that target those creatures cost an additional {3} to cast until your next turn.\n

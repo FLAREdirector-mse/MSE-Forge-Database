@@ -1,0 +1,6 @@
+Name:Strix of Dark Omens
+ManaCost:2 U
+Types:Creature Bird 
+PT:1/1
+K:Flying
+Oracle:Flying\nWhenever you cast a noncreature spell, note its converted mana cost.\nWhen Strix of Dark Omens dies, draw a card and create a 1/1 blue Bird creature token with flying for each different number noted with it.\n

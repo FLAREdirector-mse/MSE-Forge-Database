@@ -1,0 +1,4 @@
+Name:End of Days
+ManaCost:3 W W
+Types:Sorcery
+Oracle:Choose a nonland permanent type, then destroy all nonland permanents that aren't of the chosen type.\n

@@ -1,0 +1,4 @@
+Name:Spirit Transfusion
+ManaCost:2 U
+Types:Instant
+Oracle:Counter target creature spell.\nPermutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on a different creature you control.)\n

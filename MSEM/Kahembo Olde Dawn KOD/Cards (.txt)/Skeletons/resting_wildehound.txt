@@ -1,0 +1,5 @@
+Name:Resting Wildehound
+ManaCost:W
+Types:Creature Hound 
+PT:1/1
+Oracle:{W}, {T}: Tap target creature.\n

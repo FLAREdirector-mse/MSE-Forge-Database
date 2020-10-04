@@ -1,0 +1,6 @@
+Name:Novaheart Guardian
+ManaCost:3 R R
+Types:Creature Elemental 
+PT:4/4
+K:Flying
+Oracle:Flying\nWhen Novaheart Guardian enters the battlefield, it deals 4 damage to any target.\nWhenever a creature or planeswalker dies, put a +1/+1 counter on Novaheart Guardian.\n

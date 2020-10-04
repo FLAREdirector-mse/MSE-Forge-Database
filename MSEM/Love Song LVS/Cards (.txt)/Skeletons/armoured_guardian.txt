@@ -1,0 +1,6 @@
+Name:Armoured Guardian
+ManaCost:3 R R
+Types:Creature Elemental 
+PT:5/4
+K:Haste
+Oracle:Haste\nAugmented — Whenever you cast a spell, if you've spent {W}{U}{B}{R}{G} on spells this turn, put a +1/+1 counter on Armoured Guardian. It loses this ability and gains “Whenever this attacks, it deals 2 damage to each of up to two targets.”\n

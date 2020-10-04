@@ -1,0 +1,4 @@
+Name:Torch the City
+ManaCost:3 B R
+Types:Sorcery
+Oracle:Each player sacrifices three lands. Torment each player three times. (To torment a player, they lose 3 life unless they discard a card or sacrifice a nonland permanent.)\n

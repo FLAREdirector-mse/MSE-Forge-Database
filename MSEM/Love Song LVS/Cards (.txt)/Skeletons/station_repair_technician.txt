@@ -1,0 +1,6 @@
+Name:Station Repair Technician
+ManaCost:3 U
+Types:Creature Human Artificer 
+PT:3/2
+K:Flying
+Oracle:Flying\nAugmented — When Station Repair Technician enters the battlefield or attacks, if you've spent {W}{U}{B}{R}{G} on spells this turn, creatures you control gain flying until end of turn.\n

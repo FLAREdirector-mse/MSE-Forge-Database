@@ -1,0 +1,6 @@
+Name:Welkin Tern
+ManaCost:1 U
+Types:Creature Bird 
+PT:2/1
+K:Flying
+Oracle:Flying\nWelkin Tern can block only creatures with flying.\n

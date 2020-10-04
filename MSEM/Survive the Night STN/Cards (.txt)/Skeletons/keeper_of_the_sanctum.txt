@@ -1,0 +1,5 @@
+Name:Keeper of the Sanctum
+ManaCost:1 W
+Types:Creature Human Cleric 
+PT:2/2
+Oracle:Whenever you gain life for the first time each turn, create a 1/1 white Cleric creature token.\n

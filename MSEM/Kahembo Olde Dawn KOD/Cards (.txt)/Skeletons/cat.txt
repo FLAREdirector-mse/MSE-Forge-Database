@@ -1,0 +1,5 @@
+Name:Cat
+ManaCost:
+Types:Token Creature Cat 
+PT:2/2
+Oracle:

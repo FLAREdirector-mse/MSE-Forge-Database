@@ -1,0 +1,7 @@
+Name:Prodigious Panya
+ManaCost:U
+Types:Legendary Creature Mouse Warrior 
+PT:1/1
+K:Flash
+K:Flying
+Oracle:Flash\nFlying\nProdigious Panya has base power and toughness 5/5 during extra turns.\n

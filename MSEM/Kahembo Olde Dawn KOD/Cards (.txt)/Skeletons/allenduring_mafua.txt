@@ -1,0 +1,5 @@
+Name:All-Enduring Mafua
+ManaCost:2 WB WB
+Types:Legendary Planeswalker Mafua 
+Loyalty:3
+Oracle:[+1]: Until end of turn, Mafua becomes a 5/5 Cat Warrior creature with lifelink and indestructible. (It's not a planeswalker.)\n[-2]: Exile target creature.\n[-X]: Return each creature card with converted mana cost X from your graveyard to your hand.\n

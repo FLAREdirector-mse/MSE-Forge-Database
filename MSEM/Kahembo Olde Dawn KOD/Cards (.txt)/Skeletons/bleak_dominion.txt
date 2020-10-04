@@ -1,0 +1,5 @@
+Name:Bleak Dominion
+ManaCost:
+Types:Land Island Swamp Mountain 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {U}, {B}, or {R}.)\nBleak Dominion enters the battlefield tapped.\n

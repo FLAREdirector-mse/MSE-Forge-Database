@@ -1,0 +1,4 @@
+Name:Nebula of Empty Gold
+ManaCost:
+Types:Land
+Oracle:As Nebula of Empty Gold enters the battlefield, choose one or more colors. You lose life equal to the number of colors chosen this way.\n{T}: Add one mana of any of the chosen colors.\n

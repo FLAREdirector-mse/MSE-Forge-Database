@@ -1,0 +1,6 @@
+Name:Sage of Storms
+ManaCost:5 U
+Types:Creature Bird Wizard 
+PT:4/4
+K:Flying
+Oracle:Flying\nWhen Sage of Storms enters the battlefield, untap another target creature you control with flying and put a +1/+1 counter on it.\n

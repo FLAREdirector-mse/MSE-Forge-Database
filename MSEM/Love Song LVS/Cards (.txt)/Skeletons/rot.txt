@@ -1,0 +1,4 @@
+Name:Rot
+ManaCost:2 B G
+Types:Sorcery
+Oracle:Destroy all nonland permanents with converted mana cost 3 or less.\n

@@ -1,0 +1,4 @@
+Name:Swamp
+ManaCost:
+Types:Basic Land Swamp 
+Oracle:

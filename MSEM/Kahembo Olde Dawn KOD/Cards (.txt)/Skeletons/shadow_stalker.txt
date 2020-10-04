@@ -1,0 +1,6 @@
+Name:Shadow Stalker
+ManaCost:2 UB
+Types:Creature Hound Rogue 
+PT:2/2
+K:Flash
+Oracle:Flash\nWhen Shadow Stalker enters the battlefield, for each player, look at the top card of that player's library. You may have that player put that card into their graveyard.\n

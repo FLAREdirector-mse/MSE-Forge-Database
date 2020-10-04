@@ -1,0 +1,5 @@
+Name:Ravenous Abomination
+ManaCost:4 R
+Types:Creature Elemental Horror 
+PT:4/3
+Oracle:When Ravenous Abomination enters the battlefield, choose one —\n• Create two Treasure tokens.\n• Put a +1/+1 counter on Ravenous Abomination.\n

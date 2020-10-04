@@ -1,0 +1,4 @@
+Name:Fester Swarm
+ManaCost:B G
+Types:Enchantment
+Oracle:Whenever a creature you control dies, put a rot counter on Fester Swarm and you gain 1 life.\n{B}{G}, Remove two or more rot counters from Fester Swarm: Create a 1/1 green Insect creature token, then put a +1/+1 counter on it for each rot counter removed this way.\n

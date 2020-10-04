@@ -1,0 +1,5 @@
+Name:Tawny Prophet
+ManaCost:3 W U
+Types:Creature Bird Wizard 
+K:Flying
+Oracle:Flying\nTawny Prophet enters the battlefield with three +1/+1 counters on it.\n{W/U}, Remove a +1/+1 counter from Tawny Prophet: Scry 1, then draw a card.\n

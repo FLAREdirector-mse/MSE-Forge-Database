@@ -1,0 +1,4 @@
+Name:Sunwashed Spires
+ManaCost:
+Types:Land
+Oracle:{T}, Pay 1 life: Add {R}.\n{T}, Pay 1 life, Sacrifice Sunwashed Spires: Search your library for a Mountain card, put it onto the battlefield, then shuffle your library. That land enters the battlefield tapped unless it's basic.\n

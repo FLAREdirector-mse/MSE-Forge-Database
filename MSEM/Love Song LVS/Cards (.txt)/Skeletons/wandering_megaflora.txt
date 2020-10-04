@@ -1,0 +1,5 @@
+Name:Wandering Megaflora
+ManaCost:4 G
+Types:Creature Treefolk 
+PT:3/4
+Oracle:Wandering Megaflora has hexproof as long as it's untapped.\nWhenever Wandering Megaflora attacks, untap another target creature you control.\n

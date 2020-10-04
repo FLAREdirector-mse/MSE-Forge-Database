@@ -1,0 +1,5 @@
+Name:Shrewd Sikoyo
+ManaCost:1 UB
+Types:Creature Fish Rogue 
+PT:1/3
+Oracle:Shrewd Sikoyo can't be blocked by creatures with power 4 or greater.\nShrewd Sikoyo gets +1/+0 as long as you have at least two more cards in hand than any opponent.\n

@@ -1,0 +1,4 @@
+Name:Primation
+ManaCost:4 G W
+Types:Sorcery
+Oracle:Distribute a vigilance, trample, first strike, and lifelink counter among up to four target creatures you control, then distribute four +1/+1 counters among those creatures.\n

@@ -1,0 +1,4 @@
+Name:Whimsy
+ManaCost:U U U
+Types:Enchantment
+Oracle:Whenever you draw a card, target player mills two cards.\nWhenever you cast a blue spell, scry 1, then you may reveal the top card of your library. If it's an instant or sorcery card, draw a card.\n

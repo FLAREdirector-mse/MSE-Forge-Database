@@ -1,0 +1,4 @@
+Name:A Wide World Awaits
+ManaCost:2 G G
+Types:Enchantment
+Oracle:Play with the top card of your library revealed.\nYou may cast the top card of your library if it's a creature card.\nYou may pay {W}{U}{B}{R}{G} rather than pay the mana cost for creature spells you cast.\n

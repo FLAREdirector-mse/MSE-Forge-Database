@@ -1,0 +1,5 @@
+Name:Frontier Savior
+ManaCost:4 W W
+Types:Creature Cat Warrior 
+PT:6/6
+Oracle:When Frontier Savior enters the battlefield, return up to two target creature cards with converted mana cost 3 or less from your graveyard to the battlefield.\n

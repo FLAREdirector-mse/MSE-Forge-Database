@@ -1,0 +1,7 @@
+Name:Surveyor of Skies
+ManaCost:3 U U
+Types:Creature Elemental 
+PT:3/2
+K:Flying
+K:Prowess
+Oracle:Flying, prowess\nWhenever Surveyor of Skies attacks, you may return a permanent you control to its owner's hand.\n

@@ -1,0 +1,6 @@
+Name:Far Wandering Guardian
+ManaCost:1 U
+Types:Creature Elemental 
+PT:1/1
+K:Flying
+Oracle:Flying\nOther creatures you control with flying get +1/+1.\n

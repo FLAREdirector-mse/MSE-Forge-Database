@@ -1,0 +1,5 @@
+Name:Siamang Minstrel
+ManaCost:1 R
+Types:Creature Ape Bard 
+PT:2/2
+Oracle:When Siamang Minstrel enters the battlefield, you may put a lore counter on target Saga you control.\n

@@ -1,0 +1,6 @@
+Name:Inquirer, Roaming Rover
+ManaCost:4
+Types:Legendary Artifact Creature Servo 
+PT:4/4
+K:CARDNAME attacks each combat if able.
+Oracle:Inquirer, Roaming Rover attacks each combat if able.\nWhenever Inquirer deals damage to an opponent, draw a card.\n

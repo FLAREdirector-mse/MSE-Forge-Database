@@ -1,0 +1,6 @@
+Name:Pernicious Primavore
+ManaCost:5 G G
+Types:Creature Beast 
+PT:8/7
+K:Trample
+Oracle:Trample\nWhen Pernicious Primavore enters the battlefield or dies, destroy up to three target artifacts or enchantments.\n

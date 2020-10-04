@@ -1,0 +1,4 @@
+Name:Speed of Darkness
+ManaCost:1 B
+Types:Instant
+Oracle:As an additional cost to cast Speed of Darkness, exile X cards from your graveyard.\nChoose one —\n• Target player mills X cards.\n• Look at the top X cards of your library. Put one into your hand, and the rest on the bottom of your library in any order.\n

@@ -1,0 +1,5 @@
+Name:Concealed Slasher
+ManaCost:1 B
+Types:Creature Human Rogue 
+PT:2/1
+Oracle:Discard a card: Until end of turn, Concealed Slasher gets +1/+1 and can't be blocked.\n

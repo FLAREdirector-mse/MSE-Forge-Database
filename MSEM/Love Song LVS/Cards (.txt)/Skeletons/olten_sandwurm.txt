@@ -1,0 +1,7 @@
+Name:Olten Sandwurm
+ManaCost:4 R R
+Types:Creature Wurm 
+PT:6/5
+K:Trample
+K:Haste
+Oracle:Trample, haste\nWhenever an opponent casts a noncreature spell, you may return Olten Sandwurm to its owner's hand.\n

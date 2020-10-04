@@ -1,0 +1,4 @@
+Name:Island
+ManaCost:
+Types:Basic Land Island 
+Oracle:

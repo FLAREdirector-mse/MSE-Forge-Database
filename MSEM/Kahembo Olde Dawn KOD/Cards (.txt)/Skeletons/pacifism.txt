@@ -1,0 +1,4 @@
+Name:Pacifism
+ManaCost:1 W
+Types:Enchantment Aura 
+Oracle:Enchant creature\nEnchanted creature can't attack or block.\n

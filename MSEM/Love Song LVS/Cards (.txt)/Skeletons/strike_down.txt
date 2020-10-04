@@ -1,0 +1,4 @@
+Name:Strike Down
+ManaCost:1 G G
+Types:Instant
+Oracle:Choose one —\n• Destroy target creature with flying.\n• Destroy target artifact.\n

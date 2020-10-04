@@ -1,0 +1,4 @@
+Name:Parrot Pools
+ManaCost:U R
+Types:Enchantment
+Oracle:Prismatic — Whenever you cast a multicolored spell, create a 1/1 blue Bird creature token with flying. It gains haste until end of turn.\nWhenever three or more creatures you control deal combat damage to a player, draw a card.\n

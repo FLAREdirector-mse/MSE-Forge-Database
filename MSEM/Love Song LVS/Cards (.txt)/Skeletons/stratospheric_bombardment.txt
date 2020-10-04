@@ -1,0 +1,4 @@
+Name:Stratospheric Bombardment
+ManaCost:X B B
+Types:Sorcery
+Oracle:Stratospheric Bombardment deals X damage to any target and you gain that much life.\n

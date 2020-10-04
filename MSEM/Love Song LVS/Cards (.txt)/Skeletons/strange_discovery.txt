@@ -1,0 +1,4 @@
+Name:Strange Discovery
+ManaCost:G
+Types:Enchantment
+Oracle:At the beginning of your upkeep, mill two cards.\n{1}{G}, Sacrifice Strange Discovery: Return target card from your graveyard to your hand.\n

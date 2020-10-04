@@ -1,0 +1,5 @@
+Name:Mentalist Guardian
+ManaCost:4 W W
+Types:Creature Elemental 
+PT:4/6
+Oracle:Other Elementals you control get +2/+2.\nWhenever one or more Elementals you control attack, tap up to one target creature you don't control.\n

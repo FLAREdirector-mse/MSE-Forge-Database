@@ -1,0 +1,5 @@
+Name:Earthform Pachyderm
+ManaCost:5 G G
+Types:Creature Elephant 
+PT:4/4
+Oracle:This spell costs {1} less to cast for each noncreature, nonland permanent you don't control.\nWhen Earthform Pachyderm enters the battlefield, destroy target noncreature, nonland permanent. Its controller creates a 3/3 green Elephant creature token.\n

@@ -1,0 +1,4 @@
+Name:Neural Contagion
+ManaCost:3 UB UB
+Types:Enchantment Aura Curse 
+Oracle:Enchant opponent\nEnchanted player plays with the top card of their library revealed.\nYou may cast the top card of enchanted player's library, and you may spend mana as though it were mana of any type to cast it.\n

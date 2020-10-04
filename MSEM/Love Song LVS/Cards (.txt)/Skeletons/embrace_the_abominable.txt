@@ -1,0 +1,4 @@
+Name:Embrace the Abominable
+ManaCost:R R
+Types:Instant
+Oracle:Copy target instant or sorcery spell you control. You may choose new targets for the copy.\n

@@ -1,0 +1,4 @@
+Name:Animus Vox
+ManaCost:3 W U
+Types:Sorcery
+Oracle:Converge — You draw X cards and gain X life, where X is the number of colors of mana spent to cast Animus Vox.\n

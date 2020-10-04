@@ -1,0 +1,4 @@
+Name:Brushfire
+ManaCost:1 R
+Types:Instant
+Oracle:Brushfire deals 3 damage to target creature. If that creature would die this turn, exile it instead.\n

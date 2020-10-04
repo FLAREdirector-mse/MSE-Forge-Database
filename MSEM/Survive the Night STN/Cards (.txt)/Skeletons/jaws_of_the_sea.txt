@@ -1,0 +1,4 @@
+Name:Jaws of the Sea
+ManaCost:U U
+Types:Instant
+Oracle:As an additional cost to cast this spell, return a creature you control to your hand or pay {2}.\nCounter target spell.\n

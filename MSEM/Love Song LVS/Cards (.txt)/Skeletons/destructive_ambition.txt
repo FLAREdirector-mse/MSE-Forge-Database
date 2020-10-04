@@ -1,0 +1,4 @@
+Name:Destructive Ambition
+ManaCost:U B
+Types:Instant
+Oracle:Counter target monocolored spell. Its controller loses 2 life.\n

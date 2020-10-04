@@ -1,0 +1,5 @@
+Name:Gateblessed Explorer
+ManaCost:W B
+Types:Creature Human Horror 
+PT:1/1
+Oracle:You may cast Gateblessed Explorer from your graveyard as long as you control three or more creatures.\nWhenever another creature dies, each opponent loses 1 life and you gain 1 life.\n

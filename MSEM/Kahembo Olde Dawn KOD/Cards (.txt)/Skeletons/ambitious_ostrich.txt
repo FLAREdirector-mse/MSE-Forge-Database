@@ -1,0 +1,5 @@
+Name:Ambitious Ostrich
+ManaCost:3 W
+Types:Creature Bird 
+PT:3/3
+Oracle:Ambitious Ostrich has flying as long as you control a storied permanent. (Enchantments and legendary permanents are storied.)\n

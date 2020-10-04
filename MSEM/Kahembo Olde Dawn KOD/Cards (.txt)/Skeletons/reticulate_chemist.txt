@@ -1,0 +1,6 @@
+Name:Reticulate Chemist
+ManaCost:1 U B
+Types:Creature Naga Wizard 
+PT:3/2
+K:Flash
+Oracle:Flash\nWhenever you cast a Tale, look at the top two cards of your library. Put one into your hand and the other back on top or into your graveyard.\n

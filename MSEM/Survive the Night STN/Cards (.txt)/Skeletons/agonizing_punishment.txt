@@ -1,0 +1,4 @@
+Name:Agonizing Punishment
+ManaCost:1 B
+Types:Sorcery
+Oracle:As an additional cost to cast this spell, sacrifice a creature.\nTorment target player three times. (They lose 3 life unless they discard a card or sacrifice a nonland permanent.)\n

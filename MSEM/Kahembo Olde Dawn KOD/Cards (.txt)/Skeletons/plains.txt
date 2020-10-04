@@ -1,0 +1,4 @@
+Name:Plains
+ManaCost:
+Types:Basic Land Plains
+Oracle:

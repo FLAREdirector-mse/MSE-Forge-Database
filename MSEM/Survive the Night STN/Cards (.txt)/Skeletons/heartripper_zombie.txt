@@ -1,0 +1,6 @@
+Name:Heartripper Zombie
+ManaCost:2 B
+Types:Creature Zombie 
+PT:2/2
+K:Deathtouch
+Oracle:Deathtouch\nWhenever another creature dies, its controller discards a card at random.\n

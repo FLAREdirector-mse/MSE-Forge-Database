@@ -1,0 +1,6 @@
+Name:Badru, the Skyshadow
+ManaCost:2 BG W U
+Types:Legendary Creature Bird Rogue 
+PT:5/5
+K:Flying
+Oracle:Flying\n{B/G}, Discard a creature card: Badru, the Skyshadow becomes a copy of the discarded card until end of turn, except he has flying and base power and toughness 5/5.\n

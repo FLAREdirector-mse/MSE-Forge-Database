@@ -1,0 +1,7 @@
+Name:Olten Skywhale
+ManaCost:3 U U
+Types:Creature Whale 
+PT:4/3
+K:Flash
+K:Flying
+Oracle:Flash\nFlying\n

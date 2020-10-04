@@ -1,0 +1,4 @@
+Name:Out-of-Body Experience
+ManaCost:W
+Types:Instant
+Oracle:Exile target creature. That creature's controller creates a 1/1 blue Elemental creature token with flying.\n

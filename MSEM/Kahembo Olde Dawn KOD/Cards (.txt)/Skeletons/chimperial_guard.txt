@@ -1,0 +1,6 @@
+Name:Chimperial Guard
+ManaCost:3 G
+Types:Creature Ape Warrior 
+PT:3/3
+K:Trample
+Oracle:Trample\nWhenever a lore counter is placed on a Saga you control, Chimperial Guard gets +2/+2 until end of turn.\n

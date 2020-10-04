@@ -1,0 +1,5 @@
+Name:Ring-Tailed Ascetic
+ManaCost:1 G
+Types:Creature Lemur Cleric 
+PT:2/2
+Oracle:Saga spells you cast cost {1} less to cast.\n

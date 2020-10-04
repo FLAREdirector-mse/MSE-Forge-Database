@@ -1,0 +1,5 @@
+Name:Prismatic Cavern
+ManaCost:
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+Oracle:Prismatic Cavern enters the battlefield tapped.\nWhen Prismatic Cavern enters the battlefield, return a land you control to its owner's hand.\n{T}: Add {C} and one mana of any color.\n

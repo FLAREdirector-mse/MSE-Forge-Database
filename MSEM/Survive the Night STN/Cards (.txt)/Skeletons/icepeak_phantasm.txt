@@ -1,0 +1,5 @@
+Name:Icepeak Phantasm
+ManaCost:U
+Types:Creature Illusion Spirit 
+PT:2/2
+Oracle:Whenever Icepeak Phantasm becomes the target of a spell or ability, an opponent may pay {2}. If they do, sacrifice it.\n

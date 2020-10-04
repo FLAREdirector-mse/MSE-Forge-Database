@@ -1,0 +1,5 @@
+Name:Fume Whisperer
+ManaCost:1 U B
+Types:Creature Lizard Wizard 
+PT:3/2
+Oracle:Whenever you cast a spell that targets, Fume Whisperer gets +1/+1 until end of turn and can't be blocked this turn.\n

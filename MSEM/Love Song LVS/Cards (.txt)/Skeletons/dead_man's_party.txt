@@ -1,0 +1,4 @@
+Name:Dead Man’s Party
+ManaCost:U B
+Types:Enchantment
+Oracle:At the beginning of your upkeep, you may exile two cards that share a color from your graveyard. If you do, return a creature, instant, or sorcery card that shares a color with those two cards from your graveyard to your hand.\n

@@ -1,0 +1,4 @@
+Name:Prosthetic Repairs
+ManaCost:B
+Types:Sorcery
+Oracle:Return target creature card from your graveyard to your hand.\nAugmented — If you've spent {W}{U}{B}{R}{G} on spells this turn, return it to the battlefield instead.\n

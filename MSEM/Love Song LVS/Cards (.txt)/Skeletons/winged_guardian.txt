@@ -1,0 +1,6 @@
+Name:Winged Guardian
+ManaCost:4 U
+Types:Creature Elemental 
+PT:2/2
+K:Flying
+Oracle:Flying\nWhen Winged Guardian enters the battlefield, return up to one target nonland permanent to its owner's hand.\n

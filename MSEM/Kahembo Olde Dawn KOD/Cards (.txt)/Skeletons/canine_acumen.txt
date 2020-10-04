@@ -1,0 +1,4 @@
+Name:Canine Acumen
+ManaCost:R
+Types:Enchantment Aura 
+Oracle:You may cast this spell with no targets for {2}{R}. If you do, as it resolves, create a 1/1 red Hound creature token, then attach Canine Acumen to that token.\nEnchant creature\nEnchanted creature gets +2/+0 and has first strike.\n

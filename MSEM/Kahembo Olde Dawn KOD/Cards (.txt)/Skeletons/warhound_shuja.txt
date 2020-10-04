@@ -1,0 +1,5 @@
+Name:Warhound Shuja
+ManaCost:1 RW RW
+Types:Legendary Creature Hound Warrior 
+PT:2/3
+Oracle:Whenever Warhound Shuja attacks, look at the top three cards of your library. You may put a creature card with converted mana cost less than or equal to Shuja's power from among them onto the battlefield tapped and attacking. Put the rest on the bottom of your library in any order.\n

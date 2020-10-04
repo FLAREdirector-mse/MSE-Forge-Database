@@ -1,0 +1,5 @@
+Name:Abomination Emissary
+ManaCost:4 B
+Types:Creature Elemental Horror 
+PT:4/4
+Oracle:When Abomination Emissary enters the battlefield, target player mills six cards.\n

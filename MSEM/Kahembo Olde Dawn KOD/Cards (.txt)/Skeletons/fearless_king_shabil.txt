@@ -1,0 +1,5 @@
+Name:Fearless King Shabil
+ManaCost:2 WB R G
+Types:Legendary Creature Cat Noble 
+PT:5/4
+Oracle:When Fearless King Shabil enters the battlefield, reveal the top five cards of your library. You may put a Cat card from among them into your hand. Put the rest on the bottom of your library in any order.\nAt the beginning of combat on your turn, each Cat you control gains all abilities of each other Cat you control until end of turn.\n

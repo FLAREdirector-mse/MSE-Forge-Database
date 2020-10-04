@@ -1,0 +1,4 @@
+Name:One Bad Night
+ManaCost:1 B
+Types:Instant
+Oracle:Destroy target monocolored creature.\nAugmented — If you've spent {W}{U}{B}{R}{G} on spells this turn, return that creature card to the battlefield under your control.\n

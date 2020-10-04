@@ -1,0 +1,5 @@
+Name:Bwema, the Ruthless
+ManaCost:2 BR W
+Types:Legendary Creature Hound Warrior 
+PT:4/4
+Oracle:Bwema, the Ruthless enters the battlefield with your choice of two different counters on it from among menace, first strike, vigilance, and lifelink.\n

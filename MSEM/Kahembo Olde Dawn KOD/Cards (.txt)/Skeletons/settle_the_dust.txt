@@ -1,0 +1,4 @@
+Name:Settle the Dust
+ManaCost:2 R W
+Types:Sorcery
+Oracle:Settle the Dust deals 4 damage to each tapped creature.\n

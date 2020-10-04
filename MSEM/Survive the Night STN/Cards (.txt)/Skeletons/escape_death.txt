@@ -1,0 +1,4 @@
+Name:Escape Death
+ManaCost:3 B
+Types:Sorcery
+Oracle:Until end of turn, you may cast target creature card in your graveyard without paying its mana cost. When it enters the battlefield this turn, it gains haste and menace. Exile it at the beginning of the next end step.\n

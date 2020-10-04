@@ -1,0 +1,5 @@
+Name:Rousing Battlehound
+ManaCost:4 RW
+Types:Creature Hound Warrior 
+PT:4/4
+Oracle:When Rousing Battlehound enters the battlefield, other creatures you control get +1/+1 until end of turn. Other Hounds you control gain first strike until end of turn.\n

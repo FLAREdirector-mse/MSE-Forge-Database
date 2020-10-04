@@ -1,0 +1,4 @@
+Name:Enter Mephisto’s Gate
+ManaCost:B R
+Types:Instant
+Oracle:Destroy target creature.\n

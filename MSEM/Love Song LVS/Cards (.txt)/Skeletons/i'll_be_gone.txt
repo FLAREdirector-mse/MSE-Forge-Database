@@ -1,0 +1,4 @@
+Name:I’ll Be Gone
+ManaCost:2 B
+Types:Sorcery
+Oracle:Exile all creature cards from target player's graveyard. For each creature card exiled this way, search that player's library for all cards with the same name as that card and exile them. Then that player shuffles their library.\n

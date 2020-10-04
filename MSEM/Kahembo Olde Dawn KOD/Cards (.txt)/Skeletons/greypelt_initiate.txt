@@ -1,0 +1,5 @@
+Name:Greypelt Initiate
+ManaCost:W
+Types:Creature Hound Knight 
+PT:1/1
+Oracle:Whenever another Hound enters the battlefield under your control, put a +1/+1 counter on Greypelt Initiate.\n

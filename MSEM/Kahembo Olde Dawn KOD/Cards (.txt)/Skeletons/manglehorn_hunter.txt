@@ -1,0 +1,5 @@
+Name:Manglehorn Hunter
+ManaCost:5 B
+Types:Creature Ox Warrior 
+PT:5/4
+Oracle:When Manglehorn Hunter enters the battlefield, draw a card and you lose 1 life.\n

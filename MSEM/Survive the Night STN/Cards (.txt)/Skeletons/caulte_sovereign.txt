@@ -1,0 +1,5 @@
+Name:Caulte Sovereign
+ManaCost:1 W
+Types:Creature Human Soldier 
+PT:2/2
+Oracle:Other nonland permanents enter the battlefield tapped.\nYour opponents can't activate abilities of tapped permanents.\n

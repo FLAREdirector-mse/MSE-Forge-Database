@@ -1,0 +1,6 @@
+Name:TT-23 Aegis
+ManaCost:2 W U
+Types:Artifact Creature Construct 
+PT:5/5
+K:Flash
+Oracle:Flash\nTT-23 Aegis can't attack or block unless you have six or more cards in hand.\nAt the beginning of your end step, if you didn't cast a spell this turn, draw a card.\n

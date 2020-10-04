@@ -1,0 +1,6 @@
+Name:Back-Alley Gnoll
+ManaCost:1 B R
+Types:Creature Hyena Warrior 
+PT:2/3
+K:First Strike
+Oracle:First strike\nBack-Alley Gnoll has lifelink as long as it's enchanted by a black Aura.\nBack-Alley Gnoll gets +2/+0 as long as it's enchanted by a red Aura.\n

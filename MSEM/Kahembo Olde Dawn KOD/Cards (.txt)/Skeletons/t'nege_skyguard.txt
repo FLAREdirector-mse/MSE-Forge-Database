@@ -1,0 +1,6 @@
+Name:T’nege, Skyguard
+ManaCost:4 W
+Types:Legendary Creature Bird Knight 
+PT:4/4
+K:Flying
+Oracle:Flying\nWhen T'nege, Skyguard enters the battlefield, exile another target creature you control until T'nege leaves the battlefield. If you do, exile target creature an opponent controls until T'nege leaves the battlefield.\n

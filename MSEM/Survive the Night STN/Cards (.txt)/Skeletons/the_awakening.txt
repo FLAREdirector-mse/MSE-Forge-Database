@@ -1,0 +1,4 @@
+Name:The Awakening
+ManaCost:5 B B
+Types:Enchantment Saga 
+Oracle:\nI — Put all creature cards from your graveyard onto the battlefield.\nII — Creatures you control gain lifelink until end of turn.\nIII — Destroy all creatures.\n

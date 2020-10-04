@@ -1,0 +1,5 @@
+Name:Recurring Abomination
+ManaCost:2 B
+Types:Creature Elemental Horror 
+PT:3/3
+Oracle:Whenever Recurring Abomination deals combat damage to an opponent, return target creature card from your graveyard to your hand.\n{B}, Sacrifice a creature: Return Recurring Abomination from the graveyard to the battlefield tapped.\n

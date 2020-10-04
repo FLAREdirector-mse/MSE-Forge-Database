@@ -1,0 +1,4 @@
+Name:Let It Burn
+ManaCost:4 R
+Types:Enchantment
+Oracle:Converge — Let It Burn enters the battlefield with a charge counter on it for each color of mana spent to cast it.\n{1}{R}, Remove a charge counter from Let It Burn: It deals 3 damage to any target.\nWhen there are no charge counters on Let It Burn, return it to its owner's hand.\n

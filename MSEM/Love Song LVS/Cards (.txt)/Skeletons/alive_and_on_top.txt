@@ -1,0 +1,4 @@
+Name:Alive and on Top
+ManaCost:3 U U
+Types:Sorcery
+Oracle:Converge — Gain control of up to X target creatures with total converted mana cost X or less, where X is the number of colors of mana spent to cast Alive and on Top.\n

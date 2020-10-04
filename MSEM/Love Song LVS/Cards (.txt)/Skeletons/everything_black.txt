@@ -1,0 +1,4 @@
+Name:Everything Black
+ManaCost:1 B
+Types:Enchantment
+Oracle:Permanents you control are black. The same is true for spells you control and nonland cards you own that aren't on the battlefield.\nAt the beginning of your upkeep, you may pay {B}. If you do, draw a card and lose 1 life.\n

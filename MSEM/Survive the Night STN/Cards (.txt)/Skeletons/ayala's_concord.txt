@@ -1,0 +1,4 @@
+Name:Ayala’s Concord
+ManaCost:2 G W
+Types:Sorcery
+Oracle:Search your library for a permanent card with converted mana 3 or less and put it onto the battlefield. Shuffle your library.\nMotley — Then if there are five or more names among nonland permanents you control, you gain 7 life.\n

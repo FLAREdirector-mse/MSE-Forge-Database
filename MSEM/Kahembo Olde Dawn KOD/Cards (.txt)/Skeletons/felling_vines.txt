@@ -1,0 +1,4 @@
+Name:Felling Vines
+ManaCost:2 G
+Types:Instant
+Oracle:You gain 3 life. Choose one —\n• Destroy target artifact.\n• Destroy target enchantment.\n• Destroy target creature with flying.\n

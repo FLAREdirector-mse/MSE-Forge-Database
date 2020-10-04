@@ -1,0 +1,4 @@
+Name:Crucible of Worlds
+ManaCost:3
+Types:Artifact
+Oracle:You may play land cards from your graveyard.\n

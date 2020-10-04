@@ -1,0 +1,5 @@
+Name:Threshing Sundew
+ManaCost:1 BG BG
+Types:Creature Plant 
+PT:3/3
+Oracle:When Threshing Sundew enters the battlefield, merge up to one target creature card in your graveyard under it. Threshing Sundew has that card's abilities.\nWhen Threshing Sundew dies, return all other cards merged with it it to their owner's hand.\n

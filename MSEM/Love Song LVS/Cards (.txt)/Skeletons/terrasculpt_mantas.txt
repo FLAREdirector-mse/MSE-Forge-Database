@@ -1,0 +1,6 @@
+Name:Terrasculpt Mantas
+ManaCost:1 U
+Types:Creature Elemental Fish 
+PT:1/1
+K:Flying
+Oracle:Flying\n{T}: Target land you control becomes the basic land type of your choice until end of turn.\n

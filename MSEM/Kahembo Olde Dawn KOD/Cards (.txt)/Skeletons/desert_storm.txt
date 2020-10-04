@@ -1,0 +1,4 @@
+Name:Desert Storm
+ManaCost:3 R
+Types:Sorcery
+Oracle:Desert Storm deals 6 damage to target creature.\n

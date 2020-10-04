@@ -1,0 +1,4 @@
+Name:Remember for Centuries
+ManaCost:2 U U
+Types:Sorcery
+Oracle:Return target instant or sorcery card from your graveyard to your hand.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)\n

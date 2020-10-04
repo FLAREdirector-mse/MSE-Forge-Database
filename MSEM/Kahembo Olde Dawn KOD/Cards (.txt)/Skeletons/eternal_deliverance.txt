@@ -1,0 +1,4 @@
+Name:Eternal Deliverance
+ManaCost:3 W B
+Types:Enchantment Aura Curse 
+Oracle:Enchant player\nAt the beginning of enchanted player's upkeep, their life total becomes 10.\n

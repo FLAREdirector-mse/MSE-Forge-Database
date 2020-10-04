@@ -1,0 +1,5 @@
+Name:Plaxolotl
+ManaCost:1 UR UR
+Types:Creature Salamander 
+PT:2/3
+Oracle:If you spent exactly {R} on a spell this turn and exactly {U} on a spell this turn, you may cast this spell without paying its mana cost and as though it has flash.\nWhenever you cast an instant or sorcery spell with converted mana cost 1 for the first time each turn, copy it. You may choose new targets for the copy.\n

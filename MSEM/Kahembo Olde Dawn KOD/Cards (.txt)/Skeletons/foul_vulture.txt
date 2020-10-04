@@ -1,0 +1,6 @@
+Name:Foul Vulture
+ManaCost:3 B
+Types:Creature Bird 
+PT:2/2
+K:Flying
+Oracle:Flying\nWhen Foul Vulture enters the battlefield, create a 1/1 red Hound creature token.\nFoul Vulture gets +1/+0 as long as a creature you controlled died this turn.\n

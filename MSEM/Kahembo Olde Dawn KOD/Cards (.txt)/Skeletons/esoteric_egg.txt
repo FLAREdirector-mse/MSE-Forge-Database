@@ -1,0 +1,4 @@
+Name:Esoteric Egg
+ManaCost:3
+Types:Artifact
+Oracle:Esoteric Egg is all colors.\n{T}: Add one mana of any color.\n

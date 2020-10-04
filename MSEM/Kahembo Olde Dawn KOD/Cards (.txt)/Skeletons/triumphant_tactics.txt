@@ -1,0 +1,4 @@
+Name:Triumphant Tactics
+ManaCost:3 RW RW
+Types:Sorcery
+Oracle:Creatures you control gain double strike until end of turn. Whenever a creature you control deals combat damage this turn, put a +1/+1 counter on it.\n

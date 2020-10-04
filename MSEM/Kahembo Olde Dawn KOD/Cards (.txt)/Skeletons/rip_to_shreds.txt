@@ -1,0 +1,4 @@
+Name:Rip to Shreds
+ManaCost:3 B
+Types:Instant
+Oracle:Destroy target creature. Its controller loses 1 life.\n

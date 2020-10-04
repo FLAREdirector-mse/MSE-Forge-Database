@@ -1,0 +1,6 @@
+Name:Skystream Mantas
+ManaCost:2 U
+Types:Creature Fish 
+PT:2/1
+K:Flying
+Oracle:Flying\nWhen Skystream Mantas is returned to your hand from the battlefield, draw two cards.\n

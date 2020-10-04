@@ -1,0 +1,5 @@
+Name:Sirif of the Lord’s Legion
+ManaCost:3 RG
+Types:Legendary Creature Cat Knight 
+PT:4/4
+Oracle:Whenever Sirif of the Lord's Legion attacks, you may put a lore counter on target Saga you control.\nWhenever Sirif deals combat damage to a player, you may remove a lore counter from target Saga you control.\n

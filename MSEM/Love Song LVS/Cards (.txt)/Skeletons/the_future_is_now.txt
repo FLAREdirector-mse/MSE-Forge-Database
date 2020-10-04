@@ -1,0 +1,4 @@
+Name:The Future Is Now
+ManaCost:R G
+Types:Enchantment
+Oracle:Attacking creatures you control have trample.\nWhenever a creature you control attacks, you may remove any number of +1/+1 counters from that creature. If you do, it gets +2/+2 until end of turn for each counter removed this way.\n

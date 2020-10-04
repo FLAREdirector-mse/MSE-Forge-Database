@@ -1,0 +1,4 @@
+Name:Far Too Young to Die
+ManaCost:3 B
+Types:Sorcery
+Oracle:This spell costs {3} less to cast if it targets a creature with converted mana cost 2 or less.\nDestroy target creature.\n

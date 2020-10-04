@@ -1,0 +1,4 @@
+Name:Rapacious Instinct
+ManaCost:2 R
+Types:Enchantment Aura 
+Oracle:Enchant creature you control\nWhen Rapacious Instinct enters the battlefield, enchanted creature deals damage equal to its power to target creature you don't control.\nEnchanted creature gets +1/+0.\n

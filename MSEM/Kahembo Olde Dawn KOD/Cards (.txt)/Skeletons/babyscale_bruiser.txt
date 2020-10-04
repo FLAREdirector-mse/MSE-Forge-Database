@@ -1,0 +1,5 @@
+Name:Babyscale Bruiser
+ManaCost:1 G
+Types:Creature Lizard Scout 
+PT:2/3
+Oracle:When Babyscale Bruiser enters the battlefield, you may reveal a creature card from your hand. If you do, Babyscale Bruiser deals damage to target creature an opponent controls equal to the revealed card's power. That creature deals damage equal to its power to Babyscale Bruiser.\n

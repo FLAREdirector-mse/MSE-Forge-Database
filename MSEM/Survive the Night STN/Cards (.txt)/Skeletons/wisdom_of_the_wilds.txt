@@ -1,0 +1,4 @@
+Name:Wisdom of the Wilds
+ManaCost:G U
+Types:Enchantment
+Oracle:Whenever a creature is returned to your hand, scry 1.\n{4}{G}{U}: Reveal the top card of your library. If it's a permanent card, you may put it onto the battlefield.\n
