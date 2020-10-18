@@ -1,0 +1,11 @@
+Name:Bahum, the Warden
+ManaCost:2 G W
+Types:Legendary Planeswalker Bahum
+Loyalty:4
+A:AB$ ChangeZone | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | Origin$ Graveyard | Destination$ Exile | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Select up to two target cards in graveyards | ValidTgts$ Card | SubAbility$ DBGainLife | SpellDescription$ Exile up to two target cards from graveyards. You gain 3 life.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 3
+A:AB$ ChangeZone | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Artifact,Enchantment,Land.nonBasic | TgtPrompt$ Select target artifact, enchantment, or nonbasic land | SpellDescription$ Exile target artifact, enchantment, or nonbasic land.
+A:AB$ Effect | Cost$ SubCounter<7/LOYALTY> | Planeswalker$ True | Ultimate$ True | Name$ Emblem - Bahum, the Warden | Triggers$ TrigUpkeep | Duration$ Permanent | SVars$ TrigExile | SpellDescription$ You get an emblem with "At the beginning of your upkeep, exile target noncreature permanent."
+SVar:TrigUpkeep:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Command | Execute$ TrigExile | TriggerDescription$ At the beginning of your upkeep, exile target noncreature permanent.
+SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Permanent.nonCreature | TgtPrompt$ Select target noncreature permanent
+Oracle: Exile up to two target cards from graveyards. You gain 3 life.\n[–2]: Exile target artifact, enchantment, or nonbasic land.\n[–7]: You get an emblem with "At the beginning of your upkeep, exile target noncreature permanent."

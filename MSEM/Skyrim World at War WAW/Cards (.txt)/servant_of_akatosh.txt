@@ -1,0 +1,8 @@
+Name:Servant of Akatosh
+ManaCost:G W
+Types:Creature Human Cleric
+PT:1/1
+S:Mode$ Continuous | Affected$ Human.YouCtrl+Other | AddPower$ 1 | AddToughness$ 1 | Description$ Other Humans you control get +1/+1.
+A:AB$ ChangeZone | Cost$ 3 G W T | TgtPrompt$ Choose target Human card in your graveyard | ValidTgts$ Human.YouCtrl | Origin$ Graveyard | Destination$ Library | SpellDescription$ Put target Human card from your graveyard on top of your library.
+DeckHints:Type$Human
+Oracle:Other Human creatures you control get +1/+1.\n{3}{G}{W}, {T}: Put target Human card from your graveyard on top of your library.

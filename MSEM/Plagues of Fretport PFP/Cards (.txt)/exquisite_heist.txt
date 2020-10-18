@@ -1,0 +1,7 @@
+Name:Exquisite Heist
+ManaCost:U
+Types:Enchantment
+K:Vanishing:4
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigDraw | IsPresent$ Card.Self+counters_GE1_TIME | PresentZone$ Battlefield | PresentCompare$ EQ0 | TriggerDescription$ When the last time counter is removed from CARDNAME, draw three cards.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 3
+Oracle:Vanishing 4 (This permanent enters the battlefield with four time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhen the last time counter is removed from Exquisite Heist, draw three cards.

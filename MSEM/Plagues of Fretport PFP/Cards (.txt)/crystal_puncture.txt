@@ -1,0 +1,7 @@
+Name:Crystal Puncture
+ManaCost:2 B
+Types:Instant
+A:SP$ Sacrifice | Cost$ 2 B | ValidTgts$ Player | SacValid$ Creature | SpellDescription$ Target player sacrifices a creature.
+A:AB$ ChangeZone | Cost$ 2 G ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | Origin$ Library | Destination$ Battlefield | ChangeType$ Land.Basic | ChangeNum$ 1 | Tapped$ True | SpellDescription$ Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+Oracle:Target player sacrifices a creature.\n{2}{G}, Exile Crystal Puncture from your graveyard: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle your library.
+

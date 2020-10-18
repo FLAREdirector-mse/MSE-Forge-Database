@@ -1,0 +1,7 @@
+Name:Cult of Trinity's Fall
+ManaCost:1 BG BG
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Creature.YouCtrl+nonToken | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigToken | TriggerDescription$ Whenever a nontoken creature you control dies, create a 1/1 black and green Citizen creature token and you gain 1 life.
+SVar:TrigToken:DB$ Token | TokenScript$ bg_1_1_citizen | TokenAmount$ 1 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1
+Oracle:Whenever a nontoken creature you control dies, create a 1/1 black and green Citizen creature token and you gain 1 life.

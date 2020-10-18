@@ -1,0 +1,8 @@
+Name:Festering Waif
+ManaCost:1 B
+Types:Creature Human Citizen
+PT:1/2
+K:Persist
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigMill | TriggerDescription$ When CARDNAME enters the battlefield, each opponent mills two cards.
+SVar:TrigMill:DB$ Mill | Defined$ Opponent | NumCards$ 2
+Oracle:When Festering Waif enters the battlefield, each opponent mills two cards.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner's control with a -1/-1 counter on it.)

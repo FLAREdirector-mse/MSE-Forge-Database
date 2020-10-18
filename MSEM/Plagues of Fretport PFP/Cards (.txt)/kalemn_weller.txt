@@ -1,0 +1,13 @@
+Name:Kalemn Weller
+ManaCost:1 B B
+Types:Legendary Planeswalker Kalemn
+Loyalty:3
+A:AB$ Discard | Cost$ AddCounter<1/LOYALTY> | Defined$ You | NumCards$ 1 | Mode$ TgtChoose | RememberDiscarded$ True | SubAbility$ DBDiscard | Planeswalker$ True | SpellDescription$ Discard a card. If you do, each opponent discards a card and loses 1 life.
+A:AB$ Destroy | Cost$ SubCounter<3/LOYALTY> | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | Planeswalker$ True | SpellDescription$ Destroy target creature or planeswalker.
+A:AB$ Draw | Cost$ SubCounter<7/LOYALTY> | Defined$ You | NumCards$ X | References$ X | SubAbility$ DBLoseLife2 | Planeswalker$ True | Ultimate$ True | SpellDescription$ Draw a card for each creature card and planeswalker card in all graveyards. Target opponent loses that much life.
+SVar:DBDiscard:DB$ Discard | Defined$ Opponent | NumCards$ 1 | Mode$ TgtChoose | ConditionDefined$ Remembered | ConditionPresent$ Card | ConditionCompare$ GE1 | SubAbility$ DBLoseLife1
+SVar:DBLoseLife1:DB$ LoseLife | Defined$ Opponent | LifeAmount$ 1 | ConditionDefined$ Remembered | ConditionPresent$ Card | ConditionCompare$ GE1 | SubAbility$ DBCleanup
+SVar:DBLoseLife2:DB$ LoseLife | ValidTgts$ Opponent | TgtPrompt$ Select target opponent | LifeAmount$ X | References$ X
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$ValidGraveyard Creature,Planeswalker
+Oracle:[+1]: Discard a card. If you do, each opponent discards a card and loses 1 life.\n[-3]: Destroy target creature or planeswalker.\n[-7]: Draw a card for each creature card and planeswalker card in all graveyards. Target opponent loses that much life.

@@ -1,0 +1,8 @@
+Name:Boneweary Warrior
+ManaCost:1 U U
+Types:Creature Human Warrior
+PT:3/2
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | OptionalDecider$ TriggeredCardController | Execute$ TrigPutCounter | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, you may put a -1/-1 counter on target creature.
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ M1M1 | IsCurse$ True | CounterNum$ 1
+DeckHas:Ability$Counters
+Oracle:When Boneweary Warrior dies, you may put a -1/-1 counter on target creature.

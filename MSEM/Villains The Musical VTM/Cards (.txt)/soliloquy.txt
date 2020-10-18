@@ -1,0 +1,6 @@
+Name:Soliloquy
+ManaCost:R
+Types:Sorcery
+A:SP$ TapAll | Cost$ R | ValidTgts$ Player | TgtPrompt$ Select target player | ValidCards$ Land | SubAbility$ DBDrainMana | SpellDescription$ Tap all lands target player controls and that player loses all unspent mana.
+SVar:DBDrainMana:DB$ DrainMana | Defined$ Targeted
+Oracle:Tap all lands target player controls and that player loses all unspent mana.

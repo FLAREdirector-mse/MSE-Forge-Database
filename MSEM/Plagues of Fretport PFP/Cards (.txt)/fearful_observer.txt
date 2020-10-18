@@ -1,0 +1,7 @@
+Name:Fearful Observer
+ManaCost:1 G G
+Types:Creature Human Citizen
+PT:0/2
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigDig | TriggerDescription$ At the beginning of your upkeep, reveal the top card of your library. If you reveal a creature card this way, put it into your hand.
+SVar:DBDig:DB$ Dig | DigNum$ 1 | Reveal$ True | ChangeNum$ All | ChangeValid$ Creature | LibraryPosition2$ 0
+Oracle:At the beginning of your upkeep, reveal the top card of your library. If you reveal a creature card this way, put it into your hand.

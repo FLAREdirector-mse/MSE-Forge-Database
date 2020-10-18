@@ -1,0 +1,6 @@
+Name:Dockyard Stalker
+ManaCost:2 B
+Types:Creature Human Rogue
+PT:3/2
+A:AB$ LoseLife | Cost$ B SubCounter<1/TIME/Permanent/permanent you control> | ValidTgts$ Player | LifeAmount$ 1 | TgtPrompt$ Select target player | SpellDescription$ Target player loses 1 life.
+Oracle:{B}, Remove a time counter from a permanent you control: Target player loses 1 life.

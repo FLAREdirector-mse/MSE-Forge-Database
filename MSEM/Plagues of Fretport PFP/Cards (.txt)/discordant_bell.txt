@@ -1,0 +1,6 @@
+Name:Discordant Bell
+ManaCost:2
+Types:Artifact
+A:AB$ Draw | Cost$ 1 | Defined$ You | Execute$ DBChange | SpellDescription$ Draw a card, then put a card from your hand on top of your library.
+SVar:DBChange:DB$ ChangeZone | Origin$ Hand | Destination$ Library | ChangeNum$ 1 | Mandatory$ True
+Oracle:Draw a card, then put a card from your hand on top of your library.

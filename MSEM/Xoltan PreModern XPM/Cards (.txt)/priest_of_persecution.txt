@@ -1,0 +1,6 @@
+Name:Priest of Persecution
+ManaCost:W W
+Types:Creature Human Cleric
+PT:2/3
+S:Mode$ CantBeCast | ValidCard$ Card.nonCreature+cmcEQ1 | Description$ Players can't cast spells with converted mana cost 1.
+Oracle:Players can't cast spells with converted mana cost 1.

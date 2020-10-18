@@ -1,0 +1,10 @@
+Name:Erollin, Eccentric Collector
+ManaCost:2 R G
+Types:Legendary Creature Frog Noble
+PT:2/2
+S:Mode$ Continuous | Affected$ Artifact.YouCtrl | AddAbility$ AnyMana | Description$ Artifacts you control have "{T}: Add one mana of any color."
+SVar:AnyMana:AB$ Mana | Cost$ T | Produced$ Any | Amount$ 1 | SpellDescription$ Add one mana of any color.
+A:AB$ Token | Cost$ 2 R G | TokenScript$ g_3_2_crocodile_trample | TokenAmount$ 1 | RememberTokens$ True | SubAbility$ DBPump | SpellDescription$ Create a 3/2 red and green Crocodile creature token with trample. It gains haste until end of turn.
+SVar:DBPump:DB$ Pump | Defined$ Remembered | KW$ Haste | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Artifacts you control have "{T}: Add one mana of any color."\n{2}{R}{G}: Create a 3/2 green Crocodile creature token with trample. It gains haste until end of turn.
