@@ -1,0 +1,6 @@
+Name:Lightless Hedron
+ManaCost:2
+Types:Artifact
+S:Mode$ RaiseCost | ValidCard$ Card | Type$ NonManaAbility | Amount$ 1 | Description$ Activated abilities cost {1} more to activate unless they're mana abilities.
+AI:RemoveDeck:Random
+Oracle:Activated abilities cost {1} more to activate unless they're mana abilities.

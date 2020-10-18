@@ -1,0 +1,5 @@
+Name:Titan Snare
+ManaCost:2
+Types:Artifact
+S:Mode$ CantBeCast | ValidCard$ Card.cmcGE5 | Description$ Spells with converted mana cost 5 or greater can't be cast.
+Oracle:Spells with converted mana cost 5 or greater can't be cast.

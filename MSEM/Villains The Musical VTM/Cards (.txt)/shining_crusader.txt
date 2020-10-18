@@ -1,0 +1,7 @@
+Name:Shining Crusader
+ManaCost:3
+Types:Artifact Creature Construct Knight
+PT:3/2
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Protection from all colors | CheckSVar$ X | SVarCompare$ EQ0 | References$ X | Description$ CARDNAME has protection from all colors as long as you control no colored permanents.
+SVar:X:Count$Valid Permanent.nonColorless+YouCtrl
+Oracle:Shining Crusader has protection from all colors as long as you control no colored permanents.

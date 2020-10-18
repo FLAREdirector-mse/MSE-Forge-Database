@@ -1,0 +1,9 @@
+Name:Glistening Chalice
+ManaCost:2
+Types:Artifact
+A:AB$ Charm | Cost$ T | Choices$ DBReduce,DBRaise
+SVar:DBReduce:DB$ Effect | Name$ Glistening Chalice Effect | StaticAbilities$ STReduce | SpellDescription$ Artifact spells cost {1} less to cast this turn.
+SVar:DBRaise:DB$ Effect | Name$ Glistening Chalice Effect | StaticAbilities$ STRaise | SpellDescription$ Nonartifact spells cost {1} more to cast this turn.
+SVar:STReduce:Mode$ ReduceCost | ValidCard$ Card.Artifact | Type$ Spell | Amount$ 1 | EffectZone$ Command | Description$ Artifact spells cost {1} less to cast.
+SVar:STRaise:Mode$ RaiseCost | ValidCard$ Card.nonArtifact | Type$ Spell | Amount$ 1 | EffectZone$ Command | Description$ Nonartifact spells cost {1} more to cast.
+Oracle:{T}: Choose one —\n• Artifact spells cost {1} less to cast this turn.\n• Nonartifact spells cost {1} more to cast this turn.
