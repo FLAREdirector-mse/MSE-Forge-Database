@@ -1,0 +1,6 @@
+Name:Disseminate
+ManaCost:W
+Types:Instant
+K:Flashback:2 W
+A:SP$ ChangeZone | Cost$ W | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Exile | UnlessCost$ 1 | UnlessPayer$ TargetedController | SpellDescription$ Exile target creature unless its controller pays {1}.
+Oracle:Exile target creature unless its controller pays {1}.\nFlashback {2}{W} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
