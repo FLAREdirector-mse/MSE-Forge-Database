@@ -1,0 +1,6 @@
+Name:Zoulev Offering
+ManaCost:1 U
+Types:Instant
+A:SP$ Draw | Cost$ 1 U Sac<1/Artifact> | NumCards$ 3 | SpellDescription$ Draw three cards.
+SVar:AIPreference:SacCost$Artifact.token,Artifact.cmcLE2+inZoneBattlefield
+Oracle:As an additional cost to cast this spell, sacrifice an artifact.\nDraw three cards.
