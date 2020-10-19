@@ -1,0 +1,10 @@
+Name:Ash
+ManaCost:no cost
+Types:Enchantment
+Colors:red
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a noncreature spell, put a feather counter on CARDNAME.
+SVar:TrigPutCounter:DB$PutCounter | CounterType$ FEATHER | CounterNum$ 1 | SubAbility$ DBSac
+SVar:DBSac:DB$ Sacrifice | SacValid$ Self | RememberSacrificed$ True | ConditionPresent$ Card.Self+counters_GE3_FEATHER | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | ChangeType$ Card.namedWhisperwoods Phoenix+YouOwn | ChangeNum$ 1 | Origin$ Graveyard | Destination$ Battlefield | Hidden$ True | ConditionDefined$ Remembered | ConditionPresent$ Card | SubAbility$ DBCleanup | SpellDescription$ Return a card named Whisperwoods Phoenix from your graveyard to the battlefield.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Whenever you cast a noncreature spell, put a feather counter on this. Then if there are three or more feather counters on it, sacrifice it and return a card named Whisperwoods Phoenix from your graveyard to the battlefield.
