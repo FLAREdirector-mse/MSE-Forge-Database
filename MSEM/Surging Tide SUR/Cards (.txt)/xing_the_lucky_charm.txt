@@ -1,0 +1,10 @@
+Name:Xing, the Lucky Charm
+ManaCost:5 U R
+Types:Legendary Creature Human Wizard
+PT:5/5
+K:Flash
+K:CARDNAME can't be countered.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw three cards.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 3
+A:AB$ ChangeZone | Cost$ U R Discard<3/Card> | Origin$ Graveyard | Destination$ Hand | ActivationZone$ Graveyard | SpellDescription$ Return CARDNAME from your graveyard to your hand.
+Oracle:Flash\nThis spell can't be countered.\nWhen Xing, the Lucky Charm enters the battlefield, draw three cards.\n{U}{R}, Discard three cards: Return Xing from your graveyard to your hand.
