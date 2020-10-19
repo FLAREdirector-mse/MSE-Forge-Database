@@ -1,0 +1,6 @@
+Name:Veil's Recovery
+ManaCost:B G
+Types:Instant
+A:SP$ Destroy | Cost$ B G | ValidTgts$ Permanent.MonoColor | TgtPrompt$ Select target monocolored permanent | SubAbility$ DBScry | SpellDescription$ Destroy target monocolored permanent. Its controller may scry 2.
+SVar:DBScry:DB$ Scry | Defined$ TargetedController | ScryNum$ 2 | Optional$ True
+Oracle:Destroy target monocolored permanent. Its controller may scry 2.

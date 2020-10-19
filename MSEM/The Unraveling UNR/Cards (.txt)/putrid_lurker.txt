@@ -1,0 +1,10 @@
+Name:Putrid Lurker
+ManaCost:2 B
+Types:Creature Horror
+PT:3/1
+K:Deathtouch
+K:CARDNAME can't block.
+T:Mode$ Discarded | ValidCard$ Card.Self | Execute$ TrigReturn | TriggerDescription$ Whenever you discard CARDNAME or another card, you may pay {B}. If you do, return Putrid Lurker from your graveyard to the battlefield.
+T:Mode$ Discarded | ValidCard$ Card.Other+YouCtrl | TriggerZones$ Graveyard | Execute$ TrigReturn | Secondary$ True | TriggerDescription$ Whenever you discard CARDNAME or another card, you may pay {B}. If you do, return Putrid Lurker from your graveyard to the battlefield.
+SVar:TrigReturn:AB$ ChangeZone | Cost$ B | Defined$ Self | Origin$ Graveyard | Destination$ Battlefield
+Oracle:Deathtouch\nPutrid Lurker can't block.\nWhenever you discard Putrid Lurker or another card, you may pay {B}. If you do, return Putrid Lurker from your graveyard to the battlefield.

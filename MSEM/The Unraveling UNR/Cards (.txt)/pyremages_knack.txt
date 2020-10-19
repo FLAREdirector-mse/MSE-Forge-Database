@@ -1,0 +1,7 @@
+Name:Pyremage's Knack
+ManaCost:1 R
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDamage | TriggerDescription$ When CARDNAME enters the battlefield or leaves the battlefield, it deals 2 damage to any target.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Execute$ TrigDamage | Secondary$ True | TriggerDescription$ When CARDNAME enters the battlefield or leaves the battlefield, it deals 2 damage to any target.
+SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2
+Oracle:When Pyremage's Knack enters the battlefield or leaves the battlefield, it deals 2 damage to any target.

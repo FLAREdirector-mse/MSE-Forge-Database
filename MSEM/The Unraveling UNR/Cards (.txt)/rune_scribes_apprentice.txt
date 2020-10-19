@@ -1,0 +1,7 @@
+Name:Rune-Scribe's Apprentice
+ManaCost:U
+Types:Creature Human Wizard
+PT:1/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigMill | TriggerDescription$ When CARDNAME enters the battlefield, target player mills four cards.
+SVar:TrigMill:DB$ Mill | NumCards$ 4 | ValidTgts$ Player | TgtPrompt$ Choose a player
+Oracle:When Rune-Scribe's Apprentice enters the battlefield, target player mills four cards.

@@ -1,0 +1,7 @@
+Name:Powercell Engineer
+ManaCost:1 G
+Types:Creature Human Artificer
+PT:1/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a tapped colorless Powercell artifact token with "{T}: Add {C}."
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_powercell | TokenAmount$ 1 | TokenTapped$ True
+Oracle:When Powercell Engineer enters the battlefield, create a tapped colorless Powercell artifact token with "{T}: Add {C}."

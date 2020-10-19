@@ -1,0 +1,11 @@
+Name:Featherfall Ascetic
+ManaCost:1 WU
+Types:Creature Human Monk
+PT:0/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 white and blue Bird creature token with flying.
+SVar:TrigToken:DB$ Token | TokenScript$ wu_1_1_bird_flying | TokenAmount$ 1
+T:Mode$ ChangesZone | ValidCard$ Aura.nonToken+AttachedTo Card.Self | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigRepeat | TriggerDescription$ Whenever a nontoken Aura enters the battlefield enchanting CARDNAME, for each other creature you control, you may create a token that's a copy of that Aura enchanting that creature.
+SVar:TrigRepeat:DB$ RepeatEach | RepeatCards$ Creature.Other+YouCtrl | RepeatSubAbility$ DBCopy | UseImprinted$ True | SubAbility$ DBCleanup
+SVar:DBCopy:DB$ CopyPermanent | Optional$ True | Defined$ TriggeredCard | RememberTokens$ True | AttachedTo$ Imprinted
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearImprinted$ True
+Oracle:When Featherfall Ascetic enters the battlefield, create a 1/1 white and blue Bird creature token with flying.\nWhenever a nontoken Aura enters the battlefield enchanting Featherfall Ascetic, for each other creature you control, you may create a token that's a copy of that Aura enchanting that creature.

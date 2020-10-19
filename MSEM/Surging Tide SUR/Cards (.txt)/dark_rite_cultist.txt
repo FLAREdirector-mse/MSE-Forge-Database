@@ -1,0 +1,6 @@
+Name:Dark Rite Cultist
+ManaCost:B
+Types:Creature Human Wizard
+PT:0/1
+A:AB$ Token | Cost$ B T PayLife<1> Discard<1/Card> Sac<1/CARDNAME> Sac<1/Creature.Other/another creature> | TokenScript$ b_5_5_demon_flying | TokenAmount$ 1 | TokenOwner$ You | SpellDescription$ Create a 5/5 black Demon creature token with flying.
+Oracle:{B}, {T}, Pay 1 life, Discard a card, Sacrifice Dark Rite Cultist and another creature: Create a 5/5 black Demon creature token with flying.

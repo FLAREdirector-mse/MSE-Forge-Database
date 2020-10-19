@@ -1,0 +1,6 @@
+Name:Resonating Force
+ManaCost:1 U
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 U | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBCopy | SpellDescription$ Return target nonland permanent to its owner's hand. Then you may pay {U}{U}. If you do, copy Resonating Force and you may choose new targets for the copy.
+SVar:DBCopy:DB$ CopySpellAbility | Defined$ Parent | Controller$ You | UnlessCost$ U U | UnlessPayer$ You | UnlessSwitched$ True
+Oracle:Return target nonland permanent to its owner's hand. Then you may pay {U}{U}. If you do, copy Resonating Force and you may choose new targets for the copy.

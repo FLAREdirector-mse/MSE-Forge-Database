@@ -1,0 +1,7 @@
+Name:Colossal Achievement
+ManaCost:8
+Types:Artifact Creature Golem
+PT:8/8
+K:Trample
+K:CARDNAME can't be sacrificed.
+Oracle:Trample\nColossal Achievement can't be sacrificed.

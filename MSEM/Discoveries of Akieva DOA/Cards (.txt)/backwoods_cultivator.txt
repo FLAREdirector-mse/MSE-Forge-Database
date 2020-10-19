@@ -1,0 +1,11 @@
+Name:Backwoods Cultivator
+ManaCost:1 G
+Types:Creature Human Druid
+PT:1/1
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters the battlefield, put a +1/+1 counter on target creature you control.
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigProliferate | TriggerDescription$ When CARDNAME dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
+SVar:TrigProliferate:DB$ Proliferate
+DeckHas:Ability$Proliferate
+DeckHas:Ability$Counters
+Oracle:When Backwoods Cultivator enters the battlefield, put a +1/+1 counter on target creature you control.\nWhen Backwoods Cultivator dies, proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)
