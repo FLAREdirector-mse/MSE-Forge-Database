@@ -1,0 +1,9 @@
+Name:Facsimile of Divinity
+ManaCost:7
+Types:Artifact Creature Angel
+PT:5/6
+K:Flying
+K:Lifelink
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDealDamage | TriggerDescription$ When CARDNAME enters the battlefield, it deals 4 damage to any target.
+SVar:TrigDealDamage:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 4
+Oracle:Flying, lifelink\nWhen Facsimile of Divinity enters the battlefield, it deals 4 damage to any target.

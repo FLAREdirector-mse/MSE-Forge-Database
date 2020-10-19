@@ -1,0 +1,8 @@
+Name:Channeler of the Veil
+ManaCost:B
+Types:Creature Human Shaman
+PT:1/1
+K:Menace
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigLoseLife | TriggerDescription$ Whenever CARDNAME attacks, each player loses 1 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player | LifeAmount$ 1
+Oracle:Menace\nWhenever Channeler of the Veil attacks, each player loses 1 life.

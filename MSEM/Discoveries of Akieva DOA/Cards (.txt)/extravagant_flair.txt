@@ -1,0 +1,9 @@
+Name:Extravagant Flair
+ManaCost:1 W U
+Types:Instant
+A:SP$ Charm | Cost$ 1 W U | MinCharmNum$ 1 | CharmNum$ 2 | Choices$ DBCounter,DBChange
+SVar:DBCounter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SpellDescription$ Counter target spell.
+SVar:DBChange:DB$ ChangeZone | ValidTgts$ Permanent.YouCtrl | Origin$ Battlefield | Destination$ Exile | TgtPrompt$ Select target permanent you control | RememberChanged$ True | SubAbility$ DBReturn | SpellDescription$ Exile target permanent you control, then return it to the battlefield under your control.
+SVar:DBReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ All | Destination$ Battlefield | GainControl$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Choose one or both —\n• Counter target spell.\n• Exile target permanent you control, then return it to the battlefield under your control.

@@ -1,0 +1,14 @@
+Name:Kati Evalin, World Wanderer
+ManaCost:1 G G
+Types:Legendary Planeswalker Kati
+Loyalty:3
+R:Event$ AddCounter | ActiveZones$ Battlefield | ValidCard$ Permanent.Other+YouCtrl | ReplaceWith$ AddOneMoreCounters | Description$ If one or more counters would be put on another permanent you control, put that many counters plus one on that permanent instead.
+SVar:AddOneMoreCounters:DB$ ReplaceEffect | VarName$ CounterNum | VarValue$ X | References$ X
+SVar:X:ReplaceCount$CounterNum/Plus.1
+A:AB$ Effect | Cost$ AddCounter<1/LOYALTY> | Name$ Kati Evalin Effect | Planeswalker$ True | ValidTgts$ Creature.YouCtrl | TargetMin$ 0 | TargetMax$ 1 | TgtPrompt$ Select up to one target creature you control | Triggers$ TrigDealDamage,RemoveEffect | SVars$ TrigDraw,ExileSelf | RememberObjects$ Targeted | SpellDescription$ Choose up to one target creature you control. When that creature deals combat damage to a player this turn, draw a card.
+SVar:TrigDealDamage:Mode$ DamageDone | ValidCard$ Card.IsRemembered | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigDraw | TriggerDescription$ When the chosen creature deals combat damage to a player this turn, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+SVar:RemoveEffect:Mode$ ChangesZone | TriggerZones$ Command | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.IsRemembered | Execute$ ExileSelf | Static$ True
+SVar:ExileSelf:DB$ ChangeZone | Defined$ Self | Origin$ Command | Destination$ Exile
+A:AB$ PutCounter | Cost$ SubCounter<2/LOYALTY> | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 3 | TgtPrompt$ Select up to three target creatures | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Choose up to three target creatures. Put a +1/+1 counter on each of them.
+Oracle:If one or more counters would be put on another permanent you control, put that many counters plus one on that permanent instead.\n[+1]: Choose up to one target creature you control. When that creature deals combat damage to a player this turn, draw a card.\n[–2]: Choose up to three target creatures. Put a +1/+1 counter on each of them.

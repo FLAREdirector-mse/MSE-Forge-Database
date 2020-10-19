@@ -1,0 +1,8 @@
+Name:Hub of Innovation
+ManaCost:2
+Types:Artifact
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Metalcraft$ True | Execute$ ABDraw | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, if you control three or more artifacts, you may pay {1}. If you do, draw a card.
+SVar:ABDraw:AB$ Draw | Cost$ 1 | NumCards$ 1
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+Oracle:Hub of Innovation enters the battlefield tapped.\nAt the beginning of your upkeep, if you control three or more artifacts, you may pay {1}. If you do, draw a card.\n{T}: Add {C}.

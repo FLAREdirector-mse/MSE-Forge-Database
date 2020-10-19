@@ -1,0 +1,7 @@
+Name:Unity Spheres
+ManaCost:4
+Types:Artifact
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 1/1 colorless Construct artifact creature tokens.
+SVar:TrigToken:DB$ Token | TokenScript$ c_1_1_a_construct | TokenAmount$ 2
+A:AB$ Mana | Cost$ tapXType<2/Creature> | Produced$ Any | Amount$ 2 | SpellDescription$ Add two mana of any one color.
+Oracle:When Unity Spheres enters the battlefield, create two 1/1 colorless Construct artifact creature tokens.\nTap two untapped creatures you control: Add two mana of any one color.

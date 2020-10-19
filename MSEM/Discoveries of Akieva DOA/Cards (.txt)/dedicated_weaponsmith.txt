@@ -1,0 +1,9 @@
+Name:Dedicated Weaponsmith
+ManaCost:1 R
+Types:Creature Human Artificer
+PT:1/1
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_LE2_P1P1 | Execute$ TrigPutCounter | TriggerDescription$ Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+T:Mode$ AbilityCast | ValidActivatingPlayer$ Player | ValidCard$ Artifact.inZoneBattlefield,Creature.inZoneBattlefield,Land.inZoneBattlefield | TriggerZones$ Battlefield | Execute$ TrigDmg | TriggerDescription$ Whenever a player activates an ability of an artifact, creature, or land, if it isn't a mana ability, CARDNAME deals 2 damage to that player.
+SVar:TrigDmg:DB$ DealDamage | NumDmg$ 2 | Defined$ TriggeredActivator
+Oracle:Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhenever a player activates an ability of an artifact, creature, or land, if it isn't a mana ability, Dedicated Weaponsmith deals 2 damage to that player.

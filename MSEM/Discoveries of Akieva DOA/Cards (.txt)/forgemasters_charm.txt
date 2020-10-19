@@ -1,0 +1,9 @@
+Name:Forgemaster's Charm
+ManaCost:X R R
+Types:Sorcery
+A:SP$ Charm | Cost$ X R R | Choices$ DBDmg,DBDestroy,DBToken | References$ X
+SVar:DBDmg:DB$ DealDamage | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDmg$ X | References$ X | SpellDescription$ CARDNAME deals X damage to target creature.
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Artifact | TgtPrompt$ Select X target artifacts | TargetMin$ 0 | TargetMax$ X | References$ X | SpellDescription$ Destroy X target artifacts.
+SVar:DBToken:DB$ Token | TokenScript$ c_x_x_a_juggernaut | TokenAmount$ 1 | TokenPower$ X | TokenToughness$ X | References$ X | SpellDescription$ Create an X/X colorless Juggernaut artifact creature token.
+SVar:X:Count$xPaid
+Oracle:Choose one —\n• Forgemaster's Charm deals X damage to target creature.\n• Destroy X target artifacts.\n• Create an X/X colorless Juggernaut artifact creature token.

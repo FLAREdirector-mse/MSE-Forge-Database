@@ -1,0 +1,6 @@
+Name:Glimpse the Veil
+ManaCost:1 B
+Types:Sorcery
+A:SP$ Sacrifice | Cost$ 1 B | ValidTgts$ Opponent | SacValid$ Creature | SacMessage$ creature | SubAbility$ DBPutCounter | SpellDescription$ Target opponent sacrifices a creature. Put a +1/+1 counter on up to one target creature you control.
+SVar:DBPutCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1 | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select up to one target creature you control | TargetMin$ 0 | TargetMax$ 1
+Oracle:Target opponent sacrifices a creature. Put a +1/+1 counter on up to one target creature you control.

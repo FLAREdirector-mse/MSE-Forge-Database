@@ -1,0 +1,6 @@
+Name:Brilliant Cityscape
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ 1 T | Produced$ B R | SpellDescription$ Add {B}{R}.
+Oracle:{T}: Add {C}.\n{1}, {T}: Add {B}{R}.

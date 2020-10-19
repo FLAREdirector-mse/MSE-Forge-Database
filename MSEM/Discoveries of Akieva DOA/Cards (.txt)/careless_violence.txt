@@ -1,0 +1,6 @@
+Name:Careless Violence
+ManaCost:R R
+Types:Sorcery
+A:SP$ DamageAll | Cost$ R R | ValidCards$ Creature | NumDmg$ 2 | RememberDamaged$ True | ReplaceDyingDefined$ Remembered | SubAbility$ DBCleanup | SpellDescription$ CARDNAME deals 2 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Careless Violence deals 2 damage to each creature. If a creature dealt damage this way would die this turn, exile it instead.
