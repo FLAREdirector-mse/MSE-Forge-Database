@@ -1,0 +1,9 @@
+Name:Sadistic Indulgence
+ManaCost:B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create three 1/1 white Human creature tokens with "This creature can't attack or block."
+SVar:TrigToken:DB$ Token | TokenScript$ w_1_1_human_pacifism | TokenAmount$ 3
+A:AB$ Destroy | Cost$ PayLife<1> | ValidTgts$ Permanent.YouCtrl | TgtPrompt$ Select target permanent you control | SpellDescription$ Destroy target permanent you control.
+AI:RemoveDeck:Random
+DeckHas:Ability$Sacrifice
+Oracle:When Sadistic Indulgence enters the battlefield, create three 1/1 white Human creature tokens with "This creature can't attack or block."\nPay 1 life: Destroy target permanent you control.

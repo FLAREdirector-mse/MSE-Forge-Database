@@ -1,0 +1,5 @@
+Name:Seedcall
+ManaCost:1 G
+Types:Instant
+A:SP$ Token | Cost$ 1 G | TokenScript$ g_0_1_plant | TokenAmount$ 3 | SpellDescription$ Create three 0/1 green Plant creature tokens.
+Oracle:Create three 0/1 green Plant creature tokens.

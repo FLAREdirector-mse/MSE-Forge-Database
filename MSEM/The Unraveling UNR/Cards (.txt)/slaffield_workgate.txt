@@ -1,0 +1,8 @@
+Name:Slaffield Workgate
+ManaCost:W
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME or another enchantment enters the battlefield under your control, create a 0/2 white Ox creature token.
+T:Mode$ ChangesZone | ValidCard$ Enchantment.Other+YouCtrl | Destination$ Battlefield | TriggerZones$ Battlefield | Secondary$ True | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME or another enchantment enters the battlefield under your control, create a 0/2 white Ox creature token.
+SVar:TrigToken:DB$ Token | TokenScript$ w_0_2_ox | TokenAmount$ 1
+A:AB$ ChangeZone | Cost$ 3 W | ValidTgts$ Enchantment.Other+YouCtrl | TgtPrompt$ Select another target enchantment you control | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return another target enchantment you control to its owner's hand.
+Oracle:Whenever Slaffield Workgate or another enchantment enters the battlefield under your control, create a 0/2 white Ox creature token.\n{3}{W}: Return another target enchantment you control to its owner's hand.

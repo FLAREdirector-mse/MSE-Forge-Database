@@ -1,0 +1,8 @@
+Name:Halskrow Street Scavenger
+ManaCost:2 G
+Types:Creature Human 
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | CheckSVar$ X | SVarCompare$ GE1 | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, if a creature died under your control this turn, create a 2/2 green Wolf creature token.
+SVar:TrigToken:DB$ Token | TokenScript$ g_2_2_wolf | TokenAmount$ 1
+SVar:X:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature.YouCtrl 
+Oracle:When Halskrow Street Scavenger enters the battlefield, if a creature died under your control this turn, create a 2/2 green Wolf creature token.

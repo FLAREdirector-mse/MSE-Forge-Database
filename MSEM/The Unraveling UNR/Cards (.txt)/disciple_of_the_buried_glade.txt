@@ -1,0 +1,9 @@
+Name:Disciple of the Buried Glade
+ManaCost:1 G
+Types:Creature Human Scout 
+PT:1/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Any | Execute$ TrigToken | TriggerDescription$ When CARDNAME leaves the battlefield, create a 3/3 green Elemental creature token.
+SVar:TrigToken:DB$ Token | TokenScript$ g_3_3_elemental | TokenAmount$ 1
+SVar:SacMe:2
+DeckHas:Ability$Token
+Oracle:When Disciple of the Buried Glade leaves the battlefield, create a 3/3 green Elemental creature token.

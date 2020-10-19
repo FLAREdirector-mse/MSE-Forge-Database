@@ -1,0 +1,7 @@
+Name:Buried Glade Historian
+ManaCost:G
+Types:Creature Human Druid
+PT:1/2
+A:AB$ Token | Cost$ T Sac<1/Creature> | TokenAmount$ 1 | TokenScript$ c_a_clue_draw | TokenOwner$ You | LegacyImage$ c a clue draw unr | SpellDescription$ Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+A:AB$ Token | Cost$ T Sac<1/Clue> | TokenAmount$ 1 | TokenScript$ g_3_3_elemental | TokenOwner$ You | LegacyImage$ g 3 3 elemental unr | SpellDescription$ Create a 3/3 green Elemental creature token.
+Oracle:{T}, Sacrifice a creature: Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.").\n{T}, Sacrifice a Clue: Create a 3/3 green Elemental creature token.

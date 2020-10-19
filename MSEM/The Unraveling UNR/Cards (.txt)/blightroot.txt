@@ -1,0 +1,8 @@
+Name:Blightroot
+ManaCost:1 BG BG
+Types:Creature Plant Horror 
+PT:3/3
+A:AB$ PutCounter | Cost$ Sac<1/Creature> | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on CARDNAME.
+A:AB$ Pump | Cost$ Sac<1/Land> | Defined$ Self | KW$ Indestructible | SpellDescription$ CARDNAME gains indestructible until end of turn.
+SVar:AIPreference:SacCost$Land,Creature.Other
+Oracle:Sacrifice a creature: Put a +1/+1 counter on Blightroot.\nSacrifice a land: Blightroot gains indestructible until end of turn.
