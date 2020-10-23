@@ -1,7 +1,12 @@
-# TODO
 Name:Archive Guardian
 ManaCost:2 B G
 Types:Creature Elemental
 PT:2/2
-
-Oracle:When Archive Guardian enters the battlefield, return target card from your graveyard to your hand.\nConjure {1}{B}{G}
+SVar:AltCost:Cost$ 1 B G | ActivationZone$ Graveyard | Description$ Conjure {1}{B}{G} (You may cast this creature from your graveyard for its conjure cost. If you do, exile it when it enters the battlefield or if it would leave the battlefield.)
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ ConjureExile | Secondary$ True | CheckSVar$ AltCostPaid | SVarCompare$ GE1 | TriggerDescription$ Exile it when it enters the battlefield or if it would leave the battlefield.
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Battlefield | ExcludeDestination$ Exile | ReplaceWith$ ConjureExile | CheckSVar$ AltCostPaid | SVarCompare$ GE1
+SVar:ConjureExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+SVar:AltCostPaid:Count$AltCost.1.0
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigReturn | TriggerDescription$ When CARDNAME enters the battlefield, return target card from your graveyard to your hand.
+SVar:TrigReturn:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Card.YouCtrl
+Oracle:When Archive Guardian enters the battlefield, return target card from your graveyard to your hand.\nConjure {1}{B}{G} (You may cast this creature from your graveyard for its archive cost. If you do, exile it when it enters the battlefield or if it would leave the battlefield.)

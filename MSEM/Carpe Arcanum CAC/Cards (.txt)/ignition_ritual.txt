@@ -1,0 +1,7 @@
+Name:Ignition Ritual
+ManaCost:1 B R
+Types:Sorcery
+A:SP$ DamageAll | Cost$ 1 B R PayLife<X> | ValidCards$ Creature,Planeswalker | NumDmg$ ChosenX | References$ X | SpellDescription$ CARDNAME deals X damage to each creature and each planeswalker.
+SVar:X:XChoice
+AI:RemoveDeck:All
+Oracle:As an additional cost to cast this spell, pay X life.\nIgnition Ritual deals X damage to each creature and each planeswalker.

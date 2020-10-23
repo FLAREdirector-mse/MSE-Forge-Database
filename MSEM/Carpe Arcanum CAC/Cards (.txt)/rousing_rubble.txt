@@ -1,0 +1,8 @@
+Name:Rousing Rubble
+ManaCost:no cost
+Types:Land Mountain Animus
+PT:2/3
+K:CARDNAME enters the battlefield tapped.
+K:Double Strike
+A:AB$ Animate | Cost$ 2 R R | Defined$ Self | Types$ Creature | SpellDescription$ CARDNAME becomes a creature in addition to its other types until end of turn.
+Oracle:({T}: Add {R}.)\nRousing Rubble enters the battlefield tapped.\nRousing Rubble\n{2}{R}{R}: Rousing Rubble becomes a creature in addition to its other types until end of turn.\n[2/3]

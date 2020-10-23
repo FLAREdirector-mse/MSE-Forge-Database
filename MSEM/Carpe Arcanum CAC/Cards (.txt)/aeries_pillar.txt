@@ -1,0 +1,8 @@
+Name:Aerie's Pillar
+ManaCost:no cost
+Types:Land Island Animus
+PT:3/3
+K:CARDNAME enters the battlefield tapped.
+K:Flying
+A:AB$ Animate | Cost$ 2 U U | Defined$ Self | Types$ Creature | SpellDescription$ CARDNAME becomes a creature in addition to its other types until end of turn.
+Oracle:({T}: Add {U}.)\nAerie's Pillar enters the battlefield tapped.\nFlying\n{2}{U}{U}: Aerie's Pillar becomes a creature in addition to its other types until end of turn.\n[3/3]
