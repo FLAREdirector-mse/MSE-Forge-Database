@@ -1,0 +1,7 @@
+Name:Lone Survivor
+ManaCost:1 G W
+Types:Creature Human Scout 
+PT:3/3
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 2 | AddToughness$ 2 | AddStaticAbility$ STRaiseCost | IsPresent$ Human.Other+YouCtrl | PresentCompare$ EQ0 | Description$ As long as you control no other Humans, CARDNAME gets +2/+2 and has "Noncreature spells cost {1} more to cast."
+SVar:STRaiseCost:Mode$ RaiseCost | ValidCard$ Card.nonCreature | Type$ Spell | Amount$ 1 | Description$ Noncreature spells cost {1} more to cast.
+Oracle:As long as you control no other Humans, Lone Survivor gets +2/+2 and has "Noncreature spells cost {1} more to cast."

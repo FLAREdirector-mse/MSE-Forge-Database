@@ -1,0 +1,6 @@
+Name:Out-of-Body Experience
+ManaCost:W
+Types:Instant
+A:SP$ ChangeZone | Cost$ W | ValidTgts$ Creature | Origin$ Battlefield | Destination$ Exile | TgtPrompt$ Select target creature | SubAbility$ DBToken | SpellDescription$ Exile target creature. Its controller creates a 1/1 blue Elemental creature token with flying.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ u_1_1_elemental_flying | TokenOwner$ TargetedController
+Oracle:Exile target creature. Its controller creates a 1/1 blue Elemental creature token with flying.

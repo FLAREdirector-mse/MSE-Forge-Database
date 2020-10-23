@@ -1,0 +1,7 @@
+Name:Planeswalker's Insight
+ManaCost:3 U
+Types:Instant
+A:SP$ Draw | Cost$ 3 U | Defined$ You | NumCards$ X | References$ X | SpellDescription$ Draw two cards. If three or more colors of mana were spent to cast CARDNAME, draw three cards instead.
+SVar:X:Count$Compare Y GE3.3.2
+SVar:Y:Count$Converge
+Oracle:Draw two cards. If three or more colors of mana were spent to cast Planeswalker's Insight, draw three cards instead.
