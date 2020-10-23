@@ -1,0 +1,14 @@
+Name:Recall Forgotten Eons
+ManaCost:1 G U
+Types:Sorcery Revelation
+PT:5/6
+A:SP$ Effect | Cost$ 1 G U | Name$ Recall Forgotten Eons Effect | StaticAbilities$ Exploration | AILogic$ Always | SubAbility$ DBDraw1 | SpellDescription$ Draw two cards. You may play an additional land this turn.
+A:SP$ Effect | Cost$ 5 G U | ActivationZone$ Graveyard | Name$ Recall Forgotten Eons Effect | StaticAbilities$ Exploration | AILogic$ Always | SubAbility$ DBDraw2 | PrecostDesc$ Coalesce | CostDesc$ {5}{G}{U} | SpellDescription$ (You may cast this from your graveyard for {5}{G}{U}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
+SVar:Exploration:Mode$ Continuous | Affected$ You | AdjustLandPlays$ 1 | EffectZone$ Command | Description$ You may play an additional land this turn.
+SVar:DBDraw1:DB$ Draw | Defined$ You | NumCards$ 2
+SVar:DBDraw2:DB$ Draw | Defined$ You | NumCards$ 2 | SubAbility$ Coalesce
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
+SVar:Coalesce:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile | OverwriteTypes$ True | Types$ Creature,Horror | Permanent$ True | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+Oracle:Draw two cards. You may play an additional land this turn.\nCoalesce {5}{G}{U} (You may cast this from your graveyard for {5}{G}{G}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)

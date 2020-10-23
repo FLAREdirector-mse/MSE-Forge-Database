@@ -1,0 +1,12 @@
+Name:Unorthodox Methods
+ManaCost:2 B
+Types:Enchantment Project
+T:Mode$ ChangesZone | ValidCard$ Creature | Origin$ Battlefield | Destination$ Graveyard | TriggerZones$ Battlefield | Execute$ TrigPutCounter | OptionalDecider$ You | TriggerDescription$ Whenever a creature dies, you may put a level counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ LEVEL | CounterNum$ 1
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE2_LEVEL+counters_LE6_LEVEL | Execute$ TrigDmg1 | TriggerDescription$ [PROGRESS 2-6] Whenever you cast a noncreature spell, CARDNAME deals 2 damage to any target and you gain 2 life.
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_GE7_LEVEL | Execute$ TrigDmg2 | TriggerDescription$ [PROGRESS 7+] Whenever you cast a noncreature spell, CARDNAME deals 4 damage to any target and you gain 4 life.
+SVar:TrigDmg1:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | SubAbility$ GainLife1
+SVar:GainLife1:DB$ GainLife | Defined$ You | LifeAmount$ 2
+SVar:TrigDmg2:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 4 | SubAbility$ GainLife2
+SVar:GainLife2:DB$ GainLife | Defined$ You | LifeAmount$ 4
+Oracle:Whenever a creature dies, you may put a progress counter on Unorthodox Methods.\n[PROGRESS 2-6] Whenever you cast a noncreature spell, Unorthodox Methods deals 2 damage to any target and you gain 2 life.\n[PROGRESS 7+] Whenever you cast a noncreature spell, Unorthodox Methods deals 4 damage to any target and you gain 4 life.

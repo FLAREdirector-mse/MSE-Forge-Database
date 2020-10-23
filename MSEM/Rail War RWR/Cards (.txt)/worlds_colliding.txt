@@ -1,7 +1,18 @@
-# TODO
 Name:Worlds Colliding
 ManaCost:3 G U U
 Types:Sorcery Revelation
 PT:6/6
-
-Oracle:Each player shuffles their hand and each non-Revelation card from their graveyard into their library, then draws seven cards. You may put any number of land cards from your hand onto the battlefield.\nCoalesce {6}{G}{U}{U} (You may cast this from your graveyard for its coalesce cost. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or fail to resolve.)
+A:SP$ ChangeZoneAll | Cost$ 3 G U U | ChangeType$ Card | Origin$ Hand | Destination$ Library | Shuffle$ True | Random$ True | AILogic$ TimeTwister | SubAbility$ DBShuffle1 | SpellDescription$ Each player shuffles their hand and each non-Revelation card from their graveyard into their library, then draws seven cards. You may put any number of land cards from your hand onto the battlefield.
+A:SP$ ChangeZoneAll | Cost$ 6 G U U | ActivationZone$ Graveyard | hangeType$ Card | Origin$ Hand | Destination$ Library | Shuffle$ True | Random$ True | AILogic$ TimeTwister | SubAbility$ DBShuffle2 | PrecostDesc$ Coalesce | CostDesc$ {6}{G}{U}{U} | SpellDescription$ (You may cast this from your graveyard for {6}{G}{U}{U}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
+SVar:DBShuffle1:DB$ ChangeZoneAll | ChangeType$ Card.nonRevelation | Origin$ Graveyard | Destination$ Library | Shuffle$ True | Random$ True | SubAbility$ DBDraw1
+SVar:DBDraw1:DB$ Draw | NumCards$ 7 | Defined$ Player | SubAbility$ DBChange1
+SVar:DBChange1:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | Optional$ You | ChangeType$ Land | ChangeNum$ X | References$ X
+SVar:DBShuffle2:DB$ ChangeZoneAll | ChangeType$ Card.nonRevelation | Origin$ Graveyard | Destination$ Library | Shuffle$ True | Random$ True | SubAbility$ DBDraw2
+SVar:DBDraw2:DB$ Draw | NumCards$ 7 | Defined$ Player | SubAbility$ DBChange2
+SVar:DBChange2:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | Optional$ You | ChangeType$ Land | ChangeNum$ X | References$ X | SubAbility$ Coalesce
+SVar:X:Count$InYourHand
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
+SVar:Coalesce:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile | OverwriteTypes$ True | Types$ Creature,Horror | Permanent$ True | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+Oracle:Each player shuffles their hand and each non-Revelation card from their graveyard into their library, then draws seven cards. You may put any number of land cards from your hand onto the battlefield.\nCoalesce {6}{G}{U}{U} (You may cast this from your graveyard for {6}{G}{U}{U}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
