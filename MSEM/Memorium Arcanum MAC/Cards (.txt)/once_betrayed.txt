@@ -1,0 +1,8 @@
+Name:Once Betrayed
+ManaCost:2 B B
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | CheckSVar$ CheckTgt | SVar$ GE1 | References$ CheckTgt | Relative$ True | EffectZone$ All | Description$ This spell costs {1}{B} less to cast if it targets a green or white permanent.
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | Color$ B | CheckSVar$ CheckTgt | SVar$ GE1 | References$ CheckTgt | Relative$ True | EffectZone$ All
+SVar:CheckTgt:Targeted$Valid Permanent.Green,Permanent.White
+A:SP$ Destroy | Cost$ 2 B B | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | SpellDescription$ Destroy target creature or planeswalker.
+Oracle:This spell costs {1}{B} less to cast if it targets a green or white permanent.\nDestroy target creature or planeswalker.
