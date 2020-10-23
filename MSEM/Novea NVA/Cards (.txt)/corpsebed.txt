@@ -1,0 +1,7 @@
+Name:Corpsebed
+ManaCost:no cost
+Types:Land Swamp
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigRemove | TriggerDescription$ When CARDNAME enters the battlefield, exile up to two target cards from graveyards.
+SVar:TrigRemove:DB$ ChangeZone | Origin$ Graveyard | Destination$ Exile | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Select up to two target cards in graveyards | ValidTgts$ Card
+Oracle:({T}: Add {B}.)\nCorpsebed enters the battlefield tapped.\nWhen Corpsebed enters the battlefield, exile up to two target cards from graveyards.

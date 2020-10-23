@@ -1,0 +1,7 @@
+Name:Seedshrine
+ManaCost:no cost
+Types:Land Forest
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigCounter | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may put a +1/+1 counter on target creature.
+SVar:TrigCounter:DB$ PutCounter | ValidTgts$ Creature | CounterType$ P1P1 | CounterNum$ 1
+Oracle:({T}: Add {G}.)\nSeedshrine enters the battlefield tapped.\nWhen Seedshrine enters the battlefield, you may put a +1/+1 counter on target creature.

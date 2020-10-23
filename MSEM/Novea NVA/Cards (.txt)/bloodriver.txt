@@ -1,0 +1,7 @@
+Name:Bloodriver
+ManaCost:no cost
+Types:Land Mountain
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, creatures you control gain haste until end of turn.
+SVar:TrigPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Haste
+Oracle:({T}: Add {R}.)\nBloodriver enters the battlefield tapped.\nWhen Bloodriver enters the battlefield, creatures you control gain haste until end of turn.
