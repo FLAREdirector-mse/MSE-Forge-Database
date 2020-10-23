@@ -1,0 +1,8 @@
+Name:Final Reckoning
+ManaCost:6 W W
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ Storied | References$ Storied,X | EffectZone$ All | Description$ This costs {1} less to cast for each storied permanent you control. (Enchantments and legendary permanents are storied.)
+A:SP$ DestroyAll | Cost$ 6 W W | ValidCards$ Card.nonLand+nonEnchantment+nonLegendary | SpellDescription$ Destroy all nonland, nonstoried permanents.
+SVar:Storied:Count$Valid Enchantment.YouCtrl/Plus.X
+SVar:X:Count$Valid Legendary.YouCtrl
+Oracle:This costs {1} less to cast for each storied permanent you control. (Enchantments and legendary permanents are storied.)\nDestroy all nonland, nonstoried permanents.

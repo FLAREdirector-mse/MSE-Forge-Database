@@ -1,0 +1,8 @@
+Name:Lady Ashtongue
+ManaCost:3 R R
+Types:Legendary Creature Dragon
+PT:5/4
+K:Flying
+S:Mode$ Continuous | Affected$ Dragon.Other+YouCtrl | AddKeyword$ Haste | Description$ Other Dragons you control have haste.
+A:AB$ PumpAll | Cost$ R | ValidCards$ Dragon.YouCtrl | NumAtt$ 1 | SpellDescription$ Dragons you control get +1/+0 until end of turn.
+Oracle:Flying\nOther Dragons you control have haste.\n{R}: Dragons you control get +1/+0 until end of turn.

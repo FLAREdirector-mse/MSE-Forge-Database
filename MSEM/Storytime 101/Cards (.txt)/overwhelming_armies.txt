@@ -1,0 +1,7 @@
+Name:Overwhelming Armies
+ManaCost:4 R R
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Player | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of each upkeep, create X 1/1 white Soldier creature tokens, where X is two plus the number of creatures you control.
+SVar:TrigToken:DB$ Token | TokenScript$ w_1_1_soldier | TokenAmount$ X | References$ X
+SVar:X:Count$Valid Creature.YouCtrl/Plus.2
+Oracle:At the beginning of each upkeep, create X 1/1 white Soldier creature tokens, where X is two plus the number of creatures you control.
