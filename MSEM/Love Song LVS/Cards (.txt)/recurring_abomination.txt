@@ -1,0 +1,8 @@
+Name:Recurring Abomination
+ManaCost:2 B
+Types:Creature Elemental Horror 
+PT:3/3
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Opponent | CombatDamage$ True | Execute$ TrigChangeZone | TriggerDescription$ Whenever CARDNAME deals combat damage to an opponent, return target creature card from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target creature card in your graveyard | ValidTgts$ Creature.YouCtrl
+A:AB$ ChangeZone | Cost$ B Sac<1/Creature> | Origin$ Graveyard | Destination$ Battlefield | ActivationZone$ Graveyard | Tapped$ True | SpellDescription$ Return CARDNAME from your graveyard to the battlefield tapped.
+Oracle:Whenever Recurring Abomination deals combat damage to an opponent, return target creature card from your graveyard to your hand.\n{B}, Sacrifice a creature: Return Recurring Abomination from the graveyard to the battlefield tapped.

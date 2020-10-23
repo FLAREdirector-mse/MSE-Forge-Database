@@ -1,0 +1,8 @@
+Name:Advanced Schematics
+ManaCost:X X U U
+Types:Instant
+A:SP$ Charm | Cost$ X X U U | Choices$ DBToken,DBCopyPermanent
+SVar:DBToken:DB$ Token | TokenScript$ c_x_x_a_construct | TokenAmount$ 3 | TokenPower$ X | TokenToughness$ X | References$ X | SpellDescription$ Create three X/X colorless Construct artifact creature tokens.
+SVar:DBCopyPermanent:DB$ CopyPermanent | ValidTgts$ Artifact.YouCtrl | TgtPrompt$ Select target artifact | NumCopies$ X | References$ X | SpellDescription$ Create X tokens that are copies of target artifact you control.
+SVar:X:Count$xPaid
+Oracle:Choose one —\n• Create three X/X colorless Construct artifact creature tokens.\n• Create X tokens that are copies of target artifact you control.

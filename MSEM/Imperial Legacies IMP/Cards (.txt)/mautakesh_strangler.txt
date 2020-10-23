@@ -1,0 +1,9 @@
+Name:Mautakesh Strangler
+ManaCost:2 G
+Types:Creature Naga Warrior 
+PT:3/3
+K:Poisonous:3
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | CheckSVar$ X | SVarCompare$ GE1 | Execute$ TrigFight | OptionalDecider$ You | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, if an opponent is poisoned, you may have CARDNAME fight target creature you don't control.
+SVar:TrigFight:DB$ Fight | Defined$ Self | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Choose target creature you don't control
+SVar:X:Count$TotalOppPoisonCounters
+Oracle:Poisonous 3 (Whenever this creature deals combat damage to a player, that player gets three poison counters.)\nAt the beginning of your upkeep, if an opponent is poisoned, you may have Mautakesh Strangler fight target creature you don't control.

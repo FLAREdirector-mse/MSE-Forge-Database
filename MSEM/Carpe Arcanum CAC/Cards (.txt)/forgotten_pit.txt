@@ -1,0 +1,8 @@
+Name:Forgotten Pit
+ManaCost:no cost
+Types:Land Swamp Animus
+PT:1/4
+K:CARDNAME enters the battlefield tapped.
+K:Deathtouch
+A:AB$ Animate | Cost$ 2 B B | Defined$ Self | Types$ Creature | SpellDescription$ CARDNAME becomes a creature in addition to its other types until end of turn.
+Oracle:({T}: Add {B}.)\nForgotten Pit enters the battlefield tapped.\nDeathtouch\n{2}{B}{B}: Forgotten Pit becomes a creature in addition to its other types until end of turn.\n[1/4]

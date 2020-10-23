@@ -1,0 +1,13 @@
+Name:Horrific Progenitor
+ManaCost:6 B B B
+Types:Creature Horror 
+PT:12/12
+K:Trample
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | Execute$ TrigRepeat | TriggerDescription$ Whenever CARDNAME deals damage to a player, for each damage dealt, that player loses 3 life unless they sacrifice a nonland permanent or discard a card.
+SVar:TrigRepeat:DB$ Repeat | RepeatSubAbility$ DBChoose | MaxRepeat$ X | References$ X
+SVar:DBChoose:DB$ GenericChoice | Choices$ PaySac,PayDiscard | Defined$ TriggeredTarget | FallbackAbility$ LoseLifeFallback | AILogic$ PayUnlessCost
+SVar:PaySac:DB$ LoseLife | LifeAmount$ 3 | Defined$ TriggeredTarget | UnlessCost$ Sac<1/Permanent.nonLand/nonland permanent> | UnlessPayer$ TriggeredTarget | UnlessAI$ LifeLE3 | SpellDescription$ You lose 3 life unless you sacrifice a nonland permanent.
+SVar:PayDiscard:DB$ LoseLife | LifeAmount$ 3 | Defined$ TriggeredTarget | UnlessCost$ Discard<1/Card> | UnlessPayer$ TriggeredTarget | UnlessAI$ LifeLE3 | SpellDescription$ You lose 3 life unless you discard a card.
+SVar:LoseLifeFallback:DB$ LoseLife | Defined$ TriggeredTarget | LifeAmount$ 3
+SVar:X:TriggerCount$DamageAmount
+Oracle:Trample\nWhenever Horrific Progenitor deals damage to a player, for each damage dealt, that player loses 3 life unless they sacrifice a nonland permanent or discard a card.

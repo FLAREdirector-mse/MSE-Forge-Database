@@ -1,0 +1,7 @@
+Name:Meteor Fall
+ManaCost:3 R R
+Types:Sorcery
+A:SP$ Charm | Cost$ 3 R R | Choices$ DBDmgAll,DBDmg
+SVar:DBDmgAll:DB$ DamageAll | ValidCards$ Creature,Planeswalker | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to each creature and each planeswalker.
+SVar:DBDmg:DB$ DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ 8 | SpellDescription$ CARDNAME deals 8 damage to target creature or planeswalker.
+Oracle:Choose one —\n• Meteor Fall deals 4 damage to each creature and each planeswalker.\n• Meteor Fall deals 8 damage to target creature or planeswalker.

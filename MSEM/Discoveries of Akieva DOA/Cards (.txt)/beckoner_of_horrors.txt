@@ -1,0 +1,11 @@
+Name:Beckoner of Horrors
+ManaCost:2 B
+Types:Creature Human Cleric
+PT:3/2
+T:Mode$ SpellCast | ValidCard$ Enchantment | ValidActivatingPlayer$ You | Execute$ TrigDraw | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast an enchantment spell, you draw a card and you lose 1 life.
+T:Mode$ CounterAddedOnce | ValidCard$ Enchantment.YouCtrl | Execute$ TrigGain | TriggerZones$ Battlefield | TriggerDescription$ Whenever one or more counters are put on an enchantment you control, you gain 1 life and each opponent loses 1 life.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBLose
+SVar:DBLose:DB$ LoseLife | LifeAmount$ 1
+SVar:TrigGain:DB$ GainLife | LifeAmount$ 1 | SubAbility$ DBOppLose
+SVar:DBOppLose:DB$ LoseLife | LifeAmount$ 1 | Defined$ Opponent
+Oracle:Whenever you cast an enchantment spell, you draw a card and you lose 1 life.\nWhenever one or more counters are put on an enchantment you control, you gain 1 life and each opponent loses 1 life.

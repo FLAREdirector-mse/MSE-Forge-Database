@@ -1,0 +1,9 @@
+Name:Once Denied
+ManaCost:2 U U U
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | CheckSVar$ CheckTgt | SVar$ GE1 | References$ CheckTgt | Relative$ True | EffectZone$ All | Description$ This spell costs {1}{U} less to cast if it targets a red or green spell.
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | Color$ U | CheckSVar$ CheckTgt | SVar$ GE1 | References$ CheckTgt | Relative$ True | EffectZone$ All
+SVar:CheckTgt:Targeted$Valid Card.Red,Card.Green
+A:SP$ Destroy | Cost$ 2 U U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SubAbility$ DBDraw | SpellDescription$ Counter target spell. Draw a card.
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+Oracle:This spell costs {1}{U} less to cast if it targets a red or green spell.\nCounter target spell.\nDraw a card.

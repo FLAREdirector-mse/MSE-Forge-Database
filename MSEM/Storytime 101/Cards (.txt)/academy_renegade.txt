@@ -1,0 +1,11 @@
+Name:Academy Renegade
+ManaCost:2 R
+Types:Creature Human Wizard
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDamageCreature | TriggerDescription$ When CARDNAME enters the battlefield, it deals damage to target creature you don't control equal to the number of Wizards you control.
+SVar:TrigDamageCreature:DB$ DealDamage | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Select target creature you don't control | NumDmg$ X | References$ X
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDamagePlayer | TriggerDescription$ Whenever CARDNAME attacks, it deals damage to defending player equal to the number of Wizards you control.
+SVar:TrigDamagePlayer:DB$ DealDamage | Defined$ DefendingPlayer | NumDmg$ X | References$ X
+SVar:X:Count$Valid Wizard.YouCtrl
+DeckHints:Type$Wizard
+Oracle:When Academy Renegade enters the battlefield, it deals damage to target creature you don't control equal to the number of Wizards you control.\nWhenever Academy Renegade attacks, it deals damage to defending player equal to the number of Wizards you control.

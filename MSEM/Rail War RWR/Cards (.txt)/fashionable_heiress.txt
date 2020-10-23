@@ -1,0 +1,6 @@
+Name:Fashionable Heiress
+ManaCost:W
+Types:Creature Human Advisor
+PT:1/1
+S:Mode$ ReduceCost | ValidCard$ Enchantment | Type$ Spell | Activator$ You | Amount$ 1 | Description$ Enchantment spells you cast cost {1} less to cast.
+Oracle:Enchantment spells you cast cost {1} less to cast.

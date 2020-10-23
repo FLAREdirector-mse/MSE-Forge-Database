@@ -1,0 +1,8 @@
+Name:Between Life and Death
+ManaCost:X B B
+Types:Instant
+A:SP$ ChangeZone | Cost$ X B B | ValidTgts$ Creature.YouOwn+cmcLEX | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Select up to two target creature cards in your graveyard | Origin$ Graveyard | Destination$ Battlefield | RememberChanged$ True | References$ X | SubAbility$ DBPump | SpellDescription$ Return up to two target creature cards with converted mana cost X or less from your graveyard to the battlefield. They can't block this turn.
+SVar:DBPump:DB$ Pump | Defined$ Remembered | KW$ HIDDEN CARDNAME can't block. | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$xPaid
+Oracle:Return up to two target creature cards with converted mana cost X or less from your graveyard to the battlefield. They can't block this turn.

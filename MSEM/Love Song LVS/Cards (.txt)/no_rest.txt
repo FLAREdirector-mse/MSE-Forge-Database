@@ -1,0 +1,11 @@
+Name:No Rest
+ManaCost:2 W B
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 2 W B | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | TgtPrompt$ Select target permanent card in a graveyard with CMC 3 or less | ValidTgts$ Permanent.cmcLE3 | SpellDescription$ Return target permanent card with converted mana cost 3 or less from any graveyard to the battlefield under your control.
+R:Event$ Moved | ValidCard$ Card.Self+wasCastFromHand+YouOwn+YouCtrl | Origin$ Stack | Destination$ Graveyard | Fizzle$ False | ReplaceWith$ LMExile | Description$ Leitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)
+SVar:LMExile:DB$ ChangeZone | Origin$ Stack | Destination$ Exile | Defined$ ReplacedCard | RememberChanged$ True | SubAbility$ LMAnimate
+SVar:LMAnimate:DB$ Animate | Defined$ Self | ValidCard$ Remembered | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
+SVar:TrigCast:Mode$ SpellCast | ValidCard$ Card.SharesColorWith | ValidControllingPlayer$ You | Execute$ DBCast | IsPresent$ Card.IsRemembered | PresentCompare$ GE1 | PresentZone$ Exile | OneOff$ True
+SVar:DBCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | Optional$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Return target permanent card with converted mana cost 3 or less from any graveyard to the battlefield under your control.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)

@@ -1,0 +1,11 @@
+Name:Suborn Humanity's Works
+ManaCost:4 U
+Types:Sorcery Revelation
+PT:8/8
+A:SP$ GainControl | Cost$ 4 U | ValidTgts$ Permanent.nonCreature | TgtPrompt$ Select target noncreature permanent | SpellDescription$ Gain control of target noncreature permanent.
+A:SP$ GainControl | Cost$ 8 U U | ActivationZone$ Graveyard | ValidTgts$ Permanent.nonCreature | TgtPrompt$ Select target noncreature permanent | SubAbility$ Coalesce | PrecostDesc$ Coalesce | CostDesc$ {8}{U}{U} | SpellDescription$ (You may cast this from your graveyard for {8}{U}{U}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
+SVar:Coalesce:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile | OverwriteTypes$ True | Types$ Creature,Horror | Permanent$ True | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+Oracle:Gain control of target noncreature permanent.\nCoalesce {8}{U}{U} (You may cast this from your graveyard for {8}{U}{U}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)

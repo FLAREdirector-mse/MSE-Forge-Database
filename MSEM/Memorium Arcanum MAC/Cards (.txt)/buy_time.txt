@@ -1,0 +1,12 @@
+Name:Buy Time
+ManaCost:2 U B
+Types:Instant
+A:SP$ SetLife | Cost$ 2 U B | LifeAmount$ 0 | Defined$ You | SubAbility$ DBEffect | StackDescription$ SpellDescription | SpellDescription$ Your life total becomes 0. Until an opponent's next turn, you can't lose the game, your opponents can't win the game, and you can't gain life. Take an extra turn after this one. Exile CARDNAME.
+SVar:DBEffect:DB$ Effect | Name$ Buy Time Effect | StaticAbilities$ STYou,STOpp | Triggers$ RemoveEffect | SVars$ ExileSelf | SubAbility$ DBAddTurn | Duration$ Permanent
+SVar:DBAddTurn:DB$ AddTurn | NumTurns$ 1 | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+SVar:STYou:Mode$ Continuous | Affected$ You | EffectZone$ Command | AddKeyword$ You can't lose the game. & You can't gain life. | Description$ You can't lose the game. You can't gain life.
+SVar:STOpp:Mode$ Continuous | Affected$ Opponent | EffectZone$ Command | AddKeyword$ You can't win the game. | Description$ Your opponents can't win the game.
+SVar:RemoveEffect:Mode$ Phase | Phase$ Untap | ValidPlayer$ Opponent | Static$ True | TriggerZones$ Command | Execute$ ExileSelf
+SVar:ExileSelf:DB$ ChangeZone | Defined$ Self | Origin$ Command | Destination$ Exile
+Oracle:Your life total becomes 0. Until an opponent's next turn, you can't lose the game, your opponents can't win the game, and you can't gain life.\nTake an extra turn after this one.\nExile Buy Time.

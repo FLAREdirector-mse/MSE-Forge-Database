@@ -1,0 +1,8 @@
+Name:Corporate War
+ManaCost:W B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Enchantment.Other+YouCtrl | TriggerZones$ Battlefield | Destination$ Battlefield | Execute$ TrigPutCounter | OptionalDecider$ You | TriggerDescription$ Whenever another enchantment enters the battlefield under your control, you may put a level counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ LEVEL | CounterNum$ 1
+A:AB$ Destroy | Cost$ W B Sac<1/Creature;Enchantment/creature or enchantment> | ValidTgts$ Creature,Enchantment | TgtPrompt$ Select target creature or enchantment | IsPresent$ Card.Self+counters_GE2_LEVEL+counters_LE5_LEVEL | PrecostDesc$ [PROGRESS 2-5] | SpellDescription$ Destroy target creature or enchantment.
+A:AB$ Destroy | Cost$ Sac<1/Creature;Enchantment/creature or enchantment> | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | IsPresent$ Card.Self+counters_GE6_LEVEL | PrecostDesc$ [PROGRESS 6+] | SpellDescription$ Destroy target permanent.
+Oracle:Whenever another enchantment enters the battlefield under your control, you may put a progress counter on Corporate War.\n[PROGRESS 2-5] {W}{B}, Sacrifice a creature or enchantment: Destroy target creature or enchantment.\n[PROGRESS 6+] Sacrifice a creature or enchantment: Destroy target permanent.

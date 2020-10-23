@@ -1,0 +1,9 @@
+Name:Antimagic Formula
+ManaCost:3 U U
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ Storied | References$ Storied,X | EffectZone$ All | Description$ This spell costs {1} less to cast for each storied permanent you control. (Enchantments and legendary permanents are storied.)
+A:SP$ Counter | Cost$ 3 U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SubAbility$ DBDraw | SpellDescription$ Counter target spell. Draw a card.
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+SVar:Storied:Count$Valid Enchantment.YouCtrl/Plus.X
+SVar:X:Count$Valid Legendary.YouCtrl
+Oracle:This spell costs {1} less to cast for each storied permanent you control. (Enchantments and legendary permanents are storied.)\nCounter target spell.\nDraw a card.

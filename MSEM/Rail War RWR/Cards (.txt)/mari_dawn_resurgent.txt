@@ -1,0 +1,15 @@
+Name:Mari, Dawn Resurgent
+ManaCost:4 W W
+Types:Legendary Planeswalker Mari
+Loyalty:5
+A:AB$ ChangeZone | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature.tapped | TgtPrompt$ Select up to one target tapped creature | TargetMin$ 0 | TargetMax$ 1 | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile up to one target tapped creature.
+A:AB$ Token | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | TokenScript$ w_4_4_angel_flying | TokenAmount$ 1 | SpellDescription$ Create a 4/4 white Angel creature token with flying.
+A:AB$ DestroyAll | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | ValidCards$ Creature | RememberDestroyed$ True | SubAbility$ DBGainLife | SpellDescription$ Destroy all creatures. You gain 1 life for each creature destroyed this way.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | SubAbility$ DBCleanup | LifeAmount$ X | References$ X 
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+A:AB$ Effect | Cost$ SubCounter<7/LOYALTY> | Planeswalker$ True | Name$ Emblem - Mari, Dawn Resurgent | Triggers$ MariTrigger | SVars$ MariGainLife,MariLifeLost | Duration$ Permanent | SpellDescription$ You get an emblem with "At the beginning of each end step, you gain life equal to twice the life you've lost this turn."
+SVar:MariTrigger:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ Player | Execute$ MariGainLife | TriggerZones$ Command | TriggerDescription$ At the beginning of each end step, you gain life equal to twice the life you've lost this turn.
+SVar:MariGainLife:DB$ GainLife | Defined$ You | LifeAmount$ MariLifeLost | References$ MariLifeLost
+SVar:MariLifeLost:Count$LifeYouLostThisTurn/Twice
+Oracle:[+1]: Exile up to one target tapped creature.\n[–2]: Create a 4/4 white Angel creature token with flying.\n[–3]: Destroy all creatures. You gain 1 life for each creature destroyed this way.\n[–7]: You get an emblem with "At the beginning of each end step, you gain life equal to twice the life you've lost this turn."

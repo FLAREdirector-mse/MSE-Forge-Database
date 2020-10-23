@@ -1,0 +1,11 @@
+Name:Stand Unassailable
+ManaCost:1 G
+Types:Sorcery Revelation
+PT:6/4
+A:SP$ GainLife | Cost$ 1 G | LifeAmount$ 7 | SpellDescription$ You gain 7 life.
+A:SP$ GainLife | Cost$ 5 G G | ActivationZone$ Graveyard | LifeAmount$ 7 | SubAbility$ Coalesce | PrecostDesc$ Coalesce | CostDesc$ {5}{G}{G} | SpellDescription$ (You may cast this from your graveyard for {5}{G}{G}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
+SVar:Coalesce:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile | OverwriteTypes$ True | Types$ Creature,Horror | Permanent$ True | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+Oracle:You gain 7 life.\nCoalesce {5}{G}{G} (You may cast this from your graveyard for {5}{G}{G}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)

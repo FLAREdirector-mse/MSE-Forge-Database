@@ -1,0 +1,6 @@
+Name:Lost Among the Stars
+ManaCost:2 U U
+Types:Instant
+A:SP$ Counter | Cost$ 2 U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SubAbility$ DBToken | SpellDescription$ Counter target spell. Create a 1/1 blue Elemental creature token with flying.
+SVar:DBToken:DB$ Token | TokenScript$ u_1_1_elemental_flying | TokenAmount$ 1
+Oracle:Counter target spell. Create a 1/1 blue Elemental creature token with flying.

@@ -1,0 +1,11 @@
+Name:Painwield Explorer
+ManaCost:R
+Types:Creature Human Shaman
+PT:0/1
+T:Mode$ SpellCast | ValidCard$ Card.cmcGTX | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | References$ X | Execute$ TrigPutCounter | TriggerDescription$ Cadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+SVar:X:Count$CardPower
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ TrigDamage | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, it deals damage equal to its power to target player or planeswalker.
+SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ Y | References$ Y
+SVar:Y:TriggeredCard$CardPower
+Oracle:Cadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\nWhen Painwield Explorer dies, it deals damage equal to its power to target player or planeswalker.

@@ -1,0 +1,15 @@
+Name:Shroud the World in Doom
+ManaCost:1 U B
+Types:Sorcery Revelation
+PT:5/5
+A:SP$ ChangeZone | Cost$ 1 U B | ValidTgts$ Creature | TgtPrompt$ Select up to one target creature | TargetMin$ 0 | TargetMax$ 1 | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDiscard1 | SpellDescription$ Return up to one target creature to its owner's hand. If you do, that player discards a card at random.
+A:SP$ ChangeZone | Cost$ 5 U B | ActivationZone$ Graveyard | ValidTgts$ Creature | TgtPrompt$ Select up to one target creature | TargetMin$ 0 | TargetMax$ 1 | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBDiscard2 | PrecostDesc$ Coalesce | CostDesc$ {5}{U}{B} | SpellDescription$ (You may cast this from your graveyard for {5}{U}{B}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
+SVar:DBDiscard1:DB$ Discard | Defined$ TargetedOwner | NumCards$ 1 | Mode$ Random
+SVar:DBDiscard2:DB$ Discard | Defined$ TargetedOwner | NumCards$ 1 | Mode$ Random | SubAbility$ Coalesce
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
+SVar:Coalesce:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile | OverwriteTypes$ True | Types$ Creature,Horror | Permanent$ True | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Opponent | CombatDamage$ True | Execute$ TrigDiscard | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME deals combat damage to an opponent, that player discards a card at random.
+SVar:TrigDiscard:DB$ Discard | Defined$ TriggeredTarget | NumCards$ 1 | Mode$ Random
+Oracle:Return up to one target creature to its owner's hand. If you do, that player discards a card at random.\nCoalesce {5}{U}{B} (You may cast this from your graveyard for {5}{U}{B}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nWhenever Shroud the World in Doom deals combat damage to an opponent, that player discards a card at random.

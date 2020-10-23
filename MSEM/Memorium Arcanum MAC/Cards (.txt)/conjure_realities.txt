@@ -1,0 +1,7 @@
+Name:Conjure Realities
+ManaCost:2 G U
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 2 G U | Origin$ Library | Destination$ Hand | ChangeType$ Creature,Instant,Sorcery | ChangeNum$ 1 | SubAbility$ DBAbound | SpellDescription$ Search your library for a creature, instant, or sorcery card, reveal it, put it into your hand, then shuffle your library. Abound. (To abound, you may cast a card that costs less than this from your hand without paying its mana cost.)
+SVar:DBAbound:DB$ Play | Valid$ Card.nonLand+YouOwn+cmcLTX | References$ X | ValidZone$ Hand | WithoutManaCost$ True | Amount$ 1 | Controller$ You | Optional$ True
+SVar:X:Count$CardManaCost
+Oracle:Search your library for a creature, instant, or sorcery card, reveal it, put it into your hand, then shuffle your library. Abound. (To abound, you may cast a card that costs less than this from your hand without paying its mana cost.)

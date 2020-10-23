@@ -1,0 +1,6 @@
+Name:Hall of Random Access Memories
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ 3 T Sac<1/CARDNAME> | TgtPrompt$ Select target artifact, instant, or sorcery card in your graveyard | ValidTgts$ Artifact.YouCtrl,Instant.YouCtrl,Sorcery.YouCtrl | Origin$ Graveyard | Destination$ Hand | SpellDescription$ Return target artifact, instant, or sorcery card from your graveyard to your hand.
+Oracle:{T}: Add {C}.\n{3}, {T}, Sacrifice Hall of Random Access Memories: Return target artifact card from your graveyard to your hand.

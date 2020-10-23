@@ -1,0 +1,8 @@
+Name:Bygone Guardian
+ManaCost:no cost
+Types:Land Plains Animus
+PT:3/5
+K:CARDNAME enters the battlefield tapped.
+K:Vigilance
+A:SP$ Animate | Cost$ 2 W W | Defined$ Self | Types$ Creature | SpellDescription$ CARDNAME becomes a creature in addition to its other types until end of turn.
+Oracle:({T}: Add {W}.)\nBygone Guardian enters the battlefield tapped.\nVigilance\n{2}{W}{W}: Bygone Guardian becomes a creature in addition to its other types until end of turn.\n[3/5]

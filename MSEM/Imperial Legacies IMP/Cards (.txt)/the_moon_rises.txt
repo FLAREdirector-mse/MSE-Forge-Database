@@ -1,0 +1,8 @@
+Name:The Moon Rises
+ManaCost:1 B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, exile all cards from all opponents' graveyards.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigLoseLife | TriggerDescription$ At the beginning of your upkeep, each opponent loses 1 life.
+SVar:TrigChangeZone:DB$ ChangeZoneAll | ChangeType$ Card.OppOwn | Origin$ Graveyard | Destination$ Exile
+SVar:TrigLoseLife:DB$ LoseLife | LifeAmount$ 1 | Defined$ Opponent
+Oracle:When The Moon Rises enters the battlefield, exile all cards from all opponents' graveyards.\nAt the beginning of your upkeep, each opponent loses 1 life.
