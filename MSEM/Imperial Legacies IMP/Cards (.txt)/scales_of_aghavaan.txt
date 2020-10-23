@@ -1,0 +1,9 @@
+Name:Scales of Aghavaan
+ManaCost:2 G G
+Types:Creature Naga Warrior 
+PT:4/4
+K:Poisonous:4
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | CheckSVar$ X | SVarCompare$ GE1 | Execute$ TrigPumpAll | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of combat on each of your turns, if an opponent is poisoned, creatures you control gain trample until end of turn.
+SVar:TrigPumpAll:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Trample
+SVar:X:Count$TotalOppPoisonCounters
+Oracle:Poisonous 4 (Whenever this creature deals combat damage to a player, that player gets four poison counters.)\nAt the beginning of combat on each of your turns, if an opponent is poisoned, creatures you control gain trample until end of turn.

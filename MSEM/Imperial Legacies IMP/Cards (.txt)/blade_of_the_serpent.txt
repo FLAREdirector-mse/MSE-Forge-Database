@@ -1,0 +1,8 @@
+Name:Blade of the Serpent
+ManaCost:B
+Types:Creature Human Naga Rogue 
+PT:1/1
+K:Poisonous:1
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | CheckSVar$ X | SVarCompare$ GE1 | Description$ CARDNAME gets +1/+1 as long as an opponent is poisoned.
+SVar:X:Count$TotalOppPoisonCounters
+Oracle:Poisonous 1 (Whenever this creature deals combat damage to a player, that player gets a poison counter.)\nBlade of the Serpent gets +1/+1 as long as an opponent is poisoned.

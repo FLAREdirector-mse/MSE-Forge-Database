@@ -1,0 +1,8 @@
+Name:Seek the Future
+ManaCost:3 U
+Types:Instant
+A:SP$ Scry | Cost$ 3 U | ScryNum$ 2 | SubAbility$ DBDraw | SpellDescription$ Scry 2, then draw two cards.
+SVar:DBDraw:DB$ Draw | NumCards$ 2 | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | Name$ Seek the Future Effect | StaticAbilities$ STHandSize | Duration$ Permanent | SpellDescription$ You have no maximum hand size for the rest of the game.
+SVar:STHandSize:Mode$ Continuous | EffectZone$ Command | Affected$ You | SetMaxHandSize$ Unlimited | Description$ You have no maximum hand size.
+Oracle:Scry 2, then draw two cards.\nYou have no maximum hand size for the rest of the game.

@@ -1,0 +1,5 @@
+Name:Soul Leak
+ManaCost:1 B
+Types:Instant
+A:SP$ Destroy | Cost$ 1 B | ValidTgts$ Creature | TgtPrompt$ Select target creature | UnlessCost$ 3 | UnlessPayer$ TargetedController | SpellDescription$ Destroy target creature unless its controller pays {3}.
+Oracle:Destroy target creature unless its controller pays {3}.

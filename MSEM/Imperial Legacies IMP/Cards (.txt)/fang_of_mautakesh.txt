@@ -1,0 +1,7 @@
+Name:Fang of Mautakesh
+ManaCost:1 B G
+Types:Creature Naga Assassin 
+PT:2/2
+K:Poisonous:2
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl+Naga,Creature.Other+YouCtrl+Snake | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ Poisonous:1 | Description$ Each other creature you control that's a Naga or a Snake gets +1/+1 and has poisonous 1. (Multiple instances of poisonous trigger separately.)
+Oracle:Poisonous 2 (Whenever this creature deals combat damage to a player, that player gets two poison counters.)\nEach other creature you control that's a Naga or a Snake gets +1/+1 and has poisonous 1. (Multiple instances of poisonous trigger separately.)

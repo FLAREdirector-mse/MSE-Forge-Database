@@ -1,0 +1,6 @@
+Name:Touch of the Coil
+ManaCost:1 B
+Types:Instant
+A:SP$ Poison | Cost$ 1 B | ValidTgts$ Player | TgtPrompt$ Select target player | Num$ 1 | SubAbility$ DBDraw | SpellDescription$ Target player gets a poison counter.
+SVar:DBDraw:DB$ Draw | SpellDescription$ Draw a card.
+Oracle:Target player gets a poison counter.\nDraw a card.
