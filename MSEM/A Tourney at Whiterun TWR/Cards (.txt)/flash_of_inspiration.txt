@@ -2,6 +2,6 @@ Name:Flash of Inspiration
 ManaCost:3 U U
 Types:Instant
 K:Spectacle:1 U U
-A:SP$ Dig | Cost$ 2 U U | DigNum$ 7 | ChangeNum$ 2 | RestRandomOrder$ True | SpellDescription$ Look at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in a random order.
+A:SP$ Dig | Cost$ 3 U U | DigNum$ 7 | ChangeNum$ 2 | RestRandomOrder$ True | SpellDescription$ Look at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in a random order.
 AI:RemoveDeck:All
 Oracle:Cripple {1}{U}{U} (You may cast this spell for its cripple cost if an opponent lost life this turn.)\nLook at the top seven cards of your library. Put two of them into your hand and the rest on the bottom of your library in a random order.
