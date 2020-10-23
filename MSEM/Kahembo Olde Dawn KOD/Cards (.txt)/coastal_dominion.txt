@@ -1,0 +1,5 @@
+Name:Coastal Dominion
+ManaCost:no cost
+Types:Land Plains Island Swamp
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {W}, {U}, {B}.)\nCoastal Dominion enters the battlefield tapped.

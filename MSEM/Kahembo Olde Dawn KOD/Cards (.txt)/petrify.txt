@@ -6,5 +6,4 @@ A:SP$ Attach | Cost$ 1 B G | ValidTgts$ Permanent | AILogic$ Curse | AITgts$ Car
 S:Mode$ Continuous | Affected$ Card.EnchantedBy | SetColor$ Colorless | AddType$ Land & Swamp & Forest | RemoveCardTypes$ True | RemoveLandTypes$ True | RemoveIntrinsicAbilities$ True | Description$ Enchanted permanent is a colorless Swamp Forest land.
 T:Mode$ Taps | ValidCard$ Card.AttachedBy | TriggerZones$ Battlefield | Execute$ TrigLose | TriggerDescription$ Whenever enchanted permanent becomes tapped, its controller loses 1 life.
 SVar:TrigLose:DB$LoseLife | Defined$ TriggeredCardController | LifeAmount$ 1
-SVar:NonStackingAttachEffect:True
 Oracle:Enchant permanent\nEnchanted permanent is a colorless Swamp Forest land.\nWhenever enchanted permanent becomes tapped, its controller loses 1 life.

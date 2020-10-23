@@ -1,0 +1,5 @@
+Name:Primal Dominion
+ManaCost:no cost
+Types:Land Swamp Mountain Forest
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {B}, {R}, or {G}.)\nPrimal Dominion enters the battlefield tapped.
