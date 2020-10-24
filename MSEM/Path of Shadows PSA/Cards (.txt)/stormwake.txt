@@ -1,0 +1,9 @@
+Name:Stormwake
+ManaCost:U
+Types:Sorcery
+A:SP$ Effect | Cost$ U | StaticAbilities$ EffReduceCost | Triggers$ TrigCastSpell | SVars$ RemoveEffect | SubAbility$ DBDraw | SpellDescription$ The next noncreature spell you cast this turn costs {2} less to cast. Draw a card.
+SVar:EffReduceCost:Mode$ ReduceCost | EffectZone$ Command | Type$ Spell | Activator$ You | Amount$ 2 | ValidCard$ Card.nonCreature | Description$ The next noncreature spell you cast this turn costs {2} less to cast.
+SVar:TrigCastSpell:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Command | Execute$ RemoveEffect | Static$ True
+SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
+SVar:DBDraw:DB$ Draw | NumCards$ 1
+Oracle:The next noncreature spell you cast this turn costs {2} less to cast.\nDraw a card.
