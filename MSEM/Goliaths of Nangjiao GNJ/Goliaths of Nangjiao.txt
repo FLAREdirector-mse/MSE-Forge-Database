@@ -78,7 +78,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 66 U Mother of Owls
 67 R Mull Over
 68 C Negate
-69 U Neutralize
+69 U Neutralize*
 70 U Nurturing Knowledge
 71 U Obscure Apostle
 72 R Oshin, Keeper of the Shoal
