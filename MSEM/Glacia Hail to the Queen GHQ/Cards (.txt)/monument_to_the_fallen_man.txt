@@ -1,6 +1,5 @@
-# TODO
 Name:Monument to the Fallen Man
 ManaCost:2
-Types:Artifact Idol
-
-Oracle:Players can't cast creature spells with converted mana cost greater than the number of lands they control.\n{T}: You may put a creature card with converted mana cost 2 from your hand onto the battlefield.
+Types:Artifact
+A:AB$ ChangeZone | Cost$ T | Origin$ Hand | Destination$ Battlefield | ChangeType$ Creature.cmcEQ2 | ChangeNum$ 1 | SpellDescription$ You may put a creature card with converted mana cost 2 from your hand onto the battlefield.
+Oracle:{T}: You may put a creature card with converted mana cost 2 from your hand onto the battlefield.
