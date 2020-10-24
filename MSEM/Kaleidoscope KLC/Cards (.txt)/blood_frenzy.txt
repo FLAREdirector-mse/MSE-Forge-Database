@@ -1,0 +1,6 @@
+Name:Blood Frenzy
+ManaCost:B R
+Types:Instant
+A:SP$ Pump | Cost$ B R | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ 3 | NumDef$ -3 | SpellDescription$ Target creature gets +3/-3 until end of turn.
+A:AB$ Token | Cost$ B R PayLife<3> ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | TokenScript$ c_1_1_elemental | TokenAmount$ 3 | SorcerySpeed$ True | PrecostDesc$ Kindle 3 — | CostDesc$ {B}{R}, Pay 3 life. | SpellDescription$ ({B}{R}, Pay 3 life, Exile this card from your graveyard: Create three 1/1 colorless Elemental creature tokens. Kindle only as a sorcery.)
+Oracle:Target creature gets +3/-3 until end of turn.\nKindle 3—{B}{R}, Pay 3 life. ({B}{R}, Pay 3 life, Exile this card from your graveyard: Create three 1/1 colorless Elemental creature tokens. Kindle only as a sorcery.)

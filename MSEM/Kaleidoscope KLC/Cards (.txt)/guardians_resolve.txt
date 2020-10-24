@@ -1,0 +1,6 @@
+Name:Guardian's Resolve
+ManaCost:G
+Types:Instant
+A:SP$ Pump | Cost$ G | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | KW$ Hexproof & Indestructible | SubAbility$ DBScry | SpellDescription$ Target permanent gains hexproof and indestructible until end of turn. Scry 1.
+SVar:DBScry:DB$ Scry | ScryNum$ 1
+Oracle:Target permanent gains hexproof and indestructible until end of turn. Scry 1.
