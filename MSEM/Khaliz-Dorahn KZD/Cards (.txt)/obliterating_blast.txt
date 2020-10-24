@@ -1,0 +1,7 @@
+Name:Obliterating Blast
+ManaCost:1 R
+Types:Instant
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | RememberDamaged$ True | ReplaceDyingDefined$ Remembered | SubAbility$ DBPump | SpellDescription$ CARDNAME deals 3 damage to any target. A creature dealt damage this way this turn can't be regenerated this turn. If that creature would die, exile it instead.
+SVar:DBPump:DB$ Pump | KW$ HIDDEN CARDNAME can't be regenerated. | Defined$ Targeted | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Obliterating Blast deals 3 damage to any target. A creature dealt damage this way this turn can't be regenerated this turn. If that creature would die, exile it instead.
