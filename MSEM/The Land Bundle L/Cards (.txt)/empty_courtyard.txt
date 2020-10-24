@@ -1,0 +1,6 @@
+Name:Empty Courtyard
+ManaCost:no cost
+Types:Land Swamp Forest
+K:CARDNAME enters the battlefield tapped.
+K:Cycling:BG
+Oracle:({T}: Add {B} or {G}.)\nEmpty Courtyard enters the battlefield tapped.\nCycling {B/G} ({B/G}, Discard this card: Draw a card.)

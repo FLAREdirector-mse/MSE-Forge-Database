@@ -1,0 +1,5 @@
+Name:Somber Marsh
+ManaCost:
+Types:Land Swamp Forest 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {B} or {G}.)\nSomber Marsh enters the battlefield tapped.

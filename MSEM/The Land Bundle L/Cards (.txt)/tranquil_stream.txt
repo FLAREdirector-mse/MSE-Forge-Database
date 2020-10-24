@@ -1,0 +1,5 @@
+Name:Tranquil Stream
+ManaCost:
+Types:Land Plains Island 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {W} or {U}.)\nTranquil Stream enters the battlefield tapped.

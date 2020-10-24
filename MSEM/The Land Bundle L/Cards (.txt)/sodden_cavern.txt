@@ -1,0 +1,5 @@
+Name:Sodden Cavern
+ManaCost:
+Types:Land Island Swamp 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {U} or {B}.)\nSodden Cavern enters the battlefield tapped.

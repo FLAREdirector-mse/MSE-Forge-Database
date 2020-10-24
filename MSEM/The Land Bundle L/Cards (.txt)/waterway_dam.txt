@@ -1,0 +1,6 @@
+Name:Waterway Dam
+ManaCost:no cost
+Types:Land Forest Island
+K:CARDNAME enters the battlefield tapped.
+K:Cycling:GU
+Oracle:({T}: Add {G} or {U}.)\nWaterway Dam enters the battlefield tapped.\nCycling {G/U} ({G/U}, Discard this card: Draw a card.)

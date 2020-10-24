@@ -1,0 +1,5 @@
+Name:Highland Vale
+ManaCost:
+Types:Land Mountain Forest 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {R} or {G}.)\nHighland Vale enters the battlefield tapped.
