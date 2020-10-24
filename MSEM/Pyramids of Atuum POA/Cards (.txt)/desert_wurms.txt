@@ -1,0 +1,10 @@
+Name:Desert Wurms
+ManaCost:8 R R R
+Types:Creature Wurm
+PT:6/6
+K:CantBeBlockedBy Creature.withFlying
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 6/6 red Wurms creature tokens with "This creature can't be blocked by creatures with flying."
+SVar:TrigToken:DB$ Token | TokenScript$ r_6_6_wurm_stonespirit | TokenAmount$ 2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Graveyard | ValidCard$ Creature.Self | Execute$ TrigShuffle | TriggerDescription$ When CARDNAME is put into a graveyard from anywhere, shuffle it into its owner's library.
+SVar:TrigShuffle:DB$ ChangeZone | Origin$ Graveyard | Destination$ Library | Shuffle$ True | Defined$ TriggeredCard
+Oracle:Desert Wurms can't be blocked by creatures with flying.\nWhen Desert Wurms enters the battlefield, create two 6/6 red Wurm creature tokens with "This creature can't be blocked by creatures with flying."\nWhen Desert Wurms is put into a graveyard from anywhere, shuffle it into its owner's library.
