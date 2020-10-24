@@ -1,0 +1,8 @@
+Name:Rapacious Rattler
+ManaCost:R R R
+Types:Creature Snake Beast
+PT:3/3
+K:First Strike
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDamage | TriggerDescription$ When CARDNAME enters the battlefield, it deals 3 damage divided as you choose among any number of targets you don't control.
+SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature.YouDontCtrl,Player.Other,Planeswalker.YouDontCtrl | TgtPrompt$ Select any target to distribute damage to | NumDmg$ 3 | TargetMin$ 1 | TargetMax$ 3 | DividedAsYouChoose$ 3
+Oracle:First strike\nWhen Rapacious Rattler enters the battlefield, it deals 3 damage divided as you choose among any number of targets you don't control.
