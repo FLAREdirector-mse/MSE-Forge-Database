@@ -1,0 +1,8 @@
+Name:Maghbri Oracle
+ManaCost:1 B
+Types:Creature Human Shaman
+PT:2/1
+T:Mode$ ChangesZone | ValidCard$ Creature | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigScry | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature dies, scry 1 and each opponent loses 1 life.
+SVar:TrigScry:DB$ Scry | ScryNum$ 1 | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1 | Defined$ Player.Opponent
+Oracle:Whenever a creature dies, scry 1 and each opponent loses 1 life.

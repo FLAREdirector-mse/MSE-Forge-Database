@@ -1,0 +1,7 @@
+Name:Fey Grove
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ U | SpellDescription$ Add {U}.
+Oracle:{T}: Add {C}.\n{T}, Pay 1 life: Add {G} or {U}.
