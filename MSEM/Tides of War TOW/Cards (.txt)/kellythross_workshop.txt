@@ -1,0 +1,6 @@
+Name:Kellythross' Workshop
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T | Produced$ C | Amount$ 3 | Activation$ Metalcraft | RestrictValid$ Artifact | SpellDescription$ Add {C}{C}{C}. Spend this mana only to cast artifact spells. Activate this ability only if you control three or more artifacts.
+Oracle:{T}: Add {C}.\n{T}: Add {C}{C}{C}. Spend this mana only to cast artifact spells. Activate this ability only if you control three or more artifacts.

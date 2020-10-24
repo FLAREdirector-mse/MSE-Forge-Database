@@ -1,0 +1,9 @@
+Name:Camouflaged Sprareos
+ManaCost:8 G G
+Types:Creature Beast
+PT:8/7
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | References$ X | EffectZone$ All | Description$ This spell costs {1} less to cast for each creature you control.
+K:Trample
+K:While you're searching your library, you may cast CARDNAME from your library.
+SVar:X:Count$Valid Creature.YouCtrl
+Oracle:This spell costs {1} less to cast for each creature you control.\nTrample\nWhile you're searching your library, you may cast Camouflaged Sprareos from your library.
