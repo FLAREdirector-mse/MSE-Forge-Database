@@ -1,8 +1,8 @@
-# TODO
 Name:Outlander Division
 ManaCost:W
 Types:Creature Human Scout
-K:Flash
 PT:1/1
-
+K:Flash
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, target creature gets +0/+3 until end of turn.
+SVar:TrigPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumDef$ 3
 Oracle:Flash\nWhen Outlander Division enters the battlefield, target creature gets +0/+3 until end of turn.

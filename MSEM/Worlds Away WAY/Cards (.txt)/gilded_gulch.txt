@@ -1,0 +1,8 @@
+Name:Gilded Gulch
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T Sac<1/CARDNAME> | Produced$ Any | SpellDescription$ Add one mana of any color.
+T:Mode$ Discarded | ValidCard$ Card.Self | Execute$ TrigToken | TriggerController$ TriggeredCardController | TriggerDescription$ When you discard CARDNAME, you may pay {1}. If you do, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+SVar:TrigToken:AB$ Token | Cost$ 1 | TokenScript$ c_a_treasure_sac | TokenAmount$ 1
+Oracle:{T}: Add {C}.\n{T}, Sacrifice Gilded Gulch: Add one mana of any color.\nWhen you discard Gilded Gulch, you may pay {1}. If you do, create a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")

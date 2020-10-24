@@ -1,0 +1,8 @@
+Name:Spellweaver Escort
+ManaCost:1 W
+Types:Creature Human Soldier
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Enchantment.YouCtrl | TriggerZones$ Battlefield | Destination$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on CARDNAME and you gain 1 life.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 1
+Oracle:Whenever an enchantment enters the battlefield under your control, put a +1/+1 counter on Spellweaver Escort and you gain 1 life.

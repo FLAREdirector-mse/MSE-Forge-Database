@@ -1,0 +1,10 @@
+Name:Spitfireling
+ManaCost:1 R
+Types:Creature Elemental
+PT:1/1
+K:Prowess
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | CheckSVar$ WanderlustTest | SVarCompare$ GE4 | Execute$ TrigToken | References$ WanderlustTest | TriggerDescription$ Wanderlust — When CARDNAME enters the battlefield, if you control four or more differently named lands, create two 1/1 red Elemental creature tokens with prowess and haste.
+SVar:TrigToken:DB$ Token | TokenScript$ r_1_1_elemental_prowess_haste | TokenAmount$ 2
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Prowess, haste\nWanderlust — When Spitfireling enters the battlefield, if you control four or more differently named lands, create two 1/1 red Elemental creature tokens with prowess and haste.

@@ -1,0 +1,8 @@
+Name:Telarine Sharpshooter
+ManaCost:1 W
+Types:Creature Human Archer
+PT:1/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 Scout creature token that's all colors.
+SVar:TrigToken:DB$ Token | TokenScript$ wubrg_1_1_scout | TokenAmount$ 1
+A:AB$ Tap | Cost$ 1 T tapXType<1/Creature> | CostDesc$ {1}, {T}, Tap an untapped creature you control: | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Tap target creature.
+Oracle:When Telarine Sharpshooter enters the battlefield, create a 1/1 Scout creature token that's all colors.\n{1}, {T}, Tap an untapped creature you control: Tap target creature.

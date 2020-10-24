@@ -1,0 +1,8 @@
+Name:Brine Fleet Bay
+ManaCost:no cost
+Types:Legendary Artifact Land Vehicle
+PT:5/5
+K:Haste
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+K:Crew:3
+Oracle:Haste\n{T}: Add {C}.\nCrew 3 (Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)

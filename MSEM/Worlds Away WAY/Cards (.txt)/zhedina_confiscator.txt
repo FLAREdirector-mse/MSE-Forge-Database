@@ -1,0 +1,8 @@
+Name:Zhedina Confiscator
+ManaCost:1 W
+Types:Creature Human Advisor
+PT:2/2
+A:AB$ ChangeZone | Cost$ Sac<1/CARDNAME> | ValidTgts$ Aura,Equipment | TgtPrompt$ Select target Aura or Equipment | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target Aura or Equipment.
+A:AB$ ChangeZone | Cost$ Sac<1/CARDNAME> | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | Origin$ Battlefield | Destination$ Exile | CheckSVar$ WanderlustTest | SVarCompare$ GE4 | References$ WanderlustTest | PrecostDesc$ Wanderlust — | SpellDescription$ Exile target artifact or enchantment. Activate this ability only if you control four or more differently named lands.
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Sacrifice Zhedina Confiscator: Exile target Aura or Equipment.\nWanderlust — Sacrifice Zhedina Confiscator: Exile target artifact or enchantment. Activate this ability only if you control four or more differently named lands.

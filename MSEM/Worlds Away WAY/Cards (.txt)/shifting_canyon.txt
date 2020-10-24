@@ -1,0 +1,10 @@
+Name:Shifting Canyon
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ GenericChoice | Cost$ Sac<1/CARDNAME> | Choices$ TIsland,TSwamp,TMountain,TForest | SpellDescription$ Choose a basic land type other than Plains. Create a tapped colorless land token that's a Plains and the chosen basic land type.
+SVar:TIsland:DB$ Token | TokenScript$ land_plains_island | SpellDescription$ Island
+SVar:TSwamp:DB$ Token | TokenScript$ land_plains_swamp | SpellDescription$ Swamp
+SVar:TMountain:DB$ Token | TokenScript$ land_mountain_plains | SpellDescription$ Mountain
+SVar:TForest:DB$ Token | TokenScript$ land_forest_plains | SpellDescription$ Forest
+Oracle:{T}: Add {C}.\nSacrifice Shifting Canyon: Choose a basic land type other than Plains. Create a tapped colorless land token that's a Plains and the chosen basic land type.
