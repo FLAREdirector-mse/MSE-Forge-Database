@@ -1,0 +1,8 @@
+Name:Halt
+ManaCost:U U
+Types:Instant
+A:SP$ ChangeZone | Cost$ U U | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBEffect | SpellDescription$ Return target nonland permanent to its owner's hand. That permanent's owner can't cast spells with the same name as that permanent until your next turn.
+SVar:DBEffect:DB$ Effect | RememberObjects$ RememberedLKI,RememberedOwner | StaticAbilities$ CantCast | Duration$ UntilYourNextTurn | SubAbility$ DBCleanup
+SVar:CantCast:Mode$ CantBeCast | ValidCard$ Card.nonLand+sharesNameWith RememberedLKI | Caster$ Player.IsRemembered | EffectZone$ Command | Description$ That permanent's owner can't cast spells with the same name as that permanent until your next turn.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Return target nonland permanent to its owner's hand. That permanent's owner can't cast spells with the same name as that permanent until your next turn.
