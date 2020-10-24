@@ -1,0 +1,15 @@
+Name:Xanigan, the Darkened Cloud
+ManaCost:4 B B
+Types:Legendary Planeswalker Xanigan
+Loyalty:4
+T:Mode$ AbilityCast | ValidCard$ Card.Self | ValidActivatingPlayer$ You | ValidSA$ Activated.Loyalty | TriggerZones$ Battlefield | Execute$ TrigEmblem | TriggerDescription$ Whenever you activate a loyalty ability of CARDNAME, you get an emblem with exalted.
+SVar:TrigEmblem:DB$ Effect | Name$ Emblem - Xanigan, the Darkened Cloud | Triggers$ TrigExalted | Duration$ Permanent
+SVar:TrigExalted:Mode$ Attacks | ValidCard$ Creature.YouCtrl | Alone$ True | TriggerZones$ Command | Execute$ TrigPump | TriggerDescription$ Exalted (Whenever a creature you control attacks alone, it gets +1/+1 until end of turn.)
+SVar:TrigPump:DB$ Pump | Defined$ TriggeredAttacker | NumAtt$ +1 | NumDef$ +1
+A:AB$ DealDamage | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | TargetMin$ 0 | TargetMax$ 1 | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 2 damage to up to one target and you gain 2 life.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+A:AB$ Draw | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | NumCards$ 3 | SubAbility$ DBLoseLife | SpellDescription$ You draw three cards and you lose 3 life.
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 3
+A:AB$ Animate | Cost$ SubCounter<7/LOYALTY> | Planeswalker$ True | Defined$ Self | Power$ 7 | Toughness$ 7 | Keywords$ Flying & Indestructible | Types$ Creature,Demon | SubAbility$ DBPrevent | Permanent$ True | SpellDescription$ CARDNAME becomes a 7/7 Demon creature with flying and indestructible that's still a planeswalker. Prevent all combat damage that would be dealt to her.
+SVar:DBPrevent:DB$ Pump | Defined$ Self | Duration$ Permanent | KW$ Prevent all damage that would be dealt to CARDNAME.
+Oracle:Whenever you activate a loyalty ability of Xanigan, the Darkened Cloud, you get an emblem with exalted.\n[+2]: Xanigan deals 2 damage to up to one target and you gain 2 life.\n[–3]: You draw three cards and you lose 3 life.\n[–7]: Xanigan becomes a 7/7 Demon creature with flying and indestructible that's still a planeswalker. Prevent all combat damage that would be dealt to her.

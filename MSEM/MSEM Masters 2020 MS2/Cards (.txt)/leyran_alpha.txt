@@ -1,0 +1,10 @@
+Name:Leyran Alpha
+ManaCost:4 G G
+Types:Creature Wolf
+PT:4/4
+K:Trample
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create three 2/2 green Wolf creature tokens with haste.
+T:Mode$ DamageDone | ValidSource$ Creature.YouCtrl | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control deals damage to an opponent, put a +1/+1 counter on that creature.
+SVar:TrigToken:DB$ Token | TokenOwner$ You | TokenScript$ g_2_2_wolf_haste | LegacyImage$ g 2 2 wolf haste ms2 | TokenAmount$ 3
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ TriggeredSourceLKICopy | CounterType$ P1P1 | CounterNum$ 1
+Oracle:Trample\nWhen Leyran Alpha enters the battlefield, create three 2/2 green Wolf creature tokens with haste.\nWhenever a creature you control deals damage to an opponent, put a +1/+1 counter on that creature.
