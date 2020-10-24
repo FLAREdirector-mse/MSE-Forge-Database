@@ -1,0 +1,6 @@
+Name:Ebb and Flow
+ManaCost:2 U U
+Types:Sorcery
+A:SP$ ChangeZoneAll | Cost$ 2 U U | Origin$ Graveyard | Destination$ Hand | ChangeType$ Instant,Sorcery | SubAbility$ DBExile | SpellDescription$ Each player returns each instant and sorcery card from their graveyard to their hand. Exile CARDNAME.
+SVar:DBExile:DB$ ChangeZone | Destination$ Exile | Defined$ Self
+Oracle:Each player returns each instant and sorcery card from their graveyard to their hand. Exile Ebb and Flow.
