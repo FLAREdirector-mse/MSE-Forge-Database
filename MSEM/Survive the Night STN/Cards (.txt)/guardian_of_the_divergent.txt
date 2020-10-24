@@ -1,0 +1,7 @@
+Name:Guardian of the Divergent
+ManaCost:1 G
+Types:Creature Spirit
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Creature.Other+nonToken+YouCtrl+doesNotShareNameWith YourGraveyard+doesNotShareNameWith OtherYourBattlefield | Origin$ Any | Destination$ Battlefield | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever another nontoken creature enters the battlefield under your control, if it doesn't share a name with another creature you control or a creature card in your graveyard, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+Oracle:Whenever another nontoken creature enters the battlefield under your control, if it doesn't share a name with another creature you control or a creature card in your graveyard, put a +1/+1 counter on Guardian of the Divergent.

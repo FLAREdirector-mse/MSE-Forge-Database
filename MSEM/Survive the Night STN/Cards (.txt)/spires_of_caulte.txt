@@ -1,0 +1,13 @@
+Name:Spires of Caulte
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:DBChoice
+SVar:DBChoice:DB$ GenericChoice | Choices$ DBTorment,DBTap | SpellDescription$ As CARDNAME enters the battlefield, you may torment yourself. If you don't, it enters the battlefield tapped. (You lose 3 life unless you discard a card or sacrifice a nonland permanent.)
+SVar:DBTap:DB$ Tap | Defined$ Self | ETB$ True | SpellDescription$ CARDNAME enters the battlefield tapped.
+SVar:DBTorment:DB$ GenericChoice | Choices$ PaySac,PayDiscard | FallbackAbility$ LoseLifeFallback | AILogic$ PayUnlessCost | SpellDescription$ You lose 3 life unless you discard a card or sacrifice a nonland permanent.
+SVar:PaySac:DB$ LoseLife | LifeAmount$ 3 | Defined$ You | UnlessCost$ Sac<1/Permanent.nonland/nonland permanent> | UnlessPayer$ You | UnlessAI$ LifeLE3 | SpellDescription$ You lose 3 life unless you sacrifice a nonland permanent.
+SVar:PayDiscard:DB$ LoseLife | LifeAmount$ 3 | Defined$ You | UnlessCost$ Discard<1/Card.Other/card> | UnlessPayer$ You | UnlessAI$ LifeLE3 | SpellDescription$ You lose 3 life unless you discard a card.
+SVar:LoseLifeFallback:DB$ LoseLife | Defined$ You | LifeAmount$ 3
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+Oracle:As Spires of Caulte enters the battlefield, you may torment yourself. If you don't, it enters the battlefield tapped. (You lose 3 life unless you discard a card or sacrifice a nonland permanent.)\n{T}: Add {B} or {R}.

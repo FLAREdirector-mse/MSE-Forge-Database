@@ -1,0 +1,7 @@
+Name:Endless Discoveries
+ManaCost:U
+Types:Enchantment
+A:AB$ Draw | Cost$ U AddCounter<1/CHARGE> | RaiseCost$ X | References$ X | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card. This ability costs {1} more to activate for each charge counter on CARDNAME.
+A:AB$ ChangeZone | Cost$ 3 U U Sac<1/CARDNAME> | ValidTgts$ Instant.cmcLEX,Sorcery.cmcLEX | TgtPrompt$ Select target instant or sorcery card with converted mana cost less than or equal to the number of charge counter on this card | Origin$ Graveyard | Destination$ Hand | SpellDescription$ Return target instant or sorcery card with converted mana cost less than or equal to the number of charge counters on CARDNAME from your graveyard to your hand.
+SVar:X:Count$CardCounters.CHARGE
+Oracle:{U}, Put a travel counter on Endless Discoveries: Draw a card. This ability costs {1} more to activate for each travel counter on Endless Discoveries.\n{3}{U}{U}, Sacrifice Endless Discoveries: Return target instant or sorcery card with converted mana cost less than or equal to the number of travel counters on Endless Discoveries from your graveyard to your hand.
