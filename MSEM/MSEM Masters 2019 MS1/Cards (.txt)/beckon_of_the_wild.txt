@@ -1,0 +1,7 @@
+Name:Beckon of the Wild
+ManaCost:X G
+Types:Sorcery
+K:MayFlashCost:1
+A:SP$ ChangeZone | Cost$ X G | Origin$ Library | Destination$ Battlefield | ChangeType$ Creature.Green+cmcLEX | ChangeNum$ 1 | References$ X | StackDescription$ SpellDescription | SpellDescription$ Search your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library.
+SVar:X:Count$xPaid
+Oracle:Sleight (You may cast this spell as though it had flash if you pay {1} more to cast it.)\nSearch your library for a green creature card with converted mana cost X or less, put it onto the battlefield, then shuffle your library.

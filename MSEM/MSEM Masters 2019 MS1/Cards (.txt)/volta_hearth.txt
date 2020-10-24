@@ -1,0 +1,13 @@
+#TODO Figure out how to make the permanent not untap at all.
+Name:Volta Hearth
+ManaCost:2 U U
+Types:Legendary Planeswalker Volta
+Loyalty:3
+T:Mode$ DamageDone | ValidSource$ Creature.Artifact+YouCtrl | ValidTarget$ Player | CombatDamage$ True | OptionalDecider$ You | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever an artifact creature you control deals combat damage to a player, you may put a loyalty counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ LOYALTY | CounterNum$ 1
+A:AB$ Token | Cost$ AddCounter<0/LOYALTY> | Planeswalker$ True | TokenScript$ c_2_2_a_construct | TokenAmount$ 1 | SpellDescription$ Create a 2/2 colorless Construct artifact creature token.
+A:AB$ Tap | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent.nonLand | TgtPrompt$ Select target nonland permanent | SubAbility$ DBPump | SpellDescription$ Tap target nonland permanent. It doesn't untap for as long as you control CARDNAME.
+SVar:DBPump:DB$ Pump | Defined$ Targeted | KW$ HIDDEN CARDNAME doesn't untap during your untap step. | UntilLoseControlOfHost$ True
+A:AB$ Effect | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | Name$ Emblem - Volta Hearth | StaticAbilities$ STPump | Planeswalker$ True | Duration$ Permanent | SpellDescription$ You get an emblem with "Artifact creatures you control get +1/+1."
+SVar:STPump:Mode$ Continuous | EffectZone$ Command | AffectedZone$ Battlefield | Affected$ Creature.Artifact+YouCtrl | AddPower$ 1 | AddToughness$ 1 | Description$ Artifact creatures you control get +1/+1.
+Oracle:Whenever an artifact creature you control deals combat damage to a player, you may put a loyalty counter on Volta Hearth.\n[0]: Create a 2/2 colorless Construct artifact creature token.\n[–2]: Tap target nonland permanent. It doesn't untap for as long as you control Volta Hearth.\n[–3]: You get an emblem with "Artifact creatures you control get +1/+1."

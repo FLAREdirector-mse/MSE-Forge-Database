@@ -1,0 +1,8 @@
+Name:Civilization's Cost
+ManaCost:2 R
+Types:Instant
+K:Flashback:R
+A:SP$ RepeatEach | Cost$ 2 R | RepeatPlayers$ Player | RepeatSubAbility$ DBDamage | DamageMap$ True | AILogic$ PriceOfProgress | SpellDescription$ CARDNAME deals damage to each player equal to the number of nonbasic lands that player controls.
+SVar:DBDamage:DB$ DealDamage | Defined$ Remembered | NumDmg$ X | References$ X
+SVar:X:Count$Valid Land.nonBasic+RememberedPlayerCtrl
+Oracle:Civilization's Cost deals damage to each player equal to the number of nonbasic lands that player controls.\nFlashback {R} (You may cast this card from your graveyard for its flashback cost. Then exile it.)
