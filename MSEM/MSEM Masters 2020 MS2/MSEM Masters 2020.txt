@@ -66,7 +66,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 54 C Awaken the Nav
 55 R Chigau, the Red Market
 56 U Cunning Cephalomancer
-57 C Dark Bargain
+57 C Dark Bargain*
 58 R Dark Rite Cultist
 59 R Explorer's Fate
 60 C Fatethief
