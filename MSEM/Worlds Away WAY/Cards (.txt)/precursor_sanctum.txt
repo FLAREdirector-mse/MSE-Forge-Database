@@ -1,0 +1,11 @@
+Name:Precursor Sanctum
+ManaCost:no cost
+Types:Legendary Land
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | SubAbility$ DBTrigger | SpellDescription$ CARDNAME enters the battlefield tapped. When it does, look at the top three cards of your library, exile one face down, then put the rest on the bottom of your library in any order.
+SVar:DBTrigger:DB$ ImmediateTrigger | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters the battlefield, look at the top three cards of your library, exile one face down, then put the rest on the bottom of your library in any order.
+SVar:TrigDig:DB$ Dig | Defined$ You | DigNum$ 3 | DestinationZone$ Exile | ExileFaceDown$ True | RememberChanged$ True
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Play | Cost$ 2 T | Defined$ Remembered | Amount$ All | Controller$ You | WithoutManaCost$ True | Optional$ True | References$ X | ConditionCheckSVar$ WanderlustTest | ConditionSVarCompare$ GE4 | ForgetRemembered$ True | AILogic$ CheckCondition | SorcerySpeed$ True | PrecostDesc$ Wanderlust — | References$ WanderlustTest | SpellDescription$ You may play the exiled card without paying its mana cost if you control four or more differently named lands. Activate this ability only any time you could cast a sorcery.
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Precursor Sanctum enters the battlefield tapped. When it does, look at the top three cards of your library, exile one face down, then put the rest on the bottom of your library in any order.\n{T}: Add {C}.\nWanderlust — {2}, {T}: You may play the exiled card without paying its mana cost if you control four or more differently named lands. Activate this ability only any time you could cast a sorcery.

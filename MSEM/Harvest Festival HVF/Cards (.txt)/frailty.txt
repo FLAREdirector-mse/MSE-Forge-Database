@@ -1,0 +1,6 @@
+Name:Frailty
+ManaCost:B
+Types:Instant
+A:SP$ Pump | Cost$ B | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -1 | NumDef$ -1 | ConditionDefined$ Targeted | ConditionPresent$ Card.untapped | SubAbility$ DBPump | SpellDescription$ Target creature gets -1/-1 until end of turn. If that creature is tapped, it gets -3/-3 until end of turn instead.
+SVar:DBPump:DB$ Pump | Defined$ Targeted | ConditionDefined$ Targeted | ConditionPresent$ Card.tapped | NumAtt$ -3 | NumDef$ -3
+Oracle:Target creature gets -1/-1 until end of turn. If that creature is tapped, it gets -3/-3 until end of turn instead.

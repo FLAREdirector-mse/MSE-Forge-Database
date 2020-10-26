@@ -1,0 +1,9 @@
+Name:Ghastly Ferry
+ManaCost:3
+Types:Artifact Ship Vehicle
+PT:4/4
+K:Crew:1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 white Spirit creature token with flying.
+SVar:TrigToken:DB$ Token | TokenScript$ w_1_1_spirit_flying | TokenAmount$ 1
+S:Mode$ CantBlockBy | ValidAttacker$ Card.Self | ValidBlocker$ Creature.nonSpirit | Description$ CARDNAME can't be blocked except by Spirits.
+Oracle:When Ghastly Ferry enters the battlefield, create a 1/1 white Spirit creature token with flying.\nGhastly Ferry can't be blocked except by Spirits.\nCrew 1 (Tap any number of creatures you control with total power 1 or greater: This Vehicle becomes an artifact creature until end of turn.)

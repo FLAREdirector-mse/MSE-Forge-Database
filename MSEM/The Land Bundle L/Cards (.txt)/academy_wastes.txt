@@ -1,0 +1,7 @@
+Name:Academy Wastes
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T ExileFromGrave<2/Card> | Produced$ B | SpellDescription$ Add {B}.
+A:AB$ Mana | Cost$ T ExileFromGrave<2/Card> | Produced$ R | SpellDescription$ Add {R}.
+Oracle:{T}: Add {C}.\n{T}, Exile two cards from your graveyard: Add {B} or {R}.

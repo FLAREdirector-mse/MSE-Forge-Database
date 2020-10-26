@@ -1,0 +1,12 @@
+Name:Choking Despair
+ManaCost:2 B
+Types:Enchantment Aura
+K:Enchant creature
+K:ETBReplacement:Other:Mirage
+A:SP$ Attach | Cost$ 2 B | ValidTgts$ Creature | AILogic$ Curse
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ -2 | AddToughness$ -2 | Description$ Enchanted creature gets -2/-2.
+SVar:AltCost:Cost$ B Discard<1/Card> | InstantSpeed$ True | PrecostDesc$ Mirage | Description$ (You may cast this spell as though it had flash for its mirage cost. If you do, sacrifice it at the beginning of the next cleanup step.)
+SVar:Mirage:DB$ DelayedTrigger | ConditionCheckSVar$ AltCostPaid | ConditionSVarCompare$ GE1 | Mode$ Phase | Phase$ Cleanup | Execute$ TrigSac | TriggerDescription$ Sacrifice CARDNAME at the beginning of the next cleanup step. | References$ AltCostPaid
+SVar:TrigSac:DB$ Sacrifice | SacValid$ Self
+SVar:AltCostPaid:Count$AltCost.1.0
+Oracle:Enchant creature\nEnchanted creature gets -2/-2.\nMirage—{B}, Discard a card. (You may cast this spell as though it had flash for its mirage cost. If you do, sacrifice it at the beginning of the next cleanup step.)

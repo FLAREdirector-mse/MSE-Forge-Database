@@ -1,0 +1,7 @@
+Name:Promethean Grotto
+ManaCost:no cost
+Types:Land
+K:Cycling:2
+S:Mode$ Continuous | Affected$ Card.Self | MayPlay$ True | AffectedZone$ Graveyard | Description$ You may play CARDNAME from your graveyard.
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+Oracle:You may play Promethean Grotto from your graveyard.\n{T}: Add {C}.\nCycling {2} ({2}, Discard this card: Draw a card.)

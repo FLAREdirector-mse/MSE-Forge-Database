@@ -1,0 +1,18 @@
+Name:Dreadfire Tyrant
+ManaCost:4 R W B
+Types:Creature Dragon
+PT:7/7
+K:Flying
+K:Menace
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, target opponent reveals their hand. You may put a creature or planeswalker card from it onto the battlefield under your control. That permanent gains haste and "At the beginning of your end step, sacrifice a permanent you control."
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME dies, each opponent loses 5 life. You gain life equal to the life lost this way.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Hand | Destination$ Battlefield | ValidTgts$ Opponent | ChangeType$ Creature,Planeswalker | GainControl$ True | SubAbility$ DBPump | RememberChanged$ True
+SVar:DBPump:DB$ Animate | Keywords$ Haste | Defined$ Remembered | Permanent$ True | Triggers$ EndStepSac | sVars$ TrigSac | SubAbility$ DBCleanup
+SVar:EndStepSac:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | Execute$ TrigSac | TriggerDescription$ At the beginning of your end step, sacrifice a permanent you control.
+SVar:TrigSac:DB$ Sacrifice | Defined$ You | SacValid$ Permanent
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 5 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ AFLifeLost
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+#AFLifeLost will be set by LoseLife
+SVar:AFLifeLost:Number$0
+Oracle:Flying, menace\nWhen Dreadfire Tyrant enters the battlefield, target opponent reveals their hand. You may put a creature or planeswalker card from it onto the battlefield under your control. That permanent gains haste and "At the beginning of your end step, sacrifice a permanent you control."\nWhen Dreadfire Tyrant dies, each opponent loses 5 life. You gain life equal to the life lost this way.

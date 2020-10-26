@@ -1,0 +1,8 @@
+Name:Abandoned Shores
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Land.nonBasic+YouCtrl | ConditionCompare$ GE1 | SpellDescription$ CARDNAME enters the battlefield tapped if you control another nonbasic land.
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+Oracle:Abandoned Shores enters the battlefield tapped if you control another nonbasic land.\n{T}: Add {G} or {U}.

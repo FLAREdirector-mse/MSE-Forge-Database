@@ -1,0 +1,10 @@
+Name:Kevthra's Command
+ManaCost:2 B B
+Types:Instant
+A:SP$ Charm | Cost$ 2 B B | Choices$ DBSac,DBDiscard,DBPump,DBDraw | CharmNum$ 2
+SVar:DBSac:DB$ Sacrifice | ValidTgts$ Player | SacValid$ Creature | SacMessage$ creature | SpellDescription$ Target player sacrifices a creature.
+SVar:DBDiscard:DB$ Discard | Defined$ Player | NumCards$ 2 | Mode$ TgtChoose | SpellDescription$ Each player discards two cards.
+SVar:DBPump:DB$ PumpAll | ValidCards$ Creature | NumAtt$ -1 | NumDef$ -1 | IsCurse$ True | SpellDescription$ All creatures get -1/-1 until end of turn.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 2 | SubAbility$ DBLoseLife | SpellDescription$ You draw two cards and you lose 2 life.
+SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 2
+Oracle:Choose two —\n• Target player sacrifices a creature.\n• Each player discards two cards.\n• All creatures get -1/-1 until end of turn.\n• You draw two cards and you lose 2 life.

@@ -1,0 +1,7 @@
+Name:Kinjiru Assailant
+ManaCost:R
+Types:Creature Human Rogue
+PT:2/1
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Haste | CheckSVar$ X | SVarCompare$ GE1 | References$ X | Description$ CARDNAME has haste as long as an opponent controls a nonbasic land.
+SVar:X:Count$Valid Land.nonBasic+OppCtrl
+Oracle:Kinjiru Assailant has haste as long as an opponent controls a nonbasic land.

@@ -1,0 +1,5 @@
+Name:Scintillate
+ManaCost:1 R
+Types:Instant
+A:SP$ Mana | Cost$ 1 R | Produced$ Any | Amount$ 3 | SpellDescription$ Add three mana of any one color.
+Oracle:Add three mana of any one color.

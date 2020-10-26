@@ -1,0 +1,5 @@
+Name:Rainforest Spring
+ManaCost:
+Types:Land Forest Island 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {G} or {U}.)\nRainforest Spring enters the battlefield tapped.

@@ -1,0 +1,9 @@
+Name:Korrinary Warcaller
+ManaCost:2 W
+Types:Creature Human Rebel Soldier
+PT:3/2
+K:Kicker:X
+T:Mode$ ChangesZone | ValidCard$ Card.Self+kicked | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When Korrinary Warcaller enters the battlefield, if it was kicked, search your library for a Rebel permanent card with converted mana cost X or less, put it onto the battlefield, then shuffle your library.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.Rebel+cmcLEX | ChangeNum$ 1 | References$ X
+SVar:X:Count$xPaid
+Oracle:Kicker {X} (You may pay an additional {X} as you cast this spell.)\nWhen Korrinary Warcaller enters the battlefield, if it was kicked, search your library for a Rebel permanent card with converted mana cost X or less, put it onto the battlefield, then shuffle your library.

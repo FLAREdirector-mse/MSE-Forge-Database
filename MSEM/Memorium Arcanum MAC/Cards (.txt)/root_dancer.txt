@@ -1,0 +1,7 @@
+Name:Root Dancer
+ManaCost:G
+Types:Creature Human Shaman
+PT:1/1
+S:Mode$ ETBTapped | ValidCard$ Artifact,Land | Description$ Artifacts and lands enter the battlefield tapped.
+AI:RemoveDeck:Random
+Oracle:Artifacts and lands enter the battlefield tapped.

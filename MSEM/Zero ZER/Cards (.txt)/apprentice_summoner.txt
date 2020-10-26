@@ -1,0 +1,7 @@
+Name:Apprentice Summoner
+ManaCost:2 G G
+Types:Creature Elf Wizard
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChange | TriggerDescription$ When CARDNAME enters the battlefield, search your library for a creature card with converted mana cost 1 or less, put it onto the battlefield, then shuffle your library.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Creature.cmcLE1 | ChangeNum$ 1
+Oracle:When Apprentice Summoner enters the battlefield, search your library for a creature card with converted mana cost 1 or less, put it onto the battlefield, then shuffle your library.

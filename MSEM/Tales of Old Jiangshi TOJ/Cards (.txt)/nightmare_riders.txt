@@ -1,0 +1,9 @@
+Name:Nightmare Riders
+ManaCost:1 B G
+Types:Creature Spirit Warrior
+PT:3/3
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Graveyard | Execute$ TrigMill | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, if CARDNAME is in your graveyard, you may mill two cards.
+SVar:TrigMill:DB$ Mill | NumCards$ 2 | Defined$ You
+SVar:DiscardMe:3
+DeckHas:Ability$Graveyard
+Oracle:At the beginning of your upkeep, if Nightmare Riders is in your graveyard, you may mill two cards.

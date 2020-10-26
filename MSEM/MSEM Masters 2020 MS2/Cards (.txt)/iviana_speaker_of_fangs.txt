@@ -1,0 +1,13 @@
+Name:Iviana, Speaker of Fangs
+ManaCost:4 U R
+Types:Legendary Planeswalker Iviana
+Loyalty:5
+A:AB$ Repeat | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | RepeatSubAbility$ DBDraw | MaxRepeat$ 2 | StackDescription$ SpellDescription | SpellDescription$ You may draw a card. If you don't, create a Treasure token. Repeat this process once.
+A:AB$ DamageAll | Cost$ AddCounter<0/LOYALTY> | Planeswalker$ True | NumDmg$ X | ValidCards$ Creature.YouDontCtrl | ValidDescription$ each creature you don't control. | References$ X | SpellDescription$ CARDNAME deals X damage to each creature you don't control, where X is 2 plus twice the number of Dragons you control.
+A:AB$ Token | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | TokenScript$ r_5_5_dragon_flying_haste | TokenAmount$ 1 | SpellDescription$ Create a 5/5 red Dragon creature token with flying and haste.
+SVar:DBDraw:DB$ Draw | Defined$ You | Upto$ True | NumCards$ 1 | RememberDrawn$ True | SubAbility$ DBToken
+SVar:DBToken:DB$ Token | TokenScript$ c_a_treasure_sac | TokenAmount$ Y | References$ Y | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:Y:Count$RememberedSize/NMinus.1
+SVar:X:Count$Valid Dragon.YouCtrl/Plus.2
+Oracle:[+2]: You may draw a card. If you don't, create a Treasure token. Repeat this process once.\n[0]: Iviana deals X damage to each creature you don't control, where X is 2 plus twice the number of Dragons you control.\n[–3]: Create a 5/5 red Dragon creature token with flying and haste.

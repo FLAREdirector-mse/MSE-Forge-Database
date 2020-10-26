@@ -1,0 +1,5 @@
+Name:Anzen, Beyond the Sea
+ManaCost:no cost
+Types:Legendary Land
+S:Mode$ Continuous | Affected$ Land | AddType$ Island | Description$ Each land is an Island in addition to its other land types.
+Oracle:Each land is an Island in addition to its other land types.

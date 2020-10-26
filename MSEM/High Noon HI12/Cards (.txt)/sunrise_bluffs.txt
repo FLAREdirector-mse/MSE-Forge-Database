@@ -1,0 +1,8 @@
+Name:Sunrise Bluffs
+ManaCost:no cost
+Types:Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ Opponent | TriggerZones$ Battlefield | Execute$ ABUntap | TriggerDescription$ At the beginning of each opponent's upkeep, you may pay 1 life. If you do, untap CARDNAME.
+SVar:ABUntap:AB$ Untap | Cost$ PayLife<1>
+Oracle:Sunrise Bluffs enters the battlefield tapped.\n{T}: Add {R}.\nAt the beginning of each opponent's upkeep, you may pay 1 life. If you do, untap Sunrise Bluffs.

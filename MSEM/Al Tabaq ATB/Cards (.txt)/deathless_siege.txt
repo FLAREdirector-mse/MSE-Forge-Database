@@ -1,0 +1,10 @@
+Name:Deathless Siege
+ManaCost:B B B
+Types:Enchantment
+S:Mode$ Continuous | Affected$ You | AddKeyword$ You don't lose the game for having 0 or less life. | Description$ You don't lose the game for having 0 or less life.
+T:Mode$ DamageDoneOnce | ValidTarget$ You | TriggerZones$ Battlefield | Execute$ TrigMill | TriggerDescription$ Whenever you're dealt damage, mill that many cards.
+SVar:TrigMill:DB$ Mill | Defined$ You | NumCards$ X | References$ X
+SVar:X:TriggerCount$DamageAmount
+A:AB$ ChangeZone | Cost$ B PayLife<2> | Origin$ Graveyard | Destination$ Library | LibraryPosition$ -1 | ValidTgts$ Card.YouOwn | TgtPrompt$ Select target card in your graveyard | SpellDescription$ Put target card in your graveyard on the bottom of your library.
+SVar:X:TriggerCount$DamageAmount
+Oracle:You don't lose the game for having 0 or less life.\nWhenever you're dealt damage, mill that many cards.\n{B}, Pay 2 life: Put target card in your graveyard on the bottom of your library.

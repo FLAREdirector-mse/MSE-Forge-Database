@@ -1,0 +1,6 @@
+Name:Courtroom Halls
+ManaCost:no cost
+Types:Land Mountain Plains
+K:CARDNAME enters the battlefield tapped.
+K:Cycling:RW
+Oracle:({T}: Add {R} or {W}.)\nCourtroom Halls enters the battlefield tapped.\nCycling {R/W} ({R/W}, Discard this card: Draw a card.)

@@ -1,0 +1,10 @@
+Name:Crystal Wave
+ManaCost:U B R
+Types:Instant
+K:Escalate:2
+A:SP$ Charm | Cost$ U B R | MinCharmNum$ 1 | CharmNum$ 3 | Choices$ DBCounter,DBDestroy,DBDiscard
+SVar:DBCounter:DB$ Counter | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SpellDescription$ Counter target spell.
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
+SVar:DBDiscard:DB$ Discard | Mode$ Hand | SubAbility$ DBDraw | SpellDescription$ Discard your hand, then draw two cards. 
+SVar:DBDraw:DB$ Draw | NumCards$ 2
+Oracle:Escalate {2} (Pay this cost for each mode chosen beyond the first.)\nChoose one or more —\n• Counter target spell.\n• Destroy target creature.\n• Discard your hand, then draw two cards.

@@ -1,0 +1,8 @@
+Name:Telarine Infantry
+ManaCost:2 W
+Types:Creature Human Soldier
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 Scout creature token that's all colors.
+SVar:TrigToken:DB$ Token | TokenScript$ wubrg_1_1_scout | TokenAmount$ 1
+S:Mode$ Continuous | Affected$ Creature.token+YouCtrl | AddKeyword$ Vigilance | Description$ Creature tokens you control have vigilance.
+Oracle:When Telarine Infantry enters the battlefield, create a 1/1 Scout creature token that's all colors.\nCreature tokens you control have vigilance.

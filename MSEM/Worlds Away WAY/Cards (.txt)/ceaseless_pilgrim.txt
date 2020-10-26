@@ -1,0 +1,8 @@
+Name:Ceaseless Pilgrim
+ManaCost:3 W
+Types:Creature Human Cleric
+PT:2/2
+K:Lifelink
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target creature card with converted mana cost 3 or less from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ChangeZone | Origin$ Graveyard | Destination$ Hand | ValidTgts$ Creature.YouCtrl+cmcLE3
+Oracle:Lifelink\nWhen Ceaseless Pilgrim enters the battlefield, return target creature card with converted mana cost 3 or less from your graveyard to your hand.

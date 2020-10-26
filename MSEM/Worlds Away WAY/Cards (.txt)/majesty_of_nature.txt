@@ -1,0 +1,7 @@
+Name:Majesty of Nature
+ManaCost:3 G G
+Types:Enchantment
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddPower$ 2 | AddToughness$ 2 | Description$ Creatures you control get +2/+2.
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Trample | AddHiddenKeyword$ CantBeBlockedByAmount GT1 | CheckSVar$ WanderlustTest | SVarCompare$ GE4 | Description$ Wanderlust — As long as you control four or more differently named lands, creatures you control have trample and can't be blocked by more than one creature.
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Creatures you control get +2/+2.\nWanderlust — As long as you control four or more differently named lands, creatures you control have trample and can't be blocked by more than one creature.

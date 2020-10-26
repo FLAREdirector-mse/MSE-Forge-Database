@@ -1,0 +1,6 @@
+Name:Ornate Interior
+ManaCost:no cost
+Types:Land Plains Swamp
+K:CARDNAME enters the battlefield tapped.
+K:Cycling:WB
+Oracle:({T}: Add {W} or {B}.)\nOrnate Interior enters the battlefield tapped.\nCycling {W/B} ({W/B}, Discard this card: Draw a card.)

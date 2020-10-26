@@ -1,0 +1,9 @@
+Name:Blundering Clocktower
+ManaCost:no cost
+Types:Land Animus
+PT:7/7
+K:Trample
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Animate | Cost$ 2 | Defined$ Self | Types$ Creature | RemoveCardTypes$ True | UntilYourNextTurn$ True | SubAbility$ DBSkipTurn | SpellDescription$ CARDNAME becomes a creature until your next turn. Skip your next turn.
+SVar:DBSkipTurn:DB$ SkipTurn | Defined$ You | NumTurns$ 1
+Oracle:Trample\n{T}: Add {C}.\n{2}: Blundering Clocktower becomes a creature until your next turn. Skip your next turn.

@@ -1,0 +1,5 @@
+Name:Decree of Bias
+ManaCost:U U
+Types:Instant
+A:SP$ Counter | Cost$ U U | TargetType$ Spell.Creature,Spell.Planeswalker,Activated | TgtPrompt$ Select target spell or ability | ValidTgts$ Card | SpellDescription$ Counter target creature spell, planeswalker spell, or activated ability.
+Oracle:Counter target creature spell, planeswalker spell, or activated ability.

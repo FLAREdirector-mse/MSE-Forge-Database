@@ -1,0 +1,8 @@
+Name:Chamber of Reflections
+ManaCost:2
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card, then choose a creature card name.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBNameCard
+SVar:DBNameCard:DB$ NameCard | Defined$ You | ValidCards$ Card.Creature | ValidDesc$ creature
+S:Mode$ Continuous | Affected$ Permanent.NamedCard+YouCtrl | AddKeyword$ Hexproof | AddHiddenKeyword$ Legend rule doesn't apply to CARDNAME. | Description$ Permanents you control with the chosen name have hexproof and the "legend rule" doesn't apply to them.
+Oracle:When Chamber of Reflections enters the battlefield, draw a card, then choose a legendary card name.\nPermanents you control with the chosen name have hexproof and the "legend rule" doesn't apply to them.
