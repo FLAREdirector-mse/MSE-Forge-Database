@@ -1,0 +1,8 @@
+Name:Gao'Wu, Master Soothsayer
+ManaCost:1 W
+Types:Legendary Creature Human
+PT:2/1
+K:First Strike
+S:Mode$ Continuous | Affected$ Creature.powerGTX | References$ X | AddHiddenKeyword$ CARDNAME can't attack. | Description$ Creatures with power greater than CARDNAME's can't attack.
+SVar:X:Count$CardPower
+Oracle:First strike\nCreatures with power greater than Gao'Wu, Master Soothsayer's power can't attack.

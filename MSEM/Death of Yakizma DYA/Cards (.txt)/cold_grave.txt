@@ -1,0 +1,8 @@
+Name:Cold Grave
+ManaCost:0
+Types:Snow Artifact
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile target card in a graveyard.
+SVar:TrigExile:DB$ ChangeZone | ValidTgts$ Card | TgtPrompt$ Select target card in a graveyard | Origin$ Graveyard | Destination$ Exile
+A:AB$ ChangeZoneAll | Cost$ 2 T Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | ChangeType$ Card | SubAbility$ DBScry | SpellDescription$ Exile all cards from target player's graveyard. Scry 1.
+SVar:DBScry:DB$ Scry | Defined$ You | ScryNum$ 1
+Oracle:When Cold Grave enters the battlefield, exile target card in a graveyard.\n{2}, {T}, Sacrifice Cold Grave: Exile all cards from target player's graveyard. Scry 1.

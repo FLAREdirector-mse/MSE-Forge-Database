@@ -1,0 +1,7 @@
+Name:Ayala's Concord
+ManaCost:2 G W
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 2 G W | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.cmcLE3 | ChangeNum$ 1 | SubAbility$ DBGainLife | SpellDescription$ Search your library for a permanent card with converted mana 3 or less and put it onto the battlefield. Shuffle your library. Motley — Then if there are five or more names among nonland permanents you control, you gain 7 life.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 7 | ConditionCheckSVar$ MotleyTest | ConditionSVarCompare$ GE5
+SVar:MotleyTest:Count$DifferentCardNames_Permanent.nonLand+YouCtrl+inZoneBattlefield
+Oracle:Search your library for a permanent card with converted mana 3 or less and put it onto the battlefield. Shuffle your library.\nMotley — Then if there are five or more names among nonland permanents you control, you gain 7 life.

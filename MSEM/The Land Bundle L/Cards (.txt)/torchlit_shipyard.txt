@@ -1,0 +1,6 @@
+Name:Torchlit Shipyard
+ManaCost:no cost
+Types:Land Island Mountain
+K:CARDNAME enters the battlefield tapped.
+K:Cycling:UR
+Oracle:({T}: Add {U} or {R}.)\nTorchlit Shipyard enters the battlefield tapped.\nCycling {U/R} ({U/R}, Discard this card: Draw a card.)

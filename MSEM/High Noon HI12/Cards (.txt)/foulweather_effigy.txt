@@ -1,0 +1,7 @@
+Name:Foulweather Effigy
+ManaCost:3
+Types:Artifact Creature Scarecrow
+PT:2/2
+S:Mode$ RaiseCost | ValidCard$ Card.cmcLE2 | Type$ Spell | Amount$ 1 | Description$ Spells with converted mana cost 2 or less cost {1} more to cast.
+S:Mode$ ReduceCost | ValidCard$ Card.cmcGE4 | Type$ Spell | Amount$ 1 | Description$ Spells with converted mana cost 4 or greater cost {1} less to cast.
+Oracle:Spells with converted mana cost 2 or less cost {1} more to cast.\nSpells with converted mana cost 4 or greater cost {1} less to cast.

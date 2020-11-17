@@ -1,0 +1,8 @@
+Name:Abandoned Forge
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Land.nonBasic+YouCtrl | ConditionCompare$ GE1 | SpellDescription$ CARDNAME enters the battlefield tapped if you control another nonbasic land.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+Oracle:Abandoned Forge enters the battlefield tapped if you control another nonbasic land.\n{T}: Add {R} or {W}.

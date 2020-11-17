@@ -1,0 +1,13 @@
+Name:Crush All in Their Path
+ManaCost:4 G G
+Types:Sorcery Revelation
+PT:6/6
+K:Trample
+A:SP$ PumpAll | Cost$ 4 G G | ValidCards$ Creature.YouCtrl | NumAtt$ +4 | NumDef$ +4 | KW$ Trample | SpellDescription$ Creatures you control get +4/+4 and gain trample until end of turn.
+A:SP$ PumpAll | Cost$ 8 G G | ActivationZone$ Graveyard | ValidCards$ Creature.YouCtrl | NumAtt$ +4 | NumDef$ +4 | KW$ Trample | SubAbility$ Coalesce | PrecostDesc$ Coalesce | CostDesc$ {8}{G}{G} | SpellDescription$ (You may cast this from your graveyard for {8}{G}{G}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
+SVar:Coalesce:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile | OverwriteTypes$ True | Types$ Creature,Horror | Permanent$ True | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+S:Mode$ Continuous | Affected$ Creature.Self | AddKeyword$ Trample | Description$ Trample
+Oracle:Creatures you control get +4/+4 and gain trample until end of turn.\nCoalesce {8}{G}{G} (You may cast this from your graveyard for {8}{G}{G}. If you do, put it onto the battlefield as a Horror creature after it resolves. Exile it if it would leave the battlefield or not resolve.)\nTrample

@@ -1,0 +1,8 @@
+Name:Valiant's Stronghold
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ Reveal<1/Mountain,Plains/Mountain or Plains> | UnlessPayer$ You | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may reveal a Mountain or Plains card from your hand. If you don't, CARDNAME enters the battlefield tapped.
+Oracle:As Valiant's Stronghold enters the battlefield, you may reveal a Mountain or Plains card from your hand. If you don't, Valiant's Stronghold enters the battlefield tapped.\n{T}: Add {R} or {W}.

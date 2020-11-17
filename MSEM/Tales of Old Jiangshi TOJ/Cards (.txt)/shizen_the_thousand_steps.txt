@@ -1,0 +1,8 @@
+Name:Shizen, the Thousand Steps
+ManaCost:1 G
+Types:Legendary Enchantment
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card, then choose a creature card name.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBNameCard
+SVar:DBNameCard:DB$ NameCard | Defined$ You | ValidCards$ Card.Creature | ValidDesc$ creature
+S:Mode$ Continuous | Affected$ Creature.NamedCard+YouCtrl | AddKeyword$ Hexproof | AddToughness$ 1 | Description$ Creatures you control with the chosen name get +0/+1 and have hexproof.
+Oracle:When Shizen, the Thousand Steps enters the battlefield, draw a card, then choose a creature card name.\nCreatures you control with the chosen name get +0/+1 and have hexproof.

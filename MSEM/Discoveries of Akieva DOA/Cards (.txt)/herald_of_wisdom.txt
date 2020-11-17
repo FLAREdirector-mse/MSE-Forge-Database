@@ -1,0 +1,8 @@
+Name:Herald of Wisdom
+ManaCost:4 U U
+Types:Creature Elemental
+PT:5/5
+K:Flash
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPlay | TriggerDescription$ When CARDNAME enters the battlefield, you may cast target instant or sorcery card with converted mana cost 4 or less from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.
+SVar:TrigPlay:DB$ Play | TgtZone$ Graveyard | ValidTgts$ Instant.YouCtrl+cmcLE4,Sorcery.YouCtrl+cmcLE4 | TgtPrompt$ Choose target instant or sorcery card from your graveyard | WithoutManaCost$ True | Optional$ True | ReplaceGraveyard$ Exile | AILogic$ ReplaySpell
+Oracle:Flash\nWhen Herald of Wisdom enters the battlefield, you may cast target instant or sorcery card with converted mana cost 4 or less from your graveyard without paying its mana cost. If that card would be put into your graveyard this turn, exile it instead.

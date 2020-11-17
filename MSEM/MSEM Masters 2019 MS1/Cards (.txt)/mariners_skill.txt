@@ -1,0 +1,8 @@
+Name:Mariner's Skill
+ManaCost:2 U
+Types:Instant
+A:SP$ Charm | Cost$ 2 U | Choices$ DBBounce,DBReturn,DBDraw | CharmNum$ 2
+SVar:DBBounce:DB$ ChangeZone | ValidTgts$ Card | TgtZone$ Stack | Origin$ Stack | Fizzle$ True | Destination$ Hand | SpellDescription$ Return target spell to its owner's hand.
+SVar:DBReturn:DB$ ChangeZone | ValidTgts$ Instant.YouCtrl+cmcLE2,Sorcery.YouCtrl+cmcLE2 | TgtPrompt$ Select target instant or sorcery card in your graveyard with converted mana cost 2 or less | Origin$ Graveyard | Destination$ Hand | SpellDescription$ Return target instant or sorcery card with converted mana cost 2 from your graveyard to your hand.
+SVar:DBDraw:DB$ Draw | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Choose two —\n• Return target spell to its owner's hand.\n• Return target instant or sorcery card with converted mana cost 2 from your graveyard to your hand.\n• Draw a card.

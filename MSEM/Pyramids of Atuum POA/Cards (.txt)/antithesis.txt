@@ -1,0 +1,10 @@
+Name:Antithesis
+ManaCost:3 B B
+Types:Enchantment
+K:ETBReplacement:Other:Mirage
+S:Mode$ Continuous | Affected$ Creature.YouDontCtrl | AddPower$ -1 | AddToughness$ -1 | Description$ Creatures you don't control get -1/-1.
+SVar:AltCost:Cost$ 1 B | InstantSpeed$ True | PrecostDesc$ Mirage | Description$ (You may cast this spell as though it had flash for its mirage cost. If you do, sacrifice it at the beginning of the next cleanup step.)
+SVar:Mirage:DB$ DelayedTrigger | ConditionCheckSVar$ AltCostPaid | ConditionSVarCompare$ GE1 | Mode$ Phase | Phase$ Cleanup | Execute$ TrigSac | TriggerDescription$ Sacrifice CARDNAME at the beginning of the next cleanup step. | References$ AltCostPaid
+SVar:TrigSac:DB$ Sacrifice | SacValid$ Self
+SVar:AltCostPaid:Count$AltCost.1.0
+Oracle:Creatures you don't control get -1/-1.\nMirage {1}{B} (You may cast this spell as though it had flash for its mirage cost. If you do, sacrifice it at the beginning of the next cleanup step.)

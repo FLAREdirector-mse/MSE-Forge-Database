@@ -1,0 +1,10 @@
+Name:Seto San, the Sacred Hand
+ManaCost:3 W W
+Types:Legendary Planeswalker Seto
+Loyalty:3
+A:AB$ Token | Cost$ AddCounter<1/LOYALTY> | TokenScript$ w_1_1_warrior | TokenAmount$ 2 | SubAbility$ DBGainLife | SpellDescription$ Create two 1/1 white Warrior creature tokens. You gain 2 life.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+A:AB$ DestroyAll | Cost$ SubCounter<2/LOYALTY> | ValidCards$ Creature.greatestPower | SpellDescription$ Destroy each creature with the greatest power or tied for the greatest power among creatures on the battlefield.
+A:AB$ PumpAll | Cost$ SubCounter<5/LOYALTY> | ValidCards$ Creature.YouCtrl | NumAtt$ X | NumDef$ X | KW$ Lifelink | References$ X | SpellDescription$ Creatures you control get +X/+X and gain lifelink until end of turn, where X is the number of creatures you control.
+SVar:X:Count$Valid Creature.YouCtrl
+Oracle:[+1]: Create two 1/1 white Warrior creature tokens. You gain 2 life.\n[–2]: Destroy each creature with the greatest power or tied for the greatest power among creatures on the battlefield.\n[–5]: Creatures you control get +X/+X and gain lifelink until end of turn, where X is the number of creatures you control.

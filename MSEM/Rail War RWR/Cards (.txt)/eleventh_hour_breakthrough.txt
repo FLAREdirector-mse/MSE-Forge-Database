@@ -1,0 +1,8 @@
+Name:Eleventh Hour Breakthrough
+ManaCost:1 R
+Types:Sorcery
+A:SP$ Token | Cost$ 1 R | TokenScript$ c_a_powercell | TokenAmount$ 3 | TokenTapped$ True | SubAbility$ DBUntap | SpellDescription$ Create three tapped colorless Powercell artifact tokens with “{T}: Add {C}.” Then untap all artifacts you control. At the beginning of the next end step, sacrifice three artifacts.
+SVar:DBUntap:DB$ UntapAll | ValidCards$ Artifact | SubAbility$ DBTrigger
+SVar:DBTrigger:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | Execute$ TrigSac | TriggerDescription$ At the beginning of this end step, sacrifice three artifacts.
+SVar:TrigSac:DB$ Sacrifice | Amount$ 3 | SacValid$ Artifact | Defined$ You
+Oracle:Create three tapped colorless Powercell artifact tokens with "{T}: Add {C}." Then untap all artifacts you control. At the beginning of the next end step, sacrifice three artifacts.

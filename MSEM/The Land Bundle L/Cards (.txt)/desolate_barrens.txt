@@ -1,0 +1,5 @@
+Name:Desolate Barrens
+ManaCost:
+Types:Land Plains Swamp 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {W} or {B}.)\nDesolate Barrens enters the battlefield tapped.

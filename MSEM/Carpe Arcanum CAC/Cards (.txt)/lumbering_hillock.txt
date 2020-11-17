@@ -1,0 +1,8 @@
+Name:Lumbering Hillock
+ManaCost:no cost
+Types:Land Forest Animus
+PT:4/4
+K:CARDNAME enters the battlefield tapped.
+K:Trample
+A:AB$ Animate | Cost$ 2 G G | Defined$ Self | Types$ Creature | SpellDescription$ CARDNAME becomes a creature in addition to its other types until end of turn.
+Oracle:({T}: Add {G}.)\nLumbering Hillock enters the battlefield tapped.\nTrample\n{2}{G}{G}: Lumbering Hillock becomes a creature in addition to its other types until end of turn.\n[4/4]

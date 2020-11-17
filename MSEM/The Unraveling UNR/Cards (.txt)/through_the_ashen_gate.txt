@@ -1,0 +1,6 @@
+Name:Through the Ashen Gate
+ManaCost:B
+Types:Instant
+K:Flashback:PayLife<2>
+A:SP$ Investigate | Cost$ B | SpellDescription$ Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+Oracle:Investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")\nFlashback–Pay 2 life. (You may cast this card from your graveyard for its flashback cost. Then exile it.)

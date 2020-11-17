@@ -1,0 +1,15 @@
+Name:Entelan Erasure
+ManaCost:2 U
+Types:Sorcery
+T:Mode$ SpellCast | ValidCard$ Card.Self | Execute$ TrackPresence | Static$ True
+SVar:TrackPresence:DB$ StoreSVar | SVar$ LegendPresent | Type$ CountSVar | Expression$ X | References$ X,Y
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Execute$ TrackReset | Origin$ Stack | Destination$ Any | Static$ True
+SVar:TrackReset:DB$ StoreSVar | SVar$ LegendPresent | Type$ Number | Expression$ 0
+A:SP$ ChangeZoneAll | Cost$ 2 U | ChangeType$ Card | Origin$ Hand,Graveyard | Destination$ Library | Shuffle$ True | Random$ True | SubAbility$ DBDraw | UseAllOriginZones$ True | AILogic$ TimeTwister | SpellDescription$ Each player shuffles their hand and graveyard into their library. Then each player draws seven cards. If you didn't control a blue legendary creature or planeswalker as you cast this spell, discard three cards. Exile CARDNAME.
+SVar:DBDraw:DB$ Draw | Defined$ Player | NumCards$ 7 | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | Defined$ You | NumCards$ 3 | Mode$ TgtChoose | ConditionCheckSVar$ LegendPresent | ConditionSVarCompare$ EQ0 | References$ LegendPresent | SubAbility$ DBExile
+SVar:DBExile:DB$ ChangeZone | Destination$ Exile | Defined$ Self
+SVar:LegendPresent:Number$0
+SVar:X:Count$Valid Creature.Legendary+Blue+YouCtrl/Plus.Y
+SVar:Y:Count$Valid Planeswalker.Legendary+Blue+YouCtrl
+Oracle:Each player shuffles their hand and graveyard into their library. Then each player draws seven cards. If you didn't control a blue legendary creature or planeswalker as you cast this spell, discard three cards. Exile Entelan Erasure.

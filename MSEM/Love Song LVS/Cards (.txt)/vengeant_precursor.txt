@@ -1,0 +1,9 @@
+Name:Vengeant Precursor
+ManaCost:U R
+Types:Creature Elemental Wizard
+PT:1/1
+K:Haste
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever you cast a noncreature spell, put a +1/+1 counter on CARDNAME. It gains trample until end of turn.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Self | KW$ Trample
+Oracle:Haste\nWhenever you cast a noncreature spell, put a +1/+1 counter on Vengeant Precursor. It gains trample until end of turn.

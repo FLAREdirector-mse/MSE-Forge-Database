@@ -1,0 +1,10 @@
+Name:Shifting Crag
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ GenericChoice | Cost$ Sac<1/CARDNAME> | Choices$ TPlains,TIsland,TSwamp,TForest | SpellDescription$ Choose a basic land type other than Mountain. Create a tapped colorless land token that's a Mountain and the chosen basic land type.
+SVar:TPlains:DB$ Token | TokenScript$ land_mountain_plains | SpellDescription$ Plains
+SVar:TIsland:DB$ Token | TokenScript$ land_island_mountain | SpellDescription$ Island
+SVar:TSwamp:DB$ Token | TokenScript$ land_swamp_mountain | SpellDescription$ Swamp
+SVar:TForest:DB$ Token | TokenScript$ land_mountain_forest | SpellDescription$ Forest
+Oracle:{T}: Add {C}.\nSacrifice Shifting Crag: Choose a basic land type other than Mountain. Create a tapped colorless land token that's a Mountain and the chosen basic land type.

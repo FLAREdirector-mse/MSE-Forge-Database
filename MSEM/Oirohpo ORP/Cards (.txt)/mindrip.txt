@@ -1,0 +1,10 @@
+Name:Mindrip
+ManaCost:X U U B
+Types:Instant
+A:SP$ Counter | Cost$ X U U B | TargetType$ Spell | ValidTgts$ Card | SubAbility$ DBChange | SpellDescription$ Counter target spell. Search its controller's library for a card with converted mana cost X or less and cast it without paying its mana cost. Then that player shuffles their library.
+SVar:DBChange:DB$ ChangeZone | Origin$ Library | Destination$ Library | ChangeType$ Card.cmcEQX | ChangeNum$ 1 | RememberChanged$ True | Imprint$ True | Reveal$ True | Shuffle$ False | SubAbility$ DBPlay | DefinedPlayer$ TargetedController | Chooser$ You | References$ X
+SVar:DBPlay:DB$ Play | Defined$ Remembered.nonLand | WithoutManaCost$ True | SubAbility$ DBShuffle
+SVar:DBShuffle:DB$ Shuffle | Defined$ TargetedController | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearImprinted$ True | ClearRemembered$ True
+SVar:X:Count$xPaid
+Oracle:Counter target spell. Search its controller's library for a card with converted mana cost X or less and cast it without paying its mana cost. Then that player shuffles their library.

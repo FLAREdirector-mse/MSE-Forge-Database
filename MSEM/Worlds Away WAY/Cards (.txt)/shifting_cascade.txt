@@ -1,0 +1,10 @@
+Name:Shifting Cascade
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ GenericChoice | Cost$ Sac<1/CARDNAME> | Choices$ TPlains,TSwamp,TMountain,TForest | SpellDescription$ Choose a basic land type other than Island. Create a tapped colorless land token that's an Island and the chosen basic land type.
+SVar:TPlains:DB$ Token | TokenScript$ land_plains_island | SpellDescription$ Plains
+SVar:TSwamp:DB$ Token | TokenScript$ land_island_swamp | SpellDescription$ Swamp
+SVar:TMountain:DB$ Token | TokenScript$ land_island_mountain | SpellDescription$ Mountain
+SVar:TForest:DB$ Token | TokenScript$ land_forest_island | SpellDescription$ Forest
+Oracle:{T}: Add {C}.\nSacrifice Shifting Cascade: Choose a basic land type other than Island. Create a tapped colorless land token that's an Island and the chosen basic land type.

@@ -1,0 +1,8 @@
+Name:Arboreal Runes
+ManaCost:3
+Types:Artifact
+K:ETBReplacement:Other:ETBTapped
+SVar:ETBTapped:DB$ Tap | Defined$ Self.wasNotCast | ETB$ True | SpellDescription$ CARDNAME enters the battlefield tapped if it wasn't cast.
+S:Mode$ Continuous | Affected$ Card.Self | EffectZone$ Battlefield,Library | CharacteristicDefining$ True | AddType$ Land & Forest | Description$ As long as CARDNAME is in your library or on the battlefield, it's a Forest land in addition to its other types.
+A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+Oracle:Arboreal Runes enters the battlefield tapped if it wasn't cast.\nAs long as Arboreal Runes is in your library or on the battlefield, it's a Forest land in addition to its other types.\n{T}: Add one mana of any color.

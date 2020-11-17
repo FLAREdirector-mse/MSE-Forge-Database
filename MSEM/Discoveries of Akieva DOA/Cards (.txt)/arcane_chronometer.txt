@@ -1,0 +1,5 @@
+Name:Arcane Chronometer
+ManaCost:3
+Types:Artifact
+S:Mode$ RaiseCost | ValidCard$ Artifact | Type$ Ability | Amount$ 2 | AffectedZone$ Battlefield | Description$ Activated abilities of artifacts cost {2} more to activate.
+Oracle:Activated abilities of artifacts cost {2} more to activate.

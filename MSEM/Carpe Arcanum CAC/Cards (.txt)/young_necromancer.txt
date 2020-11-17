@@ -1,0 +1,7 @@
+Name:Young Necromancer
+ManaCost:1 B
+Types:Creature Human Wizard
+PT:2/1
+T:Mode$ ChangesZone | ValidCard$ Creature.nonToken | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ Whenever a nontoken creature you control dies, create a 1/1 black Skeleton creature token.
+SVar:TrigToken:DB$ Token | TokenScript$ b_1_1_skeleton | TokenAmount$ 1
+Oracle:Whenever a nontoken creature you control dies, create a 1/1 black Skeleton creature token.

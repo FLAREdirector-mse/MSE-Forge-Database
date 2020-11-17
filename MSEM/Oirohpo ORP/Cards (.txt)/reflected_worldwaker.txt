@@ -1,0 +1,8 @@
+Name:Reflected Worldwalker
+ManaCost:4 B B B
+Types:Creature Avatar
+PT:4/5
+K:Indestructible
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, each player puts their hand into their sideboard.
+SVar:TrigChangeZone:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Hand | Destination$ Sideboard | Hidden$ True
+Oracle:Indestructible\nWhen Reflected Worldwalker enters the battlefield, each player puts their hand into their sideboard.

@@ -1,0 +1,6 @@
+Name:Citadel of Denial
+ManaCost:no cost
+Types:Legendary Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ChangeZone | Cost$ 1 C C T | ValidTgts$ Creature.Legendary | TgtPrompt$ Select target legendary creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target legendary creature to its owner's hand.
+Oracle:{T}: Add {C}.\n{1}{C}{C}, {T}: Return target legendary creature to its owner's hand.

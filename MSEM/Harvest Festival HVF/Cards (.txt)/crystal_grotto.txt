@@ -1,0 +1,7 @@
+Name:Crystal Grotto
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ B | SpellDescription$ Add {B}.
+Oracle:{T}: Add {C}.\n{T}, Pay 1 life: Add {U} or {B}.

@@ -1,0 +1,25 @@
+Name:Bal's Descent
+ManaCost:1 B B
+Types:Legendary Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigSacrifice | TriggerDescription$ When CARDNAME enters the battlefield, each player sacrifices a creature, discards two cards, and loses 3 life.
+SVar:TrigSacrifice:DB$ Sacrifice | SacValid$ Creature | Defined$ Player | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | Defined$ Player | NumCards$ 2 | Mode$ TgtChoose | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | Defined$ Player | LifeAmount$ 3
+A:AB$ SetState | Cost$ 1 B B | Defined$ Self | IsPresent$ Card.Swamp+YouCtrl | PresentCompare$ GE5 | Mode$ Transform | SpellDescription$ Transform CARDNAME. Activate this ability only if your fealty to Swamps is five or greater.
+AlternateMode:DoubleFaced
+Oracle:When Bal's Descent enters the battlefield, each player sacrifices a creature, discards two cards, and loses 3 life.\n{1}{B}{B}: Transform Bal's Descent. Activate this ability only if your fealty to Swamps is five or greater.
+
+ALTERNATE
+
+Name:Bal, God of Destiny
+ManaCost:no cost
+Colors:black
+Types:Legendary Enchantment Creature God
+PT:6/6
+K:Indestructible
+S:Mode$ Continuous | Affected$ Card.YouCtrl | AffectedZone$ Graveyard | MayPlay$ True | Description$ You may play cards from your graveyard.
+R:Event$ Draw | ActiveZones$ Battlefield | ValidPlayer$ You | ReplaceWith$ MillCards | Description$ If you would draw one or more cards, mill that many cards instead.
+SVar:MillCards:DB$ Mill | Defined$ You | NumCards$ 1
+R:Event$ Moved | ActiveZones$ Battlefield | Origin$ Hand,Battlefield,Stack,Exile,Command,Sideboard | Destination$ Graveyard | ValidCard$ Card.nonToken+YouOwn | ReplaceWith$ Exile | Description$ If a card would be put into your graveyard from anywhere other than your library, exile it instead.
+SVar:Exile:DB$ ChangeZone | Hidden$ True | Origin$ All | Destination$ Exile | Defined$ ReplacedCard
+Oracle:Indestructible\nYou may play cards from your graveyard.\nIf you would draw one or more cards, mill that many cards instead.\nIf a card would be put into your graveyard from anywhere other than your library, exile it instead.

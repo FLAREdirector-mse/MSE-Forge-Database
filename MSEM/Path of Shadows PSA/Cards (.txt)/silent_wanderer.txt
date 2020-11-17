@@ -1,0 +1,5 @@
+Name:Silent Wanderer
+ManaCost:0
+Types:Creature Spirit Samurai
+PT:1/1
+Oracle:

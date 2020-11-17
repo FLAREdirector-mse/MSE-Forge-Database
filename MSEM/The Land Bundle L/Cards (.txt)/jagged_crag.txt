@@ -1,0 +1,5 @@
+Name:Jagged Crag
+ManaCost:
+Types:Land Mountain Plains 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {R} or {W}.)\nJagged Crag enters the battlefield tapped.

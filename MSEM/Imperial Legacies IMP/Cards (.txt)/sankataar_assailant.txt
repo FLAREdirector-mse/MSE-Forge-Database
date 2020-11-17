@@ -1,0 +1,8 @@
+Name:Sankataar Assailant
+ManaCost:3 G
+Types:Creature Naga Warrior 
+PT:3/3
+K:Poisonous:3
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters the battlefield, choose a counter on target permanent or player. Give that permanent or player another counter of that kind.
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Permanent,Player | TgtPrompt$ Select target player or permanent | CounterType$ ExistingCounter | CounterNum$ 1
+Oracle:Poisonous 3 (Whenever this creature deals combat damage to a player, that player gets three poison counters.)\nWhen Sankataar Assailant enters the battlefield, choose a counter on target permanent or player. Give that permanent or player another counter of that kind.

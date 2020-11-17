@@ -2,6 +2,6 @@ Name:Frontier Savior
 ManaCost:4 W W
 Types:Creature Cat Warrior
 PT:6/6
-T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigReturnCreatures | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME enters the battlefield, return up to two target creature cards with converted mana cost 3 or less from your graveyard to the battlefield.
-SVar:TrigReturnCreatures:DB$ChangeZone | Origin$ Graveyard | Destination$ Battlefield | TargetMin$ 0 | TargetMax$ 2 | ValidTgts$ Creature.cmcLE3 | TargetsWithDefinedController$ TriggeredCardController | TgtPrompt$ Choose target creature
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return up to two target creature cards with converted mana cost 3 or less from your graveyard to the battlefield.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Creature.YouCtrl+cmcLE3 | TargetMin$ 0 | TargetMax$ 2
 Oracle:When Frontier Savior enters the battlefield, return up to two target creature cards with converted mana cost 3 or less from your graveyard to the battlefield.

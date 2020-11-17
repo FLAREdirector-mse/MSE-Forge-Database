@@ -1,0 +1,9 @@
+Name:Sacred Sands Guardian
+ManaCost:1 G G
+Types:Creature Human Warrior
+PT:2/2
+K:Vigilance
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigExile | OptionalDecider$ TriggeredCardController | TriggerController$ TriggeredCardController | TriggerDescription$ When CARDNAME dies, you may exile it. If you do, return target card from your graveyard to your hand.
+SVar:TrigExile:DB$ ChangeZone | Origin$ Graveyard | Destination$ Exile | Defined$ TriggeredCard | SubAbility$ DBReturn
+SVar:DBReturn:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl
+Oracle:Vigilance\nWhen Sacred Sands Guardian dies, you may exile it. If you do, return target card from your graveyard to your hand.

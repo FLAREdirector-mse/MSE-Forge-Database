@@ -1,0 +1,10 @@
+Name:Autumnal Watch
+ManaCost:R
+Types:Creature Elf Soldier
+PT:1/1
+A:AB$ Dig | Cost$ Sac<1/Creature> | DigNum$ 1 | ChangeNum$ All | DestinationZone$ Exile | Defined$ You | RememberChanged$ True | SubAbility$ DBEffect | SpellDescription$ Exile the top card of your library. Until end of turn, you may play that card.
+SVar:DBEffect:DB$ Effect | StaticAbilities$ EffSModeContinuous | ExileOnMoved$ Exile | RememberObjects$ Remembered | SubAbility$ DBCleanup
+SVar:EffSModeContinuous:Mode$ Continuous | EffectZone$ Command | Affected$ Card.IsRemembered | MayPlay$ True | AffectedZone$ Exile | Description$ Until end of turn, you may play that card.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:AIPreference:SacCost$Creature.token,Creature.cmcLE1
+Oracle:Sacrifice a creature: Exile the top card of your library. Until end of turn, you may play that card.

@@ -1,0 +1,9 @@
+Name:Monkeyshines
+ManaCost:U
+Types:Sorcery
+A:SP$ Dig | Cost$ U | DigNum$ 2 | DestinationZone$ Library | LibraryPosition$ 0 | LibraryPosition2$ 0 | NoMove$ True | SubAbility$ DBChoose | SpellDescription$ Look at the top two cards of your library. You may put both of those cards into your graveyard or back on top of your library in any order. Draw a card.
+SVar:DBChoose:DB$ GenericChoice | Choices$ DBMill,DBRearrange | Defined$ You
+SVar:DBMill:DB$ Mill | Defined$ You | NumCards$ 2 | SubAbility$ DBDraw | SpellDescription$ Put both cards into your graveyard.
+SVar:DBRearrange:DB$ RearrangeTopOfLibrary | Defined$ You | NumCards$ 2 | SubAbility$ DBDraw | SpellDescription$ Put them back on top.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1
+Oracle:Look at the top two cards of your library. You may put both of those cards into your graveyard or back on top of your library in any order.\nDraw a card.

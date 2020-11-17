@@ -1,0 +1,7 @@
+Name:Once Shunned
+ManaCost:1 W W
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | Color$ W | CheckSVar$ CheckTgt | SVar$ GE1 | References$ CheckTgt | Relative$ True | EffectZone$ All | Description$ This spell costs {W} less to cast if it targets a black or red permanent.
+SVar:CheckTgt:Targeted$Valid Permanent.Black,Permanent.Red
+A:SP$ ChangeZone | Cost$ 1 W W | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Permanent.nonLand+cmcLE3 | TgtPrompt$ Select target nonland permanent with converted mana cost 3 or less | SpellDescription$ Exile target nonland permanent with converted mana cost 3 or less.
+Oracle:This spell costs {W} less to cast if it targets a black or red permanent.\nExile target nonland permanent with converted mana cost 3 or less.

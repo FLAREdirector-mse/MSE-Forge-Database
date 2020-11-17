@@ -1,0 +1,9 @@
+Name:Plasma Addict
+ManaCost:U R
+Types:Creature Human Rogue
+PT:3/3
+K:Flying
+K:Haste
+T:Mode$ SpellCast | ValidActivatingPlayer$ Player.Other | TargetsValid$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigGainControl | TriggerDescription$ Whenever another player casts a spell that targets CARDNAME, that player gains control of CARDNAME.
+SVar:TrigGainControl:DB$ GainControl | Defined$ Self | NewController$ TriggeredActivator
+Oracle:Flying, haste\nWhenever another player casts a spell that targets Plasma Addict, that player gains control of Plasma Addict.

@@ -1,0 +1,9 @@
+Name:Blossom-Sower Witch
+ManaCost:1 BG
+Types:Creature Human Shaman
+PT:1/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigInvestigate | TriggerDescription$ When CARDNAME enters the battlefield, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+SVar:TrigInvestigate:DB$ Investigate
+T:Mode$ Sacrificed | ValidCard$ Permanent.YouCtrl | Execute$ TrigGainLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever you sacrifice a permanent, you gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 1
+Oracle:When Blossom-Sower Witch enters the battlefield, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")\nWhenever you sacrifice a permanent, you gain 1 life.

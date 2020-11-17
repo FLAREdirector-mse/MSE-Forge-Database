@@ -1,0 +1,10 @@
+Name:Shifting Grove
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ GenericChoice | Cost$ Sac<1/CARDNAME> | Choices$ TPlains,TIsland,TSwamp,TMountain | SpellDescription$ Choose a basic land type other than Forest. Create a tapped colorless land token that's a Forest and the chosen basic land type.
+SVar:TPlains:DB$ Token | TokenScript$ land_forest_plains | SpellDescription$ Plains
+SVar:TIsland:DB$ Token | TokenScript$ land_forest_island | SpellDescription$ Island
+SVar:TSwamp:DB$ Token | TokenScript$ land_swamp_forest | SpellDescription$ Swamp
+SVar:TMountain:DB$ Token | TokenScript$ land_mountain_forest | SpellDescription$ Mountain
+Oracle:{T}: Add {C}.\nSacrifice Shifting Grove: Choose a basic land type other than Forest. Create a tapped colorless land token that's a Forest and the chosen basic land type.

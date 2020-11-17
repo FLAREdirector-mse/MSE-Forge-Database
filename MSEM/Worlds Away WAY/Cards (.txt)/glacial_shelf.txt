@@ -1,0 +1,10 @@
+Name:Glacial Shelf
+ManaCost:no cost
+Types:Land
+K:You may choose not to untap CARDNAME during your untap step.
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Tap | Cost$ 4 T | ValidTgts$ Creature.attackingYou | TgtPrompt$ Select target creature that's attacking you | RememberTapped$ True | AlwaysRemember$ True | StackDescription$ SpellDescription | SpellDescription$ Tap target creature that's attacking you. It doesn't untap during its controller's untap step for as long as CARDNAME remains tapped.
+S:Mode$ Continuous | Affected$ Card.IsRemembered | AddHiddenKeyword$ CARDNAME doesn't untap during your untap step.
+T:Mode$ Untaps | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ ClearRemembered | Static$ True
+SVar:ClearRemembered:DB$ Cleanup | ClearRemembered$ True
+Oracle:You may choose not to untap Glacial Shelf during your untap step.\n{T}: Add {C}.\n{4}, {T}: Tap target creature that's attacking you. It doesn't untap during its controller's untap step for as long as Glacial Shelf remains tapped.

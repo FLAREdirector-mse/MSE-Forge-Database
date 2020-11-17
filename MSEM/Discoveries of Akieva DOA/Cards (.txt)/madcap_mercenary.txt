@@ -1,0 +1,6 @@
+Name:Madcap Mercenary
+ManaCost:R
+Types:Creature Mutant Mercenary
+PT:3/2
+K:AlternateAdditionalCost:Discard<1/Card>:2
+Oracle:As an additional cost to cast this spell, discard a card or pay {2}.

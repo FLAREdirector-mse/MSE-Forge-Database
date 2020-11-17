@@ -1,0 +1,13 @@
+Name:Champion of Scales
+ManaCost:1 R
+Types:Creature Human Soldier
+PT:2/2
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | TriggerZones$ Battlefield | CheckSVar$ WanderlustTest | SVarCompare$ GE4 | Execute$ TrigToken | TriggerDescription$ Wanderlust — At the beginning of combat on each of your turns, if you control four or more differently named lands, create a 4/4 red Dragon creature token with flying and haste. Exile that token at end of combat.
+SVar:TrigToken:DB$ Token | TokenScript$ r_4_4_dragon_flying_haste | AtEOT$ ExileCombat
+A:AB$ Effect | Cost$ Sac<1/CARDNAME> | Name$ Champion of Scales Effect | StaticAbilities$ ChampReduceCost | Triggers$ TrigCastSpell | SVars$ RemoveEffect | SpellDescription$ The next spell you cast this turn with converted mana cost 5 or greater costs {2} less to cast.
+SVar:ChampReduceCost:Mode$ ReduceCost | EffectZone$ Command | Type$ Spell | Activator$ You | Amount$ 2 | ValidCard$ Card.cmcGE5 | Description$ The next spell you cast this turn with converted mana cost 5 or greater costs {2} less to cast.
+SVar:TrigCastSpell:Mode$ SpellCast | ValidActivatingPlayer$ You | TriggerZones$ Command | Execute$ RemoveEffect | Static$ True
+SVar:RemoveEffect:DB$ ChangeZone | Origin$ Command | Destination$ Exile
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+SVar:PlayMain1:TRUE
+Oracle:Wanderlust — At the beginning of combat on each of your turns, if you control four or more differently named lands, create a 4/4 red Dragon creature token with flying and haste. Exile that token at end of combat.\nSacrifice Champion of Scales: The next spell you cast this turn with converted mana cost 5 or greater costs {2} less to cast.

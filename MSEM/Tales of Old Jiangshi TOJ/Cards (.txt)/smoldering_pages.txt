@@ -1,0 +1,7 @@
+Name:Smoldering Pages
+ManaCost:1 R
+Types:Instant
+A:SP$ Destroy | Cost$ 1 R | ValidTgts$ Artifact | TgtPrompt$ Select target artifact | SubAbility$ DBDealDamage | SpellDescription$ Destroy target artifact. CARDNAME deals damage to that artifact's controller equal to that artifact's converted mana cost.
+SVar:DBDealDamage:DB$ DealDamage | Defined$ TargetedController | NumDmg$ X | References$ X
+SVar:X:Targeted$CardManaCost
+Oracle:Destroy target artifact. Smoldering Pages deals damage to that artifact's controller equal to that artifact's converted mana cost.

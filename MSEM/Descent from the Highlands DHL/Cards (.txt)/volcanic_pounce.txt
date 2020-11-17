@@ -1,0 +1,6 @@
+Name:Volcanic Pounce
+ManaCost:R
+Types:Sorcery
+A:SP$ PumpAll | Cost$ R | ValidCards$ Creature.YouCtrl | KW$ Haste & Trample | SubAbility$ DBDraw | SpellDescription$ Creatures you control gain haste and trample until end of turn.
+SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:Creatures you control gain haste and trample until end of turn.\nDraw a card.

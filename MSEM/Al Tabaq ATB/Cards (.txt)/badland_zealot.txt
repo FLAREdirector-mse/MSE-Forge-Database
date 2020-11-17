@@ -1,0 +1,7 @@
+Name:Badland Zealot
+ManaCost:R R
+Types:Creature Mutant Warrior
+PT:2/2
+K:Menace
+K:Haste
+Oracle:Menace, haste

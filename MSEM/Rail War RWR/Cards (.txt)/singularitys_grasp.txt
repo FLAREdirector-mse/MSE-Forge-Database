@@ -1,6 +1,7 @@
-# TODO
 Name:Singularity's Grasp
 ManaCost:X B G
 Types:Sorcery
-
+A:SP$ PumpAll | Cost$ X B G | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | References$ X | IsCurse$ True | SubAbility$ DBDestroyAll | SpellDescription$ Each creature gets -X/-X until end of turn. Destroy each artifact and enchantment with converted mana cost X or less.
+SVar:DBDestroyAll:DB$ DestroyAll | ValidCards$ Artifact.cmcLEX,Enchantment.cmcLEX | References$ X
+SVar:X:Count$xPaid
 Oracle:Each creature gets -X/-X until end of turn. Destroy each artifact and enchantment with converted mana cost X or less.

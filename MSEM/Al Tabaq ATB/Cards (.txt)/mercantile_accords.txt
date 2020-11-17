@@ -1,0 +1,8 @@
+Name:Mercantile Accords
+ManaCost:W W W
+Types:Enchantment
+K:ETBReplacement:Other:ChooseNumber
+SVar:ChooseNumber:DB$ ChooseNumber | Defined$ You | SpellDescription$ As CARDNAME enters the battlefield, choose a number.
+S:Mode$ CantBeCast | ValidCard$ Card.cmcEQX | References$ X | Description$ Spells with converted mana cost equal to the chosen number can't be cast.
+SVar:X:Number$ChosenNumber
+Oracle:As Mercantile Accords enters the battlefield, choose a number.\nSpells with converted mana cost equal to the chosen number can't be cast.

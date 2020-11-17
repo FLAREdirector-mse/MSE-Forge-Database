@@ -1,0 +1,7 @@
+Name:Rage of the Ravaged
+ManaCost:1 BR BR
+Types:Enchantment
+S:Mode$ Continuous | Affected$ Player | AddKeyword$ You can't gain life. | Description$ Players can't gain life.
+T:Mode$ SpellCast | TriggerZones$ Battlefield | Execute$ TrigDealDamage | TriggerDescription$ Whenever a player casts a spell, CARDNAME deals 1 damage to that player.
+SVar:TrigDealDamage:DB$ DealDamage | Defined$ TriggeredActivator | NumDmg$ 1
+Oracle:Players can't gain life.\nWhenever a player casts a spell, Rage of the Ravaged deals 1 damage to that player.

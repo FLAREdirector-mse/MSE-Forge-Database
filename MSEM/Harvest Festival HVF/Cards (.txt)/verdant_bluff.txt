@@ -1,0 +1,7 @@
+Name:Verdant Bluff
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ G | SpellDescription$ Add {G}.
+Oracle:{T}: Add {C}.\n{T}, Pay 1 life: Add {R} or {G}.

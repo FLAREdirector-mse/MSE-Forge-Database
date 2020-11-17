@@ -1,0 +1,8 @@
+Name:Ride the Storm
+ManaCost:6 U U
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | References$ X | EffectZone$ All | Description$ This spell costs {1} less to cast for each artifact and enchantment you control.
+A:SP$ Dig | Cost$ 6 U U | DigNum$ 7 | Reveal$ True | AnyNumber$ True | ChangeValid$ Card.nonCreature+nonLand | DestinationZone$ Hand | DestinationZone2$ Graveyard | SpellDescription$ Reveal the top seven cards of your library. Put any number of noncreature, nonland cards from among them into your hand and the rest of the revealed cards into your graveyard.
+SVar:X:Count$Valid Artifact.YouCtrl/Plus.Y
+SVar:Y:Count$Valid Enchantment.YouCtrl
+Oracle:This spell costs {1} less to cast for each artifact and enchantment you control.\nReveal the top seven cards of your library. Put any number of noncreature, nonland cards from among them into your hand and the rest of the revealed cards into your graveyard.

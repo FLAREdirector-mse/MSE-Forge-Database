@@ -1,0 +1,12 @@
+Name:Unmasker of Fate's Design
+ManaCost:B
+Types:Creature Spirit
+PT:2/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigReveal | TriggerDescription$ When CARDNAME enters the battlefield, look at target player's hand. Choose a nonland card from it and exile that card with a puzzle counter on it. As long as that card has a puzzle counter on it, that player may pay {2} and 1 life at any time. If they do, return the exiled card to their hand.
+SVar:TrigReveal:DB$ RevealHand | Defined$ Targeted | ValidTgts$ Player | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Hand | Destination$ Exile | DefinedPlayer$ Targeted | Chooser$ You | ChangeType$ Card.nonLand | ChangeNum$ 1 | IsCurse$ True | Mandatory$ True | AlreadyRevealed$ True | RememberChanged$ True | SubAbility$ DBPutCounter
+SVar:DBPutCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ FATE | CounterNum$ 1 | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | Name$ Unmasker of Fate's Design Effect | EffectOwner$ RememberedController | RememberObjects$ Remembered | Abilities$ ReturnToHand | ForgetOnMoved$ Exile | ForgetCounter$ FATE | Duration$ Permanent | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:ReturnToHand:ST$ ChangeZone | Cost$ 2 PayLife<1> | ActivationZone$ Command | Defined$ Remembered | Origin$ Exile | Destination$ Hand
+Oracle:When Unmasker of Fate's Design enters the battlefield, look at target player's hand. Choose a nonland card from it and exile that card with a puzzle counter on it. As long as that card has a puzzle counter on it, that player may pay {2} and 1 life at any time. If they do, return the exiled card to their hand.

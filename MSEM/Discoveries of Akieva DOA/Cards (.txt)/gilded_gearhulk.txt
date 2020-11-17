@@ -1,0 +1,8 @@
+Name:Gilded Gearhulk
+ManaCost:6
+Types:Artifact Creature Construct
+PT:4/5
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDestroy | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may destroy target noncreature, nonland permanent.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Permanent.nonCreature+nonLand | TgtPrompt$ Select target noncreature, nonland permanent
+Oracle:Haste\nWhen Gilded Gearhulk enters the battlefield, you may destroy target noncreature, nonland permanent.

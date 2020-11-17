@@ -1,0 +1,8 @@
+Name:Martial Maestro
+ManaCost:R
+Types:Creature Human Wizard Soldier
+PT:1/1
+K:First Strike
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME attacks, other attacking creatures you control get +1/+0 until end of turn.
+SVar:TrigPump:DB$ PumpAll | ValidCards$ Creature.Other+YouCtrl+attacking | NumAtt$ 1
+Oracle:First strike\nWhenever Martial Maestro attacks, other attacking creatures you control get +1/+0 until end of turn.

@@ -1,0 +1,6 @@
+Name:Aquilifer Axelius
+ManaCost:R
+Types:Legendary Creature Human Soldier
+PT:2/2
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | AddHiddenKeyword$ CARDNAME can't attack or block alone. | Description$ Other creatures you control can't attack or block alone.
+Oracle:Other creatures you control can't attack or block alone.

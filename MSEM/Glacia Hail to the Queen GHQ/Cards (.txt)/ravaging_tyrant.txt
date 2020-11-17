@@ -1,0 +1,10 @@
+Name:Ravaging Tyrant
+ManaCost:5 B B
+Types:Creature Giant Viking
+PT:7/9
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigLoseLife | TriggerDescription$ When CARDNAME enters the battlefield or attacks, each opponent loses 3 life, discards a card, and sacrifices a creature or planeswalker.
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigLoseLife | Secondary$ True | TriggerDescription$ When CARDNAME enters the battlefield or attacks, each opponent loses 3 life, discards a card, and sacrifices a creature or planeswalker.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 3 | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | Defined$ Player.Opponent | NumCards$ 1 | Mode$ TgtChoose | SubAbility$ DBSac
+SVar:DBSac:DB$ Sacrifice | Defined$ Player.Opponent | SacValid$ Creature,Planeswalker | SacMessage$ creature or planeswalker
+Oracle:Whenever Ravaging Tyrant enters the battlefield or attacks, each opponent loses 3 life, discards a card, and sacrifices a creature or planeswalker.

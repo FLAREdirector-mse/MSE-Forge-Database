@@ -1,0 +1,8 @@
+Name:Frilled Drakeling
+ManaCost:R
+Types:Creature Lizard
+PT:1/1
+K:Prowess
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPump | TriggerDescription$ Whenever you cast a noncreature spell, CARDNAME gains menace until end of turn.
+SVar:DBPump:DB$ Pump | Defined$ Self | KW$ Menace
+Oracle:Prowess\nWhenever you cast a noncreature spell, Frilled Drakeling gains menace until end of turn.

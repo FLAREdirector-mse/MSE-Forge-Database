@@ -1,0 +1,9 @@
+Name:Fatresya's Command
+ManaCost:2 G G
+Types:Instant
+A:SP$ Charm | Cost$ 2 G G | Choices$ DBChange,DBPutCounter,DBDestroy,DBDig | CharmNum$ 2
+SVar:DBChange:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target permanent card in your graveyard | ValidTgts$ Permanent.YouCtrl | SpellDescription$ Return target permanent card from your graveyard to your hand.
+SVar:DBPutCounter:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ P1P1 | CounterNum$ 2 | SpellDescription$ Put two +1/+1 counters on target creature.
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | SpellDescription$ Destroy target artifact or enchantment.
+SVar:DBDig:DB$ Dig | DigNum$ 3 | Reveal$ True | ChangeNum$ 1 | ChangeValid$ Creature | DestinationZone2$ Graveyard | Optional$ True | SpellDescription$ Reveal the top three cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.
+Oracle:Choose two —\n• Return target permanent card from your graveyard to your hand.\n• Put two +1/+1 counters on target creature.\n• Destroy target artifact or enchantment.\n• Reveal the top three cards of your library. You may put a creature card from among them into your hand. Put the rest into your graveyard.

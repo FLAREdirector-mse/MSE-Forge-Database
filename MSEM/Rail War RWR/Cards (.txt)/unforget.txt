@@ -1,0 +1,8 @@
+Name:Unforget
+ManaCost:2 B
+Types:Instant
+A:SP$ ChangeZone | Cost$ 2 B | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Card | ChangeNum$ 1 | Mandatory$ True | Reveal$ True | RememberChanged$ True | SubAbility$ DBLoseLife | SpellDescription$ Search your library for a card, reveal it, then shuffle your library and put that card on top of it. If you revealed a noncreature card this way, each opponent loses 2 life and you gain 2 life.
+SVar:DBLoseLife:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 2 | ConditionDefined$ Remembered | ConditionPresent$ Card.nonCreature | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2 | ConditionDefined$ Remembered | ConditionPresent$ Card.nonCreature | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Search your library for a card, reveal it, then shuffle your library and put that card on top of it. If you revealed a noncreature card this way, each opponent loses 2 life and you gain 2 life.

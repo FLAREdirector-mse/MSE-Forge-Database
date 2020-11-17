@@ -1,0 +1,10 @@
+Name:Ammbradu Goliath
+ManaCost:B
+Types:Creature Insect Giant
+PT:13/13
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ -X | AddToughness$ -X | Description$ CARDNAME gets -4/-4 for each card in your hand.
+SVar:X:Count$InYourHand/Times.4
+SVar:BuffedBy:Card
+SVar:NeedsToPlayVar:Y LE3
+SVar:Y:Count$CardsInYourHand
+Oracle:Ammbradu Goliath gets -4/-4 for each card in your hand.

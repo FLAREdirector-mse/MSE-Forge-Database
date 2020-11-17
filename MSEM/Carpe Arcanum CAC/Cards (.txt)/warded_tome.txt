@@ -1,0 +1,7 @@
+Name:Warded Tome
+ManaCost:1
+Types:Artifact
+K:CARDNAME doesn't untap during your untap step.
+A:AB$ Draw | Cost$ T | Defined$ You | NumCards$ 1 | SpellDescription$ Draw a card.
+A:AB$ Untap | Cost$ 6 | SpellDescription$ Untap CARDNAME.
+Oracle:Warded Tome doesn't untap during its controller's untap step.\n{T}: Draw a card.\n{6}: Untap Warded Tome.

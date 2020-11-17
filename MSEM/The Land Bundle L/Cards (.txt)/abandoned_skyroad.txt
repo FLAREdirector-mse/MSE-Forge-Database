@@ -1,0 +1,8 @@
+Name:Abandoned Skyroad
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Land.nonBasic+YouCtrl | ConditionCompare$ GE1 | SpellDescription$ CARDNAME enters the battlefield tapped if you control another nonbasic land.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+Oracle:Abandoned Skyroad enters the battlefield tapped if you control another nonbasic land.\n{T}: Add {W} or {U}.

@@ -1,0 +1,7 @@
+Name:Journey's End
+ManaCost:1 W
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 W | ValidTgts$ Artifact,Creature,Enchantment | IsCurse$ True | TgtPrompt$ Select target artifact, creature or enchantment | Origin$ Battlefield | Destination$ Library | LibraryPosition$ -1 | SubAbility$ DBScry | RememberLKI$ True | SpellDescription$ Put target artifact, creature, or enchantment on the bottom of its owner's library. Its controller may scry 3.
+SVar:DBScry:DB$ Scry | Defined$ RememberedController | ScryNum$ 3 | Optional$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Put target artifact, creature, or enchantment on the bottom of its owner's library. Its controller may scry 3.

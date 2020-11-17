@@ -1,0 +1,7 @@
+Name:Polyp Pools
+Cost:no cost
+Types:Tribal Land Shapeshifter
+K:Changeling
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ ManaReflected | Cost$ T | ColorOrType$ Color | Valid$ Creature.YouCtrl | ReflectProperty$ Is | SpellDescription$ Add one mana of any color among creatures you control.
+Oracle:Changeling (This card is every creature type at all times.)\n{T}: Add {C}.\n{T}: Ad one mana of any color among creatures you control.

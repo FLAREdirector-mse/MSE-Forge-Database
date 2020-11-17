@@ -1,0 +1,6 @@
+Name:Whisperwood Exploration
+ManaCost:B G
+Types:Instant
+A:SP$ Mill | Cost$ B G | NumCards$ 3 | Defined$ You | SubAbility$ DBChange | SpellDescription$ Mill three cards, then return a nonland card from your graveyard to your hand.
+SVar:DBChange:DB$ ChangeZone | Hidden$ True | Mandatory$ True | ChangeType$ Card.nonLand+YouCtrl | ChangeNum$ 1 | Origin$ Graveyard | Destination$ Hand
+Oracle:Mill three cards, then return a nonland card from your graveyard to your hand.

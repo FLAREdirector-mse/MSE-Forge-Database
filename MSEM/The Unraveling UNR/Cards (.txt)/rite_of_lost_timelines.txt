@@ -1,0 +1,9 @@
+Name:Rite of Lost Timelines
+ManaCost:3 B
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigLoseLife | TriggerDescription$ At the beginning of your upkeep, you lose 1 life, then investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1 | SubAbility$ TrigInvestigate
+SVar:TrigInvestigate:DB$ Investigate
+T:Mode$ Sacrificed | ValidCard$ Permanent.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigLoseLife2 | TriggerDescription$ Whenever you sacrifice a permanent, each opponent loses 1 life.
+SVar:TrigLoseLife2:DB$ LoseLife | Defined$ Opponent | LifeAmount$ 1
+Oracle:At the beginning of your upkeep, you lose 1 life, then investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")\nWhenever you sacrifice a permanent, each opponent loses 1 life.

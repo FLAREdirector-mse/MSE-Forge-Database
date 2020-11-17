@@ -1,0 +1,5 @@
+Name:Majestic Dominion
+ManaCost:no cost
+Types:Land Plains Swamp Forest
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {W}, {B}, or {G}.)\nMajestic Dominion enters the battlefield tapped.

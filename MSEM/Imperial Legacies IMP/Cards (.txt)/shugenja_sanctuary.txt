@@ -1,0 +1,5 @@
+Name:Shugenja Sanctuary
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ Any | RestrictValid$ Card.Instant,Card.Sorcery | SpellDescription$ Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.
+Oracle:{T}: Add one mana of any color. Spend this mana only to cast an instant or sorcery spell.

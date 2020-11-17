@@ -1,0 +1,7 @@
+Name:Strange Discovery
+ManaCost:G
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigMill | TriggerDescription$ At the beginning of your upkeep, mill two cards.
+SVar:TrigMill:DB$ Mill | Defined$ You | NumCards$ 2
+A:AB$ ChangeZone | Cost$ 1 G Sac<1/CARDNAME> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Select target card in your graveyard | ValidTgts$ Card.YouCtrl | SpellDescription$ Return target card from your graveyard to your hand.
+Oracle:At the beginning of your upkeep, mill two cards.\n{1}{G}, Sacrifice Strange Discovery: Return target card from your graveyard to your hand.

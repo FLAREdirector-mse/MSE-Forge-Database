@@ -1,0 +1,8 @@
+Name:Shengin Heartland
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+S:Mode$ Continuous | EffectZone$ Graveyard | Affected$ Land.YouCtrl | AddAbility$ ManaG & ManaU | Description$ As long as CARDNAME is in your graveyard, lands you control have "{T}: Add {G} or {U}."
+SVar:ManaG:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+SVar:ManaU:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+Oracle:{T}: Add {C}.\nAs long as Shengin Heartland is in your graveyard, lands you control have "{T}: Add {G} or {U}."

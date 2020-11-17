@@ -1,0 +1,7 @@
+Name:Merchant of False Lives
+ManaCost:1 B
+Types:Creature Skeleton Wizard Rogue 
+PT:1/2
+K:Deathtouch
+A:AB$ Mill | Cost$ Sac<1/Creature> | ValidTgts$ Player | TgtPrompt$ Select target player | NumCards$ 2 | SpellDescription$ Target player mills two cards.
+Oracle:Deathtouch\nSacrifice a creature: Target player mills two cards.

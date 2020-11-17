@@ -1,0 +1,10 @@
+Name:Shifting Morass
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ GenericChoice | Cost$ Sac<1/CARDNAME> | Choices$ TPlains,TIsland,TMountain,TForest | SpellDescription$ Choose a basic land type other than Swamp. Create a tapped colorless land token that's a Swamp and the chosen basic land type.
+SVar:TPlains:DB$ Token | TokenScript$ land_plains_swamp | SpellDescription$ Plains
+SVar:TIsland:DB$ Token | TokenScript$ land_island_swamp | SpellDescription$ Island
+SVar:TMountain:DB$ Token | TokenScript$ land_swamp_mountain | SpellDescription$ Mountain
+SVar:TForest:DB$ Token | TokenScript$ land_swamp_forest | SpellDescription$ Forest
+Oracle:{T}: Add {C}.\nSacrifice Shifting Morass: Choose a basic land type other than Swamp. Create a tapped colorless land token that's a Swamp and the chosen basic land type.

@@ -1,0 +1,9 @@
+Name:Ignition Point
+ManaCost:U R
+Types:Instant
+A:SP$ DealDamage | Cost$ U R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SubAbility$ DBEffect | SpellDescription$ CARDNAME deals 3 damage to any target. The next card you cast this turn can be cast as though it had flash.
+SVar:DBEffect:DB$ Effect | Name$ Ignition Point Effect | StaticAbilities$ IPStatic | Triggers$ IPTrigger | SVars$ IPExile
+SVar:IPStatic:Mode$ Continuous | EffectZone$ Command | Affected$ Card.nonLand | AffectedZone$ Hand,Graveyard,Exile,Library,Command | WithFlash$ You
+SVar:IPTrigger:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | Execute$ IPExile | Static$ True | TriggerDescription$ The next card you cast this turn can be cast as though it had flash.
+SVar:IPExile:DB$ ChangeZone | Defined$ Self | Origin$ Command | Destination$ Exile
+Oracle:Ignition Point deals 3 damage to any target.\nThe next card you cast this turn can be cast as though it has flash.

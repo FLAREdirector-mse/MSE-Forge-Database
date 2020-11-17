@@ -1,0 +1,7 @@
+Name:Once Scarred
+ManaCost:R R
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 1 | Color$ R | CheckSVar$ CheckTgt | SVar$ GE1 | References$ CheckTgt | Relative$ True | EffectZone$ All | Description$ This spell costs {R} less to cast if it targets a white or blue permanent.
+SVar:CheckTgt:Targeted$Valid Permanent.White,Permanent.Blue
+A:SP$ DealDamage | Cost$ R R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature or planeswalker.
+Oracle:This spell costs {R} less to cast if it targets a white or blue permanent.\nOnce Scarred deals 4 damage to target creature or planeswalker.

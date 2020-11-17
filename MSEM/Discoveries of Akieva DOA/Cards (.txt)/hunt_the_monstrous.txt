@@ -1,0 +1,7 @@
+Name:Hunt the Monstrous
+ManaCost:X G
+Types:Sorcery
+A:SP$ Pump | Cost$ X G | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Choose target creature you control | NumAtt$ +X | NumDef$ +X | References$ X | SubAbility$ DBFight | SpellDescription$ Target creature you control gets +X/+X until end of turn. It fights target creature you don't control.
+SVar:DBFight:DB$ Fight | Defined$ ParentTarget | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Choose target creature you don't control
+SVar:X:Count$xPaid
+Oracle:Target creature you control gets +X/+X until end of turn. It fights target creature you don't control.

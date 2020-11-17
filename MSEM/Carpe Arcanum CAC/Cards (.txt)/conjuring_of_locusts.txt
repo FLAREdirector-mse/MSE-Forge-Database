@@ -1,0 +1,5 @@
+Name:Conjuring of Locusts
+ManaCost:2 G G
+Types:Sorcery
+A:SP$ DestroyAll | Cost$ 2 G G | ValidCards$ Permanent.nonCreature+nonLand | SpellDescription$ Destroy all noncreature, nonland permanents.
+Oracle:Destroy all noncreature, nonland permanents.

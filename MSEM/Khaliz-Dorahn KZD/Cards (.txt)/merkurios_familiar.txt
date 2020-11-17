@@ -1,0 +1,9 @@
+Name:Merkurio's Familiar
+ManaCost:2 R R
+Types:Creature Phoenix
+PT:3/2
+K:Flying
+K:Haste
+A:AB$ ChangeZone | Announce$ X | Cost$ X R R ExileFromGrave<1/Instant.cmcEQX;Sorcery.cmcEQX/instant or sorcery card with converted mana cost X> | Origin$ Graveyard | Destination$ Battlefield | ActivationZone$ Graveyard | References$ X | SubAbility$ DBPump | SpellDescription$ Return CARDNAME from your graveyard to the battlefield. It gets +X/+0 until end of turn.
+SVar:DBPump:DB$ Pump | Defined$ Self | NumAtt$ +X | References$ X
+Oracle:Flying, haste\n{X}{R}{R}, Exile an instant or sorcery card with converted mana cost X from your graveyard: Return Merkurio's Familiar from your graveyard to the battlefield. It gets +X/+0 until end of turn.

@@ -1,0 +1,7 @@
+Name:Pyromantic Expertise
+ManaCost:R R
+Types:Sorcery
+A:SP$ Charm | Cost$ R R | Choices$ DBPump,DBDmg
+SVar:DBPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ +4 | NumDef$ +2 | SpellDescription$ Target creature gets +4/+2 until end of turn.
+SVar:DBDmg:DB$ DealDamage | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to target creature or planeswalker.
+Oracle:Choose one —\n• Target creature gets +4/+2 until end of turn.\n• Pyromantic Expertise deals 4 damage to target creature or planeswalker.

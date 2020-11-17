@@ -1,0 +1,8 @@
+Name:Abandoned Hideout
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Land.nonBasic+YouCtrl | ConditionCompare$ GE1 | SpellDescription$ CARDNAME enters the battlefield tapped if you control another nonbasic land.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+Oracle:Abandoned Hideout enters the battlefield tapped if you control another nonbasic land.\n{T}: Add {U} or {R}.

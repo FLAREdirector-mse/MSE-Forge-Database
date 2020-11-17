@@ -1,0 +1,11 @@
+Name:TT-23 Aegis
+ManaCost:2 W U
+Types:Artifact Creature Construct 
+PT:5/5
+K:Flash
+S:Mode$ Continuous | Affected$ Card.Self | AddHiddenKeyword$ CARDNAME can't attack or block. | CheckSVar$ X | SVarCompare$ LT6 | Description$ CARDNAME can't attack or block unless you have seven or more cards in hand.
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigDraw | CheckSVar$ Y | SVarCompare$ EQ0 | TriggerDescription$ At the beginning of your end step, if you didn't cast a spell this turn, draw a card.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1
+SVar:X:Count$InYourHand
+SVar:Y:Count$ThisTurnCast_Card.YouCtrl
+Oracle:Flash\nTT-23 Aegis can't attack or block unless you have six or more cards in hand.\nAt the beginning of your end step, if you didn't cast a spell this turn, draw a card.

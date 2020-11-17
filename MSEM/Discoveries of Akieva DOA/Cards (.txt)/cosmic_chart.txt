@@ -1,0 +1,6 @@
+Name:Cosmic Chart
+Types:Artifact
+ManaCost:3
+A:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+A:AB$ ChangeZone | Cost$ 5 T Sac<1/CARDNAME> | Origin$ Library | Destination$ Hand | ChangeType$ Card | ChangeNum$ 1 | Mandatory$ True | SpellDescription$ Search your library for a card, put it into your hand, then shuffle your library.
+Oracle:{T}: Add one mana of any color.\n{5}, {T}, Sacrifice Cosmic Chart: Search your library for a card, put it into your hand, then shuffle your library.

@@ -1,0 +1,5 @@
+Name:Roaring Cascade
+ManaCost:
+Types:Land Island Mountain 
+K:CARDNAME enters the battlefield tapped.
+Oracle:({T}: Add {U} or {R}.)\nRoaring Cascade enters the battlefield tapped.

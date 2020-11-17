@@ -1,0 +1,8 @@
+Name:Far Too Young to Die
+ManaCost:3 B
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ CostReduction | Relative$ True | EffectZone$ All | References$ CostReduction,CheckTgt | Description$ This spell costs {3} less to cast if it targets a creature.
+A:SP$ Destroy | Cost$ 3 B | ValidTgts$ Creature | TgtPrompt$ Select target creature | References$ CostReduction,CheckTgt | SpellDescription$ Destroy target creature.
+SVar:CostReduction:Count$Compare CheckTgt GE1.3.0
+SVar:CheckTgt:Targeted$Valid Creature.cmcLE2
+Oracle:This spell costs {3} less to cast if it targets a creature with converted mana cost 2 or less.\nDestroy target creature.

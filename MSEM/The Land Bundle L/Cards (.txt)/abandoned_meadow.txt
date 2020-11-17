@@ -1,0 +1,8 @@
+Name:Abandoned Meadow
+ManaCost:no cost
+Types:Land
+K:ETBReplacement:Other:LandTapped
+SVar:LandTapped:DB$ Tap | Defined$ Self | ETB$ True | ConditionPresent$ Land.nonBasic+YouCtrl | ConditionCompare$ GE1 | SpellDescription$ CARDNAME enters the battlefield tapped if you control another nonbasic land.
+A:AB$ Mana | Cost$ T | Produced$ R | SpellDescription$ Add {R}.
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+Oracle:Abandoned Meadow enters the battlefield tapped if you control another nonbasic land.\n{T}: Add {R} or {G}.

@@ -1,0 +1,8 @@
+Name:Dark Bargain*
+ManaCost:B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, you draw a card and you lose 1 life.
+SVar:TrigDraw:DB$ Draw | NumCards$ 1 | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1
+A:AB$ Draw | Cost$ B Sac<1/CARDNAME> | NumCards$ 1 | SubAbility$ DBLoseLife | SpellDescription$ You draw a card and you lose 1 life.
+Oracle:When Dark Bargain enters the battlefield, you draw a card and you lose 1 life.\n{B}, Sacrifice Dark Bargain: You draw a card and you lose 1 life.

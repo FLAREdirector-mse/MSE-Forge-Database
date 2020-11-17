@@ -1,0 +1,6 @@
+Name:Banish Through the Veil
+ManaCost:3 W W
+Types:Sorcery
+A:SP$ DestroyAll | Cost$ 3 W W | ValidCards$ Creature | SubAbility$ DBChangeAll | SpellDescription$ Destroy all creatures. Exile all cards from graveyards.
+SVar:DBChangeAll:DB$ ChangeZoneAll | ChangeType$ Card | Origin$ Graveyard | Destination$ Exile
+Oracle:Destroy all creatures. Exile all cards from graveyards.

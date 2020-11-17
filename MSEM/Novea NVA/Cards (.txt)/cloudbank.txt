@@ -1,0 +1,7 @@
+Name:Cloudbank
+ManaCost:no cost
+Types:Land Island
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, target creature gains flying until end of turn.
+SVar:TrigPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Flying
+Oracle:({T}: Add {U}.)\nCloudbank enters the battlefield tapped.\nWhen Cloudbank enters the battlefield, target creature gains flying until end of turn.

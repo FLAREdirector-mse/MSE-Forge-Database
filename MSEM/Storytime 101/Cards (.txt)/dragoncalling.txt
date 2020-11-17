@@ -1,0 +1,9 @@
+Name:Dragoncalling
+ManaCost:8 R
+Types:Sorcery
+K:CARDNAME can't be countered.
+A:SP$ Repeat | Cost$ 8 R | MaxRepeat$ X | References$ X | RepeatSubAbility$ DBChangeZone | SubAbility$ DBShuffle | StackDescription$ SpellDescription | SpellDescription$ For each spell you've cast this turn, search your library for a Dragon permanent card and put it onto the battlefield. Shuffle your library.
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | ChangeType$ Permanent.Dragon | ChangeNum$ 1 | NoShuffle$ True
+SVar:DBShuffle:DB$ Shuffle | Defined$ You
+SVar:X:Count$ThisTurnCast_Card
+Oracle:For each spell you've cast this turn, search your library for a Dragon permanent card and put it onto the battlefield. Shuffle your library.

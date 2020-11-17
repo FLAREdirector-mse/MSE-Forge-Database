@@ -1,0 +1,7 @@
+Name:Cosmic Sinkhole
+ManaCost:X U
+Types:Instant
+A:SP$ Counter | Cost$ X U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | UnlessCost$ Y | References$ Y | SpellDescription$ Converge — Counter target spell unless its controller pays {1} for each color of mana spent to cast CARDNAME.
+SVar:X:Count$xPaid
+SVar:Y:Count$Converge
+Oracle:Converge — Counter target spell unless its controller pays {1} for each color of mana spent to cast Cosmic Sinkhole.

@@ -1,5 +1,7 @@
-# TODO
+#Prophecy can't be done right now unfortunately.
+
 Name:Seek Prophecy
 ManaCost:U
 Types:Sorcery
-Oracle:Reveal the top three cards of your library. Put one into your hand and the rest on the bottom of your  library.\nProphecy {1}{U} (Once each turn, you may exile a card with prophecy as you reveal it. When you do, you may cast it for its prophecy cost as long as it’s exiled.)
+A:SP$ Dig | Cost$ U | DigNum$ 3 | ChangeNum$ 1 | Reveal$ True | SpellDescription$ Reveal the top three cards of your library. Put one into your hand and the rest on the bottom of your library in any order.
+Oracle:Reveal the top three cards of your library. Put one into your hand and the rest on the bottom of your library in any order.

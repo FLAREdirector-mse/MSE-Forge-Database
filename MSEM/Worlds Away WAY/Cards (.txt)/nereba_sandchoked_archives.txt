@@ -1,0 +1,7 @@
+Name:Nereba, Sandchoked Archives
+ManaCost:no cost
+Types:Legendary Land Desert
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Draw | Cost$ 6 T | NumCards$ 2 | CheckSVar$ WanderlustTest | SVarCompare$ GE4 | References$ WanderlustTest | PrecostDesc$ Wanderlust — | SpellDescription$ Draw two cards. Activate this ability only if you control four or more differently named lands.
+SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:{T}: Add {C}.\nWanderlust — {6}, {T}: Draw two cards. Activate this ability only if you control four or more differently named lands.
