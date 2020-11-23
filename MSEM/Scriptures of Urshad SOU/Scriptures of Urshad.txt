@@ -272,6 +272,8 @@ Type=Expansion
 
 [tokens]
 bullet
+cloister
+echo_of_lhosei
 hannarus_aegis
 monument
 w_1_1_bird_flying
