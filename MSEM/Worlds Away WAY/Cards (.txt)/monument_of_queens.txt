@@ -1,13 +1,9 @@
 Name:Monument of Queens
 ManaCost:no cost
-Types:Land Animus
-PT:0/0
-K:Flying
-K:First Strike
-K:Vigilance
-K:Trample
-K:Lifelink
+Types:Land
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ PutCounter | Cost$ 3 | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBAnimate | SpellDescription$ Put a +1/+1 counter on CARDNAME. It becomes an Avatar creature until end of turn. It's still a land.
-SVar:DBAnimate:DB$ Animate | Defined$ Self | Types$ Creature,Avatar
-Oracle:Flying, first strike, vigilance, trample, lifelink\n{T}: Add {C}.\n{3}: Put a +1/+1 counter on Monument of Queens. It becomes an Avatar creature until end of turn. It's still a land.
+A:AB$ PutCounter | Cost$ 4 | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBChoice | SpellDescription$ Put a +1/+1 counter on CARDNAME. You may have it become a 0/0 Avatar creature with flying, first strike, vigilance, trample, and lifelink until end of turn. It's still a land.
+SVar:DBChoice:DB$ GenericChoice | Defined$ You | Choices$ Animate,NoAnimate | StackDescription$ You may have CARDNAME become a creature.
+SVar:Animate:DB$ Animate | Defined$ Self | Power$ 0 | Toughness$ 0 | Types$ Creature,Avatar | Keywords$ Flying & First Strike & Vigilance & Trample & Lifelink | SpellDescription$ CARDNAME becomes a 0/0 Avatar creature with flying, first strike, vigilance, trample, and lifelink until end of turn.
+SVar:NoAnimate:DB$ Pump | SpellDescription$ CARDNAME does not become a creature.
+Oracle:{T}: Add {C}.\n{4}: Put a +1/+1 counter on Monument of Queens. You may have it become a 0/0 Avatar creature with flying, first strike, vigilance, trample, and lifelink until end of turn. It's still a land.

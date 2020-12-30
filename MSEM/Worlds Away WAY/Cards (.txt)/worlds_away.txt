@@ -1,7 +1,7 @@
 Name:Worlds Away
 ManaCost:3 U U
 Types:Sorcery
-S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | References$ X | CheckSVar$ WanderlustTest | SVarCompare$ GE4 | EffectZone$ All | Description$ Wanderlust — This spell costs {2} less to cast if you control four or more differently named lands.
-A:SP$ Draw | Cost$ 3 U U | Defined$ You | NumCards$ 3 | SpellDescription$ Draw three cards.
+S:Mode$ Continuous | Affected$ Card.Self | EffectZone$ All | AddKeyword$ Flash | CheckSVar$ WanderlustTest | SVarCompare$ GE4 | References$ WanderlustTest | Description$ Wanderlust — This spell has flash as long as you control four or more differently named lands.
+A:SP$ Draw | Cost$ 3 U U | Defined$ You | NumCards$ 4 | SpellDescription$ Draw four cards.
 SVar:WanderlustTest:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
-Oracle:Wanderlust — This spell costs {2} less to cast if you control four or more differently named lands.\nDraw three cards.
+Oracle:Wanderlust — This spell has flash as long as you control four or more differently named lands.\nDraw four cards.

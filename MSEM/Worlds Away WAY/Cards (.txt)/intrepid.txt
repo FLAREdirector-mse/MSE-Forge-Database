@@ -1,5 +1,5 @@
 Name:Intrepid
-ManaCost:3
+ManaCost:4
 Types:Legendary Artifact Vehicle
 PT:4/4
 K:Flying

@@ -1,8 +1,8 @@
 Name:Into the Unknown
-ManaCost:R G
+ManaCost:2 R G
 Types:Enchantment
-T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 Scout creature token that's all colors.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 1/1 Scout creature tokens that are all colors.
 T:Mode$ ChangesZone | ValidCard$ Land.YouCtrl+doesNotShareNameWith OtherYourBattlefield | Destination$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigPutCounters | TriggerDescription$ Whenever a land enters the battlefield under your control, if it doesn't have the same name as another land you control, put a +1/+1 counter on each creature you control.
-SVar:TrigToken:DB$ Token | TokenScript$ wubrg_1_1_scout
+SVar:TrigToken:DB$ Token | TokenScript$ wubrg_1_1_scout | TokenAmount$ 2
 SVar:TrigPutCounters:DB$ PutCounterAll | ValidCards$ Creature.YouCtrl | CounterType$ P1P1 | CounterNum$ 1
-Oracle:When Into the Unknown enters the battlefield, create a 1/1 Scout creature token that's all colors.\nWhenever a land enters the battlefield under your control, if it doesn't have the same name as another land you control, put a +1/+1 counter on each creature you control.
+Oracle:When Into the Unknown enters the battlefield, create two 1/1 Scout creature tokens that are all colors.\nWhenever a land enters the battlefield under your control, if it doesn't have the same name as another land you control, put a +1/+1 counter on each creature you control.
