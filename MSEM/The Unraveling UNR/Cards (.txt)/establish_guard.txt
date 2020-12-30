@@ -1,0 +1,7 @@
+Name:Establish Guard
+ManaCost:1 W
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 1/1 white Human Soldier creature tokens.
+SVar:TrigToken:DB$ Token | TokenScript$ w_1_1_human_soldier | TokenAmount$ 2
+A:AB$ PreventDamage | Cost$ 2 Sac<1/CARDNAME> | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | Amount$ 2 | SpellDescription$ Prevent the next 1 damage that would be dealt to any target this turn.
+Oracle:When Establish Guard enters the battlefield, create two 1/1 white Human Soldier creature tokens.\n{2}, Sacrifice Establish Guard: Prevent the next 2 damage that would be dealt to any target this turn.

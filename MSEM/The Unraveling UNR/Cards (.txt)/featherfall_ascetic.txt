@@ -1,5 +1,5 @@
 Name:Featherfall Ascetic
-ManaCost:1 WU
+ManaCost:1 WU WU
 Types:Creature Human Monk
 PT:0/1
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 white and blue Bird creature token with flying.

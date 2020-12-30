@@ -1,0 +1,6 @@
+Name:Inspiring Bannerguard
+ManaCost:1 W
+Types:Creature Human Soldier 
+PT:1/2
+A:AB$ PumpAll | Cost$ 1 W T | ValidCards$ Creature.Other+YouCtrl | NumAtt$ 1 | NumDef$ 1 | SpellDescription$ Other creatures you control get +1/+1 until end of turn.
+Oracle:{1}{W}, {T}: Other creatures you control get +1/+1 until end of turn.

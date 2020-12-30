@@ -1,0 +1,8 @@
+Name:Barricade Watch
+ManaCost:W
+Types:Creature Human Soldier
+PT:0/3
+T:Mode$ DamageDoneOnce | ValidTarget$ Card.Self | Execute$ TrigPutCounter | TriggerDescription$ Whenever CARDNAME is dealt damage, put a +1/+1 counter on it.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+SVar:HasCombatEffect:TRUE
+Oracle:Whenever Barricade Watch is dealt damage, put a +1/+1 counter on it.

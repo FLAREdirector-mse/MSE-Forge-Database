@@ -1,0 +1,7 @@
+Name:Dispersive Volley
+ManaCost:W
+Types:Instant
+A:SP$ Charm | ManaCost$ W | Choices$ DBDmg,DBSac
+SVar:DBDmg:DB$ DealDamage | ValidTgts$ Creature.attacking,Creature.blocking | TargetMin$ 0 | TargetMax$ 3 | TgtPrompt$ Select target creature | NumDmg$ 1 | SpellDescription$ CARDNAME deals 1 damage to each of up to three target attacking or blocking creatures.
+A:SP$ Sacrifice | ValidTgts$ Player | SacValid$ Enchantment | SacMessage$ enchantment | SpellDescription$ Target player sacrifices an enchantment.
+Oracle:Choose one —\n• Dispersive Volley deals 1 damage to each of up to three target attacking or blocking creatures.\n• Target player sacrifices an enchantment.

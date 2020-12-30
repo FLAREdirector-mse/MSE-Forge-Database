@@ -1,0 +1,8 @@
+Name:Avenging Yuroda
+ManaCost:5 W
+Types:Creature Angel
+PT:3/4
+K:Flying
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | CheckSVar$ X | SVarCompare$ GE1 | Description$ This spell costs {2} less to cast if a creature you control died this turn.
+SVar:X:Count$ThisTurnEntered_Graveyard_from_Battlefield_Creature.YouCtrl
+Oracle:This spell costs {2} less to cast if a creature you control died this turn.\nFlying
