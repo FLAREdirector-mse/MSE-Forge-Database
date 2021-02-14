@@ -1,8 +1,8 @@
 Name:Moment of Glory
 ManaCost:RW
 Types:Sorcery
-A:SP$ Pump | Cost$ RW | ValidTgts$ Creature | TgtPrompt$ Select target creature | AddPower$ 1 | AddToughness$ 1 | SpellDescription$ Target creature gets +1/+1 until end of turn.
-A:SP$ Pump | Cost$ 2 RW RW | ValidTgts$ Creature | TgtPrompt$ Select target creature | AddPower$ 1 | AddToughness$ 1 | SpellDescription$ Target creature gets +1/+1 until end of turn. Attach Legacy of Victory to it. | SubAbility$ Fabled | PrecostDesc$ Fabled | CostDesc$ {2}{R/W}{R/W} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Target creature gets +1/+1 until end of turn. Attach CARDNAME to that creature.
+A:SP$ Pump | Cost$ RW | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ 1 | NumDef$ 1 | SpellDescription$ Target creature gets +1/+1 until end of turn.
+A:SP$ Pump | Cost$ 2 RW RW | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ 1 | NumDef$ 1 | SpellDescription$ Target creature gets +1/+1 until end of turn. Attach Legacy of Victory to it. | SubAbility$ Fabled | PrecostDesc$ Fabled | CostDesc$ {2}{R/W}{R/W} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Target creature gets +1/+1 until end of turn. Attach CARDNAME to that creature.
 SVar:Fabled:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | AttachedTo$ ParentTarget
 AlternateMode:DoubleFaced
 Oracle:Target creature gets +1/+1 until end of turn.\nFabled {2}{R/W}{R/W} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
