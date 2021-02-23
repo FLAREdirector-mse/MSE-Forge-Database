@@ -1,0 +1,11 @@
+Name:Frenzied Watchkeeper
+ManaCost:1 B
+Types:Creature Human Soldier
+PT:7/7
+K:Lifelink
+K:etbCounter:M1M1:6
+T:Mode$ Phase | Phase$ End of Turn | TriggerZones$ Battlefield | Execute$ TrigRemove | CheckSVar$ X | SVarCompare$ GE1 | References$ X | TriggerDescription$ At the beginning of each end step, if an opponent lost life this turn, remove a -1/-1 counter from CARDNAME.
+SVar:TrigRemove:DB$ RemoveCounter | Defined$ Self | CounterType$ M1M1 | CounterNum$ 1
+SVar:X:Count$LifeOppsLostThisTurn
+DeckHas:Ability$Counters
+Oracle:Lifelink\nFrenzied Watchkeeper enters the battlefield with six -1/-1 counters on it.\nAt the beginning of each end step, if an opponent lost life this turn, remove a -1/-1 counter from Frenzied Watchkeeper.

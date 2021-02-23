@@ -1,0 +1,7 @@
+Name:Scatter Riches
+ManaCost:1 U U U
+Types:Instant
+A:SP$ Counter | Cost$ 1 U U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SubAbility$ DBTap | SpellDescription$ Counter target spell. Tap all lands that spell's controller controls and that player loses all unspent mana.
+SVar:DBTap:DB$ TapAll | ValidCards$ Targeted.sharesControllerWith+Land | SubAbility$ DBDrain
+SVar:DBDrain:DB$ DrainMana | Defined$ TargetedController
+Oracle:Counter target spell. Tap all lands that spell's controller controls and that player loses all unspent mana.

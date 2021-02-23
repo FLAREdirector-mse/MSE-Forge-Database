@@ -1,0 +1,7 @@
+Name:Weary Watchkeeper
+ManaCost:1 R R
+Types:Creature Human Warrior
+PT:2/3
+A:AB$ Pump | Cost$ 2 R | ValidCards$ Creature.YouCtrl | NumAtt$ 1 | SpellDescription$ Creatures you control get +1/+0 until end of turn.
+A:AB$ Pump | Cost$ 2 G | ValidCards$ Creature.YouCtrl | KW$ Trample | SpellDescription$ Creatures you control gain trample until end of turn.
+Oracle:{2}{R}: Creatures you control get +1/+0 until end of turn.\n{2}{G}: Creatures you control gain trample until end of turn.

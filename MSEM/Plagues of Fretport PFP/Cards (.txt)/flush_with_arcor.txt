@@ -1,0 +1,8 @@
+Name:Flush With Arcor
+ManaCost:1 G W
+Types:Instant
+A:SP$ PumpAll | Cost$ 1 G W | ValidCards$ Permanent.YouCtrl | KW$ Hexproof & Indestructible | SubAbility$ DBEffect | SpellDescription$ Permanents you control gain hexproof and indestructible until end of turn.
+SVar:DBEffect:DB$ Effect | ReplacementEffects$ RPrevent | AILogic$ Fog | SubAbility$ DBPump | SpellDescription$ Prevent all damage that would be dealt to you this turn.
+SVar:RPrevent:DB$ DamageDone | Prevent$ True | ActiveZones$ Command | ValidTarget$ You | Description$ Prevent all damage that would be dealt to you this turn.
+SVar:DBPump:DB$ Pump | Defined$ You | KW$ Hexproof | SpellDescription$ You gain hexproof until end of turn.
+Oracle:Permanents you control gain hexproof and indestructible until end of turn.\nPrevent all damage that would be dealt to you this turn.\nYou gain hexproof until end of turn.

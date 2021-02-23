@@ -1,0 +1,10 @@
+Name:Fretport Gravetender
+ManaCost:2 U
+Types:Creature Human Citizen
+PT:1/4
+A:AB$ Mill | Cost$ 2 U | Defined$ Player | NumCards$ 3 | SpellDescription$ Each player mills three cards.
+A:AB$ ChangeZone | Cost$ 3 B Discard<1/Card> | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target creature card in your graveyard | ValidTgts$ Creature.YouCtrl | SubAbility$ DBProliferate | SpellDescription$ Return target creature card from your graveyard to your hand. Proliferate.
+SVar:DBProliferate:DB$ Proliferate
+DeckHas:Ability$Proliferate
+DeckNeeds:Ability$Counters
+Oracle:{2}{U}: Each player mills three cards.\n{3}{B}, Discard a card: Return target creature card from your graveyard to your hand. Proliferate.

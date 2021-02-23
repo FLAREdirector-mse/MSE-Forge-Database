@@ -1,0 +1,8 @@
+Name:Grim Gravetender
+ManaCost:1 G
+Types:Creature Human Citizen
+PT:1/3
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Citizen.Other+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever another Citizen you control dies, you gain 2 life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 2
+A:AB$ LoseLife | Cost$ 2 B ExileFromGrave<1/Citizen> | Defined$ Opponent | LifeAmount$ 2 | SpellDescription$ Each opponent loses 2 life.
+Oracle:Whenever another Citizen you control dies, you gain 2 life.\n{2}{B}, Exile a Citizen card from your graveyard: Each opponent loses 2 life.

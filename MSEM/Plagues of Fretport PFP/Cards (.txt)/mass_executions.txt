@@ -1,0 +1,9 @@
+Name:Mass Executions
+ManaCost:2 W U
+Types:Sorcery
+A:SP$ DestroyAll | Cost$ 2 W U | ValidCards$ Creature | RememberDestroyed$ True | SubAbility$ DBRepeat | SpellDescription$ Destroy all creatures. For each creature destroyed this way, its controller draws a card.
+SVar:DBRepeat:DB$ RepeatEach | RepeatPlayers$ Player | RepeatSubAbility$ DBDraw | SubAbility$ DBCleanup | ChangeZoneTable$ True
+SVar:DBDraw:DB$ Draw | Defined$ RememberedPlayer | NumCards$ X | References$ X
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:RememberedLKI$FilterControlledByRemembered_Number$1
+Oracle:Destroy all creatures. For each creature destroyed this way, its controller draws a card.

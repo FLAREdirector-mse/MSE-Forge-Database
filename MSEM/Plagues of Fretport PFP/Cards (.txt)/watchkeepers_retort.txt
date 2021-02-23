@@ -1,0 +1,6 @@
+Name:Watchkeeper's Retort
+ManaCost:R
+Types:Instant
+A:SP$ DealDamage | Cost$ R | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ 2 | SubAbility$ DBScry | SpellDescription$ CARDNAME deals 2 damage to target creature or planeswalker. Scry 1.
+SVar:DBScry:DB$ Scry | ScryNum$ 1
+Oracle:Watchkeeper's Retort deals 2 damage to target creature or planeswalker. Scry 1.

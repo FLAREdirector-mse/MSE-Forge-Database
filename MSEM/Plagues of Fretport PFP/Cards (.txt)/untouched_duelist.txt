@@ -1,0 +1,7 @@
+Name:Untouched Duelist
+ManaCost:2 R
+Types:Creature Human Soldier
+PT:1/4
+K:Menace
+K:CARDNAME must be blocked if able.
+Oracle:Menace\nEngage (This creature must be blocked if able.)

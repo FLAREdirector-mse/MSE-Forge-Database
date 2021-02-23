@@ -5,4 +5,5 @@ PT:1/2
 T:Mode$ ChangesZone | ValidCards$ Card.Self | Destination$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ When CARDNAME enters the battlefield, put a -1/-1 counter on another target creature.
 SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature.Other | TgtPrompt$ Select another target creature | CounterType$ M1M1 | CounterNum$ 1
 A:AB$ Proliferate | Cost$ 1 U Sac<1/Creature>
+DeckHas:Ability$Counters & Ability$Proliferate
 Oracle:When False-Cure Smuggler enters the battlefield, put a -1/-1 counter on another target creature.\n{1}{U}, Sacrifice a creature: Proliferate. (Choose any number of permanents and/or players, then give each another counter of each kind already there.)

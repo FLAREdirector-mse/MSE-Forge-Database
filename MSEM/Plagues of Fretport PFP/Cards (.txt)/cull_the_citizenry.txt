@@ -2,4 +2,5 @@ Name:Cull the Citizenry
 ManaCost:1 B
 Types:Instant
 A:SP$ PutCounter | Cost$ 1 B | ValidTgts$ Creature | TgtPrompt$ Select target creature to distribute counters to | CounterType$ M1M1 | CounterNum$ 2 | TargetMin$ 1 | TargetMax$ 2 | DividedAsYouChoose$ 2 | IsCurse$ True | SpellDescription$ Distribute two -1/-1 counters among one or two target creatures.
+DeckHas:Ability$Counters
 Oracle:Distribute two -1/-1 counters among one or two target creatures.

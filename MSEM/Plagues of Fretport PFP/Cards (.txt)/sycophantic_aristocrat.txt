@@ -1,0 +1,6 @@
+Name:Sycophantic Aristocrat
+ManaCost:R
+Types:Creature Human Noble
+PT:1/1
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 2 | AddToughness$ 1 | IsPresent$ Noble.Other+YouCtrl | PresentCompare$ GE1 | Description$ CARDNAME gets +2/+1 as long as you control another Noble.
+Oracle:Sycophantic Aristocrat gets +2/+1 as long as you control another Noble.

@@ -1,0 +1,9 @@
+Name:Keeper of the Banner
+ManaCost:3 R R
+Types:Creature Human Noble Soldier
+PT:3/3
+K:First Strike
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigDraw | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, draw two cards, then discard two cards.
+SVar:TrigDraw:DB$ Draw | NumCards$ 2 | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | NumCards$ 2 | Mode$ TgtChoose
+Oracle:First strike\nWhenever Keeper of the Banner deals combat damage to a player, draw two
