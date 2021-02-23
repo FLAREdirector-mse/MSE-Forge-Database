@@ -5,4 +5,6 @@ K:Hexproof
 PT:0/3
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Enchantment.YouCtrl | Execute$ TrigDraw | TriggerDescription$ Whenever an enchantment enters the battlefield under your control, draw a card.
 SVar:TrigDraw:DB$Draw | Defined$ You | NumCards$ 1
+DeckNeeds:Type$Enchantment
+SVar:BuffedBy:Enchantment
 Oracle:Hexproof\nWhenever an enchantment enters the battlefield under your control, draw a card.

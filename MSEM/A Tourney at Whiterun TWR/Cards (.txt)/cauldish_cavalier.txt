@@ -5,4 +5,5 @@ K:Renown:1
 PT:2/2
 T:Mode$ BecomeRenowned | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ ABDraw | TriggerDescription$ When CARDNAME becomes renowned, you may pay 2 life. If you do, draw two cards.
 SVar:ABDraw:AB$ Draw | Cost$ PayLife<2> | NumCards$ 2
-Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn’t renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhen Cauldish Cavalier becomes renowned, you may pay 2 life. If you do, draw two cards.
+DeckHas:Ability$Counters
+Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhen Cauldish Cavalier becomes renowned, you may pay 2 life. If you do, draw two cards.

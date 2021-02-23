@@ -6,4 +6,5 @@ K:Renown:2
 T:Mode$ BecomeRenowned | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigSearch | OptionalDecider$ You | TriggerDescription$ When CARDNAME becomes renowned, you may search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle your library.
 SVar:TrigSearch:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card.Aura,Card.Equipment | ChangeNum$ 1 | ShuffleNonMandatory$ True
 DeckHas:Ability$Counters
+DeckHints:Type$Aura|Equipment
 Oracle:Renown 2 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)\nWhen Gilded Champion becomes renowned, you may search your library for an Aura or Equipment card, reveal it, put it into your hand, then shuffle your library.

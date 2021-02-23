@@ -2,10 +2,11 @@ Name:Cauldish Arrogant
 ManaCost:3 R
 Types:Creature Human Warrior
 K:Renown:2
-T:Mode$ AttackerBlocked | ValidCard$ Card.Self | ValidBlocker$ Creature | Execute$ TrigDig | TriggerDescription$ Whenever CARDNAME becomes blocked by one or more creatures, reveal the top card of your library. CARDNAME deals damage equal to that card’s converted mana cost to each creature blocking it. Then put that card into your hand.
+T:Mode$ AttackerBlocked | ValidCard$ Card.Self | ValidBlocker$ Creature | Execute$ TrigDig | TriggerDescription$ Whenever CARDNAME becomes blocked by one or more creatures, reveal the top card of your library. CARDNAME deals damage equal to that card's converted mana cost to each creature blocking it. Then put that card into your hand.
 SVar:TrigDig:DB$Dig | DigNum$ 1 | Reveal$ True | ChangeNum$ All | ChangeValid$ Card | SubAbility$ DBDamage | DestinationZone$ Hand | RememberChanged$ True
 SVar:DBDamage:DB$ DamageAll | NumDmg$ X | ValidCards$ Creature.blockingSource | References$ X | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 SVar:X:Remembered$CardManaCost
 PT:3/1
-Oracle:Renown 2 (When this creature deals combat damage to a player, if it isn’t renowned, put two +1/+1 counters on it and it becomes renowned.)\nWhenever Cauldish Arrogant becomes blocked by one or more creatures, reveal the top card of your library. Cauldish Arrogant deals damage equal to that card’s converted mana cost to each creature blocking it. Then put that card into your hand.
+DeckHas:Ability$Counters
+Oracle:Renown 2 (When this creature deals combat damage to a player, if it isn't renowned, put two +1/+1 counters on it and it becomes renowned.)\nWhenever Cauldish Arrogant becomes blocked by one or more creatures, reveal the top card of your library. Cauldish Arrogant deals damage equal to that card's converted mana cost to each creature blocking it. Then put that card into your hand.

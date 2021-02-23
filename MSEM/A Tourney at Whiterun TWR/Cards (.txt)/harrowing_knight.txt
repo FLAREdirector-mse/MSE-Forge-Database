@@ -3,5 +3,5 @@ ManaCost:2 B B
 Types:Creature Human Knight
 PT:3/3
 A:AB$ Pump | Cost$ Sac<1/Creature> | NumAtt$ +2 | NumDef$ +2 | AILogic$ Aristocrat | SpellDescription$ CARDNAME gets +2/+2 until end of turn.
-SVar:AIPreference:SacCost$Creature.Other
+SVar:AIPreference:SacCost$Creature.token,Creature.cmcLE2,Creature.Other
 Oracle:Sacrifice a creature: Harrowing Knight gets +2/+2 until end of turn.
