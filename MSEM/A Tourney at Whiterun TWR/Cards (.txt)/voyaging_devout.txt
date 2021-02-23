@@ -2,6 +2,7 @@ Name:Voyaging Devout
 ManaCost:1 G G
 Types:Creature Human Knight
 PT:3/2
-S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddKeyword$ Creatures with power less than CARDNAME's power can't block it. | Description$ As long as CARDNAME is enchanted or equipped, creatures with power less than its power can’t block it.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddKeyword$ Creatures with power less than CARDNAME's power can't block it. | Description$ As long as CARDNAME is equipped and/or enchanted, creatures with power less than its power can't block it.
+SVar:EnchantMe:Once
 SVar:EquipMe:Once
-Oracle:Adorned — As long as Voyaging Devout is enchanted or equipped, creatures with power less than its power can’t block it.
+Oracle:Adorned — As long as Voyaging Devout is equipped and/or enchanted, creatures with power less than its power can't block it.
