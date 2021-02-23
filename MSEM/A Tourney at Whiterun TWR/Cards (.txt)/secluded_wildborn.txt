@@ -3,6 +3,7 @@ ManaCost:1 B
 Types:Creature Human Mutant
 K:Defender
 PT:3/3
-S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddHiddenKeyword$ CARDNAME can attack as though it didn't have defender. | Description$ As long as CARDNAME is enchanted or equipped, it can attack as though it didn't have defender.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddHiddenKeyword$ CARDNAME can attack as though it didn't have defender. | Description$ As long as CARDNAME is equipped and/or enchanted, it can attack as though it didn't have defender.
 SVar:EnchantMe:Once
-Oracle:Defender (This creature can't attack.)\nAdorned — As long as Secluded Wildborn is enchanted or equipped, it can attack as though it didn’t have defender.
+SVar:EquipMe:Once
+Oracle:Defender (This creature can't attack.)\nAdorned — As long as Secluded Wildborn is equipped and/or enchanted, it can attack as though it didn’t have defender.

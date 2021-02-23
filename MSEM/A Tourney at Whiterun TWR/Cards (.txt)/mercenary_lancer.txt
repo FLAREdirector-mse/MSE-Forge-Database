@@ -2,5 +2,7 @@ Name:Mercenary Lancer
 ManaCost:2 W W
 Types:Creature Human Knight
 PT:3/3
-S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddPower$ 2 | AddToughness$ 2 | Description$ CARDNAME gets +2/+2 as long as it’s enchanted or equipped.
-Oracle:Adorned — Mercenary Lancer gets +2/+2 as long as it’s enchanted or equipped.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddPower$ 2 | AddToughness$ 2 | Description$ CARDNAME gets +2/+2 as long as it's equipped and/or enchanted.
+SVar:EnchantMe:Once
+SVar:EquipMe:Once
+Oracle:Adorned — Mercenary Lancer gets +2/+2 as long as it's equipped and/or enchanted.

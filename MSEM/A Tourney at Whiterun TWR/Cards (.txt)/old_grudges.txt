@@ -2,5 +2,5 @@ Name:Old Grudges
 ManaCost:B
 Types:Sorcery
 A:SP$ PumpAll | Cost$ B | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | References$ X | SpellDescription$ Target creature gets -X/-X until end of turn, where X is the number of enchantments you control.
-SVar:X:Count$Valid Enchantment+YouCtrl
+SVar:X:Count$Valid Enchantment.YouCtrl
 Oracle:Target creature gets -X/-X until end of turn, where X is the number of enchantments you control.
