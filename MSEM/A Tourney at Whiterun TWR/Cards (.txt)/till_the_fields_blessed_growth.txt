@@ -5,7 +5,7 @@ A:SP$ Untap | Cost$ G | ValidTgts$ Land | TgtPrompt$ Select target land | SubAbi
 SVar:DBScry:DB$Scry | ScryNum$ 1
 A:SP$ Untap | Cost$ 3 G G | ValidTgts$ Land | TgtPrompt$ Select target land | SubAbility$ DBScry2 | SpellDescription$ Untap target land. Scry 1. Attach Blessed Growth to it. | PrecostDesc$ Fabled | CostDesc$ {3}{G}{G} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Untap target land. Scry 1. Attach CARDNAME to that land.
 SVar:DBScry2:DB$Scry | ScryNum$ 1 | SubAbility$ Fabled
-SVar:Fabled:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | AttachedTo$ ParentTarget
+SVar:Fabled:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield | AttachedTo$ ParentTarget | Transformed$ True
 AlternateMode:DoubleFaced
 Oracle:Untap target land. Scry 1.\nFabled {3}{G}{G} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that land.)
 

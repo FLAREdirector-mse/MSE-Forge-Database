@@ -3,7 +3,7 @@ ManaCost:U
 Types:Sorcery
 A:SP$ Tap | Cost$ U | ValidTgts$ Creature | SpellDescription$ Tap target creature. | StackDescription$ Tap target creature.
 A:SP$ Tap | Cost$ 3 U | ValidTgts$ Creature | SubAbility$ Fabled | SpellDescription$ Tap target creature. Attach Drunkard Knight to it. | PrecostDesc$ Fabled | CostDesc$ {3}{U} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the creature it's targeting.) | StackDescription$ Tap target creature. Attach CARDNAME to that creature.
-SVar:Fabled:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | AttachedTo$ ParentTarget
+SVar:Fabled:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield | AttachedTo$ ParentTarget | Transformed$ True
 AlternateMode:DoubleFaced
 Oracle:Choose target creature card in your graveyard that was put there from the battlefield this turn. Return that card to the battlefield tapped.\nFabled {3}{B}{B} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that creature.)
 
