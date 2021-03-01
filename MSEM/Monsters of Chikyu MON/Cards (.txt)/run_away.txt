@@ -1,0 +1,5 @@
+Name:Run Away
+ManaCost:W
+Types:Instant
+A:SP$ Phases | Cost$ W | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Target creature phases out.
+Oracle:Target creature phases out.

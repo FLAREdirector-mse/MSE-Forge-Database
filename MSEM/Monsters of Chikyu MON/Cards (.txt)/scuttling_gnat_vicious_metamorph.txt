@@ -1,0 +1,19 @@
+Name:Scuttling Gnat
+ManaCost:U
+Types:Creature Insect
+PT:1/1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigTransform | TriggerZones$ Battlefield | IsPresent$ Card.YouCtrl | PresentZone$ Graveyard | PresentCompare$ GE6 | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, if there are six or more cards in your graveyard, you may transform CARDNAME.
+SVar:TrigTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+Oracle:At the beginning of your upkeep, if there are six or more cards in your graveyard, you may transform Scuttling Gnat.
+
+ALTERNATE
+
+Name:Vicious Metamorph
+ManaCost:no cost
+Colors:blue
+Types:Creature Insect
+PT:4/3
+K:Flying
+K:Protection from Dragons
+Oracle:Flying, protection from Dragons

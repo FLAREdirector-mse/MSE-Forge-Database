@@ -1,0 +1,8 @@
+Name:Attract
+ManaCost:W
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ W | ValidTgts$ Creature | AILogic$ Pump
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | IsPresent$ Creature.YouCtrl+untapped | AddHiddenKeyword$ CARDNAME can't attack or block. | SpellDescription$ As long as you control an untapped creature, enchanted creature can't attack or block.
+DeckNeeds:Type$Creature
+Oracle:Enchant creature\nAs long as you control an untapped creature, enchanted creature can't attack or block.

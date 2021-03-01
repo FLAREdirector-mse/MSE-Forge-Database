@@ -1,0 +1,8 @@
+Name:Nocturnal Watcher
+ManaCost:1 W
+Types:Creature Bird
+PT:1/1
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Creature.Other | Destination$ Battlefield | Execute$ TrigGainLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever another creature enters the battlefield, you gain 1 life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 1
+Oracle:Flying\nWhenever another creature enters the battlefield, you gain 1 life.

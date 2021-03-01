@@ -1,0 +1,7 @@
+Name:Pitfall Pangolin
+ManaCost:1 W
+Types:Creature Pangolin
+PT:2/2
+T:Mode$ Attacks | ValidCard$ Creature.YouDontCtrl | Attacked$ You,Planeswalker.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigPump | TriggerDescription$ Whenever a creature attacks you or a planeswalker you control, CARDNAME gets +1/+0 until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ Self | NumAtt$ 1
+Oracle:Whenever a creature attacks you or a planeswalker you control, Pitfall Pangolin gets +1/+0 until end of turn.
