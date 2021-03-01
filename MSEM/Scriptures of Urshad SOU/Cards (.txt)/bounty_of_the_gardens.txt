@@ -1,0 +1,7 @@
+Name:Bounty of the Gardens
+ManaCost:G U
+Types:Instant
+A:SP$ Token | Cost$ G U | TokenScript$ gu_x_x_plant | TokenPower$ X | TokenToughness$ X | SpellDescription$ Create an X/X green and blue Plant creature token, where X is the number of differently named lands you control.
+SVar:NeedsToPlayVar:X GE2
+SVar:X:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Create an X/X green and blue Plant creature token, where X is the number of differently named lands you control.

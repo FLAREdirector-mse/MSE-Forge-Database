@@ -1,0 +1,11 @@
+Name:Eli Windsors, Lone Gun
+ManaCost:1 B B
+Types:Legendary Planeswalker Eli
+Loyalty:3
+A:AB$ Token | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | TokenScript$ bullet | TokenTapped$ True | SpellDescription$ Create a tapped colorless Bullet artifact token with "{T}, Sacrifice this artifact: It deals 1 damage to any target."
+A:AB$ ChangeZone | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature.wasDealtDamageThisTurn,Planeswalker.wasDealtDamageThisTurn | TgtPrompt$ Select target creature or planeswalker that was dealt damage this turn | Origin$ Battlefield | Destination$ Exile | IsCurse$ True | SpellDescription$ Exile target creature or planeswalker that was dealt damage this turn.
+A:AB$ Effect | Cost$ SubCounter<7/LOYALTY> | Planeswalker$ True | Ultimate$ True | Triggers$ TRDraw | SVars$ TrigDraw,X | Duration$ Permanent | SpellDescription$ You get an emblem with "At the beginning of each end step, you may draw X cards, where X is the amount of life your opponents lost this turn."
+SVar:TRDraw:Mode$ Phase | Phase$ End of Turn | Execute$ TrigDraw | OptionalDecider$ You | TriggerDescription$ At the beginning of each end step, you may draw X cards, where X is the amount of life your opponents lost this turn.
+SVar:TrigDraw:DB$ Draw | NumCards$ X | References$ X
+SVar:X:Count$LifeOppsLostThisTurn
+Oracle:[+1]: Create a tapped colorless Bullet artifact token with "{T}, Sacrifice this artifact: It deals 1 damage to any target."\n[–2]: Exile target creature or planeswalker that was dealt damage this turn.\n[–7]: You get an emblem with "At the beginning of each end step, you may draw X cards, where X is the amount of life your opponents lost this turn."

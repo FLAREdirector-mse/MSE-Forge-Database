@@ -1,0 +1,11 @@
+Name:Master of Marble Row
+ManaCost:3 W W
+Types:Creature Human Soldier
+PT:3/4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters the battlefield, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ TokenMonument,TokenCloister
+SVar:TokenMonument:DB$ Token | TokenScript$ monument | SpellDescription$ Create a colorless Monument artifact token with "Creatures you control get +1/+1."
+SVar:TokenCloister:DB$ Token | TokenScript$ cloister | SpellDescription$ Create a white Cloister enchantment token with "When this enchantment enters the battlefield, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."
+SVar:PlayMain1:TRUE
+AI:RemoveDeck:All
+Oracle:When Master of Marble Row enters the battlefield, choose one —\n• Create a colorless Monument artifact token with "Creatures you control get +1/+1."\n• Create a white Cloister enchantment token with "When this enchantment enters the battlefield, exile target nonland permanent an opponent controls until this enchantment leaves the battlefield."

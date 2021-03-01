@@ -1,0 +1,13 @@
+Name:Bordermakers
+ManaCost:2 W B
+Types:Creature Human Soldier
+PT:4/3
+K:Vigilance
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | CheckSVar$ AX | CheckSecondSVar$ CX | CheckThirdSVar$ EX | Execute$ TrigLoseLife | TriggerDescription$ Civilized — When CARDNAME enters the battlefield, if you control a creature, an artifact, and an enchantment, each opponent loses 4 life and you gain 4 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Opponent | LifeAmount$ 4 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 4
+SVar:AX:Count$Valid Artifact.YouCtrl
+SVar:CX:Count$Valid Creature.YouCtrl
+SVar:EX:Count$Valid Enchantment.YouCtrl
+Oracle:Vigilance, deathtouch\nCivilized — When Bordermakers enters the battlefield, if you control a creature, an artifact, and an enchantment, each opponent loses 4 life and you gain 4 life.
