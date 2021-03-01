@@ -1,0 +1,8 @@
+Name:Impden Mother
+ManaCost:1 B
+Types:Creature Human Cleric
+PT:1/1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | IsPresent$ Imp.YouCtrl | PresentCompare$ EQ0 | TriggerDescription$ At the beginning of your upkeep, if you don't control any Imps, you may pay {B}. If you do, create a 1/1 black Imp creature token.
+SVar:TrigToken:AB$ Token | Cost$ B | TokenScript$ b_1_1_imp | TokenAmount$ 1
+A:AB$ LoseLife | Cost$ Sac<1/Creature/creature> | Defined$ Player.Opponent | LifeAmount$ 1 | SpellDescription$ Each opponent loses 1 life.
+Oracle:At the beginning of your upkeep, if you don't control any Imps, you may pay {B}. If you do, create a 1/1 black Imp creature token.\nSacrifice a creature: Each opponent loses 1 life.

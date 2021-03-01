@@ -1,0 +1,6 @@
+Name:Spellshatter
+ManaCost:1 U U
+Types:Instant
+S:Mode$ Continuous | Affected$ Card.Self | EffectZone$ Hand | AddKeyword$ Alternative Cost:0 | IsPresent$ Card.Other+YouOwn | PresentZone$ Hand | PresentCompare$ EQ0 | Description$ You may cast this spell without paying its mana cost if it's the only card in your hand.
+A:SP$ Counter | Cost$ 1 U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SpellDescription$ Counter target spell.
+Oracle:You may cast this spell without paying its mana cost if it's the only card in your hand.\nCounter target spell.

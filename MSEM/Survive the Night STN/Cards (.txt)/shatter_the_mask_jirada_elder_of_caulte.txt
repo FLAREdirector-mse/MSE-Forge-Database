@@ -1,0 +1,24 @@
+Name:Shatter the Mask
+ManaCost:2 G G
+Types:Sorcery
+A:SP$ Destroy | Cost$ 2 G G | ValidTgts$ Permanent.nonCreature | TgtPrompt$ Select target noncreature permanent | SpellDescription$ Destroy target noncreature permanent.
+A:SP$ Destroy | Cost$ 5 G G | ActivationZone$ Graveyard | SubAbility$ Memento | ValidTgts$ Permanent.nonCreature | TgtPrompt$ Select target noncreature permanent | PrecostDesc$ Memento | CostDesc$ {5}{G}{G} | SpellDescription$ (You may cast this from your graveyard for {5}{G}{G}. If you do, put it onto the battlefield transformed after it resolves. Exile it if it would leave the battlefield or not resolve.)
+SVar:Memento:DB$ ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | SubAbility$ DBAnimate
+SVar:DBAnimate:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile
+AlternateMode:DoubleFaced
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+Oracle:Destroy target noncreature permanent.\nMemento {5}{G}{G} (You may cast this from your graveyard for {5}{G}{G}. If you do, put it onto the battlefield transformed after it resolves. Exile it if it would leave the battlefield or not resolve.)
+
+ALTERNATE
+
+Name:Jirada, Elder of Caulte
+ManaCost:no cost
+Colors:green
+Types:Legendary Creature Wizard
+PT:1/1
+S:Mode$ Continuous | Affected$ Land.YouOwn | MayPlay$ True | AffectedZone$ Graveyard | Description$ You may play land cards from your graveyard.
+A:AB$ PutCounter | Cost$ 9 G G | CounterType$ P1P1 | CounterNum$ 9 | SpellDescription$ Put nine +1/+1 counters on CARDNAME.
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Battlefield | ExcludeDestination$ Exile | ReplaceWith$ DBExile
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+Oracle:You may play land cards from graveyards.\n{9}{G}{G}: Put nine +1/+1 counters on Jirada, Elder of Caulte.

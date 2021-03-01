@@ -1,0 +1,8 @@
+Name:Temporal Insight
+ManaCost:9 U U U
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | References$ X | EffectZone$ All | Description$ This spell costs {1} less to cast for each ten cards in your library.
+A:SP$ AddTurn | Cost$ 9 U U U | NumTurns$ 1 | SubAbility$ DBExile | SpellDescription$ Take an extra turn after this one.
+SVar:DBExile:DB$ ChangeZone | Origin$ Stack | Destination$ Exile | SpellDescription$ Exile CARDNAME.
+SVar:X:Count$ValidLibrary Card.YouOwn/DivideEvenlyDown.10
+Oracle:This spell costs {1} less to cast for each ten cards in your library.\nTake an extra turn after this one.\nExile Temporal Insight.
