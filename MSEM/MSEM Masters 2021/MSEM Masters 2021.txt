@@ -1,0 +1,297 @@
+[metadata]
+Code=MS3
+Date=2021-01-01
+Name=MSEM: MSEM Masters 2021
+Code2=MS3
+MciCode=ms3
+Type=Other
+#BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 M Angel of Ephemeral Life
+2 M Angelic Destiny
+3 R Children of the Clouds
+4 C Consort of Morning
+5 R Council of the Immortals
+6 C Diligent Believer
+7 C Dimensional Isolation
+8 U Disciple of Faradia
+9 R Dragonwrought Engineer
+10 C Dutiful Counselor
+11 U Ephemeral Support
+12 C Ethereal Armor
+13 U Fell the Beast
+14 C Fox of the Sunset Legion
+15 R Idyllic Tutor
+16 C Inner Peace
+17 R Lijing, the True Divinity
+18 U Maelstrom Griffin
+19 C Nest Matriarch
+20 R Paragon of Noon
+21 C Paranoid Collector
+22 C Perseverance
+23 C Pious Flutist
+24 R Prismatic Champion
+25 C Purging Strike
+26 U Ready to Go
+27 C Scimitar Techniques
+28 C Self Replication
+29 U Silkweaver Matron
+30 C Solemn Offering
+31 C Soulsmoke Adept
+32 U Sparking Automaton
+33 C Spirit Keeper
+34 R Spur of the Moment
+35 U Uncommon Grit
+36 U Zhedina Envoys
+37 C Accelerate Fate
+38 R Aether Ascendant
+39 U Arcane Heist
+40 C Cadalon Outfitter
+41 U Call of the Clocktower
+42 C Curiosity
+43 C Deep Temptation
+44 C Diffuse
+45 C Duelist's Wings
+46 U Dwemer-Bound Specter
+47 R Ethereal Spellmaster
+48 C Ficklewing Elemental
+49 C Frosthulk
+50 C Ghostly Flicker
+51 R Kantra of the Third Eye
+52 M Lazaire's Conjuring
+53 R Lord Shigure
+54 R Marin Polgek, Academy Heiress
+55 C Opt
+56 C Oracle of Edicts
+57 R Ride the Storm
+58 U Rimebreath Tyrant
+59 C Rise from the Harbor
+60 R Shatter Mortal Conveyances
+61 C Shifting Terrain
+62 U Sticky Fingers
+63 U Stormwake
+64 U Street Performer
+65 C Take a Walk
+66 M Time After Time
+67 C Tombstone Looter
+68 U Unearthly Grace
+69 C Watch from Above
+70 R Weaver of Mists
+71 C Winged Envoy
+72 C Winged Guardian
+73 R Abhorrent Academic
+74 R Aguri, Shadow of Doubt
+75 C Barbed Cocoon
+76 C Beckon the Shadows
+77 M Berbarus Unsealed
+78 C Blackmoat Bully
+79 C Cave Diving
+80 U Curse of Kuyarami
+81 C Death's Sentry
+82 U Descend into Insanity
+83 C Devour Memories
+84 C Duress
+85 R Fateful Journey
+86 U From Shengin's Heart
+87 C Hero's Downfall
+88 R Kevthra's Command
+89 M Kevthra's Will
+90 U King of Bones
+91 U Maghbri Oracle
+92 C Maghbri Whisper
+93 C Mortal Will
+94 R Nighthallow Ritual
+95 U Nightmarish Fears
+96 R Shattered Valkyrie
+97 C Shengin Renegade
+98 C Slum Scrounger
+99 C Strangulate
+100 U Strike from the Shadows
+101 C Telarine Enforcers
+102 R Turned Watcher
+103 C Twisted Predator
+104 R Undeath Comes
+105 C Undying Watcheer
+106 U Veilstalker
+107 C Warpblade Warrior
+108 U Wither Away
+109 C Armament Scavenger
+110 C Blazing Volley
+111 C C-25 Juliet
+112 C Cadalon Experimenter
+113 U Cannon Fodder
+114 C Crossing the Rifts
+115 R Demolitionist Deviser
+116 C Diasune Immolator
+117 M Dragongate
+118 C Dunebelt Stalker
+119 U Eleventh Hour Breakthrough
+120 R Endless Assembly
+121 C Form of the Phoenix
+122 C Gift of the Phoenix
+123 U Heat of the Moment
+124 U Imperial Siege
+125 R Instant of Brilliance
+126 C Jadycian Empath
+127 U K-17 Drone
+128 R Lord Asharo
+129 C Meteorain
+130 C Obliterating Blast
+131 U Reason Rots, Rage Remains
+132 U Scorch
+133 C Shaping Dragonsteel
+134 M Shimmering Dragon
+135 U Shrine Razer
+136 R Speedreading
+137 U Sunless Seekers
+138 C Surestrike Elite
+139 R Synchronous Hellkite
+140 R Turin's Study
+141 C Unleash the Dragon
+142 C Warband Commander
+143 C Weapon Smash
+144 R Zarchepet, Master of Sands
+145 R Ankryss, Biologist Adept
+146 M Avatar of Plume de Val
+147 C Backwoods Cultivator
+148 C Bauble Collector
+194 U Bestial Summons
+150 R Bloodleaf Tracker
+151 U Catch Unawares
+152 C Druid's Deliverance
+153 U Endless Expedition
+154 C Entangled Roots
+155 C Felling Vines
+156 C Flash of Blades
+157 C Foraging Beetle
+158 R Fungal Whomper
+159 C Goriana Naturalist
+160 C Grace of Timber
+161 C Groundswell
+162 C Harbinger of Growth
+163 C Host of Nature
+164 U Jade Vault Reclaimer
+165 C Join the Colony
+166 R Kantra of Old Majik
+167 U Lead the Stampede
+168 U Lives Redeemed
+169 U Mawdryk's Haven
+170 R Natural Recycling
+171 C Ophorion Refuge
+172 U Primal Ruffian
+173 C Rethia Cultivator
+174 C Skittering Swarm
+175 C Spore Vessel
+176 R Telvim Sculptor
+177 U Towering Stag
+178 R Verdant Expanse
+179 R Wild Lifescale
+180 M Wurmscape
+181 R Aila, Forest Visitor
+182 U Ainok Scout
+183 U Corecharge
+184 U Darklands Charm
+185 U Drove of the Lost
+186 R Face of All
+187 U Gift to the Gloam
+188 M Gleaming Mirrorweaver
+189 U Grim Botanist
+190 R Hannah, Entelan Prodigy
+191 U Imaginative Dreamer
+192 M Infuse the Apparatus
+193 U Ishim's Meddling
+194 R Lackeybot
+195 R Marshy Marauder
+196 U Nightrail Fence
+197 U Nomadic Patriarch
+198 R Phyrexian Mindflayer
+199 U Pitchpyre Curse
+200 U Rimecraft Owl
+201 U Risti Salvager
+202 U Ruffler of Feathers
+203 R Ser Wayver, the Broken Hour
+204 R Sigiled Bulwark
+205 U Skypath Pilgrimage
+206 U Spark New Life
+207 R Suburban Runebrawler
+208 R Sukhar, Consort to the Dark
+209 M The Sun Also Rises
+210 U Sunwright Scion
+211 U Tend to the Grove
+212 U Tricked-Out Hoverboard
+213 U Wish to See
+214 C Ancestral Monument
+215 R Astral Gateway
+216 C Bearer of Old Growth
+217 R Chromatic Pendant
+218 U Cold Grave
+219 C Decrepit Monument
+220 U Elixir of Immortality
+221 U Experimental Battle Armor
+222 R Facsimile of Divinity
+223 U Flawless Counterfeit
+224 U Hellbent Speed
+225 U Hub of Innovation
+226 C Infernal Monument
+227 C Inspiring Monument
+228 C Multipurpose Mannequin
+229 C Mystic Monument
+230 C Nidohagane Warfans
+231 R Nightwatch Rallier
+232 M Palace of Heavenly Sovereigns
+233 U Propagation Blade
+234 U Runic Pillars
+235 C Sentient Contraption
+236 U Stonefall Golem
+237 R Treasury Keeper
+238 C Warded Tome
+239 C Worn Saddle
+240 U Arid Ruins
+241 C Bloodriver
+242 C Calcified Dunes
+243 U Canyon Falls
+244 U Clay Mesa
+245 C Cloudbank
+246 C Corpsebed
+247 C Flourishing Dunes
+248 R Hall of Random Access Memories
+249 C Highland Dunes
+250 U Hostile Dunes
+251 R The Issbarrens
+252 M The Last Sacred Gate
+253 U Lonely Dunes
+254 U Mountain Spring
+255 U Prismatic Cavern
+256 C Saturated Dunes
+257 U Scorched Canyon
+258 C Seedshrine
+259 C Stygian Dunes
+260 U Sunlit Cactus
+261 U Sunset Sands
+262 C Sunstage
+263 R Unending Sands
+264 U Weathered Oasis
+265 L Wastes
+266 L Plains
+267 L Plains
+268 L Island
+269 L Island
+270 L Swamp
+271 L Swamp
+272 L Mountain
+273 L Mountain
+274 L Forest
+275 L Forest
+276 S Decide Boundaries
+277 S Guard of Cuirassiers
+278 S Tiny Heroine Totti
+279 S Forbidden Treasure
+280 S Eldritch Emergence
+281 S Inked Summoner
+282 S Eternal Blessings
+283 S Alien Visitor
+284 S Bitter Duckling
+285 S Saigura Mao, Wanderer
+286 S Xolde, High King's 
