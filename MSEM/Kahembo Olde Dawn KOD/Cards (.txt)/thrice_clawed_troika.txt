@@ -1,0 +1,12 @@
+Name:Thrice-Clawed Troika
+ManaCost:1 GU B R
+Types:Legendary Creature Cat Wizard
+PT:2/2
+K:Haste
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | Execute$ TrigCopy | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of combat on your turn, create two nonlegendary token copies of CARDNAME. Then for each creature token created this way, create token copies of each permanent attached to CARDNAME and attach them to that creature token. Exile all tokens created this way at the end of combat.
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ Self | NumCopies$ 2 | NonLegendary$ True | RememberTokens$ True | AtEOT$ ExileCombat | SubAbility$ DBRepeat
+SVar:DBRepeat:DB$ RepeatEach | RepeatCards$ Card.IsRemembered | RepeatSubAbility$ DBRepeat2 | UseImprinted$ True | SubAbility$ DBCleanup
+SVar:DBRepeat2:DB$ RepeatEach | RepeatCards$ Card.AttachedTo Self | RepeatSubAbility$ DBCopy
+SVar:DBCopy:DB$ CopyPermanent | Defined$ Remembered | AttachedTo$ Imprinted | AtEOT$ ExileCombat
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearImprinted$ True
+Oracle:Haste\nAt the beginning of combat on your turn, create two nonlegendary token copies of Thrice-Clawed Troika. Then for each creature token created this way, create token copies of each permanent attached to Thrice-Clawed Troika and attach them to that creature token. Exile all tokens created this way at the end of combat.
