@@ -1,0 +1,6 @@
+Name:Reversal of Fates
+ManaCost:U U
+Types:Instant
+A:SP$ Counter | Cost$ U U | TargetType$ Spell | TgtPrompt$ Select target spell | ValidTgts$ Card | SubAbility$ DBDraw | SpellDescription$ Counter target spell. Its controller draws a card.
+SVar:DBDraw:DB$ Draw | Defined$ TargetedController | NumCards$ 1
+Oracle:Counter target spell. Its controller draws a card.

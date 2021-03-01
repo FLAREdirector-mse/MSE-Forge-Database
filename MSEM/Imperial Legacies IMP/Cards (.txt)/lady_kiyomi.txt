@@ -1,0 +1,8 @@
+Name:Lady Kiyomi
+ManaCost:1 B B
+Types:Legendary Creature Human Samurai
+PT:3/2
+K:Menace
+T:Mode$ ChangesZone | ValidCard$ Creature.nonToken+YouDontCtrl | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigCopy | TriggerZones$ Battlefield | TriggerDescription$ Whenever a nontoken creature you don't control dies, create a token that's a copy of that creature except it's a colorless Spirit. Exile it at the beginning of your next end step.
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ TriggeredCard | SetColor$ Colorless | SetType$ Zombie | AtEOT$ YourExile
+Oracle:Menace\nWhenever a nontoken creature you don't control dies, create a token that's a copy of that creature except it's a colorless Spirit. Exile it at the beginning of your next end step.
