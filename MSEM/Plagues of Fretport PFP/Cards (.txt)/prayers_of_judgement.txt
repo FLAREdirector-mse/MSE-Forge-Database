@@ -1,0 +1,8 @@
+Name:Prayers of Judgement
+ManaCost:B
+Types:Enchantment
+K:Vanishing:3
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigLoseLife | TriggerDescription$ Whenever a time counter is removed from CARDNAME, each player loses 1 life and mills two cards.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player | LifeAmount$ 1 | SubAbility$ DBMill
+SVar:DBMill:DB$ Mill | Defined$ Player | NumCards$ 2
+Oracle:Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhenever a time counter is removed from Prayers of Judgement, each player loses 1 life and mills two cards.

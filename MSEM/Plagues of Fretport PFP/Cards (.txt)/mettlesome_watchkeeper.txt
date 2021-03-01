@@ -1,0 +1,6 @@
+Name:Mettlesome Watchkeeper
+ManaCost:1 R
+Types:Creature Human Soldier
+K:CARDNAME must be blocked if able.
+A:AB$ Pump | Cost$ R | Defined$ Self | NumAtt$ 1 | SpellDescription$ CARDNAME gets +1/+0 until end of turn.
+Oracle:Engage (This creature must be blocked each combat if able.)\n{R}: Mettlesome Watchkeeper gets +1/+0 until end of turn.

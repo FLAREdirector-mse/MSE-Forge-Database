@@ -1,0 +1,7 @@
+Name:Riot Queller
+ManaCost:2 W
+Types:Creature Human Soldier
+PT:3/2
+K:First Strike
+K:CARDNAME must be blocked if able.
+Oracle:First strike\nEngage (This creature must be blocked each combat if able.)

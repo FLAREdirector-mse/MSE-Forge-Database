@@ -1,0 +1,9 @@
+Name:Sickening Madness
+ManaCost:1 B
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 1 B | ValidTgts$ Creature | AILogic$ Pump
+S:Mode$ Continuous | Affected$ Creature | AddPower$ 1 | AddKeyword$ Deathtouch | Description$ Enchanted creature gets +1/+0 and has deathtouch.
+T:Mode$ ChangeZone | ValidCard$ Card.Self | Origin$ Graveyard | Destination$ Battlefield | Execute$ TrigDraw | TriggerDescription$ When CARDNAME is put into a graveyard from the battlefield, draw a card.
+SVar:TrigDraw:DB$ Draw
+Oracle:Enchant creature\nEnchanted creature gets +1/+0 and has deathtouch.\nWhen Sickening Madness is put into a graveyard from the battlefield, draw a card.

@@ -1,0 +1,7 @@
+Name:Kasienka's Veteran
+ManaCost:1 W
+Types:Creature Human Soldier
+PT:2/1
+K:Lifelink
+K:CARDNAME must be blocked if able.
+Oracle:Lifelink\nEngage (This creature must be blocked each combat if able.)

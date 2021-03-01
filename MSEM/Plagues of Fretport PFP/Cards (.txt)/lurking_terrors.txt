@@ -1,0 +1,7 @@
+Name:Lurking Terrors
+ManaCost:3 B B
+Types:Sorcery
+A:SP$ Destroy | Cost$ 3 B B | ValidTgts$ Creature.wasDealtDamageThisTurn | TgtPrompt$ Select target creature that was dealt damage this turn | SubAbility$ DBToken | SpellDescription$ Destroy target creature that was dealt damage this turn, then create a 3/2 black Mutant Horror creature token.
+SVar:DBToken:DB$ Token | TokenScript$ b_3_2_mutant_horror
+DeckHas:Ability$Token
+Oracle:Destroy target creature that was dealt damage this turn, then create a 3/2 black Mutant Horror creature token.

@@ -1,0 +1,8 @@
+Name:Wisdom in Reflection
+ManaCost:2 GU
+Types:Instant
+A:SP$ Pump | Cost$ 2 GU | ValidTgts$ Player | TgtPrompt$ Select target player | SubAbility$ DBChangeZone | IsCurse$ True | SpellDescription$ Target player shuffles any number of target cards from their graveyard into their library.
+SVar:DBChangeZone:DB$ ChangeZone | TargetMin$ 0 | TargetMax$ X | TargetsWithDefinedController$ ParentTarget | Origin$ Graveyard | Destination$ Library | Shuffle$ True | TgtPrompt$ Select any number of target cards in their graveyard | ValidTgts$ Card | References$ X | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | SpellDescription$ Draw a card.
+SVar:X:Count$InAllYards
+Oracle:Target player shuffles any number of target cards from their graveyard into their library.\nDraw a card.

@@ -1,0 +1,8 @@
+Name:Kasienka, Raven's Regarded
+ManaCost:1 W W
+Types:Legendary Creature Human Soldier
+PT:3/2
+K:Vigilance
+K:Lifelink
+A:AB$ Pump | Cost$ 1 Discard<1/Card> | ValidTgts$ Creature.Soldier | TgtPrompt$ Select target Soldier creature | KW$ Indestructible | SpellDescription$ Target Soldier creature gains indestructible until end of turn.
+Oracle:Vigilance, lifelink\n{1}, Discard a card: Target Soldier creature gains indestructible until end of turn.

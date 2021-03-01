@@ -1,0 +1,9 @@
+Name:Wildborn Courtesan
+ManaCost:3 G G
+Types:Creature Human Mutant Citizen
+PT:2/3
+T:Mode$ AttackerBlockedByCreature | ValidCard$ Card.Self | ValidBlocker$ Creature | Execute$ TrigDraw | TriggerDescription$ Whenever a creature blocks CARDNAME, draw a card.
+SVar:TrigDraw:DB$ Draw
+A:AB$ Untap | Cost$ R R | ValidTgts$ Creature.OppCtrl | TgtPrompt$ Select target creature an opponent controls | SubAbility$ DBMustBlock | SpellDescription$ Untap target creature an opponent controls. That creature blocks CARDNAME this turn if able.
+SVar:DBMustBlock:DB$ MustBlock | Defined$ ParentTarget
+Oracle:Whenever a creature blocks Wildborn Courtesan, draw a card.\n{R}{R}: Untap target creature an opponent controls. That creature blocks Wildborn Courtesan this turn if able.
