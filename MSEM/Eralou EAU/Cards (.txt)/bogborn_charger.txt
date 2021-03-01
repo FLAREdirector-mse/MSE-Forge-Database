@@ -1,0 +1,9 @@
+Name:Bogborn Charger
+ManaCost:R
+Types:Creature Devil
+PT:2/1
+T:Mode$ ChangesZone | ValidCard$ Creature.Other+YouCtrl | Origin$ Any | Destination$ Battlefield | Execute$ TrigPump | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ Whenever another creature enters the battlefield under your control, you may have it gain haste. If you do, return it to its owner's hand at the beginning of the next end step.
+SVar:TrigPump:DB$ Pump | Defined$ TriggeredCard | KW$ Haste | Permanent$ True | SubAbility$ DBDelTrig
+SVar:DBDelTrig:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | Execute$ TrigReturn | RememberObjects$ TriggeredCard | TriggerDescription$ Return that creature to its owner's hand at the beginning of the next end step.
+SVar:TrigReturn:DB$ ChangeZone | Defined$ DelayTriggerRemembered | Origin$ Battlefield | Destination$ Hand
+Oracle:Whenever another creature enters the battlefield under your control, you may have it gain haste. If you do, return it to its owner's hand at the beginning of the next end step.

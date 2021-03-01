@@ -1,0 +1,7 @@
+Name:Bloomcrawler
+ManaCost:1 G
+Types:Creature Plant Spider
+PT:1/3
+K:Reach
+A:AB$ Pump | Cost$ 1 B | KW$ Deathtouch | SpellDescription$ CARDNAME gains deathtouch until end of turn.
+Oracle:Reach\n{1}{B}: Bloomcrawler gains deathtouch until end of turn.
