@@ -1,0 +1,7 @@
+Name:Chronofracture
+ManaCost:2 U U
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 2 U U | Origin$ Library | Destination$ Exile | ValidTgts$ Opponent | ChangeType$ Card | ChangeNum$ 6 | IsCurse$ True | Mandatory$ True | SubAbility$ DBSkipTurn | AILogic$ BestCard | SpellDescription$ Search target opponent's library for six cards and exile them. Then that player shuffles their library. Skip your next turn.
+SVar:DBSkipTurn:DB$ SkipTurn | Defined$ You | NumTurns$ 1
+AI:RemoveDeck:All
+Oracle:Search target opponent's library for six cards and exile them. Then that player shuffles their library. Skip your next turn.

@@ -1,0 +1,10 @@
+Name:Curse-Blood Morrigan
+ManaCost:1 B B
+Types:Legendary Creature Human Pirate
+PT:2/2
+K:Menace
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Creature.OppCtrl | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigLoseLife | TriggerDescription$ Whenever a creature an opponent controls dies, that player loses 2 life and you gain 2 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ TriggeredCardController | LifeAmount$ 2 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+Oracle:Menace, deathtouch\nWhenever a creature an opponent controls dies, that player loses 2 life and you gain 2 life.
