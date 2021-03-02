@@ -4,4 +4,5 @@ Types:Creature Human Mutant
 K:Trample
 K:Renown:3
 PT:4/4
-Oracle:Trample (This creature can deal excess combat damage to the player or planeswalker it’s attacking.)\nRenown 3 (When this creature deals combat damage to a player, if it isn’t renowned, put three +1/+1 counters on it and it becomes renowned.)
+DeckHas:Ability$Counters
+Oracle:Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nRenown 3 (When this creature deals combat damage to a player, if it isn't renowned, put three +1/+1 counters on it and it becomes renowned.)

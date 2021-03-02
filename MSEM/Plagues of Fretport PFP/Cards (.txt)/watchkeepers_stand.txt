@@ -1,0 +1,5 @@
+Name:Watchkeeper's Stand
+ManaCost:3 R
+Types:Sorcery
+A:SP$ Token | Cost$ 3 R Discard<1/Card> | CostDesc$ As an additional cost to cast this spell, discard a card. | TokenScript$ r_1_1_soldier_haste | TokenAmount$ 3 | SpellDescription$ Create three 1/1 red Soldier creature tokens with haste.
+Oracle:As an additional cost to cast this spell, discard a card.\nCreate three 1/1 red Soldier creature tokens with haste.

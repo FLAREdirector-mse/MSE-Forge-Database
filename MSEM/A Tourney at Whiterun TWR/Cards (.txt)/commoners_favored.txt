@@ -2,6 +2,7 @@ Name:Commoners' Favored
 ManaCost:G
 Types:Creature Human Warrior
 PT:1/1
-S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddPower$ 2 | AddToughness$ 2 | Description$ CARDNAME gets +2/+2 as long as it’s enchanted or equipped.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddPower$ 2 | AddToughness$ 2 | Description$ CARDNAME gets +2/+2 as long as it's equipped and/or enchanted.
+SVar:EnchantMe:Once
 SVar:EquipMe:Once
-Oracle:Adorned — Commoners’ Favored gets +2/+2 as long as it’s enchanted or equipped.
+Oracle:Adorned — Commoners' Favored gets +2/+2 as long as it's equipped and/or enchanted.

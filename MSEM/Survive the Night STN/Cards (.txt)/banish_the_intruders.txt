@@ -1,0 +1,6 @@
+Name:Banish the Intruders
+ManaCost:U
+Types:Instant
+A:SP$ Counter | Cost$ U | TargetType$ Spell | TgtPrompt$ Select target planeswalker Spell | ValidTgts$ Planeswalker | SubAbility$ DBDraw | SpellDescription$ Counter target planeswalker spell.
+SVar:DBDraw:DB$ Draw | SpellDescription$ Draw a card.
+Oracle:Counter target planeswalker spell.\nDraw a card.

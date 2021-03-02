@@ -2,6 +2,7 @@ Name:Silverwork Champion
 ManaCost:4 G
 Types:Creature Human Warrior
 PT:4/4
-S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ Trample | Description$ As long as CARDNAME is enchanted or equipped, it gets +2/+2 and has trample.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddPower$ 2 | AddToughness$ 2 | AddKeyword$ Trample | Description$ As long as CARDNAME is equipped and/or enchanted, it gets +2/+2 and has trample.
+SVar:EnchantMe:Once
 SVar:EquipMe:Once
-Oracle:Adorned — As long as Silverwork Champion is enchanted or equipped, it gets +2/+2 and has trample.
+Oracle:Adorned — As long as Silverwork Champion is equipped and/or enchanted, it gets +2/+2 and has trample.

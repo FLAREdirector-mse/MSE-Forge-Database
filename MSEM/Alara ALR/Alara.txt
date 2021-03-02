@@ -1,0 +1,287 @@
+[metadata]
+Code=ALR
+Date=2020-11-01
+Name=Alara
+MciCode=alr
+Type=Expansion
+# Set designed by Mako
+
+[cards]
+1 C Ajani's Advocate
+2 C Akrasan Sentry
+3 U Amesha of the Honorable
+4 M Archangel of Bliss
+5 U Bant Shardseeker
+6 C Blessed Radiance
+7 R Blessed Vanquisher
+8 U Citadel Battlemage
+9 U Cloudheath Sentinel
+10 C Cloud's Roar Avenger
+11 C Dawnray Castellan
+12 R Derevi's Adjutant
+13 C Dominator's Diadem
+14 U Eos Beseecher
+15 R Etherium Abrogator
+16 U Etherium Staff
+17 U Etlan High Priest
+18 C Gleamhorn Gargantuan
+19 U Herald of the White Orchid
+20 C Meticulous Mechanist
+21 U Ostracizer Orb
+22 C Paladin's Attendand
+23 C Pledge of Peace
+24 C Radiant Resolve
+25 C Recraft in Steel
+26 R Refulgent Rupture
+27 C Reliquary Rhox
+28 U Sigil of the Many
+29 C Skygrid Surveyor
+30 C Sunstrike
+31 C Topan Curemaster
+32 C Valeron Vanguard
+33 C Brackwater Scuttler
+34 C Clairvoyant Insight
+35 U Cognition Crucible
+36 C Disperse
+37 U Dissident's Vortex
+38 U Disturb the Riddle Gate
+39 U Esper Shardseeker
+40 C Essence Erasure
+41 R Etherium Leviathan
+42 C Etherium Sculptor
+43 C Fathom the Forbidden
+44 R Fearful Flooding
+45 C Filigree Drake
+46 R Filigree Lotus
+47 C Hallucinate
+48 C Jhessian Cavalier
+49 C Kederekt Seawitch
+50 U Maelstromancy
+51 C Mage's Warding
+52 C Retinue Golem
+53 U Sanctum Battlemage
+54 C Serul Cove Escort
+55 M Sphinx Paramount
+56 C Steel Wind Strix
+57 C Steelfin Manta
+58 C Subduing Serum
+59 C Supreme Mechanothurge
+60 C Terraformer's Globe
+61 U Unbeholden Navigator
+62 U Vectis Entrancer
+63 U Vibrant Expulsion
+64 U Wayward Sphinx
+65 C Agonizing Syphon
+66 U Bloated Visceroid
+67 R Bloodbraid Ritualist
+68 C Bone Splinters
+69 C Carnage Gorger
+70 C Cesspool Scrapper
+71 C Cling to Undeath
+72 U Demonic Rite
+73 C Dire Predictions
+74 R Dregscape Chant
+75 C Dregscape Wretch
+76 U Exenterate
+77 U Grixis Shardseeker
+78 C Hegemon's Cutthroat
+79 C Hexcaster of Unx
+80 C Hostile Barbfly
+81 R Mortal Finish
+82 U Necropolis Battlemage
+83 C Nel Toth Shaman
+84 U Obscene Recitation
+85 C Omen of Nefarox
+86 C Perilous Sojourn
+87 M Profane Emissary
+88 U Ravenous Tarwurm
+89 C Sangrite Ooze
+90 U Scrap Spiral
+91 C Sculler's Bauble
+92 U Sedraxis Trepanator
+93 U Shining Revival
+94 C Thunderscorn
+95 R Tidehollow Lich
+96 C Unearth
+97 U Bask in Fire
+98 C Calamitous Rampage
+99 C Catankeroth
+100 C Chromeleon
+101 C Dagger-Thrash Marauders
+102 C Fodder Goblins
+103 C Frenzied Nacatl
+104 R Hellkite Omnivore
+105 U Hellkite's Decree
+106 R Hellspark Prankster
+107 C Infernal Flames
+108 U Jund Shardseeker
+109 C Lava Hellion
+110 R Maelstorm Slicer
+111 C Magma Spray
+112 C Make Way
+113 U Mist-Valley Minotaurs
+114 U Nacatl Skirmisher
+115 C Ominous Lightning
+116 C Pain's Embrace
+117 C Ragemist
+118 C Reinbreaker Behemoth
+119 C Sadistic Sparkmage
+120 R Sangrite Demon
+121 U Savage Battlemage
+122 U Scaleshredder
+123 C Torchlight Tormentor
+124 U Viashino Glutton
+125 U Vigor from the Vein
+126 U Vithian Arcanist
+127 C Volcano Elemental
+128 M Worldheart Avatar
+129 C Canopy Assault
+130 C Conduit of the Conflux
+131 C Elvish Godtracker
+132 C Exuberant Hunter
+133 C Flarespore Mycoid
+134 C Flesheater Vine
+135 C Fletcher's Precision
+136 U Fungal Flourishing
+137 C Gargantuan Crusher
+138 R Heart of Spores
+139 R Hierarch Ranger
+140 U Jund Battlemage
+141 C Knight of the Olive Orchard
+142 U Knotvine Preserver
+143 C Leotau Rider
+144 C Lichen's Grasp
+145 R Magnoceros
+146 U Mist-Valley Ancient
+147 U Naya Shardseeker
+148 U Overpower
+149 C Qasali Quiverguard
+150 U Regurgitator Ooze
+151 C Sigil of Fortitude
+152 C Thallid Cultivator
+153 U Thoctar Yearling
+154 C Titanothoctar
+155 C Towering Silkweaver
+156 C Tranquil Repose
+157 U Veteran Horncaptain
+158 M Vitalhydra
+159 R War-Pride Champion
+160 U Worldheart Nexus
+161 R Aether Pull
+162 M Ajani Resolute
+163 U Ambush Gharial
+164 R Angel of Succor
+165 R Antali Archdruid
+166 R Arcanist's Reaver
+167 U Aven Strategist
+168 R Bant Command
+169 U Behemoth Channeler
+170 U Bellowing Thoctar
+171 C Brutal Struggle
+172 C Celebrant of Jubilation
+173 U Conflux Ravager
+174 U Corpsemound
+175 R Duneglass Ascetic
+176 R Earthbreaker Behemoth
+177 M Edarna the Everforge
+178 U Edarna's Augurling
+179 R Empyrial Reverence
+180 R Entrail Elemental
+181 R Esper Command
+182 C Ethersworn Elite
+183 U Ethersworn Indoctrination
+184 U Giltspire Exemplar
+185 M Godspeaker Mayael
+186 R Grixis Command
+187 R Hellion Devastator
+188 C Incantation Demon
+189 M Influence of Progenitus
+190 M Jenara, Virtue of Bant
+191 U Jenara's Favor
+192 R Jund Command
+193 R Kaalia's Abomination
+194 M Kederekt Deepdweller
+195 R Kess the Necromaster
+196 R Maelstrom Elemental
+197 U Magmatic Violator
+198 R Meren, Bane of the Cairns
+199 R Naya Command
+200 M Nefarox, Strifelord
+201 R Orlesia, First of the Sen
+202 R Profound Introspection
+203 R Rafiq the Magnanimous
+204 C Sacellum Visionary
+205 U Scatter What Remains
+206 U Scorchpass Sovereign
+207 U Sedraxis Scourge
+208 M Sharuum, Archmagocrat
+209 U Sharuum's Council
+210 C Sighted-Caste Knight
+211 C Sphinx's Scrutiny
+212 C Spinebreak
+213 R Steel Wind Goliath
+214 R Summit Guardian
+215 U Sun-Dappled Paragon
+216 R Sun-Sigil Ordainer
+217 U Telemin Architect
+218 U Tendrilsnare
+219 M Tharrsus, Tyrant's Scion
+220 U Thrinax Sporemother
+221 R Timus, the Cloud's Roar
+222 U Tremor Seer
+223 R Tumultipede
+224 C Varakna Wurm
+225 M Velir the Sunderer
+226 U Visitarium Smuggler
+227 C Ziggurat Behemoth
+228 U Font of Nefarox
+229 U Macabre Effigy
+230 R The Riddle Gate
+231 U Rings of New Alara
+232 U Sigil of the Skyward Eye
+233 C Spire of Bant
+234 C Spire of Esper
+235 C Spire of Grixis
+236 C Spire of Jund
+237 C Spire of Naya
+238 U Arcane Sanctum
+239 C Bigroot Valley
+240 R Bleak Shoreline
+241 C Caustic Mangrove
+242 R Charred Marsh
+243 R Cloudcover Heights
+244 U Crumbling Necropolis
+245 C Erupting Territory
+246 R Forbidding Isle
+247 C Gloomtide Gulf
+248 C Hazy Summits
+249 R Idyllic Oasis
+250 U Jungle Shrine
+251 R Kaleidoscape
+252 C Lush Coast
+253 C Peaceful Passage
+254 U Savage Lands
+255 C Sculpted Observatory
+256 U Seaside Citadel
+257 C Somber Meadow
+258 C Terramorphic Expanse
+259 C Twisting Fissure
+260 L Plains
+261 L Island
+262 L Swamp
+263 L Mountain
+264 L Forest
+265 S Kaalia, Sky's End
+
+[tokens]
+etherium_cell
+w_1_1_soldier
+w_2_2_knight_vigilance
+u_1_1_a_thopter_flying
+b_2_2_zombie
+b_4_4_demon_flying
+r_1_1_goblin
+g_1_1_saproling
+g_2_2_cat_warrior
+g_5_5_beast
+wubrg_8_8_elemental_velir

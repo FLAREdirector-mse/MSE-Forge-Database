@@ -1,0 +1,11 @@
+Name:Fretport's Heedless
+ManaCost:R
+Types:Creature Human Soldier
+PT:3/2
+K:Haste
+A:AB$ Pump | Cost$ W | Defined$ Self | KW$ Lifelink | SpellDescription$ CARDNAME gains lifelink until end of turn.
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ At the beginning of your end step, sacrifice CARDNAME.
+SVar:TrigSac:DB$ Sacrifice | SacValid$ Self
+SVar:EndOfTurnLeavePlay:True
+SVar:PlayMain1:TRUE
+Oracle:Haste\n{W}: Fretport's Heedless gains lifelink until end of turn.\nAt the beginning of your end step, sacrifice Fretport's Heedless.

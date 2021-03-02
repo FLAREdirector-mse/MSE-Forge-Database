@@ -1,0 +1,6 @@
+Name:Lakeside Market
+ManaCost:no cost
+Types:Land Plains Island
+K:CARDNAME enters the battlefield tapped.
+K:Cycling:WU
+Oracle:({T}: Add {W} or {U}.)\nLakeside Market enters the battlefield tapped.\nCycling {W/U} ({W/U}, Discard this card: Draw a card.)

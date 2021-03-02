@@ -1,0 +1,274 @@
+[metadata]
+Code=MON
+Date=2021-01-01
+Name=MSEM: Monsters of Chikyu
+Code2=MON
+MciCode=mon
+Type=Other
+BoosterCovers=5
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+# Set designed by Cajun
+
+[cards]
+1 C Aeroblast
+2 C Aspiring Trainer
+3 C Attract
+4 R Brighteyed Trainer
+5 U Cattle Guard
+6 U Curious Cubs
+7 U Dreamnapper
+8 C Eager Hatchling
+9 R Egg Bomb
+10 U Event Horizon
+11 U Experienced Team
+12 R Gym Leader
+13 U Helping Hand
+14 R Hopeful Caretaker
+15 C Improvised Guardian
+16 U Innocence
+17 U Jovial Martyr
+18 U Maternal Monster
+19 C Nocturnal Watcher
+20 C Nurse Trainee
+21 U One on One
+22 U Paralycker
+23 R Perish Song
+24 C Pitfall Pangolin
+25 R Power of Love
+26 C Rallywing
+27 C Revitalize
+28 C Run Away
+29 C Sanaito's Blessing
+30 C Sandslinger
+31 C Slinking Sentinel
+32 R Slumbering Bear
+33 R Steelfeather Shrike
+34 R Sunset Herald
+35 U Thundermane Fox
+36 C Unburdened
+37 U Wings of Trust
+38 C Wish
+39 C Work Up
+40 R Zankon, Ema's Claws
+41 C Barnacle Crawler
+42 C Barrier
+43 U Call Back
+44 U Compulsive Patrol
+45 C Confusion
+46 C Cruel Fledgling
+47 U Determined Koi
+48 R End of Monsters
+49 C Essence Scatter
+50 U Familiar's Ruse
+51 C Fishing Trip
+52 C Hypnosis
+53 R I Choose You
+54 C Lakeside Trickster
+55 C Marine Monster
+56 R Onigori, Ema's Shield
+57 C Poised Koi
+58 C Quiet Retreat
+59 C Rest
+60 R The Rocket Gang Strikes!
+61 U Scuttling Gnat
+62 U Seal of Approval
+63 C Sharp-Eyed Wingmate
+64 R Skill Sketcher
+65 U Sludge Drudger
+66 U Sludge-Gill Fox
+67 U Starlight Emissary
+68 C Strategic Planning
+69 R Temporal Aria
+70 R Tidepool Turtle
+71 U Tidesweeper Gharial
+72 R Time Stands Still
+73 U Trainer's Eyes
+74 U Truffle Snuffer
+75 U Undecided Mimic
+76 C Wandering Dragonfly
+77 C Whirling Winds
+78 R Whirlpool Ride
+79 C Wondering Oaf
+80 R Working Together
+81 U Acro Bat
+82 U Citadel Bagworm
+83 U Farewell
+84 C Forage
+85 C Fresh Carrion
+86 U From Beyond the Grave
+87 C Ghastly Tether
+88 R Heartless Trainer
+89 C Hex Maniac
+90 U Leech Seed
+91 R Lucien's Trail
+92 R Luna, the Lost
+93 C Maven of Fear
+94 R Moonlight
+95 R Night Shade
+96 R Nirami, Ema's Keeper
+97 U Ominous Wind
+98 R Paleontologist
+99 U Patient Cocoon
+100 C Poison Point
+101 U Psychic Assault
+102 C Psywave
+103 U Revived Pterosaur
+104 R Rocket Admin
+105 R Rocket Poacher
+106 C Ruthless Brawler
+107 C Scary Face
+108 C Shadow Ball
+109 U Shadow Sneak
+110 C Snatch
+111 C Sporecaster
+112 C Sporecrowned Scavenger
+113 U Stingsower
+114 C Sucker Punch
+115 C Toxic Larva
+116 R Twister of Shadows
+117 U Viper Ambush
+118 U Waking Pollution
+119 C Warning Birds
+120 C Wraith of the Fens
+121 U Ace Trainer
+122 U Adrenaline
+123 C Driven Mad
+124 R Elemental of Surprise
+125 R Emonoru, Ema's Wings
+126 C Enduring Charge
+127 U Extremespeed
+128 R Flame-Tailed Wizard
+129 C Flamethrower
+130 C Focus Energy
+131 C Fury Swipes
+132 C Galloping Blaze
+133 U Gruff Clutch
+134 R Karina's Training
+135 R Lava Plume
+136 U Lavatrailer
+137 R Loyal Firestarter
+138 C Magma Crawler
+139 R Magnitude
+140 R Metronome
+141 U Monstrous Champion
+142 R Mountain Runt
+143 C Mournful Newborn
+144 U Overheat
+145 C Prepare for Trouble
+146 C Rapid Rodent
+147 R Roaring Illusion
+148 U Shocking Ewe
+149 U Skill Link
+150 C Slashing Sneak
+151 C Smokescreen
+152 C Swords Dance
+153 C Telekinecktic
+154 C Thundering Charger
+155 U Tunnel Moles
+156 C Veil of Flames
+157 U Volt Vermin
+158 U Wild Encounter
+159 U Worried Vulpine
+160 C Zipping Zapper
+161 U Aggressive Instinct
+162 U Barbed Beast
+163 R Bee Hive
+164 R Bessie
+165 C Bridled Growth
+166 R Brutality
+167 R Budding Companion
+168 C Caustic Caterpillar
+169 C Cavern Carver
+170 C Crusher Beetle
+171 C Eerie Cocoons
+172 R Epic Encounter
+173 R Ever-Gnawing Rat
+174 C Fierce Lunge
+175 R Fogspewer
+176 R From a Seed
+177 U Full Belly
+178 C Garden Guardian
+179 C Grinding
+180 C Hidden Sprout
+181 U Hyper Beam
+182 C A Journey Begins
+183 U Mighty Beetle
+184 C Natural Cure
+185 U Palm Walker
+186 U Petal Dancer
+187 U Preying Mantis
+188 R Quakestep Behemoth
+189 R Rustshell Mantis
+190 C Safe from Harm
+191 U Secret Stash
+192 U Slashing Pangolin
+193 C Spikehorn Behemoth
+194 U Spotted Slugger
+195 C Tangle Up
+196 C Tangling Vines
+197 U Unstoppable Weed
+198 C Weedy Wanderer
+199 C Winding Snake
+200 U Wistful Fox
+201 U Bug Catcher
+202 U Canopy Dancer
+203 R Chikyu Champion
+204 R Depth Charger
+205 R Duplicate
+206 U Firemane Fox
+207 U Flying Scorpion
+208 U Ghastly Spirit
+209 U Hellhound Alpha
+210 R Lucien, the Ravenous
+211 R Lunar Vigil
+212 R Masaru, Aspiring Champion
+213 U Moon-Rune Fox
+214 R Professor Maple
+215 R Queen of the Hive
+216 R Sanaito, Alone
+217 R Silent Hypnotist
+218 U Sprout Tender
+219 U Sun-Eyed Fox
+220 R Trainee Karina Oblay
+221 U Twinning Psionic
+222 R Tyrant of Tributes
+223 R Warden of Lives
+224 R Warden of Seas
+225 R Warden of Time
+226 U Amulet Coin
+227 C Cheerful Generator
+228 C Curious Fossil
+229 C Ether
+230 U Expert Belt
+231 C Focus Sash
+232 R Lucky Egg
+233 R Maple's Journal
+234 C Metal Coat
+235 C Old Map
+236 C Quick Claw
+237 R Titanic Fossil
+238 U Wicked Fossil
+239 C Chikyu League Arena
+240 C Evolving Wilds
+241 R Forgotten Temple
+242 U Gene Pool
+243 C Healing Center
+244 U Ice Path
+245 U Lake of Rage
+246 U Power Plant
+247 R Ruined Lab
+248 U Shugenja Sanctuary
+249 C Treasure Beach
+250 C Unknown Shores
+251 U Victory Road
+260 Plains
+261 Island
+263 Swamp
+264 Mountain
+265 Forest
+
+[buy a box]
+S Ema, the Traveler
+S Shadow Sneak
+S Gym Leader
+S Wild Encounter

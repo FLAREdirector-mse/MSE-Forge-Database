@@ -1,0 +1,7 @@
+Name:Paleontologist
+ManaCost:2 B
+Types:Creature Human Wizard Scout
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, search your library for up to two artifact and/or Skeleton cards and put them into your graveyard. Shuffle your library.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Library | Destination$ Graveyard | ChangeType$ Artifact,Skeleton | ChangeNum$ 2
+Oracle:When Paleontologist enters the battlefield, search your library for up to two artifact and/or Skeleton cards and put them into your graveyard. Shuffle your library.

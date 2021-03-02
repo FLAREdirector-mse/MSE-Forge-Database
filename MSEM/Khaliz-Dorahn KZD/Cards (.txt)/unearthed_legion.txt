@@ -1,0 +1,9 @@
+Name:Unearthed Legion
+ManaCost:1 U B
+Types:Creature Zombie Horror
+PT:*/*
+S:Mode$ Continuous | EffectZone$ All | CharacteristicDefining$ True | SetPower$ X | SetToughness$ X | References$ X | Description$ CARDNAME's power and toughness are each equal to the number of creature cards in your graveyard.
+SVar:X:Count$InYourYard
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigMill | TriggerDescription$ At the beginning of your upkeep, mill a card.
+SVar:TrigMill:DB$ Mill | Defined$ You | NumCards$ 1
+Oracle:Unearthed Legion's power and toughness are each equal to the number of creature cards in your graveyard.\nAt the beginning of your upkeep, mill a card.

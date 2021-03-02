@@ -1,0 +1,10 @@
+Name:Umberlure Angler
+ManaCost:1 B
+Types:Creature Merfolk Wizard
+PT:2/1
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Creature.YouDontCtrl | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigCopy | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you don't control dies, you may aetherize it. (To aetherize, create a token that's a copy of it, then exile that token.)
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ TriggeredCard | RememberTokens$ True | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Defined$ Remembered | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Deathtouch\nWhenever a creature you don't control dies, you may aetherize it. (To aetherize, create a token that's a copy of it, then exile that token.)

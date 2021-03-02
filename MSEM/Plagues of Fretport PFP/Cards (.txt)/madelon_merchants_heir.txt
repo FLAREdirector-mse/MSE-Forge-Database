@@ -1,0 +1,8 @@
+Name:Madelon, Merchant's Heir
+ManaCost:G U
+Types:Legendary Creature Human Noble
+PT:2/3
+T:Mode$ AbilityCast | ValidActivatingPlayer$ Opponent | ValidCard$ Permanent.inZoneBattlefield | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever an opponent activates an ability of a permanent, if it isn't a mana ability, you gain 1 life and create a Gold token.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 1 | SubAbility$ DBToken
+SVar:DBToken:DB$ Token | TokenScript$ gold
+Oracle:Whenever an opponent activates an ability of a permanent, if it isn't a mana ability, you gain 1 life and create a Gold token.

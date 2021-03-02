@@ -4,4 +4,5 @@ Types:Creature Elk
 PT:3/3
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create two 2/2 red and green Elk creature tokens.
 SVar:TrigToken:DB$ Token | TokenAmount$ 2 | LegacyImage$ rg 2 2 elk twr | TokenScript$ rg_2_2_elk | TokenOwner$ You
+DeckHas:Ability$Token
 Oracle:When Host of Nature enters the battlefield, create two 2/2 red and green Elk creature tokens.

@@ -1,5 +1,5 @@
 Name:Expedition Post
-ManaCost:1
+ManaCost:2
 Types:Artifact
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a 1/1 Scout creature token that's all colors.
 SVar:TrigToken:DB$ Token | TokenScript$ wubrg_1_1_scout | TokenAmount$ 1

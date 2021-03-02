@@ -6,4 +6,5 @@ SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_soldier | TokenOw
 A:AB$ PumpAll | Cost$ 3 W | ValidCards$ Creature.YouCtrl | NumAtt$ +1 | NumDef$ +1 | SpellDescription$ Creatures you control get +1/+1 until end of turn.
 SVar:NonStackingEffect:True
 SVar:PlayMain1:TRUE
+DeckHas:Ability$Token
 Oracle:Whenever one or more creatures you control attack, create a 1/1 white Soldier creature token that’s tapped and attacking.\n{3}{W}: Creatures you control get +1/+1 until end of turn.

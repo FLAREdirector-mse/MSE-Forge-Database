@@ -2,6 +2,7 @@ Name:Daelish Hopeful
 ManaCost:2 R R
 Types:Creature Human Soldier
 PT:4/2
-S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddKeyword$ First Strike | Description$ CARDNAME has first strike as long as it’s enchanted or equipped.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddKeyword$ First Strike | Description$ CARDNAME has first strike as long as it's equipped and/or enchanted.
+SVar:EnchantMe:Once
 SVar:EquipMe:Once
-Oracle:Adorned — Daelish Hopeful has first strike as long as it’s enchanted or equipped.
+Oracle:Adorned — Daelish Hopeful has first strike as long as it's equipped and/or enchanted.

@@ -1,0 +1,12 @@
+Name:Kaor Awoken
+ManaCost:3 R R
+Types:Legendary Creature Dragon
+PT:4/4
+K:Flying
+K:Haste
+T:Mode$ Taps | ValidCard$ Land.nonBasic | TriggerZones$ Battlefield | Execute$ TrigDealDamage | TriggerDescription$ Whenever a nonbasic land becomes tapped, it deals 2 damage to its controller.
+SVar:TrigDealDamage:DB$ DealDamage | Defined$ TriggeredCardController | NumDmg$ 2 | ParentTarget$ TriggeredCard
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME attacks, it gets +1/+0 until end of turn for each other Dragon you control.
+SVar:TrigPump:DB$ Pump | NumAtt$ X | References$ X
+SVar:X:Count$Valid Dragon.Other+YouCtrl
+Oracle:Flying, haste\nWhenever a nonbasic land becomes tapped, it deals 2 damage to its controller.\nWhenever Kaor Awoken attacks, it gets +1/+0 until end of turn for each other Dragon you control.

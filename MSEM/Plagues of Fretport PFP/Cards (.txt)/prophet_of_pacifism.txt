@@ -1,0 +1,8 @@
+Name:Prophet of Pacifism
+ManaCost:1 G
+Types:Creature Human Mutant
+PT:0/2
+K:Persist
+A:AB$ Effect | Cost$ 1 W T Sac<1/CARDNAME> | ReplacementEffects$ RPrevent | AILogic$ Fog | SpellDescription$ Prevent all damage that would be dealt to players this turn.
+SVar:RPrevent:Event$ DamageDone | Prevent$ True | ActiveZones$ Command | ValidTarget$ Player | Description$ Prevent all damage that would be dealt to players this turn.
+Oracle:{1}{W}, {T}, Sacrifice Prophet of Pacifism: Prevent all damage that would be dealt to players this turn.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield under its owner’s control with a -1/-1 counter on it.)

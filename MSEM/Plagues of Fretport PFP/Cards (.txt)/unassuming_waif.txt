@@ -1,0 +1,8 @@
+Name:Unassuming Waif
+ManaCost:1 U
+Types:Creature Human Warrior
+PT:1/1
+K:Unblockable
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | References$ X | Description$ CARDNAME gets +1/+0 for each other Warrior you control.
+SVar:X:Count$Valid Warrior.Other+YouCtrl
+Oracle:Unassuming Waif can't be blocked.\nUnassuming Waif gets +1/+0 for each other Warrior you control.

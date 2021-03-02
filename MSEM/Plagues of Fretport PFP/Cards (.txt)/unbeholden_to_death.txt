@@ -1,0 +1,8 @@
+Name:Unbeholden to Death
+ManaCost:1 U
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 1 U | ValidTgts$ Creature | AILogic$ Pump
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddHiddenKeyword$ Unblockable | Description$ Enchanted creature can't be blocked.
+A:AB$ Pump | Cost$ 1 G | Defined$ Enchanted | NumAtt$ 1 | NumDef$ 1 | KW$ Hexproof | SpellDescription$ Enchanted creature gets +1/+1 and gains hexproof until end of turn.
+Oracle:Enchant creature\nEnchanted creature can't be blocked.\n{1}{G}: Enchanted creature gets +1/+1 and gains hexproof until end of turn.

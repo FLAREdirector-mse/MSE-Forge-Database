@@ -1,0 +1,291 @@
+[metadata]
+Code=SOU
+Date=2020-11-01
+Name=Scriptures of Urshad
+MciCode=sou
+Type=Expansion
+# Set designed by Matt
+
+[cards]
+1 C Aridland Camaar
+2 R Aspect of Darutu
+3 R Calming Dromoryx
+4 U Conscription
+5 U Court Sponsor
+6 M Cycle of Creation
+7 C Divine Verdict
+8 R Epic of Hannaru
+9 R Founding Hero
+10 C Gilded Blade
+11 C Godchosen Valor
+12 U Halls of Worship
+13 C Hannaru's Courage
+14 R Hannaru's Spear
+15 C Hard-Working Oxen
+16 C Harshapal Banner
+17 U Hirsute Champion
+18 U Immortalize
+19 R Imperial Claim
+20 R Imperial Defenses
+21 C Inspired Charge
+22 U Legacy Warmask
+23 C Lisseria's Outfitter
+24 C Long Journey
+25 C Marble Row Healer
+26 M Master of Marble Row
+27 U Medicine
+28 M Queen Hannaru
+29 C Rabudan Chiseler
+30 R Ruler of Cities
+31 C Sannurian Storyteller
+32 C Scion of Sannuria
+33 U Serve the Empire
+34 C Shepherd's Companion
+35 R Sire of Empires
+36 C Soaring Roc
+37 C Solemn Offering
+38 U Spirit of the Harvest
+39 C Sustaining Crops
+40 R Theocracy
+41 U Tithe Official
+42 U Warden of Harshapal Tower
+43 U Water into Wine
+44 U Aven Merchant
+45 C Aven Supervisor
+46 C Azutahn Hydromancer
+47 U Azutah's Abundance
+48 R Cartography
+49 C Consult the Scriptures
+50 C Dehydrate
+51 C Delugic Surger
+52 U Edifice Overseer
+53 M Ekebram the Scholar
+54 C Ekebram's Scribe
+55 R Emissary of Dark Tides
+56 R Epic of Ekebram
+57 U Gilded Authority
+58 U Glimpse of Fate
+59 R Golden Age
+60 C Hauling Hippopotamus
+61 U Hefty Tablet
+62 U Imperial Achievement
+63 C Imperial Prosperity
+64 R Invoke the Ankuliths
+65 C Irrigation Channels
+66 C Lammasu Roost
+67 M Look to the Future
+68 R Namuzzar's Disciple
+69 C Namuzzar's Iterator
+70 C Obviate
+71 U Opulent Ankulim
+72 U Parted Waters
+73 R Primordial Manifestation
+74 U Rhudai Overseer
+75 C Rod of Marble Row
+76 C Secrets of Creation
+77 U Seeker Amalgam
+78 C Spell Stutter
+79 C Splinter of Anku
+80 C Turn to Salt
+81 C Wealthy Merchants
+82 U Writing
+83 C Adorned Naga
+84 U Anatomy
+85 R Ashen Persecutor
+86 C Behead
+87 C Bloodstained Ziggurat
+88 C Bone Mesa Marauder
+89 C Chittering Swarm
+90 U Churning Sandwurms
+91 U Corpse Herder
+92 C Crooked Merchant
+93 C Death Pits Trophy
+94 U Despoiler of Civilization
+95 M Eli Windsors, Lone Gun
+96 R Eli's Defiance
+97 C Endak City Slavedriver
+98 U Endak Death Pits
+99 R Epic of Inishtu
+100 C Funerary Servant
+101 R Harbinger of Locusts
+102 C Hilaback Outriders
+103 U Imperial Brutality
+104 R Imperial Confidant
+105 M Inishtu, Desert Healer
+106 C Into the Lion's Den
+107 U Life's Worth
+108 U Merchant of Flesh
+109 U Nameless Throng
+110 C Paid in Blood
+111 C Pound by Pound
+112 C Rottenfruit Coiler
+113 C Ruthless Advancement
+114 C Scorpid Sniper
+115 R Selezzar, Tyrant of Endak
+116 R Solemn Judgment
+117 C Sorrowful Memories
+118 U Stingbrood Warlord
+119 M Subjugator of Empires
+120 C Suffocating Sands
+121 R Tradition
+122 U Tyranny
+123 R Under the Gun
+124 U Wretched Lammasu
+125 C Act of Treason
+126 C Ankulim Spawning
+127 U Ankulithic Armaments
+128 C Battlescarred Protector
+129 U Blazing Offerings
+130 C Bloodsoaked Blades
+131 C Borsuppa Outrider
+132 C Borsuppa Scavenger
+133 U Burning Sulfur
+134 R Choking Dunes
+135 R Currency
+136 C Devoted Nomad
+137 U Dryscale Dissidents
+138 U Embers of Prophecy
+139 M Emmerabi and Sunnula
+140 C Endak Savagery
+141 R Epic of the Lovers
+142 U Fall in Line
+143 U Herald of Ankulim
+144 U Kanaan Wardriver
+145 C Marauding Goliath
+146 R Marrow Cruncher
+147 U Metallurgy
+148 U Monstrous Hila
+149 C Piercing Blow
+150 C Primordial Progenitor
+151 C Sandburst
+152 R Sarrutu Flamebinder
+153 R Scavenging Hilakites
+154 M Shala Na, Urshadi Apostate
+155 C Shatter
+156 C Shock
+157 C Slaughtered Steps Taskmaster
+158 U Strongarm
+159 R Sunnula's Firebird
+160 C Sure Strike
+161 C Torrent of Ankuliths
+162 R Unbound Annihilus
+163 U Urud Stingswoop
+164 C Urudi Warlord
+165 U Agriculture
+166 U Borsuppa Drover
+167 C Caprin Outlander
+168 C Collapse the Pilars
+169 C Cradle of Civilization
+170 U Crushclaw Pulverizer
+171 C Day of Rest
+172 C Dune Tromper
+173 U Eli's Grit
+174 R Epic of Jobiah
+175 C Grapple with the Past
+176 U Harrow
+177 U Heartland's Protection
+178 R Hila Emergence
+179 U Humble Shepherd
+180 R Husbandry
+181 M Jobiah, Devoted Farmer
+182 U Lush Delta
+183 C Mangrove Fisher
+184 R Multiculturalism
+185 M Mythology
+186 C Naga Cultivator
+187 R Oasis Claimer
+188 C Pierce the Sky
+189 R Rhudai Fieldtiller
+190 C Rhudai Pathfinder
+191 U Rhudai Swathcutter
+192 R Sacrificial Bull
+193 C Savage Takedown
+194 C Skittering Solifuge
+195 C Spawn of the Guardian
+196 C Stingbrood Assailant
+197 C Test of Strength
+198 C Tiller's Adze
+199 R Towering Hydraffe
+200 U Trace the Oasis
+201 C Trenchcutter Beetle
+202 C Trusty Camaar
+203 U Wandering Warden
+204 U World Tender
+205 M Anku the Primordial
+206 R Bordermakers
+207 U Bounty of the Gardens
+208 U Death Pits Hawker
+209 M Dehmi, Origin Seeker
+210 U Dominate the Desert
+211 U Emerabi's Disciple
+212 R Emerging Ankulim
+213 R Epic of Anku
+214 R Imperator Namuzzar
+215 U Keeper of Codices
+216 M Lhosei of the Ghost Peak
+217 R Lisseria, General of Kanaa
+218 U Oppress the Weak
+219 U Palace Enforcer
+220 U Protect the Farm
+221 U Sarrutu Worldbinder
+222 R Shemesh, Nomad Chieftain
+223 R Stolen Innovations
+224 R Sumun, Azutah's Heart
+225 U Sunblessed Orator
+226 C Ankulith Shard
+227 R Breaker of Cities
+228 C Dehmi's Servitor
+229 C Divine Chariot
+230 U Donkey Jawbone
+231 C Edge of the Empires
+232 R Ekebram's Archive
+233 U Funerary Barge
+234 C Gilded Idol
+235 C Manalith
+236 C Nibinem's Hand
+237 C Sannurian Sentinel
+238 R Scavenger's Wagon
+239 R Serpent Staff
+240 U Sling of the Meek
+241 R Splinter of Creation
+242 U Stonecut Lammasu
+243 R Tempered Ankulim
+244 R Urn of Heroes
+245 M Voyager's Ark
+246 R Center of Culture
+247 C Crescent of Possibilities
+248 U Deserted Trail
+249 C Evolving Wilds
+250 U Flourishing Waterways
+251 U Horizon of Origins
+252 U Imperial Barracks
+253 U Legacy Foundations
+254 R Mana Confluence
+255 U Mustering Grounds
+256 C Rupture Spire
+257 U Wondrous Bazaar
+258 L Plains
+259 L Island
+260 L Swamp
+261 L Mountain
+262 L Forest
+
+[tokens]
+bullet
+cloister
+echo_of_lhosei
+hannarus_aegis
+monument
+w_1_1_bird_flying
+w_1_1_human
+w_0_1_sheep
+w_1_1_soldier_vigilance
+u_2_2_lammasu_flying
+u_1_1_spirit_flying
+r_1_1_elemental
+r_1_1_nomad
+g_3_3_beast_defender
+g_3_3_elephant
+g_2_2_ox
+gu_x_x_plant
+c_a_treasure_sac

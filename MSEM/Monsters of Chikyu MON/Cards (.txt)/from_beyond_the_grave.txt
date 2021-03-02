@@ -1,0 +1,7 @@
+Name:From Beyond the Grave
+ManaCost:1 B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card | Origin$ Graveyard | Destination$ Anywhere | TriggerZones$ Battlefield | ActivationLimit$ 1 | Execute$ TrigLoseLife | TriggerDescription$ Whenever a card leaves your graveyard for the first time each turn, each player loses 1 life and you draw a card.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player | LifeAmount$ 1 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw
+Oracle:Whenever a card leaves your graveyard for the first time each turn, each player loses 1 life and you draw a card.

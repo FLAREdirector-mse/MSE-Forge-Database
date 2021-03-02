@@ -1,0 +1,7 @@
+Name:Lonely Devil
+ManaCost:R
+Types:Creature Devil Scout
+PT:3/1
+K:Menace
+K:CARDNAME can't attack or block alone.
+Oracle:Menace\nLonely Devil can't attack or block alone.

@@ -1,0 +1,6 @@
+Name:Purge the Harbor
+ManaCost:BR
+Types:Instant
+A:SP$ PutCounter | Cost$ BR | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ M1M1 | CounterNum$ 1 | SubAbility$ DBDmg | SpellDescription$ Put a -1/-1 counter on target creature. CARDNAME deals 1 damage to that creature's controller.
+SVar:DBDmg:DB$ DealDamage | Defined$ TargetedController | NumDmg$ 1
+Oracle:Put a -1/-1 counter on target creature. Purge the Harbor deals 1 damage to that creature's controller.

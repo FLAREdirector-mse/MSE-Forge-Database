@@ -1,0 +1,11 @@
+Name:Currency
+ManaCost:1 R
+Types:Enchantment Discovery
+K:etbCounter:Progress:1
+T:Mode$ Phase | Phase$ Main1 | ValidPlayer$ You | IsPresent$ Card.Self+counters_LE2_Progress | Execute$ Progress | TriggerZones$ Battlefield | Static$ True
+SVar:Progress:DB$ PutCounter | CounterType$ Progress | CounterNum$ 1
+T:Mode$ CounterAddedOnce | ValidCard$ Card.Self+counters_EQ1_Progress | Execute$ TrigTreasure | TriggerDescription$ I, II — Create a Treasure token.
+T:Mode$ CounterAddedOnce | ValidCard$ Card.Self+counters_EQ2_Progress | Execute$ TrigTreasure | Secondary$ True | TriggerDescription$ I, II — Create a tapped Treasure token.
+SVar:TrigTreasure:DB$ Token | TokenScript$ c_a_treasure_sac | TokenTapped$ True
+A:AB$ Draw | Cost$ 2 Sac<1/Artifact> | NumCards$ 1 | IsPresent$ Card.Self+counters_GE2_Progress | PrecostDesc$ Discovery — | CostDesc$ {2}, Sacrifice an artifact: | SpellDescription$ Draw a card.
+Oracle:(As this Discovery enters and after your draw step, add a progress counter. Stop after you've discovered.)\nI, II — Create a tapped Treasure token. (It's an artifact with "{T}: Sacrifice this artifact: Add one mana of any color.")\nDiscovery — {2}, Sacrifice an artifact: Draw a card.

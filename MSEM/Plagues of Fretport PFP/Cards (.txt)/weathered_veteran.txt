@@ -1,0 +1,9 @@
+Name:Weathered Veteran
+ManaCost:2 G
+Types:Creature Human Warrior
+PT:3/2
+K:Trample
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigPutCounter | OptionalDecider$ You | TriggerDescription$ When CARDNAME dies, you may put a -1/-1 counter on target creature.
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ M1M1 | CounterNum$ 1 | IsCurse$ True
+DeckHas:Ability$Counters
+Oracle:Trample\nWhen Weathered Veteran dies, you may put a -1/-1 counter on target creature.

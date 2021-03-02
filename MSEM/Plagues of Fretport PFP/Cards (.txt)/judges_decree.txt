@@ -1,0 +1,14 @@
+Name:Judge's Decree
+ManaCost:1 W U
+Types:Enchantment
+K:Flash
+K:Vanishing:3
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile another target spell or nonland permanent.
+SVar:TrigExile:DB$ ChangeZone | ValidTgts$ Permanent.nonLand+Other,Card.inZoneStack | TgtPrompt$ Select another target spell or nonland permanent | TgtZone$ Stack,Battlefield | Origin$ Battlefield,Stack | Fizzle$ True | Destination$ Exile | RememberChanged$ True
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Execute$ TrigPlay | TriggerDescription$ When CARDNAME leaves the battlefield, the exiled card's owner may cast that card without paying its mana cost.
+SVar:TrigPlay:DB$ Play | Defined$ Remembered.ExiledWithSource+nonLand | Controller$ RememberedOwner | WithoutManaCost$ True | Optional$ True | ConditionCheckSVar$ X | ConditionSVarCompare$ GE1 | References$ X | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+T:Mode$ ChangesZone | Origin$ Exile | Destination$ Any | Static$ True | ValidCard$ Card.IsRemembered+ExiledWithSource | Execute$ DBForget
+SVar:DBForget:DB$ Pump | ForgetObjects$ TriggeredCard
+Oracle:Flash\nVanishing 3\nWhen Judge's Decree enters the battlefield, exile another target spell or nonland permanent.\nWhen Judge's Decree leaves the battlefield, the exiled card's owner may cast that card without paying its mana cost.

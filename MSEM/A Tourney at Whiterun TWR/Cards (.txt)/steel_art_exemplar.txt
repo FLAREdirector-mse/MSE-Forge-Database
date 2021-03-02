@@ -3,4 +3,5 @@ ManaCost:1 R
 Types:Creature Human Warrior
 K:Renown:1
 PT:2/1
-Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn’t renowned, put a +1/+1 counter on it and it becomes renowned.)
+DeckHas:Ability$Counters
+Oracle:Renown 1 (When this creature deals combat damage to a player, if it isn't renowned, put a +1/+1 counter on it and it becomes renowned.)

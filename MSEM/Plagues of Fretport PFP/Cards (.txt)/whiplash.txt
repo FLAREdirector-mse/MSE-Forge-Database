@@ -1,0 +1,10 @@
+Name:Whiplash
+ManaCost:2 W
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 2 W | ValidTgts$ Creature | AILogic$ Curse
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddHiddenKeyword$ CARDNAME can't attack or block. | Description$ Enchanted creature can't attack or block.
+A:AB$ ChangeZone | Cost$ 2 U | Defined$ Enchanted | Origin$ Battlefield | Destination$ Hand | SubAbility$ DBBounce | SpellDescription$ Return CARDNAME and enchanted creature to their owners' hands.
+SVar:DBBounce:DB$ ChangeZone | Defined$ Self | Origin$ Battlefield | Destination$ Hand
+SVar:NonStackingAttachEffect:True
+Oracle:Enchant creature\nEnchanted creature can't attack or block.\n{2}{U}: Return Whiplash and enchanted creature to their owners' hands.

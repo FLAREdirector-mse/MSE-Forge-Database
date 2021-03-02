@@ -1,0 +1,9 @@
+Name:Harriet, Liberated Wildborn
+ManaCost:1 B
+Types:Legendary Creature Human Mutant Noble
+PT:3/3
+A:SP$ PermanentCreature | Cost$ 1 B Sac<1/Permanent>
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigRemove | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may remove all counters from target permanent.
+SVar:TrigRemove:DB$ RemoveCounter | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | CounterType$ All | CounterNum$ All
+SVar:AIPreference:SacCost$Permanent.token,Land,Permanent.cmcLE2,Permanent
+Oracle:As an additional cost to cast this spell, sacrifice a permanent.\nWhen Harriet, Liberated Wildborn enters the battlefield, you may remove all counters from target permanent.

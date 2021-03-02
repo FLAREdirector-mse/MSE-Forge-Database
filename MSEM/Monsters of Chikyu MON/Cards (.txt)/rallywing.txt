@@ -1,0 +1,8 @@
+Name:Rallywing
+ManaCost:3 W W
+Types:Creature Bird
+PT:3/3
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPumpAll | TriggerDescription$ When CARDNAME enters the battlefield, creatures you control get +1/+1 until end of turn.
+SVar:TrigPumpAll:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ 1 | NumDef$ 1
+Oracle:Flying\nWhen Rallywing enters the battlefield, creatures you control get +1/+1 until end of turn.

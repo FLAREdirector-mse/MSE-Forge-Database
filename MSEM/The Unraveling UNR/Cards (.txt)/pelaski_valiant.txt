@@ -1,0 +1,7 @@
+Name:Pelaski Valiant
+ManaCost:W
+Types:Creature Human Soldier 
+PT:1/1
+T:Mode$ Taps | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ Whenever CARDNAME becomes tapped, target creature gets +1/+1 until end of turn.
+SVar:TrigPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ 1 | NumDef$ 1
+Oracle:Whenever Pelaski Valiant becomes tapped, target creature gets +1/+1 until end of turn.

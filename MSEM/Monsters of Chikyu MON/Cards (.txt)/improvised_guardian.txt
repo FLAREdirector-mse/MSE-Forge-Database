@@ -1,0 +1,8 @@
+Name:Improvised Guardian
+ManaCost:2 W
+Types:Creature Bird
+PT:2/2
+KW:Flying
+T:Mode$ Attacks | ValidCard$ Creature.YouCtrl | Alone$ True | TriggerZones$ Battlefield | Execute$ TrigPump | TriggerDescription$ Vanguard — Whenever a creature you control attacks alone, it gains first strike until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ TriggeredAttacker | KW$ First Strike
+Oracle:Flying\nVanguard — Whenever a creature you control attacks alone, it gains first strike until end of turn.

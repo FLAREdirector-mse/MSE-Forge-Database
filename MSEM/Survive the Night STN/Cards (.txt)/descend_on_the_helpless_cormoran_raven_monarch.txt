@@ -3,7 +3,8 @@ ManaCost:B
 Types:Sorcery
 A:SP$ Destroy | Cost$ B | ValidTgts$ Creature | TgtPrompt$ Select target creature | ConditionDefined$ Targeted | ConditionPresent$ Creature.leastPower | ConditionCompare$ EQ1 | AITgts$ Card.leastPower | SpellDescription$ Destroy target creature if it has the least power or is tied for least power among creatures on the battlefield.
 A:SP$ Destroy | Cost$ 3 B B | ActivationZone$ Graveyard | SubAbility$ Memento | ValidTgts$ Creature | TgtPrompt$ Select target creature | ConditionDefined$ Targeted | ConditionPresent$ Creature.leastPower | ConditionCompare$ EQ1 | AITgts$ Card.leastPower | PrecostDesc$ Memento | CostDesc$ {3}{B}{B} | SpellDescription$ (You may cast this from your graveyard for {3}{B}{B}. If you do, put it onto the battlefield transformed after it resolves. Exile it if it would leave the battlefield or not resolve.)
-SVar:Memento:DB$ ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True
+SVar:Memento:DB$ ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | SubAbility$ DBAnimate
+SVar:DBAnimate:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile
 AlternateMode:DoubleFaced
 R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
 SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
@@ -19,6 +20,4 @@ PT:2/2
 K:Flying
 T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may return target creature card with converted mana cost 3 or less from a graveyard to the battlefield under your control.
 SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card with converted mana cost 3 or less in a graveyard | ValidTgts$ Creature.cmcLE3 | GainControl$ True
-R:Event$ Moved | ValidCard$ Card.Self | Origin$ Battlefield | ExcludeDestination$ Exile | ReplaceWith$ DBExile
-SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
 Oracle:Flying\nWhen Cormoran, Raven Monarch enters the battlefield, you may return target creature card with converted mana cost 3 or less from a graveyard to the battlefield under your control.

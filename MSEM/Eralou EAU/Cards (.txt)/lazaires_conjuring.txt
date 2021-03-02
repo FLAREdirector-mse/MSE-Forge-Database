@@ -1,0 +1,10 @@
+Name:Lazaire's Conjuring
+ManaCost:X U U
+Types:Instant
+A:SP$ Repeat | Cost$ X U U | MaxRepeat$ X | RepeatSubAbility$ DBExile | References$ X | AILogic$ MaxX | SubAbility$ DBExileSelf | StackDescription$ SpellDescription | SpellDescription$ Repeat the following process X times. Exile a creature you control, then return it to the battlefield under your control.
+SVar:DBExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | Hidden$ True | Mandatory$ True | ChangeType$ Creature.YouCtrl | RememberChanged$ True | SubAbility$ DBReturn
+SVar:DBReturn:DB$ ChangeZone | Origin$ Exile | Destination$ Battlefield | Defined$ Remembered | GainControl$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:DBExileSelf:DB$ ChangeZone | Origin$ Stack | Destination$ Exile | StackDescription$ SpellDescription | SpellDescription$ Exile CARDNAME.
+SVar:X:Count$xPaid
+Oracle:Repeat the following process X times. Exile a creature you control, then return it to the battlefield under your control.\nExile Lazaire's Conjuring.

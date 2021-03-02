@@ -1,0 +1,6 @@
+Name:Figures in the Mist
+ManaCost:1 G G
+Types:Sorcery
+A:SP$ PumpAll | Cost$ 1 G G | ValidCards$ Creature.YouCtrlfig | KW$ Creatures with power less than CARDNAME's power can't block it. | SpellDescription$ Until end of turn, creatures you control gain "Creatures with power less than this creature's power can't block it."
+Oracle:Until end of turn, creatures you control gain "Creatures with power less than this creature's power can't block it."
+

@@ -2,5 +2,7 @@ Name:Visserine's Royal Guard
 ManaCost:2 W
 Types:Creature Human Knight
 PT:2/3
-S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddKeyword$ Lifelink | Description$ CARDNAME has lifelink as long as it’s enchanted or equipped.
-Oracle:Adorned — Visserine's Royal Guard has lifelink as long as it’s enchanted or equipped.
+S:Mode$ Continuous | Affected$ Card.Self+enchanted,Card.Self+equipped | AddKeyword$ Lifelink | Description$ CARDNAME has lifelink as long as it's equipped and/or enchanted.
+SVar:EnchantMe:Once
+SVar:EquipMe:Once
+Oracle:Adorned — Visserine's Royal Guard has lifelink as long as it's equipped and/or enchanted.

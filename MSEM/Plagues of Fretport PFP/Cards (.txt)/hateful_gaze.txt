@@ -1,0 +1,7 @@
+Name:Hateful Gaze
+ManaCost:1 B B
+Types:Sorcery
+A:SP$ Discard | Cost$ 1 B B | ValidTgts$ Player | TgtPrompt$ Select target player | NumCards$ 2 | Mode$ TgtChoose | SubAbility$ DBLoseLife | SpellDescription$ Target player discards two cards and loses 2 life. Scry 2.
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 2 | Defined$ Targeted | SubAbility$ DBScry
+SVar:DBScry:DB$ Scry | ScryNum$ 2
+Oracle:Target player discards two cards and loses 2 life. Scry 2.

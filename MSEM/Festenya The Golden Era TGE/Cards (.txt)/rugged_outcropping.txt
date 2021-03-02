@@ -1,0 +1,6 @@
+Name:Rugged Outcropping
+ManaCost:no cost
+Types:Land Mountain Forest
+K:CARDNAME enters the battlefield tapped.
+K:Cycling:RG
+Oracle:({T}: Add {R} or {G}.)\nRugged Outcropping enters the battlefield tapped.\nCycling {R/G} ({R/G}, Discard this card: Draw a card.)

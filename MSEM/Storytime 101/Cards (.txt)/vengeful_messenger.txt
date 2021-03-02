@@ -1,6 +1,6 @@
 Name:Vengeful Messenger
 ManaCost:1 U U
-Types:Creature Faerie Assassin
+Types:Creature Faerie Rogue
 PT:3/1
 K:Flash
 K:Flying

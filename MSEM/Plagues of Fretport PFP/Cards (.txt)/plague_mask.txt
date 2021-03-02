@@ -1,0 +1,6 @@
+Name:Plague Mask
+ManaCost:1
+Types:Artifact Equipment
+K:Equip:1
+S:Mode$ CantPutCounter | ValidCard$ Creature.EquippedBy | CounterType$ M1M1 | Description$ Equipped creature can't have -1/-1 counters put on it.
+Oracle:Equipped creature can't have -1/-1 counters put on it.\nEquip {1}

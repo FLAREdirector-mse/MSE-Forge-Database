@@ -1,0 +1,7 @@
+Name:Prayers of Defiance
+ManaCost:2 B
+Types:Enchantment
+K:Vanishing:3
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigChangeZone | TriggerDescription$ Whenever a time counter is removed from CARDNAME, return target creature card from your graveyard to your hand.
+SVar:TrigChangeZone:DB$ ChangeZone | ValidTgts$ Creature.YouCtrl | TgtPrompt$ Select target creature card in your graveyard | Origin$ Graveyard | Destination$ Hand
+Oracle:Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhenever a time counter is removed from Prayers of Defiance, return target creature card from your graveyard to your hand.

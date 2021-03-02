@@ -1,0 +1,7 @@
+Name:Weight of Sin
+ManaCost:2
+Types:Artifact Equipment
+K:Equip:1
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddToughness$ 3 | AddHiddenKeyword$ CARDNAME can't attack. | Description$ Equipped creature gets +0/+3 and can't attack.
+A:AB$ Attach | Cost$ 5 | ValidTgts$ Creature.YouDontCtrl | TgtPrompt$ Select target creature you don't control | IsCurse$ True | SpellDescription$ Attach CARDNAME to target creature you don't control.
+Oracle:Equipped creature gets +0/+3 and can't attack.\n{5}: Attach Weight of Sin to target creature you don't control.\nEquip {1}

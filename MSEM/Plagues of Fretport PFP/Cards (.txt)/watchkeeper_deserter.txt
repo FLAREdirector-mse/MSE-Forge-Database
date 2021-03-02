@@ -1,0 +1,13 @@
+Name:Watchkeeper Deserter
+ManaCost:2 R
+Types:Creature Human Warrior
+PT:0/2
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDiscard | TriggerDescription$ Whenever CARDNAME attacks, discard up to two cards, then draw that many cards. Watchkeeper Deserter gets +X/+0 until end of turn, where X is the total converted mana cost of the discarded cards.
+SVar:TrigDiscard:DB$ Discard | Defined$ You | NumCards$ 2 | Optional$ True | Mode$ TgtChoose | RememberDiscarded$ True | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | NumCards$ X | References$ X | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | NumAtt$ Y | References$ Y | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+SVar:Y:Remembered$CardManaCost
+DeckHas:Ability$Discard
+Oracle:Whenever Watchkeeper Deserter attacks, discard up to two cards, then draw that many cards. Watchkeeper Deserter gets +X/+0 until end of turn, where X is the total converted mana cost of the discarded cards.

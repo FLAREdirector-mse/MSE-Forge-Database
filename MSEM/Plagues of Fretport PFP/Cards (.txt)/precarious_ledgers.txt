@@ -1,0 +1,9 @@
+Name:Precarious Ledgers
+ManaCost:U
+Types:Enchantment
+K:Vanishing:5
+S:Mode$ Continuous | Affected$ Card.TopLibrary | AffectedZone$ Library | MayLookAt$ Player | Description$ Players play with the top card of their libraries revealed.
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigMill | OptionalDecider$ You | TriggerDescription$ Whenever a time counter is removed from CARDNAME, you may have target player mill a card.
+SVar:TrigMill:DB$ Mill | ValidTgts$ Player | TgtPrompt$ Select target player | NumCards$ 1
+AI:RemoveDeck:All
+Oracle:Vanishing 5 (This permanent enters the battlefield with five time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nPlayers play with the top card of their libraries revealed.\nWhenever a time counter is removed from Precarious Ledgers, you may have target player mill a card.

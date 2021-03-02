@@ -1,0 +1,8 @@
+Name:Valeriya, Watchkeeper Veteran
+ManaCost:1 R W
+Types:Legendary Creature Human Noble Soldier
+PT:1/5
+K:Vigilance
+K:CARDNAME must be blocked if able.
+S:Mode$ Continuous | Affected$ Soldier.Other+YouCtrl | AddPower$ 1 | AddToughness$ 1 | AddKeyword$ First Strike | Description$ Other Soldiers you control get +1/+1 and have first strike.
+Oracle:Vigilance\nEngage (This creature must be blocked each combat if able.)\nOther Soldiers you control get +1/+1 and have first strike.

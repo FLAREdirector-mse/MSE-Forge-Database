@@ -1,0 +1,7 @@
+Name:Mob Rallier
+ManaCost:3 G G
+Types:Creature Human Citizen
+PT:1/1
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddPower$ X | AddToughness$ X | References$ X | Description$ CARDNAME and other creatures you control get +X/+X, where X is the number of creatures you control.
+SVar:X:Count$Valid Creature.YouCtrl
+Oracle:Mob Rallier and other creatures you control get +X/+X, where X is the number of creatures you control.

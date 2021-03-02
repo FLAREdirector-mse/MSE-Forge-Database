@@ -1,0 +1,10 @@
+Name:Sacrificial Bull
+ManaCost:1 G
+Types:Creature Ox
+PT:2/2
+A:AB$ ChangeZone | Cost$ G | ValidTgts$ Card | TgtPrompt$ Select target card in a graveyard | Origin$ Graveyard | Destination$ Exile | RememberChanged$ True | SubAbility$ DBPutCounter | SpellDescription$ Exile target card from a graveyard. If it was a land card, put a +1/+1 counter on CARDNAME.
+SVar:DBPutCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1 | ConditionDefined$ Remembered | ConditionPresent$ Land | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+A:AB$ GainLife | Cost$ G Sac<1/CARDNAME> | LifeAmount$ X | References$ X | SpellDescription$ You gain life equal to its power.
+SVar:X:Count$CardPower
+Oracle:{G}: Exile target card from a graveyard. If it was a land card, put a +1/+1 counter on Sacrificial Bull.\n{G}, Sacrifice Sacrificial Bull: You gain life equal to its power.

@@ -1,7 +1,7 @@
 Name:Relic Heist
-ManaCost:2 R R
+ManaCost:3 R R
 Types:Sorcery
-A:SP$ RepeatEach | Cost$ 2 R R | RepeatPlayers$ Player | RepeatSubAbility$ DBChange | SubAbility$ DBPump | StackDescription$ SpellDescription | SpellDescription$ For each player, search that player's library for an artifact card and put it onto the battlefield under your control, then that player shuffles their library. Sacrifice those artifacts at the beginning of the next end step.
+A:SP$ RepeatEach | Cost$ 3 R R | RepeatPlayers$ Player | RepeatSubAbility$ DBChange | SubAbility$ DBPump | StackDescription$ SpellDescription | SpellDescription$ For each player, search that player's library for an artifact card and put it onto the battlefield under your control, then that player shuffles their library. Sacrifice those artifacts at the beginning of the next end step.
 SVar:DBChange:DB$ ChangeZone | Origin$ Library | Destination$ Battlefield | GainControl$ True | DefinedPlayer$ Remembered | Chooser$ You | ChangeType$ Artifact | ChangeNum$ 1 | Shuffle$ True | RememberChanged$ True
 SVar:DBPump:DB$ Pump | Defined$ Remembered | AtEOT$ Sacrifice | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True

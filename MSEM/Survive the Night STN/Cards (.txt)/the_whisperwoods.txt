@@ -1,0 +1,8 @@
+Name:The Whisperwoods
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ 1 T Sac<1/CARDNAME> | Produced$ Combo Any | Amount$ 2 | SpellDescription$ Add two mana in any combination of colors.
+T:Mode$ LifeLost | ValidPlayer$ Player | TriggerZones$ Graveyard | Execute$ TrigReturn | TriggerDescription$ Whenever a player loses life, return CARDNAME from your graveyard to your hand.
+SVar:TrigReturn:DB$ ChangeZone | Defined$ Self | Origin$ Graveyard | Destination$ Hand
+Oracle:{T}: Add {C}.\n{1}, {T}, Sacrifice The Whisperwoods: Add two mana in any combination of colors.\nWhenever a player loses life, return The Whisperwoods from your graveyard to your hand.

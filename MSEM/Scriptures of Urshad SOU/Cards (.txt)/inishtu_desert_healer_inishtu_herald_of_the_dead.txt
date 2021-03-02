@@ -1,0 +1,25 @@
+Name:Inishtu, Desert Healer
+ManaCost:1 B
+Types:Legendary Creature Orc Cleric
+PT:2/3
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, look at the top card of your library. You may put it into your graveyard.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDig | Secondary$ True | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, look at the top card of your library. You may put it into your graveyard.
+SVar:TrigDig:DB$ Dig | DigNum$ 1 | ChangeNum$ 1 | DestinationZone$ Graveyard | Optional$ True | LibraryPosition2$ 0
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | CheckSVar$ GraveCount | SVarCompare$ GE7 | Execute$ TrigTransform | TriggerZones$ Battlefield | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, if you have seven or more cards in your graveyard, you may transform CARDNAME.
+SVar:TrigTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+SVar:GraveCount:Count$ValidGraveyard Card.YouOwn
+DeckHas:Ability$Graveyard
+AlternateMode:DoubleFaced
+Oracle:Whenever Inishtu, Desert Healer enters the battlefield or attacks, look at the top card of your library. You may put it into your graveyard.\nAt the beginning of your upkeep, if you have seven or more cards in your graveyard, you may transform Inishtu.
+
+ALTERNATE
+
+Name:Inishtu, Herald of the Dead
+ManaCost:no cost
+Colors:black
+Types:Legendary Creature God
+PT:4/5
+K:Indestructible
+A:AB$ LoseLife | Cost$ 2 B ExileFromGrave<2/Card> | Defined$ Opponent | LifeAmount$ 2 | SubAbility$ DBGainLife | SpellDescription$ Each opponent loses 2 life and you gain 2 life.
+SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 2
+Oracle:Indestructible\n{2}{B}, Exile two cards from your graveyard: Each opponent loses 2 life and you gain 2 life.

@@ -1,0 +1,10 @@
+Name:Political Opportunist
+ManaCost:UR UR
+Types:Creature Human Noble
+PT:2/1
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeAll | TriggerDescription$ When CARDNAME enters the battlefield, target player shuffles the cards from their hand into their library, then draws that many cards.
+SVar:TrigChangeAll:DB$ ChangeZoneAll | ValidTgts$ Player | TgtPrompt$ Select target player | Origin$ Hand | Destination$ Library | Shuffle$ True | RememberChanged$ True | ForgetOtherRemembered$ True | SubAbility$ DBDraw
+SVar:DBDraw:DB$Draw | NumCards$ X | References$ X | Defined$ ParentTarget | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$Cleanup | ClearRemembered$ True
+SVar:X:Remembered$Amount
+Oracle:When Political Opportunist enters the battlefield, target player shuffles the cards from their hand into their library, then draws that many cards.

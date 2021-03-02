@@ -1,0 +1,6 @@
+Name:Hired Blades
+ManaCost:R
+Types:Creature Human Warrior
+PT:1/2
+A:AB$ Pump | Cost$ 1 U tapXType<1/Noble> | NumAtt$ 2 | NumDef$ 1 | KW$ HIDDEN Unblockable | SpellDescription$ CARDNAME gets +2/+1 until end of turn and can't be blocked this turn.
+Oracle:{1}{U}, Tap an untapped Noble you control: Hired Blades gets +2/+1 until end of turn and can't be blocked this turn.

@@ -1,0 +1,12 @@
+Name:Tradition
+ManaCost:2 B B
+Types:Enchantment Discovery
+K:etbCounter:Progress:1
+T:Mode$ Phase | Phase$ Main1 | ValidPlayer$ You | IsPresent$ Card.Self+counters_LE2_Progress | Execute$ Progress | TriggerZones$ Battlefield | Static$ True
+SVar:Progress:DB$ PutCounter | CounterType$ Progress | CounterNum$ 1
+T:Mode$ CounterAddedOnce | ValidCard$ Card.Self+counters_EQ1_Progress | Execute$ TrigMill | TriggerDescription$ I, II — Mill two cards. You gain 2 life. (Put the top two cards of your library into your graveyard.)
+T:Mode$ CounterAddedOnce | ValidCard$ Card.Self+counters_EQ2_Progress | Execute$ TrigMill | Secondary$ True | TriggerDescription$ I, II — Mill two cards. You gain 2 life. (Put the top two cards of your library into your graveyard.)
+SVar:TrigMill:DB$ Mill | NumCards$ 2 | SubAbility$ DBGain
+SVar:DBGain:DB$ GainLife | LifeAmount$ 2
+S:Mode$ Continuous | EffectZone$ Battlefield | Affected$ Permanent.nonLand+YouOwn | Condition$ PlayerTurn | MayPlay$ True | MayPlayLimit$ 1 | AffectedZone$ Graveyard | IsPresent$ Card.Self+counters_GE2_Progress | Description$ Discovery — During each of your turns, you may cast a permanent spell from your graveyard.
+Oracle:(As this Discovery enters and after your draw step, add a progress counter. Stop after you've discovered.)\nI, II — Mill two cards. You gain 2 life. (Put the top two cards of your library into your graveyard.)\nDiscovery — During each of your turns, you may cast a permanent spell from your graveyard.

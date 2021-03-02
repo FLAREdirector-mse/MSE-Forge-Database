@@ -1,0 +1,9 @@
+Name:Wildborn Merchant
+ManaCost:3 U R
+Types:Creature Human Mutant Noble
+PT:2/4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDiscard | TriggerDescription$ When CARDNAME enters the battlefield, each player discards their hand, then draws X cards, where X is the number of Nobles you control.
+SVar:TrigDiscard:DB$ Discard | Defined$ Player | Mode$ Hand | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw | Defined$ Player | NumCards$ X | References$ X
+SVar:X:Count$Valid Noble.YouCtrl
+Oracle:When Wildborn Merchant enters the battlefield, each player discards their hand, then draws X cards, where X is the number of Nobles you control.

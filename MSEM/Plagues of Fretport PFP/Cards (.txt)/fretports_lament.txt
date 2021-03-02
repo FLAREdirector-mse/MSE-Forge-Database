@@ -1,0 +1,9 @@
+Name:Fretport's Lament
+ManaCost:X G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ X G | ValidTgts$ Creature | TgtPrompt$ Select X target creature cards in graveyards | Origin$ Graveyard | Destination$ Exile | TargetMin$ X | TargetMax$ X | References$ X | RememberTargets$ True | SubAbility$ DBGainLife | SpellDescription$ Exile X target creature cards from graveyards. You gain life equal to the total converted mana cost of those cards.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ Y | References$ Y | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$xPaid
+SVar:Y:Remembered$SumCMC
+Oracle:Exile X target creature cards from graveyards. You gain life equal to the total converted mana cost of those cards.

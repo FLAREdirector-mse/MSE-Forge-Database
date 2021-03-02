@@ -6,6 +6,8 @@ S:Mode$ Continuous | EffectZone$ All | CharacteristicDefining$ True | SetPower$ 
 SVar:X:Count$Valid Creature.YouCtrl
 SVar:BuffedBy:Creature
 SVar:NoZeroToughnessAI:True
-S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Vigilance | CheckSVar$ Y | SVarCompare$ EQ1 | Description$ Creatures you control have vigilance as long as CARDNAME is enchanted or equipped.
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Vigilance | CheckSVar$ Y | SVarCompare$ EQ1 | Description$ Creatures you control have vigilance as long as CARDNAME is equipped and/or enchanted.
 SVar:Y:Count$Valid Card.Self+enchanted,Card.Self+equipped
-Oracle:Captain of the Militia’s power and toughness are each equal to the number of creatures you control.\nAdorned — Creatures you control have vigilance as long as Captain of the Militia is enchanted or equipped.
+SVar:EnchantMe:Once
+SVar:EquipMe:Once
+Oracle:Captain of the Militia's power and toughness are each equal to the number of creatures you control.\nAdorned — Creatures you control have vigilance as long as Captain of the Militia is equipped and/or enchanted.

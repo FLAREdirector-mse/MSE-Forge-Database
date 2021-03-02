@@ -1,0 +1,7 @@
+Name:Left Bereft
+ManaCost:3 B B
+Types:Sorcery
+A:SP$ RepeatEach | Cost$ 3 B B | RepeatPlayers$ Player | RepeatSubAbility$ DBChoose | SubAbility$ SacAllOthers | StackDescription$ SpellDescription | SpellDescription$ Each player chooses a nonland permanent they control, then sacrifices the rest.
+SVar:DBChoose:DB$ ChooseCard | Defined$ Player.IsRemembered | Choices$ Permanent.nonLand | TargetControls$ True | Mandatory$ True | RememberChosen$ True
+SVar:SacAllOthers:DB$ SacrificeAll | ValidCards$ Permanent.nonLand+IsNotRemembered
+Oracle:Each player chooses a nonland permanent they control, then sacrifices the rest.

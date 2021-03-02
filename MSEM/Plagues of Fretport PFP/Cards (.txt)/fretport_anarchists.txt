@@ -1,0 +1,7 @@
+Name:Fretport Anarchists
+ManaCost:1 R R
+Types:Creature Human Rogut
+PT:3/2
+A:AB$ DealDamage | Cost$ 1 B T RemoveAnyCounter<1/TIME/Permanent.YouCtrl/a permanent you control> | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 2 damage to any target. You gain 2 life.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+Oracle:{1}{B}, {T}, Remove a time counter from a permanent you control: Fretport Anarchists deals 2 damage to any target. You gain 2 life.

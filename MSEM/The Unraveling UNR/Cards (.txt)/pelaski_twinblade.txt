@@ -1,0 +1,6 @@
+Name:Pelaski Twinblade
+ManaCost:3 W
+Types:Creature Human Soldier 
+PT:2/3
+K:Double Strike
+Oracle:Double strike

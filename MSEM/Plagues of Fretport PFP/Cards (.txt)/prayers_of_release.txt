@@ -1,0 +1,7 @@
+Name:Prayers of Release
+ManaCost:1 B
+Types:Enchantment
+K:Vanishing:3
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigPutCounter | OptionalDecider$ You | TriggerDescription$ Whenever a time counter is removed from CARDNAME, you may put a -1/-1 counter on target creature.
+SVar:TrigPutCounter:DB$ PutCounter | ValidTgts$ Creature | TgtPrompt$ Select target creature | CounterType$ M1M1 | CounterNum$ 1
+Oracle:Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhenever a time counter is removed from Prayers of Release, you may put a -1/-1 counter on target creature.

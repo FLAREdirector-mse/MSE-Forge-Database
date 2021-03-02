@@ -1,0 +1,9 @@
+Name:Shinrin Spellhunter
+ManaCost:1 G U
+Types:Creature Human Samurai
+PT:3/3
+K:Flash
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | CheckSVar$ X | SVarCompare$ GE1 | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, if an opponent cast a noncreature spell this turn, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You
+SVar:X:Count$ThisTurnCast_Card.nonCreature+OppCtrl
+Oracle:Flash\nWhen Shinrin Spellhunter enters the battlefield, if an opponent cast a noncreature spell this turn, draw a card.

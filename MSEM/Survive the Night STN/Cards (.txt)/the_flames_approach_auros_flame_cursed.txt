@@ -3,7 +3,8 @@ ManaCost:1 R
 Types:Sorcery
 A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
 A:SP$ DealDamage | Cost$ 3 R R | ActivationZone$ Graveyard | SubAbility$ Memento | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | PrecostDesc$ Memento | CostDesc$ {3}{R}{R} | SpellDescription$ (You may cast this from your graveyard for {3}{R}{R}. If you do, put it onto the battlefield transformed after it resolves. Exile it if it would leave the battlefield or not resolve.)
-SVar:Memento:DB$ ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True
+SVar:Memento:DB$ ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | Transformed$ True | SubAbility$ DBAnimate
+SVar:DBAnimate:DB$ Animate | Defined$ Self | LeaveBattlefield$ Exile
 AlternateMode:DoubleFaced
 R:Event$ Moved | ValidCard$ Card.Self | Origin$ Stack | ExcludeDestination$ Exile | ReplaceWith$ DBExile | ValidStackSa$ Spell.wasCastFromGraveyard
 SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
@@ -19,6 +20,4 @@ PT:3/3
 K:Menace
 T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ Whenever CARDNAME attacks, it deals 3 damage to each opponent.
 SVar:TrigDamage:DB$ DealDamage | Defined$ Player.Opponent | NumDmg$ 3
-R:Event$ Moved | ValidCard$ Card.Self | Origin$ Battlefield | ExcludeDestination$ Exile | ReplaceWith$ DBExile
-SVar:DBExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
 Oracle:Menace\nWhenever Auros, Flame-Cursed attacks, it deals 3 damage to each opponent.

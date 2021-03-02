@@ -1,0 +1,9 @@
+Name:Lion's Vanguard
+ManaCost:5 R G
+Types:Creature Human Warrior
+PT:4/3
+K:Trample
+K:CARDNAME must be blocked if able.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, creatures you control get +3/+3 and gain trample and haste until end of turn.
+SVar:TrigPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ 3 | NumDef$ 3 | KW$ Trample & Haste
+Oracle:Trample\nEngage (This creature must be blocked each combat if able.)\nWhen Lion's Vanguard enters the battlefield, creatures you control get +3/+3 and gain trample and haste until end of turn.
