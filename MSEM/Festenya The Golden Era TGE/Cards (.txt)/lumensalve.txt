@@ -1,0 +1,12 @@
+Name:Lumensalve
+ManaCost:1 W W
+Types:Instant
+K:Cycling:4 W W
+A:SP$ ChangeZone | Cost$ W | ValidTgts$ Creature.YouCtrl | Origin$ Battlefield | Destination$ Exile | TgtPrompt$ Select target creature you control | RememberTargets$ True | SubAbility$ DBReturn | SpellDescription$ Exile target creature you control, then return that card to the battlefield under your control.
+SVar:DBReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ All | Destination$ Battlefield | GainControl$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+T:Mode$ Cycled | ValidCard$ Card.Self | Execute$ TrigExile | OptionalDecider$ You | TriggerDescription$
+SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Creature | RememberChanged$ True | TargetMin$ 0 | TargetMax$ 2 | TgtPrompt$ Select target creature | SubAbility$ RestorationReturn
+SVar:RestorationReturn:DB$ ChangeZone | Defined$ Remembered | Origin$ Exile | Destination$ Battlefield | GainControl$ True
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/27.jpg
+Oracle:Exile target creature, then return that creature to the battlefield under its owner's control.\nCycling {4}{W}{W}({4}{W}{W}, Discard this card: Draw a card.)\nWhen you cycle Lumensalve, exile up to two target creatures, then return those cards to the battlefield under their owner's control. 

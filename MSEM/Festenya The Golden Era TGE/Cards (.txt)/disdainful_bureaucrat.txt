@@ -1,0 +1,7 @@
+Name:Disdainful Bureaucrat
+ManaCost:1 W
+Types:Creature Human Advisor
+PT:2/2
+A:AB$ Counter | Cost$ 1 Sac<1/CARDNAME> | TargetType$ Spell | TgtPrompt$ Select target Creature spell | ValidTgts$ Creature | UnlessCost$ 1 | Counter target creature spell unless its controller pays {1}. 
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/7.jpg
+Oracle:{1}, Sacrifice Disdainful Bureaucrat: Counter target creature spell unless its controller pays {1}. d

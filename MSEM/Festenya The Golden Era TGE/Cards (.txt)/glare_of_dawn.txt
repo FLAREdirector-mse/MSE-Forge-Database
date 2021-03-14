@@ -1,0 +1,9 @@
+Name:Glare of Dawn
+ManaCost:1 W
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 W | ValidTgts$ Creature.powerLE2+attacking | TgtPrompt$ Select target attacking creature with power 2 or less. | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target attacking creature with power 2 or less.
+K:Cycling:1 W W
+T:Mode$ Cycled | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When you cycle CARDNAME, you may exile target attacking creature with power 2 or less.
+SVar:TrigExile:DB$ChangeZone | OptionalDecider$ True | ValidTgts$ Creature.powerLE2+attacking | TgtPrompt$ Select target attacking creature with power 2 or less.| Origin$ Battlefield | Destination$ Exile
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/12.jpg
+Oracle:Exile target attacking creature with power 2 or less.\nCycling {1}{W}{W} ({1}{W}{W}, Discard this card: Draw a card)\nWhen you cycle Glare of Dawn, you may exile target creature with power 2 or less. 

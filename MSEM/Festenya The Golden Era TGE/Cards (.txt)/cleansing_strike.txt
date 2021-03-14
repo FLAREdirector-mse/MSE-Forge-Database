@@ -1,0 +1,8 @@
+Name:Cleansing Strike
+ManaCost:W
+Types:Instant
+A:SP$ ChangeZone | Cost$ W | ValidTgts$ Enchantment | TgtPrompt$ Select target enchantment | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBDraw1 | SpellDescription$ Exile target enchantment. Its controller may draw a card.
+SVar:DBDraw1:DB$ Draw | OptionalDecider$ True | Defined$ TargetedController | NumCards$ 1 | SubAbility$ DBDraw2
+SVar:DBDraw2:DB$ Draw | NumCards$ 1 | SpellDescription$ Draw a card.
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/6.jpg
+Oracle:Exile target enchantment.\nIts controller may draw a card.\nDraw a card. 

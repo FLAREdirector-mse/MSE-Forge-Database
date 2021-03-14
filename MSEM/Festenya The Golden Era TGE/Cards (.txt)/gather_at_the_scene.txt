@@ -1,0 +1,7 @@
+Name:Gather at the Scene
+ManaCost:1 W
+Types:Sorcery
+A:SP$ Token | Cost$ 1 W | TokenAmount$ 2 | TokenScript$ w_1_1_citizen | TokenOwner$ You | LegacyImage$ w 1 1 citizen tge | SubAbility$ DBGainLife | SpellDescription$
+SVar:DBGainLife:DB$GainLife | Defined$ You | LifeAmount$ 1 | SpellDescription$ You gain 1 life.
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/9.jpg
+Oracle:Create two 1/1 white Citizen creature tokens. You gain 1 life. 

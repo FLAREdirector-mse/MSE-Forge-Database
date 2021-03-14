@@ -1,0 +1,8 @@
+Name:Geist of Lost Galas
+ManaCost:2 W W
+Types:Creature Spirit
+PT:3/4
+K:Flying
+A:AB$ Token | Cost$ 1 W ExileFromGrave<1/Creature> | TokenAmount$ 1 | TokenScript$ w_1_1_spirit_flying | TokenOwner$ You | LegacyImage$ w 1 1 spirit flying tge | SpellDescription$ Create a 1/1 white Spirit creature token with flying. 
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/11.jpg
+Oracle:Flying\n{1}{W}, Exile a creature card from your graveyard: Create a 1/1 white Spirit creature token with flying. 

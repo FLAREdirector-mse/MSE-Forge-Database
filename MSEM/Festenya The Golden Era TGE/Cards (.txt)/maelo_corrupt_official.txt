@@ -1,0 +1,7 @@
+Name:Maelo, Corrupt Official
+ManaCost:1 W W
+Types:Legendary Creature Human Advisor
+PT:2/3
+A:AB$ ProtectionAll | Cost$ 1 T PayLife<1> | ValidCards$ Creature.Other+YouCtrl | Gains$ Choice | Choices$ AnyColor | SpellDescription$ Other creatures you control gain protection from the color of your choice until end of turn. 
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/28.jpg
+Oracle:{1}, {T}, Pay 1 life: Other creatures you control gain protection from the color of your choice until end of turn. 

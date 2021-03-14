@@ -1,0 +1,7 @@
+Name:Investigate
+ManaCost:2 W
+Types:Sorcery
+A:SP$ Investigate | Cost$ 2 W | SubAbility$ DBInvestigate
+SVar:DBInvestigate:DB$ Investigate | Num$ 1
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/21.jpg
+Oracle:Investigate twice. (To investigate, create a colorless Clue artifact token with “{2}, Sacrifice this artifact: Draw a card.”)

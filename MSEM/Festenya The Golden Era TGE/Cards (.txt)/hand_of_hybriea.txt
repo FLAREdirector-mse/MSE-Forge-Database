@@ -1,0 +1,11 @@
+Name:Hand of Hybriea
+ManaCost:3 W W
+Types:Creature Angel
+PT:5/5
+K:Flying
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ ChooseType | TriggerDescription$ At the beginning of your upkeep, choose a card type. Spells of the chosen type cost {2} more to cast until your next turn. 
+SVar:ChooseType:DB$ChooseType | Defined$ You | Type$ Card | InvalidTypes$ Land| SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | Duration$ UntilYourNextTurn | StaticAbilities$ RaiseCost | SVars$ RaiseCost | SpellDescription$ Spells of the chosen type cost {2} more to cast until your next turn. 
+SVar:RaiseCost:Mode$ RaiseCost | ValidCard$ Card.ChosenType | Type$ Spell | Amount$ 2 | EffectZone$ Command | Description$ Spells of the chosen type cost {2} more to cast until your next turn. 
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/14.jpg
+Oracle:Flying\nAt the beginning of your upkeep, choose a card type. Spells of the chosen type cost {2} more to cast until your next turn. 

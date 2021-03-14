@@ -1,0 +1,8 @@
+Name:Gorger of Sins
+ManaCost:4 W W 
+Types:Creature Vampire Cleric
+PT:4/4
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigExile | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, exile target black or red permanent.
+SVar:TrigExile:DB$ ChangeZone | ValidTgts$ Permanent.Black,Permanent.Red | TgtPrompt$ Choose target black or red permanent. | Origin$ Battlefield | Destination$ Exile
+SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/13.jpg
+Oracle:Whenever Gorger of Sins deals combat damage to a player, exile target black or red permanent.
