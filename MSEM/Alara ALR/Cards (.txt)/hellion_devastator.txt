@@ -1,0 +1,8 @@
+Name:Hellion Devastator
+ManaCost:1 B R G
+Types:Creature Hellion
+PT:4/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters the battlefield, destroy up to one target nonland permanent with converted mana cost 3 or less.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Permanent.nonLand+cmcLE3 | TgtPrompt$ Select target nonland permanent with converted mana cost 3 or less | TargetMin$ 0 | TargetMax$ 1
+K:Cycling:2
+Oracle:When Hellion Devastator enters the battlefield, destroy up to one target nonland permanent with converted mana cost 3 or less.\nCycling ({2}, Discard this card: Draw a card.)

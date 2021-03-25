@@ -1,0 +1,9 @@
+Name:Bant Command
+ManaCost:1 G W U
+Types:Instant
+A:SP$ Charm | Cost$ 1 G W U | Choices$ DBToken,DBDestroy,DBPump,DBReturn | CharmNum$ 2
+SVar:DBToken:DB$ Token | TokenScript$ w_2_2_knight_vigilance | TokenAmount$ 2 | SpellDescription$ Create two 2/2 white Knight creature tokens with vigilance.
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Creature.powerGE4 | TgtPrompt$ Select target creature with power 4 or greater | SpellDescription$ Destroy target creature with power 4 or greater.
+SVar:DBPump:DB$ Pump | Defined$ You | KW$ Hexproof | SpellDescription$ You gain hexproof until end of turn.
+SVar:DBReturn:DB$ ChangeZone | ValidTgts$ Permanent.nonLand+YouDontCtrl | TgtPrompt$ Select target nonland permanent you don't control | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target nonland permanent you don't control to its owner's hand.
+Oracle: Choose two —\n• Create two 2/2 white Knight creature tokens with vigilance.\n• Destroy target creature with power 4 or greater.\n• You gain hexproof until end of turn.\n• Return target nonland permanent you don't control to its owner's hand. 

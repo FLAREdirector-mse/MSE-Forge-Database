@@ -1,0 +1,14 @@
+Name:Tamiyo, Lunar Arcanist
+ManaCost:1 G U
+Types:Legendary Planeswalker Tamiyo
+Loyalty:4
+A:AB$ Scry | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | ScryNum$ 1 | SubAbility$ DBUntap | SpellDescription$ Scry 2. Untap up to one target land.
+SVar:DBUntap:DB$ Untap | UntapUpTo$ True | UntapType$ Land | Amount$ 1
+A:AB$ Draw | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | NumCards$ X | SubAbility$ DBDiscard | SpellDescription$ Draw a card for each card type among permanents you control, then discard a card.
+SVar:DBDiscard:DB$ Discard | NumCards$ 1 | Mode$ TgtChoose
+SVar:X:Count$CardControllerTypes.Battlefield
+A:AB$ Effect | Cost$ SubCounter<8/LOYALTY> | Planeswalker$ True | Ultimate$ True | StaticAbilities$ STPlay | ReplacementEffects$ RExile | SVars$ Exile | SpellDescription$ Until end of turn, you may cast spells from your hand and graveyard without paying their mana costs. If a card would be put into your graveyard from anywhere this turn, exile it instead.
+SVar:STPlay:Mode$ Continuous | MayPlay$ True | MayPlayWithoutManaCost$ True | AffectedZone$ Hand,Graveyard | Description$ Until end of turn, you may cast spells from your hand and graveyard without paying their mana costs.
+SVar:RExile:Event$ Moved | Destination$ Graveyard | ValidCard$ Card.nonToken+YouOwn | ReplaceWith$ Exile | Description$ If a card would be put into your graveyard from anywhere this turn, exile it instead.
+SVar:Exile:DB$ ChangeZone | Hidden$ True | Origin$ All | Destination$ Exile | Defined$ ReplacedCard
+Oracle:[+1]: Scry 2. Untap up to one target land.\n[–2]: Draw a card for each card type among permanents you control, then discard a card.\n[–8]: Until end of turn, you may cast spells from your hand and graveyard without paying their mana costs. If a card would be put into your graveyard from anywhere this turn, exile it instead.

@@ -1,0 +1,264 @@
+[metadata]
+Code=DSS
+Date=2021-03-01
+Name=MSEM: Dark Seas of Shiryen
+Type=Other
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 U All That Glitters
+2 R Another Day in Paradise
+3 C Armored Valiant
+4 U Autointerment
+5 U Battle Rallier
+6 C Bridled Narwhal
+7 C Cleansing Cleric
+8 U Crosswind Cutter
+9 R Crown of the Speaker
+10 R East Ward Champion
+11 U East Ward Halberdier
+12 R Empyrean Griffin
+13 U Fight Song
+14 M First General of the Wards
+15 U Forged Alliance
+16 R Gale Mediator
+17 C Glisterhorn
+18 C Griffling
+19 R High Sovereign Thura
+20 C Inspired Charge
+21 U Ironclad Infantry
+22 C Maroon
+23 C Merchant Galleon
+24 C North Ward Settler
+25 U Pale Courier
+26 U Pathless Shallows
+27 R Pick Up the Pieces
+28 C Radiant Elegance
+29 C Revoke Privileges
+30 C Sail the Open Sea
+31 C Seawise Swain
+32 M Seto San, the Dragonblade
+33 C Shrill Griffin
+34 C Skyward Gaveller
+35 U Skywise Emissary
+36 C Solemn Cleaver
+37 C Swooping Razorbeak
+38 C Up in Arms
+39 U Vivid Griffin
+40 U Watchful Navigator
+41 C West Ward Purifier
+42 U Armada Envoy
+43 C Brume Leviathan
+44 U Calamitous Wave
+45 U Captain's Orders
+46 C Cascade Drake
+47 C Claustrophobia
+48 C Coasting Shaledrake
+49 U Deathless Conscription
+50 U Dissolve
+51 U Elder Prophesier
+52 C Essence Scatter
+53 U Fated Mariner
+54 U Gaze of the Grave
+55 C Grievous Buccaneer
+56 R Harbinger of Giradrus
+57 C Helicos Octopus
+58 M Isles Uncharted
+59 R Last Passage
+60 C Law Enforcement
+61 C Lost Knowledge
+62 R Master Negotiator
+63 C Old Salt
+64 R Opaline Drake
+65 C Plucky Pickpocket
+66 U Raving Brigand
+67 C Recruits of the Demeter
+68 R Roll the Dice
+69 U Salvage Wyvern
+70 C Shipwrecked
+71 U Shoal Raker
+72 C Shrouded Spoils
+73 C Sink
+74 C Siren's Song
+75 C Skysail Rigger
+76 R Sleepless Vigil
+77 C Strange Tides
+78 C Sudden Storm
+79 U Thalassophobia
+80 U Twilight Privateer
+81 R Visions of Oblivion
+82 M Wakeborne Kraken
+83 U Abyss Surger
+84 C All for One
+85 C Arbiter of the Demeter
+86 C Black Spot
+87 U Blood for Bones
+88 C Crain's Crew
+89 M Crain's Crony
+90 C Depth Lurker
+91 C Down with the Ship
+92 R Dreadbearer
+93 R Dusk Lieutenant
+94 R Fair Trial
+95 U Faithless Deserter
+96 U Fen Glutton
+97 C Forsaken Shores
+98 C Ghastly Scorpion
+99 U Good Night's Sleep
+100 R Grasp of Hollows
+101 U Grave Wrangler
+102 C Greedy Rapscallions
+103 C Grisly Reaper
+104 R Heinous Smuggler
+105 M Inexorable Epidemic
+106 U Legion of Giradrus
+107 U Long Forgotten
+108 U Malignant Rise
+109 R Mark of Dark Opulence
+110 U Mephitic Fumes
+111 U Merciless Bandit
+112 C Murder
+113 R Orodu, the Onyx Wave
+114 C Osseous Augur
+115 C Perilous Treaty
+116 C Pilfer
+117 C Rum Guzzler
+118 C Sanitarium Skeleton
+119 C Shrieking Nightwing
+120 U Silent Hunt
+121 C Skulduggery
+122 U Stygian Leviathan
+123 C Vagabones
+124 C Abandon Ship
+125 U Admirable Admiral
+126 R Adoroth, the Baneful
+127 C Boarding Party
+128 U Breakneck Barque
+129 C Broadside Raider
+130 C Cannonblast
+131 M Captain Darlene Filham
+132 U Civil Discourse
+133 C Coralhide Wurm
+134 U Crazed Swashbuckler
+135 C Dapper Ragamuffin
+136 R Dwarven War Hatchet
+137 C East Ward Forgetender
+138 U Expunge the Terrors
+139 U Fiery Cannonade
+140 C Fiery Temper
+141 U Find Greater Purpose
+142 C Flaming Point Technique
+143 M Giradrus, Ashen Master
+144 C Grizzled Cutthroat
+145 C Helicos Aberration
+146 C Infernal Fury
+147 R Intrepid Captain
+148 U Keelhaul
+149 C Knotweald Ranger
+150 U Lava Scutterer
+151 R Light the Fuse
+152 C Maritime Thug
+153 C Mark of Mutiny
+154 C Nimble Caravel
+155 R Pay the Right Price
+156 C Petty Dispute
+157 U Pyre Apostle
+158 C Rattled Bones
+159 R Ruinous Proselyte
+160 R Salty Swab
+161 U Smoldering Husk
+162 U Suitor of the Sea
+163 C Ulcerous Hellion
+164 U Unruly Cannoneer
+165 C Adept Fisherman
+166 C Aerie Watch
+167 M Blighted Branch-Beast
+168 C Bramble Armor
+169 C Bushwhack
+170 C Canopy Stomper
+171 R Children of Gos
+172 U Crackling Agama
+173 M Crewmaster Gillo
+174 R Cryptozoologist
+175 C Eager Voyager
+176 R Exotic Discovery
+177 C Fog at Sea
+178 R Helicos Gargantua
+179 C Imperious Wurm
+180 U Keen Seafarer
+181 U Kelp Garden
+182 R Knotweald Ambassador
+183 U Knotweald Luminary
+184 C Knotweald Sapling
+185 C Land Ho!
+186 U Ligneous Enormity
+187 C Oaken Sentry
+188 R Pelagic Hydra
+189 U Perennial Unrest
+190 C Plummet
+191 C Prowling Agamid
+192 U Revivification
+193 C Rising Terrain
+194 U Rootshaper
+195 C Run Through
+196 C Seasoned Lookout
+197 U Skerry Serpent
+198 U Song of the Sea
+199 C Staunch Constrictor
+200 U Thicket Mimicry
+201 U Three Seas Cartographer
+202 C Three Seas Squire
+203 R Trawl the Wreckage
+204 C Umbral Wolf
+205 U Verdurous Herald
+206 U Afflicted Legion
+207 R Alvarez of the Huntsman
+208 U Captain's Companion
+209 U Crypt Strider
+210 U Daybreak Wayfarers
+211 U Deluge Gorger
+212 R Garth of the Chimera
+213 M Gos, Knotweald Elder
+214 R Harriet of the Pioneer
+215 R Holcomb of the Peregrine
+216 R Hugo of the Shadowstaff
+217 U Idyllic Pegasus
+218 U Knotweald Vanguard
+219 M Lord Ellison Crain
+220 R Mable of the Sea's Whimsy
+221 R Marisa of the Gravehowl
+222 U Scalawag Swagger
+223 R Searle of the Tempest
+224 U Swift Corsair
+225 R Tabia of the Lionheart
+226 M Tamiyo, Lunar Arcanist
+227 U Tender Warden
+228 M Two-Faced Marauder
+229 R Valencia of the Concordant
+230 R Blacksteel Loadout
+231 R Brig of the Damned
+232 C Chartered Fleet
+233 C Cruising Schooner
+234 R Culling Blade
+235 R Dragonlord's Shrine
+236 U Elaborate Firecannon
+237 U Flintlock Pistol
+238 U Ghost Sloop
+239 M H.S.S. Demeter
+240 C Helmsman's Chart
+241 C Lofty Dreamship
+242 C Pirate's Cutlass
+243 R Slaughterkeg
+244 R Sun-Crowned Flagship
+245 U Tankard of Grog
+246 U Treasure Hauler
+247 R The Winged Steed
+248 R Pirate's Hideout
+249 C Unknown Shores
+250 S Plains
+251 S Island
+252 S Swamp
+253 S Mountain
+254 S Forest
+
+[tokens]

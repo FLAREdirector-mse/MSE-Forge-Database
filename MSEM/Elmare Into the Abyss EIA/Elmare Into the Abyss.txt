@@ -1,0 +1,284 @@
+[metadata]
+Code=EIA
+Date=2021-03-01
+Name=MSEM: Elmare: Into the Abyss
+Type=Other
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 C Aquatic Might
+2 U Brine Duelist
+3 C Bubbledome Captain
+4 U Cast Out
+5 U Chitinborn Sentry
+6 R Conchhorn Shinygrabber
+7 C Coralcrown's Banishment
+8 R Coralight Champion
+9 C Coralight Choir
+10 C Coralight Mystic
+11 C Coralight Sentinel
+12 C Dawson's Bouncer
+13 C Driftwood Throne's Rule
+14 M Duke Atrios XXIV
+15 C Freewheeling Orcas
+16 C Gilded Merrow
+17 R Glittering Narwhal
+18 C Harmonic Attunement
+19 U Idyllic Odyssey
+20 C Joyous Whaleshark
+21 U Keep in Line
+22 M Leave the World Behind
+23 U Lilyreed Triton
+24 C Majestic Nauticorn
+25 R Merrow Legendmaker
+26 U Militant's Standard
+27 C Mysterious Lights
+28 R Noble Birthright
+29 C Pacifism
+30 C Palace Servant
+31 U Pensive Muse
+32 U Regal Seasnake
+33 U Schoolmaster
+34 C Seafloor Shrine
+35 R Subnautical Legionnaire
+36 C Tide Crasher
+37 R Tideflow Wardings
+38 R Tragic Arrogance
+39 C Treasury Master
+40 R Trident of Benediction
+41 R Uncovered Secrets
+42 U Bonetooth Darter
+43 C Brinechum
+44 U Bubbledome Keeper
+45 C Bubbledome Waveblade
+46 C Bubblespout Sentry
+47 U Coral Bruiser
+48 C Coral Guidance
+49 C Coral Serpent
+50 C Crush the Hull
+51 C Cuxuri Harbinger
+52 R Cuxuri Rift
+53 C Deep-Sea Terror
+54 C Drag Beneath
+55 C Edina's Soulsinger
+56 R Encapsulate
+57 R Entrancing Light
+58 R Eye of the Beholder
+59 R Feel the Flow
+60 U Gaze Deeper
+61 R Happy Manta
+62 C Hit the Bottom
+63 U Hopesinker
+64 C Into Cuxuri Trench
+65 U Lie in Wait
+66 R Lord of the Bubbledome
+67 C Majestic Hippocamp
+68 R Master of the Abyss
+69 M Mina, Jeweled Minnow
+70 C Mystic Mackerel
+71 U Ominous Seas
+72 R Ostentatious Octopus
+73 C Peer Into the Depths
+74 R Prismscale Piranhas
+75 C Riptide Mystic
+76 C Seafloor Casket
+77 U Sigiled Starfish
+78 C Tentacle Lash
+79 M Truth Beyond Belief
+80 C Undercutter
+81 U Wave Spinner
+82 U Weight of Oceans
+83 C Abalone Abomination
+84 R Abyssal Oracle
+85 U Awakening of Evil
+86 C Blood in the Water
+87 R Buried at Sea
+88 C Cave Diving
+89 C Crack Open
+90 M Danithra Champion
+91 R Danithra Inquisitor
+92 C Danithra Oracle
+93 R Dawson's Collector
+94 C Dawson's Enforcer
+95 U Dawson's Marauder
+96 U Death Sentence
+97 C Depthlight Brute
+98 C Depthlight Salvager
+99 C Dukedom Turncoat
+100 C Face of the Abyss
+101 R Gloomtide Whelk
+102 C Glowfrill Eel
+103 C Gobble Up
+104 U Goldtooth Slasher
+105 C Herald from Below
+106 C Horrors' Reach
+107 C Ink Seer
+108 M Into the Abyss
+109 R Nightmares Unseen
+110 U Oceanographer
+111 U Oryxyth's Brood
+112 U Pay Up
+113 C Ruin Dive
+114 U Salvage Titan
+115 R Seabed Delver
+116 C Seafloor Tomb
+117 U Shark Slayer
+118 U Silent Doom
+119 R Snuff Out the Light
+120 C Specimen Collector
+121 R Storm the Seafloor
+122 R Trenchbottom Mariners
+123 C Twisted Cultist
+124 R Advent from Above
+125 U Bloodhollow Bruiser
+126 C Bloodthirsty Jaws
+127 C Bloodwater Scourge
+128 R Calamari Dragon
+129 R Circling Predators
+130 U Conchspear Hunter
+131 C Crushing Grip
+132 C Curious Adventure
+133 U Curious Disturbances
+134 R Current Surfer
+135 C Darting Guppy
+136 U Depthlight Frontliner
+137 M Dredgeline Colossus
+138 C Dukedom Outcast
+139 U Elmare's Grandeur
+140 R Fabulous Find
+141 U Final Struggle
+142 C Finish Off
+143 C Frontline Descender
+144 R Full Salvo
+145 C Greenscale Bully
+146 C Highbeam Hulk
+147 C Into Waiting Jaws
+148 U Jetskate
+149 C Noble Barracuda
+150 R Oil Driller
+151 R Plasma Blader
+152 R Redeye Commando
+153 C Redgill Corsair
+154 C Restless Predation
+155 U Roving Dreadnought
+156 C Ruin Shark
+157 C Seafloor Cache
+158 U Shine a Light
+159 U Sledgesuit Prospector
+160 C Thrill of Possibility
+161 C Treasure Haulers
+162 M Twenty Thousand Leagues
+163 C Unsuspecting Victim
+164 R Volcanic Catastrophe
+165 C Abyss Moray
+166 R Bank Skimmer
+167 R Bigger Fish
+168 R Bubbledome Chorister
+169 R Coralblade Cohort
+170 C Coralight Communer
+171 U Coralight Lifebloom
+172 C Cuxuri's Corruption
+173 C Danithra Caller
+174 R Danithra Muckbruiser
+175 U Depthcalling
+176 C Dolphin Rider
+177 U Drawn to the Light
+178 C Dualglaive Acolyte
+179 C Emerge from the Reeds
+180 R Foregone Ancestries
+181 C Glowskate Channeler
+182 U Glum Oarfish
+183 U Guppyfin Duelist
+184 R Jumbo Shrimp
+185 C Kelp Garden
+186 C Live in Harmony
+187 C Lurking Angler
+188 C Mandibled Mass
+189 R Megalocanth
+190 M Myrmidon, Coralight Exile
+191 C Narwhalrus
+192 U Overpower
+193 C Raise the Dreadreef
+194 R Seadrake Rider
+195 C Seafloor Wreckage
+196 C Seafoam Slasher
+197 R Shambling Dreadreef
+198 U Silt Lurker
+199 C Smell Blood
+200 U Sturdyshell Hammerclaw
+201 U Triplicate Monstrosity
+202 M Turi's Masterstroke
+203 C Way of the Danithra
+204 U Wilt
+205 C Youthful Tortoise
+206 M Anemothrys, Reefcrown
+207 R Collect Rotting Remains
+208 U Coralight Paladin
+209 U Cuxuri Beckoner
+210 U Dawson's Warden
+211 U Depthlight Captain
+212 R Doom and Gloom
+213 R Duchess Odelia VII
+214 M Edina, Coralight Soothsayer
+215 U Fortune and Glory
+216 R Grim, Dawson's Vassal
+217 M Hila Okunos
+218 R Krill-Clan Guardian
+219 U Lightning-Fast Lionfish
+220 U Lionfrill Hunter
+221 M Lord Rickard Dawson
+222 R Megalodon Rush
+223 R Odelia's Attendant
+224 M Oryxyth, Doom of Elmare
+225 R Rappel Liner
+226 R Regal Coralhorn
+227 U Shoalshine
+228 U Speaker of Open Waters
+229 R Stinging Swordfish
+230 U Sunken-Eye Angler
+231 M Turi of Hollow Depths
+232 M Under the Sea
+233 M Vyzer, the Fallen Despot
+234 C Barnacled Blade
+235 C Battle Station
+236 R Brilliant Runepearl
+237 R Bygone Wreck
+238 R Cannoncoil Hermit
+239 R Dawson's Jetslicer
+240 C Dawson's Loot
+241 C Depthlight Beacon
+242 U Grim's Warchest
+243 U Harried Submersible
+244 R Lost Empire's Legacy
+245 M Mettalia, Light from Above
+246 U Mettalia's Forward
+247 C Minefield Bomber
+248 R Myrmidon's Warhead
+249 C Ominous Helmet
+250 C Patrol Ship
+251 R Reefcrown Egg
+252 R Rustshell Crustacean
+253 U Searchlight Drones
+254 C Silt Miner
+255 C Spare Supplies
+256 U Torpedo Jetter
+257 C Typhoon Cruiser
+258 U Anemone Cluster
+259 U Coralight Castle
+260 R Enchanting Palace
+261 C Evolving Wilds
+262 U Grisly Ruins
+263 U Molten Basin
+264 U Paradise Reef
+265 U Shanty Town
+266 U Tectonic Chateau
+267 U Typhoon Caverns
+268 U Vibrant Sandbar
+269 U Volcanic Hollow
+270 S Plains
+271 S Island
+272 S Swamp
+273 S Mountain
+274 S Forest
+
+[tokens]
