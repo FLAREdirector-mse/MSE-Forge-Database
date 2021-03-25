@@ -33,7 +33,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 21 U One with Seishin
 22 U Oshiruko Purifier
 23 C Phasmophobia
-24 C Scions of Old Jiangshi
+24 C Scions of Old Jidai
 25 U Senaturian Legion
 26 C Serene Form
 27 C Shokan Battalion
@@ -54,7 +54,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 42 U Hisana-no-Oni
 43 U Imperial Artisan
 44 R Imposition
-45 C Jiangshi Clairvoyant
+45 C Jidai Clairvoyant
 46 R Kaiju-no-Oni
 47 R Kasoha, Keeper of Truths
 48 C Kowareta Informant
@@ -69,7 +69,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 57 C Seishin Tidekeeper
 58 C Spirit Reflections
 59 R Stormwake
-60 U Tales of Old Jiangshi
+60 U Tales of Old Jidai
 61 R Unearthly Grace
 62 C Whisper of the Winds
 63 C Abura-no-Oni
@@ -122,7 +122,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 110 U Seishin Rageshaper
 111 C Seishin Smokeshaper
 112 U Shaping Dragonsteel
-113 R Sovereign of Old Jiangshi
+113 R Sovereign of Old Jidai
 114 C Stormshaper Adept
 115 C Thousand Cuts
 116 C Unleash the Dragon
@@ -172,7 +172,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 160 U Treacherous Ways
 161 R Urushi, the Ripple in the Smoke
 162 U Worthy of the Name
-163 R Yuso, Light of Jiangshi
+163 R Yuso, Light of Jidai
 164 R Zahar, Aghavaan's Legacy
 165 R Asahi Yoroi
 166 C Bladed Warfan

@@ -1,8 +1,0 @@
-Name:By the People
-ManaCost:2 W W
-Types:Instant
-A:SP$ GainLife | Cost$ 2 W W | LifeAmount$ X | References$ X,Y | SpellDescription$ You gain life equal to the number of creatures you control plus the number of Citizen creatures you control. 
-SVar:X:Count$Valid Creature.YouCtrl/Plus.Y
-SVar:Y:Count$Valid Citizen.YouCtrl
-SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/5.jpg
-Oracle:You gain life equal to the number of creatures you control plus the number of Citizen creatures you control. 

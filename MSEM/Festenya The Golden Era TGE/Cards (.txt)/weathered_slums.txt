@@ -1,6 +1,0 @@
-Name:Weathered Slums
-ManaCost:no cost
-Types:Land Island Swamp
-K:CARDNAME enters the battlefield tapped.
-K:Cycling:UB
-Oracle:({T}: Add {U} or {B}.)\nWeathered Slums enters the battlefield tapped.\nCycling {U/B} ({U/B}, Discard this card: Draw a card.)

@@ -1,6 +1,0 @@
-Name:Nomad
-ManaCost:no cost
-Colors:white
-Types:Creature Nomad
-PT:1/1
-Oracle:

@@ -1,0 +1,11 @@
+Name:Red Flower Assassin
+ManaCost:4 B
+Types:Creature Human Assassin
+PT:2/2
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters the battlefield, destroy target creature.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Creature | TgtPrompt$ Select target creature
+A:AB$ CopyPermanent | Cost$ 5 B ExileFromGrave<1/CARDNAME> | PrecostDesc$ Revive | CostDesc$ {5}{B} | ActivationZone$ Graveyard | RemoveCost$ True | AICheckSVar$ X | AISVarCompare$ GE1 | SpellDescription$ ({5}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
+SVar:NeedsToPlayVar:X GE1
+SVar:X:Count$Valid Creature.OppCtrl
+DeckHas:Ability$Token
+Oracle:When Red Flower Assassin enters the battlefield, destroy target creature.\nRevive {5}{B} ({5}{B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

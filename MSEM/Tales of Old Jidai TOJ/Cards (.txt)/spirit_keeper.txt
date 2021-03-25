@@ -1,0 +1,8 @@
+Name:Spirit Keeper
+ManaCost:W
+Types:Creature Human Cleric
+K:Lifelink
+PT:1/1
+A:AB$ CopyPermanent | Cost$ W ExileFromGrave<1/CARDNAME> | PrecostDesc$ Revive | CostDesc$ {W} | ActivationZone$ Graveyard | RemoveCost$ True | SpellDescription$ ({W}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
+DeckHas:Ability$Token & Ability$Lifegain
+Oracle:Lifelink\nRevive {W} ({W}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

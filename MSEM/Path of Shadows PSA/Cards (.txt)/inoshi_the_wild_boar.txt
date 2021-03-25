@@ -1,0 +1,6 @@
+Name:Inoshi the Wild Boar
+ManaCost:1 R G
+Types:Legendary Creature Human Warrior
+PT:2/2
+A:AB$ Destroy | Cost$ T Sac<1/Land> | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Destroy target land.
+Oracle:{T}, Sacrifice a land: Destroy target land.

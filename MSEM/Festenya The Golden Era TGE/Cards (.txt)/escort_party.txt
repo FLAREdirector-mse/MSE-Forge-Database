@@ -1,7 +1,0 @@
-Name:Escort Party
-ManaCost:1 W W
-Types:Instant
-A:SP$ Token | Cost$ 1 W W | TokenAmount$ 1 | TokenScript$ w_1_1_citizen | TokenOwner$ You | LegacyImage$ w 1 1 citizen tge | SubAbility$ DBToken | SpellDescription$ Create a 1/1 white Citizen creature token and a 2/2 white Knight creature token with vigilance. 
-SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_2_2_knight_vigilance | TokenOwner$ You | LegacyImage$ w 2 2 knight vigilance tge
-SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/8.jpg
-Oracle:Create a 1/1 white Citizen creature token and a 2/2 white Knight creature token with vigilance. 

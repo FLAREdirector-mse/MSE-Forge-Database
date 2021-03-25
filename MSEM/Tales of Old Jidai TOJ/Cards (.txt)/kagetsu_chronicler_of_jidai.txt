@@ -1,0 +1,10 @@
+Name:Kagetsu, Chronicler of Jidai
+ManaCost:2 U
+Types:Legendary Creature Human Wizard
+PT:1/3
+S:Mode$ Continuous | Affected$ You | AddKeyword$ You don't lose the game for drawing from an empty library. | Description$ You don't lose the game for drawing from an empty library.
+S:Mode$ Continuous | Affected$ Card.nonLand+YouOwn | MayPlay$ True | MayPlayDontGrantZonePermissions$ True | MayPlayWithoutManaCost$ True | AffectedZone$ Hand | CheckSVar$ X | SVarCompare$ LE7 | Description$ As long as you have seven or fewer cards in each of your libraries, you may cast spells without paying their mana costs.
+S:Mode$ Continuous | Affected$ Card.Self | AddSVar$ FC | CheckSVar$ X | SVarCompare$ LE7 | Secondary$ True
+SVar:FC:SVar:AllowFreeCast:Always
+SVar:X:Count$InYourLibrary
+Oracle:You don't lose the game for drawing from an empty library.\nAs long as you have seven or fewer cards in each of your libraries, you may cast spells without paying their mana costs.

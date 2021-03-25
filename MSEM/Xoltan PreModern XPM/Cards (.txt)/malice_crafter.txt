@@ -1,7 +1,0 @@
-Name:Malice Crafter
-ManaCost:1 B R
-Types:Creature Human Warrior
-PT:3/2
-T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Graveyard | Execute$ TrigDamage | TriggerDescription$ When CARDNAME is put into your graveyard from anywhere, it deals 2 damage to each opponent.
-SVar:TrigDamage:DB$ DealDamage | Defined$ Player.Opponent | NumDmg$ 2
-Oracle:When Malice Crafter is put into your graveyard from anywhere, it deals 2 damage to each opponent.

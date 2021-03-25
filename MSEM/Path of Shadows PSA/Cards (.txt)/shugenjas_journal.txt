@@ -1,0 +1,8 @@
+Name:Shugenja's Journal
+ManaCost:1
+Types:Artifact Equipment
+K:Equip:1
+S:Mode$ Continuous | Affected$ You | SetMaxHandSize$ Unlimited | IsPresent$ Card.Self+AttachedTo Creature.YouCtrl | Description$ As long as CARDNAME is attached to a creature you control, you have no maximum hand size.
+T:Mode$ ChangesZone | ValidCard$ Creature.EquippedBy | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigDraw | TriggerDescription$ Whenever equipped creature dies, draw a card.
+SVar:DBDraw:DB$ Draw
+Oracle:As long as Shugenja's Journal is attached to a creature you control, you have no maximum hand size.\nWhenever equipped creature dies, draw a card.\nEquip {1}

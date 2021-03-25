@@ -1,7 +1,0 @@
-# TODO
-Name:Osrius Royalty
-ManaCost:2 B R
-Types:Creature Human Noble
-PT:4/3
-
-Oracle:Whenever Osrius Royalty or another creature dies, each player discards a card at random. 
