@@ -1,0 +1,13 @@
+Name:Founding Hero
+ManaCost:W
+Types:Creature Human Soldier
+PT:2/1
+T:Mode$ Attacks | ValidCard$ Card.Self | CheckSVar$ X | SVarCompare$ EQ3 | Execute$ TrigPump | TriggerDescription$ Civilized — Whenever CARDNAME attacks, if you control an artifact, a creature, and an enchantment, CARDNAME gains double strike until end of turn.
+SVar:TrigPump:DB$ Pump | Defined$ Self | KW$ Double Strike
+SVar:X:SVar$Y/Plus.EX
+SVar:Y:SVar$AX/Plus.CX
+SVar:AX:Count$Valid Artifact.YouCtrl
+SVar:CX:Count$Valid Creature.YouCtrl
+SVar:EX:Count$Valid Enchantment.YouCtrl
+DeckHints:Type$Artifact & Type$Enchantment
+Oracle:Civilized — Whenever Founding Hero attacks, if you control an artifact, a creature, and an enchantment, Founding Hero gains double strike until end of turn.

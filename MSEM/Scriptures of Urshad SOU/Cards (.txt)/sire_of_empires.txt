@@ -1,0 +1,10 @@
+Name:Sire of Empires
+ManaCost:1 W W
+Types:Creature Lammasu
+PT:3/3
+K:Flying
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 1 | AddToughness$ 1 | IsPresent$ Creature.Other+YouCtrl | Description$ CARDNAME gets +1/+1 as long as you control another creature, has lifelink as long as you control an enchantment, and has vigilance as long as you control an artifact.
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Lifelink | IsPresent$ Enchantment.YouCtrl | Secondary$ True
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Vigilance | IsPresent$ Artifact.YouCtrl | Secondary$ True
+Oracle:Flying\nSire of Empires gets +1/+1 as long as you control another creature, has lifelink as long as you control an enchantment, and has vigilance as long as you control an artifact.
+
