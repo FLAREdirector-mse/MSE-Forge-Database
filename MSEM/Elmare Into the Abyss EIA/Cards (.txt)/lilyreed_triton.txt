@@ -1,0 +1,8 @@
+Name:Lilyreed Triton
+ManaCost:W
+Types:Creature Merfolk Aurashaper Knight
+PT:1/1
+T:Mode$ ChangesZone | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a white Aura enchantment token named Triton's Gift attached to target creature. The token has enchant creature and "Enchanted creature gets +1/+0 and can't be blocked by creatures with power 3 or greater."
+SVar:TrigToken:DB$ Token | TokenScript$ tritons_gift | AttachedTo$ Targeted | ValidTgts$ Creature | TgtPrompt$ Select target creature
+Oracle:When Lilyreed Triton enters the battlefield, create a white Aura enchantment token named Triton's Gift attached to target creature. The token has enchant creature and "Enchanted creature gets +1/+0 and can't be blocked by creatures with power 3 or greater."
+

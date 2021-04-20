@@ -1,0 +1,6 @@
+Name:Beckon the Shadows
+ManaCost:B
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ B | Origin$ Graveyard | Destination$ Hand | TgtPrompt$ Choose target creature card in your graveyard | ValidTgts$ Creature.YouOwn | SpellDescription$ Return target creature card from your graveyard to your hand. If you cast this spell for its bloodprice, return that card to the battlefield instead.
+A:SP$ ChangeZone | Cost$ 2 B B Sac<1/Creature> | NonBasicSpell$ True | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card in your graveyard | ValidTgts$ Creature.YouOwn | PrecostDesc$ Bloodprice | CostDesc$ {2}{B}{B} | SpellDescription$ (You may cast this card by sacrificing a creature and paying its bloodprice.)
+Oracle:Bloodprice {2}{B}{B} (You may cast this card by sacrificing a creature and paying its bloodprice.)\nReturn target creature card from your graveyard to your hand. If you cast this spell for its bloodprice, return that card to the battlefield instead.

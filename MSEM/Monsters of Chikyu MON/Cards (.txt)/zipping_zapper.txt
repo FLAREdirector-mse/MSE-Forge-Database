@@ -1,0 +1,9 @@
+Name:Zipping Zapper
+ManaCost:R
+Types:Creature Elemental Mouse
+PT:1/1
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, target creature gains haste and first strike until end of turn.
+SVar:TrigPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | KW$ Haste & First Strike
+Oracle:Haste\nWhen Zipping Zapper enters the battlefield, target creature gains haste and first strike until end of turn.
+

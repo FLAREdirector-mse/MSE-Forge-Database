@@ -1,0 +1,7 @@
+Name:Chratteri Valiant
+ManaCost:1 G
+Types:Creature Beast Warrior
+PT:1/1
+S:Mode$ Continuous | Affected$ Warrior.Other+YouCtrl | AddKeyword$ Trample | Description$ Other Warriors you control have trample.
+A:AB$ Pump | Cost$ G | NumAtt$ 2 | NumDef$ 2 | KW$ Trample | ActivationLimit$ 1 | SpellDescription$ CARDNAME gets +2/+2 and gains trample until end of turn. Activate only once each turn.
+Oracle:Other Warriors you control have trample.\n{G}: Chratteri Valiant gets +2/+2 and gains trample until end of turn. Activate only once each turn.

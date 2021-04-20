@@ -1,0 +1,8 @@
+Name:Hexfang Ascetic
+ManaCost:1 G U
+Types:Creature Human Shaman
+PT:3/1
+K:Flash
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target spell to its owner's hand.
+SVar:TrigChangeZone:DB$ ChangeZone | ValidTgts$ Card | TgtZone$ Stack | Origin$ Stack | Fizzle$ True | Destination$ Hand
+Oracle:When Hexfang Ascetic enters the battlefield, return target spell to its owner's hand.

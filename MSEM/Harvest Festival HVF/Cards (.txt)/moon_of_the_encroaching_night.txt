@@ -1,0 +1,6 @@
+Name:Moon of the Encroaching Night
+ManaCost:no cost
+Types:Land Swamp
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Scry | Cost$ 1 B T | ScryNum$ 1 | SpellDescription$ Scry 1.
+Oracle:({T}: Add {B}.)\nMoon of the Encroaching Night enters the battlefield tapped.\n{1}{B}, {T}: Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)

@@ -1,0 +1,10 @@
+Name:Calamitous Crash
+ManaCost:X R R
+Types:Sorcery
+A:SP$ DestroyAll | Cost$ X R R | ValidCards$ Artifact.cmcLEX | ValidDesc$ artifacts with converted mana cost X | RememberDestroyed$ True | SubAbility$ DBRepeatEach | SpellDescription$ Destroy all artifacts with converted mana cost X or less. Whenever an artifact is destroyed this way, CARDNAME deals 1 damage to any target.
+SVar:DBRepeatEach:DB$ RepeatEach | UseImprinted$ True | DefinedCards$ DirectRemembered | ChangeZoneTable$ True | RepeatSubAbility$ DBImmediateTrigger | SubAbility$ DBCleanup
+SVar:DBImmediateTrigger:DB$ ImmediateTrigger | Execute$ TrigDmg | TriggerDescription$ Whenever an artifact is destroyed this way, CARDNAME deals 1 damage to any target.
+SVar:TrigDmg:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 1
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$xPaid
+Oracle:Destroy all artifacts with converted mana cost X or less. Whenever an artifact is destroyed this way, CARDNAME deals 1 damage to any target.

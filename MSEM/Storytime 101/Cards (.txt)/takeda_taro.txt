@@ -1,0 +1,8 @@
+Name:Takeda Taro
+ManaCost:R R
+Types:Legendary Creature Human Warrior
+PT:2/2
+K:First Strike
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Opponent | CombatDamage$ True | Execute$ TrigDamage | TriggerDescription$ Whenever CARDNAME deals combat damage to an opponent, it deals 1 damage to each creature and planeswalker that player controls.
+SVar:TrigDamage:DB$ DamageAll | NumDmg$ 1 | ValidCards$ Creature.DefenderCtrl,Planeswalker.DefenderCtrl
+Oracle:First strike\nWhenever Takeda Taro deals combat damage to an opponent, it deals 1 damage to each creature and planeswalker that player controls.

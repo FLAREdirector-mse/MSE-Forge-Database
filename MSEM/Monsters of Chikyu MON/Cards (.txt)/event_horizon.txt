@@ -1,0 +1,6 @@
+Name:Event Horizon
+ManaCost:1 W
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 W | ValidTgts$ Permanent.nonLand | AILogic$ Permanent.nonLand+cmcLEX | TgtPrompt$ Select target permanent | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target nonland permanent if its converted mana cost is less than or equal to the number of nonland permanents on the battlefield.
+SVar:X:Count$Valid Permanent.nonLand
+Oracle:Exile target nonland permanent if its converted mana cost is less than or equal to the number of nonland permanents on the battlefield.

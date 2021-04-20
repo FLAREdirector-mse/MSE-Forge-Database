@@ -1,0 +1,11 @@
+Name:Greenwood Outskirter
+ManaCost:3 G G
+Types:Creature Elf Archer
+PT:3/3
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigPump | TriggerDescription$ When CARDNAME enters the battlefield, creatures you control gain trample and get +X/+X until end of turn, where X is the number of storied permanents you control.
+SVar:TrigPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Trample | NumAtt$ X | NumDef$ X
+SVar:X:Count$Valid Enchantment.YouCtrl,Card.Legendary+YouCtrl
+SVar:BuffedBy:Enchantment,Permanent.Legendary
+DeckHints:Type$Enchantment|Legendary
+Oracle:Haste\nWhen Greenwood Outrider enters the battlefield, creatures you control gain trample and get +X/+X until end of turn, where X is the number of storied permanents you control.

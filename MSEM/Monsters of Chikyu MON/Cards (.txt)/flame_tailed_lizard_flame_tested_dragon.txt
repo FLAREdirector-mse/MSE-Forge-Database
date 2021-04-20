@@ -1,0 +1,28 @@
+Name:Flame-Tailed Lizard
+ManaCost:R R
+Types:Creature Lizard
+PT:2/2
+T:Mode$ Attacks | ValidCard$ Card.Self | TriggerZones$ Battlefield | IsPresent$ Card.Self+counters_LE2_P1P1 | Execute$ TrigPutCounter | TriggerDescription$ Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ Self | CounterType$ P1P1 | CounterNum$ 1
+T:Mode$ Always | IsPresent$ Card.Self+counters_GE3_P1P1 | TriggerZones$ Battlefield | Execute$ TrigRemove | TriggerDescription$ When CARDNAME has three or more +1/+1 counters on it, remove them all and transform it.
+SVar:TrigRemove:DB$ RemoveCounter | CounterType$ P1P1 | CounterNum$ All | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
+AlternateMode:DoubleFaced
+DeckHas:Ability$Counters
+SVar:HasAttackEffect:TRUE
+Oracle:Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Flame-Tailed Lizard has three or more +1/+1 counters on it, remove them all and transform it.
+
+ALTERNATE
+
+Name:Flame-Tested Dragon
+ManaCost:no cost
+Colors:red
+Types:Creature Dragon
+PT:6/5
+K:Flying
+K:First Strike
+T:Mode$ Transformed | ValidCard$ Card.Self | Execute$ TrigDamage | TriggerDescription$ Whenever this creature transforms into CARDNAME or attacks, it deals 1 damage to each creature you don't control.
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigDamage | Secondary$ True | TriggerDescription$ Whenever this creature transforms into CARDNAME or attacks, it deals 1 damage to each creature you don't control.
+SVar:TrigDamage:DB$ DamageAll | ValidCards$ Creature.YouDontCtrl | NumDmg$ 1
+Oracle:Flying, first strike\nWhenever this creature transforms into Flame-Tested Dragon or attacks, it deals 1 damage to each creature you don't control.
+

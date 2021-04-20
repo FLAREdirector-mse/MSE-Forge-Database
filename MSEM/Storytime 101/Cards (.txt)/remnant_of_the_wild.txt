@@ -1,0 +1,8 @@
+Name:Remnant of the Wild
+ManaCost:4 G G
+Types:Creature Avatar
+PT:6/6
+K:Trample
+T:Mode$ ChangesZone | ValidCard$ Card.wasCast+Self | Destination$ Battlefield | Execute$ TrigUntap | TriggerDescription$ When CARDNAME enters the battlefield, if you cast it, untap all lands you control.
+SVar:TrigUntap:DB$ UntapAll | ValidCards$ Land.YouCtrl
+Oracle:Trample\nWhen Remnant of the Wild enters the battlefield, if you cast it, untap all lands you control.

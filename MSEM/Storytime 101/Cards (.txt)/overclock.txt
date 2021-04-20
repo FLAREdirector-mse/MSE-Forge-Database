@@ -1,0 +1,9 @@
+Name:Overclock
+ManaCost:2 R R
+Types:Enchantment
+T:Mode$ SpellCast | ValidCard$ Instant,Sorcery | ValidActivatingPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigCopy | TriggerDescription$ Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy. CARDNAME deals X damage to you, where X is the number of spells you've cast this turn.
+SVar:TrigCopy:DB$ CopySpellAbility | Defined$ TriggeredSpellAbility | MayChooseTarget$ True | SubAbility$ DBDmg
+SVar:DBDmg:DB$ DealDamage | Defined$ You | NumDmg$ X
+SVar:X:Count$ThisTurnCast_Card.YouCtrl
+DeckNeeds:Type$Instant|Sorcery
+Oracle:Whenever you cast an instant or sorcery spell, copy it. You may choose new targets for the copy. Overclock deals X damage to you, where X is the number of spells you've cast this turn.

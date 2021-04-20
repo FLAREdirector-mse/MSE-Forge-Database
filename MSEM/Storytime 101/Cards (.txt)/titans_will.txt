@@ -1,0 +1,6 @@
+Name:Titan's Will
+ManaCost:3 W W
+Types:Enchantment
+S:Mode$ Continuous | Affected$ Creature.nonEnchantment+nonLegendary | SetPower$ 1 | SetToughness$ 1 | RemoveAllAbilities$ True | Description$ Nonstoried creatures lose all abilities and have base power and toughness 1/1.
+AI:RemoveDeck:Random
+Oracle:Nonstoried creatures lose all abilities and have base power and toughness 1/1.

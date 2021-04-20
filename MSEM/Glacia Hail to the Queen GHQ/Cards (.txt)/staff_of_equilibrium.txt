@@ -1,0 +1,8 @@
+Name:Staff of Equilibrium
+ManaCost:2
+Types:Artifact Equipment
+K:Equip:1
+T:Mode$ DamageDone | ValidSource$ Creature.EquippedBy | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPutCounter | TriggerDescription$ Whenever equipped creature deals combat damage to a player, put two balance counters on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ Balance | CounterNum$ 2
+A:AB$ DealDamage | Cost$ SubCounter<1/Balance> | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 1 | SpellDescription$ CARDNAME deals 1 damage to any target.
+Oracle:Whenever equipped creature deals combat damage to a player, put two balance counters on Staff of Equilibrium.\nRemove a balance counter from Staff of Equilibrium: Staff of Equilibrium deals 1 damage to any target.\nEquip {1}

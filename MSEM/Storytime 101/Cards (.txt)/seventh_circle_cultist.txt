@@ -1,0 +1,8 @@
+Name:Seventh Circle Cultist
+ManaCost:1 B
+Types:Creature Human Wizard
+PT:2/1
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigChangeZone | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, you may pay {B}. If you do, return a Wizard card from your graveyard to your hand.
+SVar:TrigChangeZone:AB$ ChangeZone | Cost$ B | Origin$ Graveyard | Destination$ Hand | Hidden$ True | ChangeType$ Wizard.YouCtrl | ChangeNum$ 1
+DeckHints:Type$Wizard
+Oracle:At the beginning of your upkeep, you may pay {B}. If you do, return a Wizard card from your graveyard to your hand.

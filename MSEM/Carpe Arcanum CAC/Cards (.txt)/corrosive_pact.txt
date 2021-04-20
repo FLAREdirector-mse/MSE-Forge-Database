@@ -1,0 +1,11 @@
+Name:Corrosive Pact
+ManaCost:2 B B
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigCharm | TriggerDescription$ At the beginning of your upkeep, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ Lose1,Draw2,Tutor
+SVar:Lose1:DB$ LoseLife | LifeAmount$ 1 | SpellDescription$ You lose 1 life.
+SVar:Lose3:DB$ LoseLife | LifeAmount$ 3
+SVar:Lose5:DB$ LoseLife | LifeAmount$ 5
+SVar:Draw2:DB$ Draw | NumCards$ 2 | SubAbility$ Lose3 | SpellDescription$ You draw two cards and you lose 3 life.
+SVar:Tutor:DB$ ChangeZone | Origin$ Library | Destination$ Hand | ChangeType$ Card | ChangeNum$ 1 | Mandatory$ True | SubAbility$ Lose5 | SpellDescription$ Search your library for a card, put it into your hand, then shuffle your library. You lose 5 life.
+Oracle:At the beginning of your upkeep, choose one —\n• You lose 1 life.\n• You draw two cards and you lose 3 life.\n• Search your library for a card, put it into your hand, then shuffle your library. You lose 5 life.

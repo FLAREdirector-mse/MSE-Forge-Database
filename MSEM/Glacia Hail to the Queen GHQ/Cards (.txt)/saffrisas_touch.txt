@@ -1,0 +1,10 @@
+Name:Saffrisa's Touch
+ManaCost:3 B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Creature | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigLoseLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature dies, each opponent loses 1 life and you gain 1 life.
+SVar:TrigLoseLife:DB$ LoseLife | Defined$ Player.Opponent | LifeAmount$ 1 | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 1
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | CheckSVar$ X | SVarCompare$ GE4 | Execute$ TrigChangeZone | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your end step, if you gained 4 or more life this turn, you may sacrifice CARDNAME. If you do, return target creature card from your graveyard to the battlefield.
+SVar:TrigChangeZone:AB$ ChangeZone | Cost$ Sac<1/CARDNAME> | ValidTgts$ Creature.YouOwn | TgtPrompt$ Select target creature card in your graveyard | Origin$ Graveyard | Destination$ Battlefield
+DeckHas:Ability$LifeGain
+Oracle:Whenever a creature dies, each opponent loses 1 life and you gain 1 life.\nAt the beginning of your end step, if you gained 4 or more life this turn, you may sacrifice Saffrisa's Touch. If you do, return target creature card from your graveyard to the battlefield.

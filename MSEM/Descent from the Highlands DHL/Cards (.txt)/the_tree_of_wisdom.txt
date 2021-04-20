@@ -1,0 +1,9 @@
+Name:The Tree of Wisdom
+ManaCost:4 U U U
+Types:Legendary Creature Plant
+PT:0/13
+K:Defender
+S:Mode$ Continuous | Affected$ You | SetMaxHandSize$ 13 | Description$ Your maximum hand size is thirteen.
+A:AB$ Draw | Cost$ T | NumCards$ X | References$ X | SorcerySpeed$ True | SpellDescription$ If you have fewer than thirteen cards in hand, draw cards equal to the difference. Activate this ability only any time you could cast a sorcery.
+SVar:X:Count$InYourHand/NMinus.13
+Oracle:Defender\nYour maximum hand size is thirteen.\n{T}: If you have fewer than thirteen cards in hand, draw cards equal to the difference. Activate this ability only any time you could cast a sorcery.

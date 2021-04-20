@@ -1,0 +1,9 @@
+Name:Cradle of Corruption
+ManaCost:no cost
+Types:Legendary Land Swamp
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ ChangesZone | ValidCard$ Creature | Origin$ Battlefield | Destination$ Graveyard | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever a creature dies, put a creation counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ Creation | CounterNum$ 1
+A:AB$ ChangeZoneAll | Cost$ T SubCounter<10/Creation> Sac<1/CARDNAME> | ValidTgts$ Player | TgtPrompt$ Select target player | ChangeType$ Creature | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | SpellDescription$ Put all creature cards from target player's graveyard onto the battlefield under your control.
+Oracle:({T}: Add {B}.)\nCradle of Corruption enters the battlefield tapped.\nWhenever a creature dies, put a creation counter on Cradle of Corruption.\n{T}, Remove ten creation counters from Cradle of Corruption and sacrifice it: Put all creature cards from target player's graveyard onto the battlefield under your control.
+

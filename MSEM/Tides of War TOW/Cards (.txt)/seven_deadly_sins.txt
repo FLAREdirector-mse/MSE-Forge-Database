@@ -1,0 +1,8 @@
+Name:Seven Deadly Sins
+ManaCost:1 B B
+Types:Enchantment
+T:Mode$ Always | IsPresent$ Card.Self+counters_GE7_Sin | Execute$ TrigSac | TriggerDescription$ When CARDNAME has seven or more sin counters on it, sacrifice it.
+SVar:TrigSac:DB$ Sacrifice | Defined$ Self
+A:AB$ Destroy | Cost$ B B AddCounter<1/Sin> | RaiseCost$ X | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature. This ability costs {1} more to activate for each sin counter on CARDNAME.
+SVar:X:Count$CardCounters.Sin
+Oracle:When Seven Deadly Sins has seven or more sin counters on it, sacrifice it.\n{B}{B}, Put a sin counter on Seven Deadly Sins: Destroy target creature. This ability costs {1} more to activate for each sin counter on Seven Deadly Sins.

@@ -1,0 +1,11 @@
+Name:Jonah of the Spellbane
+ManaCost:3 B B
+Types:Legendary Creature Human Assassin
+PT:3/2
+K:Lifelink
+K:Menace
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigDestroy | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, destroy target creature or planeswalker, then scry 1.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | SubAbility$ DBScry
+SVar:DBScry:DB$ Scry | ScryNum$ 1
+SVar:MustBeBlocked:True
+Oracle:Lifelink, menace\nWhenever Jonah of the Spellbane deals combat damage to a player, destroy target creature or planeswalker, then scry 1.

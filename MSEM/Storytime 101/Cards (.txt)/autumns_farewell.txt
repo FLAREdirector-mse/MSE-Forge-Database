@@ -1,0 +1,7 @@
+Name:Autumn's Farewell
+ManaCost:1 W
+Types:Sorcery
+A:SP$ Pump | Cost$ 1 W | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | AILogic$ Curse | SubAbility$ DBSacrifice | RememberTargets$ True | SpellDescription$ Choose target creature or planeswalker. Its controller may exile it. If that player doesn't, they sacrifice all other creatures and planeswalkers they control.
+SVar:DBSacrifice:DB$ SacrificeAll | Controller$ TargetedController | ValidCards$ Creature.IsNotRemembered,Planeswalker.IsNotRemembered | UnlessCost$ Exile<1/Card.IsRemembered/the chosen creature> | UnlessPayer$ TargetedController | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Choose target creature or planeswalker. Its controller may exile it. If that player doesn't, they sacrifice all other creatures and planeswalkers they control.

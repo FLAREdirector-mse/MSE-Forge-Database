@@ -1,0 +1,12 @@
+Name:Turela, Defiant Angel
+ManaCost:2 W W
+Types:Legendary Creature Angel
+PT:4/4
+K:Flash
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZoneAll | TriggerDescription$ When CARDNAME enters the battlefield, exile all other creatures you control. Return them to the battlefield under their owner's control at the beginning of the next end step.
+SVar:TrigChangeZoneAll:DB$ ChangeZoneAll | Origin$ Battlefield | Destination$ Exile | ChangeType$ Creature.Other+YouCtrl | RememberChanged$ True | SubAbility$ DBDelayedTrigger
+SVar:DBDelayedTrigger:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | Execute$ TrigReturn | RememberObjects$ Remembered | SubAbility$ DBCleanup | TriggerDescription$ Return those cards to the battlefield under their owners' control at the beginning of the next end step.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:TrigReturn:DB$ ChangeZoneAll | ValidCards$ DelayTriggerRemembered | Origin$ Exile | Destination$ Battlefield
+Oracle:Flash\nFlying\nWhen Turela, Defiant Angel enters the battlefield, exile all other creatures you control. Return them to the battlefield under their owner's control at the beginning of the next end step.

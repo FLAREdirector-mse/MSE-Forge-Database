@@ -2,5 +2,5 @@ Name:Arcor Diamond
 ManaCost:2
 Types:Artifact
 A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ Draw | Cost$ 1 T Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
-Oracle:{T}: Add {C}.\n{1}, {T}, Sacrifice Arcor Diamond: Draw a card.
+A:AB$ Draw | Cost$ 2 T Sac<1/CARDNAME> | NumCards$ 1 | SpellDescription$ Draw a card.
+Oracle:{T}: Add {C}.\n{2}, {T}, Sacrifice Arcor Diamond: Draw a card.

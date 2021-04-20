@@ -1,0 +1,5 @@
+Name:Fair Trial
+ManaCost:1 B
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 1 B | ValidTgts$ Creature.cmcLE4,Planeswalker.cmcLE4 | TgtPrompt$ Select target creature or planeswalker with CMC 4 or less | Origin$ Battlefield | Destination$ Exile | Oracle$ Exile target creature or planeswalker with converted mana cost 4 or less.
+Oracle:Exile target creature or planeswalker with converted mana cost 4 or less.

@@ -1,0 +1,7 @@
+Name:Captain Mattias Ochre
+ManaCost:2 R
+Types:Legendary Creature Human Soldier
+PT:2/2
+S:Mode$ Continuous | Affected$ Creature.YouCtrl | AddKeyword$ Haste | AddHiddenKeyword$ CARDNAME attacks each combat if able. | Description$ Creatures you control have haste and attack each combat if able.
+S:Mode$ Continuous | Affected$ Soldier.attacking+YouCtrl | AddPower$ 1 | Description$ Attacking Soldiers you control get +1/+0.
+Oracle:Creatures you control have haste and attack each combat if able.\nAttacking Soldiers you control get +1/+0.

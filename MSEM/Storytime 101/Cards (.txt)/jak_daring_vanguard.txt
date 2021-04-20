@@ -1,0 +1,7 @@
+Name:Jak, Daring Vanguard
+ManaCost:R R
+Types:Legendary Creature Human Soldier
+PT:1/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self,Creature.Other+Legendary+YouCtrl | Destination$ Battlefield | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME or another legendary creature enters the battlefield under your control, creatures you control get +1/+0 and gain haste until end of turn.
+SVar:TrigPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | NumAtt$ 1 | KW$ Haste
+Oracle:Whenever Jak, Daring Vanguard or another legendary creature enters the battlefield under your control, creatures you control get +1/+0 and gain haste until end of turn.

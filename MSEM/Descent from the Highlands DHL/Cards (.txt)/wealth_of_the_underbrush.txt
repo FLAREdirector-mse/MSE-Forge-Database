@@ -1,0 +1,7 @@
+Name:Wealth of the Underbrush
+ManaCost:B G
+Types:Sorcery
+A:SP$ Mill | Cost$ B G | Defined$ You | NumCards$ 5 | SubAbility$ DBChangeZone | SpellDescription$ Mill five cards, then return up to one permanent card from your graveyard to your hand.
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | Hidden$ True | ChangeType$ Permanent.YouCtrl | ChangeNum$ 1 | StackDescription$ {p:You} returns 1 permanent card from graveyard to hand.
+Oracle:Mill five cards, then return up to one permanent card from your graveyard to your hand.
+

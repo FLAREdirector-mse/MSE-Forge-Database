@@ -1,0 +1,7 @@
+Name:Rujan, the Great Pumpkin
+ManaCost:4 G G G
+Types:Legendary Creature Plant
+PT:7/7
+K:Trample
+S:Mode$ CantBeActivated | Activator$ Player | ValidCard$ Permanent.nonCreature+nonBasic | AffectedZone$ Battlefield | Description$ Players can't activate abilities of nonbasic, noncreature permanents.
+Oracle:Trample\nPlayers can't activate abilities of nonbasic, noncreature permanents.

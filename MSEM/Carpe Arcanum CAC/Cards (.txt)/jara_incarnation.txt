@@ -1,0 +1,7 @@
+Name:Jara Incarnation
+ManaCost:5 G G G
+Types:Creature Elemental
+PT:8/8
+K:Trample
+S:Mode$ Continuous | Affected$ Creature.Other | SetPower$ 1 | SetToughness$ 1 | Description$ Other creatures you control have base power and toughness 8/8.
+Oracle:Trample\nOther creatures you control have base power and toughness 8/8.

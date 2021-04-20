@@ -1,0 +1,7 @@
+Name:Brave the Issbarrens
+ManaCost:2 W W
+Types:Enchantment
+K:ETBReplacement:Other:ChooseColor
+SVar:ChooseColor:DB$ ChooseColor | Defined$ You | AILogic$ MostProminentInHumanDeck | SpellDescription$ As CARDNAME enters the battlefield, choose a color.
+S:Mode$ Continuous | Affected$ Creature.White+YouCtrl | AddKeyword$ Protection:Card.ChosenColor:Protection from chosenColor:Card.CardUID_HostCardUID | Description$ White creatures you control have protection from the chosen color.
+Oracle:As Brave the Issbarrens enters the battlefield, choose a color.\nWhite creatures you control have protection from the chosen color.

@@ -1,0 +1,5 @@
+Name:Epic Score
+ManaCost:2 R R
+Types:Sorcery
+A:SP$ CopyPermanent | Cost$ 2 R R | ValidTgts$ Artifact.nonCreature | TgtZone$ Battlefield,Graveyard | TgtPrompt$ Select target noncreature artifact or noncreature artifact card in a graveyard | NumCopies$ 2 | SpellDescription$ Create two tokens that are copies of target noncreature artifact or noncreature artifact card in a graveyard.
+Oracle:Create two tokens that are copies of target noncreature artifact or noncreature artifact card in a graveyard.

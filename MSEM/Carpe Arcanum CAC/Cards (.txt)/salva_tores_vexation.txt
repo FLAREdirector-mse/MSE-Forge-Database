@@ -1,0 +1,7 @@
+Name:Salva Tore's Vexation
+ManaCost:1 B B
+Types:Instant
+A:SP$ DealDamage | Cost$ 1 B B | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | NumDmg$ X | References$ X | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals X damage to target creature or planeswalker, where X is that permanent's converted mana cost. You gain X life.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ X | References$ X
+SVar:X:Targeted$CardManaCost
+Oracle:Salva Tore's Vexation deals X damage to target creature or planeswalker, where X is that permanent's converted mana cost. You gain X life.

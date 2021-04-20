@@ -1,0 +1,8 @@
+Name:Muggy Mire
+ManaCost:no cost
+Types:Land Island Swamp
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | ConditionCheckSVar$ X | ConditionSVarCompare$ LT2 | SpellDescription$ CARDNAME enters the battlefield tapped unless you control two or more basic lands.
+SVar:X:Count$LastStateBattlefield Land.Basic+YouCtrl
+Oracle:({T}: Add {U} or {B}.)\nMuggy Mire enters the battlefield tapped unless you control two or more basic lands.
+

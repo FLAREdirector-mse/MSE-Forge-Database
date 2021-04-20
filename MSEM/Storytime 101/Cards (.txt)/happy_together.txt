@@ -1,0 +1,9 @@
+Name:Happy Together
+ManaCost:2 W W
+Types:Enchantment
+S:Mode$ ReduceCost | ValidCard$ Planeswalker | Type$ Spell | Activator$ You | Amount$ X | Description$ Planeswalker spells you cast cost {1} less to cast for each storied permanent you control.
+SVar:X:Count$Valid Enchantment.YouCtrl/Plus.Y
+SVar:Y:Count$Valid Card.Legendary+YouCtrl
+DeckNeeds:Type$Planeswalker
+DeckHints:Type$Enchantment|Legendary
+Oracle:Planeswalker spells you cast cost {1} less to cast for each storied permanent you control.

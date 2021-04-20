@@ -1,0 +1,8 @@
+Name:Trace the Leylines
+ManaCost:2 G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 2 G | Origin$ Library | Destination$ Battlefield | ChangeType$ Land | ChangeNum$ 1 | Tapped$ True | RememberChanged$ True | SubAbility$ DBUntap | SpellDescription$ Search your library for a land card, put it onto the battlefield tapped, then shuffle your library.
+SVar:DBUntap:DB$ Untap | Defined$ Remembered | ConditionCheckSVar$ X | ConditionSVarCompare$ GE2 | References$ X | SubAbility$ DBCleanup | SpellDescription$ Spell mastery — If there are two or more instant and/or sorcery cards in your graveyard, untap that land.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$ValidGraveyard Instant.YouOwn,Sorcery.YouOwn
+Oracle:Search your library for a land card, put it onto the battlefield tapped, then shuffle your library.\nSpell mastery — If there are two or more instant and/or sorcery cards in your graveyard, untap that land.

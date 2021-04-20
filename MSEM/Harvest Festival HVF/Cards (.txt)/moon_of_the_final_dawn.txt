@@ -1,0 +1,6 @@
+Name:Moon of the Final Dawn
+ManaCost:no cost
+Types:Land Plains
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Scry | Cost$ 1 W T | ScryNum$ 1 | SpellDescription$ Scry 1.
+Oracle:({T}: Add {W}.)\nMoon of the Final Dawn enters the battlefield tapped.\n{1}{W}, {T}: Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)

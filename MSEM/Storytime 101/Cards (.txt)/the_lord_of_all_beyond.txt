@@ -1,0 +1,9 @@
+Name:The Lord of All Beyond
+ManaCost:5 B B B
+Types:Legendary Creature Horror
+PT:7/8
+S:Mode$ Continuous | Affected$ Card.nonToken | AddKeyword$ Alternative Cost:Discard<1/Card.SharesColorWith/color sharing> | AffectedZone$ Hand,Graveyard,Exile,Library,Command | Description$ Rather than pay the mana cost for a spell, its controller may discard a card that shares a color with that spell.
+T:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ Opponent | Execute$ TrigCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever an opponent casts a spell, counter that spell unless they pay 5 life.
+SVar:TrigCounter:DB$ Counter | Defined$ TriggeredSpellAbility | UnlessCost$ PayLife<5> | UnlessPayer$ TriggeredActivator
+SVar:AllowFreeCast:Discard
+Oracle:Rather than pay the mana cost for a spell, its controller may discard a card that shares a color with that spell.\nWhenever an opponent casts a spell, counter that spell unless they pay 5 life.
