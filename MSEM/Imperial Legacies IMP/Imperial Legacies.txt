@@ -41,7 +41,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 29 C Hinasa Mystic
 30 C Imperial Taxes
 31 C Inner Thoughts
-32 C Jiangshi Serpent
+32 C Jidai Serpent
 33 R Kowareta Scrounger
 34 M Lord Shigure
 35 R Masked Impersonator

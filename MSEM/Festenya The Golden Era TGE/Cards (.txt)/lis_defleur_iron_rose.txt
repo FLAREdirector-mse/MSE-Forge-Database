@@ -1,9 +1,0 @@
-Name:Lis deFleur, Iron Rose
-ManaCost:2 W W
-Types:Legendary Creature Human Soldier
-PT:3/2
-K:First Strike
-K:Vigilance
-A:AB$ Pump | Cost$ W W | ValidTgts$ Permanent.nonLand+OppCtrl | IsPresent$ Card.Self+attacking | TgtPrompt$ Select target nonland permanent your opponent controls to detain. | KW$ HIDDEN CARDNAME can't attack or block. & HIDDEN CARDNAME's activated abilities can't be activated. | IsCurse$ True | UntilYourNextTurn$ True | AILogic$ DetainNonLand | SpellDescription$ Until your next turn, target permanent can't attack or block and its activated abilities can't be activated. Activate this ability only if Lis deFleur is attacking.
-SVar:Picture:http://msem-instigator.herokuapp.com/cards/TGE/26.jpg
-Oracle:First strike, vigilance\n{W}{W}: Until your next turn, target permanent can't attack or block and its activated abilities can't be activated. Activate this ability only if Lis deFleur is attacking.

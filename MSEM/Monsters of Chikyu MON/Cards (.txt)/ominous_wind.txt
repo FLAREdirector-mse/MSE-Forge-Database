@@ -1,0 +1,7 @@
+Name:Ominous Wind
+ManaCost:1 B
+Types:Instant
+A:SP$ Pump | Cost$ 1 B | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SpellDescription$ Target creature gets -2/-2 until end of turn.
+A:AB$ PumpAll | Cost$ 3 B B ExileFromGrave<1/CARDNAME> | ValidCards$ Creature | NumAtt$ -2 | NumDef$ -2 | IsCurse$ True | SorcerySpeed$ True | SpellDescription$ Each creature gets -2/-2 until end of turn. Activate only as a sorcery.
+Oracle:Target creature gets -2/-2 until end of turn.\n{3}{B}{B}, Exile Ominous Wind from your graveyard: Each creature gets -2/-2 until end of turn. Activate only as a sorcery.
+

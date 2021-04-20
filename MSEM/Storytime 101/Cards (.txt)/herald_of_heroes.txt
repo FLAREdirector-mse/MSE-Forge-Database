@@ -1,0 +1,7 @@
+Name:Herald of Heroes
+ManaCost:W W
+Types:Creature Human Soldier
+PT:2/2
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigDig | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, reveal the top five cards of your library. You may put a creature card with power 2 or less from among them into your hand. Put the rest on the bottom of your library in any order.
+SVar:TrigDig:DB$ Dig | DigNum$ 5 | ChangeValid$ Creature.powerLE2 | ChangeNum$ 1 | Optional$ True
+Oracle:Whenever Herald of Heroes deals combat damage to a player, reveal the top five cards of your library. You may put a creature card with power 2 or less from among them into your hand. Put the rest on the bottom of your library in any order.

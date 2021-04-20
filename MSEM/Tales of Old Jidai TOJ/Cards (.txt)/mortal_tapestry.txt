@@ -1,0 +1,9 @@
+Name:Mortal Tapestry
+ManaCost:3 G
+Types:Creature Human Monk
+PT:2/2
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | AddToughness$ X | Description$ CARDNAME gets +1/+1 for each land card in your graveyard.
+A:AB$ CopyPermanent | Cost$ 4 G ExileFromGrave<1/CARDNAME> | PrecostDesc$ Revive | CostDesc$ {4}{G} | ActivationZone$ Graveyard | RemoveCost$ True | SpellDescription$ ({4}{G}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
+SVar:X:Count$TypeInYourYard.Land
+DeckHas:Ability$Token
+Oracle:Mortal Tapestry gets +1/+1 for each land card in your graveyard.\nRevive {4}{G} ({4}{G}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)

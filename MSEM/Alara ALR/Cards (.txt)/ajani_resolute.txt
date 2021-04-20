@@ -1,0 +1,14 @@
+Name:Ajani Resolute
+ManaCost:2 G W
+Types:Legendary Planeswalker Ajani
+Loyalty:4
+A:AB$ PutCounter | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature | TargetMin$ 0 | TargetMax$ 2 | CounterType$ P1P1 | CounterNum$ 2 | DividedAsYouChoose$ 2 | SubAbility$ DBGainLife | SpellDescription$ Distribute two +1/+1 counters among up to two target creatures. You gain 2 life.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 2
+A:AB$ Token | Cost$ SubCounter<1/LOYALTY> | Planeswalker$ True | TokenScript$ g_2_2_cat_warrior | TokenAmount$ 1 | SpellDescription$ Create a 2/2 green Cat Warrior creature token.
+A:AB$ ChangeZone | Cost$ SubCounter<3/LOYALTY> | Planeswalker$ True | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Creature | SubAbility$ DBChange | RememberLKI$ True | SpellDescription$ Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.
+SVar:DBChange:DB$ ChangeZone | Optional$ True | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ 1 | DefinedPlayer$ RememberedController | ShuffleNonMandatory$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+A:AB$ Effect | Cost$ SubCounter<7/LOYALTY> | Planeswalker$ True | Ultimate$ True | Name$ Emblem - Ajani Resolute | StaticAbilities$ AjaniEmblem | SVars$ X | Duration$ Permanent | AILogic$ Always | SpellDescription$ You get an emblem with "Creatures you control get +X/+X, where X is your life total."
+SVar:AjaniEmblem:Mode$ Continuous | EffectZone$ Command | Affected$ Creature.YouCtrl | AffectedZone$ Battlefield | AddPower$ X | AddToughness$ X | References$ X | Description$ Creatures you control get +X/+X, where X is your life total.
+SVar:X:Count$YourLifeTotal
+Oracle:[+1]: Distribute two +1/+1 counters among up to two target creatures. You gain 2 life.\n[-1]: Create a 2/2 green Cat Warrior creature token.\n[-3]: Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle their library.\n[-7]: You get an emblem with "Creatures you control get +X/+X, where X is your life total."

@@ -8,6 +8,7 @@ T:Mode$ Always | IsPresent$ Card.Self+counters_GE3_P1P1 | TriggerZones$ Battlefi
 SVar:TrigRemove:DB$ RemoveCounter | CounterType$ P1P1 | CounterNum$ All | SubAbility$ DBTransform
 SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
 AlternateMode:DoubleFaced
+SVar:HasAttackEffect:TRUE
 Oracle:Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Worried Vulpine has three or more +1/+1 counters on it, remove them all and transform it.
 
 ALTERNATE
@@ -18,6 +19,6 @@ Colors:red
 Types:Creature Fox
 PT:5/5
 T:Mode$ Transformed | ValidCard$ Card.Self | Execute$ TrigPump | TriggerDescription$ When this permanent transforms into CARDNAME or at the beginning of combat on your turn, creatures you control gain haste and trample until end of turn.
-T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ True | Execute$ TrigPump | Secondary$ True | TriggerDescription$ When this permanent transforms into CARDNAME or at the beginning of combat on your turn, creatures you control gain haste and trample until end of turn.
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | Execute$ TrigPump | Secondary$ True | TriggerDescription$ When this permanent transforms into CARDNAME or at the beginning of combat on your turn, creatures you control gain haste and trample until end of turn.
 SVar:TrigPump:DB$ PumpAll | ValidCards$ Creature.YouCtrl | KW$ Hase & Trample
 Oracle:When this permanent transforms into Worthy Vulpine or at the beginning of combat on your turn, creatures you control gain haste and trample until end of turn.

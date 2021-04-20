@@ -1,6 +1,0 @@
-Name:Encroaching Seasons
-ManaCost:no cost
-Types:Land
-A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
-A:AB$ Destroy | Cost$ T Sac<1/CARDNAME> | ValidTgts$ Land.Snow | TgtPrompt$ Select target snow land | AILogic$ LandForLand | SpellDescription$ Destroy target snow land.
-Oracle:{T}: Add {C}.\n{2}, {T}, Sacrifice Encroaching Seasons: Destroy target snow land.

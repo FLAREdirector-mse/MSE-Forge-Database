@@ -1,0 +1,6 @@
+Name:Face the Dawn
+ManaCost:3 W B
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 2 | EffectZone$ All | CheckDefinedPlayer$ You.LessThanHalfStartingLifeTotal | Description$ This spell costs {2} less to cast if your life total is less than half your starting life total.
+A:SP$ DestroyAll | Cost$ 3 W B | ValidCards$ Creature | SpellDescription$ Destroy all creatures.
+Oracle:This spell costs {2} less to cast if your life total is less than half your starting life total.\nDestroy all creatures.

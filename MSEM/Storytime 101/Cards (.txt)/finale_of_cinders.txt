@@ -1,0 +1,10 @@
+Name:Finale of Cinders
+ManaCost:2 R
+Types:Sorcery
+A:SP$ DealDamage | Cost$ 2 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2 | SubAbility$ DBRepeat | SpellDescription$ CARDNAME deals 2 damage to any target. For each instant or sorcery card in your graveyard, you may pay {R}. Whenever you do, CARDNAME deals 2 damage to any target.
+SVar:DBRepeat:DB$ Repeat | RepeatSubAbility$ DBTrigger | MaxRepeat$ X | StackDescription$ For each card in {p:You}'s graveyard, they may pay R. Whenever they do, CARDNAME deals 2 damage to any target.
+SVar:DBTrigger:DB$ ImmediateTrigger | Execute$ TrigDmg | UnlessCost$ R | UnlessPayer$ You | UnlessSwitched$ True | TriggerDescription$ Whenever you pay {R}, CARDNAME deals 2 damage to any target.
+SVar:TrigDmg:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 2
+SVar:X:Count$ValidGraveyard Instant.YouCtrl,Sorcery.YouCtrl
+DeckHints:Type$Instant|Sorcery
+Oracle:Finale of Cinders deals 2 damage to any target. For each instant or sorcery card in your graveyard, you may pay {R}. Whenever you do, Finale of Cinders deals 2 damage to any target.

@@ -1,0 +1,8 @@
+Name:Hunter's Hideout
+ManaCost:1 G G
+Types:Enchantment
+A:AB$ Destroy | Cost$ 1 G G Discard<1/Card> | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | SpellDescription$ Destroy target artifact or enchantment.
+T:Mode$ Phase | Phase$ End of Turn | ValidPlayer$ You | CheckSVar$ X | SVarCompare$ GE12 | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your end step, if there are twelve or more cards in your graveyard, create two 3/3 green Beast creature tokens.
+SVar:TrigToken:DB$ Token | TokenScript$ g_3_3_beast | TokenAmount$ 2
+SVar:X:Count$InYourYard
+Oracle:{1}{G}{G}, Discard a card: Destroy target artifact or enchantment.\nAt the beginning of your end step, if there are twelve or more cards in your graveyard, create two 3/3 green Beast creature tokens.

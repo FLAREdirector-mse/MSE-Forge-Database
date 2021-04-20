@@ -1,0 +1,10 @@
+Name:Ema, the Traveler
+ManaCost:U R W
+Types:Legendary Creature Human
+PT:2/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters the battlefield, reveal the top five cards of your library. Put any number of legendary cards revealed this way into your hand and the rest on the bottom of your library in any order.
+SVar:TrigDig:DB$ Dig | DigNum$ 5 | Reveal$ True | AnyNumber$ True | ChangeValid$ Card.Legendary | DestinationZone$ Hand | DestinationZone2$ Library | LibraryPosition2$ -1
+A:AB$ Pump | Cost$ 2 B | ValidTgts$ Permanent.Legendary+Other | TgtPrompt$ Select another target legendary permanent | KW$ Indestructible | SpellDescription$ Another target legendary permanent gains indestructible until end of turn.
+DeckNeeds:Type$Legendary
+Oracle:When Ema, the Traveler enters the battlefield, reveal the top five cards of your library. Put any number of legendary cards revealed this way into your hand and the rest on the bottom of your library in any order.\n{2}{B}: Another target legendary permanent gains indestructible until end of turn.
+

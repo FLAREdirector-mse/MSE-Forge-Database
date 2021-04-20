@@ -1,0 +1,6 @@
+Name:Moon of the Promised Day
+ManaCost:no cost
+Types:Land Forest
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Scry | Cost$ 1 G T | ScryNum$ 1 | SpellDescription$ Scry 1.
+Oracle:({T}: Add {G}.)\nMoon of the Promised Day enters the battlefield tapped.\n{1}{G}, {T}: Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)

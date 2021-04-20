@@ -8,6 +8,7 @@ T:Mode$ Always | IsPresent$ Card.Self+counters_GE3_P1P1 | TriggerZones$ Battlefi
 SVar:TrigRemove:DB$ RemoveCounter | CounterType$ P1P1 | CounterNum$ All | SubAbility$ DBTransform
 SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
 AlternateMode:DoubleFaced
+SVar:HasAttackEffect:TRUE
 Oracle:Experience (Whenever this creature attacks, if it has fewer than three +1/+1 counters on it, put a +1/+1 counter on it.)\nWhen Eager Hatchling has three or more +1/+1 counters on it, remove them all and transform it.
 
 ALTERNATE

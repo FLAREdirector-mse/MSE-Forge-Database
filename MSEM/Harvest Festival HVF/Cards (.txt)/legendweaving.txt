@@ -1,0 +1,7 @@
+Name:Legendweaving
+ManaCost:X W W
+Types:Instant
+A:SP$ ChangeZone | Cost$ XCantBe0 X W W | Origin$ Library | OriginChoice$ True | OriginAlternative$ Graveyard | AlternativeMessage$ Would you like to search your library with this ability? If you do, your library will be shuffled. | Destination$ Battlefield | ChangeType$ Enchantment.cmcEQX | ChangeNum$ 1 | SubAbility$ DBShuffle | SpellDescription$ Search your library and/or graveyard for an enchantment card with converted mana cost X, put it onto the battlefield, then shuffle your library. Shuffle CARDNAME into its owner's library. X can't be 0.
+SVar:DBShuffle:DB$ ChangeZone | Origin$ Stack | Destination$ Library | Shuffle$ True
+SVar:X:Count$xPaid
+Oracle:Search your library and/or graveyard for an enchantment card with converted mana cost X, put it onto the battlefield, then shuffle your library. Shuffle Legendweaving into its owner's library. X can't be 0.

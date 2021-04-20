@@ -1,0 +1,5 @@
+Name:Overkill
+ManaCost:1 R
+Types:Sorcery
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature.wasDealtDamageThisTurn,Player.wasDealtDamageThisTurn,Planeswalker.wasDealtDamageThisTurn | TgtPrompt$ Select any target that was dealt damage this turn | NumDmg$ 4 | SpellDescription$ CARDNAME deals 4 damage to any target that was dealt damage this turn.
+Oracle:Overkill deals 4 damage to any target that was dealt damage this turn.

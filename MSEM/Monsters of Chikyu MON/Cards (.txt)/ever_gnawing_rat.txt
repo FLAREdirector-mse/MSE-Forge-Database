@@ -1,0 +1,8 @@
+Name:Ever-Gnawing Rat
+ManaCost:G
+Types:Creature Rat
+PT:1/1
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | IsPresent$ Creature.YouCtrl+powerGTX | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of combat on your turn, if you control a creature with power greater than CARDNAME's, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1
+SVar:X:Count$CardPower
+Oracle:At the beginning of combat on your turn, if you control a creature with power greater than Ever-Gnawing Rat's, put a +1/+1 counter on Ever-Gnawing Rat.

@@ -1,0 +1,12 @@
+Name:Whistling Blades
+ManaCost:3 B B
+Types:Creature Horror
+PT:3/3
+SVar:AltCost:Cost$ 1 B B | ActivationZone$ Graveyard | Description$ Conjure {1}{B}{B} (You may cast this creature from your graveyard for its conjure cost. If you do, exile it when it enters the battlefield or if it would leave the battlefield.)
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ ConjureExile | Secondary$ True | CheckSVar$ AltCostPaid | SVarCompare$ GE1 | TriggerDescription$ Exile it when it enters the battlefield or if it would leave the battlefield.
+R:Event$ Moved | ValidCard$ Card.Self | Origin$ Battlefield | ExcludeDestination$ Exile | ReplaceWith$ ConjureExile | CheckSVar$ AltCostPaid | SVarCompare$ GE1
+SVar:ConjureExile:DB$ ChangeZone | Defined$ Self | Destination$ Exile
+SVar:AltCostPaid:Count$AltCost.1.0
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDestroy | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may destroy target creature or planeswalker.
+SVar:TrigDestroy:DB$ Destroy | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker.
+Oracle:When Whistling Blades enters the battlefield, you may destroy target creature or planeswalker.\nConjure {1}{B}{B} (You may cast this creature from your graveyard for its conjure cost. If you do, exile it when it enters the battlefield or if it would leave the battlefield.)

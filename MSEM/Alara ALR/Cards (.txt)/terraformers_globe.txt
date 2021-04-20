@@ -1,0 +1,9 @@
+Name:Terraformer's Globe
+ManaCost:U
+Types:Artifact
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+A:AB$ ChooseType | Cost$ T | Defined$ You | Type$ Basic Land | SubAbility$ DBAnimate | SpellDescription$ Target land you control becomes the basic land type of your choice until end of turn.
+SVar:DBAnimate:DB$ Animate | ValidTgts$ Land.YouCtrl | TgtPrompt$ Select target land you control | Types$ ChosenType | RemoveLandTypes$ True | RemoveIntrinsicAbilities$ True
+AI:RemoveDeck:All
+Oracle:When Terraformer's Globe enters the battlefield, draw a card.\n{T}: Target land you control becomes the basic land type of your choice until end of turn.

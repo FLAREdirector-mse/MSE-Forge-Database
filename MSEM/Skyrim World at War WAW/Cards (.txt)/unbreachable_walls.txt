@@ -1,5 +1,0 @@
-Name:Unbreachable Walls
-ManaCost:WU
-Types:Instant
-A:SP$ Counter | Cost$ WU | TargetType$ Spell | TargetValidTargeting$ Permanent.YouCtrl,You | TgtPrompt$ Select target spell | ValidTgts$ Card | SpellDescription$ Counter target spell that targets you or a permanent you control.
-Oracle:Counter target spell that targets you or a permanent you control.

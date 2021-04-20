@@ -1,0 +1,8 @@
+Name:Puppeteering
+ManaCost:X B
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ 3 | EffectZone$ All | CheckSVar$ Y | SVarCompare$ GE1 | Description$ This spell costs {3} less to cast if a creature died this turn.
+A:SP$ ChangeZone | Cost$ X B | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Creature.cmcEQX | TgtPrompt$ Select target creature card with mana value X | GainControl$ True | SpellDescription$ Return target creature card with mana value X from any graveyard to the battlefield under your control.
+SVar:X:Count$xPaid
+SVar:Y:Count$Morbid.1.0
+Oracle:This spell costs {3} less to cast if a creature died this turn.\nReturn target creature card with mana value X from any graveyard to the battlefield under your control.

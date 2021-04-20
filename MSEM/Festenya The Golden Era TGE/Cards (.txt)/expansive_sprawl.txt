@@ -1,6 +1,0 @@
-Name:Expansive Sprawl
-ManaCost:no cost
-Types:Land Forest Plains
-K:CARDNAME enters the battlefield tapped.
-K:Cycling:GW
-Oracle:({T}: Add {G} or {W}.)\nExpansive Sprawl enters the battlefield tapped.\nCycling {G/W} ({G/W}, Discard this card: Draw a card.)

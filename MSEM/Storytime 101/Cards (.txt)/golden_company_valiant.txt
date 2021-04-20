@@ -1,0 +1,9 @@
+Name:Golden Company Valiant
+ManaCost:1 W
+Types:Creature Human Soldier
+PT:1/1
+S:Mode$ Continuous | Affected$ Card.Self | CanBlockAny$ True | Description$ CARDNAME can block any number of creatures.
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ Opponent | Execute$ TrigPump | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of combat on each opponent's turn, CARDNAME gets +1/+1 until end of turn for each creature that player controls.
+SVar:TrigPump:DB$ Pump | NumAtt$ X | NumDef$ X
+SVar:X:Count$Valid Creature.ActivePlayerCtrl
+Oracle:Golden Company Valiant can block any number of creatures.\nAt the beginning of combat on each opponent's turn, Golden Company Valiant gets +1/+1 until end of turn for each creature that player controls.

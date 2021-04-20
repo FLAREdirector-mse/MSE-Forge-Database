@@ -2,12 +2,8 @@
 Code=KOD
 Date=2020-07-01
 Name=MSEM: Kahembo: Olde Dawn
-Code2=KOD
-MciCode=KOD
 Type=Other
-BoosterCovers=5
 Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
-# Set designed by CanterburyEgg
 
 [cards]
 1 R Aparodist
@@ -28,12 +24,12 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 16 C Pacifism
 17 C Paint Over
 18 C Palace Vanguard
-19 L Plains
+19 S Plains
 20 U Provincial Loyalty
 21 C Resting Wildehound
 22 C Royal Bloodhound
 23 C Sandblast
-24 C Shabil's Absolute Triumph
+24 U Shabil's Absolute Triumph
 25 U T'nege, Skyguard
 26 C Twinklewings
 27 C Windwatch Eagle
@@ -44,7 +40,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 32 C Gharial Bandit
 33 C Icecap Tortoise
 34 U Into Waridi Valley
-35 L Island
+35 S Island
 36 C Kafyabari Patrol
 37 C Lustrous Shrike
 38 C Murmuring Typhoon
@@ -84,10 +80,10 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 72 U Pestilent Vermin
 73 C Rip to Shreds
 74 U Shrieking Gnoll
-75 C Starvation
+75 C Malnourish
 76 C Stupefied Piper
 77 U Stygian Condor
-78 L Swamp
+78 S Swamp
 79 M Trouble Brewing
 80 U Twilight Ambush
 81 C Brushfire
@@ -102,7 +98,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 90 C Indomitable Rage
 91 C Kwende Peak Sentry
 92 C Maddening Thoughts
-93 L Mountain
+93 S Mountain
 94 U Mwiti, Ever-Scarred
 95 C Nip at the Heel
 96 C Ox of Blood Bend
@@ -127,14 +123,14 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 115 U Disciple of the All-Mother
 116 C Elken Grovetender
 117 C Felling Vines
-118 L Forest
+118 S Forest
 119 C Gentle Giraffe
 120 C Grace of Timber
-121 C Grotto Scarab
+121 U Grotto Scarab
 122 C Infestation
 123 C Iron Hide
 124 U Join the Colony
-125 C Kwende Peak Huntsman
+125 C Kwende Peak Hunstman
 126 U Lair Recluse
 127 C Panthera Magus
 128 U Rains Bring New Life
@@ -166,7 +162,7 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 154 C Lace-Barred Owl
 155 C Lava Spill
 156 R Lunar Emissary
-157 U Miluna, Prairie Prince
+157 U Milunda, Prairie Prince
 158 U Netherform
 159 U Ornery Bloom
 160 U Parrot Pools
@@ -197,39 +193,39 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 185 R Berylscale Alaj
 186 R Blind Blackguard
 187 U Bwema, the Ruthless
-188 R Cloud Locus Sentry
-189 R Colony Queen
-190 U Distorted Reflection
-191 C Elegant Agility
-192 U Explore Forgotten Lands
-193 R Fakadeh, Florid Queen
-194 R Fearless King Shabil
-195 U Feline Furor
-196 R Flatboat Artisan
-197 U Glinthide Hero
-198 C Golden Gust
-199 U Greypelt Brute
-200 R Greypelt Emissary
-201 U Guide to the Wayward
-202 M Hembwe, the All-Mother's Hand
-203 U Homestead
-204 C Joyful Deviant
-205 R Kambiro, the Untrue King
-206 R Kiana, the Unyielding
-207 U King Shabil's Tournament
-208 C Kwende Peak Partisan
-209 R Lumbering Ox
-210 M Manic River-Fishers
-211 R Mercurial Chameleon
-212 U Msuji Operative
-213 M Msuji Sureshot
-214 R Neural Contagion
-215 R Olde King Koswe
-216 U Oozing Adder
-217 M Pangoling
-218 U Pith Wilt
+188 R Colony Queen
+189 U Distorted Reflection
+190 C Elegant Agility
+191 U Explore Forgotten Lands
+192 R Fakadeh, Florid Queen
+193 R Fearless King Shabil
+194 U Feline Furor
+195 R Flatboat Artisan
+196 U Glinthide Hero
+197 C Golden Gust
+198 U Greypelt Brute
+199 R Greypelt Emissary
+200 U Guide to the Wayward
+201 M Hembwe, the All-Mother's Hand
+202 U Homestead
+203 C Joyful Deviant
+204 R Kambiro, the Untrue King
+205 R Kiana, the Unyielding
+206 U King Shabil's Tournament
+207 C Kwende Peak Partisan
+208 R Lumbering Ox
+209 M Manic River-Fishers
+210 R Mercurial Chameleon
+211 U Msuji Operative
+212 M Msuji Sureshot
+213 R Neural Contagion
+214 R Olde King Koswe
+215 U Oozing Adder
+216 M Pangoling
+217 U Pith Wilt
+218 M Plaxolotl Pyari
 219 C Pungent Beetle
-220 R Rage of the Ravaged	
+220 R Rage of the Ravaged
 221 R Raiding Gnoll-Band
 222 C Rousing Battlehound
 223 M Ruchi, the Effervescent
@@ -240,10 +236,10 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 228 U Shrewd Sikoyo
 229 U Silthway Scuttler
 230 U Sirif of the Lord's Legion
-231 M Slippery Axolotl
-232 C Squall Serpent
-233 R The Sungaru Gang
-234 R Take the Bait
+231 C Squall Serpent
+232 R The Sungaru Gang
+233 R Take the Bait
+234 R Tal, Locus Sentry
 235 C Tarrying Gharial
 236 M Threshing Sundew
 237 R Thrice-Clawed Troika
@@ -286,11 +282,3 @@ Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
 274 C Wind-Scarred Crag
 
 [tokens]
-g_1_1_insect
-g_4_4_rhino_warrior_trample
-r_1_1_dog
-r_3_3_ox
-u_1_1_bird_flying
-w_2_2_cat
-lotus_petal
-land_far_off_lands

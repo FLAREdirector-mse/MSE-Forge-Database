@@ -1,0 +1,7 @@
+Name:Tarraka-no-Oni
+ManaCost:10 G G G
+Types:Legendary Creature Demon Turtle
+PT:20/20
+K:Indestructible
+K:If CARDNAME would be put into a graveyard from anywhere, reveal CARDNAME and shuffle it into its owner's library instead.
+Oracle:Indestructible\nIf Tarraka-no-Oni would be put into a graveyard from anywhere, reveal Tarraka-no-Oni and shuffle it into its owner's library instead.

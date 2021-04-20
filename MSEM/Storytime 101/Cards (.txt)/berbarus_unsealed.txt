@@ -1,0 +1,10 @@
+Name:Berbarus Unsealed
+ManaCost:4 B B
+Types:Legendary Creature Demon
+PT:6/6
+K:Flying
+A:AB$ ChangeZone | Cost$ Sac<6/Swamp> | ActivationZone$ Graveyard | Origin$ Graveyard | Destination$ Battlefield | WithCounters$ Indestructible_1 | SubAbility$ DBDraw | SpellDescription$ Return CARDNAME from your graveyard to the battlefield with an indestructible counter on it. You draw six cards and lose 6 life.
+SVar:DBDraw:DB$ Draw | NumCards$ 6 | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 6
+DeckHas:Ability$Graveyard
+Oracle:Flying\nSacrifice six Swamps: Return Berbarus Unsealed from your graveyard to the battlefield with an indestructible counter on it. You draw six cards and lose 6 life.

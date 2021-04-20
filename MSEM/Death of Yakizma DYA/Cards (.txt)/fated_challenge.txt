@@ -1,6 +1,0 @@
-# TODO
-Name:Fated Challenge
-ManaCost:2 U U
-Types:Sorcery
-
-Oracle:Take an extra turn after this one. Exert each land you control. Exile Fated Challenge. 

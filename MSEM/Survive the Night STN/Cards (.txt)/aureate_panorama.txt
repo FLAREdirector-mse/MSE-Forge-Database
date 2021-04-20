@@ -1,0 +1,5 @@
+Name:Aureate Panorama
+ManaCost:no cost
+Types:Land
+A:AB$ ChangeZone | Cost$ 1 T Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Land.canProduceManaColor White+canProduceManaColor Blue+canProduceManaColor Black+canProduceManaColor Red+canProduceManaColor Green | ChangeNum$ 1 | SpellDescription$ Search your library for a land that could produce each color of mana, put it onto the battlefield, then shuffle your library.
+Oracle:{1}, {T}, Sacrifice Aureate Panorama: Search your library for a land that could produce each color of mana, put it onto the battlefield, then shuffle your library.

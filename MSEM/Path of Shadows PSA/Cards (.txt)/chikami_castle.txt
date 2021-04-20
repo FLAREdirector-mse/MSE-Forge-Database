@@ -1,0 +1,8 @@
+Name:Chikami Castle
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+A:AB$ Mana | Cost$ T | Produced$ Any | RestrictValid$ Legendary | SpellDescription$ Add one mana of any color. Spend this mana only to cast a legendary spell or activate an ability of a legendary permanent.
+DeckNeeds:Type$Legendary
+Oracle:{T}: Add {C}.\n{T}: Add one mana of any color. Spend this mana only to cast a legendary spell or activate an ability of a legendary permanent.
+

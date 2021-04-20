@@ -1,0 +1,8 @@
+Name:Guard of Cuirassiers
+ManaCost:1 W W
+Types:Creature Angel Soldier
+PT:3/3
+K:Flying
+S:Mode$ RaiseCost | Activator$ Player | Type$ Spell | Amount$ 2 | NonActivatorTurn$ True | Description$ Each spell costs {2} more to cast except during its controller's turn.
+Oracle:Flying\nEach spell costs {2} more to cast except during its controller's turn.
+

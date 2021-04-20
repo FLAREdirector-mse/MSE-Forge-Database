@@ -1,0 +1,12 @@
+Name:Tidehollow Lich
+ManaCost:B
+Types:Artifact Creature Zombie Artificer
+PT:2/1
+SVar:AltCost:Cost$ 3 B | Description$ Embellish {3}{B} (If you cast this spell for {3}{B}, create a 1/1 blue Thopter artifact creature with flying when it enters the battlefield.)
+K:CARDNAME can't block.
+S:Mode$ Continuous | Affected$ Card.Self | EffectZone$ Graveyard | MayPlay$ True | IsPresent$ Creature.YouCtrl+Artifact | Description$ You may cast CARDNAME from you graveyard as long as you control an artifact creature.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | CheckSVar$ AltCostPaid | Execute$ TrigToken | Secondary$ True | TriggerDescription$ If you cast this spell for {3}{B}, create a 1/1 blue Thopter artifact creature with flying when it enters the battlefield.
+SVar:TrigToken:DB$ Token | TokenScript$ u_1_1_a_thopter_flying
+SVar:AltCostPaid:Count$AltCost.1.0
+Oracle:Embellish {3}{B} (If you cast this spell for {3}{B}, create a 1/1 blue Thopter artifact creature with flying when it enters the battlefield.)\nTidehollow Lich can't block.\nYou may cast Tidehollow Lich from your graveyard as long as you control an artifact creature.
+

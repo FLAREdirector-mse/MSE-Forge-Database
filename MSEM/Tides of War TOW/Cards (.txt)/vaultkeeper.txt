@@ -1,0 +1,11 @@
+Name:Vaultkeeper
+ManaCost:B
+Types:Artifact Creature Human Cleric
+PT:1/1
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Artifact.Other+YouCtrl | Execute$ TrigLoseLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever another artifact is put into your graveyard from the battlefield, each opponent loses 1 life and you gain 1 life.
+SVar:TrigLoseLife:DB$ LoseLife | LifeAmount$ 1 | Defined$ Player.Opponent | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 1
+DeckHas:Ability$LifeGain
+DeckNeeds:Type$Artifact
+Oracle:Whenever another artifact is put into your graveyard from the battlefield, each opponent loses 1 life and you gain 1 life.
+

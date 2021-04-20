@@ -1,0 +1,7 @@
+Name:Leija's Greenblade
+ManaCost:1 G
+Types:Creature Elf Warrior
+PT:2/1
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDestroy | TriggerDescription$ When CARDNAME enters the battlefield, you may pay {G}. If you do, destroy target artifact or enchantment.
+SVar:TrigDestroy:AB$ Destroy | Cost$ G | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment
+Oracle:When Leija's Greenblade enters the battlefield, you may pay {G}. If you do, destroy target artifact or enchantment.

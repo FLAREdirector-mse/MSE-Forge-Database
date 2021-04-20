@@ -1,0 +1,11 @@
+Name:Sanaito, Alone
+ManaCost:1 W U
+Types:Legendary Planeswalker Sanaito
+Loyalty:2
+A:AB$ Draw | Cost$ AddCounter<2/LOYALTY> | Planeswalker$ True | SubAbility$ DBDiscard | SpellDescription$ Draw a card, then discard a card unless you pay {2}.
+SVar:DBDiscard:DB$ Discard | NumCards$ 1 | Mode$ TgtChoose | UnlessCost$ 2 | UnlessPayer$ You
+A:AB$ Pump | Cost$ AddCounter<0/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ 1 | NumDef$ 1 | KW$ Lifelink | UntilYourNextTurn$ True | SpellDescription$ Target creature gets +1/+1 and gains lifelink until your next turn.
+A:AB$ Tap | Cost$ SubCounter<1/LOYALTY> | Planeswalker$ True | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | SubAbility$ DBPump | SpellDescription$ Tap target permanent. It doesn't untap during its controller's next untap step.
+SVar:DBPump:DB$ Pump | Defined$ Targeted | KW$ HIDDEN This card doesn't untap during your next untap step. | Permanent$ True
+A:AB$ ChangeZone | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | ValidTgts$ Artifact,Enchantment,Creature.tapped | TgtPrompt$ Select target artifact, enchantment, or tapped creature | Origin$ Battlefield | Destination$ Hand | SpellDescription$ Return target artifact, enchantment, or tapped creature to its owner's hand.
+Oracle:[+2]: Draw a card, then discard a card unless you pay {2}.\n[0]: Target creature gets +1/+1 and gains lifelink until your next turn.\n[–1]: Tap target permanent. It doesn't untap during its controller's next untap step.\n[–2]: Return target artifact, enchantment, or tapped creature to its owner's hand.

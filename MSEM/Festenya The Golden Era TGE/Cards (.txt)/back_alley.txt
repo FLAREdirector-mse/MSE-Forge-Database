@@ -1,6 +1,0 @@
-Name:Back Alley
-ManaCost:no cost
-Types:Land Swamp Mountain
-K:CARDNAME enters the battlefield tapped.
-K:Cycling:BR
-Oracle:({T}: Add {B} or {R}.)\nBack Alley enters the battlefield tapped.\nCycling {B/R} ({B/R}, Discard this card: Draw a card.)

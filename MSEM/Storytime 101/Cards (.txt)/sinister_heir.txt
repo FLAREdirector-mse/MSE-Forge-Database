@@ -1,0 +1,10 @@
+Name:Sinister Heir
+ManaCost:1 B
+Types:Creature Human Noble
+PT:2/1
+T:Mode$ ChangesZone | ValidCard$ Enchantment.YouCtrl,Card.Legendary+YouCtrl | Destination$ Battlefield | Execute$ TrigLoseLife | TriggerZones$ Battlefield | TriggerDescription$ Whenever a storied permanent enters the battlefield under your control, each opponent loses 1 life and you gain 1 life. (Enchantments and legendary cards are storied.)
+SVar:TrigLoseLife:DB$ LoseLife | LifeAmount$ 1 | Defined$ Opponent | SubAbility$ DBGainLife
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 1
+A:AB$ ChangeZone | Cost$ 2 B B Sac<1/CARDNAME> | ValidTgts$ Enchantment.YouCtrl,Card.Legendary+YouCtrl | TgtPrompt$ Select target storied card in your graveyard | Origin$ Graveyard | Destination$ Battlefield | SpellDescription$ Return target storied card from your graveyard to the battlefield.
+DeckNeeds:Type$Enchantment|Legendary
+Oracle:Whenever a storied permanent enters the battlefield under your control, each opponent loses 1 life and you gain 1 life. (Enchantments and legendary cards are storied.)\n{2}{B}{B}, Sacrifice Sinister Heir: Return target storied card from your graveyard to the battlefield.

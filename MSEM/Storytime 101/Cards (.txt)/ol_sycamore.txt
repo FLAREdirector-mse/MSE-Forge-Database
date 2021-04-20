@@ -1,0 +1,9 @@
+Name:Ol' Sycamore
+ManaCost:3 G G
+Types:Legendary Creature Plant
+PT:4/5
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters the battlefield, ABILITY
+SVar:TrigCharm:DB$ Charm | MinCharmNum$ 0 | CharmNum$ 2 | Choices$ DBFight,DBDestroy
+SVar:DBFight:DB$ Fight | Defined$ TriggeredCardLKICopy | ValidTgts$ Creature.Other+Legendary | TgtPrompt$ Select another target legendary creature | SpellDescription$ CARDNAME fights another target legendary creature.
+SVar:DBDestroy:DB$ Destroy | ValidTgts$ Enchantment.nonCreature,Card.nonCreature+Legendary | TgtPrompt$ Select target noncreature storied permanent | SpellDescription$ Destroy target noncreature storied permanent. (Enchantments and legendary cards are storied.)
+Oracle:When Ol' Sycamore enters the battlefield, choose up to two —\n• Ol' Sycamore fights another target legendary creature.\n• Destroy target noncreature storied permanent.

@@ -1,0 +1,8 @@
+Name:Elder's Wisdom
+ManaCost:2 G
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigDig | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, look at the top four cards of your library. You may reveal a storied card from among them and put it into your hand. Put the rest on the bottom of your library in any order. (Enchantments and legendary cards are storied.)
+SVar:TrigDig:DB$ Dig | DigNum$ 4 | ChangeValid$ Enchantment,Card.Legendary | DestinationZone$ Hand | DestinationZone2$ Library | LibraryPosition$ -1 | RestRandomOrder$ True
+DeckNeeds:Type$Enchantment|Legendary
+AI:RemoveDeck:Random
+Oracle:At the beginning of your upkeep, look at the top four cards of your library. You may reveal a storied card from among them and put it into your hand. Put the rest on the bottom of your library in any order. (Enchantments and legendary cards are storied.)

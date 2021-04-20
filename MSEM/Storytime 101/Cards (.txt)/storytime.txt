@@ -1,0 +1,8 @@
+Name:Storytime
+ManaCost:3 W W
+Types:Enchantment
+R:Event$ GameLoss | ActiveZones$ Battlefield | ValidPlayer$ You | ReplaceWith$ SacrificeStoried | Description$ If you would lose the game, instead sacrifice a storied permanent. If you do and your life total is less than 1, it becomes 1.
+SVar:SacrificeStoried:DB$ Sacrifice | Defined$ You | SacValid$ Enchantment,Card.Legendary | SacMessage$ storied permanent | RememberSacrificed$ True | SubAbility$ SetLife
+SVar:SetLife:DB$ SetLife | Defined$ You | LifeAmount$ 1 | ConditionLifeTotal$ You | ConditionLifeAmount$ LT1 | ConditionDefined$ Remembered
+DeckHints:Type$Enchantment|Legendary
+Oracle:If you would lose the game, instead sacrifice a storied permanent. If you do and your life total is less than 1, it becomes 1.

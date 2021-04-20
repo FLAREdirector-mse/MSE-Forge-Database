@@ -1,0 +1,8 @@
+Name:Angel of Succor
+ManaCost:1 G U W
+Types:Creature Angel
+PT:3/3
+K:Flying
+S:Mode$ Continuous | Affected$ You,Card.Self | AddKeyword$ Hexproof | Condition$ PlayerTurn | Description$ As long as it's your turn, you and CARDNAME have hexproof.
+S:Mode$ Continuous | Affected$ Land.YouCtrl | AddHiddenKeyword$ CARDNAME untaps during each other player's untap step. | Description$ Untap all lands you control during each other player's untap step.
+Oracle:Flying\nAs long as it's your turn, you and Angel of Succor have hexproof.\nUntap all lands you control during each other player's untap step.

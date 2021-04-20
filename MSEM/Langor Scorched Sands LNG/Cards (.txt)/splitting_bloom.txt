@@ -1,8 +1,0 @@
-Name:Splitting Bloom
-ManaCost:1 G
-Types:Creature Plant
-PT:0/3
-A:AB$ Mana | Cost$ T Sac<1/Creature> | Produced$ Any | SpellDescription$ Add one mana of any color.
-T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Land.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ Landfall — Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.
-SVar:TrigToken:DB$ Token | TokenScript$ g_1_1_saproling
-Oracle:{T}, Sacrifice a creature: Add one mana of any color.\nLandfall — Whenever a land enters the battlefield under your control, create a 1/1 green Saproling creature token.

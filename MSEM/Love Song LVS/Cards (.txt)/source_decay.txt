@@ -1,8 +1,0 @@
-Name:Source Decay
-ManaCost:B R
-Types:Sorcery
-A:SP$ DealDamage | Cost$ B R | Defined$ Opponent | NumDmg$ 2 | SubAbility$ DBToken | SpellDescription$ CARDNAME deals 2 damage to each opponent. Create two 1/1 colorless Servo artifact creature tokens.
-SVar:DBToken:DB$ Token | TokenScript$ c_1_1_a_servo | TokenAmount$ 2
-T:Mode$ DamageDone | ValidTarget$ Player | ValidSource$ Creature.YouCtrl | CombatDamage$ True | Execute$ TrigReturn | TriggerZones$ Graveyard | TriggerDescription$ Whenever a creature you control deals combat damage to a player, you may pay {2}{B}{R} and sacrifice it. If you do, return CARDNAME from your graveyard to your hand.
-SVar:TrigReturn:AB$ ChangeZone | Cost$ 2 B R Sac<1/Card.TriggeredCard> | Origin$ Graveyard | Destination$ Hand
-Oracle:Source Decay deals 2 damage to each opponent. Create two 1/1 colorless Servo artifact creature tokens.\nWhenever a creature you control deals combat damage to a player, you may pay {2}{B}{R} and sacrifice it. If you do, return Source Decay from your graveyard to your hand.

@@ -1,0 +1,9 @@
+Name:Eternal Reactor
+ManaCost:no cost
+Types:Land
+A:AB$ Mana | Cost$ T | Produced$ C | SubAbility$ DBPutCounter | SpellDescription$ Add {C}. Put a fusion counter on CARDNAME.
+SVar:DBPutCounter:DB$ PutCounter | CounterType$ Fusion | CounterNum$ 1
+A:AB$ Mana | Cost$ 2 T | Produced$ C | Amount$ X | AICheckSVar$ X | AISVarCompare$ GE4 | SpellDescription$ Add {C} for each fusion counter on CARDNAME.
+SVar:X:Count$CardCounters.Fusion
+AI:RemoveDeck:Random
+Oracle:{T}: Add {C}. Put a fusion counter on Eternal Reactor.\n{2}, {T}: Add {C} for each fusion counter on Eternal Reactor.

@@ -1,0 +1,9 @@
+Name:Lucien's Trail
+ManaCost:2 B B
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, exile target creature or enchantment an opponent controls.
+SVar:TrigChangeZone:DB$ ChangeZone | ValidTgts$ Creature.OppCtrl,Enchantment.OppCtrl | TgtPrompt$ Select target creature or enchantment an opponent controls | Origin$ Battlefield | Destination$ Exile | RememberChanged$ True
+A:AB$ Clone | Cost$ Sac<1/Permanent.Other/another permanent> | Defined$ Remembered | CloneTarget$ Self | Duration$ UntilEndOfTurn | SpellDescription$ CARDNAME becomes a copy of the exiled card until end of turn.
+AI:RemoveDeck:All
+Oracle:When Lucien's Trail enters the battlefield, exile target creature or enchantment an opponent controls.\nSacrifice another permanent: Lucien's Trail becomes a copy of the exiled card until end of turn.
+

@@ -1,0 +1,10 @@
+Name:Abundant Growth
+ManaCost:G
+Types:Enchantment Aura
+K:Enchant land
+A:SP$ Attach | Cost$ G | ValidTgts$ Land | AILogic$ Pump
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, draw a card.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1
+S:Mode$ Continuous | Affected$ Card.EnchantedBy | AddAbility$ ABMana | Description$ Enchanted land has "{T}: Add one mana of any color."
+SVar:ABMana:AB$ Mana | Cost$ T | Produced$ Any | SpellDescription$ Add one mana of any color.
+Oracle:Enchant land\nWhen Unexplored Regions enters the battlefield, draw a card.\nEnchanted land has "{T}: Add one mana of any color."

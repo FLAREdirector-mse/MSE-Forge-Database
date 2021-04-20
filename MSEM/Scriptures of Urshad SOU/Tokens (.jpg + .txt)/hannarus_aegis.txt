@@ -1,0 +1,8 @@
+Name:Hannaru's Aegis
+ManaCost:no cost
+Colors:white
+Types:Legendary Artifact Equipment
+K:Equip:2
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddPower$ 1 | AddToughness$ 2 | AddKeyword$ Vigilance | Description$ Equipped creature gets +1/+2 and has vigilance.
+Oracle:Equipped creature gets +1/+2 and has vigilance.\nEquip {2}
+

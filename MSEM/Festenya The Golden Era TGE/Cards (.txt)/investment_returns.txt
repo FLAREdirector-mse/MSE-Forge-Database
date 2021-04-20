@@ -1,7 +1,0 @@
-Name:Investment Returns
-ManaCost:1 W
-Types:Instant
-A:SP$ GainLife | Cost$ 1 W Sac<1/Artifact> | Defined$ You | LifeAmount$ 8 | SubAbility$ DBDraw | SpellDescription$ You gain 8 life.
-SVar:DBDraw:DB$ Draw | NumCards$ 1 | Defined$ You | SpellDescription$ Draw a card.
-SVar:Picture:https://msem-instigator.herokuapp.com/cards/TGE/22.jpg
-Oracle:As an additional cost to cast this spell, sacrifice an artifact.\nYou gain 8 life.\nDraw a card. 

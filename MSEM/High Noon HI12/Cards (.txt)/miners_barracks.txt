@@ -1,0 +1,9 @@
+Name:Miner's Barracks
+ManaCost:R G
+Types:Enchantment
+T:Mode$ SpellCast | ValidCard$ Creature | ValidActivatingPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a creature spell, create a Gold token. (It's an artifact with "Sacrifice this artifact: Add one mana of any color.")
+SVar:TrigToken:DB$ Token | TokenScript$ gold
+DeckNeeds:Type$Creature
+DeckHas:Ability$Token
+Oracle:Whenever you cast a creature spell, create a Gold token. (It's an artifact with "Sacrifice this artifact: Add one mana of any color.")
+

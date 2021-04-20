@@ -1,0 +1,6 @@
+Name:Moon of the Frozen Dusk
+ManaCost:no cost
+Types:Land Island
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Scry | Cost$ 1 U T | ScryNum$ 1 | SpellDescription$ Scry 1.
+Oracle:({T}: Add {U}.)\nMoon of the Frozen Dusk enters the battlefield tapped.\n{1}{U}, {T}: Scry 1. (To scry 1, look at the top card of your library. You may put that card on the bottom of your library.)

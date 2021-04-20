@@ -1,0 +1,10 @@
+Name:Fogspewer
+ManaCost:1 G
+Types:Creature Elemental
+PT:2/2
+S:Mode$ RaiseCost | ValidCard$ Card.nonCreature | Type$ Spell | Amount$ 1 | Activator$ You | Description$ Noncreature spells you cast cost {1} more to cast.
+S:Mode$ RaiseCost | ValidCard$ Card.nonCreature | Type$ Spell | Amount$ 1 | Activator$ Opponent.controlsCreature_LEX | Description$ Noncreature spells your opponents cast cost {1} more to cast unless that player controls more creatures than you.
+SVar:X:Count$Valid Creature.YouCtrl
+AI:RemoveDeck:Random
+Oracle:Noncreature spells you cast cost {1} more to cast.\nNoncreature spells your opponents cast cost {1} more to cast unless that player controls more creatures than you.
+

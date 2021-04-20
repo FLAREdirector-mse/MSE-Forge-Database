@@ -1,0 +1,9 @@
+Name:Propagation Blade
+ManaCost:2
+Types:Artifact Equipment
+K:Equip:2
+T:Mode$ Attached | ValidSource$ Card.Self | ValidTarget$ Creature | TriggerZones$ Battlefield | Execute$ TrigCounter | TriggerDescription$ Whenever CARDNAME becomes attached to a creature, put a +1/+1 counter on that creature.
+SVar:TrigCounter:DB$ PutCounter | Defined$ TriggeredTarget | CounterType$ P1P1 | CounterNum$ 1
+T:Mode$ DamageDone | ValidSource$ Creature.EquippedBy | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigProliferate | TriggerDescription$ Whenever equipped creature deals combat damage to a player, proliferate.
+SVar:TrigProliferate:DB$ Proliferate
+Oracle:Whenever Propagation Blade becomes attached to a creature, put a +1/+1 counter on that creature.\nWhenever equipped creature deals combat damage to a player, proliferate.\nEquip {2}

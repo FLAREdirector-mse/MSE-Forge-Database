@@ -1,0 +1,10 @@
+Name:Unlikeliest Heroes
+ManaCost:GW
+Types:Creature Mouse Army
+PT:1/1
+A:AB$ PutCounter | Cost$ GW | CounterType$ P1P1 | CounterNum$ 1 | ConditionDefined$ Self | ConditionPresent$ Card.counters_EQ0_P1P1 | SpellDescription$ If CARDNAME doesn't have a +1/+1 counter on it, put a +1/+1 counter on it.
+A:AB$ PutCounter | Cost$ 2 GW GW | CounterType$ P1P1 | CounterNum$ 2 | ConditionDefined$ Self | ConditionPresent$ Card.counters_GE1_P1P1+withoutVigilance | SubAbility$ CounterVig | SpellDescription$ If CARDNAME has a +1/+1 counter on it and doesn't have vigilance, put two +1/+1 counters and a vigilance counter on it.
+SVar:CounterVig:DB$ PutCounter | CounterType$ Vigilance | CounterNum$ 1 | ConditionDefined$ Self | ConditionPresent$ Card.counters_GE1_P1P1+withoutVigilance
+A:AB$ PutCounter | Cost$ 3 GW GW GW | CounterType$ P1P1 | CounterNum$ 4 | ConditionDefined$ Self | ConditionPresent$ Card.withVigilance+withoutIndestructible | SubAbility$ CounterInd | SpellDescription$ If CARDNAME has vigilance and not indestructible, put four +1/+1 counters and an indestructible counter on it.
+SVar:CounterInd:DB$ PutCounter | CounterType$ Indestructible | CounterNum$ 1 | ConditionDefined$ Self | ConditionPresent$ Card.withVigilance+withoutIndestructible
+Oracle:{G/W}: If Unlikeliest Heroes doesn't have a +1/+1 counter on it, put a +1/+1 counter on it.\n{2}{G/W}{G/W}: If Unlikeliest Heroes has a +1/+1 counter on it and doesn't have vigilance, put two +1/+1 counters and a vigilance counter on it.\n{3}{G/W}{G/W}{G/W}: If Unlikeliest Heroes has vigilance and not indestructible, put four +1/+1 counters and an indestructible counter on it.

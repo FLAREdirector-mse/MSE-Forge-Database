@@ -1,0 +1,8 @@
+Name:Redtail Fencer
+ManaCost:1 W
+Types:Creature Fox Soldier
+PT:2/1
+K:First Strike
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ Opponent | TriggerZones$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ Whenever an opponent casts a noncreature spell, you gain 2 life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 2
+Oracle:First strike\nWhenever an opponent casts a noncreature spell, you gain 2 life.

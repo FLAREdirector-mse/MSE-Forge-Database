@@ -1,0 +1,9 @@
+Name:Academic's Claymore
+ManaCost:2
+Types:Artifact Equipment
+K:Equip:1
+T:Mode$ DamageDone | ValidSource$ Creature.EquippedBy | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigPutCounter | TriggerDescription$ Whenever equipped creature deals combat damage to a player, put a +1/+1 counter on it and draw a card.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ TriggeredSourceLKICopy | CounterType$ P1P1 | CounterNum$ 1 | SubAbility$ DBDraw
+SVar:DBDraw:DB$ Draw
+DeckHas:Ability$Counters
+Oracle:Whenever equipped creature deals combat damage to a player, put a +1/+1 counter on it and draw a card.\nEquip {1}

@@ -1,0 +1,10 @@
+Name:Triton's Gift
+ManaCost:no cost
+Colors:white
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 0 | ValidTgts$ Creature
+S:Mode$ Continuous | Affected$ Creature.EnchantedBy | AddPower$ 1 | Description$ Enchanted creature gets +1/+0 and can't be blocked by creatures with power 3 or greater.
+S:Mode$ CantBlockBy | ValidAttacker$ Creature.EnchantedBy | ValidBlocker$ Creature.powerGE3 | Secondary$ True
+Oracle:Enchant creature\nEnchanted creature gets +1/+0 and can't be blocked by creatures with power 3 or greater.
+
