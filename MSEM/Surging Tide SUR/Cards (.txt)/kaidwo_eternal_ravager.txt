@@ -1,0 +1,10 @@
+Name:Kai'Dwo, Eternal Ravager
+ManaCost:4 B B B
+Types:Legendary Creature Demon
+PT:7/7
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigIdolize | TriggerDescription$ When CARDNAME enters the battlefield, idolize seven times.
+SVar:TrigIdolize:DB$ Token | TokenScript$ c_a_idol_sac | TokenAmount$ 7
+T:Mode$ Sacrificed | ValidCard$ Idol | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ Whenever you sacrifice an Idol, each opponent sacrifices a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ Player.Other | SacValid$ Creature
+Oracle:Flying\nWhen Kai'Dwo, Eternal Ravager enters the battlefield, idolize seven times.\nWhenever you sacrifice an Idol, each opponent sacrifices a creature.

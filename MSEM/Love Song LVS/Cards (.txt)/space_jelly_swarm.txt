@@ -1,0 +1,5 @@
+Name:Space Jelly Swarm
+ManaCost:1 U U
+Types:Instant
+A:AB$ Token | Cost$ 1 U U | TokenScript$ u_1_1_elemental_flying | TokenAmount$ 2 | SpellDescription$ Create two 1/1 blue Elemental creature tokens with flying.
+Oracle:Create two 1/1 blue Elemental creature tokens with flying.

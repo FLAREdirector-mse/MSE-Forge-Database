@@ -1,0 +1,11 @@
+Name:Deadwood Terror
+ManaCost:1 B
+Types:Creature Zombie
+PT:2/2
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Graveyard | Destination$ Battlefield | Execute$ TrigClone | TriggerDescription$ When CARDNAME enters the battlefield from a graveyard, create two tokens that are copies of it.
+SVar:TrigClone:DB$ CopyPermanent | Defined$ Self | NumCopies$ 2
+A:AB$ ChangeZone | Cost$ 4 B B Sac<1/Creature> | Defined$ Self | Origin$ Graveyard | Destination$ Battlefield | SorcerySpeed$ True | SpellDescription$ Return CARDNAME from your graveyard to the battlefield. Activate this ability only any time you could cast a sorcery.
+DeckHas:Ability$Token
+DeckHints:Ability$Graveyard
+Oracle:Deathtouch\nWhen Deadwood Terror enters the battlefield from a graveyard, create two tokens that are copies of it.\n{4}{B}{B}, Sacrifice a creature: Return Deadwood Terror from your graveyard to the battlefield. Activate this ability only any time you could cast a sorcery.

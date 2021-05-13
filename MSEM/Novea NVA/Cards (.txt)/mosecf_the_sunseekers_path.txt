@@ -1,0 +1,10 @@
+Name:Mosecf, the Sunseeker's Path
+ManaCost:no cost
+Types:Legendary Land Plains
+K:CARDNAME enters the battlefield tapped.
+T:Mode$ Attacks | ValidCard$ Creature.YouCtrl | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever a creature you control attacks, put a creation counter on NICKNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ Creation | CounterNum$ 1
+A:AB$ PumpAll | Cost$ T SubCounter<10/Creation> Sac<1/CARDNAME> | ValidCards$ Creature.YouCtrl | NumAtt$ 3 | NumDef$ 3 | KW$ Vigilance | SpellDescription$ Creatures you control get +3/+3 and gain vigilance until end of turn.
+DeckHas:Ability$Counters
+Oracle:({T}: Add {W}.)\nMosecf, the Sunseeker's Path enters the battlefield tapped.\nWhenever a creature you control attacks, put a creation counter on Mosecf.\n{T}, Remove ten creation counters from Mosecf and sacrifice it: Creatures you control get +3/+3 and gain vigilance until end of turn.
+

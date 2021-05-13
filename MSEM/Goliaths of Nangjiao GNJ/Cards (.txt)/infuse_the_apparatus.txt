@@ -1,0 +1,15 @@
+Name:Infuse the Apparatus
+ManaCost:10 U R
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | EffectZone$ All | Description$ This spell costs {1} less to cast for each instant and sorcery card in your graveyard.
+A:SP$ ChangeZoneAll | Cost$ 10 U R | ChangeType$ Card.YouOwn | Origin$ Graveyard | Destination$ Exile | Imprint$ True | SubAbility$ DBChangeZone | StackDescription$ Exile all cards from {p:You}'s graveyard. | SpellDescription$ Exile all cards from your graveyard. You may search your library for any number of instant and/or sorcery cards with different names that share a name with one or more cards exiled this way and cast them without paying their mana costs, then shuffle.
+SVar:DBChangeZone:DB$ ChangeZone | ChangeType$ Instant.sharesNameWith Imprinted,Sorcery.sharesNameWith Imprinted | ChangeNum$ Y | Origin$ Library | Destination$ Library | Shuffle$ False | RememberChanged$ True | Reveal$ True | SubAbility$ DBPlay | DifferentNames$ True | StackDescription$ {p:You} searches their library for any number of instant and/or sorcery cards with different names that share a name with one or more cards exiled this way.
+SVar:DBPlay:DB$ Play | Valid$ Card.nonLand+IsRemembered | ValidZone$ Library | Amount$ All | WithoutManaCost$ True | SubAbility$ DBCleanup | StackDescription$ {p:You} casts all cards exiled this way without paying their mana costs.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearImprinted$ True | SubAbility$ DBExile
+SVar:DBExile:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Exile | StackDescription$ SpellDescription | SpellDescription$ Exile CARDNAME.
+DeckNeeds:Type$Instant|Sorcery
+SVar:X:Count$ValidGraveyard Instant.YouOwn,Sorcery.YouOwn
+SVar:Y:Count$InYourLibrary
+AI:RemoveDeck:All
+Oracle:This spell costs {1} less to cast for each instant and sorcery card in your graveyard.\nExile all cards from your graveyard. You may search your library for any number of instant and/or sorcery cards with different names that share a name with one or more cards exiled this way and cast them without paying their mana costs, then shuffle. Exile Infuse the Apparatus.
+

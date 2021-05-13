@@ -1,0 +1,10 @@
+Name:Daughter of Malextros
+ManaCost:4 B B
+Types:Creature Gorgon
+PT:3/4
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Creature.OppCtrl | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigDiscard | TriggerDescription$ Whenever a creature an opponent controls dies, its controller discards a card and loses 1 life.
+SVar:TrigDiscard:DB$ Discard | Defined$ TriggeredCardController | NumCards$ 1 | Mode$ TgtChoose | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | Defined$ TriggeredCardController | LifeAmount$ 1
+A:AB$ Destroy | Cost$ 1 B B T Sac<1/Creature.Other/another creature> | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Destroy target creature.
+Oracle:Deathtouch\nWhenever a creature an opponent controls dies, its controller discards a card and loses 1 life.\n{1}{B}{B}, {T}, Sacrifice another creature: Destroy target creature.

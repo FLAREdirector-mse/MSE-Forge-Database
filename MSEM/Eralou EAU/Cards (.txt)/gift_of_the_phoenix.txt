@@ -1,0 +1,9 @@
+Name:Gift of the Phoenix
+ManaCost:R
+Types:Instant
+A:SP$ Draw | Cost$ R Discard<1/Card> | Defined$ You | NumCards$ 2 | SubAbility$ DBDmg | SpellDescription$ Draw two cards.
+SVar:DBDmg:DB$ DealDamage | Defined$ You | NumDmg$ 2 | SpellDescription$ CARDNAME deals 2 damage to you.
+DeckHas:Ability$Discard
+DeckHints:Keyword$Madness & Ability$Delirium
+Oracle:As an additional cost to cast this spell, discard a card.\nDraw two cards. Gift of the Phoenix deals 2 damage to you.
+

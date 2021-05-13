@@ -1,0 +1,9 @@
+Name:Rapacious Demon
+ManaCost:1 B
+Types:Creature Demon
+PT:2/2
+A:AB$ Pump | Cost$ Sac<1/Creature> | NumAtt$ 1 | NumDef$ 1 | KW$ Flying | SorcerySpeed$ True | SpellDescription$ CARDNAME gets +1/+1 and gains flying until end of turn. Activate only as a sorcery.
+SVar:AIPreference:SacCost$Creature.Other
+DeckHas:Ability$Sacrifice
+Oracle:Sacrifice a creature: Rapacious Demon gets +1/+1 and gains flying until end of turn. Activate only as a sorcery.
+

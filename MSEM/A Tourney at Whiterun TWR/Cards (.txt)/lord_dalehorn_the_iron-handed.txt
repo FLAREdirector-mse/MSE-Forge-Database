@@ -1,6 +1,3 @@
-# Christ. Okay, this was hard, and it's clunky as all hell. But it should work better. I hope.
-# Med, 25 January 2021
-
 Name:Lord Dalehorn the Iron-Handed
 ManaCost:3 R W
 Types:Legendary Creature Human Noble Soldier
@@ -11,9 +8,8 @@ SVar:CombatDamage:DB$ Effect | Triggers$ DamageOpp,Disappear | SVars$ TrigDamage
 SVar:DamageOpp:Mode$ Phase | Phase$ End of Turn | Execute$ TrigDamage2 | TriggerDescription$ At the beginning of the next end step, if you haven't been dealt combat damage this turn, CARDNAME deals 3 damage to that player.
 SVar:Disappear:Mode$ DamageDone | ValidTarget$ You | IsCombat$ True | Static$ True | Execute$ ExileSelf
 SVar:ExileSelf:DB$ ChangeZone | Origin$ Command | Destination$ Exile
-SVar:CreatureSpell:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | CheckSVar$ Y | SVarCompare$ EQ0 | References$ Y | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ At the beginning of the next end step, if that player hasn't cast a creature spell this turn, CARDNAME deals 3 damage to that player. | SpellDescription$ At the beginning of the next end step, if that player hasn't cast a creature spell this turn, CARDNAME deals 3 damage to that player.
+SVar:CreatureSpell:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | CheckSVar$ X | SVarCompare$ EQ0 | References$ X | TriggerZones$ Battlefield | Execute$ TrigDamage | TriggerDescription$ At the beginning of the next end step, if that player hasn't cast a creature spell this turn, CARDNAME deals 3 damage to that player. | SpellDescription$ At the beginning of the next end step, if that player hasn't cast a creature spell this turn, CARDNAME deals 3 damage to that player.
 SVar:TrigDamage:DB$ DealDamage | Defined$ ActivePlayer | NumDmg$ 3
 SVar:TrigDamage2:DB$ DealDamage | Defined$ ActivePlayer | NumDmg$ 3 | DamageSource$ Remembered
-SVar:X:Count$ValidCommand Effect.YouCtrl+namedCheck
-SVar:Y:Count$ThisTurnCast_Creature.ActivePlayerCtrl
+SVar:X:Count$ThisTurnCast_Creature.ActivePlayerCtrl
 Oracle:At the beginning of each opponent's upkeep, choose one —\n• At the beginning of the next end step, if you haven't been dealt combat damage this turn, Lord Dalehorn the Iron-Handed deals 3 damage to that player.\n• At the beginning of the next end step, if that player hasn't cast a creature spell this turn, Lord Dalehorn the Iron-Handed deals 3 damage to that player.

@@ -1,0 +1,10 @@
+Name:Hierarch Ranger
+ManaCost:G
+Types:Creature Human Druid
+PT:0/1
+A:AB$ Pump | Cost$ T | PrecostDesc$ Encourage | CostDesc$ | NumAtt$ 1 | NumDef$ 1 | ValidTgts$ Creature.Other+YouCtrl | TgtPrompt$ Select target creature | SubAbility$ DBImmediate | SorcerySpeed$ True | SpellDescription$ ({T}: Another target creature you control gets +1/+1 until end of turn. Encourage only as a sorcery.)
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+S:Mode$ Continuous | Description$ Whenever CARDNAME encourages a creature, add one mana of any color.
+SVar:DBImmediate:DB$ ImmediateTrigger | Execute$ TrigMana | TriggerDescription$ Whenever CARDNAME encourages a creature, add one mana of any color.
+SVar:TrigMana:DB$ Mana | Produced$ Any
+Oracle:Encourage ({T}: Another target creature you control gets +1/+1 until end of turn. Encourage only as a sorcery.)\n{T}: Add {G}.\nWhenever Hierarch Ranger encourages a creature, add one mana of any color.

@@ -2,9 +2,8 @@ Name:Stormsurge
 ManaCost:2 R
 Types:Sorcery
 A:SP$ DealDamage | Cost$ 2 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target.
-A:AB$ ChangeZone | Cost$ R | Defined$ Self | Destination$ Exile | SorcerySpeed$ True | ActivationZone$ Hand | SubAbility$ Orchestrate | PrecostDesc$ Orchestrate | CostDesc$ {R} | SpellDescription$ (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
-SVar:Orchestrate:DB$ Animate | Defined$ Self | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
-SVar:TrigCast:Mode$ SpellCast | ValidCard$ Card | ValidActivatingPlayer$ You | Execute$ DBCast | TriggerZones$ Exile | Secondary$ True | TriggerDescription$ The next time you cast a spell, cast this card from exile without paying its mana cost.
-SVar:DBCast:DB$ Play | Defined$ Self | WithoutManaCost$ True | SubAbility$ DBCleanup
-SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+A:ST$ ChangeZone | Cost$ R | Defined$ Self | Origin$ Hand | Destination$ Exile | SorcerySpeed$ True | ActivationZone$ Hand | SubAbility$ DBDelTrig | PrecostDesc$ Orchestrate | CostDesc$ {R} | SpellDescription$ (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
+SVar:DBDelTrig:DB$ DelayedTrigger | RememberObjects$ Self | Mode$ SpellCast | ValidActivatingPlayer$ You | Execute$ TrigPlay | TriggerDescription$ When you cast your next spell, cast this card from exile without paying its mana cost.
+SVar:TrigPlay:DB$ Play | Defined$ DelayTriggerRemembered | WithoutManaCost$ True
 Oracle:Stormsurge deals 3 damage to any target.\nOrchestrate {R} (You may exile this card from your hand anytime you could cast a sorcery for its orchestrate cost. The next time you cast a spell, cast this card from exile without paying its mana cost.)
+

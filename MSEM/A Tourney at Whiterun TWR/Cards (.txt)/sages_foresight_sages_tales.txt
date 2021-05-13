@@ -3,8 +3,11 @@ ManaCost:W
 Types:Instant
 K:CARDNAME can't be countered.
 A:SP$ Pump | Cost$ W | ValidTgts$ Player | TgtPrompt$ Select target player | KW$ Hexproof | SpellDescription$ Target player gains hexproof until end of turn.
-A:SP$ Pump | Cost$ 2 W W | ValidTgts$ Player | TgtPrompt$ Select target player | KW$ Hexproof | PrecostDesc$ Fabled | CostDesc$ {2}{W}{W} | NonBasicSpell$ True | SubAbility$ Fabled | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the player it's targeting.) | StackDescription$ Target player gains hexproof until end of turn. Attach CARDNAME to that player.
-SVar:Fabled:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield | AttachedToPlayer$ ParentTarget | Transformed$ True
+A:SP$ Pump | Cost$ 2 W W | ValidTgts$ Player | TgtPrompt$ Select target player | KW$ Hexproof | PrecostDesc$ Fabled | CostDesc$ {2}{W}{W} | NonBasicSpell$ True | SubAbility$ AnimateHack | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the player it's targeting.) | StackDescription$ Target player gains hexproof until end of turn. Attach CARDNAME to that player.
+SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
+SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
+SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
 AlternateMode:DoubleFaced
 Oracle:This spell can’t be countered.\nTarget player gains hexproof until end of turn.\nFabled {2}{W}{W} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that player.)
 

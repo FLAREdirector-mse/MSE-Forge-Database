@@ -1,0 +1,12 @@
+Name:Essential Override
+ManaCost:3 U U
+Types:Instant
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | EffectZone$ All | Description$ This spell costs {1} less to cast for each artifact you control.
+SVar:X:Count$Valid Artifact.YouCtrl
+DeckNeeds:Type$Artifact
+A:SP$ Charm | Cost$ 3 U U | Choices$ DBUntap,DBPutCounter,DBDraw | MinCharmNum$ 2 | CharmNum$ 2
+SVar:DBUntap:DB$ UntapAll | ValidCards$ Artifact.YouCtrl | SpellDescription$ Untap all artifacts you control.
+SVar:DBPutCounter:DB$ PutCounterAll | ValidCards$ Creature.YouCtrl+Artifact | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on each artifact creature you control.
+SVar:DBDraw:DB$ Draw | SpellDescription$ Draw a card.
+Oracle:This spell costs {1} less to cast for each artifact you control.\nChoose two —\n• Untap all artifacts you control.\n• Put a +1/+1 counter on each artifact creature you control.\n• Draw a card.
+

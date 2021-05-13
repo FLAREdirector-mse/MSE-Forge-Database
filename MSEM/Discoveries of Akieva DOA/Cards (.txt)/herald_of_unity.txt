@@ -1,0 +1,10 @@
+Name:Herald of Unity
+ManaCost:R W
+Types:Creature Elemental
+PT:*/3
+K:Haste
+S:Mode$ Continuous | EffectZone$ All | CharacteristicDefining$ True | SetPower$ X | Description$ CARDNAME's power is equal to the number of creatures you control.
+SVar:X:Count$Valid Creature.YouCtrl
+SVar:BuffedBy:Creature
+Oracle:Haste\nHerald of Unity's power is equal to the number of creatures you control.
+

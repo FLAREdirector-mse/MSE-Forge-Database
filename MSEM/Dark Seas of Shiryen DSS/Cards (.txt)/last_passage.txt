@@ -1,0 +1,12 @@
+Name:Last Passage
+ManaCost:1 U
+Types:Sorcery
+A:SP$ Token | Cost$ 1 U | TokenScript$ c_a_omen_sac | TokenAmount$ 3 | TokenTapped$ True | SubAbility$ TrigUntap | SpellDescription$ Forebode three times, then untap each Omen you control. Until end of turn, if you would draw a card while your library has no cards in it, you win the game instead.
+SVar:TrigUntap:DB$ UntapAll | ValidCards$ Omen.YouCtrl | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | ReplacementEffects$ ReplaceDraw
+SVar:ReplaceDraw:Event$ Draw | ActiveZones$ Battlefield | ValidPlayer$ You | IsPresent$ Card.YouOwn | PresentZone$ Library | PresentCompare$ EQ0 | ReplaceWith$ Win | Description$ Until end of turn, if you would draw a card while your library has no cards in it, you win the game instead.
+SVar:Win:DB$ WinsGame | Defined$ You
+DeckHas:Ability$Token & Ability$Discard
+AI:RemoveDeck:Random
+Oracle:Forebode three times, then untap each Omen you control. Until end of turn, if you would draw a card while your library has no cards in it, you win the game instead. (Create three tapped colorless Omen artifact tokens with "{T}, Discard a card, Sacrifice this artifact: Draw a card.")
+

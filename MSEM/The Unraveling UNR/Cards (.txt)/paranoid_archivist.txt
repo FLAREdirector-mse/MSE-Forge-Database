@@ -1,0 +1,7 @@
+Name:Paranoid Archivist
+ManaCost:2 U
+Types:Creature Human Wizard
+PT:1/4
+T:Mode$ ChangesZone | ValidCard$ Artifact.YouCtrl,Enchantment.YouCtrl | Destination$ Battlefield | Execute$ TrigMill | TriggerZones$ Battlefield | TriggerDescription$ Whenever an artifact or enchantment enters the battlefield under your control, target player mills two cards.
+SVar:TrigMill:DB$ Mill | ValidTgts$ Player | TgtPrompt$ Select target player | NumCards$ 2
+Oracle:Whenever an artifact or enchantment enters the battlefield under your control, target player mills two cards.

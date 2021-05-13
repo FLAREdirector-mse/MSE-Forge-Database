@@ -1,0 +1,8 @@
+Name:Ardor of the Masses
+ManaCost:2 R
+Types:Instant
+K:Kicker:1 R
+A:SP$ PumpAll | Cost$ 2 R | ValidCards$ Creature.attacking | NumAtt$ 2 | SubAbility$ DBPumpAll | SpellDescription$ Attacking creatures get +2/+0 until end of turn. Those creatures also gain first strike until end of turn if this spell was kicked.
+SVar:DBPumpAll:DB$ PumpAll | ValidCards$ Creature.attacking | KW$ First Strike | Condition$ Kicked
+Oracle:Kicker {1}{R} (You may pay an additional {1}{R} as you cast this spell.)\nAttacking creatures get +2/+0 until end of turn. Those creatures also gain first strike until end of turn if this spell was kicked.
+

@@ -1,0 +1,10 @@
+Name:Thespian's Finale
+ManaCost:1 U U
+Types:Enchantment
+K:Vanishing:3
+T:Mode$ CounterRemoved | ValidCard$ Card.Self | TriggerZones$ Battlefield | CounterType$ TIME | Execute$ TrigCopy | TriggerDescription$ Whenever a time counter is removed from CARDNAME, create a token that's a copy of target creature. Sacrifice that token at the beginning of your next upkeep.
+SVar:TrigCopy:DB$ CopyPermanent | ValidTgts$ Creature | TgtPrompt$ Select target creature | RememberTokens$ True | SubAbility$ DBDelayed
+SVar:DBDelayed:DB$ DelayedTrigger | Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigSac | RememberObjects$ Remembered | SubAbility$ DBCleanup | TriggerDescription$ Sacrifice that token at the beginning of your next upkeep.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:TrigSac:DB$ SacrificeAll | Defined$ DelayTriggerRememberedLKI
+Oracle:Vanishing 3 (This permanent enters the battlefield with three time counters on it. At the beginning of your upkeep, remove a time counter from it. When the last is removed, sacrifice it.)\nWhenever a time counter is removed from Thespian's Finale, create a token that's a copy of target creature. Sacrifice that token at the beginning of your next upkeep.

@@ -4,10 +4,11 @@ Types:Legendary Planeswalker Mpump
 Loyalty:3
 A:AB$ DealDamage | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 1 | SubAbility$ DBGainLife | SpellDescription$ CARDNAME deals 1 damage to any target and you gain 1 life.
 SVar:DBGainLife:DB$ GainLife | Defined$ You | LifeAmount$ 1
-A:AB$ ChangeZone | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | ValidTgts$ Creature | TgtPrompt$ Select target creature | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target creature.
+A:AB$ ChangeZone | Cost$ SubCounter<X/LOYALTY> | Planeswalker$ True | References$ X | ValidTgts$ Creature | TgtPrompt$ Select target creature with converted mana cost X | Origin$ Battlefield | Destination$ Exile | SpellDescription$ Exile target creature with converted mana cost X.
 A:AB$ ChoosePlayer | Cost$ SubCounter<6/LOYALTY> | Planeswalker$ True | Defined$ You | Choices$ Player.Opponent | SubAbility$ DBChoose1 | SpellDescription$ Choose up to four permanents an opponent controls. That player chooses one, then sacrifices the rest. | StackDescription$ SpellDescription
 SVar:DBChoose1:DB$ ChooseCard | Choices$ Permanent.ChosenCtrl | Amount$ 4 | ChooseTitle$ Select up to four permanents an opponent controls | RememberChosen$ True | SubAbility$ DBChoose2
 SVar:DBChoose2:DB$ ChooseCard | Choices$ Permanent.ChosenCard | Defined$ ChosenPlayer | Amount$ 1 | ChooseTitle$ Select one of the chosen permanents and sacrifice the rest | ForgetChosen$ True | SubAbility$ DBSacAll
 SVar:DBSacAll:DB$ SacrificeAll | ValidCards$ Permanent.IsRemembered+nonChosenCard | Controller$ Player.ChosenPlayer | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearChosenCard$ True
-Oracle:[+1]: Mpumo, Who Stands Alone deals 1 damage to any target and you gain 1 life.\n[–2]: Exile target creature.\n[–6]: Choose up to four permanents an opponent controls. That player chooses one, then sacrifices the rest.
+SVar:X:Targeted$CardManaCost
+Oracle:[+1]: Mpumo, Who Stands Alone deals 1 damage to any target and you gain 1 life.\n[–X]: Exile target creature with converted mana cost X.\n[–6]: Choose up to four permanents an opponent controls. That player chooses one, then sacrifices the rest.

@@ -1,0 +1,8 @@
+Name:Grafted Experiment
+ManaCost:3 U
+Types:Creature Horror
+PT:3/2
+K:Flash
+K:Flying
+Oracle:Flash\nFlying
+

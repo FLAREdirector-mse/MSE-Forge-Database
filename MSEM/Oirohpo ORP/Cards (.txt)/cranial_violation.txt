@@ -1,0 +1,9 @@
+Name:Cranial Violation
+ManaCost:B
+Types:Sorcery
+A:SP$ RevealHand | Cost$ B | Defined$ Player | SubAbility$ DBChoose | SpellDescription$ Each player reveals their hand. Choose a creature card revealed this way. Its owner discards it.
+SVar:DBChoose:DB$ ChooseCard | Choices$ Creature | ChoiceZone$ Hand | RememberChosen$ True | SubAbility$ DBDiscard
+SVar:DBDiscard:DB$ Discard | Mode$ Defined | Defined$ ChosenCardController | DefinedCards$ ValidHand Card.IsRemembered | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearChosenCard$ True
+A:AB$ ChangeZone | Cost$ 2 B B ExileFromGrave<1/CARDNAME> ExileFromGrave<6/Card.Other/other card> | CostDesc$ {2}{B}{B}, Exile CARDNAME and six other cards from your graveyard | ActivationZone$ Graveyard | ValidTgts$ Creature | TgtPrompt$ Select target creature card in a graveyard | Origin$ Graveyard | Destination$ Battlefield | GainControl$ True | SorcerySpeed$ True | SpellDescription$ Put target creature card from a graveyard onto the battlefield under your control. Activate this ability only any time you could cast a sorcery.
+Oracle:Each player reveals their hand. Choose a creature card revealed this way. Its owner discards it.\n{2}{B}{B}, Exile Cranial Violation and six other cards from your graveyard: Put target creature card from a graveyard onto the battlefield under your control. Activate this ability only any time you could cast a sorcery.

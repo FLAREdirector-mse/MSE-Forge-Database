@@ -1,0 +1,5 @@
+Name:Wild Germination
+ManaCost:2 G G
+Types:Sorcery
+A:SP$ GainControl | Cost$ 2 G G | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Gain control of target land.
+Oracle:Gain control of target land.

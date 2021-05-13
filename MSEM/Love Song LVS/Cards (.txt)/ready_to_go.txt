@@ -1,0 +1,13 @@
+Name:Ready to Go
+ManaCost:2 W W
+Types:Sorcery
+A:SP$ Token | Cost$ 2 W W | TokenScript$ c_1_1_a_servo | TokenAmount$ 2 | SpellDescription$ Create two 1/1 colorless Servo artifact creature tokens.
+R:Event$ Moved | ValidLKI$ Card.Self+wasCastFromHand+YouOwn+YouCtrl | Origin$ Stack | Destination$ Graveyard | Fizzle$ False | ReplaceWith$ LMExile | Description$ Leitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)
+SVar:LMExile:DB$ ChangeZone | Origin$ Stack | Destination$ Exile | Defined$ ReplacedCard | RememberChanged$ True | SubAbility$ LMEffect
+SVar:LMEffect:DB$ Effect | Duration$ Permanent | Triggers$ LMTrigger | RememberObjects$ Remembered | SVars$ LMCast | ForgetOnMoved$ Exile | SubAbility$ LMCleanup
+SVar:LMTrigger:Mode$ SpellCast | ValidActivatingPlayer$ You | ValidCard$ Card.isNotRemembered+SharesColorWith | Execute$ LMCast | TriggerZones$ Command | TriggerDescription$ When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.
+SVar:LMCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | Optional$ True
+SVar:LMCleanup:DB$ Cleanup | ClearRemembered$ True
+DeckHas:Ability$Token
+Oracle:Create two 1/1 colorless Servo artifact creature tokens.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)
+

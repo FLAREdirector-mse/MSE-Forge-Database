@@ -1,0 +1,8 @@
+Name:Spit on the Grave
+ManaCost:R G
+Types:Sorcery Tale
+K:DeckLimit:0:(This card can't be included in your deck.)
+A:SP$ Destroy | Cost$ R G | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | SubAbility$ DBDealDamage | SpellDescription$ Destroy target artifact or enchantment. CARDNAME deals 2 damage to that permanent's controller.
+SVar:DBDealDamage:DB$ DealDamage | NumDmg$ 2 | Defined$ TargetedController
+Oracle:Destroy target artifact or enchantment. Spit on the Grave deals 2 damage to that permanent's controller.
+

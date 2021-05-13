@@ -1,0 +1,10 @@
+Name:Dead Man's Party
+ManaCost:U B
+Types:Enchantment
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigColor | OptionalDecider$ You | TriggerDescription$ At the beginning of your upkeep, you may choose a color, then exile two cards of that color from your graveyard. If you do, return a creature, instant, or sorcery card of that color from your graveyard to your hand.
+SVar:TrigColor:DB$ ChooseColor | SubAbility$ DBChangeZone
+SVar:DBChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Hand | Hidden$ True | Mandatory$ True | ChangeType$ Creature.YouCtrl+ChosenColor,Instant.YouCtrl+ChosenColor,Sorcery.YouCtrl+ChosenColor | UnlessCost$ ExileFromGrave<2/Card.ChosenColor/cards of that color> | UnlessPayer$ You | UnlessSwitched$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearChosenColor$ True
+AI:RemoveDeck:All
+Oracle:At the beginning of your upkeep, you may choose a color, then exile two cards of that color from your graveyard. If you do, return a creature, instant, or sorcery card of that color from your graveyard to your hand.
+

@@ -1,0 +1,21 @@
+Name:Keeper of Holy Lands
+ManaCost:2 W
+Types:Creature Human Scout
+PT:2/2
+A:AB$ SetState | Cost$ W U B R G | Defined$ Self | Mode$ Transform | PrecostDesc$ Chosen one | CostDesc$ | SpellDescription$ ({W}{U}{B}{R}{G}: Transform this permanent.)
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChange | TriggerDescription$ When CARDNAME enters the battlefield, you may search your library for an enchantment card, reveal it, then shuffle your library and put that card on top of it.
+SVar:TrigChange:DB$ ChangeZone | Origin$ Library | Destination$ Library | LibraryPosition$ 0 | ChangeType$ Enchantment
+AlternateMode:DoubleFaced
+Oracle:Chosen one ({W}{U}{B}{R}{G}: Transform this permanent.)\nWhen Keeper of Holy Lands enters the battlefield, you may search your library for an enchantment card, reveal it, then shuffle your library and put that card on top of it.
+
+ALTERNATE
+
+Name:Watcher of Sacred Skies
+ManaCost:no cost
+Colors:white,blue,black,red,green
+Types:Creature Archon Scout
+PT:5/5
+K:Flying
+T:Mode$ ChangesZone | ValidCard$ Card.nonToken+nonCreature+nonLand | Destination$ Battlefield | Execute$ TrigCopy | TriggerDescription$ Whenever a nontoken, noncreature, nonland permanent enters the battlefield under your control, create a token that's a copy of that permanent except it has no mana cost and it isn't legendary.
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ TriggeredCard | NonLegendary$ True | RemoveCost$ True
+Oracle:Flying\nWhenever a nontoken, noncreature, nonland permanent enters the battlefield under your control, create a token that's a copy of that permanent except it has no mana cost and it isn't legendary.

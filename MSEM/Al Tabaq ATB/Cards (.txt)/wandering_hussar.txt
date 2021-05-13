@@ -1,0 +1,8 @@
+Name:Wandering Hussar
+ManaCost:1 R
+Types:Creature Human Survivor
+PT:2/1
+S:Mode$ Continuous | Affected$ Survivor.YouCtrl | AddKeyword$ Menace | Description$ Survivors you control have menace.
+DeckHints:Type$Survivor
+SVar:PlayMain1:ALWAYS
+Oracle:Survivors you control have menace.

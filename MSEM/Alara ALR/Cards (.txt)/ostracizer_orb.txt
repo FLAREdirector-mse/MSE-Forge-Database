@@ -1,6 +1,6 @@
 Name:Ostracizer Orb
 ManaCost:1 W
-Types:Enchantment
+Types:Artifact
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile target nonartifact, nonland permanent until CARDNAME leaves the battlefield.
 SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Permanent.nonArtifact+nonLand | TgtPrompt$ Select target nonartifact, nonland permanent | UntilHostLeavesPlay$ True
 SVar:PlayMain1:TRUE

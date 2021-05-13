@@ -1,0 +1,10 @@
+Name:Spikehorn Behemoth
+ManaCost:3 G G
+Types:Creature Rhino Elemental
+PT:5/4
+K:Trample
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | TriggerZones$ Battlefield | Execute$ TrigDraw | TriggerDescription$ When CARDNAME leaves the battlefield or phases out, draw a card.
+T:Mode$ PhaseOut | ValidCard$ Card.Self | Execute$ TrigDraw | Secondary$ True | TriggerDescription$ When CARDNAME leaves the battlefield or phases out, draw a card.
+SVar:TrigDraw:DB$ Draw
+Oracle:Trample\nWhen Spikehorn Behemoth leaves the battlefield or phases out, draw a card.
+

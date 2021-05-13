@@ -1,6 +1,7 @@
 Name:Imperial Claim
 ManaCost:W
 Types:Instant
-A:SP$ ChangeZone | Cost$ W | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBToken | SpellDescription$ Exile target artifact or enchantment. Its controller creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
-SVar:DBToken:DB$ Token | TokenScript$ c_a_treasure_sac | TokenOwner$ TargetedController
+A:SP$ ChangeZone | Cost$ W | ValidTgts$ Artifact,Enchantment | TgtPrompt$ Select target artifact or enchantment | Origin$ Battlefield | Destination$ Exile | RememberLKI$ True | SubAbility$ DBToken | SpellDescription$ Exile target artifact or enchantment. Its controller creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")
+SVar:DBToken:DB$ Token | TokenScript$ c_a_treasure_sac | TokenOwner$ RememberedController | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
 Oracle:Exile target artifact or enchantment. Its controller creates a Treasure token. (It's an artifact with "{T}, Sacrifice this artifact: Add one mana of any color.")

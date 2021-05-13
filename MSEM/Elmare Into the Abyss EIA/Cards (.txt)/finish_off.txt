@@ -1,0 +1,9 @@
+Name:Finish Off
+ManaCost:R
+Types:Instant
+K:Cycling:3
+A:SP$ DealDamage | Cost$ R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ X | SpellDescription$ CARDNAME deals 2 damage to any target. If you've drawn two or more cards this turn, it deals 3 damage instead.
+SVar:X:Count$Compare Y GE2.3.2
+SVar:Y:Count$YouDrewThisTurn
+Oracle:Finish Off deals 2 damage to any target. If you've drawn two or more cards this turn, it deals 3 damage instead.\nCycling {3} ({3}, Discard a card: Draw a card.)
+

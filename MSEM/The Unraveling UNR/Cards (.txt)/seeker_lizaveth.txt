@@ -1,0 +1,10 @@
+Name:Seeker Lizaveth
+ManaCost:1 G
+Types:Legendary Creature Human Scout
+PT:1/3
+T:Mode$ LandPlayed | ValidPlayer$ You | Execute$ TrigInvestigate | TriggerZones$ Battlefield | TriggerDescription$ Whenever you play a land, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+SVar:TrigInvestigate:DB$ Investigate
+A:AB$ DigUntil | Cost$ 1 G U R Sac<3/Clue> | Amount$ 3 | Valid$ Card.nonLand | FoundDestination$ Exile | RevealedDestination$ Exile | RememberFound$ True | RememberRevealed$ True | SubAbility$ DBPlay | SpellDescription$ Exile cards from the top of your library until you exile three nonland cards. You may cast any number of those cards without paying their mana costs.
+SVar:DBPlay:DB$ Play | Valid$ Card.nonLand+IsRemembered | ValidZone$ Exile | Amount$ All | Optional$ True | Controller$ You | WithoutManaCost$ True | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Whenever you play a land, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")\n{1}{G}{U}{R}, Sacrifice three Clues: Exile cards from the top of your library until you exile three nonland cards. You may cast any number of those cards without paying their mana costs.

@@ -1,0 +1,13 @@
+Name:Moonlight Sanctum
+ManaCost:2 W
+Types:Enchantment
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ DBChoice | Static$ True | TriggerDescription$ As Moonlight Sanctum enters the battlefield, choose Waxing or Waning. Waxing — At the beginning of your upkeep, you gain 1 life for each enchantment you control. Waning — Nonenchantment spells cost {1} more to cast.
+SVar:DBChoice:DB$ GenericChoice | Choices$ Waxing,Waning | Defined$ You | SetChosenMode$ True | AILogic$ Waning | ShowChoice$ ExceptSelf
+SVar:Waxing:DB$ Animate | Defined$ Self | Triggers$ WaxingTrigger | Permanent$ True | SpellDescription$ Waxing
+SVar:WaxingTrigger:Mode$ Phase | Phase$ Upkeep | Execute$ TrigGainLife | TriggerDescription$ Waxing — At the beginning of your upkeep, you gain 1 life for each enchantment you control. Waning — Nonenchantment spells cost {1} more to cast.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ X
+SVar:X:Count$Valid Enchantment.YouCtrl
+SVar:Waning:DB$ Animate | Defined$ Self | StaticAbilities$ WaningStatic | Permanent$ True | SpellDescription$ Waning
+SVar:WaningStatic:Mode$ RaiseCost | ValidCard$ Card.nonEnchantment | Type$ Spell | Amount$ 1 | Description$ Waning — Nonenchantment spells cost {1} more to cast.
+AI:RemoveDeck:Random
+Oracle:As Moonlight Sanctum enters the battlefield, choose Waxing or Waning.\n• Waxing — At the beginning of your upkeep, you gain 1 life for each enchantment you control.\n• Waning — Nonenchantment spells cost {1} more to cast.

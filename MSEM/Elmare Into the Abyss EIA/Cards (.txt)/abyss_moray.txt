@@ -1,0 +1,8 @@
+Name:Abyss Moray
+ManaCost:5 G G
+Types:Enchantment Creature Serpent
+PT:7/7
+K:Trample
+K:Cycling:G
+Oracle:Trample (This creature can deal excess combat damage to the player or planeswalker it's attacking.)\nCycling {G} ({G}, Discard this card: Draw a card.)
+

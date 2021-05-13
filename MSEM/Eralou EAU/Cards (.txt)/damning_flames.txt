@@ -1,0 +1,7 @@
+Name:Damning Flames
+ManaCost:1 R
+Types:Instant
+A:SP$ DealDamage | Cost$ 1 R tapXType<3/Artifact;Creature/artifacts and/or creature> | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 6 | NonBasicSpell$ True | CostDesc$ | SpellDescription$ Tithe (As an additional cost to cast this spell, you may tap three artifacts and/or creatures you control.)
+A:SP$ DealDamage | Cost$ 1 R | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ 3 | SpellDescription$ CARDNAME deals 3 damage to any target. If this spell's tithe was paid, it deals 6 damage instead.
+DeckHints:Type$Artifact
+Oracle:Tithe (As an additional cost to cast this spell, you may tap three artifacts and/or creatures you control.)\nDamning Flames deals 3 damage to any target. If this spell's tithe was paid, it deals 6 damage instead.

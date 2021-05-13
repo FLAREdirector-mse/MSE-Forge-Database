@@ -1,0 +1,7 @@
+Name:Palace Gargoyle
+ManaCost:6
+Types:Artifact Creature Gargoyle
+PT:3/5
+K:Flying
+Oracle:Flying
+

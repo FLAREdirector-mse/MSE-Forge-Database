@@ -1,0 +1,8 @@
+Name:Multipurpose Mannequin
+ManaCost:1
+Types:Artifact Creature Construct Actor
+PT:1/1
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ X | AddToughness$ X | Description$ CARDNAME gets +1/+1 for each permanent attached to it.
+SVar:X:Count$Valid Permanent.Attached
+SVar:EquipMe:Multiple
+Oracle:Multipurpose Mannequin gets +1/+1 for each permanent attached to it.

@@ -4,10 +4,10 @@ Types:Sorcery
 A:SP$ Mill | Cost$ 1 B | NumCards$ 3 | ValidTgts$ Player | TgtPrompt$ Choose a player | SubAbility$ DBDraw | SpellDescription$ Target player mills three cards. You draw a card and lose 1 life.
 SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife
 SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1
-R:Event$ Moved | ValidCard$ Card.Self+wasCastFromHand+YouOwn+YouCtrl | Origin$ Stack | Destination$ Graveyard | Fizzle$ False | ReplaceWith$ LMExile | Description$ Leitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)
-SVar:LMExile:DB$ ChangeZone | Origin$ Stack | Destination$ Exile | Defined$ ReplacedCard | RememberChanged$ True | SubAbility$ LMAnimate
-SVar:LMAnimate:DB$ Animate | Defined$ Self | ValidCard$ Remembered | Triggers$ TrigCast | sVars$ DBCast | Permanent$ True
-SVar:TrigCast:Mode$ SpellCast | ValidCard$ Card.SharesColorWith | ValidControllingPlayer$ You | Execute$ DBCast | IsPresent$ Card.IsRemembered | PresentCompare$ GE1 | PresentZone$ Exile | OneOff$ True
-SVar:DBCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | Optional$ True | SubAbility$ DBCleanup
-SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+R:Event$ Moved | ValidLKI$ Card.Self+wasCastFromHand+YouOwn+YouCtrl | Origin$ Stack | Destination$ Graveyard | Fizzle$ False | ReplaceWith$ LMExile | Description$ Leitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)
+SVar:LMExile:DB$ ChangeZone | Origin$ Stack | Destination$ Exile | Defined$ ReplacedCard | RememberChanged$ True | SubAbility$ LMEffect
+SVar:LMEffect:DB$ Effect | Duration$ Permanent | Triggers$ LMTrigger | RememberObjects$ Remembered | SVars$ LMCast | ForgetOnMoved$ Exile | SubAbility$ LMCleanup
+SVar:LMTrigger:Mode$ SpellCast | ValidActivatingPlayer$ You | ValidCard$ Card.isNotRemembered+SharesColorWith | Execute$ LMCast | TriggerZones$ Command | TriggerDescription$ When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.
+SVar:LMCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | Optional$ True
+SVar:LMCleanup:DB$ Cleanup | ClearRemembered$ True
 Oracle:Target player mills three cards. You draw a card and lose 1 life.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)

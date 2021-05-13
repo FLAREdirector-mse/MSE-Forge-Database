@@ -1,0 +1,9 @@
+Name:Seer's Sphere
+ManaCost:1
+Types:Artifact
+A:AB$ Scry | Cost$ 3 T | ScryNum$ 3 | SpellDescription$ Scry 3.
+A:AB$ ChoosePlayer | Cost$ 5 T | Defined$ You | Choices$ Player.Opponent | AILogic$ Curse | SubAbility$ DBDig | SpellDescription$ Fateseal 3.
+SVar:DBDig:DB$ Dig | Defined$ ChosenPlayer | DigNum$ 3 | AnyNumber$ True | DestinationZone$ Library | LibraryPosition$ -1 | LibraryPosition2$ 0 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearChosenPlayer$ True
+A:AB$ Draw | Cost$ 7 T | NumCards$ 3 | SpellDescription$ Draw three cards.
+Oracle:{3}, {T}: Scry 3.\n{5}, {T}: Fateseal 3.\n{7}, {T}: Draw three cards.
