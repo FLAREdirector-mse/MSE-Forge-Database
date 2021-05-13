@@ -1,7 +1,0 @@
-Name:Blind Blackguard
-ManaCost:1 UB UB
-Types:Creature Salamander Rogue 
-PT:3/3
-K:Flash
-K:CARDNAME can't block.
-Oracle:Flash\nBlind Blackguard can't block.\nWhen Blind Blackguard enters the battlefield, target player draws a card, then reveals their hand. You choose a nonland card from that player's hand, then that player puts the chosen card on the bottom of their library.\n

@@ -1,6 +1,0 @@
-Name:Champion of Blades
-ManaCost:R W
-Types:Creature Human Knight 
-PT:1/2
-K:Double Strike
-Oracle:Double strike\nMotley — As long as you control five or more nonland permanents with different names, Champion of Blades has vigilance, trample, and haste.\n

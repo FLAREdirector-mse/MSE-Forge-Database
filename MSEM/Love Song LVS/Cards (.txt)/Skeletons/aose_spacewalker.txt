@@ -1,6 +1,0 @@
-Name:AOSE Spacewalker
-ManaCost:1 W
-Types:Creature Human Scout 
-PT:2/1
-K:Flying
-Oracle:Flying\n

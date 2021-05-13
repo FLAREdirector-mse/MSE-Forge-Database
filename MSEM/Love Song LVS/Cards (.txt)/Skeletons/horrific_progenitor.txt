@@ -1,6 +1,0 @@
-Name:Horrific Progenitor
-ManaCost:6 B B B
-Types:Creature Horror 
-PT:12/12
-K:Trample
-Oracle:Trample\nWhenever Horrific Progenitor deals damage to a player, for each damage dealt, that player loses 3 life unless they sacrifice a nonland permanent or discard a card.\n

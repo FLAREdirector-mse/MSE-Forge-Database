@@ -1,4 +1,0 @@
-Name:Forest
-ManaCost:
-Types:Basic Land Forest
-Oracle:

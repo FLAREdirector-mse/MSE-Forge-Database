@@ -1,6 +1,0 @@
-Name:Dreadtread Rover
-ManaCost:4
-Types:Artifact Vehicle 
-PT:6/4
-K:Menace
-Oracle:Menace\nCrew 3 (Tap any number of creatures you control with total power 3 or greater: This Vehicle becomes an artifact creature until end of turn.)\n

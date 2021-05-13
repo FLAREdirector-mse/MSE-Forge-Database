@@ -1,4 +1,0 @@
-Name:Banish the Intruders
-ManaCost:U
-Types:Instant
-Oracle:Counter target planeswalker spell.\nDraw a card.\n

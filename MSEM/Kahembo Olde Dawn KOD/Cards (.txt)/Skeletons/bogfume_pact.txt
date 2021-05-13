@@ -1,4 +1,0 @@
-Name:Bogfume Pact
-ManaCost:2 B
-Types:Enchantment Aura 
-Oracle:Enchant creature\nWhen Bogfume Pact enters the battlefield, each opponent sacrifices a creature.\nWhen enchanted creature dies, return it to its owner's hand.\n

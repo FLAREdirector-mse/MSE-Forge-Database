@@ -1,5 +1,0 @@
-Name:Ruthless Mastiff
-ManaCost:R
-Types:Creature Hound 
-PT:1/2
-Oracle:{2}{R}: Ruthless Mastiff gets +3/+0 until end of turn.\n

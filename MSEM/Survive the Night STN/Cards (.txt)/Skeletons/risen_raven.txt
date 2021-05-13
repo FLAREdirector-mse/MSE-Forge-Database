@@ -1,7 +1,0 @@
-Name:Risen Raven
-ManaCost:U B
-Types:Creature Bird 
-PT:1/1
-K:Flying
-K:Deathtouch
-Oracle:Flying, deathtouch\nWhenever Risen Raven deals combat damage to a player, draw a card.\n

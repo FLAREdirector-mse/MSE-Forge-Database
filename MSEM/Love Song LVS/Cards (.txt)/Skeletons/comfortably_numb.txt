@@ -1,4 +1,0 @@
-Name:Comfortably Numb
-ManaCost:5 U
-Types:Sorcery
-Oracle:This spell costs {X} less to cast, where X is the greatest power among creatures you control.\nTap up to three target creatures. They don't untap during their controller's next untap step.\n

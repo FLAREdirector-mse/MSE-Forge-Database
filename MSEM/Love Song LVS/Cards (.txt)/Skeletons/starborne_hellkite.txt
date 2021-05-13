@@ -1,6 +1,0 @@
-Name:Starborne Hellkite
-ManaCost:5 R R
-Types:Creature Dragon 
-PT:5/5
-K:Flying
-Oracle:Flying\nWhenever Starborne Hellkite attacks, choose two—\n• Starborne Hellkite deals 4 damage to any target.\n• Destroy target artifact or land.\n• Creatures you control get +2/+0 until end of turn.\n

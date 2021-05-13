@@ -1,5 +1,0 @@
-Name:Eclipse Knight
-ManaCost:W B
-Types:Creature Human Knight 
-PT:2/2
-Oracle:Whenever Eclipse Knight attacks, each opponent loses 1 life. You gain life equal to the life lost this way.\nEclipse Knight gets +1/+1 as long as you have 10 or more life than your starting life total.\nEclipse Knight gets +1/+1 as long as an opponent has 10 or less life than their starting life total.\n

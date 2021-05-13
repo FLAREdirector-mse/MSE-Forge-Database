@@ -1,4 +1,0 @@
-Name:Reenter Orbit
-ManaCost:2 U
-Types:Sorcery
-Oracle:Converge — Exile up to X nonland permanents you control, where X is the number of colors of mana spent to cast Reenter Orbit, then return them to the battlefield under your control.\n

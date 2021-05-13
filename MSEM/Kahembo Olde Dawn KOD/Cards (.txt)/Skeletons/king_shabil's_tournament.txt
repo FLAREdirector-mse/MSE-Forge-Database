@@ -1,4 +1,0 @@
-Name:King Shabil’s Tournament
-ManaCost:3 RW G
-Types:Enchantment Saga 
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nI — Create a 1/1 green Insect creature token.\nII — Create a 2/2 white Cat creature token.\nIII — Create a 3/3 red Ox creature token.\nIV, V, VI, C — Creatures you control gain vigilance and indestructible until end of turn.\n

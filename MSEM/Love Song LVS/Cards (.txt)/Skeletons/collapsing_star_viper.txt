@@ -1,6 +1,0 @@
-Name:Collapsing Star Viper
-ManaCost:X R W
-Types:Creature Elemental Snake 
-PT:3/2
-K:Haste
-Oracle:Haste\nWhen Collapsing Star Viper enters the battlefield, you may tap target permanent with converted mana cost X or less.\nAt the beginning of your upkeep, return Collapsing Star Viper to your hand.\n

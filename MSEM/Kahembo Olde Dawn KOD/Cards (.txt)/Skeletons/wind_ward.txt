@@ -1,4 +1,0 @@
-Name:Wind Ward
-ManaCost:1 U
-Types:Instant
-Oracle:Counter target spell that targets you or a permanent you control. If that spell targeted a creature, put a +1/+1 counter on that creature.\n

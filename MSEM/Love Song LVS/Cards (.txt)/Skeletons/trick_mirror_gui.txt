@@ -1,4 +1,0 @@
-Name:Trick Mirror GUI
-ManaCost:3
-Types:Artifact Equipment 
-Oracle:Equipped creature has menace.\nWhenever equipped creature attacks, look at the top two cards of your library. Put any number of them into your graveyard and the rest back on top of your library in any order.\nEquip {2}\n

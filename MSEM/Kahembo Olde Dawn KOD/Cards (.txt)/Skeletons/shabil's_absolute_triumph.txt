@@ -1,4 +1,0 @@
-Name:Shabil’s Absolute Triumph
-ManaCost:1 W
-Types:Enchantment Saga 
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI, II — Whenever a creature you control attacks alone this turn, put a +1/+1 counter on it.\nIII — Whenever a creature you control attacks alone this turn, it gains double strike and lifelink until end of turn.\n

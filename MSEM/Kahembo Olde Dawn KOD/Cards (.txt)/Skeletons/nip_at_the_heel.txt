@@ -1,4 +1,0 @@
-Name:Nip at the Heel
-ManaCost:R
-Types:Sorcery
-Oracle:Nip at the Heel deals 1 damage to any target. Create a 1/1 red Hound creature token.\n

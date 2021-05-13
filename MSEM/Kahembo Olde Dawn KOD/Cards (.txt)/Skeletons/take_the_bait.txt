@@ -1,4 +1,0 @@
-Name:Take the Bait
-ManaCost:2 WB WB
-Types:Sorcery
-Oracle:Each player sacrifices a creature with the highest power among creatures they control and a creature with the lowest power among creatures they control.\n

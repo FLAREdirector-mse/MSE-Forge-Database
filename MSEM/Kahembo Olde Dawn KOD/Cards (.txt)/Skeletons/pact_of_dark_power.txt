@@ -1,4 +1,0 @@
-Name:Pact of Dark Power
-ManaCost:2 B
-Types:Enchantment Aura 
-Oracle:Enchant creature\nEnchanted creature gets +1/+1 and has flying and indestructible.\nAt the beginning of your upkeep, sacrifice a creature.\n

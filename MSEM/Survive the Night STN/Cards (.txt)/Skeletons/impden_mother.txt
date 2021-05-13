@@ -1,5 +1,0 @@
-Name:Impden Mother
-ManaCost:1 B
-Types:Creature Human Cleric 
-PT:1/1
-Oracle:At the beginning of your upkeep, if you don't control any Imps, you may pay {B}. If you do, create a 1/1 black Imp creature token.\nSacrifice a creature: Each opponent loses 1 life.\n

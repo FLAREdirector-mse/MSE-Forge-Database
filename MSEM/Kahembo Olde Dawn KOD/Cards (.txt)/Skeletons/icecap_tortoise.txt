@@ -1,5 +1,0 @@
-Name:Icecap Tortoise
-ManaCost:5 U
-Types:Creature Turtle Elemental 
-PT:6/6
-Oracle:Icecap Tortoise enters the battlefield with three ice counters on it.\nIcecap Tortoise has defender as long as it has an ice counter on it.\n{1}{U}: Remove an ice counter from Icecap Tortoise.\n

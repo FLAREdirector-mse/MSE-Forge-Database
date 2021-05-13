@@ -1,4 +1,0 @@
-Name:Fractured Illusion
-ManaCost:1 U R
-Types:Instant
-Oracle:Choose any target. Change the text of target instant or sorcery spell to “This spell deals 3 damage to the chosen target. Draw a card.”\n

@@ -1,4 +1,0 @@
-Name:Unending Armies
-ManaCost:3 W W
-Types:Sorcery
-Oracle:Create three 1/1 colorless Servo artifact creature tokens.\nExile Unending Armies. At the beginning of your upkeep, if you have more life than each opponent, you may cast it without paying its mana cost. Otherwise, put it into your graveyard.\n

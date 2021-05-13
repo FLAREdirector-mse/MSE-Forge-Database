@@ -1,6 +1,0 @@
-Name:Fakadeh, Florid Queen
-ManaCost:1 RW U B
-Types:Legendary Creature Bird Noble 
-PT:3/3
-K:Flying
-Oracle:Flying\nWhenever Fakadeh, Florid Queen attacks, you may exile an instant or sorcery card from your graveyard with converted mana cost 3 or less.\nWhenever Fakadeh deals combat damage to a player, cast any number of cards exiled with her without paying their mana costs.\n

@@ -1,5 +1,0 @@
-Name:Blisterbug
-ManaCost:G
-Types:Creature Insect 
-PT:1/1
-Oracle:When Blisterbug dies, put two +1/+1 counters on target creature you control.\n

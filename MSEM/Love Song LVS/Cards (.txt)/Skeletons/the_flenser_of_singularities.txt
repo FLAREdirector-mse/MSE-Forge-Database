@@ -1,5 +1,0 @@
-Name:The Flenser of Singularities
-ManaCost:5 B B
-Types:Legendary Creature Elemental Horror 
-PT:7/5
-Oracle:Whenever an opponent activates an ability of a nonland permanent, destroy that permanent.\n{3}{U}{B}{R}: Exile target creature or planeswalker card in a graveyard. Create a token that's a copy of it.\n

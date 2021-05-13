@@ -1,7 +1,0 @@
-Name:Lunar Emissary
-ManaCost:1 W U
-Types:Creature Bird 
-PT:3/3
-K:Flash
-K:Flying
-Oracle:Flash\nFlying\nWhen Lunar Emissary enters the battlefield, exile another target creature you control until Lunar Emissary leaves the battlefield.\n

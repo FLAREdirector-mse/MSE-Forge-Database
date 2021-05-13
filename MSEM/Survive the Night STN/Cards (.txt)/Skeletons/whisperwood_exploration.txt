@@ -1,4 +1,0 @@
-Name:Whisperwood Exploration
-ManaCost:B G
-Types:Instant
-Oracle:Mill three cards, then return a nonland card from your graveyard to your hand.\n

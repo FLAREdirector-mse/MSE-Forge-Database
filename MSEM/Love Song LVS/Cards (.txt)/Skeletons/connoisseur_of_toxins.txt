@@ -1,6 +1,0 @@
-Name:Connoisseur of Toxins
-ManaCost:1 G
-Types:Creature Human Druid 
-PT:1/2
-K:Deathtouch
-Oracle:Deathtouch\nCadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\n

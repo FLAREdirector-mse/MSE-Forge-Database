@@ -1,4 +1,0 @@
-Name:Return to Earth
-ManaCost:1 G
-Types:Sorcery
-Oracle:Destroy target artifact or enchantment. If you controlled that artifact or enchantment, draw two cards.\n

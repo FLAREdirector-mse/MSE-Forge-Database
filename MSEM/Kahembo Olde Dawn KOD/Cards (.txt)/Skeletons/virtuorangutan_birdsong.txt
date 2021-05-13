@@ -1,6 +1,0 @@
-Name:Virtuorangutan
-ManaCost:2 R
-Types:Creature Ape Bard 
-PT:2/1
-K:Trample
-Oracle:Trample\nWhenever you cast a noncreature spell, put a +1/+1 counter on Virtuorangutan.\n

@@ -1,4 +1,0 @@
-Name:Spires of Caulte
-ManaCost:
-Types:Land Swamp Mountain 
-Oracle:({T}: Add {B} or {R}.)\nAs Spires of Caulte enters the battlefield, you may torment yourself. If you don't, it enters the battlefield tapped. (You lose 3 life unless you discard a card or sacrifice a nonland permanent.)\n

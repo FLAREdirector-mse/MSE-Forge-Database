@@ -1,5 +1,0 @@
-Name:Verdant Dominion
-ManaCost:
-Types:Land Swamp Forest Island 
-K:CARDNAME enters the battlefield tapped.
-Oracle:({T}: Add {B}, {G}, or {U}.)\nVerdant Dominion enters the battlefield tapped.\n

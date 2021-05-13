@@ -1,4 +1,0 @@
-Name:Nebula’s Call
-ManaCost:G
-Types:Sorcery
-Oracle:Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nAdd one mana of any color.\n

@@ -1,5 +1,0 @@
-Name:Field Technician
-ManaCost:2 U
-Types:Creature Human Artificer 
-PT:2/2
-Oracle:When Field Technician enters the battlefield, you may search your library for an artifact card, reveal it, then shuffle your library and put that card on top of it.\nArtifact creatures you control get +1/+1.\n

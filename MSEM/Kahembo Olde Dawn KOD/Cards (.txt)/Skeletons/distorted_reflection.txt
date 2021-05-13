@@ -1,4 +1,0 @@
-Name:Distorted Reflection
-ManaCost:1 UR UR
-Types:Sorcery
-Oracle:Draw three cards, then exile three cards from your hand. Until end of turn, you may cast nonland cards exiled this way.\n

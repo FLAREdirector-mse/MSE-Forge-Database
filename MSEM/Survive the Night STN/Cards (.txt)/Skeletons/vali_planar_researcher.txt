@@ -1,5 +1,0 @@
-Name:Vali, Planar Researcher
-ManaCost:B G U
-Types:Legendary Planeswalker Vali 
-Loyalty:3
-Oracle:[+1]: Reveal the top card of your library. If it doesn't share a name with a card in your graveyard or your battlefield, put it into your hand. Otherwise, put it into your graveyard.\n[-2]: Return target card from your graveyard to your hand.\n[-8]: Return all other cards from your graveyard to your hand. Until end of turn, spells you cast cost {5} less to cast.\n

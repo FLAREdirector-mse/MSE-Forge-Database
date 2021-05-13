@@ -1,5 +1,0 @@
-Name:Wandering Precursor
-ManaCost:2 R
-Types:Creature Elemental Scout 
-PT:1/2
-Oracle:Whenever you cast a spell, Wandering Precursor gets +1/+0 until end of turn for each color of mana spent to cast that spell.\n

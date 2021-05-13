@@ -1,4 +1,0 @@
-Name:Dream of Greatness
-ManaCost:1 R
-Types:Sorcery
-Oracle:As an additional cost to cast this spell, discard a card.\nDraw two cards. Add one mana of any color.\n

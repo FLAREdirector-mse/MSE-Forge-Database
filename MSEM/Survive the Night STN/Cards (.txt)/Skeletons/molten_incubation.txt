@@ -1,4 +1,0 @@
-Name:Molten Incubation
-ManaCost:R
-Types:Enchantment
-Oracle:Whenever you cast a noncreature spell, put a hatch counter on Molten Incubation. Then if it has five hatch counters on it, sacrifice it and choose one —\n• Create a 5/5 red Dragon creature token with flying.\n• Molten Incubation deals 20 damage to each creature.\n

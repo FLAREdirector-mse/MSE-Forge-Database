@@ -1,5 +1,0 @@
-Name:Xenoflora Expert
-ManaCost:1 G U
-Types:Creature Human Scout 
-PT:1/4
-Oracle:You may play an additional land each turn.\nWhenever a player plays a land, that player draws a card.\n

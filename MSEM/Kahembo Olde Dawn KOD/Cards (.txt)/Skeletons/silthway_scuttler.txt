@@ -1,5 +1,0 @@
-Name:Silthway Scuttler
-ManaCost:BG BG
-Types:Creature Insect 
-PT:2/2
-Oracle:{2}{B/G}: Return Silthway Scuttler from your graveyard to your hand.\n{2}{B/G}, Exile Silthway Scuttler from your graveyard: Put two +1/+1 counters on target creature.\n

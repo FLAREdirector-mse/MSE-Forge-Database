@@ -1,5 +1,0 @@
-Name:Greypelt Clergy
-ManaCost:1 W
-Types:Creature Hound Cleric 
-PT:1/1
-Oracle:When Greypelt Clergy enters the battlefield, choose one —\n• Put a +1/+1 counter on Greypelt Clergy.\n• Permutate. (You may remove a counter from a creature you control. If you do, put two +1/+1 counters on a different creature you control.)\n

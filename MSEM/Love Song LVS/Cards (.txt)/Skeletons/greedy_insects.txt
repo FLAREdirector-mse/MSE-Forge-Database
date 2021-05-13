@@ -1,5 +1,0 @@
-Name:Greedy Insects
-ManaCost:3 G
-Types:Creature Insect 
-PT:4/4
-Oracle:When Greedy Insects enters the battlefield, exile up to one target artifact or enchantment until Greedy Insects leaves the battlefield.\n

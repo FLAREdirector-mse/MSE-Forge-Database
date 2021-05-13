@@ -1,5 +1,0 @@
-Name:Spellflux Skeleton
-ManaCost:1 B
-Types:Creature Skeleton Wizard 
-PT:2/1
-Oracle:Whenever you cast a noncreature spell, you may pay {U}. If you do or the spell was cast from your graveyard, draw a card.\n

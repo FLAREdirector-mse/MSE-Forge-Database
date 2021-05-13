@@ -1,6 +1,0 @@
-Name:Skyflock Warrior
-ManaCost:3 W
-Types:Creature Human Warrior 
-PT:2/3
-K:Flying
-Oracle:Flying\nWhenever Skyflock Warrior or another creature you control with flying attacks, create a 1/1 white Bird creature token with flying.\n

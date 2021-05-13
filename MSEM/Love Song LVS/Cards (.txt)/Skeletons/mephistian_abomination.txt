@@ -1,6 +1,0 @@
-Name:Mephistian Abomination
-ManaCost:3 B
-Types:Creature Elemental Horror 
-PT:4/3
-K:Menace
-Oracle:Menace\n

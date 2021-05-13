@@ -1,4 +1,0 @@
-Name:Fuel the Arcflame
-ManaCost:2 B
-Types:Sorcery
-Oracle:Look at the top three cards of your library. Put one on top and the rest on the bottom in any order.\nDraw two cards. You lose 2 life.\n

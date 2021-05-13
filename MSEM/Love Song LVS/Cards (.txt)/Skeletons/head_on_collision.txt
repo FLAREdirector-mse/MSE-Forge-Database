@@ -1,4 +1,0 @@
-Name:Head on Collision
-ManaCost:2 R
-Types:Instant
-Oracle:Head on Collision deals 2 damage to any target.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)\n

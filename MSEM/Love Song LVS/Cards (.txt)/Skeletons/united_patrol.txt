@@ -1,5 +1,0 @@
-Name:United Patrol
-ManaCost:4 W
-Types:Creature Human Soldier 
-PT:2/5
-Oracle:Cadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\nUnited Patrol can block an additional creature each combat.\n

@@ -1,4 +1,0 @@
-Name:Persevere
-ManaCost:1 W
-Types:Instant
-Oracle:Return target creature card with converted mana cost 3 or less from your graveyard to the battlefield. Put a +1/+1 counter on it. It gains indestructible until end of turn.\n

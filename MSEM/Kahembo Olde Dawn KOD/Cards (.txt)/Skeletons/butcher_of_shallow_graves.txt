@@ -1,6 +1,0 @@
-Name:Butcher of Shallow Graves
-ManaCost:3 B B
-Types:Creature Crocodile Warlock 
-PT:5/6
-K:Deathtouch
-Oracle:Deathtouch\nOnce each turn, you may cast a creature card from your graveyard by paying life equal to its converted mana cost rather than paying its mana cost.\n

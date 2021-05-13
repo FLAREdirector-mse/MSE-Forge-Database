@@ -1,5 +1,0 @@
-Name:Coldblood Bender
-ManaCost:3 G
-Types:Creature Lizard Wizard 
-PT:4/4
-Oracle:At the beginning of combat on your turn, target creature you control has base power and toughness 4/4 until end of turn.\n

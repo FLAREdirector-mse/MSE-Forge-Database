@@ -1,7 +1,7 @@
 Name:Find Happiness in Misery
 ManaCost:1 B
 Types:Sorcery
-A:SP$ Mill | Cost$ 1 B | NumCards$ 3 | ValidTgts$ Player | TgtPrompt$ Choose a player | SubAbility$ DBDraw | SpellDescription$ Target player mills three cards. You draw a card and lose 1 life.
+A:SP$ Mill | Cost$ 1 B | NumCards$ 2 | ValidTgts$ Player | TgtPrompt$ Choose a player | SubAbility$ DBDraw | SpellDescription$ Target player mills two cards. You draw a card and lose 1 life.
 SVar:DBDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife
 SVar:DBLoseLife:DB$ LoseLife | Defined$ You | LifeAmount$ 1
 R:Event$ Moved | ValidLKI$ Card.Self+wasCastFromHand+YouOwn+YouCtrl | Origin$ Stack | Destination$ Graveyard | Fizzle$ False | ReplaceWith$ LMExile | Description$ Leitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)
@@ -10,4 +10,4 @@ SVar:LMEffect:DB$ Effect | Duration$ Permanent | Triggers$ LMTrigger | RememberO
 SVar:LMTrigger:Mode$ SpellCast | ValidActivatingPlayer$ You | ValidCard$ Card.isNotRemembered+SharesColorWith | Execute$ LMCast | TriggerZones$ Command | TriggerDescription$ When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.
 SVar:LMCast:DB$ Play | Defined$ Remembered | WithoutManaCost$ True | Optional$ True
 SVar:LMCleanup:DB$ Cleanup | ClearRemembered$ True
-Oracle:Target player mills three cards. You draw a card and lose 1 life.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)
+Oracle:Target player mills two cards. You draw a card and lose 1 life.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)

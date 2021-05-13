@@ -1,4 +1,0 @@
-Name:Disassociate
-ManaCost:1 W
-Types:Enchantment
-Oracle:When Disassociate enters the battlefield, exile target creature until Disassociate leaves the battlefield.\n

@@ -1,6 +1,0 @@
-Name:Theurgic Flock
-ManaCost:1 W U
-Types:Creature Bird 
-PT:2/2
-K:Flying
-Oracle:Flying\nWhenever Theurgic Flock deals combat damage to a player, if it doesn't have a +1/+1 counter on it, put a +1/+1 counter on it.\n

@@ -1,4 +1,0 @@
-Name:Explore Forgotten Lands
-ManaCost:3 UB G
-Types:Sorcery
-Oracle:Mill five cards, then return up to one creature card, up to one land card, and up to one noncreature, nonland card from your graveyard to your hand. Exile Explore Forgotten Lands.\n

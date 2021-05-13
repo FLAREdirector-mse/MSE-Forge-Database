@@ -1,4 +1,0 @@
-Name:Gaze Over the Wilds
-ManaCost:2 G G
-Types:Sorcery
-Oracle:Search your library for three land cards with different names. Put one onto the battlefield, one into your hand, and one into your graveyard. Then shuffle your library.\n

@@ -1,4 +1,0 @@
-Name:Malnourish
-ManaCost:1 B
-Types:Enchantment Aura 
-Oracle:Enchant creature\nEnchanted creature gets -3/-3.\n

@@ -1,6 +1,0 @@
-Name:Mwiti, Ever-Scarred
-ManaCost:4 R
-Types:Legendary Creature Hound Warrior 
-PT:5/3
-K:Menace
-Oracle:Menace\nOther attacking Hounds you control get +2/+0.\n

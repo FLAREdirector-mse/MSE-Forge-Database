@@ -1,4 +1,0 @@
-Name:Ayala’s Steeple
-ManaCost:2
-Types:Artifact
-Oracle:You may sacrifice a land and pay 3 life instead of paying Ayala's Steeple's mana cost.\n{T}: Add {C}.\n

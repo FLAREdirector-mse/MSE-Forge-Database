@@ -1,4 +1,0 @@
-Name:Hell’s Verdict
-ManaCost:X R R
-Types:Sorcery
-Oracle:Target opponent may have you draw X cards. If they don't, reveal the top X cards of your library. Hell's Verdict deals damage to that player equal to the total converted mana cost of cards revealed this way.\n

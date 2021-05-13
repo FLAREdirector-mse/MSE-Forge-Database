@@ -1,5 +1,0 @@
-Name:Mining Rover Manager
-ManaCost:1 W
-Types:Creature Human Artificer 
-PT:1/2
-Oracle:When Mining Rover Manager enters the battlefield, create a 1/1 colorless Servo artifact creature token.\n

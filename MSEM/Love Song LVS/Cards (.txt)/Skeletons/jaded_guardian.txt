@@ -1,6 +1,0 @@
-Name:Jaded Guardian
-ManaCost:3 B B
-Types:Creature Elemental 
-PT:5/4
-K:Menace
-Oracle:Menace\nAugmented — Whenever you cast a spell, if you've spent {W}{U}{B}{R}{G} on spells this turn, put a +1/+1 counter on Jaded Guardian. It loses this ability and gains “Whenever this creature attacks, defending player sacrifices two permanents.”\n

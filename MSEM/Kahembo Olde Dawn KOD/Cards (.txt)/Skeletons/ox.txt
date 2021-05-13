@@ -1,5 +1,0 @@
-Name:Ox
-ManaCost:
-Types:Token Creature Ox 
-PT:3/3
-Oracle:

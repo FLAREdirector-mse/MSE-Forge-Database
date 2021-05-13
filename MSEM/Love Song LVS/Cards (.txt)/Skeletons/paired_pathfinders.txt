@@ -1,6 +1,0 @@
-Name:Paired Pathfinders
-ManaCost:2 W
-Types:Creature Human Scout 
-PT:3/2
-K:Vigilance
-Oracle:Vigilance\nWhen Paired Pathfinders enters the battlefield, if three or more colors were spent to cast it, create a 1/1 colorless Servo creature token.\n

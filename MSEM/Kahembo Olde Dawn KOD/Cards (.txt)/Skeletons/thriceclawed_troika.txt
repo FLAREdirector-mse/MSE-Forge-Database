@@ -1,6 +1,0 @@
-Name:Thrice-Clawed Troika
-ManaCost:1 GU B R
-Types:Legendary Creature Cat Wizard 
-PT:2/2
-K:Haste
-Oracle:Haste\nAt the beginning of combat on your turn, create two nonlegendary token copies of Thrice-Clawed Troika. Then for each creature token created this way, create token copies of each permanent attached to Thrice-Clawed Troika and attach them to that creature token. Exile all tokens created this way at the end of combat.\n

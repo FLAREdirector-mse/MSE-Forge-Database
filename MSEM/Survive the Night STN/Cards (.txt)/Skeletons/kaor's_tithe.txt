@@ -1,4 +1,0 @@
-Name:Kaor’s Tithe
-ManaCost:1 R
-Types:Enchantment
-Oracle:Whenever an opponent casts a noncreature spell, create a Treasure token. (They're artifacts with “{T}, Sacrifice this artifact: Add one mana of any color.”)\n

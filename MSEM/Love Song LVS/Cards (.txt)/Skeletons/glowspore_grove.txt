@@ -1,4 +1,0 @@
-Name:Glowspore Grove
-ManaCost:W
-Types:Enchantment
-Oracle:When Glowspore Grove enters the battlefield or dies, create a 1/1 blue Elemental creature token with flying.\n

@@ -1,5 +1,0 @@
-Name:Pakka, the Shadowcloak
-ManaCost:1 B
-Types:Legendary Creature Cat Rogue 
-PT:2/1
-Oracle:Whenever a creature dies, Pakka, the Shadowcloak deals 1 damage to each opponent.\n

@@ -1,4 +1,0 @@
-Name:Rumble in the Jungle
-ManaCost:5 RG RG
-Types:Enchantment Saga 
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after IV.)\nWhenever a creature enters the battlefield under your control, you may have it deal damage equal to its power to another target creature or planeswalker.\nI, II, III — Exile the top two cards of your library. You may put a creature card from among them onto the battlefield with a +1/+1 counter on it. It gains haste.\nIV — Creatures you control get +3/+3 and gain trample until end of turn.\n

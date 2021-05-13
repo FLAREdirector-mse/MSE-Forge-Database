@@ -1,4 +1,0 @@
-Name:When the Stars Align
-ManaCost:2 W
-Types:Instant
-Oracle:You gain 5 life and draw a card. Then if you've cast spells named When the Stars Align five times this game, you win the game.\nAugmented — If you've spent {W}{U}{B}{R}{G} on spells this turn, you may shuffle When the Stars Align into your library.\n

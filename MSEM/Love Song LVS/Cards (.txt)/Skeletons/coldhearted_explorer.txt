@@ -1,7 +1,0 @@
-Name:Coldhearted Explorer
-ManaCost:1 B
-Types:Creature Human Assassin 
-PT:3/1
-K:Haste
-K:CARDNAME can't block.
-Oracle:Haste\nColdhearted Explorer can't block.\n

@@ -1,4 +1,0 @@
-Name:On the Shoulders of Giants
-ManaCost:2 G
-Types:Enchantment
-Oracle:Whenever a creature dies, put a +1/+1 counter on each creature you control with power less than it.\n{3}{G}, Sacrifice a creature: Draw cards equal to the sacrificed creature's power.\n

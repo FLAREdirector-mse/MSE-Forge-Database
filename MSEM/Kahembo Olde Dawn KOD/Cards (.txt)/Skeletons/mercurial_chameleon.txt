@@ -1,5 +1,0 @@
-Name:Mercurial Chameleon
-ManaCost:2 GU GU
-Types:Creature Lizard 
-PT:2/2
-Oracle:{2}{G/U}{G/U}, {T}: Untap each non-Lizard permanent you control.\n

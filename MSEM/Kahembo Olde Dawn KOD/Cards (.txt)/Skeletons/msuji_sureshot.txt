@@ -1,5 +1,0 @@
-Name:Msuji Sureshot
-ManaCost:4 WU B
-Types:Creature Lizard Archer 
-PT:6/6
-Oracle:Protection from spells\nWhen Msuji Sureshot enters the battlefield, search your library for an instant, sorcery, or Aura card that targets, reveal it, put it into your hand, then shuffle your library.\n

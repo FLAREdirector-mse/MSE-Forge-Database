@@ -1,6 +1,0 @@
-Name:Ominous Hart
-ManaCost:7 B B
-Types:Creature Elk 
-PT:4/3
-K:Menace
-Oracle:This spell costs {1} less to cast for each card in your graveyard.\nMenace\n

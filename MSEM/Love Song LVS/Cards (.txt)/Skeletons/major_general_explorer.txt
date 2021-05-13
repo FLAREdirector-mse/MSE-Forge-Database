@@ -1,6 +1,0 @@
-Name:Major General Explorer
-ManaCost:6 W
-Types:Creature Human Soldier 
-PT:3/5
-K:Vigilance
-Oracle:This spell costs {X} less to cast, where X is the number of creatures you control.\nVigilance\n

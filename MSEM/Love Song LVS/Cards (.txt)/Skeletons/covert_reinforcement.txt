@@ -1,5 +1,0 @@
-Name:Covert Reinforcement
-ManaCost:3 W
-Types:Creature Human Soldier 
-PT:1/4
-Oracle:When Covert Reinforcement enters the battlefield, exile target nonland permanent an opponent controls until Covert Reinforcement leaves the battlefield.\n

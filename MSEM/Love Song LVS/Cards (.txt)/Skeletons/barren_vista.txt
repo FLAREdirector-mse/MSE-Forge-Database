@@ -1,5 +1,0 @@
-Name:Barren Vista
-ManaCost:
-Types:Land
-K:CARDNAME enters the battlefield tapped.
-Oracle:Barren Vista enters the battlefield tapped.\n{T}: Add {U} or {B}.\n{1}, {T}: Add one mana of any color.\n

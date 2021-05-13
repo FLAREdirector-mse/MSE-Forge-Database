@@ -1,6 +1,0 @@
-Name:Kafyabari Enforcer
-ManaCost:2 B R
-Types:Creature Hyena Warrior 
-PT:4/3
-K:Haste
-Oracle:Haste\nWhenever another creature you control dies, you may return an Aura that was attached to that creature to the battlefield attached to Kafyabari Enforcer.\n

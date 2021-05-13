@@ -1,4 +1,0 @@
-Name:Far-Off Lands
-ManaCost:
-Types:Token Land
-Oracle:{T}: Add one mana of any color.\n

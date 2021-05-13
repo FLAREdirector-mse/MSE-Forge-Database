@@ -1,7 +1,0 @@
-Name:Emergent Predator
-ManaCost:3 R R
-Types:Creature Beast 
-PT:4/3
-K:Menace
-K:Haste
-Oracle:Menace, haste\n

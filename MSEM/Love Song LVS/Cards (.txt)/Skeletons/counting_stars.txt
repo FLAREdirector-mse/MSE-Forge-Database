@@ -1,4 +1,0 @@
-Name:Counting Stars
-ManaCost:2 W
-Types:Enchantment Aura 
-Oracle:Enchant creature\nEnchanted creature gets +2/+2 and has “Whenever this creature attacks, tap target creature defending player controls.”\n

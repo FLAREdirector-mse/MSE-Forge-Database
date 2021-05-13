@@ -1,4 +1,0 @@
-Name:No Rest
-ManaCost:2 W B
-Types:Sorcery
-Oracle:Return target permanent card with converted mana cost 3 or less from any graveyard to the battlefield under your control.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)\n

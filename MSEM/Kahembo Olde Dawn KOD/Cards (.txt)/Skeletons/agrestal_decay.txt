@@ -1,4 +1,0 @@
-Name:Agrestal Decay
-ManaCost:1 BG
-Types:Enchantment
-Oracle:At the beginning of your precombat main phase, exile target card in a graveyard. If it's a creature card, put a +1/+1 counter on target creature you control. If it's a land card, add {C}. If it's a noncreature, nonland card, you gain 3 life.\n

@@ -1,4 +1,0 @@
-Name:Thunder Road
-ManaCost:1 R W
-Types:Instant
-Oracle:Augmented — When you cast Thunder Road, if you've spent {W}{U}{B}{R}{G} on spells this turn, copy it twice. You may choose new targets for the copies.\nThunder Road deals 3 damage to any target. You gain 3 life.\n

@@ -1,6 +1,0 @@
-Name:Kwende Peak Hunstman
-ManaCost:4 G
-Types:Creature Lizard Warrior 
-PT:3/5
-K:Vigilance
-Oracle:Vigilance\nPrismatic — Whenever you cast a multicolored spell, put a +1/+1 counter on Kwende Peak Hunstman.\n

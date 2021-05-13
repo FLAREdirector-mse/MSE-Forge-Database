@@ -1,4 +1,0 @@
-Name:Show of Dominance
-ManaCost:1 G
-Types:Sorcery
-Oracle:Target creature you control deals damage equal to its power to target creature you don't control. For each point of excess damage dealt this way, put a +1/+1 counter on the creature you control.\n

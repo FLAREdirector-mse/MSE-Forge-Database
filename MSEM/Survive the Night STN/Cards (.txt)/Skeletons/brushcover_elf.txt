@@ -1,5 +1,0 @@
-Name:Brushcover Elf
-ManaCost:G
-Types:Creature Elf 
-PT:1/1
-Oracle:Whenever a creature you control becomes the target of a spell or ability, counter it unless its controller pays {1}. Whenever they do, put a +1/+1 counter on Brushcover Elf. (This includes your spells and abilities.)\n

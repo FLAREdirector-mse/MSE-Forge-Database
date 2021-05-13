@@ -1,4 +1,0 @@
-Name:Between Life and Death
-ManaCost:X B B
-Types:Instant
-Oracle:Return up to two target creature cards with converted mana cost X or less from your graveyard to the battlefield. They can't block this turn.\n

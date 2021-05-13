@@ -1,5 +1,0 @@
-Name:Glitch, Galactic Muse
-ManaCost:2 U R W
-Types:Legendary Planeswalker Glitch 
-Loyalty:1
-Oracle:Converge — Glitch enters the battlefield with an additional loyalty counter on her for each color of mana spent to cast her.\n[+1]: Create two 1/1 blue Elemental creature tokens with flying.\n[-3]: Draw two cards. When you do, Glitch deals damage to any target equal to the number of cards in your hand.\n[-10]: Destroy all lands, enchantments, and artifacts you don't control.\n

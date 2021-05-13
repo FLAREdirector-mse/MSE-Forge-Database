@@ -1,4 +1,0 @@
-Name:Time After Time
-ManaCost:3 U U
-Types:Enchantment
-Oracle:Instant and sorcery spells you control have leitmotif. (Exile that spell as it resolves if you cast it from your hand. When you next cast a spell that shares a color with that card, you may cast it from exile without paying its mana cost.)\n

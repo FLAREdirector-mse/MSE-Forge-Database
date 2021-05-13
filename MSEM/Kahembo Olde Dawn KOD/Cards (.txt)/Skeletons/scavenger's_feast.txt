@@ -1,4 +1,0 @@
-Name:Scavenger’s Feast
-ManaCost:1 WB
-Types:Sorcery
-Oracle:Exile target creature with converted mana cost 2 or less.\n

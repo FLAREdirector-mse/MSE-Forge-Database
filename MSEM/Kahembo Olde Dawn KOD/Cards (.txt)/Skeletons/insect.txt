@@ -1,5 +1,0 @@
-Name:Insect
-ManaCost:
-Types:Token Creature Insect 
-PT:1/1
-Oracle:

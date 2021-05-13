@@ -1,4 +1,0 @@
-Name:Fleeting Discoveries
-ManaCost:R
-Types:Sorcery
-Oracle:Exile the top two cards of your library. You may play one of them until the end of your next turn.\nMotley — If there are five or more names among nonland permanents you control, you may play both of them until the end of your next turn instead.\n

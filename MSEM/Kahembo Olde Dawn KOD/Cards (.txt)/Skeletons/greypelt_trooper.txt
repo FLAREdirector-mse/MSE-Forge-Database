@@ -1,5 +1,0 @@
-Name:Greypelt Trooper
-ManaCost:1 R W
-Types:Creature Hound Warrior 
-PT:3/2
-Oracle:{1}, {T}: Search your library for a card named Greypelt Trooper, reveal it, put it into your hand, then shuffle your library. Activate this ability only any time you could cast a sorcery.\n

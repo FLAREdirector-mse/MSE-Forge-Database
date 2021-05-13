@@ -1,4 +1,0 @@
-Name:New Divide
-ManaCost:
-Types:Land
-Oracle:As New Divide enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.\n{T}, Sacrifice New Divide: Search your library for a basic land card and put it onto the battlefield, then shuffle your library.\n

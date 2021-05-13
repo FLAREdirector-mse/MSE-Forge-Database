@@ -1,4 +1,0 @@
-Name:Fateful Eruption
-ManaCost:4 R R
-Types:Sorcery
-Oracle:Each player sacrifices six permanents.\n

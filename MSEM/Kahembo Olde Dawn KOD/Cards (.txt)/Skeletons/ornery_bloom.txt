@@ -1,4 +1,0 @@
-Name:Ornery Bloom
-ManaCost:1 G U
-Types:Sorcery
-Oracle:Draw two cards. Create a tapped colorless artifact token named Lotus Petal with “{T}, Sacrifice this artifact: Add one mana of any color.”\n

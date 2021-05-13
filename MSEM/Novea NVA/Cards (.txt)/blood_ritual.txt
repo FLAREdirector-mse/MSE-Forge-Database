@@ -1,5 +1,6 @@
 Name:Blood Ritual
 ManaCost:B
 Types:Instant
-A:SP$ LoseLife | Cost$ B | ValidTgts$ Player | TgtPrompt$ Select a player | LifeAmount$ 3 | SpellDescription$ Target player loses 3 life.
-Oracle:Target player loses 3 life.
+A:SP$ ChangeZone | Cost$ 1 B | TargetMin$ 0 | TargetMax$ 3 | TargetsFromSingleZone$ True | Origin$ Graveyard | Destination$ Exile | TgtPrompt$ Select up to three target cards in a single graveyard | ValidTgts$ Card | SubAbility$ DBGainLife | SpellDescription$ Exile up to three target cards from a single graveyard. You gain 3 life.
+SVar:DBGainLife:DB$ GainLife | LifeAmount$ 3
+Oracle:Exile up to three target cards from a single graveyard. You gain 3 life.

@@ -1,6 +1,0 @@
-Name:Darkwing Wretch
-ManaCost:U B
-Types:Creature Bird 
-PT:2/1
-K:Flying
-Oracle:Flying\nAt the beginning of your upkeep, if you have at least two more cards in hand than any opponent, scry 1.\n

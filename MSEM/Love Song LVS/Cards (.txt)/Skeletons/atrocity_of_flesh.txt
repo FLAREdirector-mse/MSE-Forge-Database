@@ -1,5 +1,0 @@
-Name:Atrocity of Flesh
-ManaCost:5 B G
-Types:Creature Horror 
-PT:4/4
-Oracle:When Atrocity of Flesh enters the battlefield, destroy target nonland permanent.\nWhen Atrocity of Flesh dies, you may exile it. If you do, return target card from your graveyard to your hand.\n

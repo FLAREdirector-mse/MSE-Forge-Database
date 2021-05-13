@@ -1,5 +1,0 @@
-Name:Combat Technician
-ManaCost:2 W
-Types:Creature Human Artificer 
-PT:1/1
-Oracle:Whenever Combat Technician attacks, create a 1/1 colorless Servo artifact creature token tapped and attacking. Then, Combat Technician gets +1/+1 until end of turn for each artifact you control.\n

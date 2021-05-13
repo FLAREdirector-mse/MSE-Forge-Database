@@ -1,0 +1,85 @@
+[metadata]
+Code=HZN
+Date=2021-05-01
+Name=MSEM: New Horizons
+Type=Other
+Booster=10 Common, 3 Uncommon, 1 RareMythic, 1 BasicLand
+
+[cards]
+1 R Demonbane Grenadier
+2 R Hexplate Companion
+3 R Kenleigh, Liege of Redemption
+4 U Lay Low
+5 R Protective Memory
+6 C Soul's Attendant
+7 M Tyriel, Angelic Artisan
+8 R Waxing Angel
+9 M Eye of Dismay
+10 R Invent the Future
+11 R Iterative Design
+12 R Powder Scatterer
+13 R Project Head
+14 U Reveal Eternities
+15 U Stormcaller Sentinel
+16 R Wave Racer
+17 U Willow Spirit
+18 U Clean-Up Crew
+19 R Diviner of Blood
+20 M Hunger
+21 C Inescapable Fate
+22 R Mind-Pryer
+23 R Night of the Unliving
+24 R Noxious Upwelling
+25 R Void Portal
+26 C Brutal Blow
+27 U Flamedaunt Courier
+28 U Forked Pillar
+29 R Gold Retriever
+30 R Grin, Scourge of Goresand
+31 U Mystery of the Crashed Craft
+32 R Rainy Night Lovers
+33 C Sear Flesh
+34 R Camahueto Calf
+35 R Dazzling Dreamspinner
+36 R Duskwood Revolutionary
+37 R Evaldi's Muse
+38 R Horizon Wayfarer
+39 M Iroshi, Blade of the Old Ways
+40 M Lorilyf, Home-Tree
+41 U Vasille Rioters
+42 M Alonzo, Departed Detective
+43 R Animara, Last of the Fell
+44 M Bvala, Queen of the Swarm
+45 R Channel the Song
+46 M Ciel, the Raider King
+47 R End of All Things
+48 R Endless Helpless Souls
+49 U Forbidden Burial
+50 R Forest Dragon Telo
+51 R From Peace and Purpose
+52 M Fulmen, Aether Prodigy
+53 R Ghislain, Cryptbreaker
+54 U Glimpse in the Static
+55 M Griamoor, Deathless Warrior
+56 U Hop of Life
+57 M Idyll
+58 R Pixie Procurer
+59 U Repent's Champion
+60 U Ria-Demian Charm
+61 U Solar Flare
+62 R Vulture Valleys
+63 R Warfaring Epunamun
+64 M Xirix, the Usurper
+65 M Zarad, the Final Adversary
+66 U Galvan Ranger
+67 R Adam of the Ironside
+68 R Clockwork Gaucho
+69 R Plasma Enforcer
+70 U Scrap, the Second Myr
+71 U Bustling Harbor
+72 U Dreary Township
+73 U Glittering Grove
+74 U Monsoon Lagoon
+75 U Urban Wastelands
+
+[tokens]

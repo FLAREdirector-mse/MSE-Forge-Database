@@ -1,6 +1,0 @@
-Name:Predatory Psion
-ManaCost:2 U
-Types:Creature Cat 
-PT:3/1
-K:Flash
-Oracle:Flash\nWhen Predatory Psion enters the battlefield, switch target creature's power and toughness until end of turn.\n

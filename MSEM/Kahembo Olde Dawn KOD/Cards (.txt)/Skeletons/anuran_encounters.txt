@@ -1,4 +1,0 @@
-Name:Anuran Encounters
-ManaCost:GU GU
-Types:Sorcery
-Oracle:This spell can't be countered.\nDraw a card for each different converted mana cost among nonland permanents you control.\n

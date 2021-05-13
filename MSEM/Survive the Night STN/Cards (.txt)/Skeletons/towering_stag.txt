@@ -1,6 +1,0 @@
-Name:Towering Stag
-ManaCost:2 G G
-Types:Creature Elk 
-PT:5/5
-K:Trample
-Oracle:Trample\nAt the beginning of your upkeep, return another creature you control to its owner's hand.\n

@@ -1,6 +1,0 @@
-Name:Blackmoat Bully
-ManaCost:2 B
-Types:Creature Crocodile Warrior 
-PT:2/2
-K:Menace
-Oracle:Menace\nWhen Blackmoat Bully dies, put a +1/+1 counter and a menace counter on target creature you control.\n

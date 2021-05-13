@@ -1,5 +1,0 @@
-Name:Operations Manager
-ManaCost:3 W
-Types:Creature Human Advisor 
-PT:2/1
-Oracle:Converge — When Operations Manager enters the battlefield, create X 1/1 colorless Servo artifact creature tokens, where X is the number of colors of mana spent to cast Operations Manager.\n

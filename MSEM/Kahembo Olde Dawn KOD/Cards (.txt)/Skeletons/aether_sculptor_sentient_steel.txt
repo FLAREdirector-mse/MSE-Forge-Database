@@ -1,5 +1,0 @@
-Name:Aether Sculptor
-ManaCost:3 U
-Types:Creature Lizard Artificer 
-PT:2/4
-Oracle:When Aether Sculptor enters the battlefield, create a tapped colorless artifact token named Lotus Petal with “{T}, Sacrifice this artifact: Add one mana of any color.”\n

@@ -1,4 +1,0 @@
-Name:Nebula’s Majesty
-ManaCost:W U
-Types:Sorcery
-Oracle:Return target nonland permanent to its owner's hand.\nExile target nonland permanent you control, then return it to the battlefield under your control.\n

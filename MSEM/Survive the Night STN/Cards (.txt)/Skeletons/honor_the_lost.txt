@@ -1,4 +1,0 @@
-Name:Honor the Lost
-ManaCost:1 G
-Types:Sorcery
-Oracle:Return a permanent card from your graveyard to your hand.\nMotley — If there are five or more names among nonland permanents you control, return two permanent cards from your graveyard to your hand instead.\n

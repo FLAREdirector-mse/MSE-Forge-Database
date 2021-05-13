@@ -1,4 +1,0 @@
-Name:Advanced Schematics
-ManaCost:X X U U
-Types:Instant
-Oracle:Choose one —\n• Create three X/X colorless Construct artifact creature tokens.\n• Create X tokens that are copies of target artifact you control.\n

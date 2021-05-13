@@ -1,5 +1,0 @@
-Name:Disciple of the All-Mother
-ManaCost:2 G
-Types:Creature Crocodile Shaman 
-PT:3/2
-Oracle:{4}, {T}: Add {W}{U}{B}{R}{G}.\n

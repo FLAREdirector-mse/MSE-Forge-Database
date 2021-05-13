@@ -1,5 +1,0 @@
-Name:Joyous Explorer
-ManaCost:G W
-Types:Creature Human Scout 
-PT:1/1
-Oracle:Whenever a land enters the battlefield under your control, create a 1/1 colorless Servo artifact creature token.\n{4}{G}{W}: Put a +1/+1 counter on each creature you control. They gain trample until end of turn.\n

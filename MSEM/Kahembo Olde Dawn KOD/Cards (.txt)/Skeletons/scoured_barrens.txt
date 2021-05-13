@@ -1,5 +1,0 @@
-Name:Scoured Barrens
-ManaCost:
-Types:Land
-K:CARDNAME enters the battlefield tapped.
-Oracle:Scoured Barrens enters the battlefield tapped.\nWhen Scoured Barrens enters the battlefield, you gain 1 life.\n{T}: Add {W} or {B}.\n

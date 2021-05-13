@@ -1,4 +1,0 @@
-Name:Battle for Msuji Highlands
-ManaCost:4 G
-Types:Enchantment Saga 
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Reveal the top four cards of your library. Put a creature card with converted mana cost 4 or less from among them onto the battlefield and the rest into your graveyard.\nII — Any number of target creatures you control fight target creature you don't control.\nIII — Put up to three target cards from your graveyard on top of your library in any order.\n

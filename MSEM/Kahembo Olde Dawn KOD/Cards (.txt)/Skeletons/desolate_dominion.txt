@@ -1,5 +1,0 @@
-Name:Desolate Dominion
-ManaCost:
-Types:Land Mountain Plains Swamp 
-K:CARDNAME enters the battlefield tapped.
-Oracle:({T}: Add {R}, {W}, or {B}.)\nDesolate Dominion enters the battlefield tapped.\n

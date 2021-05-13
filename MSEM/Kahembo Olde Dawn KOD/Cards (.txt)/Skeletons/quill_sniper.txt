@@ -1,5 +1,0 @@
-Name:Quill Sniper
-ManaCost:2 R
-Types:Creature Porcupine Warrior 
-PT:2/2
-Oracle:{T}: Quill Sniper deals 1 damage to any target if it's an opponent or if you control a storied permanent. (Enchantments and legendary permanents are storied.)\n

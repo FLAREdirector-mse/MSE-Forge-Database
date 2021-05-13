@@ -1,5 +1,0 @@
-Name:Kalosi Invoker
-ManaCost:2 G U
-Types:Creature Crocodile Shaman 
-PT:4/4
-Oracle:Prismatic — Whenever you cast a multicolored spell, if you cast it from your hand, look at the top four cards of your library. You may cast a multicolored card that's different colors and costs less from among them without paying its mana cost. Put the rest on the bottom of your library in any order.\n

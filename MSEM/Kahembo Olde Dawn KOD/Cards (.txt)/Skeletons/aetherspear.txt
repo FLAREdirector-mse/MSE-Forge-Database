@@ -1,4 +1,0 @@
-Name:Aetherspear
-ManaCost:3
-Types:Artifact Equipment 
-Oracle:Equipped creature gets +2/+1.\nEquip multicolored creature {1}\nEquip {2}\n

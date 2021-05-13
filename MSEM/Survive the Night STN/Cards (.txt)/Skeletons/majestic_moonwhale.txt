@@ -1,6 +1,0 @@
-Name:Majestic Moonwhale
-ManaCost:2 U U
-Types:Creature Whale 
-PT:4/4
-K:Flying
-Oracle:Flying\nWhenever a permanent you control is returned to your hand, scry 1.\n
