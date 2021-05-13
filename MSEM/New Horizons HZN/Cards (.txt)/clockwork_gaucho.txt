@@ -1,0 +1,12 @@
+Name:Clockwork Gaucho
+ManaCost:2
+Types:Artifact Creature Construct Rebel
+PT:0/0
+K:etbCounter:P1P1:1
+S:Mode$ Continuous | Affected$ Creature.YouCtrl+Artifact+Other | AddPower$ X | AddToughness$ X | Description$ Other artifact creatures you control get +1/+1 for each +1/+1 counter on CARDNAME.
+SVar:X:Count$CardCounters.P1P1
+A:AB$ PutCounter | Cost$ T | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on CARDNAME.
+DeckNeeds:Type$Artifact
+DeckHas:Ability$Counters
+Oracle:Clockwork Gaucho enters the battlefield with a +1/+1 counter on it.\nOther artifact creatures you control get +1/+1 for each +1/+1 counter on Clockwork Gaucho.\n{T}: Put a +1/+1 counter on Clockwork Gaucho.
+

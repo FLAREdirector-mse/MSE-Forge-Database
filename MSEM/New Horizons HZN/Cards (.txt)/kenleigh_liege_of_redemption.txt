@@ -1,0 +1,10 @@
+Name:Kenleigh, Liege of Redemption
+ManaCost:1 W W
+Types:Legendary Creature Human Knight
+PT:3/3
+K:Lifelink
+S:Mode$ Continuous | Affected$ Creature.YouCtrl+cmcLE3,Aura.YouCtrl+cmcLE3 | AffectedZone$ Graveyard | AddAbility$ ABRevive | Description$ Creature and Aura cards with mana value 3 or less in your graveyard have revive {2}{W/B}. ({2}{W/B}, Exile that card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
+SVar:ABRevive:AB$ CopyPermanent | ActivationZone$ Graveyard | SorcerySpeed$ True | Cost$ 2 WB ExileFromGrave<1/CARDNAME> | Defined$ Self | RemoveCost$ True | PrecostDesc$ Revive | CostDesc$ {2}{W/B} | SpellDescription$ ({2}{W/B}, Exile this card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
+DeckHints:Type$Aura
+Oracle:Lifelink\nCreature and Aura cards with mana value 3 or less in your graveyard have revive {2}{W/B}. ({2}{W/B}, Exile that card from your graveyard: Create a token that's a copy of it except it has no mana cost. Revive only as a sorcery.)
+

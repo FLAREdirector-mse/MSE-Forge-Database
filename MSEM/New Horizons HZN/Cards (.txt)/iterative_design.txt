@@ -1,0 +1,8 @@
+Name:Iterative Design
+ManaCost:1 U
+Types:Enchantment
+S:Mode$ Continuous | Affected$ Creature.YouCtrl+Artifact | AddPower$ 1 | AddToughness$ 1 | Description$ Artifact creatures you control get +1/+1.
+A:AB$ ChangeZone | Cost$ 1 U Discard<1/Artifact> | Origin$ Library | Destination$ Hand | ChangeType$ Artifact | ChangeNum$ 1 | SpellDescription$ Search your library for an artifact card, reveal it, put it into your hand, then shuffle.
+DeckNeeds:Type$Artifact
+Oracle:Artifact creatures you control get +1/+1.\n{1}{U}, Discard an artifact card: Search your library for an artifact card, reveal it, put it into your hand, then shuffle.
+
