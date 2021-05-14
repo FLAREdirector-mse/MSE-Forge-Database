@@ -1,0 +1,19 @@
+Name:One
+ManaCost:3 B B
+Types:Sorcery
+AlternateMode:Split
+K:Fuse
+A:SP$ RepeatEach | Cost$ 3 B B | RepeatPlayers$ Player | RepeatSubAbility$ DBChoose | SubAbility$ DBSacrifice | SpellDescription$ For each player, choose a creature or planeswalker that player controls. Each player sacrifices all creatures and planeswalkers they control not chosen this way.
+SVar:DBChoose:DB$ ChooseCard | Defined$ You | Amount$ 1 | Choices$ Creature.RememberedPlayerCtrl,Planeswalker.RememberedPlayerCtrl | ChoiceTitle$ Choose a creature or planeswalker to save | RememberChosen$ True | Mandatory$ True
+SVar:DBSacrifice:DB$ SacrificeAll | ValidCards$ Creature.IsNotRemembered,Planeswalker.IsNotRemembered | StackDescription$ None | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True | ClearChosenCard$ True
+AI:RemoveDeck:All
+Oracle:For each player, choose a creature or planeswalker that player controls. Each player sacrifices all creatures and planeswalkers they control not chosen this way.
+
+ALTERNATE
+
+Name:Done
+ManaCost:1 B B
+Types:Sorcery
+A:SP$ Destroy | Cost$ 1 B B | ValidTgts$ Creature,Planeswalker | TgtPrompt$ Select target creature or planeswalker | SpellDescription$ Destroy target creature or planeswalker.
+Oracle:Destroy target creature or planeswalker.

@@ -1,6 +1,0 @@
-Name:Hero Slayer
-ManaCost:3 B
-Types:Creature Lizard Warrior 
-PT:3/3
-K:Deathtouch
-Oracle:Deathtouch\nWhenever a storied permanent enters the battlefield under your control, remove up to two counters from target creature or planeswalker an opponent controls. (Enchantments and legendary permanents are storied.)\n

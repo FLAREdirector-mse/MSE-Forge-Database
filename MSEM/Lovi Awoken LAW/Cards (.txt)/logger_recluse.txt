@@ -1,0 +1,8 @@
+Name:Logger Recluse
+ManaCost:G
+Types:Creature Human
+PT:0/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Creature.Self | Execute$ TrigChange | OptionalDecider$ You | TriggerDescription$ When CARDNAME enters the battlefield, you may put a land card from your hand onto the battlefield tapped.
+SVar:TrigChange:DB$ChangeZone | Origin$ Hand | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.YouCtrl
+A:AB$ Pump | Cost$ 1 G | Defined$ Self | NumAtt$ 3 | ActivationLimit$ 1 | SpellDescription$ CARDNAME gets +3/+0 until end of turn. Activate this ability only once each turn.
+Oracle:When Logger Recluse enters the battlefield, you may put a land card from your hand onto the battlefield tapped.\n{1}{G}: Logger Recluse gets +3/+0 until end of turn. Activate this ability only once each turn.

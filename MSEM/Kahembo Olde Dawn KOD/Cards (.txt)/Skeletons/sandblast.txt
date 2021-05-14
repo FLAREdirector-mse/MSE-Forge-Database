@@ -1,4 +1,0 @@
-Name:Sandblast
-ManaCost:2 W
-Types:Instant
-Oracle:Sandblast deals 5 damage to target attacking or blocking creature.\n

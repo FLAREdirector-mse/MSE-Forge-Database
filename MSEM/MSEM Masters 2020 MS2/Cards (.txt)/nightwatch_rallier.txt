@@ -1,0 +1,9 @@
+Name:Nightwatch Rallier
+ManaCost:X X
+Types:Artifact Creature Construct
+PT:0/0
+K:etbCounter:P1P1:X
+S:Mode$ Continuous | Affected$ Artifact.Creature+Other+YouCtrl | AddPower$ Y | AddToughness$ Y | References$ Y | Description$ Other artifact creatures you control get +1/+1 for each +1/+1 counter on CARDNAME.
+SVar:X:Count$xPaid
+SVar:Y:Count$CardCounters.P1P1
+Oracle:Nightwatch Rallier enters the battlefield with X +1/+1 counters on it.\nOther artifact creatures you control get +1/+1 for each +1/+1 counter on Nightwatch Rallier.

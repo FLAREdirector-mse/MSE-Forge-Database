@@ -1,5 +1,0 @@
-Name:Bog Apex
-ManaCost:5 B
-Types:Creature Beast Horror 
-PT:4/6
-Oracle:Whenever a creature dies, put a +1/+1 counter on Bog Apex.\n

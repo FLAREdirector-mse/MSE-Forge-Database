@@ -1,4 +1,0 @@
-Name:Beyond Humanity
-ManaCost:2 W
-Types:Instant
-Oracle:Creatures you control get +1/+1 until end of turn.\nArtifact creatures and Elementals you control get +1/+1 until end of turn.\n

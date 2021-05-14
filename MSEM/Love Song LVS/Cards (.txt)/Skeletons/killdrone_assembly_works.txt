@@ -1,4 +1,0 @@
-Name:Killdrone Assembly Works
-ManaCost:4
-Types:Artifact
-Oracle:{T}: Create a 1/1 colorless Servo artifact creature token.\n{T}, Sacrifice an artifact: Killdrone Assembly Works deals 1 damage to any target.\n

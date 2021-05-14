@@ -1,0 +1,9 @@
+Name:Nidohagane Warfans
+ManaCost:1
+Types:Artifact Equipment
+K:Equip:1
+T:Mode$ ChangesZone | ValidCard$ Card.Self+nonToken | Destination$ Battlefield | Execute$ TrigCopy | TriggerDescription$ When CARDNAME enters the battlefield, if it's not a token, create a token that's a copy of it.
+SVar:TrigCopy:DB$ CopyPermanent | Defined$ TriggeredCard
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddPower$ 1 | Description$ Equipped creature gets +1/+0.
+Oracle:When Nidohagane Warfans enters the battlefield, if it's not a token, create a token that's a copy of it.\nEquipped creature gets +1/+0.\nEquip {1}
+

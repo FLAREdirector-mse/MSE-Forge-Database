@@ -1,4 +1,0 @@
-Name:Animorph
-ManaCost:3 UR
-Types:Instant
-Oracle:The owner of target creature or planeswalker shuffles it into their library, then they may create two 1/1 blue Bird creature tokens with flying. If they don't, they reveal cards from the top of their library until they reveal a nonland permanent card, then they put that card onto the battlefield and the rest on the bottom of their library in any order.\n

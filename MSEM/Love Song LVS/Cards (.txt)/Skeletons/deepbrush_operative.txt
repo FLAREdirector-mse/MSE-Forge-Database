@@ -1,6 +1,0 @@
-Name:Deepbrush Operative
-ManaCost:2 G
-Types:Creature Human Warrior 
-PT:2/2
-K:Flash
-Oracle:Flash\nCadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\n

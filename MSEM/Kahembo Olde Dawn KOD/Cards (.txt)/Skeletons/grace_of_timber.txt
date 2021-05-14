@@ -1,4 +1,0 @@
-Name:Grace of Timber
-ManaCost:2 G
-Types:Enchantment Aura 
-Oracle:Enchant land\nWhen Grace of Timber enters the battlefield, put a +1/+1 counter on target creature you control.\nEnchanted land has “{T}: Add two mana of different colors.”\n

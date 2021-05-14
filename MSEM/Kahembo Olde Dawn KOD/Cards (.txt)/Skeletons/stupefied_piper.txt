@@ -1,5 +1,0 @@
-Name:Stupefied Piper
-ManaCost:2 B
-Types:Creature Rabbit Bard 
-PT:3/2
-Oracle:Whenever a storied permanent enters the battlefield under your control, each opponent loses 2 life. (Enchantments and legendary permanents are storied.)\n

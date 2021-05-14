@@ -3,4 +3,6 @@ ManaCost:1 W
 Types:Creature Mutant Survivor
 PT:2/2
 S:Mode$ Continuous | Affected$ Survivor.YouCtrl | AddKeyword$ Vigilance | Description$ Survivors you control have vigilance.
+DeckHints:Type$Survivor
+SVar:PlayMain1:ALWAYS
 Oracle:Survivors you control have vigilance.

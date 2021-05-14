@@ -1,5 +1,0 @@
-Name:V-4 Fixit
-ManaCost:1 R
-Types:Artifact Creature Construct 
-PT:1/1
-Oracle:Whenever V-4 Fixit or another artifact enters the battlefield under your control, target creature you control gets +1/+1 until end of turn.\n

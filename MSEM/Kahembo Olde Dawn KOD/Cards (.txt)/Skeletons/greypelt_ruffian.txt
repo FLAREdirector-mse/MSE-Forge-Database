@@ -1,6 +1,0 @@
-Name:Greypelt Ruffian
-ManaCost:1 R
-Types:Creature Hound Warrior 
-PT:3/1
-K:Trample
-Oracle:Trample\nGreypelt Ruffian gets +1/+1 as long as you control a storied permanent. (Enchantments and legendary permanents are storied.)\n

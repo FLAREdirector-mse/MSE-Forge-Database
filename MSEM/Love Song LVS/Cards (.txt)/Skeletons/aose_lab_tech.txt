@@ -1,5 +1,0 @@
-Name:AOSE Lab Tech
-ManaCost:3 U U
-Types:Creature Human Artificer 
-PT:2/4
-Oracle:When AOSE Lab Tech enters the battlefield, draw three cards, then discard two cards unless you discard an artifact card.\n

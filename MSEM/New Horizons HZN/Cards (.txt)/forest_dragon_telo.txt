@@ -1,0 +1,17 @@
+Name:Forest Dragon Telo
+ManaCost:G U R
+Types:Creature Elf Shapeshifter
+PT:3/3
+A:AB$ GenericChoice | Cost$ 2 | SorcerySpeed$ True | Choices$ ShapeOne,ShapeTwo | PrecostDesc$ Mimic | CostDesc$ {2} | SpellDescription$ ({2}: This takes the shape of your choice. Mimic only as a sorcery.)
+SVar:ShapeOne:DB$ StoreSVar | SVar$ Shape | Type$ Number | Expression$ 1 | SpellDescription$ Shape 1
+SVar:ShapeTwo:DB$ StoreSVar | SVar$ Shape | Type$ Number | Expression$ 2 | SpellDescription$ Shape 2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Execute$ ShapeReset | Static$ True
+SVar:ShapeReset:DB$ StoreSVar | SVar$ Shape | Type$ Number | Expression$ 0
+SVar:Shape:Number$0
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Flying & Double Strike | CheckSVar$ Shape | SVarCompare$ EQ1 | Description$ [SHAPE 1] Flying, double strike
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Hexproof | AddAbility$ ABPutCounter | CheckSVar$ Shape | SVarCompare$ EQ2 | Description$ [SHAPE 2] Hexproof; {T}: Put two +1/+1 counters on CARDNAME.
+SVar:ABPutCounter:AB$ PutCounter | Cost$ T | Defined$ Self | CounterType$ P1P1 | CounterNum$ 2 | SpellDescription$ Put two +1/+1 counters on CARDNAME.
+AI:RemoveDeck:All
+DeckHas:Ability$Counters
+Oracle:Mimic {2} ({2}: This takes the shape of your choice. Mimic only as a sorcery.)\n[SHAPE 1] Flying, double strike\n[SHAPE 2] Hexproof\n{T}: Put two +1/+1 counters on Forest Dragon Telo.
+

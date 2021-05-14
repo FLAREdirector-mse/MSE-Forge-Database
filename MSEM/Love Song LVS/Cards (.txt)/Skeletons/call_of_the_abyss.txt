@@ -1,4 +1,0 @@
-Name:Call of the Abyss
-ManaCost:1 B B
-Types:Sorcery
-Oracle:Call of the Abyss deals 3 damage to any target and you gain 3 life.\n

@@ -22,4 +22,5 @@ SVar:LoseB:DB$ LoseLife | Defined$ You | LifeAmount$ 1
 SVar:LoseR:DB$ LoseLife | Defined$ You | LifeAmount$ 1
 SVar:LoseG:DB$ LoseLife | Defined$ You | LifeAmount$ 1
 S:Mode$ Continuous | Description$ As CARDNAME enters the battlefield, choose one or more colors. You lose life equal to the number of colors chosen this way.
+AI:RemoveDeck:All
 Oracle:As Nebula of Empty Gold enters the battlefield, choose one or more colors. You lose life equal to the number of colors chosen this way.\n{T}: Add one mana of any of the chosen colors.

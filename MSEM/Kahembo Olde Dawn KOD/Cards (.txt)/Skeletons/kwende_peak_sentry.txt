@@ -1,6 +1,0 @@
-Name:Kwende Peak Sentry
-ManaCost:4 R
-Types:Creature Ape Warrior 
-PT:4/5
-K:Reach
-Oracle:Reach\nWhenever a lore counter is placed on a Saga you control, Kwende Peak Sentry deals 1 damage to each opponent.\n

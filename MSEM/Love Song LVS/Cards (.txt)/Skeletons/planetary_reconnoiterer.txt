@@ -1,6 +1,0 @@
-Name:Planetary Reconnoiterer
-ManaCost:2 W
-Types:Creature Human Scout 
-PT:2/1
-K:Flying
-Oracle:Flying\nWhenever Planetary Reconnoiterer attacks, target creature you control gains flying until end of turn.\n

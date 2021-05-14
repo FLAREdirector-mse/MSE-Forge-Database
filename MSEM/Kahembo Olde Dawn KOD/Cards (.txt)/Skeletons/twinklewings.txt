@@ -1,4 +1,0 @@
-Name:Twinklewings
-ManaCost:1 W
-Types:Enchantment Aura 
-Oracle:Enchant creature\nWhen Twinklewings enters the battlefield, draw a card.\nEnchanted creature has flying.\n

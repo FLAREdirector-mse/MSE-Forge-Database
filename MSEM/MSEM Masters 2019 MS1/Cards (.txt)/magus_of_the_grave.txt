@@ -1,0 +1,7 @@
+Name:Magus of the Grave
+ManaCost:1 B B B
+Types:Creature Elf Shaman
+PT:3/4
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Other+YouCtrl | TriggerZones$ Battlefield | Execute$ TrigSac | TriggerDescription$ Whenever another creature you control dies, each other player sacrifices a creature.
+SVar:TrigSac:DB$ Sacrifice | Defined$ Player.Other | SacValid$ Creature
+Oracle:Whenever another creature you control dies, each other player sacrifices a creature.

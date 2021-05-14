@@ -1,0 +1,8 @@
+Name:Skyline Tracer
+ManaCost:2 W
+Types:Creature Human Survivor
+PT:2/3
+S:Mode$ Continuous | Affected$ Survivor.YouCtrl | AddKeyword$ Flying | Description$ Survivors you control have flying.
+DeckHints:Type$Survivor
+SVar:PlayMain1:ALWAYS
+Oracle:Survivors you control have flying.

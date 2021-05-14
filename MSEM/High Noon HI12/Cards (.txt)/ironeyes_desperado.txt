@@ -1,0 +1,8 @@
+Name:Ironeyes Desperado
+ManaCost:1 R R
+Types:Creature Human Mercenary
+PT:3/2
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Library | Destination$ Exile | Execute$ TrigPlay | TriggerDescription$ When CARDNAME is exiled from your library, you may cast it without paying its mana cost.
+SVar:TrigPlay:DB$ Play | Defined$ TriggeredCard | WithoutManaCost$ True | Optional$ True
+Oracle:When Ironeyes Desperado is exiled from your library, you may cast it without paying its mana cost.\nHaste

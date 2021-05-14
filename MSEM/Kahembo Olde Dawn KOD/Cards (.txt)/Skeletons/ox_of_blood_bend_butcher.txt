@@ -1,5 +1,0 @@
-Name:Ox of Blood Bend
-ManaCost:2 R
-Types:Creature Ox Warrior 
-PT:3/2
-Oracle:

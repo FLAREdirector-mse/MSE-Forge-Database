@@ -1,5 +1,0 @@
-Name:Raiding Gnoll-Band
-ManaCost:2 BR BR
-Types:Creature Hyena Rogue 
-PT:4/3
-Oracle:Whenever an Aura you control becomes attached to a creature, choose one —\n• Raiding Gnoll-Band deals 3 damage to that creature.\n• That creature gets +3/+0 until end of turn.\n

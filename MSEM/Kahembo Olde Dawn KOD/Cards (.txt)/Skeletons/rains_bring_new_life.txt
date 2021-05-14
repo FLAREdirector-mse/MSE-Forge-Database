@@ -1,4 +1,0 @@
-Name:Rains Bring New Life
-ManaCost:1 G
-Types:Enchantment Saga 
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Search your library for a basic land card, reveal it, put it into your hand, then shuffle your library.\nII — You may put a land card from your hand onto the battlefield.\nIII — Lands you control gain “{T}: Add one mana of any color” until end of turn.\n

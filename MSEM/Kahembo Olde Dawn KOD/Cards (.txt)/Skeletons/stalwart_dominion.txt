@@ -1,5 +1,0 @@
-Name:Stalwart Dominion
-ManaCost:
-Types:Land Forest Plains Island 
-K:CARDNAME enters the battlefield tapped.
-Oracle:({T}: Add {G}, {W}, or {U}.)\nStalwart Dominion enters the battlefield tapped.\n

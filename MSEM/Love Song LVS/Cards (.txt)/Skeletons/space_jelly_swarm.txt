@@ -1,4 +1,0 @@
-Name:Space Jelly Swarm
-ManaCost:1 U U
-Types:Instant
-Oracle:Create two 1/1 blue Elemental creature tokens with flying.\n

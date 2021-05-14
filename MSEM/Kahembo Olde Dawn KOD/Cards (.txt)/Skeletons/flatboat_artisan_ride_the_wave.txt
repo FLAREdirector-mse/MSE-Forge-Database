@@ -1,5 +1,0 @@
-Name:Flatboat Artisan
-ManaCost:UR UR
-Types:Creature Otter Rogue 
-PT:1/3
-Oracle:Instant and sorcery spells you cast cost {1} less to cast.\n

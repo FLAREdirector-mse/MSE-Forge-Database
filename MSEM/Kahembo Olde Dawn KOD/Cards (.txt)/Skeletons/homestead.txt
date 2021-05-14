@@ -1,4 +1,0 @@
-Name:Homestead
-ManaCost:2 GW
-Types:Enchantment
-Oracle:At the beginning of your upkeep, put a crop counter on Homestead.\n{G/W}, Remove a crop counter from Homestead: Put a +1/+1 counter on target creature.\n{G/W}, Remove three crop counters from Homestead: Put a +1/+1 counter on each creature you control.\n

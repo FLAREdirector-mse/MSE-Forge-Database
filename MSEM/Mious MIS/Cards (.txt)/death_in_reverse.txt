@@ -1,0 +1,5 @@
+Name:Death in Reverse
+ManaCost:B G U
+Types:Instant
+A:SP$ ChangeZone | Cost$ B G U | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | Origin$ Battlefield | Destination$ Library | LibraryPosition$ 0 | SpellDescription$ Put target permanent on top of its owner's library.
+Oracle:Put target permanent on top of its owner's library.

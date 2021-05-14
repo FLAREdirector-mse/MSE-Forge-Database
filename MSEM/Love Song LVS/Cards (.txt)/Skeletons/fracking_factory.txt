@@ -1,4 +1,0 @@
-Name:Fracking Factory
-ManaCost:2 R
-Types:Artifact
-Oracle:{T}, Sacrifice an artifact or creature: Fracking Factory deals 2 damage to each opponent. Activate this ability only any time you could cast a sorcery.\n

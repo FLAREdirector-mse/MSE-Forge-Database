@@ -1,5 +1,0 @@
-Name:Pestilent Vermin
-ManaCost:2 B
-Types:Creature Rat Shaman 
-PT:2/2
-Oracle:When Pestilent Vermin enters the battlefield, target opponent loses 2 life unless they discard a card.\nWhenever you cast a Tale, you may return Pestilent Vermin from your graveyard to your hand.\n

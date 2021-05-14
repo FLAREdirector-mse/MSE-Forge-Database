@@ -1,4 +1,0 @@
-Name:Source Decay
-ManaCost:B R
-Types:Sorcery
-Oracle:Source Decay deals 2 damage to each opponent. Create two 1/1 colorless Servo artifact creature tokens.\nWhenever a creature you control deals combat damage to a player, you may pay {2}{B}{R} and sacrifice it. If you do, return Source Decay from your graveyard to your hand.\n

@@ -1,5 +1,0 @@
-Name:Dead End Adventurer
-ManaCost:2 B
-Types:Creature Human Scout 
-PT:3/2
-Oracle:Augmented — When Dead End Adventurer enters the battlefield, if you've spent {W}{U}{B}{R}{G} on spells this turn, destroy target creature you don't control.\n

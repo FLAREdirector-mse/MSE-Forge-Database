@@ -1,0 +1,8 @@
+Name:Sandswept Bazaar
+ManaCost:no cost
+Types:Land Desert
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, you gain 2 life.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ 2
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+DeckHas:Ability$LifeGain
+Oracle:When Sandswept Bazaar enters the battlefield, you gain 2 life.\n{T}: Add {C}.

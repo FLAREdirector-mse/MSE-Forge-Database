@@ -1,5 +1,0 @@
-Name:R-12 Lone Digger
-ManaCost:5 R
-Types:Artifact Creature Construct 
-PT:5/5
-Oracle:When R-12 Lone Digger enters the battlefield, it deals 3 damage to target player or planeswalker.\n

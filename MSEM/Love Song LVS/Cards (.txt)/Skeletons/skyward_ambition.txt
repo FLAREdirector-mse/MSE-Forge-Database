@@ -1,4 +1,0 @@
-Name:Skyward Ambition
-ManaCost:1 U
-Types:Enchantment Aura 
-Oracle:Enchant creature\nEnchanted creature gets +1/+1.\nWhenever enchanted creature deals damage to a player or planeswalker, draw a card.\n

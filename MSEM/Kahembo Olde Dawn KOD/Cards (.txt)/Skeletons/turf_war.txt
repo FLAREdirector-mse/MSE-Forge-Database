@@ -1,4 +1,0 @@
-Name:Turf War
-ManaCost:1 G
-Types:Sorcery
-Oracle:Target creature you control fights target creature you don't control. If the creature you control survives, put a +1/+1 counter on it.\n

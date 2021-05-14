@@ -1,5 +1,0 @@
-Name:Lumbering Ox
-ManaCost:1 RG RG
-Types:Creature Ox Warrior 
-K:Trample
-Oracle:Trample\nLumbering Ox gets +1/+1 for each land you control.\nAt the beginning of your upkeep, reveal the top card of your library. If it's a land, you may exile it and repeat this process.\nYou may play cards exiled with Lumbering Ox.\n

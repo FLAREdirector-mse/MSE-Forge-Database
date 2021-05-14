@@ -1,0 +1,9 @@
+Name:Skeleton Keyring
+ManaCost:3
+Types:Artifact
+T:Mode$ Phase | Phase$ Upkeep | Execute$ TrigCharm | TriggerZones$ Battlefield | TriggerDescription$ At the beginning of your upkeep, ABILITY
+SVar:TrigCharm:DB$ Charm | MinCharmNum$ 1 | CharmNum$ 3 | Choices$ UntapArtifact,UntapCreature,UntapLand
+SVar:UntapArtifact:DB$ Untap | ValidTgts$ Artifact | TgtPrompt$ Select target artifact | SpellDescription$ Untap target artifact.
+SVar:UntapCreature:DB$ Untap | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Untap target creature.
+SVar:UntapLand:DB$ Untap | ValidTgts$ Land | TgtPrompt$ Select target land | SpellDescription$ Untap target land.
+Oracle: At the beginning of each upkeep, choose one or more —\n• Untap target artifact.\n• Untap target creature.\n• Untap target land.

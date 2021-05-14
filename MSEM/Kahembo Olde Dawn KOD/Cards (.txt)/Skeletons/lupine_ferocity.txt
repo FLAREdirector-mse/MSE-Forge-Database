@@ -1,4 +1,0 @@
-Name:Lupine Ferocity
-ManaCost:1 B
-Types:Instant
-Oracle:Choose target creature, then choose two —\n• Put a +1/+1 counter on the chosen creature.\n• The chosen creature gains lifelink until end of turn.\n• The chosen creature gains indestructible until end of turn.\n

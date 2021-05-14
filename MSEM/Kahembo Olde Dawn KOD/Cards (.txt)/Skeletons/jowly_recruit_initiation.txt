@@ -1,6 +1,0 @@
-Name:Jowly Recruit
-ManaCost:1 W
-Types:Creature Hound Knight 
-PT:1/3
-K:Vigilance
-Oracle:Vigilance\n

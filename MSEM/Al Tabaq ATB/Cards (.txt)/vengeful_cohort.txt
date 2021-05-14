@@ -5,4 +5,6 @@ PT:1/2
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Survivor+YouCtrl | TriggerZone$ Battlefield | Execute$ TrigLoseLife | TriggerDescription$ Whenever a Survivor you control dies, each opponent loses 1 life and you gain 1 life.
 SVar:TrigLoseLife:DB$ LoseLife | LifeAmount$ 1 | Defined$ Opponent | SubAbility$ DBGainLife
 SVar:DBGainLife:DB$ GainLife | LifeAmount$ 1 | Defined$ You
+DeckHints:Type$Survivor
+SVar:PlayMain1:ALWAYS
 Oracle:Whenever a Survivor you control dies, each opponent loses 1 life and you gain 1 life.

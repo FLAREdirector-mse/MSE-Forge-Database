@@ -1,6 +1,0 @@
-Name:Banished Companion
-ManaCost:R
-Types:Creature Human Warrior 
-PT:2/2
-K:Haste
-Oracle:Haste\nWhenever Banished Companion attacks, it deals 2 damage to you.\n

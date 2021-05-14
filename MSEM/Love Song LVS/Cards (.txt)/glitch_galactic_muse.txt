@@ -1,0 +1,15 @@
+Name:Glitch, Galactic Muse
+ManaCost:2 U R W
+Types:Legendary Planeswalker Glitch
+Loyalty:1
+K:ETBReplacement:Other:ExtraCounters:Mandatory:Battlefield:Card.Self
+SVar:ExtraCounters:DB$ PutCounter | ETB$ True | Defined$ ReplacedCard | CounterType$ Loyalty | CounterNum$ X | References$ X | SpellDescription$ Converge — CARDNAME enters the battlefield with an additional loyalty counter on her for each color of mana spent to cast her.
+SVar:X:Count$Converge
+A:AB$ Token | Cost$ AddCounter<1/LOYALTY> | Planeswalker$ True | TokenScript$ u_1_1_elemental_flying | TokenAmount$ 2 | SpellDescription$ Create two 1/1 blue Elemental creature tokens with flying.
+A:AB$ Draw | Cost$ SubCounter<2/LOYALTY> | Planeswalker$ True | NumCards$ 2 | RememberDrawn$ True | SubAbility$ DBTrigger | SpellDescription$ Draw two cards. When you do, CARDNAME deals damage to any target equal to the number of cards in your hand.
+SVar:DBTrigger:DB$ ImmediateTrigger | ConditionDefined$ Remembered | ConditionPresent$ Card.YouOwn | ConditionCompare$ GE2 | Execute$ TrigDamage | SubAbility$ DBCleanup | TriggerDescription$ When you do, CARDNAME deals damage to any target equal to the number of cards in your hand.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:TrigDamage:DB$ DealDamage | ValidTgts$ Creature,Player,Planeswalker | TgtPrompt$ Select any target | NumDmg$ Y | References$ Y
+SVar:Y:Count$InYourHand
+SVar:DBDestroy:DB$ DestroyAll | Planeswalker$ True | Ultimate$ True | ValidCards$ Land.YouDontCtrl,Enchantment.YouDontCtrl,Artifact.YouDontCtrl | SpellDescription$ Destroy all lands, enchantments, and artifacts you don't control.
+Oracle:Converge — Glitch enters the battlefield with an additional loyalty counter on her for each color of mana spent to cast her.\n[+1]: Create two 1/1 blue Elemental creature tokens with flying.\n[–3]: Draw two cards. When you do, Glitch deals damage to any target equal to the number of cards in your hand.\n[–10]: Destroy all lands, enchantments, and artifacts you don't control.

@@ -1,7 +1,0 @@
-Name:Whisperwoods Phoenix
-ManaCost:1 U R
-Types:Creature Phoenix 
-PT:2/2
-K:Flying
-K:Haste
-Oracle:Flying, haste\nWhen Whisperwoods Phoenix dies or you discard it, create a red enchantment token named Ash with “Whenever you cast a noncreature spell, put a feather counter on this. Then if there are three or more feather counters on it, sacrifice it and return a card named Whisperwoods Phoenix from your graveyard to the battlefield.”\n

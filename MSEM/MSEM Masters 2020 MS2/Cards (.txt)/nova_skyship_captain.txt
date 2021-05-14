@@ -1,0 +1,15 @@
+Name:Nova, Skyship Captain
+ManaCost:U R W
+Types:Legendary Creature Human Pirate
+PT:2/3
+K:Flying
+K:Haste
+T:Mode$ Drawn | ValidCard$ Card.YouOwn | OptionalDecider$ You | Static$ True | Execute$ DBReveal | TriggerZones$ Battlefield | TriggerDescription$ You may reveal each card you draw as you draw it. Whenever you reveal a creature card with converted mana cost 1 or less this way, create a token that's a copy of it. That copy gains haste until end of turn.
+SVar:DBReveal:DB$ Reveal | Defined$ You | RevealDefined$ TriggeredCard | RememberRevealed$ True | SubAbility$ DBTrigger
+SVar:DBTrigger:DB$ ImmediateTrigger | RememberObjects$ RememberedCard | ConditionDefined$ Remembered | ConditionPresent$ Creature.cmcLE1 | SubAbility$ DBCleanup | Execute$ DBCopy | TriggerDescription$ Whenever you reveal a creature card with converted mana cost 1 or less this way, create a token that's a copy of it. That copy gains haste until end of turn.
+SVar:DBCopy:DB$ CopyPermanent | Defined$ DelayTriggerRemembered | RememberTokens$ True | SubAbility$ DBPump
+SVar:DBPump:DB$ Pump | Defined$ Remembered | KW$ Haste | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+AI:RemoveDeck:All
+Oracle:Flying, haste\nYou may reveal each card you draw as you draw it. Whenever you reveal a creature card with converted mana cost 1 or less this way, create a token that's a copy of it. That copy gains haste until end of turn.
+

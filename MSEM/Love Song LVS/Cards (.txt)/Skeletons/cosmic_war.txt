@@ -1,4 +1,0 @@
-Name:Cosmic War
-ManaCost:4 W
-Types:Sorcery
-Oracle:Destroy all creatures and planeswalkers. If five or more colors of mana were spent to cast Cosmic War, return a planeswalker or creature card from your graveyard to the battlefield.\n

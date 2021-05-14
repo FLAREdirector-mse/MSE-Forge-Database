@@ -1,5 +1,0 @@
-Name:Guardian of Lost Truths
-ManaCost:2 U
-Types:Creature Elemental 
-PT:1/4
-Oracle:When Guardian of Lost Truths enters the battlefield, if a library has twenty or fewer cards left in it, draw two cards. Otherwise, target player mills five cards.\n

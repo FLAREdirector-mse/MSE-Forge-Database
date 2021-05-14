@@ -1,4 +1,0 @@
-Name:Lotus Petal
-ManaCost:
-Types:Token Artifact
-Oracle:{T}, Sacrifice this artifact: Add one mana of any color.\n

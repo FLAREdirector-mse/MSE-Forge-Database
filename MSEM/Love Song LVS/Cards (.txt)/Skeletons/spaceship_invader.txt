@@ -1,6 +1,0 @@
-Name:Spaceship Invader
-ManaCost:2 B B
-Types:Creature Horror 
-PT:4/1
-K:Menace
-Oracle:Menace\nWhen Spaceship Invader enters the battlefield, destroy target creature you don't control with converted mana cost 3 or less.\n

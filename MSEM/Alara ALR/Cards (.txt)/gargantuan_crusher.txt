@@ -1,0 +1,8 @@
+Name:Gargantuan Crusher
+ManaCost:3 G G
+Types:Creature Beast
+PT:5/5
+K:Trample
+K:Cycling:2
+Oracle:Trample\nCycling {2} ({2}, Discard this card: Draw a card.)
+

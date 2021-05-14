@@ -1,4 +1,0 @@
-Name:Phantasmal Reflection
-ManaCost:2 W
-Types:Enchantment
-Oracle:Whenever a nontoken creature you control dies, you may exile it. If you do, create a token that's a copy of it except it's a 1/1 white Spirit creature in addition to its other types and colors.\n{2}{B}, Sacrifice a creature: Each opponent loses 1 life and you gain that much life.\n

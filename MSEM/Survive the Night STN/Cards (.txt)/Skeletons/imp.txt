@@ -1,5 +1,0 @@
-Name:Imp
-ManaCost:
-Types:Token Creature Imp 
-PT:1/1
-Oracle:

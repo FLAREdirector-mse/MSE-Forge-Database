@@ -1,4 +1,0 @@
-Name:Bloody Business
-ManaCost:1 R
-Types:Instant
-Oracle:Target creature gets +3/+2 and gains trample until end of turn.\n

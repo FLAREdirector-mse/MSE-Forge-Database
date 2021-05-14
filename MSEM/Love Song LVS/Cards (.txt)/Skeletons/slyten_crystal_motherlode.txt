@@ -1,4 +1,0 @@
-Name:Slyten Crystal Motherlode
-ManaCost:
-Types:Land
-Oracle:{T}: Add {C}.\n{4}, {T}, Sacrifice Slyten Crystal Motherlode: Add {W}{U}{B}{R}{G}.\n

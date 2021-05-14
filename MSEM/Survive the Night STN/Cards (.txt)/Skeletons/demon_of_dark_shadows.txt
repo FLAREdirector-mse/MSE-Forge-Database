@@ -1,7 +1,0 @@
-Name:Demon of Dark Shadows
-ManaCost:5 B B
-Types:Creature Demon 
-PT:6/6
-K:Flying
-K:Trample
-Oracle:This spell costs {2} less to cast for each creature that died this turn.\nFlying, trample\n

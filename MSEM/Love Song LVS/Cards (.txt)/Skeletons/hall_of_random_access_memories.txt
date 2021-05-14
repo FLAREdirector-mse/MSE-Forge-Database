@@ -1,4 +1,0 @@
-Name:Hall of Random Access Memories
-ManaCost:
-Types:Land
-Oracle:{T}: Add {C}.\n{3}, {T}, Sacrifice Hall of Random Access Memories: Return target artifact, instant, or sorcery card from your graveyard to your hand.\n

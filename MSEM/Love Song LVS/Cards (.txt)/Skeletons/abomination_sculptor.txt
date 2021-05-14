@@ -1,5 +1,0 @@
-Name:Abomination Sculptor
-ManaCost:2 B
-Types:Creature Horror 
-PT:2/3
-Oracle:Abomination Sculptor has deathtouch and lifelink as long as it's attacking.\n

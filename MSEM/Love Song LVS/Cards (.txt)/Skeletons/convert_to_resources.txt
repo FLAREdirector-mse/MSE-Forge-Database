@@ -1,4 +1,0 @@
-Name:Convert to Resources
-ManaCost:1 R
-Types:Instant
-Oracle:Destroy target artifact. Create two 1/1 colorless Servo artifact creature tokens.\n

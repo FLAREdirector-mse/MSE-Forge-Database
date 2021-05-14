@@ -1,5 +1,0 @@
-Name:Blossoming Sands
-ManaCost:
-Types:Land
-K:CARDNAME enters the battlefield tapped.
-Oracle:Blossoming Sands enters the battlefield tapped.\nWhen Blossoming Sands enters the battlefield, you gain 1 life.\n{T}: Add {G} or {W}.\n

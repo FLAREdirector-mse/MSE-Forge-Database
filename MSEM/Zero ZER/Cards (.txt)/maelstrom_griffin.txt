@@ -1,0 +1,7 @@
+Name:Maelstrom Griffin
+ManaCost:3 W W
+Types:Creature Griffin
+PT:3/3
+K:Flying
+A:AB$ Pump | Cost$ 1 W | ValidTgts$ Creature.counters_GE1_P1P1 | TgtPrompt$ Select target creature with a +1/+1 counter on it | KW$ Flying | SpellDescription$ Target creature with a +1/+1 counter on it gains flying until end of turn.
+Oracle:Flying\n{1}{W}: Target creature with a +1/+1 counter on it gains flying until end of turn.

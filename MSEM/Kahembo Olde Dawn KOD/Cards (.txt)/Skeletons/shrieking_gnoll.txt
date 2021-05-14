@@ -1,6 +1,0 @@
-Name:Shrieking Gnoll
-ManaCost:3 B
-Types:Creature Hyena Warrior 
-PT:3/2
-K:Lifelink
-Oracle:Lifelink\nWhenever an Aura becomes attached to Shrieking Gnoll, put a +1/+1 counter on Shrieking Gnoll, then target creature an opponent controls gets -1/-1 until end of turn for each +1/+1 counter on Shrieking Gnoll.\n

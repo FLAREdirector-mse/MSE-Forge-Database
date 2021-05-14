@@ -1,5 +1,0 @@
-Name:Unlikeliest Heroes
-ManaCost:GW
-Types:Creature Mouse Army 
-PT:1/1
-Oracle:{G/W}: If Unlikeliest Heroes doesn't have a +1/+1 counter on it, put a +1/+1 counter on it.\n{2}{G/W}{G/W}: If Unlikeliest Heroes has a +1/+1 counter on it and doesn't have vigilance, put two +1/+1 counters and a vigilance counter on it.\n{3}{G/W}{G/W}{G/W}: If Unlikeliest Heroes has vigilance and not indestructible, put four +1/+1 counters and an indestructible counter on it.\n

@@ -1,6 +1,0 @@
-Name:Lustrous Shrike
-ManaCost:4 U
-Types:Creature Bird 
-PT:3/4
-K:Flying
-Oracle:Flying\nPrismatic — Whenever you cast a multicolored spell, scry 1.\n

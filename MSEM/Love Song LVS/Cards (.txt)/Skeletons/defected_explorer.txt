@@ -1,5 +1,0 @@
-Name:Defected Explorer
-ManaCost:G W
-Types:Creature Human Elemental 
-PT:3/3
-Oracle:Augmented — At the beginning of each end step, if you've spent {W}{U}{B}{R}{G} on spells this turn, put a +1/+1 counter on Defected Explorer.\n

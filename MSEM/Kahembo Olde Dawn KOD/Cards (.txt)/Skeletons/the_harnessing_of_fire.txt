@@ -1,4 +1,0 @@
-Name:The Harnessing of Fire
-ManaCost:3 R
-Types:Enchantment Saga 
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nIf a red source you control would deal damage, it deals that much damage plus 1 instead.\nI, II — Exile the top card of your library. If it's red or a Mountain, you may play that card this turn.\nIII — Return target red instant or sorcery card from your graveyard to your hand.\n

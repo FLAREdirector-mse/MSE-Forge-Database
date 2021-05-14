@@ -1,4 +1,0 @@
-Name:Into Waridi Valley
-ManaCost:7 U
-Types:Sorcery
-Oracle:This spell costs {1} less to cast for each multicolored card in your graveyard.\nDraw four cards.\n

@@ -1,4 +1,0 @@
-Name:In Control
-ManaCost:3 R
-Types:Enchantment Aura 
-Oracle:Enchant creature\nWhenever enchanted creature attacks, up to two target creatures can't block this turn. Up to one target creature blocks this turn if able.\n

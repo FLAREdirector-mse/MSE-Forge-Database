@@ -1,4 +1,0 @@
-Name:Enjoy the Silence
-ManaCost:2 B B
-Types:Sorcery
-Oracle:Converge — Each creature gets -X/-X until end of turn, where X is the number of colors of mana spent to cast Enjoy the Silence.\n

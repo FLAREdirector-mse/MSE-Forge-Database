@@ -1,4 +1,0 @@
-Name:Twilight Ambush
-ManaCost:B
-Types:Instant
-Oracle:Destroy target creature with power or toughness 2 or less.\n

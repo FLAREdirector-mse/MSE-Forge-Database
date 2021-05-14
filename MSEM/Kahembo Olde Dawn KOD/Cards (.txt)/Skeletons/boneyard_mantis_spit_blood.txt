@@ -1,6 +1,0 @@
-Name:Boneyard Mantis
-ManaCost:3 B
-Types:Creature Insect 
-PT:2/3
-K:Deathtouch
-Oracle:Deathtouch\n

@@ -1,4 +1,0 @@
-Name:Kutaan Incubation
-ManaCost:3 G W
-Types:Sorcery
-Oracle:Create three 1/1 green Insect creature tokens, then put a +1/+1 counter on each of them.\n

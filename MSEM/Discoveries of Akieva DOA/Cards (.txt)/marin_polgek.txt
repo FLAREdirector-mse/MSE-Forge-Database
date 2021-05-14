@@ -1,0 +1,7 @@
+Name:Marin Polgek, Academy Heiress
+ManaCost:2 U
+Types:Legendary Creature Human Wizard
+PT:2/2
+S:Mode$ Continuous | Affected$ Card.Self | AddKeyword$ Hexproof | IsPresent$ Enchantment.YouCtrl | PresentCompare$ GE3 | Description$ CARDNAME has hexproof as long as you control three or more enchantments.
+A:AB$ CopyPermanent | Cost$ 1 WU WU | ValidTgts$ Enchantment.YouCtrl | TgtPrompt$ Select target enchantment you control | SpellDescription$ Create a token that's a copy of target enchantment you control.
+Oracle:Marin Polgek, Academy Heiress has hexproof as long as you control three or more enchantments.\n{1}{W/U}{W/U}: Create a token that's a copy of target enchantment you control.

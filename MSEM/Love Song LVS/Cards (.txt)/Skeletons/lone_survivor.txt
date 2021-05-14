@@ -1,5 +1,0 @@
-Name:Lone Survivor
-ManaCost:1 G W
-Types:Creature Human Scout 
-PT:3/3
-Oracle:As long as you control no other Humans, Lone Survivor gets +2/+2 and has “Noncreature spells cost {1} more to cast.”\n

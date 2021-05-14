@@ -1,4 +1,0 @@
-Name:Glowspore Swarmgrounds
-ManaCost:4 W
-Types:Enchantment
-Oracle:When Glowspore Swarmgrounds enters the battlefield, create two 1/1 blue Elemental creature tokens with flying.\nElementals you control get +1/+1.\n

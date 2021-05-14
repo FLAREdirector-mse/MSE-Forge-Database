@@ -1,0 +1,10 @@
+Name:Read the Clouds
+ManaCost:1 U
+Types:Instant
+A:SP$ Scry | Cost$ 1 U | ScryNum$ 2 | SubAbility$ DBDraw | SpellDescription$ Scry 2, then draw a card.
+SVar:DBDraw:DB$ Draw
+T:Mode$ Drawn | ValidCard$ Card.Self | Static$ True | Execute$ TrigImmediate | Static$ True | TriggerDescription$ Foresee — As you draw CARDNAME, you may reveal it and pay {1}{U}. When you do, scry 2, then draw a card.
+SVar:TrigImmediate:AB$ ImmediateTrigger | Cost$ Reveal<1/CARDNAME> 1 U | Execute$ TrigScry | TriggerDescription$ Foresee — As you draw CARDNAME, you may reveal it and pay {1}{U}. When you do, scry 2, then draw a card.
+SVar:TrigScry:DB$ Scry | ScryNum$ 2 | SubAbility$ DBDraw
+Oracle:Scry 2, then draw a card. (To scry 2, look at the top two cards of your library, then put any number of them on the bottom of your library and the rest on top in any order.)\nForesee — As you draw Read the Clouds, you may reveal it and pay {1}{U}. When you do, scry 2, then draw a card.
+

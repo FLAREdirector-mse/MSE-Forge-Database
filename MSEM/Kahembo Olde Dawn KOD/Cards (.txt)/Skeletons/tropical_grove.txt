@@ -1,4 +1,0 @@
-Name:Tropical Grove
-ManaCost:
-Types:Land
-Oracle:{T}, Pay 1 life: Add {G}.\n{T}, Pay 1 life, Sacrifice Tropical Grove: Search your library for a Forest card, put it onto the battlefield, then shuffle your library. That land enters the battlefield tapped unless it's basic.\n

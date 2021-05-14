@@ -1,5 +1,0 @@
-Name:Architect of the Derezzed
-ManaCost:3 U
-Types:Creature Human Artificer 
-PT:2/2
-Oracle:When Architect of the Derezzed enters the battlefield, create two 1/1 colorless Servo artifact creature tokens.\nSacrifice an artifact: Target creature can't be blocked this turn.\n

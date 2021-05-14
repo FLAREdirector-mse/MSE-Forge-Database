@@ -1,5 +1,0 @@
-Name:Painwield Explorer
-ManaCost:R
-Types:Creature Human Shaman 
-PT:0/1
-Oracle:Cadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\nWhen Painwield Explorer dies, it deals damage equal to its power to target player or planeswalker.\n

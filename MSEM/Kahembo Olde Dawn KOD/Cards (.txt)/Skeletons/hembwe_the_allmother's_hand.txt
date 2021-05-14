@@ -1,5 +1,0 @@
-Name:Hembwe, the All-Mother’s Hand
-ManaCost:3 RG W
-Types:Legendary Planeswalker Hembwe 
-Loyalty:5
-Oracle:[+2]: Until end of turn, up to one target creature you control gets +3/+3 and gains trample and vigilance.\n[-2]: Destroy target artifact, enchantment, or tapped creature.\n[-3]: Create a 1/1 green Insect creature token, a 2/2 white Cat creature token, and a 3/3 red Ox creature token.\n[-8]: Until end of turn, creatures you control get +X/+X and gain trample and vigilance, where X is the number of creatures you control.\n

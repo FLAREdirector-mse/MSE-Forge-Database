@@ -1,7 +1,9 @@
-# TODO
 Name:Carnival Yatiri
 ManaCost:1 R W
 Types:Creature Human Cleric
 PT:2/2
-
-Oracle: Whenever you gain life, Clerics you control get +1/+1 and gain trample until end of turn. 
+T:Mode$ LifeGained | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigPumpAll | TriggerDescription$ Whenever you gain life, Clerics you control get +1/+1 and gain trample until end of turn.
+SVar:TrigPumpAll:DB$ PumpAll | ValidCards$ Cleric.YouCtrl | NumAtt$ 1 | NumDef$ 1 | KW$ Trample
+DeckHints:Ability$LifeGain
+SVar:BuffedBy:Cleric
+Oracle:Whenever you gain life, Clerics you control get +1/+1 and gain trample until end of turn.

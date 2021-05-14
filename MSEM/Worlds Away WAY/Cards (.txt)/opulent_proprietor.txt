@@ -1,0 +1,8 @@
+Name:Opulent Proprietor
+ManaCost:1 W W
+Types:Creature Human Citizen
+PT:1/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, you may search your library and/or graveyard for an Aura, Aurashaper, Equipment, or Vehicle card, reveal it, and put it into your hand. If you search your library this way, shuffle it.
+SVar:TrigChangeZone:DB$ ChangeZone | Optional$ True | Origin$ Library | OriginChoice$ True | OriginAlternative$ Graveyard | AlternativeMessage$ Would you like to search your library with this ability? If you do, your library will be shuffled. | Destination$ Hand | ChangeType$ Aura,Aurashaper,Equipment,Vehicle | ChangeNum$ 1
+DeckNeeds:Type$Aura|Aurashaper|Equipment|Vehicle
+Oracle:When Opulent Proprietor enters the battlefield, you may search your library and/or graveyard for an Aura, Aurashaper, Equipment, or Vehicle card, reveal it, and put it into your hand. If you search your library this way, shuffle it.

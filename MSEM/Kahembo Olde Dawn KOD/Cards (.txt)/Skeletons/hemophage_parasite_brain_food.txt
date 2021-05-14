@@ -1,6 +1,0 @@
-Name:Hemophage Parasite
-ManaCost:1 B
-Types:Creature Leech 
-PT:2/1
-K:Lifelink
-Oracle:Lifelink\n

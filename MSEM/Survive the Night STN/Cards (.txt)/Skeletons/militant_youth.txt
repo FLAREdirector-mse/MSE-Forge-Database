@@ -1,5 +1,0 @@
-Name:Militant Youth
-ManaCost:W
-Types:Creature Human Warrior 
-PT:2/1
-Oracle:Whenever you gain life, Militant Youth gets +1/+1 until end of turn.\n

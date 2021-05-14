@@ -2,7 +2,7 @@ Name:Poisoned Well
 ManaCost:1 B
 Types:Sorcery
 A:SP$ ChangeZone | Cost$ 1 B | ChangeType$ Land | ChangeNum$ 1 | Origin$ Library | Destination$ Battlefield | Shuffle$ False | SubAbility$ DBCounter | RememberChanged$ True | SpellDescription$ Search your library for a land card and put that card onto the battlefield with a venom counter on it. It gains "Whenever this land is tapped for mana, you lose 1 life." Then shuffle your library.
-SVar:DBCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ CORPSE | CounterNum$ 1 | SubAbility$ DBPump
+SVar:DBCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ Venom | CounterNum$ 1 | SubAbility$ DBPump
 SVar:DBPump:DB$ Animate | Defined$ Remembered | Triggers$ TrigTaps | sVars$ TrigLoseLife | Permanent$ True | SubAbility$ DBShuffle
 SVar:DBShuffle:DB$ Shuffle | Defined$ You | SubAbility$ DBCleanup
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True

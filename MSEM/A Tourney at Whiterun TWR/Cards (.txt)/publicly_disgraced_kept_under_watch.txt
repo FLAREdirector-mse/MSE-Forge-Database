@@ -3,9 +3,12 @@ ManaCost:1 W
 Types:Instant
 A:SP$ Effect | Cost$ W | Name$ Publicly Disgraced Effect | IsCurse$ True | StaticAbilities$ CantBeCast | ValidTgts$ Player | RememberObjects$ Targeted | AILogic$ BeginningOfOppTurn | SpellDescription$ Target player can't cast spells this turn.
 SVar:CantBeCast:Mode$ CantBeCast | EffectZone$ Command | ValidCard$ Card | Caster$ Player.IsRemembered | Description$ Target player can't cast spells this turn.
-A:SP$ Effect | Cost$ 2 W U | Name$ Publicly Disgraced Effect | IsCurse$ True | StaticAbilities$ CantBeCast | ValidTgts$ Player | RememberObjects$ Targeted | AILogic$ BeginningOfOppTurn | SubAbility$ Fabled | PrecostDesc$ Fabled | CostDesc$ {2}{W}{U} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the player it's targeting.) | StackDescription$ Target player can't cast spells this turn. Attach CARDNAME to that player. | SpellDescription$ Target player can't cast spells this turn. Attach Kept Under Watch to that player.
+A:SP$ Effect | Cost$ 2 W U | Name$ Publicly Disgraced Effect | IsCurse$ True | StaticAbilities$ CantBeCast | ValidTgts$ Player | RememberObjects$ Targeted | AILogic$ BeginningOfOppTurn | SubAbility$ AnimateHack | PrecostDesc$ Fabled | CostDesc$ {2}{W}{U} | NonBasicSpell$ True | SpellDescription$ (You may cast this spell for its fabled cost. If you do, as it resolves, put it onto the battlefield as an Aura enchanting the player it's targeting.) | StackDescription$ Target player can't cast spells this turn. Attach CARDNAME to that player. | SpellDescription$ Target player can't cast spells this turn. Attach Kept Under Watch to that player.
 SVar:CantBeCast:Mode$ CantBeCast | EffectZone$ Command | ValidCard$ Card | Caster$ Player.IsRemembered | Description$ Target player can't cast spells this turn.
-SVar:Fabled:DB$ ChangeZone | Defined$ Self | Origin$ Stack | Destination$ Battlefield | AttachedToPlayer$ ParentTarget | Transformed$ True
+SVar:AnimateHack:DB$ Animate | Defined$ Self | Permanent$ True | Types$ Enchantment,Aura | OverwriteTypes$ True | SubAbility$ TransChangeZone
+SVar:TransChangeZone:DB$ChangeZone | Origin$ Stack | Destination$ Battlefield | Defined$ Self | SubAbility$ ThenEnchant
+SVar:ThenEnchant:DB$ Attach | Object$ Self | Defined$ ParentTarget | SubAbility$ DBTransform
+SVar:DBTransform:DB$ SetState | Defined$ Self | Mode$ Transform
 AlternateMode:DoubleFaced
 Oracle:Target player can’t cast spells this turn.\nFabled {2}{W}{U} (Then if you cast this for its fabled cost, put it onto the battlefield transformed attached to that player.)
 

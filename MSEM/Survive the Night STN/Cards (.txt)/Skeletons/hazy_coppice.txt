@@ -1,4 +1,0 @@
-Name:Hazy Coppice
-ManaCost:
-Types:Land Island Swamp 
-Oracle:({T}: Add {U} or {B}.)\nAs Hazy Coppice enters the battlefield, you may torment yourself. If you don't, it enters the battlefield tapped. (You lose 3 life unless you discard a card or sacrifice a nonland permanent.)\n

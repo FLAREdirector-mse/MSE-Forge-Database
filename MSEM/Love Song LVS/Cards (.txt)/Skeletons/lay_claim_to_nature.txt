@@ -1,4 +1,0 @@
-Name:Lay Claim to Nature
-ManaCost:2 G
-Types:Instant
-Oracle:Return any number of lands you control to their owner's hands. For each land returned this way, search your library for a land card, reveal it, then put it into your hand. Then shuffle your library.\n

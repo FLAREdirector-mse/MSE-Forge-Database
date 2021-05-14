@@ -6,4 +6,5 @@ T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | T
 SVar:TrigPutCounter:DB$ PutCounter | CounterType$ Creation | CounterNum$ 1
 A:AB$ ChangeZoneAll | Cost$ T SubCounter<10/Creation> Sac<1/CARDNAME> | Defined$ You | Origin$ Hand | Destination$ Library | LibraryPosition$ -1 | Shuffle$ True | SubAbility$ DBDraw | SpellDescription$ Shuffle your hand into your library, then draw five cards.
 SVar:DBDraw:DB$ Draw | NumCards$ 5
+DeckHas:Ability$Counters
 Oracle:({T}: Add {U}.)\nSea Of Skies Beyond enters the battlefield tapped.\nWhenever you cast a noncreature spell, put a creation counter on Sea Of Skies Beyond.\n{T}, Remove ten creation counters from Sea Of Skies Beyond and sacrifice it: Shuffle your hand into your library, then draw five cards.

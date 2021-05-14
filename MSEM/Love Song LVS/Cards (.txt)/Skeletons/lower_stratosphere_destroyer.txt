@@ -1,6 +1,0 @@
-Name:Lower Stratosphere Destroyer
-ManaCost:6
-Types:Artifact Vehicle 
-PT:4/4
-K:Flying
-Oracle:Flying\nWhenever Lower Stratosphere Destroyer blocks or becomes blocked by a creature with flying, it gets +2/+2 until end of turn.\nCrew 2\n

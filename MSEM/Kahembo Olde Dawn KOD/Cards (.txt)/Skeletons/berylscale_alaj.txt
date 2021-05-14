@@ -1,5 +1,0 @@
-Name:Berylscale Alaj
-ManaCost:WU B G
-Types:Legendary Creature Lizard Rogue 
-PT:4/4
-Oracle:At the beginning of your upkeep, mill a card.\nWhenever a creature card is put into your graveyard from anywhere, if that card has flying, you may put a flying counter on Berylscale Alaj. Repeat this process for first strike, double strike, deathtouch, hexproof, lifelink, menace, reach, trample, and vigilance.\n

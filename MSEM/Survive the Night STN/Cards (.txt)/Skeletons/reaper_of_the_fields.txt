@@ -1,5 +1,0 @@
-Name:Reaper of the Fields
-ManaCost:2 W
-Types:Creature Human 
-PT:2/1
-Oracle:Whenever a Plains enters the battlefield under your control, you may put a creature card with converted mana cost 2 or less from your hand onto the battlefield.\n

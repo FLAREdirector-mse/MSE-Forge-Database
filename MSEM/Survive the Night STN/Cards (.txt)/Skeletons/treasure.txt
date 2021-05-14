@@ -1,5 +1,0 @@
-Name:Treasure
-ManaCost:
-Types:Token Artifact Treasure 
-PT:1/1
-Oracle:{T}, Sacrifice this artifact: Add one mana of any color.\n

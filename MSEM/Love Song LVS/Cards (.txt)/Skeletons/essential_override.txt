@@ -1,4 +1,0 @@
-Name:Essential Override
-ManaCost:3 U U
-Types:Instant
-Oracle:This costs {1} less to cast for each artifact you control.\nChoose two —\n• Untap each artifact you control.\n• Put a +1/+1 counter on each artifact creature you control.\n• Draw a card.\n

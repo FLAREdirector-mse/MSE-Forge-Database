@@ -1,5 +1,0 @@
-Name:Elken Grovetender
-ManaCost:2 G
-Types:Creature Elk Druid 
-PT:3/3
-Oracle:

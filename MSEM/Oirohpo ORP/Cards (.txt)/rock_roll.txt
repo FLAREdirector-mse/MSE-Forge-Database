@@ -1,0 +1,16 @@
+Name:Rock
+ManaCost:2 G G
+Types:Sorcery
+AlternateMode:Split
+K:Fuse
+A:SP$ ChangeZone | Cost$ 2 G G | Origin$ Library | Destination$ Battlefield | Tapped$ True | ChangeType$ Land.Basic | ChangeNum$ 2 | StackDescription$ SpellDescription | SpellDescription$ Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.
+Oracle:Search your library for up to two basic land cards and put them onto the battlefield tapped. Then shuffle your library.
+
+ALTERNATE
+
+Name:Roll
+ManaCost:4 G G
+Types:Sorcery
+A:SP$ Token | Cost$ 4 G G | TokenScript$ g_3_3_elemental | TokenAmount$ X | References$ X | SpellDescription$ Create a number of 3/3 green Elemental creature tokens equal to the number of differently named lands you control.
+SVar:X:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+Oracle:Create a number of 3/3 green Elemental creature tokens equal to the number of differently named lands you control.

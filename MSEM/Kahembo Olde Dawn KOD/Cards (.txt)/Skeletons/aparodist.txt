@@ -1,5 +1,0 @@
-Name:Aparodist
-ManaCost:2
-Types:Creature Shapeshifter 
-PT:1/1
-Oracle:As Aparodist enters the battlefield, choose a non-Human creature type.\nAparodist is the chosen type in addition to its other types.\n{1}, {T}: Put a +1/+1 counter on each creature you control of the chosen type.\n

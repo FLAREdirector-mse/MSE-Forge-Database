@@ -1,8 +1,0 @@
-Name:Skyscreecher Dragon
-ManaCost:3 R R G
-Types:Creature Dragon 
-PT:5/5
-K:Flying
-K:Trample
-K:Haste
-Oracle:Flying, trample, haste\nWhenever a land enters the battlefield under your control or a land is put into your graveyard from the battlefield, Skyscreecher Dragon deals 2 damage to each opponent.\n

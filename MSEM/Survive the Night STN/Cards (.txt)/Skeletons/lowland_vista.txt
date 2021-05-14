@@ -1,4 +1,0 @@
-Name:Lowland Vista
-ManaCost:
-Types:Land
-Oracle:{T}: Add {C}.\nMotley — {T}: Add one mana of any color. Activate this ability only if there are five or more names among nonland permanents you control.\n

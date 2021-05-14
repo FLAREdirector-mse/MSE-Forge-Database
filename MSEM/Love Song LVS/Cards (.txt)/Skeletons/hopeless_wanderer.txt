@@ -1,6 +1,0 @@
-Name:Hopeless Wanderer
-ManaCost:1 U
-Types:Creature Human Rogue 
-PT:1/1
-K:Unblockable
-Oracle:Cadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\nHopeless Wanderer can't be blocked.\n

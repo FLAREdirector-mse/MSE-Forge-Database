@@ -1,5 +1,0 @@
-Name:Savannah Huntsman
-ManaCost:3 R G
-Types:Creature Cat Warrior 
-PT:5/3
-Oracle:When Savannah Huntsman enters the battlefield, it deals X damage to target creature or planeswalker, where X is the number of counters among permanents you control.\n

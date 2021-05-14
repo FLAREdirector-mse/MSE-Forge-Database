@@ -1,0 +1,10 @@
+Name:Ruinous Naga
+ManaCost:1 R G
+Types:Creature Naga Warrior
+PT:3/3
+K:Trample
+T:Mode$ ChangesZone | ValidCard$ Card.nonCreature | Origin$ Battlefield | Destination$ Graveyard | TriggerZones$ Battlefield | Execute$ TrigPutCounter | TriggerDescription$ Whenever a noncreature permanent is put into a graveyard from the battlefield, put a +1/+1 counter on CARDNAME.
+SVar:TrigPutCounter:DB$ PutCounter | CounterType$ P1P1 | CounterNum$ 1
+A:ST$ Play | Cost$ 0 | GameActivationLimit$ 1 | SorcerySpeed$ True | AnySupportedCard$ Names:Spit on the Grave | RandomCopied$ True | CopyCard$ True | PrecostDesc$ Tale — Spit on the Grave | CostDesc$ {R}{G}: | SpellDescription$ Destroy target artifact or enchantment. Spit on the Grave deals 2 damage to that permanent's controller.
+AI:RemoveDeck:All
+Oracle:Whenever a noncreature permanent is put into a graveyard from the battlefield, put a +1/+1 counter on Ruinous Naga.\nSpit on the Grave {R}{G}\nSorcery — Tale\nDestroy target artifact or enchantment. Spit on the Grave deals 2 damage to that permanent's controller.

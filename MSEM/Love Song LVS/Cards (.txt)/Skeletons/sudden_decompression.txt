@@ -1,4 +1,0 @@
-Name:Sudden Decompression
-ManaCost:1 B
-Types:Sorcery
-Oracle:Target opponent reveals their hand. You choose a nonland card from it. Exile that card. You lose 2 life.\nAugmented — Then if you've spent {W}{U}{B}{R}{G} on spells this turn, you may cast that card without paying its mana cost.\n

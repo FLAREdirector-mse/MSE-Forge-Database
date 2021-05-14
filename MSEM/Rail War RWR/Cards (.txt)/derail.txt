@@ -1,0 +1,7 @@
+Name:Derail
+ManaCost:B
+Types:Instant
+A:SP$ Charm | Cost$ B | Choices$ DBPump,DBRemove
+SVar:DBPump:DB$ Pump | ValidTgts$ Creature | TgtPrompt$ Select target creature | NumAtt$ -2 | NumDef$ -2 | SpellDescription$ Target creature gets -2/-2 until end of turn.
+SVar:DBRemove:DB$ RemoveCounter | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | CounterType$ Any | CounterNum$ 2 | Upto$ True | SpellDescription$ Remove up to two counters from target permanent.
+Oracle:Choose one —\n• Target creature gets -2/-2 until end of turn.\n• Remove up to two counters from target permanent.

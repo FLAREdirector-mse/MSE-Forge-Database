@@ -1,0 +1,7 @@
+Name:Pious Flutist
+ManaCost:W
+Types:Creature Human
+PT:1/2
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigIdolize | TriggerDescription$ When CARDNAME enters the battlefield, idolize. (To idolize, create a colorless Idol artifact token with "{2}, Sacrifice this artifact: Put a +1/+1 counter on target creature.")
+SVar:TrigIdolize:DB$ Token | TokenScript$ c_a_idol_sac | TokenAmount$ 1
+Oracle:When Pious Flutist enters the battlefield, idolize. (To idolize, create a colorless Idol artifact token with "{2}, Sacrifice this artifact: Put a +1/+1 counter on target creature.")

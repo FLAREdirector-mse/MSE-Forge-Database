@@ -1,5 +1,0 @@
-Name:Crystal Vision Abomination
-ManaCost:3 R
-Types:Creature Elemental Horror 
-PT:3/3
-Oracle:When Crystal Vision Abomination enters the battlefield, create a 1/1 blue Elemental creature token with flying.\nWhenever an Elemental you control attacks, that creature gets +1/+0 and first strike until end of turn.\n

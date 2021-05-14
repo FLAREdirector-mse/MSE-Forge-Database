@@ -1,0 +1,9 @@
+Name:Tempted by Lotuses
+ManaCost:2 U U
+Types:Enchantment Aura
+K:Enchant creature
+A:SP$ Attach | Cost$ 2 U U | ValidTgts$ Creature | AILogic$ GainControl
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, enchanted permanent's owner creates three colorless artifact tokens named Lotus Petal with "{T}, Sacrifice this artifact: Add one mana of any color."
+SVar:TrigToken:DB$ Token | TokenScript$ c_a_lotus_petal_sac | TokenAmount$ 3 | TokenOwner$ EnchantedOwner
+S:Mode$ Continuous | Affected$ Card.EnchantedBy | GainControl$ You | Description$ You control enchanted creature.
+Oracle:Enchant creature\nWhen Tempted by Lotuses enters the battlefield, enchanted permanent's owner creates three colorless artifact tokens named Lotus Petal with "{T}, Sacrifice this artifact: Add one mana of any color."\nYou control enchanted creature.

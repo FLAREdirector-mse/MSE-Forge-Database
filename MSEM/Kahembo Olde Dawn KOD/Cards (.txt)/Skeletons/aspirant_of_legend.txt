@@ -1,5 +1,0 @@
-Name:Aspirant of Legend
-ManaCost:2 W
-Types:Creature Cat Warrior 
-PT:2/3
-Oracle:Whenever a storied permanent enters the battlefield under your control, tap target creature an opponent controls. (Enchantments and legendary permanents are storied.)\n

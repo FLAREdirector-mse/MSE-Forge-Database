@@ -1,6 +1,0 @@
-Name:Vengeant Precursor
-ManaCost:U R
-Types:Creature Elemental Wizard 
-PT:1/1
-K:Haste
-Oracle:Haste\nWhenever you cast a noncreature spell, put a +1/+1 counter on Vengeant Precursor. It gains trample until end of turn.\n

@@ -1,0 +1,10 @@
+Name:Keenheart Blade
+ManaCost:R R
+Types:Creature Human Soldier
+PT:2/2
+K:Haste
+K:Persist
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player | CombatDamage$ True | Execute$ TrigRemove | OptionalDecider$ You | TriggerDescription$ Whenever CARDNAME deals combat damage to a player, you may remove a -1/-1 counter from it.
+SVar:TrigRemove:DB$ RemoveCounter | Defined$ Self | CounterType$ M1M1 | CounterNum$ 1
+Oracle:Haste\nWhenever Keenheart Blade deals combat damage to a player, you may remove a -1/-1 counter from it.\nPersist (When this creature dies, if it had no -1/-1 counters on it, return it to the battlefield with a -1/-1 counter on it.)
+

@@ -1,5 +1,0 @@
-Name:Chromatic Herald
-ManaCost:1 G
-Types:Creature Avatar 
-K:Flying
-Oracle:Flying\nLands you control have “{T}: Add one mana of any color.”\nAs long as you control seven or more lands, creatures you control have trample, haste and hexproof.\n

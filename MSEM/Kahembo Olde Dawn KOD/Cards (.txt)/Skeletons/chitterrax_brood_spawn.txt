@@ -1,5 +1,0 @@
-Name:Chitterrax
-ManaCost:2 B G
-Types:Creature Insect 
-PT:3/3
-Oracle:{1}, Sacrifice a creature: Put a +1/+1 counter on Chitterrax, then each opponent loses 1 life and you gain 1 life.\n

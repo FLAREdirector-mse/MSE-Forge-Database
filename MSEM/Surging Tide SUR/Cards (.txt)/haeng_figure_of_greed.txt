@@ -1,0 +1,12 @@
+Name:Ha'Eng, Figure of Greed
+ManaCost:1 B
+Types:Legendary Creature Human Wizard
+PT:1/2
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Creature.OppOwn | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigDig | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature an opponent owns dies, exile the top two cards of that player's library face down. For as long as those cards remain exiled, you may look at them, you may cast them, and you may spend mana as though it were mana of any type to cast them.
+SVar:TrigDig:DB$ Dig | Defined$ TriggeredCardOwner | DigNum$ 2 | ChangeNum$ All | DestinationZone$ Exile | ExileFaceDown$ True | RememberChanged$ True | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | StaticAbilities$ STPlay,STLook | RememberObjects$ Remembered | Duration$ Permanent | SubAbility$ DBCleanup | SpellDescription$ You may cast nonland cards from among them as long as they remain exiled, and you may spend mana as though it were mana of any type to cast those spells.
+SVar:STLook:Mode$ Continuous | Affected$ Card.IsRemembered | AffectedZone$ Exile | EffectZone$ Command | MayLookAt$ You | Duration$ Permanent
+SVar:STPlay:Mode$ Continuous | MayPlay$ True | MayPlayIgnoreType$ True | EffectZone$ Command | Affected$ Card.nonLand+IsRemembered | AffectedZone$ Exile | Description$ For as long as those cards remain exiled, you may look at them, you may cast them, and you may spend mana as though it were mana of any type to cast them.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+Oracle:Deathtouch\nWhenever a creature an opponent owns dies, exile the top two cards of that player's library face down. For as long as those cards remain exiled, you may look at them, you may cast them, and you may spend mana as though it were mana of any type to cast them.

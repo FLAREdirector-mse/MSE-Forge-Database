@@ -1,13 +1,13 @@
 Name:Bal's Descent
-ManaCost:1 B B
+ManaCost:2 B B
 Types:Legendary Enchantment
-T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigSacrifice | TriggerDescription$ When CARDNAME enters the battlefield, each player sacrifices a creature, discards two cards, and loses 3 life.
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigSacrifice | TriggerDescription$ When CARDNAME enters the battlefield, each player sacrifices a creature, discards two cards, and mills three cards.
 SVar:TrigSacrifice:DB$ Sacrifice | SacValid$ Creature | Defined$ Player | SubAbility$ DBDiscard
 SVar:DBDiscard:DB$ Discard | Defined$ Player | NumCards$ 2 | Mode$ TgtChoose | SubAbility$ DBLoseLife
-SVar:DBLoseLife:DB$ LoseLife | Defined$ Player | LifeAmount$ 3
+SVar:DBLoseLife:DB$ Mill | Defined$ Player | NumCards$ 3
 A:AB$ SetState | Cost$ 1 B B | Defined$ Self | IsPresent$ Card.Swamp+YouCtrl | PresentCompare$ GE5 | Mode$ Transform | SpellDescription$ Transform CARDNAME. Activate this ability only if your fealty to Swamps is five or greater.
 AlternateMode:DoubleFaced
-Oracle:When Bal's Descent enters the battlefield, each player sacrifices a creature, discards two cards, and loses 3 life.\n{1}{B}{B}: Transform Bal's Descent. Activate this ability only if your fealty to Swamps is five or greater.
+Oracle:When Bal's Descent enters the battlefield, each player sacrifices a creature, discards two cards, and mills three cards.\n{1}{B}{B}: Transform Bal's Descent. Activate this ability only if your fealty to Swamps is five or greater.
 
 ALTERNATE
 

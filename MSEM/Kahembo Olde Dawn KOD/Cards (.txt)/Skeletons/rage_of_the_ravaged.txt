@@ -1,4 +1,0 @@
-Name:Rage of the Ravaged
-ManaCost:1 BR BR
-Types:Enchantment
-Oracle:Players can't gain life.\nWhenever a player casts a spell, Rage of the Ravaged deals 1 damage to that player.\n

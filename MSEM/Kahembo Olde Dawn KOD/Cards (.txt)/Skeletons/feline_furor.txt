@@ -1,4 +1,0 @@
-Name:Feline Furor
-ManaCost:1 BR
-Types:Enchantment Aura 
-Oracle:Enchant creature\nWhen Feline Furor enters the battlefield, it deals 2 damage to enchanted creature.\nEnchanted creature gets +2/+0 and has menace.\n

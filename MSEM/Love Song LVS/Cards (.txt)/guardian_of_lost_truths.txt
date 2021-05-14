@@ -1,0 +1,10 @@
+Name:Guardian of Lost Truths
+ManaCost:2 U
+Types:Creature Elemental
+PT:1/4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigBranch | TriggerDescription$ When CARDNAME enters the battlefield, if a library has twenty or fewer cards left in it, draw two cards. Otherwise, target player mills five cards.
+SVar:TrigBranch:DB$ Branch | ValidTgts$ Player | TgtPrompt$ Select target player | References$ X | BranchConditionSVar$ X | BranchConditionSVarCompare$ LE20 | TrueSubAbility$ DBDraw | FalseSubAbility$ DBMill
+SVar:DBDraw:DB$ Draw | NumCards$ 2
+SVar:DBMill:DB$ Mill | Defined$ ParentTarget | NumCards$ 5
+SVar:X:PlayerCountPlayers$LowestValidLibrary Card.YouOwn
+Oracle:When Guardian of Lost Truths enters the battlefield, if a library has twenty or fewer cards left in it, draw two cards. Otherwise, target player mills five cards.

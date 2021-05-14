@@ -1,5 +1,0 @@
-Name:Hardened Explorer
-ManaCost:2 R
-Types:Creature Human Warrior 
-PT:2/1
-Oracle:When Hardened Explorer enters the battlefield, choose one —\n• Destroy target artifact.\n• Put a +1/+1 counter on Hardened Explorer. It gains haste.\n

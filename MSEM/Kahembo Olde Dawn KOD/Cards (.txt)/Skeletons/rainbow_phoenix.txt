@@ -1,7 +1,0 @@
-Name:Rainbow Phoenix
-ManaCost:2 R R
-Types:Creature Phoenix 
-PT:4/3
-K:Flying
-K:Haste
-Oracle:Flying, haste\n{2}{R}{R}, Exile a multicolored card from your graveyard: Return Rainbow Phoenix from your graveyard to the battlefield tapped. If you activate this ability during your declare attackers step, it enters the battlefield attacking.\n

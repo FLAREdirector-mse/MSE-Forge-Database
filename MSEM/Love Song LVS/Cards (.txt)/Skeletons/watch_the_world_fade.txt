@@ -1,4 +1,0 @@
-Name:Watch the World Fade
-ManaCost:
-Types:Sorcery
-Oracle:{4}{B}{R}: Exile Watch the World Fade from your hand with seven apocalypse counters on it.\nAt the beginning of your upkeep, if Watch the World Fade is exiled, remove an apocalypse counter from it. If you do, each opponent loses 3 life unless they discard a card or sacrifice a nonland permanent. When you remove the last counter this way, each player loses the game.\n

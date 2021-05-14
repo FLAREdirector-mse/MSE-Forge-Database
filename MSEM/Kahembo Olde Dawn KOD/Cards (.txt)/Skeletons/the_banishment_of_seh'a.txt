@@ -1,4 +1,0 @@
-Name:The Banishment of Seh’a
-ManaCost:1 WB WB
-Types:Enchantment Saga 
-Oracle:(As this Saga enters and after your draw step, add a lore counter. Sacrifice after III.)\nI — Exile target creature an opponent controls until The Banishment of Seh'a leaves the battlefield.\nII — Exile up to three cards from target opponent's graveyard.\nIII — You gain life equal to the number of cards in exile.\n

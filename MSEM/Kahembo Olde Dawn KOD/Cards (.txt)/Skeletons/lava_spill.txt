@@ -1,4 +1,0 @@
-Name:Lava Spill
-ManaCost:U R
-Types:Instant
-Oracle:Lava Spill deals 2 damage to any target.\nLook at the top three cards of your library. Put one on top and the rest on the bottom in any order.\n

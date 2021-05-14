@@ -1,5 +1,0 @@
-Name:Bloodlash Caravan
-ManaCost:1 B B
-Types:Creature Human Warrior 
-PT:2/2
-Oracle:Sacrifice a creature: Put a +1/+1 counter on Bloodlash Caravan. Then if it's the only creature you control, it gains indestructible until end of turn.\n

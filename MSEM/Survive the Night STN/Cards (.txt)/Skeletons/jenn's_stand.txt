@@ -1,4 +1,0 @@
-Name:Jenn’s Stand
-ManaCost:3 W W
-Types:Sorcery
-Oracle:Motley — This spell costs {3} less to cast as long as there are five or more names among nonland permanents you control.\nDestroy all creatures.\n

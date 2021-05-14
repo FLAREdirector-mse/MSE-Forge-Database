@@ -1,4 +1,0 @@
-Name:Veiled by the Blizzard
-ManaCost:U
-Types:Instant
-Oracle:Until end of turn, you may cast creature spells as though they had flash.\nCreatures you control can't be the targets of spells or abilities your opponents control this turn.\n

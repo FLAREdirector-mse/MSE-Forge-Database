@@ -1,0 +1,7 @@
+Name:Cardsharp Drifter
+ManaCost:3 U
+Types:Creature Spirit Rogue
+PT:3/3
+K:Hexproof
+Oracle:Hexproof (This creature can't be the target of spells or abilities your opponents control.)
+

@@ -1,7 +1,0 @@
-Name:Crashing Mammoth
-ManaCost:6 G G
-Types:Creature Elephant 
-PT:8/8
-K:Trample
-K:Haste
-Oracle:Trample, haste\nAll creatures able to block Crashing Mammoth do so.\n

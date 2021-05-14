@@ -1,6 +1,0 @@
-Name:Grotesque Presence
-ManaCost:5 B
-Types:Creature Elemental Horror 
-PT:5/6
-K:Flash
-Oracle:Flash\nThis spell costs {1} less to cast for each creature that left the battlefield this turn.\n

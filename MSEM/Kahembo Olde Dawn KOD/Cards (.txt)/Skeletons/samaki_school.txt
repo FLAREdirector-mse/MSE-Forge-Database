@@ -1,4 +1,0 @@
-Name:Samaki School
-ManaCost:U
-Types:Creature Fish 
-Oracle:{7}, {T}, Sacrifice Samaki School: Look at the top four cards of your library. Put two into your hand and the rest on the bottom of your library in any order.\n

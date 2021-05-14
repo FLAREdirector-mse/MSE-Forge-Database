@@ -1,0 +1,8 @@
+Name:Curse of the Drow
+ManaCost:1 B B
+Types:Sorcery
+A:SP$ Discard | Cost$ 1 B B | ValidTgts$ Player | NumCards$ 2 | Mode$ TgtChoose | SpellDescription$ Target player discards two cards.
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ X | EffectZone$ All | Description$ Landfall — This spell costs {1} less to cast if you had a land enter the battlefield under your control this turn.
+SVar:X:Count$Landfall.1.0
+DeckHas:Ability$Discard
+Oracle:Target player discards two cards.\nLandfall — This spell costs {1} less to cast if you had a land enter the battlefield under your control this turn.

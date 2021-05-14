@@ -1,4 +1,0 @@
-Name:Burning Up
-ManaCost:1 R
-Types:Sorcery
-Oracle:You may cast this spell as though it had flash if it targets a creature or planeswalker.\nBurning Up deals X damage to any target, where X is the number of basic land types among lands you control.\n

@@ -1,6 +1,0 @@
-Name:Kiana, the Unyielding
-ManaCost:1 UB R W
-Types:Legendary Creature Hound Knight 
-PT:4/3
-K:Vigilance
-Oracle:Vigilance\nIf you would take a combat phase or a main phase, take the other instead.\n{U/B}, Pay 1 life: Untap target creature you control.\n

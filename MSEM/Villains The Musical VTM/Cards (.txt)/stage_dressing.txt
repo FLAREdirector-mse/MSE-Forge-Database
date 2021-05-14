@@ -1,0 +1,5 @@
+Name:Stage Dressing
+ManaCost:1
+Types:Artifact
+A:AB$ Untap | Cost$ 1 T | ValidTgts$ Creature | TgtPrompt$ Select target creature | SpellDescription$ Untap target creature.
+Oracle:{1}, {T}: Untap target creature.

@@ -1,4 +1,0 @@
-Name:End of the World
-ManaCost:5 R R R
-Types:Sorcery
-Oracle:Destroy all non-enchantment permanents. If thirty or more lands were destroyed this way, you win the game.\n

@@ -1,7 +1,0 @@
-Name:Manic River-Fishers
-ManaCost:2 UB R
-Types:Creature Hyena Warrior Scout 
-PT:4/2
-K:Menace
-K:Haste
-Oracle:Menace, haste\nWhenever Manic River-Fishers attacks, you may search defending players library for an instant or sorcery card that shares a name with a card in their graveyard and cast it without paying its mana cost. That player shuffles their library.\n

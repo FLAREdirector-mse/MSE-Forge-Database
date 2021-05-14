@@ -1,4 +1,0 @@
-Name:Dead on Arrival
-ManaCost:1 B B
-Types:Sorcery
-Oracle:Target player sacrifices a creature or planeswalker.\nLeitmotif (If you cast this spell from your hand, exile it as it resolves. When you next cast a spell that shares a color with this card, you may cast this from exile without paying its mana cost.)\n

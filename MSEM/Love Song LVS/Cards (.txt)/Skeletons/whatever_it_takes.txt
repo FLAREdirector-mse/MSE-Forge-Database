@@ -1,4 +1,0 @@
-Name:Whatever It Takes
-ManaCost:1 U U
-Types:Instant
-Oracle:Augmented — If you've spent {W}{U}{B}{R}{G} on spells this turn, you may cast this spell without paying its mana cost.\nCounter target spell.\n

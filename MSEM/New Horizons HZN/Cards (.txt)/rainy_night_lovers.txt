@@ -1,0 +1,12 @@
+Name:Rainy Night Lovers
+ManaCost:1 R R
+Types:Creature Human Artist
+PT:3/2
+K:Haste
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigDig | TriggerDescription$ When CARDNAME enters the battlefield, look at the top four cards of your library. You may cast a red instant or sorcery card with mana value 1 from among them without paying its mana cost. Then put the rest on the bottom of your library in any order.
+SVar:TrigDig:DB$ Dig | DigNum$ 4 | NoMove$ True | Reveal$ True | RememberRevealed$ True | SubAbility$ DBPlay
+SVar:DBPlay:DB$ Play | ValidZone$ Library | Valid$ Instant.Red+cmcEQ1+IsRemembered,Sorcery.Red+cmcEQ1+IsRemembered | Controller$ You | WithoutManaCost$ True | Optional$ True | Amount$ 1 | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+AI:RemoveDeck:Random
+Oracle:Haste\nWhen Rainy Night Lovers enters the battlefield, look at the top four cards of your library. You may cast a red instant or sorcery card with mana value 1 from among them without paying its mana cost. Then put the rest on the bottom of your library in any order.
+

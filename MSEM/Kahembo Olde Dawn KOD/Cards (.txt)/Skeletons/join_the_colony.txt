@@ -1,4 +1,0 @@
-Name:Join the Colony
-ManaCost:2 G
-Types:Instant
-Oracle:Choose two. You may choose the same mode twice —\n•  Create a 1/1 green Insect creature token.\n•  Put a +1/+1 counter on target creature you control.\n

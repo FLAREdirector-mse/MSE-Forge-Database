@@ -1,5 +1,0 @@
-Name:An’yama, Elder Guardian
-ManaCost:W U B R G
-Types:Legendary Creature Cat Beast 
-PT:6/6
-Oracle:If another multicolored card would be put into your graveyard from anywhere other than your hand or library, if no cards exiled with An'yama, Elder Guardian are exactly that card's colors, you may instead exile that card and put a +1/+1 counter on An'yama.\nAs long as An'yama has four or more counters on them, they have protection from everything.\n

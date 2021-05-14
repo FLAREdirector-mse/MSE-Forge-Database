@@ -1,0 +1,8 @@
+Name:Mesa Brute
+ManaCost:4 G
+Types:Creature Mutant Survivor
+PT:3/3
+S:Mode$ Continuous | Affected$ Survivor.YouCtrl | AddPower$ 3 | AddToughness$ 3 | Description$ Survivors you control get +3/+3.
+DeckHints:Type$Survivor
+SVar:PlayMain1:ALWAYS
+Oracle:Survivors you control get +3/+3.

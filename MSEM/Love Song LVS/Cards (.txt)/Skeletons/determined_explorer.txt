@@ -1,6 +1,0 @@
-Name:Determined Explorer
-ManaCost:1 B
-Types:Creature Human Scout 
-PT:2/1
-K:Menace
-Oracle:Menace\n{1}{B}, Exile another three cards from your graveyard: Return Determined Explorer from your graveyard to your hand.\n

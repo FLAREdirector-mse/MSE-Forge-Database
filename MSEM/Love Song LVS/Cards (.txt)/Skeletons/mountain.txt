@@ -1,4 +1,0 @@
-Name:Mountain
-ManaCost:
-Types:Basic Land Mountain 
-Oracle:

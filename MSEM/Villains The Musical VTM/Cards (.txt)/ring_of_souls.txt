@@ -1,0 +1,11 @@
+Name:Ring of Souls
+ManaCost:1
+Types:Artifact Equipment
+K:Equip:1
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddKeyword$ Hexproof | AddHiddenKeyword$ Unblockable | Description$ Equipped creature has hexproof and can't be blocked.
+T:Mode$ Attached | ValidSource$ Card.Self | ValidTarget$ Creature | Execute$ TrigChoose | TriggerDescription$ Whenever CARDNAME becomes attached to a creature, an opponent of your choice may create a 2/2 black Spirit creature token.
+SVar:TrigChoose:DB$ ChoosePlayer | Defined$ You | Choices$ Player.Opponent | SubAbility$ DBRepeat
+SVar:DBRepeat:DB$ RepeatEach | RepeatSubAbility$ DBToken | RepeatPlayers$ Player.Chosen | RepeatOptionalForEachPlayer$ True | RepeatOptionalMessage$ Do you want to create a 2/2 black Spirit creature token? | SubAbility$ DBCleanup
+SVar:DBToken:DB$ Token | TokenScript$ b_2_2_spirit | TokenOwner$ Remembered
+SVar:DBCleanup:DB$ Cleanup | ClearChosenPlayer$ True
+Oracle:Equipped creature has hexproof and can't be blocked.\nEquip {1}\nWhenever Ring of Souls becomes attached to a creature, an opponent of your choice may create a 2/2 black Spirit creature token.

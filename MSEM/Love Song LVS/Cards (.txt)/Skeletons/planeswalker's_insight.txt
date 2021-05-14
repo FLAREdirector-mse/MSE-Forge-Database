@@ -1,4 +1,0 @@
-Name:Planeswalker’s Insight
-ManaCost:3 U
-Types:Instant
-Oracle:Draw two cards. If three or more colors of mana were spent to cast Planeswalker's Insight, draw three cards instead.\n

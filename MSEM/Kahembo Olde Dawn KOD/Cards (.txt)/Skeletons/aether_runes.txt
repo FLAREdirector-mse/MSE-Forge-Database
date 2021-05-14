@@ -1,4 +1,0 @@
-Name:Aether Runes
-ManaCost:2 U
-Types:Instant
-Oracle:Counter target spell unless its controller pays {3}. Its controller mills three cards.\n

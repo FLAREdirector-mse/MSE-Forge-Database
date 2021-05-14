@@ -1,5 +1,0 @@
-Name:Kwende Peak Partisan
-ManaCost:3 RG
-Types:Creature Cat Scout 
-PT:4/3
-Oracle:When Kwende Peak Partisan enters the battlefield, exile the top card of your library. If it's a land card, you may play it this turn.\n

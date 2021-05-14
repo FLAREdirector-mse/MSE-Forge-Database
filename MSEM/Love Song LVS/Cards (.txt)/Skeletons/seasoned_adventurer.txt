@@ -1,6 +1,0 @@
-Name:Seasoned Adventurer
-ManaCost:3 G G
-Types:Creature Human Scout 
-PT:5/5
-K:Trample
-Oracle:Trample\nSeasoned Adventurer enters the battlefield with two +1/+1 counters if you control seven or more lands.\n

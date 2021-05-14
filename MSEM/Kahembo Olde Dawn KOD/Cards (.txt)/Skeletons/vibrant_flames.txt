@@ -1,4 +1,0 @@
-Name:Vibrant Flames
-ManaCost:R
-Types:Instant
-Oracle:As an additional cost to cast this spell, exile a multicolored card from your graveyard or pay {2}.\nVibrant Flames deals 3 damage to any target.\n

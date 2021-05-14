@@ -1,0 +1,11 @@
+Name:Aldorus Fin, Vice President
+ManaCost:1 B R
+Types:Legendary Creature Human Noble
+PT:1/4
+K:Deathtouch
+T:Mode$ ChangesZone | ValidCard$ Creature.YouDontCtrl | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigCharm | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you don't control dies, ABILITY
+SVar:TrigCharm:DB$ Charm | Choices$ DBToken,DBDraw
+SVar:DBToken:DB$ Token | TokenScript$ c_a_treasure_sac | SpellDescription$ Create a Treasure token.
+SVar:DBDraw:DB$ Draw | SubAbility$ DBLoseLife | SpellDescription$ You draw a card and you lose 1 life.
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1
+Oracle: Deathtouch\nWhenever a creature you don't control dies, choose one —\n• Create a Treasure token.\n• You draw a card and lose 1 life. 

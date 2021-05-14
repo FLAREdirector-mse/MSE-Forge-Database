@@ -1,0 +1,10 @@
+Name:Poisonheart Undead
+ManaCost:2 B
+Types:Creature Zombie
+PT:1/2
+K:Deathtouch
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDraw | TriggerDescription$ When CARDNAME enters the battlefield, you draw a card and you lose 1 life.
+SVar:TrigDraw:DB$ Draw | Defined$ You | NumCards$ 1 | SubAbility$ DBLoseLife
+SVar:DBLoseLife:DB$ LoseLife | LifeAmount$ 1
+Oracle:Deathtouch (Any amount of damage this deals to a creature is enough to destroy it.)\nWhen Poisonheart Undead enters the battlefield, you draw a card and you lose 1 life.
+

@@ -1,6 +1,0 @@
-Name:Heaven, Presidential Ship
-ManaCost:7
-Types:Legendary Artifact Vehicle 
-PT:7/7
-K:Flying
-Oracle:Flying\nIf a source without flying would deal damage to you, prevent 2 of that damage.\nCrew 5\n

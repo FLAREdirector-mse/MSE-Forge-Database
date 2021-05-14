@@ -1,5 +1,0 @@
-Name:Weary Adventurer
-ManaCost:1 W
-Types:Creature Human Scout 
-PT:3/2
-Oracle:When Weary Adventurer enters the battlefield, return a permanent you control to its owner's hand.\n

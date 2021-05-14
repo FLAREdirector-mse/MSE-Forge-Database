@@ -1,6 +1,0 @@
-Name:Rhino Warrior
-ManaCost:
-Types:Token Creature Rhino Warrior 
-PT:4/4
-K:Trample
-Oracle:Trample\n

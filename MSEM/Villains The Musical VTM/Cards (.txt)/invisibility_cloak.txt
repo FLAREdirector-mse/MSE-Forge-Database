@@ -1,0 +1,10 @@
+Name:Invisibility Cloak
+ManaCost:2
+Types:Artifact Equipment
+K:Equip:1
+S:Mode$ Continuous | Affected$ Creature.EquippedBy | AddKeyword$ Hexproof | Description$ Equipped creature has hexproof.
+A:AB$ ChangeZone | Cost$ 2 | Origin$ Battlefield | Destination$ Exile | Defined$ Equipped | RememberChanged$ True | SubAbility$ DBTrigger | SpellDescription$ Exile equipped creature. Return it to the battlefield under its owner's control at the beginning of the next end step.
+SVar:DBTrigger:DB$ DelayedTrigger | Mode$ Phase | Phase$ End of Turn | Execute$ TrigBounce | RememberObjects$ Remembered | SubAbility$ DBCleanup | TriggerDescription$ Return the exiled permanent to the battlefield.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:TrigBounce:DB$ ChangeZone | Origin$ Exile | Destination$ Battlefield | Defined$ DelayTriggerRemembered
+Oracle:Equipped creature has hexproof.\n{2}: Exile equipped creature. Return it to the battlefield under its owner's control at the beginning of the next end step.\nEquip {1}

@@ -1,6 +1,0 @@
-Name:AOSE Field Researcher
-ManaCost:2 W
-Types:Creature Human Shaman 
-PT:3/2
-K:Vigilance
-Oracle:Vigilance\nCadence (Whenever you cast a spell, if its converted mana cost is greater than this creature's power, put a +1/+1 counter on this creature.)\n

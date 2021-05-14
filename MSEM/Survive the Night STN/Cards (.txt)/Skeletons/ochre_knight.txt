@@ -1,5 +1,0 @@
-Name:Ochre Knight
-ManaCost:W
-Types:Creature Human Knight 
-PT:1/1
-Oracle:Motley — At the beginning of combat on your turn, if you control five or more nonland permanents with different names, Ochre Knight gets +2/+1 until the end of turn and you gain 1 life.\n

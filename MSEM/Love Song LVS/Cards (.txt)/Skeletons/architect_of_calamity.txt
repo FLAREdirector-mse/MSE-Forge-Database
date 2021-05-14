@@ -1,5 +1,0 @@
-Name:Architect of Calamity
-ManaCost:2 R
-Types:Creature Human Advisor 
-PT:1/1
-Oracle:Whenever you cast a noncreature spell, Architect of Calamity deals 2 damage to each opponent.\n

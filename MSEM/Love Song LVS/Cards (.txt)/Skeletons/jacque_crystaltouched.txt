@@ -1,6 +1,0 @@
-Name:Jacque, Crystal-Touched
-ManaCost:2 W
-Types:Legendary Creature Human Wizard 
-PT:3/2
-K:Vigilance
-Oracle:Vigilance\nAugmented — Whenever Jacque attacks, if you've spent {W}{U}{B}{R}{G} on spells this turn, you may exile any number of target nonland permanents, then return them to the battlefield tapped under their owners' control.\n

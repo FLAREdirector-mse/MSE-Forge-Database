@@ -1,4 +1,0 @@
-Name:Emblem
-ManaCost:
-Types:Emblem Ruchi 
-Oracle:Permanents you control have “{T}: Draw a card.”\n

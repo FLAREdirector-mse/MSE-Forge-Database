@@ -1,4 +1,0 @@
-Name:Human Frailty
-ManaCost:B
-Types:Instant
-Oracle:Destroy target Human creature.\n

@@ -1,4 +1,0 @@
-Name:Fiery Erasure
-ManaCost:R
-Types:Instant
-Oracle:Fiery Erasure deals 3 damage to target creature or planeswalker. If that permanent would die this turn, exile it instead.\n

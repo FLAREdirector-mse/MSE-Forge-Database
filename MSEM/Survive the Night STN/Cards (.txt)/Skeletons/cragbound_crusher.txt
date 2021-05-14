@@ -1,8 +1,0 @@
-Name:Cragbound Crusher
-ManaCost:15 R R
-Types:Creature Beast 
-PT:10/10
-K:Menace
-K:Trample
-K:First Strike
-Oracle:Menace, trample, first strike\nThis spell costs {X} less to cast, where X is 20 minus your life total.\n

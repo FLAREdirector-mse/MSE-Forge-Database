@@ -1,4 +1,0 @@
-Name:Great Migration
-ManaCost:1 G U
-Types:Sorcery
-Oracle:Reveal the top three cards of your library. You may put a land card from among them onto the battlefield tapped, then you may put a creature card from among them into your hand. Put the rest on the bottom of your library in any order.\n

@@ -1,6 +1,0 @@
-Name:Gentle Giraffe
-ManaCost:2 G
-Types:Creature Giraffe 
-PT:3/2
-K:Reach
-Oracle:Reach\nPrismatic — Whenever you cast a multicolored spell, you gain 2 life.\n
