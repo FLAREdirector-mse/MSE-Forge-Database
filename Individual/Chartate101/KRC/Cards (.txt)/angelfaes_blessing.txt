@@ -1,0 +1,12 @@
+Name:Angelfae's Blessing
+ManaCost:3 W
+Types:Sorcery
+S:Mode$ ReduceCost | ValidCard$ Card.Self | Type$ Spell | Amount$ XWhite | Relative$ True | EffectZone$ All | Description$ CARDNAME costs {1} less to cast if it targets an Angel or Serra card.
+SVar:XWhite:Count$Compare CheckTgt GE1.1.0
+SVar:CheckTgt:Targeted$Valid Card.Angel,Card.Serra
+A:SP$ ChangeZone | Cost$ 3 W | Origin$ Graveyard | Destination$ Battlefield | TgtPrompt$ Choose target creature card in your graveyard | ValidTgts$ Creature.YouCtrl,Planeswalker.YouCtrl | SubAbility$ DBPump | SpellDescription$ Return target creature or planeswalker card from your graveyard to the battlefield. If it’s a creature, put a changeling counter on it.
+SVar:DBPump:DB$ Pump | Defined$ Targeted | KW$ Changeling | Duration$ Permanent | SubAbility$ DBPutCounter | ConditionCheckSVar$ X | ConditionSVarCompare$ GE1
+SVar:DBPutCounter:DB$ PutCounter | CounterType$ CHNGL | CounterNum$ 1 | Defined$ Targeted | ConditionCheckSVar$ X | ConditionSVarCompare$ GE1
+SVar:X:Targeted$Valid Creature
+
+Oracle:This spell costs less to cast if it targets an Angel or Serra card.\nReturn target creature or planeswalker card from your graveyard to the battlefield. If it’s a creature, put a changeling counter on it.\n\nDesigned by Queen Emily\n(NOTE: Does not currently use counters. May 4, 2022)

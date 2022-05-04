@@ -1,0 +1,7 @@
+Name:Angelic Light
+ManaCost:2 W
+Types:Enchantment
+K:TypeCycling:Angel:2 W
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile another target nonland permanent until CARDNAME leaves the battlefield.
+SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | ValidTgts$ Permanent.nonLand+Other | TgtPrompt$ Select another target nonland permanent | Duration$ UntilHostLeavesPlay
+Oracle:When Angelic Light enters the battlefield, exile another target nonland permanent until Angelic Light leaves the battlefield.\nAngelcycling {2}{W} ({2}{W}, Discard this card: Search your library for an Angel card, reveal it, put it into your hand, then shuffle.)\n\nDesigned by Queen Emily

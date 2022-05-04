@@ -1,0 +1,10 @@
+Name:Angel of Hopeful Dawns
+ManaCost:3 W
+Types:Creature Angel
+PT:4/3
+K:Flying
+T:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of your upkeep, create a 1/1 white Soldier creature token.
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_soldier | TokenOwner$ You | SubAbility$ TrigPump
+SVar:TrigPump:DB$ PutCounterAll | ValidCards$ Creature.YouCtrl | CounterType$ P1P1 | CounterNum$ 1 | ConditionCheckSVar$ X | ConditionSVarCompare$ GE3
+SVar:X:Count$Valid Enchantment.YouCtrl
+Oracle:Flying\nVerdict — At the beginning of your upkeep, create a 1/1 white Soldier creature token. Then if you control three or more enchantments, put a +1/+1 counter on each creature you control.\n\nDesigned by Queen Emily

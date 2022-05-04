@@ -1,0 +1,9 @@
+Name:Last Sight Seen
+ManaCost:8
+Types:Creature Eldrazi
+PT:7/9
+K:Annihilator:2
+S:Mode$ Continuous | Affected$ Card.OppOwn | Condition$ PlayerTurn | MayPlay$ True | MayPlayLimit$ 1 | EffectZone$ Battlefield | MayPlayIgnoreType$ True | AffectedZone$ Graveyard | Description$ Once during each of your turns, you may play a card from an opponent’s graveyard. You may spend mana as though it was mana of any color to do so. If you cast an instant or sorcery spell this way, exile it as it resolves.
+R:Event$ Moved | ValidLKI$ Card.CastSa Spell.MayPlaySource | ValidSA$ Spell | Origin$ Stack | Destination$ Graveyard | ReplaceWith$ MoveExile
+SVar:MoveExile:DB$ ChangeZone | Defined$ ReplacedCard | Origin$ Stack | Destination$ Exile
+Oracle:Annihilator 2 (Whenever this creature attacks, defending player sacrifices two permanents.)\nOnce during each of your turns, you may play a card from an opponent’s graveyard. You may spend mana as though it was mana of any color to do so. If you cast an instant or sorcery spell this way, exile it as it resolves.\n\nDesigned by Queen Emily

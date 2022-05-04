@@ -1,0 +1,13 @@
+Name:Greatoak Sentinel
+ManaCost:4 G
+Types:Creature Faerie
+PT:5/5
+K:Changeling
+K:Ascend
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Any | Destination$ Battlefield | Execute$ TrigGainLife | TriggerDescription$ When CARDNAME enters the battlefield, you gain 4 life. If you have the city’s blessing, you gain 10 life instead.
+SVar:TrigGainLife:DB$ GainLife | LifeAmount$ X | References$ X
+SVar:X:Count$Blessing.10.4
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Origin$ Battlefield | Destination$ Graveyard | Execute$ TrigToken | TriggerDescription$ When CARDNAME dies, create two 1/1 green Saproling creatures. If you have the city’s blessing, create five of those tokens instead.
+SVar:TrigToken:DB$ Token | TokenAmount$ Y | TokenScript$ g_1_1_saproling | TokenOwner$ You | References$ Y
+SVar:Y:Count$Blessing.5.2
+Oracle:Changeling (This card is every creature type.)\nAscend (If you control ten or more permanents, you get the city’s blessing for the rest of the game.)\nWhen Greatoak Sentinel enters the battlefield, you gain 4 life. If you have the city’s blessing, you gain 10 life instead.\nWhen Greatoak Sentinel dies, create two 1/1 green Saproling creatures. If you have the city’s blessing, create five of those tokens instead.\n\nDesigned by Queen Emily

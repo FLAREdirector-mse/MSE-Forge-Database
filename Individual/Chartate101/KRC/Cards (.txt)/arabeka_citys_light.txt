@@ -1,0 +1,10 @@
+Name:Arabeka, City's Light
+ManaCost:2 W W
+Types:Legendary Creature God
+PT:4/4
+T:Mode$ BecomesTarget | ValidTarget$ Creature.Self | ValidSource$ Spell.OppCtrl | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME becomes the target of a spell you don’t control, create three 1/1 white Soldier creature tokens.
+SVar:TrigToken:DB$ Token | TokenAmount$ 3 | TokenScript$ w_1_1_soldier | TokenOwner$ You
+T:Mode$ DamageDone | ValidSource$ Creature.YouCtrl | ValidTarget$ Player,Planeswalker | CombatDamage$ True | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control deals combat damage to a player, put a shield counter on it.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ TriggeredSourceLKICopy | CounterType$ SHIELD | CounterNum$ 1
+DeckHas:Ability$Counters|Token
+Oracle:Whenever Arabeka becomes the target of a spell you don’t control, create three 1/1 white Solider creature tokens.\nWhenever a creature you control deals combat damage to a player or planeswalker, put a shield counter on it. (If it would be dealt damage or destroyed, remove a shield counter from it instead.)\n\nDesigned by Queen Emily

@@ -1,0 +1,10 @@
+Name:Angel of Sacred Burials
+ManaCost:5 W W
+Types:Creature Angel
+PT:4/4
+K:Flying
+K:Evoke:3 WB
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigChangeZone | TriggerDescription$ When CARDNAME enters the battlefield, return target creature or planeswalker card from your graveyard to the battlefield.
+SVar:TrigChangeZone:DB$ ChangeZone | Origin$ Graveyard | Destination$ Battlefield | ValidTgts$ Creature.YouCtrl,Planeswalker.YouCtrl
+SVar:PlayMain1:TRUE
+Oracle:Flying\nWhen Angel of Sacred Burials enters the battlefield, return target creature or planeswalker card from your graveyard to the battlefield\nEvoke {3}{W/B} (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters the battlefield.)\n\nDesigned by Queen Emily

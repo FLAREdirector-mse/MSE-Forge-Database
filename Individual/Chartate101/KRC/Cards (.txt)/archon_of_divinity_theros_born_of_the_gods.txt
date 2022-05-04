@@ -1,0 +1,20 @@
+Name:Archon of Divinity
+ManaCost:3 W W
+Types:Enchantment Creature Archon
+PT:4/5
+K:Flying
+K:Ward:3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self,Enchantment.Other+YouCtrl | Execute$ TrigScry | TriggerDescription$ Constellation — Whenever CARDNAME or another enchantment enters the battlefield under your control, scry 2.
+SVar:TrigScry:DB$ Scry | ScryNum$ 2 | SpellDescription$ Scry 2.
+AlternateMode:Modal
+Oracle:Flying, ward {3}\nConstellation — Whenever Archon of Divinity or another enchantment enters the battlefield under your control, scry 2.\n\nDesigned by Queen Emily
+
+ALTERNATE
+
+Name:Theros, Born of the Gods
+ManaCost:no cost
+Types:Legendary Land
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ W | SpellDescription$ Add {W}.
+Oracle:As Theros enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.\n{T}: Add {W}.\n\nDesigned by Queen Emily
