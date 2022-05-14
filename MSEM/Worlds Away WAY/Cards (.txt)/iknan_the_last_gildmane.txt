@@ -1,0 +1,12 @@
+Name:Iknan, the Last Gildmane
+ManaCost:2 G W
+Types:Legendary Creature Plant Cat
+PT:3/3
+K:Trample
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Creature.Other+nonToken+YouCtrl | Execute$ DBReturn | TriggerDescription$ Whenever another nontoken creature you control dies, you may return it to the battlefield. It becomes an Aura enchantment with enchant creature you control and "Enchanted creature gets +X/+X, where X is this Aura's mana value."
+SVar:DBReturn:DB$ ChangeZone | Defined$ TriggeredNewCardLKICopy | Origin$ Graveyard | Destination$ Battlefield | AnimateSubAbility$ DBAnimate
+SVar:DBAnimate:DB$ Animate | Defined$ Remembered | Types$ Enchantment,Aura | RemoveCardTypes$ True | Keywords$ Enchant creature you control | Abilities$ SPAttach | staticAbilities$ IknanPump | Duration$ Permanent
+SVar:SPAttach:SP$ Attach | Cost$ 0 | ValidTgts$ Creature.YouCtrl | AILogic$ Pump
+SVar:IknanPump:Mode$ Continuous | Affected$ OriginalHost,Creature.EnchantedBy | AddPower$ X | AddToughness$ X | Description$ Enchanted creature gets +X/+X, where X is this Aura's mana value.
+SVar:X:Count$CardManaCost
+Oracle:Trample\nWhenever another nontoken creature you control dies, you may return it to the battlefield. It becomes an Aura enchantment with enchant creature you control and "Enchanted creature gets +X/+X, where X is this Aura's mana value."\n\nDesigned by Timespiraled
