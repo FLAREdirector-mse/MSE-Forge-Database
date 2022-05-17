@@ -1,0 +1,21 @@
+Name:Enchanted Princess
+ManaCost:2 G W
+Types:Creature Human Noble
+PT:3/4
+K:Vigilance
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ When CARDNAME enters the battlefield, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this artifact: You gain 3 life.")
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ c_a_food_sac | TokenOwner$ You
+T:Mode$ LifeGained | ValidPlayer$ You | TriggerZones$ Battlefield | CheckSVar$ X | SVarCompare$ EQ1 | NoResolvingCheck$ True | Execute$ DBToken | TriggerDescription$ Whenever you gain life for the first time each turn, create a 1/1 white Rabbit creature token.
+SVar:DBToken:DB$ Token | TokenAmount$ 1 | TokenScript$ w_1_1_rabbit | TokenOwner$ You | SpellDescription$ Whenever you gain life for the first time each turn, create a 1/1 white Rabbit creature token.
+SVar:X:Count$LifeYouGainedTimesThisTurn
+DeckHas:Ability$Token|LifeGain|Food
+AlternateMode:Modal
+Oracle:Vigilance\nWhen Enchanted Princess enters the battlefield, create a Food token. (It's an artifact with "{2}, {T}, Sacrifice this artifact: You gain 3 life.")\nWhenever you gain life for the first time each turn, create a 1/1 white Rabbit creature token.\n\nDesigned by Queen Emily
+
+ALTERNATE
+Name:Throne of Eldraine
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo G W | SpellDescription$ Add {G} or {W}.
+Oracle:Eldraine enters the battlefield tapped.\n{T}: Add {G} or {W}.\n\nDesigned by Queen Emily

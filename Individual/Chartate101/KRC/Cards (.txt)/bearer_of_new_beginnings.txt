@@ -1,0 +1,7 @@
+Name:Bearer of New Beginnings
+ManaCost:1 W
+Types:Creature Human Rebel Flagbearer
+PT:2/2
+S:Mode$ Continuous | Affected$ Creature.Other+YouCtrl | AddKeyword$ Hexproof | Description$ Other creatures you control have hexproof.
+A:AB$ ChangeZone | Cost$ 3 W Sac<1/CARDNAME> | Origin$ Library | Destination$ Battlefield | ChangeType$ Rebel.cmcLE3 | SpellDescription$ Search your library for a Rebel card with mana value 3 or less, put it onto the battlefield, then shuffle.
+Oracle:Other creatures you control have hexproof.\n{3}{W}, Sacrifice Bearer of New Beginnings: Search your library for a Rebel card with mana value 3 or less, put it onto the battlefield, then shuffle.\n\nDesigned by Queen Emily

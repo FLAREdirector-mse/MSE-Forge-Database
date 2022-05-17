@@ -1,0 +1,6 @@
+Name:Soldier Army Token
+ManaCost:no cost
+Types:Creature Soldier Army
+Colors:white
+PT:0/0
+Oracle:

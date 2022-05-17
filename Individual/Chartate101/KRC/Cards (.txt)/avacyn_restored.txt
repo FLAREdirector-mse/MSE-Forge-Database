@@ -6,11 +6,9 @@ K:Flying
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigExile | TriggerDescription$ When CARDNAME enters the battlefield, exile target creature card from your graveyard.
 T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player,Planeswalker | CombatDamage$ True | Execute$ TrigExile | TriggerZones$ Battlefield | Secondary$ True | TriggerDescription$ Whenever CARDNAME deals combat damage to a player or planeswalker, exile target creature card from your graveyard.
 SVar:TrigExile:DB$ ChangeZone | Origin$ Graveyard | Destination$ Exile | ValidTgts$ Creature | TgtPrompt$ Select target creature card from your graveyard | TgtZone$ Graveyard | AILogic$ SaviorOfOllenbock | RememberChanged$ True
-
 T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Any | ValidCard$ Card.Self | Execute$ TrigChange | TriggerDescription$ When CARDNAME leaves the battlefield, return each card exiled with her to the battlefield under your control. Put an indestructible counter on them.
 SVar:TrigChange:DB$ ChangeZoneAll | SubAbility$ DBPutCounter | ChangeType$ Card.ExiledWithSource | Origin$ Exile | Destination$ Battlefield | RememberChanged$ True
 SVar:DBPutCounter:DB$ PutCounter | Defined$ Remembered | CounterType$ Indestructible | CounterNum$ 1 | SubAbility$ DBCleanup | SpellDescription$ Put an indestructible counter on them.
 SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
-
 AI:RemoveDeck:All
 Oracle:Flying\nWhenever Avacyn Restored enters the battlefield or deals combat damage to a player or planeswalker, exile target creature card from your graveyard.\nWhen Avacyn Restored leaves the battlefield, return each card exiled with her to the battlefield under your control. Put an indestructible counter on them.\n\nDesigned by Queen Emily

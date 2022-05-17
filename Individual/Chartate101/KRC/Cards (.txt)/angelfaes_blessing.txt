@@ -9,4 +9,4 @@ SVar:DBPump:DB$ Pump | Defined$ Targeted | KW$ Changeling | Duration$ Permanent 
 SVar:DBPutCounter:DB$ PutCounter | CounterType$ CHNGL | CounterNum$ 1 | Defined$ Targeted | ConditionCheckSVar$ X | ConditionSVarCompare$ GE1
 SVar:X:Targeted$Valid Creature
 
-Oracle:This spell costs less to cast if it targets an Angel or Serra card.\nReturn target creature or planeswalker card from your graveyard to the battlefield. If it’s a creature, put a changeling counter on it.\n\nDesigned by Queen Emily\n(NOTE: Does not currently use counters. May 4, 2022)
+Oracle:This spell costs less to cast if it targets an Angel or Serra card.\nReturn target creature or planeswalker card from your graveyard to the battlefield. If it’s a creature, put a changeling counter on it.\n\nDesigned by Queen Emily

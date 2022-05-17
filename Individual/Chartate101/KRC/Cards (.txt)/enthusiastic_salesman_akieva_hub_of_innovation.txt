@@ -1,0 +1,18 @@
+Name:Enthusiastic Salesman
+ManaCost:2 U R
+Types:Creature Human Artificer
+PT:2/2
+K:Ward:2
+T:Mode$ SpellCast | ValidCard$ Card.nonCreature | ValidActivatingPlayer$ You | Execute$ TrigToken | TriggerZones$ Battlefield | TriggerDescription$ Whenever you cast a noncreature spell, create a tapped Powercell token with "{T}: Add {C}."
+SVar:TrigToken:DB$ Token | TokenAmount$ 1 | TokenScript$ powercell | TokenOwner$ You | TokenTapped$ True
+A:AB$ Draw | Cost$ T Sac<1/Artifact> | NumCards$ 1 | SpellDescription$ Draw a card.
+AlternateMode:Modal
+Oracle:Ward {2}\nWhenever you cast a noncreature spell, create a tapped Powercell token with "{T}: Add {C}."\n{T}, Sacrifice an artifact: Draw a card.\n\nDesigned by Queen Emily\nPowercell mechanic by Pipsqueak
+
+ALTERNATE
+Name:Akieva, Hub of Innovation
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo U R | SpellDescription$ Add {U} or {R}.
+Oracle:Akieva enters the battlefield tapped.\n{T}: Add {U} or {R}.\n\nDesigned by Queen Emily

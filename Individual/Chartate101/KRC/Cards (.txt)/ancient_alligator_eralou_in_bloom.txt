@@ -1,0 +1,22 @@
+Name:Ancient Alligator
+ManaCost:2 B G
+Types:Creature Crocodile
+PT:4/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ Germinate | TriggerDescription$ When CARDNAME enters the battlefield or dies, germinate. (Put a +1/+1 counter on a creature or create a 1/1 green Saproling creature token.)
+T:Mode$ ChangesZone | Origin$ Battlefield | Destination$ Graveyard | ValidCard$ Card.Self | Execute$ Germinate | Secondary$ True | TriggerDescription$ When CARDNAME enters the battlefield or dies, germinate. (Put a +1/+1 counter on a creature or create a 1/1 green Saproling creature token.)
+SVar:Germinate:DB$ GenericChoice | Choices$ Counter,Token | Defined$ You
+SVar:Counter:DB$ PutCounter | Choices$ Creature | CounterType$ P1P1 | CounterNum$ 1 | SpellDescription$ Put a +1/+1 counter on a creature.
+SVar:Token:DB$ Token | TokenAmount$ 1 | TokenScript$ g_1_1_saproling | TokenOwner$ You | SpellDescription$ Create a 1/1 green Saproling creature token.
+A:AB$ Repeat | Cost$ X B G ExileFromGrave<1/CARDNAME> | ActivationZone$ Graveyard | RepeatSubAbility$ Germinate | AILogic$ MaxX | MaxRepeat$ X | StackDescription$ {X}{B}{G}, Exile Ancient Alligator from your graveyard: Germinate X times. Activate only as a sorcery.
+SVar:X:Count$xPaid
+DeckHas:Ability$Counters|Token
+AlternateMode:Modal
+Oracle:When Ancient Alligator enters the battlefield or dies, germinate. (Put a +1/+1 counter on a creature or create a 1/1 green Saproling creature token.)\n{X}{B}{G}, Exile Ancient Alligator from your graveyard: Germinate X times. Activate only as a sorcery.\n\nDesigned by Queen Emily\nGerminate mechanic by Tyrant
+
+ALTERNATE
+Name:Eralou, in Bloom
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo B G | SpellDescription$ Add {B} or {G}.
+Oracle:Eralou enters the battlefield tapped.\n{T}: Add {B} or {G}.\n\nDesigned by Queen Emily

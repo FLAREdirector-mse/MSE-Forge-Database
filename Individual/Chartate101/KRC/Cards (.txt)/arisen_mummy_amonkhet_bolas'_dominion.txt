@@ -1,0 +1,22 @@
+INCOMPLETE
+
+MAY 14 2022
+
+Name:Arisen Mummy
+ManaCost:1 W B
+Types:Creature Zombie
+PT:2/2
+K:Embalm:3 W B
+
+A:AB$ PumpAll | Cost$ T Sac<1/CARDNAME> | TgtZone$ Graveyard | ValidCards$ Creature.YouOwn | PumpZone$ Graveyard | AddKeyword$ Embalm:CardManaCost | StackDescription$ Creature cards in your graveyard gain embalm until end of turn. Their embalm costs are equal to their mana costs. | SpellDescription$ Creature cards in your graveyard gain embalm until end of turn. Their embalm costs are equal to their mana costs. (Pay a creature card's embalm cost and exile it from your graveyard: Create a token that’s a copy of it, except it’s a white Zombie with no mana cost. Embalm only as a sorcery.)
+
+AlternateMode:Modal
+Oracle:{T}, Sacrifice Arisen Mummy: Creature cards in your graveyard gain embalm until end of turn. Their embalm costs are equal to their mana costs.\nEmbalm {3}{W}{B} ({3}{W}{B}, Exile this card from your graveyard: Create a token that’s a copy of it, except it’s a white Zombie with no mana cost. Embalm only as a sorcery.)\n\nDesigned by Queen Emily
+
+ALTERNATE
+Name:Amonkhet, Bolas' Dominion
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo W B | SpellDescription$ Add {W} or {B}.
+Oracle:Amonkhet enters the battlefield tapped.\n{T}: Add {W} or {B}.\n\nDesigned by Queen Emily

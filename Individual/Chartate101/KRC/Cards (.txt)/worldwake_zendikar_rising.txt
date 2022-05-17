@@ -1,0 +1,18 @@
+Name:Worldwake
+ManaCost:2 G G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ 2 G G | Origin$ Library | Destination$ Battlefield | ChangeType$ Land.Basic | ChangeNum$ 2 | Tapped$ True | SpellDescription$ Search your library for up to two basic land cards cards, put them onto the battlefield tapped, then shuffle.
+K:Awaken:X:4 G G
+SVar:X:Count$DifferentCardNames_Land.YouCtrl+inZoneBattlefield
+AlternateMode:Modal
+Oracle:Search your library for up to two basic land cards, put them onto the battlefield tapped, then shuffle.\nAwaken X—{4}{G}{G}. X is the number of names among lands you control. (If you cast this spell for {4}{G}{G}, also put X +1/+1 counters on target land you control and it becomes a 0/0 Elemental creature with haste. It’s still a land.)\n\nDesigned by Queen Emily
+
+ALTERNATE
+
+Name:Zendikar Rising
+ManaCost:no cost
+Types:Legendary Land
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ G | SpellDescription$ Add {G}.
+Oracle:As Zendikar Rising enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.\n{T}: Add {G}.\n\nDesigned by Queen Emily

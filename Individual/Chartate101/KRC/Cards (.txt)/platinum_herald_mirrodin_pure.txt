@@ -1,0 +1,16 @@
+Name:Platinum Herald
+ManaCost:9
+Types:Artifact Creature Angel
+PT:5/5
+K:Flying
+S:Mode$ Continuous | Affected$ You | AddKeyword$ Protection:Player.Opponent:Protection from each opponent | Description$ You have protection from each of your opponents. (You can’t be targeted, dealt damage, or enchanted by anything controlled by those players.)
+AlternateMode:Modal
+Oracle:Flying\nYou have protection from each of your opponents. (You can’t be targeted, dealt damage, or enchanted by anything controlled by those players.)\n\nDesigned by Queen Emily
+
+ALTERNATE
+Name:Mirrodin Pure
+ManaCost:no cost
+Types:Legendary Artifact Land
+K:Indestructible
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+Oracle:Indestructible\n{T}: Add {C}.\n\nDesigned by Queen Emily

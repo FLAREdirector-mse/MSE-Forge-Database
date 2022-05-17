@@ -1,0 +1,21 @@
+Name:Terror of Dark Depths
+ManaCost:4 U B
+Types:Creature Horror
+PT:6/6
+K:Ward:Discard<1/Card>
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, forebode. (Create a tapped colorless Omen artifact token with "{T}, Discard a card, Sacrifice this artifact: Draw a card.")
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigToken | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, forebode. (Create a tapped colorless Omen artifact token with "{T}, Discard a card, Sacrifice this artifact: Draw a card.")
+SVar:TrigToken:DB$ Token | TokenScript$ omen | TokenOwner$ You | TokenAmount$ 1 | TokenTapped$ True
+S:Mode$ Continuous | Affected$ Card.Self | AddPower$ 4 | AddToughness$ 4 | AddKeyword$ Menace | CheckSVar$ X | SVarCompare$ LE10 | Description$ As long as your library has ten or fewer cards in it, CARDNAME gets +4/+4 and has menace.
+SVar:X:Count$InYourLibrary
+SVar:HasAttackEffect:TRUE
+AlternateMode:Modal
+Oracle:Ward—Discard a card.\nWhenever Terror of Dark Depths enters the battlefield or attacks, forebode. (Create a tapped colorless Omen artifact token with "{T}, Discard a card, Sacrifice this artifact: Draw a card.")\nAs long as your library has ten or fewer cards in it, Terror of Dark Depths gets +4/+4 and has menace.\n\nDesigned by Queen Emily
+
+ALTERNATE
+Name:Dark Seas of Shiryen
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo U B | SpellDescription$ Add {U} or {B}.
+Oracle:Dark Seas of Shiryen enters the battlefield tapped.\n{T}: Add {U} or {B}.\n\nDesigned by Queen Emily

@@ -1,0 +1,13 @@
+Name:Tina, Young Summoner
+ManaCost:2 G W U
+Types:Legendary Creature Human Wizard
+PT:2/4
+K:Flying
+T:Mode$ Phase | Phase$ BeginCombat | ValidPlayer$ You | TriggerZones$ Battlefield | Execute$ TrigToken | TriggerDescription$ At the beginning of combat on your turn, create an X/X blue Shark Illusion creature token with haste, where X is the number of cards you've drawn this turn. At the end of combat, exile that token unless you discard a card.
+SVar:TrigToken:DB$ Token | TokenScript$ u_x_x_shark_illusion_haste | TokenPower$ X | TokenToughness$ X | RememberTokens$ True | SubAbility$ DBExileToken
+SVar:DBExileToken:DB$ DelayedTrigger | Mode$ Phase | Phase$ EndCombat | ValidPlayer$ Player | Execute$ TrigExile | SpellDescription$ At end of combat, exile that token unless you discard a card.
+SVar:TrigExile:DB$ ChangeZone | Origin$ Battlefield | Destination$ Exile | Defined$ Remembered | UnlessPayer$ You | UnlessCost$ Discard<1/Card> | SubAbility$ DBCleanup | SpellDescription$ At end of combat, exile that token unless you discard a card.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:X:Count$YouDrewThisTurn
+DeckHas:Ability$Token
+Oracle:Flying\nAt the beginning of combat on your turn, create an X/X blue Shark Illusion creature token with haste, where X is the number of cards you've drawn this turn. At end of combat, exile that token unless you discard a card.\n\nDesigned by TheCatsEighthLife

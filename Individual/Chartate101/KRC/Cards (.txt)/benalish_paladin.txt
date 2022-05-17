@@ -1,0 +1,8 @@
+Name:Benalish Paladin
+ManaCost:W
+Types:Creature Human Cleric Knight
+PT:2/1
+S:Mode$ ReduceCost | ValidCard$ Card | ValidSpell$ Activated.Equip | Activator$ You | Amount$ 1 | Description$ Equip costs you pay cost {1} less.
+AI:RemoveDeck:Random
+DeckNeeds:Type$Equipment
+Oracle:Equip costs you pay cost {1} less.\n\nDesigned by Queen Emily

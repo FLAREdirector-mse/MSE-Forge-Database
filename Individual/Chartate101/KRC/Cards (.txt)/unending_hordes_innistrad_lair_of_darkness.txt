@@ -1,0 +1,20 @@
+Name:Unending Hordes
+ManaCost:X B B
+Types:Sorcery
+A:SP$ Branch | Cost$ X B B | BranchConditionSVar$ Y | BranchConditionSVarCompare$ GE4 | FalseSubAbility$ DBToken1 | TrueSubAbility$ DBToken2 | Delirium — Create X 2/2 black Zombie creature tokens with decayed. If there are four or more card types among cards in your graveyard, they lose decayed.
+SVar:DBToken1:DB$ Token | TokenAmount$ X | TokenScript$ b_2_2_zombie_decayed | TokenOwner$ You | SpellDescription$ Create X 2/2 black Zombie creature tokens with decayed.
+SVar:DBToken2:DB$ Token | TokenAmount$ X | TokenScript$ b_2_2_zombie | TokenOwner$ You | SpellDescription$ Delirium — Create X 2/2 black Zombie creature tokens.
+SVar:X:Count$xPaid
+SVar:Y:Count$CardControllerTypes.Graveyard
+AlternateMode:Modal
+Oracle:Delirium — Create X 2/2 black Zombie creature tokens with decayed. If there are four or more card types among cards in your graveyard, they lose decayed.\n\nDesigned by Queen Emily
+
+ALTERNATE
+
+Name:Innistrad, Lair of Darkness
+ManaCost:no cost
+Types:Legendary Land
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ B | SpellDescription$ Add {B}.
+Oracle:As Innistrad enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.\n{T}: Add {B}.\n\nDesigned by Queen Emily

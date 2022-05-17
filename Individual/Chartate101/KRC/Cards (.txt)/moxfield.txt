@@ -1,0 +1,19 @@
+Name:Moxfield
+ManaCost:no cost
+Types:Land
+T:Mode$ ChangesZone | ValidCard$ Card.Self | Destination$ Battlefield | Execute$ TrigCharm | TriggerDescription$ When CARDNAME enters the battlefield, choose a color. Pull a Mox of that color through time. (Conjure one into exile with three time counters. At your upkeep, remove one. When the last is removed, put it into your hand.)
+A:AB$ Mana | Cost$ T | Produced$ C | SpellDescription$ Add {C}.
+SVar:TrigCharm:DB$ GenericChoice | Choices$ White,Blue,Black,Red,Green
+SVar:White:DB$ MakeCard | Name$ Mox Pearl | Zone$ Exile | RememberMade$ True | SubAbility$ DBPut | SpellDescription$ White
+SVar:Blue:DB$ MakeCard | Name$ Mox Sapphire | Zone$ Exile | RememberMade$ True | SubAbility$ DBPut | SpellDescription$ Blue
+SVar:Black:DB$ MakeCard | Name$ Mox Jet | Zone$ Exile | RememberMade$ True | SubAbility$ DBPut | SpellDescription$ Black
+SVar:Red:DB$ MakeCard | Name$ Mox Ruby | Zone$ Exile | RememberMade$ True | SubAbility$ DBPut | SpellDescription$ Red
+SVar:Green:DB$ MakeCard | Name$ Mox Emerald | Zone$ Exile | RememberMade$ True | SubAbility$ DBPut | SpellDescription$ Green
+SVar:DBPut:DB$ PutCounter | CounterType$ TIME | Defined$ Remembered | CounterNum$ 3 | SubAbility$ DBEffect
+SVar:DBEffect:DB$ Effect | Triggers$ AtUpkeep,LastRemoved | RememberObjects$ Remembered | Duration$ Permanent | ExileOnMoved$ Exile | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:AtUpkeep:Mode$ Phase | Phase$ Upkeep | ValidPlayer$ You | Execute$ TrigRemove | TriggerDescription$ At the beginning of your upkeep, remove a time counter from the exiled card.
+SVar:TrigRemove:DB$ RemoveCounter | Defined$ Remembered | CounterType$ TIME | CounterNum$ 1
+SVar:LastRemoved:Mode$ CounterRemoved | Defined$ Remembered | CounterType$ TIME | NewCounterAmount$ 0  | Execute$ TrigMove | TriggerDescription$ When the last time counter is removed from the exiled card, put it into your hand.
+SVar:TrigMove:DB$ ChangeZone | Defined$ Remembered | Destination$ Hand
+Oracle:When Moxfield enters the battlefield, choose a color. Pull a Mox of that color through time. (Conjure one into exile with three time counters. At your upkeep, remove one. When the last is removed, put it into your hand.)\n{T}: Add {C}.\n\nDesigned by Queen Emily

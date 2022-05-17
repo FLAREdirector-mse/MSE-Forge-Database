@@ -1,0 +1,19 @@
+Name:Sun Goes Down
+ManaCost:4 B R
+Types:Sorcery
+A:SP$ PumpAll | Cost$ 4 B R | ValidCards$ Creature | NumAtt$ -X | NumDef$ -X | IsCurse$ True | SubAbility$ DBExile
+SVar:DBExile:DB$ Dig | Defined$ You | DigNum$ X | ChangeNum$ All | DestinationZone$ Exile | RememberChanged$ True | SubAbility$  | SpellDescription$ Exile the top X cards of your library, where X is the number of colors of mana to spent this spell. You may play those cards until the end of your next turn.
+SVar:DBMayPlay:DB$ Effect | StaticAbilities$ STCommuned | Duration$ UntilTheEndOfYourNextTurn | RememberObjects$ Remembered | ForgetOnMoved$ Exile | SubAbility$ DBCleanup
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+SVar:STCommuned:Mode$ Continuous | Affected$ Card.IsRemembered | EffectZone$ Command | AffectedZone$ Exile | MayPlay$ True | Description$ You may play those cards until the end of your next turn.
+SVar:X:Count$Converge
+AlternateMode:Modal
+Oracle:Converge — Each creature gets -X/-X until end of turn, then you exile the top X cards of your library, where X is the number of colors of mana to spent this spell. You may play those cards until the end of your next turn.\n\nDesigned by Queen Emily
+
+ALTERNATE
+Name:Terra, Off Key Anthem
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo B R | SpellDescription$ Add {B} or {R}.
+Oracle:Terra enters the battlefield tapped.\n{T}: Add {B} or {R}.\n\nDesigned by Queen Emily

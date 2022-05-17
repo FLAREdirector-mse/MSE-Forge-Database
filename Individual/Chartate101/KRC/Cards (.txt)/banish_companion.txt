@@ -1,0 +1,13 @@
+INCOMPLETE
+
+MAY 14 2022
+
+Name:Banish Companion
+ManaCost:1 W
+Types:Instant
+A:SP$ ChangeZone | Cost$ 1 W | ValidTgts$ Creature | Origin$ Battlefield | Destination$ Exile | TgtPrompt$ Select target creature | RememberTargets$ True | StaticAbilities$ Banish$ | SpellDescription$ Exile target creature. As long as it's exiled, its owner may pay {3} as a sorcery to put it into their hand.
+SVar:Banish:Mode$ Continuous | EffectZone$ Command | AffectedZone$ Exile | Affected$ Remembered,Card.IsRemembered | AddAbility$ Companion | Description$ As long as that creature is exiled, its owner may pay {3} as a sorcery to put it into their hand.
+SVar:Companion:AB$ ChangeZone | Cost$ 3 | Origin$ Exile | Destination$ Hand | ActivationZone$ Exile | Description$ {3}: Put EFFECTSOURCE into its owner's hand. Activate only as a sorcery.
+SVar:DBCleanup:DB$ Cleanup | ClearRemembered$ True
+AI:RemoveDeck:All
+Oracle:Exile target creature. As long as it's exiled, its owner may pay {3} as a sorcery to put it into their hand.\n\nDesigned by Queen Emily

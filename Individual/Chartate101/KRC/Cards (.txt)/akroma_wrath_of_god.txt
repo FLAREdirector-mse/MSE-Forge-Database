@@ -7,4 +7,5 @@ K:Indestructible
 K:Evoke:3 W W
 T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigDestroyAll | TriggerDescription$ When CARDNAME enters the battlefield, destroy all creatures.
 SVar:TrigDestroyAll:DB$ DestroyAll | ValidCards$ Creature
+AI:RemoveDeck:All
 Oracle:Flying, indestructible\nWhen Akroma, Wrath of God enters the battlefield, destroy all creatures.\nEvoke {3}{W}{W} (You may cast this spell for its evoke cost. If you do, it’s sacrificed when it enters the battlefield.)\n\nDesigned by Queen Emily

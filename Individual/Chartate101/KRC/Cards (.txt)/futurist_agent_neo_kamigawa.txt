@@ -1,0 +1,18 @@
+Name:Futurist Agent
+ManaCost:2 G U
+Types:Creature Human Ninja
+PT:3/3
+T:Mode$ DamageDone | ValidSource$ Creature.YouCtrl | ValidTarget$ Opponent | CombatDamage$ True | Execute$ TrigPutCounter | TriggerZones$ Battlefield | TriggerDescription$ Whenever a creature you control deals combat damage to an opponent, put a +1/+1 counter on that creature.
+SVar:TrigPutCounter:DB$ PutCounter | Defined$ TriggeredSourceLKICopy | CounterType$ P1P1 | CounterNum$ 1
+S:Mode$ Continuous | Affected$ Creature.modified+YouCtrl | AddKeyword$ Vigilance & Menace | Description$ Modified creatures you control have vigilance and menace.
+DeckHas:Ability$Counters
+AlternateMode:Modal
+Oracle:Whenever a creature you control deals combat damage to an opponent, put a +1/+1 counter on that creature.\nModified creatures you control have vigilance and menace. (Equipment, Auras you control, and counters are modifications.)\n\nDesigned by Queen Emily
+
+ALTERNATE
+Name:Neo Kamigawa
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo G U | SpellDescription$ Add {G} or {U}.
+Oracle:Neo Kamigawa enters the battlefield tapped.\n{T}: Add {G} or {U}.\n\nDesigned by Queen Emily

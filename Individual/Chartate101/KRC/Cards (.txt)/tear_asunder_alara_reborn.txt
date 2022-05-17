@@ -1,0 +1,15 @@
+Name:Tear Asunder
+ManaCost:W U B R G
+Types:Sorcery
+A:SP$ ChangeZone | Cost$ W U B R G | ValidTgts$ Permanent | TgtPrompt$ Select target permanent | Origin$ Battlefield | Destination$ Exile | SubAbility$ DBPlay | SpellDescription$ Exile target permanent.
+SVar:DBPlay:DB$ Play | ValidZone$ Hand,Graveyard | Valid$ Creature.YouOwn,Planeswalker.YouOwn | ValidSA$ Spell | Controller$ You | WithoutManaCost$ True | Optional$ True | AILogic$ NeedsChosenCard | SpellDescription$ You may cast a creature or planeswalker card from your hand or graveyard without paying its mana cost.
+AlternateMode:Modal
+Oracle:Exile target permanent.\nYou may cast a creature or planeswalker card from your hand or graveyard without paying its mana cost.\n\nDesigned by Queen Emily
+
+ALTERNATE
+Name:Alara Reborn
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T PayLife<1> | Produced$ Any | Amount$ 1 | SpellDescription$ Add one mana of any color.
+Oracle:Alara Reborn enters the battlefield tapped.\n{T}, Pay 1 life: Add one mana of any color.\n\nDesigned by Queen Emily

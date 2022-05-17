@@ -1,0 +1,22 @@
+Name:Futureteller Sphinx
+ManaCost:3 U U
+Types:Enchantment Creature Sphinx
+PT:4/4
+K:Flying
+T:Mode$ DamageDone | ValidSource$ Card.Self | ValidTarget$ Player,Planeswalker | CombatDamage$ True | Execute$ TrigInvestigate | TriggerDescription$ Whenever CARDNAME deals combat damage to a player or planeswalker, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")
+SVar:TrigInvestigate:DB$ Investigate
+R:Event$ CreateToken | ActiveZones$ Battlefield | ValidToken$ Card.YouCtrl+nonCreature | ReplaceWith$ DoubleToken | Description$ If you would create one or more noncreature tokens, create twice that many tokens instead.
+SVar:DoubleToken:DB$ ReplaceToken | Type$ Amount | ValidCard$ Card.YouCtrl+nonCreature
+DeckNeeds:Ability$Token
+AlternateMode:Modal
+Oracle:Flying\nWhenever Futureteller Sphinx deals combat damage to a player or planeswalker, investigate. (Create a colorless Clue artifact token with "{2}, Sacrifice this artifact: Draw a card.")\nIf you would create one or more noncreature tokens, create twice that many tokens instead.\n\nDesigned by Queen Emily
+
+ALTERNATE
+
+Name:Revio, Land of Mystery
+ManaCost:no cost
+Types:Legendary Land
+K:ETBReplacement:Other:DBTap
+SVar:DBTap:DB$ Tap | ETB$ True | Defined$ Self | UnlessCost$ PayLife<2> | UnlessPayer$ You | StackDescription$ enters the battlefield tapped. | SpellDescription$ As CARDNAME enters the battlefield, you may pay 2 life. If you don't, it enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ U | SpellDescription$ Add {U}.
+Oracle:As Revio enters the battlefield, you may pay 2 life. If you don’t, it enters the battlefield tapped.\n{T}: Add {U}.\n\nDesigned by Queen Emily

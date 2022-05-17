@@ -1,0 +1,19 @@
+Name:Courageous Aswaran
+ManaCost:3 R W
+Types:Creature Djinn Soldier
+PT:4/3
+T:Mode$ ChangesZone | Origin$ Any | Destination$ Battlefield | ValidCard$ Card.Self | Execute$ TrigToken | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, recruit. (Create a 0/0 white Soldier Army creature token, then put a +1/+1 counter on each Army you control.)
+T:Mode$ Attacks | ValidCard$ Card.Self | Execute$ TrigToken | Secondary$ True | TriggerZones$ Battlefield | TriggerDescription$ Whenever CARDNAME enters the battlefield or attacks, recruit. (Create a 0/0 white Soldier Army creature token, then put a +1/+1 counter on each Army you control.)
+SVar:TrigToken:DB$ Token | TokenScript$ w_0_0_soldier_army | TokenOwner$ You | TokenAmount$ 1 | SubAbility$ DBPutCounter
+SVar:DBPutCounter:DB$ PutCounterAll | ValidCards$ Creature.Army+YouCtrl | CounterType$ P1P1 | CounterNum$ 1
+SVar:HasAttackEffect:TRUE
+AlternateMode:Modal
+Oracle:Whenever Courageous Aswaran enters the battlefield or attacks, recruit. (Create a 0/0 white Soldier Army creature token, then put a +1/+1 counter on each Army you control.)\n\nDesigned by Queen Emily\nRecruit mechanic by Zangy
+
+ALTERNATE
+Name:Alkahbah, Seat of the Shah
+ManaCost:no cost
+Types:Legendary Land
+K:CARDNAME enters the battlefield tapped.
+A:AB$ Mana | Cost$ T | Produced$ Combo R W | SpellDescription$ Add {R} or {W}.
+Oracle:Alkabah enters the battlefield tapped.\n{T}: Add {R} or {W}.\n\nDesigned by Queen Emily
